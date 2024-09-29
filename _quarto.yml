@@ -38,6 +38,7 @@ format:
   html:
     theme: 
       - darkly
+      - barbie.scss
     css: styles.css
     toc: true
 editor: visual
