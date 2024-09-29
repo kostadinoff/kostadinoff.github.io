@@ -52,19 +52,19 @@ format-links: [pdf]
 
 - Medical university - Plovdiv
   - Assistant professor in the Department of Social Medicine and Public Health
-  - Teaching and practical classes in the disciplines of medical ethics; biostatistics; social medicine and public dental health.
+  - Teaching medical ethics; biostatistics; social medicine and public dental health.
 
 `12/2020-present`
 
 - Clinic "Medicus Alpha"
   - Healthcare | Physician 
-  - Diagnostic and therapeutic activities in the field of internal medicine and cardiology.
+  - Diagnostic and therapy consultations 
 
 `12/2017-03/2020`.
 
 - University Hospital "Plovdiv"
   - Healthcare | Resident doctor
-  - Diagnostic and therapeutic activities in the field of internal medicine and cardiology.
+  - Diagnostic and therapy consultations
 
 ## NGO Memberships 
 
@@ -114,7 +114,7 @@ format-links: [pdf]
 
 -  First Certificate in English (FCE) - Cambridge English Language Assessment | Reading C1 | Writing B2 | Use of English C1 | Listening B2 | Speaking C1
 
-## Social
+## Social skills
 
 Engaging in academic and instructional endeavors within a diverse setting encompassing students from medical, dental, pharmacy, and nursing disciplines. Contributing to postgraduate programs with attendees hailing from various continents. Actively involved in social and charitable initiatives of non-profit and non-governmental entities. Professional development in Ireland, Greece, Austria, and Finland.
 
@@ -204,7 +204,7 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `06-08/09/2014`
 
-- European Medical Students Congress | "Rare diseases and orphan Drugs" | Plovdiv
+- European Medical Students Congress | Rare diseases and orphan Drugs | Plovdiv
 
 `02/2020`
 
