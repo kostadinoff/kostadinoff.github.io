@@ -2,9 +2,6 @@ project:
   type: website
   output-dir: docs
 
-  resources:
-    - "/face_id.jpg"
-
 website:
   description: "Website for Kostadin Kostadinov. Assistant Professor at the Medical University of Plodiv."
   page-footer: 
@@ -13,7 +10,6 @@ website:
     
   twitter-card: 
     creator: "@https://x.com/kostadinoffMD"
-    image: "/face_id.jpg"
   navbar:
     right: 
       - icon: github
@@ -31,8 +27,6 @@ website:
         text: Blog
       - href: CV.qmd
         text: CV
-      - href: Consulting.qmd
-        text: Consulting
 
 format:
   html:
