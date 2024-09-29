@@ -18,7 +18,6 @@ website:
         href: https://x.com/kostadinoffMD
       - icon: linkedin
         href: https://www.linkedin.com/in/kostadinovmd/
-    logo: face_id.jpg
     background: primary
     left:
       - href: index.qmd
