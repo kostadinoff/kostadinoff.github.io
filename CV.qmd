@@ -9,13 +9,12 @@ format:
   html:
     toc: true
   pdf:
-    pdf-engine: lualatex
-    documentclass: scrartcl
-    mainfont: Times New Roman
-    monofont: Times New Roman
-    sansfont: Times New Roman
+    mainfont: Veleka
+    monofont: Veleka
+    sansfont: Veleka
+    fontsize: 12pt
+    geometry:  margin=0.8in
     keep-tex: true
-    urlcolor: Black
 format-links: [pdf]
 ---
 
