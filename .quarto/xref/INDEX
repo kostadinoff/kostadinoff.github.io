@@ -4,5 +4,14 @@
   },
   "index.qmd": {
     "index.html": "e1a76bf0"
+  },
+  "blog.qmd": {
+    "blog.html": "4d931340"
+  },
+  "Consulting.qmd": {
+    "Consulting.html": "c7ad9fb0"
+  },
+  "CV.qmd": {
+    "CV.html": "70cfb43a"
   }
 }
