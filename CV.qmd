@@ -58,13 +58,13 @@ format-links: [pdf]
 
 - Clinic "Medicus Alpha"
   - Healthcare | Physician 
-  - Diagnostic and therapy consultations 
+  - Consulting physician in internal medicine, sonography, and echocardiography
 
 `12/2017-03/2020`.
 
 - University Hospital "Plovdiv"
   - Healthcare | Resident doctor
-  - Diagnostic and therapy consultations
+  - Cardiology fellowship
 
 ## NGO Memberships 
 
