@@ -46,7 +46,7 @@ format-links: [pdf]
 
 --- 
    
-# Work experience
+# Professional history
 
 `09/2021-present`
 
