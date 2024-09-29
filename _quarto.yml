@@ -20,6 +20,10 @@ website:
         href: https://github.com/kostadinoff
       - icon: twitter
         href: https://x.com/kostadinoffMD
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kostadinovmd/
+      - icon: orcid
+        href: https://orcid.org/0000-0003-1414-8738
       - icon: rss
         href: blog.xml
     logo: face_id.jpg
