@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  description: "Website for Kostadin Kostadinov. Assistant Professor at the Medical University of Plodiv."
+  description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plodiv."
   page-footer: 
     left: "Email me at kostadinr.kostadinov@mu-plovdiv.bg"
   title: "Kostadin Kostadinov"
