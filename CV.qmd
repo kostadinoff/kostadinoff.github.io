@@ -56,8 +56,6 @@ format-links: [pdf]
    
 # Work experience
 
-# Professional Experience
-
 `October 2024 - Present`
 
 - Medical University of Plovdiv | Junior Researcher - R1 | Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Contract: BG-RRP-2.004-0007-C01 from 31.12.2022
