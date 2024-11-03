@@ -229,8 +229,6 @@ example_1 %>%
 
 ```
 
-\newpage
-
 ## Интензивни показатели
 
 ::: column-page-right
