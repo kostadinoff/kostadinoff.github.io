@@ -4,6 +4,9 @@ author: "ас.д-р Костадин Костадинов"
 language: custom.yml
 reference-location: margin
 citation-location: margin
+description: "В това упражнение ще се запознаете с основната терминология в медицинската статистика и ще научите какво представява прекият метод на стандартизация."
+title-meta: "Основна терминология. Стандартизация"
+date-meta: 2024-11-03
 ---
 
 
@@ -318,9 +321,10 @@ as_tibble() %>%
 
 ```{r}
 #| label: tbl-age
-#| tbl-cap: "Тазблица с разпределние по възраст"
+#| tbl-cap: "Таблица с разпределние по възраст"
 #| echo: false
 #| cap-location: margin
+
 read.csv(
   "https://raw.githubusercontent.com/kostadinoff/Medical_statistics_BG/main/practical_1/full_data.csv",
   sep = ";",
@@ -341,7 +345,6 @@ read.csv(
          Починали = deaths) %>% 
   gt(groupname_col = "group") %>% 
   tab_options(row_group.as_column = TRUE) 
-  
 ```
 
 Може би, ви прави впечатление от @fig-by-age, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.
@@ -399,6 +402,7 @@ read.csv(
 #| tbl-cap: "Нестандартизиран леталитет. Тук е важно да запомним, че общият нестандартизиран показател не е сума от резултатите по групи. Не можем да сумираме нестандартизираните показатели."
 #| echo: false
 #| cap-location: margin
+
 read.csv(
   "https://raw.githubusercontent.com/kostadinoff/Medical_statistics_BG/main/practical_1/full_data.csv",
   sep = ";",
@@ -456,6 +460,7 @@ read.csv(
 #| tbl-cap: "Определяне на стандарт за всяка възрастова група"
 #| echo: false
 #| cap-location: margin
+
 read.csv(
    "https://raw.githubusercontent.com/kostadinoff/Medical_statistics_BG/main/practical_1/full_data.csv",
   sep = ";",
@@ -494,7 +499,7 @@ read.csv(
 #| label: tbl-final
 #| tbl-cap: "Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизирания леталитет е 0,5, а стандартът 0,250. За да стандартизираме умножаваме 0,5 по 0.250. При неваксинираните, отново за същата възрастова група умножаваме нестандартизирания показател 0,6 по стандарта 0,25"
 #| echo: false
-#| column: page-right
+
 read.csv(
   "https://raw.githubusercontent.com/kostadinoff/Medical_statistics_BG/main/practical_1/full_data.csv",
   sep = ";",
@@ -615,7 +620,7 @@ read.csv(
 #| label: tbl-final_alt
 #| tbl-cap: "Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 =  0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)"
 #| echo: false
-#| column: page-right
+
 read.csv(
   "https://raw.githubusercontent.com/kostadinoff/Medical_statistics_BG/main/practical_1/full_data.csv",
   sep = ";",
