@@ -23,10 +23,10 @@ website:
       - href: index.qmd
         text: Home
       - href: CV.qmd
-        text: CV
+        text: CV (EN)
       - href: Stat-BG.qmd
-        text: Stat pratices (in Bulgarian)
-
+        text: Stat clases (in BG)
+        
 format:
   html:
     theme:

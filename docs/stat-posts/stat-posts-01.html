@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="ас.д-р Костадин Костадинов">
+<meta name="author" content="Костадин Костадинов">
 <meta name="dcterms.date" content="2024-11-03">
-<meta name="description" content="В това упражнение ще се запознаете с основната терминология в медицинската статистика и ще научите какво представява прекият метод на стандартизация.">
+<meta name="description" content="Материалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация.">
 
 <title>Основна терминология. Стандартизация – Kostadin Kostadinov</title>
 <style>
@@ -56,9 +56,9 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Без резултат",
+    "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Копирай линка за търсене",
+    "search-copy-link-title": "Copy link to search",
     "search-hide-matches-text": "Hide additional matches",
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="Основна терминология. Стандартизация – Kostadin Kostadinov">
-<meta name="twitter:description" content="В това упражнение ще се запознаете с основната терминология в медицинската статистика и ще научите какво представява прекият метод на стандартизация.">
+<meta name="twitter:description" content="Материалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация.">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
 <meta name="twitter:card" content="summary">
 </head>
@@ -101,11 +101,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../CV.html"> 
-<span class="menu-text">CV</span></a>
+<span class="menu-text">CV (EN)</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../Stat-BG.html"> 
-<span class="menu-text">Stat pratices (in Bulgarian)</span></a>
+<span class="menu-text">Stat clases (in BG)</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">На тази страница</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#защо-учим-статистика" id="toc-защо-учим-статистика" class="nav-link active" data-scroll-target="#защо-учим-статистика">Защо учим статистика?</a></li>
@@ -174,11 +174,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Основна терминология. Стандартизация</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Practical 1</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    В това упражнение ще се запознаете с основната терминология в медицинската статистика и ще научите какво представява прекият метод на стандартизация.
+    Материалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация.
   </div>
 </div>
 
@@ -186,12 +189,18 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Автор</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>ас.д-р Костадин Костадинов </p>
+             <p>Костадин Костадинов </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 3, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -217,10 +226,10 @@ ul.task-list li input[type="checkbox"] {
 <li>За да четем критично <strong>нова</strong> научна информация.</li>
 </ul>
 </section>
-<section id="какво-няма-да-научите" class="level1 page-columns page-full">
+<section id="какво-няма-да-научите" class="level1">
 <h1>Какво няма да научите?</h1>
 <p>Понастоящем статистиката е основата на “науката за данните” и изкуствения интелект (data science). В съчетание със сложна математика, програмиране и доза креативност, тази нова дисциплина навлиза във всекидневния ни живот докато пазаруваме, учим и работим. Всички технологии базирани на “изкуствен интелект” същност използват статистика <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> . В този курс, обаче целта е да придобиете най-основните знания за това как работи статистиката, каква е логиката в нея и какъв език използва.</p>
-<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;В момента дори има разработени скенери които “сами разчитат” дали пациента има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаване дали е налице определено заболяване.</p></div></div></section>
+</section>
 <section id="терминология" class="level1 page-columns page-full">
 <h1>Терминология</h1>
 <p>За да “не сме изгубени в превода”, въвеждаме някои основни термини, обяснени с примери.</p>
@@ -298,16 +307,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="примери-за-екстензивни-показатели" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="примери-за-екстензивни-показатели">Примери за екстензивни показатели</h3>
-<p>Ако приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастовата група, спрямо всички жители на града ще получим екстензивен показател - измерен в процент. На <a href="#fig-age" class="quarto-xref">фигура&nbsp;1</a> e представено разпределението на възрастта в гр. Пловдив. <strong>Важно</strong> за екстензивните показатели е, че сумата от всички тях е равна на 1 (или 100%).</p>
+<p>Ако приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастовата група, спрямо всички жители на града ще получим екстензивен показател - измерен в процент. На <a href="#fig-age" class="quarto-xref">Figure&nbsp;1</a> e представено разпределението на възрастта в гр. Пловдив. <strong>Важно</strong> за екстензивните показатели е, че сумата от всички тях е равна на 1 (или 100%).</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-age" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="stat-post-1_files/figure-html/fig-age-1.png" class="img-fluid figure-img" width="672">
+<img src="stat-posts-01_files/figure-html/fig-age-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-фигура&nbsp;1: Пример за екстензивен показател.Възраст на населението в гр. Пловдив, 2022 г.
+Figure&nbsp;1: Пример за екстензивен показател.Възраст на населението в гр. Пловдив, 2022 г.
 </figcaption>
 </figure>
 </div>
@@ -348,12 +357,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="пряк-метод-на-стандартизация" class="level1 page-columns page-full">
 <h1>Пряк метод на стандартизация</h1>
-<p>Преди определението за стандартизация, нека представя следния пример пример. Представете си, че от днес сте министър на здравеопазването. Изправени сте пред сериозен проблем - в държавата върлува опасен вирус. Имате ваксина, но липсва доверие на гражданите в нея. Много хора смятат, че ваксините дори убиват. Днес след среща с граждани, противопоставящи се на ваксините, получавате научна статия, в която се твърди, че ваксините повишават вероятността от смърт. В <a href="#tbl-antivax" class="quarto-xref">таблица&nbsp;1</a> можете да видите данните от нея.</p>
+<p>Преди определението за стандартизация, нека представя следния пример пример. Представете си, че от днес сте министър на здравеопазването. Изправени сте пред сериозен проблем - в държавата върлува опасен вирус. Имате ваксина, но липсва доверие на гражданите в нея. Много хора смятат, че ваксините дори убиват. Днес след среща с граждани, противопоставящи се на ваксините, получавате научна статия, в която се твърди, че ваксините повишават вероятността от смърт. В <a href="#tbl-antivax" class="quarto-xref">Table&nbsp;1</a> можете да видите данните от нея.</p>
 <div class="cell tbl-column-margin">
 <div id="tbl-antivax" class="cell tbl-column-margin quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-antivax-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;1: Таблица на антиваксарите
+Table&nbsp;1: Таблица на антиваксарите
 </figcaption>
 <div aria-describedby="tbl-antivax-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -389,13 +398,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="stat-post-1_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="stat-posts-01_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Разлика между смъртността при ваксинирани и неваксинирани.</figcaption>
 </figure>
 </div>
 </div></div></div>
 <p>Оказва се, че в групата на ваксинираните починалите са 71.2%, докато при неваксинираните - 68.8%. Това е разлика от 2,4 процентни пункта<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Може би, наистина “антиваксърите” имат право.</p>
-<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Важно: простите аритметични операции между проценти се изразяват в процентни пунктове.</p></div></div><p>Как бихме могли да си обясним този резултат? Нима наистина ваксините са причина за по-големия брой смъртни случай? Трябва ли да продължим да използваме тази ваксина? Бихте ли посъветвали пациентите си да се ваксинират?</p>
+<p>Как бихме могли да си обясним този резултат? Нима наистина ваксините са причина за по-големия брой смъртни случай? Трябва ли да продължим да използваме тази ваксина? Бихте ли посъветвали пациентите си да се ваксинират?</p>
 <p>Преди да дадем категоричното си решение, трябва да помислим върху данните. Те все още не са информация, на която да базираме решенията си. В случая, можем да разглеждаме цифрите в таблицата, като <em>сурови</em> данни измерващи една връзка. Това е връзката между ваксинация и смъртен изход. Не изглежда логично, смъртта да се причинява единствено от ваксината или липсата на такава. Има редица други фактори, които могат да повлияят - например <strong>възрастта</strong>. Нормално е, ако ваксинираните са по-възрастни спрямо неваксинираните, при тях да наблюдаваме повече починали, дори и ако ваксината наистина работи и ефективна.</p>
 <p>При сравняването на интензивни величини се наблюдава фактът, че стойността на тези показатели е в зависимост от структурата на средата, в която са изучавани явленията. За да проверим дали тази среда “замъглява” връзката между фактора и резултата, можем да използваме статистическия метод на <strong>стандартизацията</strong>.</p>
 <div class="column-page-right">
@@ -418,29 +427,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="стъпки" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="стъпки">Стъпки</h2>
-<p>За да извършим стандартизация (в курса по статистика се спираме единствено на <strong>прекия метод за стандартизация</strong>) следва да разполага с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в <a href="#tbl-age" class="quarto-xref">таблица&nbsp;2</a> .</p>
+<p>За да извършим стандартизация (в курса по статистика се спираме единствено на <strong>прекия метод за стандартизация</strong>) следва да разполага с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в <a href="#tbl-age" class="quarto-xref">Table&nbsp;2</a> .</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-age" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="iujdhdcymr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#iujdhdcymr table {
+<div id="pzvwbnlfmx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#pzvwbnlfmx table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#iujdhdcymr thead, #iujdhdcymr tbody, #iujdhdcymr tfoot, #iujdhdcymr tr, #iujdhdcymr td, #iujdhdcymr th {
+#pzvwbnlfmx thead, #pzvwbnlfmx tbody, #pzvwbnlfmx tfoot, #pzvwbnlfmx tr, #pzvwbnlfmx td, #pzvwbnlfmx th {
   border-style: none;
 }
 
-#iujdhdcymr p {
+#pzvwbnlfmx p {
   margin: 0;
   padding: 0;
 }
 
-#iujdhdcymr .gt_table {
+#pzvwbnlfmx .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -466,12 +475,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_caption {
+#pzvwbnlfmx .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#iujdhdcymr .gt_title {
+#pzvwbnlfmx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -483,7 +492,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#iujdhdcymr .gt_subtitle {
+#pzvwbnlfmx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -495,7 +504,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#iujdhdcymr .gt_heading {
+#pzvwbnlfmx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -507,13 +516,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_bottom_border {
+#pzvwbnlfmx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_col_headings {
+#pzvwbnlfmx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -528,7 +537,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_col_heading {
+#pzvwbnlfmx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -548,7 +557,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#iujdhdcymr .gt_column_spanner_outer {
+#pzvwbnlfmx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -560,15 +569,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#iujdhdcymr .gt_column_spanner_outer:first-child {
+#pzvwbnlfmx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#iujdhdcymr .gt_column_spanner_outer:last-child {
+#pzvwbnlfmx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#iujdhdcymr .gt_column_spanner {
+#pzvwbnlfmx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -580,11 +589,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#iujdhdcymr .gt_spanner_row {
+#pzvwbnlfmx .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#iujdhdcymr .gt_group_heading {
+#pzvwbnlfmx .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -610,7 +619,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#iujdhdcymr .gt_empty_group_heading {
+#pzvwbnlfmx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -625,15 +634,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#iujdhdcymr .gt_from_md > :first-child {
+#pzvwbnlfmx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#iujdhdcymr .gt_from_md > :last-child {
+#pzvwbnlfmx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#iujdhdcymr .gt_row {
+#pzvwbnlfmx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -652,7 +661,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#iujdhdcymr .gt_stub {
+#pzvwbnlfmx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -665,7 +674,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#iujdhdcymr .gt_stub_row_group {
+#pzvwbnlfmx .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -679,15 +688,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#iujdhdcymr .gt_row_group_first td {
+#pzvwbnlfmx .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#iujdhdcymr .gt_row_group_first th {
+#pzvwbnlfmx .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#iujdhdcymr .gt_summary_row {
+#pzvwbnlfmx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -697,16 +706,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#iujdhdcymr .gt_first_summary_row {
+#pzvwbnlfmx .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_first_summary_row.thick {
+#pzvwbnlfmx .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#iujdhdcymr .gt_last_summary_row {
+#pzvwbnlfmx .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -716,7 +725,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_grand_summary_row {
+#pzvwbnlfmx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -726,7 +735,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#iujdhdcymr .gt_first_grand_summary_row {
+#pzvwbnlfmx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -736,7 +745,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_last_grand_summary_row_top {
+#pzvwbnlfmx .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -746,11 +755,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_striped {
+#pzvwbnlfmx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#iujdhdcymr .gt_table_body {
+#pzvwbnlfmx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -759,7 +768,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_footnotes {
+#pzvwbnlfmx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -773,7 +782,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_footnote {
+#pzvwbnlfmx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -782,7 +791,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#iujdhdcymr .gt_sourcenotes {
+#pzvwbnlfmx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -796,7 +805,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#iujdhdcymr .gt_sourcenote {
+#pzvwbnlfmx .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -804,72 +813,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#iujdhdcymr .gt_left {
+#pzvwbnlfmx .gt_left {
   text-align: left;
 }
 
-#iujdhdcymr .gt_center {
+#pzvwbnlfmx .gt_center {
   text-align: center;
 }
 
-#iujdhdcymr .gt_right {
+#pzvwbnlfmx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#iujdhdcymr .gt_font_normal {
+#pzvwbnlfmx .gt_font_normal {
   font-weight: normal;
 }
 
-#iujdhdcymr .gt_font_bold {
+#pzvwbnlfmx .gt_font_bold {
   font-weight: bold;
 }
 
-#iujdhdcymr .gt_font_italic {
+#pzvwbnlfmx .gt_font_italic {
   font-style: italic;
 }
 
-#iujdhdcymr .gt_super {
+#pzvwbnlfmx .gt_super {
   font-size: 65%;
 }
 
-#iujdhdcymr .gt_footnote_marks {
+#pzvwbnlfmx .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#iujdhdcymr .gt_asterisk {
+#pzvwbnlfmx .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#iujdhdcymr .gt_indent_1 {
+#pzvwbnlfmx .gt_indent_1 {
   text-indent: 5px;
 }
 
-#iujdhdcymr .gt_indent_2 {
+#pzvwbnlfmx .gt_indent_2 {
   text-indent: 10px;
 }
 
-#iujdhdcymr .gt_indent_3 {
+#pzvwbnlfmx .gt_indent_3 {
   text-indent: 15px;
 }
 
-#iujdhdcymr .gt_indent_4 {
+#pzvwbnlfmx .gt_indent_4 {
   text-indent: 20px;
 }
 
-#iujdhdcymr .gt_indent_5 {
+#pzvwbnlfmx .gt_indent_5 {
   text-indent: 25px;
 }
 
-#iujdhdcymr .katex-display {
+#pzvwbnlfmx .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#iujdhdcymr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#pzvwbnlfmx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -933,21 +942,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;2: Таблица с разпределние по възраст
+Table&nbsp;2: Таблица с разпределние по възраст
 </figcaption>
 </figure>
 </div>
 </div>
-<p>Може би, ви прави впечатление от <a href="#fig-by-age" class="quarto-xref">фигура&nbsp;2</a>, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.</p>
+<p>Може би, ви прави впечатление от <a href="#fig-by-age" class="quarto-xref">Figure&nbsp;2</a>, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-by-age" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-by-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="stat-post-1_files/figure-html/fig-by-age-1.png" class="img-fluid figure-img" width="672">
+<img src="stat-posts-01_files/figure-html/fig-by-age-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-by-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-фигура&nbsp;2: Разлика на възрастовата структура между ваксинирани и неваксинирани - възрастовите групи са представени от млади към стари.в групата до 24 г. преобладат неваксинирани, докато при над 45-годинишните ваксинираните
+Figure&nbsp;2: Разлика на възрастовата структура между ваксинирани и неваксинирани - възрастовите групи са представени от млади към стари.в групата до 24 г. преобладат неваксинирани, докато при над 45-годинишните ваксинираните
 </figcaption>
 </figure>
 </div>
@@ -955,29 +964,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="стъпка-1-изчисляване-на-нестандартизираните-интензивни-показатели" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-1-изчисляване-на-нестандартизираните-интензивни-показатели">Стъпка 1 Изчисляване на <strong>нестандартизираните</strong> интензивни показатели</h4>
-<p>Както по-рано, така и сега, можем да изчислим, какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона <em>леталитет</em> в <a href="#tbl-case_fatality" class="quarto-xref">таблица&nbsp;3</a> .</p>
+<p>Както по-рано, така и сега, можем да изчислим, какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона <em>леталитет</em> в <a href="#tbl-case_fatality" class="quarto-xref">Table&nbsp;3</a> .</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-case_fatality" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-case_fatality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tgtoxxvqus" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tgtoxxvqus table {
+<div id="kobwxgngia" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kobwxgngia table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tgtoxxvqus thead, #tgtoxxvqus tbody, #tgtoxxvqus tfoot, #tgtoxxvqus tr, #tgtoxxvqus td, #tgtoxxvqus th {
+#kobwxgngia thead, #kobwxgngia tbody, #kobwxgngia tfoot, #kobwxgngia tr, #kobwxgngia td, #kobwxgngia th {
   border-style: none;
 }
 
-#tgtoxxvqus p {
+#kobwxgngia p {
   margin: 0;
   padding: 0;
 }
 
-#tgtoxxvqus .gt_table {
+#kobwxgngia .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1003,12 +1012,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_caption {
+#kobwxgngia .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tgtoxxvqus .gt_title {
+#kobwxgngia .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1020,7 +1029,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#tgtoxxvqus .gt_subtitle {
+#kobwxgngia .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1032,7 +1041,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#tgtoxxvqus .gt_heading {
+#kobwxgngia .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1044,13 +1053,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_bottom_border {
+#kobwxgngia .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_col_headings {
+#kobwxgngia .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1065,7 +1074,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_col_heading {
+#kobwxgngia .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1085,7 +1094,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#tgtoxxvqus .gt_column_spanner_outer {
+#kobwxgngia .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1097,15 +1106,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#tgtoxxvqus .gt_column_spanner_outer:first-child {
+#kobwxgngia .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tgtoxxvqus .gt_column_spanner_outer:last-child {
+#kobwxgngia .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tgtoxxvqus .gt_column_spanner {
+#kobwxgngia .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1117,11 +1126,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#tgtoxxvqus .gt_spanner_row {
+#kobwxgngia .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tgtoxxvqus .gt_group_heading {
+#kobwxgngia .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1147,7 +1156,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#tgtoxxvqus .gt_empty_group_heading {
+#kobwxgngia .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1162,15 +1171,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#tgtoxxvqus .gt_from_md > :first-child {
+#kobwxgngia .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tgtoxxvqus .gt_from_md > :last-child {
+#kobwxgngia .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tgtoxxvqus .gt_row {
+#kobwxgngia .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1189,7 +1198,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#tgtoxxvqus .gt_stub {
+#kobwxgngia .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1202,7 +1211,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#tgtoxxvqus .gt_stub_row_group {
+#kobwxgngia .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1216,15 +1225,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#tgtoxxvqus .gt_row_group_first td {
+#kobwxgngia .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tgtoxxvqus .gt_row_group_first th {
+#kobwxgngia .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tgtoxxvqus .gt_summary_row {
+#kobwxgngia .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1234,16 +1243,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#tgtoxxvqus .gt_first_summary_row {
+#kobwxgngia .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_first_summary_row.thick {
+#kobwxgngia .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tgtoxxvqus .gt_last_summary_row {
+#kobwxgngia .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1253,7 +1262,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_grand_summary_row {
+#kobwxgngia .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1263,7 +1272,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#tgtoxxvqus .gt_first_grand_summary_row {
+#kobwxgngia .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1273,7 +1282,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_last_grand_summary_row_top {
+#kobwxgngia .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1283,11 +1292,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_striped {
+#kobwxgngia .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tgtoxxvqus .gt_table_body {
+#kobwxgngia .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1296,7 +1305,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_footnotes {
+#kobwxgngia .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1310,7 +1319,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_footnote {
+#kobwxgngia .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1319,7 +1328,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#tgtoxxvqus .gt_sourcenotes {
+#kobwxgngia .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1333,7 +1342,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#tgtoxxvqus .gt_sourcenote {
+#kobwxgngia .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1341,72 +1350,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#tgtoxxvqus .gt_left {
+#kobwxgngia .gt_left {
   text-align: left;
 }
 
-#tgtoxxvqus .gt_center {
+#kobwxgngia .gt_center {
   text-align: center;
 }
 
-#tgtoxxvqus .gt_right {
+#kobwxgngia .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tgtoxxvqus .gt_font_normal {
+#kobwxgngia .gt_font_normal {
   font-weight: normal;
 }
 
-#tgtoxxvqus .gt_font_bold {
+#kobwxgngia .gt_font_bold {
   font-weight: bold;
 }
 
-#tgtoxxvqus .gt_font_italic {
+#kobwxgngia .gt_font_italic {
   font-style: italic;
 }
 
-#tgtoxxvqus .gt_super {
+#kobwxgngia .gt_super {
   font-size: 65%;
 }
 
-#tgtoxxvqus .gt_footnote_marks {
+#kobwxgngia .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tgtoxxvqus .gt_asterisk {
+#kobwxgngia .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tgtoxxvqus .gt_indent_1 {
+#kobwxgngia .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tgtoxxvqus .gt_indent_2 {
+#kobwxgngia .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tgtoxxvqus .gt_indent_3 {
+#kobwxgngia .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tgtoxxvqus .gt_indent_4 {
+#kobwxgngia .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tgtoxxvqus .gt_indent_5 {
+#kobwxgngia .gt_indent_5 {
   text-indent: 25px;
 }
 
-#tgtoxxvqus .katex-display {
+#kobwxgngia .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#tgtoxxvqus div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#kobwxgngia div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1484,7 +1493,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-case_fatality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;3: Нестандартизиран леталитет. Тук е важно да запомним, че общият нестандартизиран показател не е сума от резултатите по групи. Не можем да сумираме нестандартизираните показатели.
+Table&nbsp;3: Нестандартизиран леталитет. Тук е важно да запомним, че общият нестандартизиран показател не е сума от резултатите по групи. Не можем да сумираме нестандартизираните показатели.
 </figcaption>
 </figure>
 </div>
@@ -1495,9 +1504,9 @@ ul.task-list li input[type="checkbox"] {
 <p>За да направим стандартизацията е необходимо да изберем за стандарт, една от двете възрастови структури - тази на ваксинираните или тези на неваксинираните.</p>
 <p>Тук, често възниква въпросът коя структура трябва да изберем? Защо да предпочетем едната спрямо другата? Какво е правилото?</p>
 <p>Всъщност, няма особено значение точно коя структура се избира. Разбира се, числата след стандартизация зависят от избора и те биха се различавали. От значение, обаче е разликата, а не конкретните стойности на стандартизиран леталитет в двете групи <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;В това упражнение ще докажем това, като извършим стандартизацията, като вземем за стандарт, първо възрастовата структура на неваксинираните, а после тази на ваксинираните.</p></div></div><p>Какво обаче е стандартът?</p>
+<p>Какво обаче е стандартът?</p>
 <p>Ако изберем за стандарт групата на неваксинираните, за да изчислим стандарта - ще използваме броя на участниците във всяка възрастова група за числител, а общия брой неваксинирани за знаменател. Полученият коефициент е “стандарт” за конкретната възрастова група.</p>
-<p>В <a href="#tbl-standart" class="quarto-xref">таблица&nbsp;4</a> са представени получените стандарти.</p>
+<p>В <a href="#tbl-standart" class="quarto-xref">Table&nbsp;4</a> са представени получените стандарти.</p>
 <p>Неваксинираните участниците под 24 год. са 4000, а общият брой неваксинирани 8000. Стандартът за тази група е 0.5 (ако умножим по 100 ще получим 50%). Това е стандартът за тази група, които обаче ще използваме и за ваксинираните.</p>
 <p>Може да ви направи впечатление, че сборът на всички стандарти е равен на 1-ца (тоест 100%). Това е така, защото стандартът винаги е екстензивен показател.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
@@ -1505,23 +1514,23 @@ ul.task-list li input[type="checkbox"] {
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-standart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="rnjklsidvx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#rnjklsidvx table {
+<div id="ftawihavwd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ftawihavwd table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#rnjklsidvx thead, #rnjklsidvx tbody, #rnjklsidvx tfoot, #rnjklsidvx tr, #rnjklsidvx td, #rnjklsidvx th {
+#ftawihavwd thead, #ftawihavwd tbody, #ftawihavwd tfoot, #ftawihavwd tr, #ftawihavwd td, #ftawihavwd th {
   border-style: none;
 }
 
-#rnjklsidvx p {
+#ftawihavwd p {
   margin: 0;
   padding: 0;
 }
 
-#rnjklsidvx .gt_table {
+#ftawihavwd .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1547,12 +1556,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_caption {
+#ftawihavwd .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#rnjklsidvx .gt_title {
+#ftawihavwd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1564,7 +1573,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#rnjklsidvx .gt_subtitle {
+#ftawihavwd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1576,7 +1585,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#rnjklsidvx .gt_heading {
+#ftawihavwd .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1588,13 +1597,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_bottom_border {
+#ftawihavwd .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_col_headings {
+#ftawihavwd .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1609,7 +1618,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_col_heading {
+#ftawihavwd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1629,7 +1638,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#rnjklsidvx .gt_column_spanner_outer {
+#ftawihavwd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1641,15 +1650,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#rnjklsidvx .gt_column_spanner_outer:first-child {
+#ftawihavwd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#rnjklsidvx .gt_column_spanner_outer:last-child {
+#ftawihavwd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#rnjklsidvx .gt_column_spanner {
+#ftawihavwd .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1661,11 +1670,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#rnjklsidvx .gt_spanner_row {
+#ftawihavwd .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#rnjklsidvx .gt_group_heading {
+#ftawihavwd .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1691,7 +1700,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#rnjklsidvx .gt_empty_group_heading {
+#ftawihavwd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1706,15 +1715,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#rnjklsidvx .gt_from_md > :first-child {
+#ftawihavwd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#rnjklsidvx .gt_from_md > :last-child {
+#ftawihavwd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#rnjklsidvx .gt_row {
+#ftawihavwd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1733,7 +1742,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#rnjklsidvx .gt_stub {
+#ftawihavwd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1746,7 +1755,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rnjklsidvx .gt_stub_row_group {
+#ftawihavwd .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1760,15 +1769,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#rnjklsidvx .gt_row_group_first td {
+#ftawihavwd .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#rnjklsidvx .gt_row_group_first th {
+#ftawihavwd .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#rnjklsidvx .gt_summary_row {
+#ftawihavwd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1778,16 +1787,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rnjklsidvx .gt_first_summary_row {
+#ftawihavwd .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_first_summary_row.thick {
+#ftawihavwd .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#rnjklsidvx .gt_last_summary_row {
+#ftawihavwd .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1797,7 +1806,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_grand_summary_row {
+#ftawihavwd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1807,7 +1816,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rnjklsidvx .gt_first_grand_summary_row {
+#ftawihavwd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1817,7 +1826,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_last_grand_summary_row_top {
+#ftawihavwd .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1827,11 +1836,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_striped {
+#ftawihavwd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#rnjklsidvx .gt_table_body {
+#ftawihavwd .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1840,7 +1849,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_footnotes {
+#ftawihavwd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1854,7 +1863,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_footnote {
+#ftawihavwd .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1863,7 +1872,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rnjklsidvx .gt_sourcenotes {
+#ftawihavwd .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1877,7 +1886,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#rnjklsidvx .gt_sourcenote {
+#ftawihavwd .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1885,72 +1894,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#rnjklsidvx .gt_left {
+#ftawihavwd .gt_left {
   text-align: left;
 }
 
-#rnjklsidvx .gt_center {
+#ftawihavwd .gt_center {
   text-align: center;
 }
 
-#rnjklsidvx .gt_right {
+#ftawihavwd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#rnjklsidvx .gt_font_normal {
+#ftawihavwd .gt_font_normal {
   font-weight: normal;
 }
 
-#rnjklsidvx .gt_font_bold {
+#ftawihavwd .gt_font_bold {
   font-weight: bold;
 }
 
-#rnjklsidvx .gt_font_italic {
+#ftawihavwd .gt_font_italic {
   font-style: italic;
 }
 
-#rnjklsidvx .gt_super {
+#ftawihavwd .gt_super {
   font-size: 65%;
 }
 
-#rnjklsidvx .gt_footnote_marks {
+#ftawihavwd .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#rnjklsidvx .gt_asterisk {
+#ftawihavwd .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#rnjklsidvx .gt_indent_1 {
+#ftawihavwd .gt_indent_1 {
   text-indent: 5px;
 }
 
-#rnjklsidvx .gt_indent_2 {
+#ftawihavwd .gt_indent_2 {
   text-indent: 10px;
 }
 
-#rnjklsidvx .gt_indent_3 {
+#ftawihavwd .gt_indent_3 {
   text-indent: 15px;
 }
 
-#rnjklsidvx .gt_indent_4 {
+#ftawihavwd .gt_indent_4 {
   text-indent: 20px;
 }
 
-#rnjklsidvx .gt_indent_5 {
+#ftawihavwd .gt_indent_5 {
   text-indent: 25px;
 }
 
-#rnjklsidvx .katex-display {
+#ftawihavwd .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#rnjklsidvx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#ftawihavwd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2001,7 +2010,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-standart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;4: Определяне на стандарт за всяка възрастова група
+Table&nbsp;4: Определяне на стандарт за всяка възрастова група
 </figcaption>
 </figure>
 </div>
@@ -2014,27 +2023,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="tbl-final" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-final-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;5: Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизирания леталитет е 0,5, а стандартът 0,250. За да стандартизираме умножаваме 0,5 по 0.250. При неваксинираните, отново за същата възрастова група умножаваме нестандартизирания показател 0,6 по стандарта 0,25
+Table&nbsp;5: Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизирания леталитет е 0,5, а стандартът 0,250. За да стандартизираме умножаваме 0,5 по 0.250. При неваксинираните, отново за същата възрастова група умножаваме нестандартизирания показател 0,6 по стандарта 0,25
 </figcaption>
 <div aria-describedby="tbl-final-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="zhhcfyrdhb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#zhhcfyrdhb table {
+<div id="orlytxdxgb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#orlytxdxgb table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#zhhcfyrdhb thead, #zhhcfyrdhb tbody, #zhhcfyrdhb tfoot, #zhhcfyrdhb tr, #zhhcfyrdhb td, #zhhcfyrdhb th {
+#orlytxdxgb thead, #orlytxdxgb tbody, #orlytxdxgb tfoot, #orlytxdxgb tr, #orlytxdxgb td, #orlytxdxgb th {
   border-style: none;
 }
 
-#zhhcfyrdhb p {
+#orlytxdxgb p {
   margin: 0;
   padding: 0;
 }
 
-#zhhcfyrdhb .gt_table {
+#orlytxdxgb .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2060,12 +2069,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_caption {
+#orlytxdxgb .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#zhhcfyrdhb .gt_title {
+#orlytxdxgb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2077,7 +2086,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#zhhcfyrdhb .gt_subtitle {
+#orlytxdxgb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2089,7 +2098,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#zhhcfyrdhb .gt_heading {
+#orlytxdxgb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2101,13 +2110,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_bottom_border {
+#orlytxdxgb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_col_headings {
+#orlytxdxgb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2122,7 +2131,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_col_heading {
+#orlytxdxgb .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2142,7 +2151,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zhhcfyrdhb .gt_column_spanner_outer {
+#orlytxdxgb .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2154,15 +2163,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#zhhcfyrdhb .gt_column_spanner_outer:first-child {
+#orlytxdxgb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zhhcfyrdhb .gt_column_spanner_outer:last-child {
+#orlytxdxgb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zhhcfyrdhb .gt_column_spanner {
+#orlytxdxgb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2174,11 +2183,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#zhhcfyrdhb .gt_spanner_row {
+#orlytxdxgb .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#zhhcfyrdhb .gt_group_heading {
+#orlytxdxgb .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2204,7 +2213,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#zhhcfyrdhb .gt_empty_group_heading {
+#orlytxdxgb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2219,15 +2228,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#zhhcfyrdhb .gt_from_md > :first-child {
+#orlytxdxgb .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zhhcfyrdhb .gt_from_md > :last-child {
+#orlytxdxgb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zhhcfyrdhb .gt_row {
+#orlytxdxgb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2246,7 +2255,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zhhcfyrdhb .gt_stub {
+#orlytxdxgb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2259,7 +2268,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zhhcfyrdhb .gt_stub_row_group {
+#orlytxdxgb .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2273,15 +2282,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#zhhcfyrdhb .gt_row_group_first td {
+#orlytxdxgb .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#zhhcfyrdhb .gt_row_group_first th {
+#orlytxdxgb .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#zhhcfyrdhb .gt_summary_row {
+#orlytxdxgb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2291,16 +2300,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zhhcfyrdhb .gt_first_summary_row {
+#orlytxdxgb .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_first_summary_row.thick {
+#orlytxdxgb .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#zhhcfyrdhb .gt_last_summary_row {
+#orlytxdxgb .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2310,7 +2319,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_grand_summary_row {
+#orlytxdxgb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2320,7 +2329,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zhhcfyrdhb .gt_first_grand_summary_row {
+#orlytxdxgb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2330,7 +2339,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_last_grand_summary_row_top {
+#orlytxdxgb .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2340,11 +2349,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_striped {
+#orlytxdxgb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zhhcfyrdhb .gt_table_body {
+#orlytxdxgb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2353,7 +2362,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_footnotes {
+#orlytxdxgb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2367,7 +2376,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_footnote {
+#orlytxdxgb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2376,7 +2385,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zhhcfyrdhb .gt_sourcenotes {
+#orlytxdxgb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2390,7 +2399,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zhhcfyrdhb .gt_sourcenote {
+#orlytxdxgb .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2398,72 +2407,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zhhcfyrdhb .gt_left {
+#orlytxdxgb .gt_left {
   text-align: left;
 }
 
-#zhhcfyrdhb .gt_center {
+#orlytxdxgb .gt_center {
   text-align: center;
 }
 
-#zhhcfyrdhb .gt_right {
+#orlytxdxgb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zhhcfyrdhb .gt_font_normal {
+#orlytxdxgb .gt_font_normal {
   font-weight: normal;
 }
 
-#zhhcfyrdhb .gt_font_bold {
+#orlytxdxgb .gt_font_bold {
   font-weight: bold;
 }
 
-#zhhcfyrdhb .gt_font_italic {
+#orlytxdxgb .gt_font_italic {
   font-style: italic;
 }
 
-#zhhcfyrdhb .gt_super {
+#orlytxdxgb .gt_super {
   font-size: 65%;
 }
 
-#zhhcfyrdhb .gt_footnote_marks {
+#orlytxdxgb .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#zhhcfyrdhb .gt_asterisk {
+#orlytxdxgb .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#zhhcfyrdhb .gt_indent_1 {
+#orlytxdxgb .gt_indent_1 {
   text-indent: 5px;
 }
 
-#zhhcfyrdhb .gt_indent_2 {
+#orlytxdxgb .gt_indent_2 {
   text-indent: 10px;
 }
 
-#zhhcfyrdhb .gt_indent_3 {
+#orlytxdxgb .gt_indent_3 {
   text-indent: 15px;
 }
 
-#zhhcfyrdhb .gt_indent_4 {
+#orlytxdxgb .gt_indent_4 {
   text-indent: 20px;
 }
 
-#zhhcfyrdhb .gt_indent_5 {
+#orlytxdxgb .gt_indent_5 {
   text-indent: 25px;
 }
 
-#zhhcfyrdhb .katex-display {
+#orlytxdxgb .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#zhhcfyrdhb div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#orlytxdxgb div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2580,7 +2589,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>30 %</strong> (стандартизираният леталитет за всички до 24 г.) + <strong>17,5 %</strong> (стандартизираният леталитет за възрастовата група от 25-34 г.) + <strong>10 %</strong> (стандартизираният леталитет за възрастовата група от 35-44 г.) + <strong>11,25 %</strong> (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 65.75%</li>
 </ul>
-<div style="page-break-after: always;"></div>
 <div class="column-page-right">
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
@@ -2607,29 +2615,29 @@ ul.task-list li input[type="checkbox"] {
 <p>За да докажем, че изводът не зависи от избора на стандарт, ще решим отново примера, като този път използваме за стандарт възрастовата структура на ваксинираните.</p>
 <section id="стъпка-2-изчисляваме-стандарта-този-път-спрямо-ваксинираните" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-2-изчисляваме-стандарта-този-път-спрямо-ваксинираните">Стъпка 2 Изчисляваме стандарта (този път спрямо ваксинираните)</h4>
-<p>Сега ще използваме данните само за ваксинираните. При тях, частниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в <a href="#tbl-standart_alt" class="quarto-xref">таблица&nbsp;6</a> .</p>
+<p>Сега ще използваме данните само за ваксинираните. При тях, частниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в <a href="#tbl-standart_alt" class="quarto-xref">Table&nbsp;6</a> .</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-standart_alt" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-standart_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="sdxvsxwmpx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#sdxvsxwmpx table {
+<div id="lqadoqixqs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#lqadoqixqs table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#sdxvsxwmpx thead, #sdxvsxwmpx tbody, #sdxvsxwmpx tfoot, #sdxvsxwmpx tr, #sdxvsxwmpx td, #sdxvsxwmpx th {
+#lqadoqixqs thead, #lqadoqixqs tbody, #lqadoqixqs tfoot, #lqadoqixqs tr, #lqadoqixqs td, #lqadoqixqs th {
   border-style: none;
 }
 
-#sdxvsxwmpx p {
+#lqadoqixqs p {
   margin: 0;
   padding: 0;
 }
 
-#sdxvsxwmpx .gt_table {
+#lqadoqixqs .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2655,12 +2663,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_caption {
+#lqadoqixqs .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#sdxvsxwmpx .gt_title {
+#lqadoqixqs .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2672,7 +2680,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#sdxvsxwmpx .gt_subtitle {
+#lqadoqixqs .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2684,7 +2692,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#sdxvsxwmpx .gt_heading {
+#lqadoqixqs .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2696,13 +2704,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_bottom_border {
+#lqadoqixqs .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_col_headings {
+#lqadoqixqs .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2717,7 +2725,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_col_heading {
+#lqadoqixqs .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2737,7 +2745,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#sdxvsxwmpx .gt_column_spanner_outer {
+#lqadoqixqs .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2749,15 +2757,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#sdxvsxwmpx .gt_column_spanner_outer:first-child {
+#lqadoqixqs .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#sdxvsxwmpx .gt_column_spanner_outer:last-child {
+#lqadoqixqs .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#sdxvsxwmpx .gt_column_spanner {
+#lqadoqixqs .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2769,11 +2777,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#sdxvsxwmpx .gt_spanner_row {
+#lqadoqixqs .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#sdxvsxwmpx .gt_group_heading {
+#lqadoqixqs .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2799,7 +2807,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#sdxvsxwmpx .gt_empty_group_heading {
+#lqadoqixqs .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2814,15 +2822,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#sdxvsxwmpx .gt_from_md > :first-child {
+#lqadoqixqs .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#sdxvsxwmpx .gt_from_md > :last-child {
+#lqadoqixqs .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#sdxvsxwmpx .gt_row {
+#lqadoqixqs .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2841,7 +2849,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#sdxvsxwmpx .gt_stub {
+#lqadoqixqs .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2854,7 +2862,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#sdxvsxwmpx .gt_stub_row_group {
+#lqadoqixqs .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2868,15 +2876,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#sdxvsxwmpx .gt_row_group_first td {
+#lqadoqixqs .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#sdxvsxwmpx .gt_row_group_first th {
+#lqadoqixqs .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#sdxvsxwmpx .gt_summary_row {
+#lqadoqixqs .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2886,16 +2894,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#sdxvsxwmpx .gt_first_summary_row {
+#lqadoqixqs .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_first_summary_row.thick {
+#lqadoqixqs .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#sdxvsxwmpx .gt_last_summary_row {
+#lqadoqixqs .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2905,7 +2913,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_grand_summary_row {
+#lqadoqixqs .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2915,7 +2923,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#sdxvsxwmpx .gt_first_grand_summary_row {
+#lqadoqixqs .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2925,7 +2933,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_last_grand_summary_row_top {
+#lqadoqixqs .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2935,11 +2943,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_striped {
+#lqadoqixqs .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#sdxvsxwmpx .gt_table_body {
+#lqadoqixqs .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2948,7 +2956,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_footnotes {
+#lqadoqixqs .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2962,7 +2970,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_footnote {
+#lqadoqixqs .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2971,7 +2979,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#sdxvsxwmpx .gt_sourcenotes {
+#lqadoqixqs .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2985,7 +2993,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#sdxvsxwmpx .gt_sourcenote {
+#lqadoqixqs .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2993,72 +3001,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#sdxvsxwmpx .gt_left {
+#lqadoqixqs .gt_left {
   text-align: left;
 }
 
-#sdxvsxwmpx .gt_center {
+#lqadoqixqs .gt_center {
   text-align: center;
 }
 
-#sdxvsxwmpx .gt_right {
+#lqadoqixqs .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#sdxvsxwmpx .gt_font_normal {
+#lqadoqixqs .gt_font_normal {
   font-weight: normal;
 }
 
-#sdxvsxwmpx .gt_font_bold {
+#lqadoqixqs .gt_font_bold {
   font-weight: bold;
 }
 
-#sdxvsxwmpx .gt_font_italic {
+#lqadoqixqs .gt_font_italic {
   font-style: italic;
 }
 
-#sdxvsxwmpx .gt_super {
+#lqadoqixqs .gt_super {
   font-size: 65%;
 }
 
-#sdxvsxwmpx .gt_footnote_marks {
+#lqadoqixqs .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#sdxvsxwmpx .gt_asterisk {
+#lqadoqixqs .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#sdxvsxwmpx .gt_indent_1 {
+#lqadoqixqs .gt_indent_1 {
   text-indent: 5px;
 }
 
-#sdxvsxwmpx .gt_indent_2 {
+#lqadoqixqs .gt_indent_2 {
   text-indent: 10px;
 }
 
-#sdxvsxwmpx .gt_indent_3 {
+#lqadoqixqs .gt_indent_3 {
   text-indent: 15px;
 }
 
-#sdxvsxwmpx .gt_indent_4 {
+#lqadoqixqs .gt_indent_4 {
   text-indent: 20px;
 }
 
-#sdxvsxwmpx .gt_indent_5 {
+#lqadoqixqs .gt_indent_5 {
   text-indent: 25px;
 }
 
-#sdxvsxwmpx .katex-display {
+#lqadoqixqs .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#sdxvsxwmpx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#lqadoqixqs div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3109,7 +3117,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-standart_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;6: Определяне на стандарт за всяка възрастова група
+Table&nbsp;6: Определяне на стандарт за всяка възрастова група
 </figcaption>
 </figure>
 </div>
@@ -3117,32 +3125,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="стъпка-3-изчисляване-на-стандартизираните-показатели-за-леталитет" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-3-изчисляване-на-стандартизираните-показатели-за-леталитет">Стъпка 3: Изчисляване на стандартизираните показатели за леталитет</h4>
-<p>След като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация тя е представена в <a href="#tbl-final_alt" class="quarto-xref">таблица&nbsp;7</a></p>
+<p>След като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация тя е представена в <a href="#tbl-final_alt" class="quarto-xref">Table&nbsp;7</a></p>
 <div class="cell">
 <div id="tbl-final_alt" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-final_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-таблица&nbsp;7: Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)
+Table&nbsp;7: Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)
 </figcaption>
 <div aria-describedby="tbl-final_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="oiyboohubl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#oiyboohubl table {
+<div id="kgliktmxlb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kgliktmxlb table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#oiyboohubl thead, #oiyboohubl tbody, #oiyboohubl tfoot, #oiyboohubl tr, #oiyboohubl td, #oiyboohubl th {
+#kgliktmxlb thead, #kgliktmxlb tbody, #kgliktmxlb tfoot, #kgliktmxlb tr, #kgliktmxlb td, #kgliktmxlb th {
   border-style: none;
 }
 
-#oiyboohubl p {
+#kgliktmxlb p {
   margin: 0;
   padding: 0;
 }
 
-#oiyboohubl .gt_table {
+#kgliktmxlb .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3168,12 +3176,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_caption {
+#kgliktmxlb .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#oiyboohubl .gt_title {
+#kgliktmxlb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3185,7 +3193,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#oiyboohubl .gt_subtitle {
+#kgliktmxlb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3197,7 +3205,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#oiyboohubl .gt_heading {
+#kgliktmxlb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3209,13 +3217,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_bottom_border {
+#kgliktmxlb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_col_headings {
+#kgliktmxlb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3230,7 +3238,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_col_heading {
+#kgliktmxlb .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3250,7 +3258,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#oiyboohubl .gt_column_spanner_outer {
+#kgliktmxlb .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3262,15 +3270,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#oiyboohubl .gt_column_spanner_outer:first-child {
+#kgliktmxlb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#oiyboohubl .gt_column_spanner_outer:last-child {
+#kgliktmxlb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#oiyboohubl .gt_column_spanner {
+#kgliktmxlb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3282,11 +3290,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#oiyboohubl .gt_spanner_row {
+#kgliktmxlb .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#oiyboohubl .gt_group_heading {
+#kgliktmxlb .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3312,7 +3320,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#oiyboohubl .gt_empty_group_heading {
+#kgliktmxlb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3327,15 +3335,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#oiyboohubl .gt_from_md > :first-child {
+#kgliktmxlb .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#oiyboohubl .gt_from_md > :last-child {
+#kgliktmxlb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#oiyboohubl .gt_row {
+#kgliktmxlb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3354,7 +3362,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#oiyboohubl .gt_stub {
+#kgliktmxlb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3367,7 +3375,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#oiyboohubl .gt_stub_row_group {
+#kgliktmxlb .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3381,15 +3389,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#oiyboohubl .gt_row_group_first td {
+#kgliktmxlb .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#oiyboohubl .gt_row_group_first th {
+#kgliktmxlb .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#oiyboohubl .gt_summary_row {
+#kgliktmxlb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3399,16 +3407,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#oiyboohubl .gt_first_summary_row {
+#kgliktmxlb .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_first_summary_row.thick {
+#kgliktmxlb .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#oiyboohubl .gt_last_summary_row {
+#kgliktmxlb .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3418,7 +3426,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_grand_summary_row {
+#kgliktmxlb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3428,7 +3436,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#oiyboohubl .gt_first_grand_summary_row {
+#kgliktmxlb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3438,7 +3446,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_last_grand_summary_row_top {
+#kgliktmxlb .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3448,11 +3456,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_striped {
+#kgliktmxlb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#oiyboohubl .gt_table_body {
+#kgliktmxlb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3461,7 +3469,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_footnotes {
+#kgliktmxlb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3475,7 +3483,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_footnote {
+#kgliktmxlb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3484,7 +3492,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#oiyboohubl .gt_sourcenotes {
+#kgliktmxlb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3498,7 +3506,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#oiyboohubl .gt_sourcenote {
+#kgliktmxlb .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3506,72 +3514,72 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#oiyboohubl .gt_left {
+#kgliktmxlb .gt_left {
   text-align: left;
 }
 
-#oiyboohubl .gt_center {
+#kgliktmxlb .gt_center {
   text-align: center;
 }
 
-#oiyboohubl .gt_right {
+#kgliktmxlb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#oiyboohubl .gt_font_normal {
+#kgliktmxlb .gt_font_normal {
   font-weight: normal;
 }
 
-#oiyboohubl .gt_font_bold {
+#kgliktmxlb .gt_font_bold {
   font-weight: bold;
 }
 
-#oiyboohubl .gt_font_italic {
+#kgliktmxlb .gt_font_italic {
   font-style: italic;
 }
 
-#oiyboohubl .gt_super {
+#kgliktmxlb .gt_super {
   font-size: 65%;
 }
 
-#oiyboohubl .gt_footnote_marks {
+#kgliktmxlb .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#oiyboohubl .gt_asterisk {
+#kgliktmxlb .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#oiyboohubl .gt_indent_1 {
+#kgliktmxlb .gt_indent_1 {
   text-indent: 5px;
 }
 
-#oiyboohubl .gt_indent_2 {
+#kgliktmxlb .gt_indent_2 {
   text-indent: 10px;
 }
 
-#oiyboohubl .gt_indent_3 {
+#kgliktmxlb .gt_indent_3 {
   text-indent: 15px;
 }
 
-#oiyboohubl .gt_indent_4 {
+#kgliktmxlb .gt_indent_4 {
   text-indent: 20px;
 }
 
-#oiyboohubl .gt_indent_5 {
+#kgliktmxlb .gt_indent_5 {
   text-indent: 25px;
 }
 
-#oiyboohubl .katex-display {
+#kgliktmxlb .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#oiyboohubl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#kgliktmxlb div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3701,7 +3709,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>В момента дори има разработени скенери които “сами разчитат” дали пациента има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаване дали е налице определено заболяване.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Важно: простите аритметични операции между проценти се изразяват в процентни пунктове.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>В това упражнение ще докажем това, като извършим стандартизацията, като вземем за стандарт, първо възрастовата структура на неваксинираните, а после тази на ваксинираните.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -3745,12 +3760,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Копирано!");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Копирано!");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
