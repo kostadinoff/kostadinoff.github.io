@@ -11,10 +11,6 @@ citation-location: margin
 #| include: false
 #| warning: false
 library(tidyverse)
-knitr::opts_chunk$set(dev = "cairo_pdf")
-library(showtext)
-font_add(family = "Sofia Sans Condensed", regular = "SofiaSansCondensed-Regular.ttf")
-showtext_auto()
 theme_nice <- ggthemes::theme_tufte() +
   theme(
     axis.ticks = element_line(linewidth = 0.5, color = "black"),
@@ -42,18 +38,11 @@ theme_nice <- ggthemes::theme_tufte() +
     axis.text.x = element_text(margin = margin(5, b = 10)),
     strip.text = element_text(
       family = "Sofia Sans Condensed", 
-      size = 18),
-    legend.title = element_text(
-      family = "Sofia Sans Condensed", 
-      size = 16),
-    legend.text = element_text(family = "Sofia Sans Condensed", 
-      size = 16),
-    axis.line = element_line()
+      size = 18)
   )
 
 # Set the defined theme as the default theme
 theme_set(theme_nice)
-
 ```
 
 
