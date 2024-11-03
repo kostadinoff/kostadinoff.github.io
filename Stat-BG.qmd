@@ -1,5 +1,5 @@
 ---
-title: "Practical classes in medical statistics"
+title: "Практически упражнения по медицинска статистика"
 listing: 
   id: blog-listing
   categories: true

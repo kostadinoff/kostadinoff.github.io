@@ -4,14 +4,14 @@ project:
 
 website:
   description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plodiv."
-  page-footer: 
+  page-footer:
     left: "Email me at kostadinr.kostadinov@mu-plovdiv.bg"
   title: "Kostadin Kostadinov"
-    
-  twitter-card: 
+
+  twitter-card:
     creator: "@https://x.com/kostadinoffMD"
   navbar:
-    right: 
+    right:
       - icon: github
         href: https://github.com/kostadinoff
       - icon: twitter
@@ -22,14 +22,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
-        text: Blog
+      - href: Stat-BG.qmd
+        text: Упражнения по статистика
       - href: CV.qmd
         text: CV
 
 format:
   html:
-    theme: 
+    theme:
       - darkly
       - barbie.scss
     css: styles.css
