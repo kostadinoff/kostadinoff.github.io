@@ -22,10 +22,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: Stat-BG.qmd
-        text: Упражнения по статистика
       - href: CV.qmd
         text: CV
+      - href: Stat-BG.qmd
+        text: Stat pratices (in Bulgarian)
 
 format:
   html:
