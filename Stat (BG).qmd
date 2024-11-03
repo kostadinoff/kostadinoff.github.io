@@ -1,0 +1,30 @@
+---
+title: "Практически упражнения по статистика"
+listing: 
+  id: blog-listing
+  categories: true
+  feed: true
+  sort-ui: [date]
+  sort: "date desc"
+  contents:
+  - "stat-posts/!(template|blog-image|references).qmd"
+  fields: [title, date, author, description, categories]
+  type: grid
+  grid-columns: 1
+  image-height: "12em"
+
+website:
+  description: "В таз"
+---
+
+В тази секция ще намерите записки за практическите упражнения по медицинска статистика, които съм подготвил за студентите от специалност "Медицина" и "Дентална медицина" в МУ-Пловдив.
+
+<br>
+
+```{=html}
+<a href="https://www.buymeacoffee.com/kostadinoff"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=kostadinoff&button_colour=ed5c9b&font_colour=ffffff&font_family=Arial&outline_colour=ffffff&coffee_colour=ffffff" /></a>
+```
+<br>
+
+::: {#blog-listing}
+:::
