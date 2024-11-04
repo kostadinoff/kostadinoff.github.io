@@ -13,16 +13,6 @@ language: custom.yml
 title-meta: "Основна терминология. Стандартизация"
 author-meta: "Костадин Костадинов"
 date-meta: 2024-11-03
-format:
-  html:
-    toc: true
-  pdf:
-    mainfont: Sofia Sans Condensed
-    monofont: Sofia Sans Condensed
-    sansfont: Sofia Sans Condensed
-    fontsize: 13pt
-    keep-tex: true
-format-links: [pdf]
 ---
 
 
