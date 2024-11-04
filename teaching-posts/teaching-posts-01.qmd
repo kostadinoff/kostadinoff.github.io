@@ -218,7 +218,7 @@ example_1 %>%
     hjust = -0.2,
     vjust = +0.2,
     # nudge above top of bar
-    size = 6,
+    size = 4,
     family = "Sofia Sans Condensed"
   ) +
   guides(
