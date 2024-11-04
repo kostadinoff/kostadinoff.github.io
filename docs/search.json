@@ -1,177 +1,177 @@
 [
   {
-    "objectID": "Stat-BG.html",
-    "href": "Stat-BG.html",
-    "title": "Практически упражнения по медицинска статистика",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kostadin Kostadinov",
     "section": "",
-    "text": "В тази секция ще намерите записки за практическите упражнения по медицинска статистика, които съм подготвил за студентите от специалност “Медицина” и “Дентална медицина” в МУ-Пловдив.\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\nОсновна терминология. Стандартизация\n\n\n\nPractical 1\n\n\n\nМатериалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация.\n\n\n\nКостадин Костадинов\n\n\nNov 3, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Email Twitter Github Scholar ORCID\n\n\nHello! I’m Kostadin Kostadinov – a medical doctor, assistant professor and researcher in the department of Social Medicine and Public Health, Plovdiv, Bulgaria. I have a strong background in internal medicine, epidemiology, heath policy and economics. I love data analysis and statistical methods, primarily using R and Python. I’m also passionate about teaching public health and epidemiology. I’m a big fan of open-source software and I’m always looking for ways to contribute to the community."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching materials",
+    "section": "",
+    "text": "This page contains a collection of teaching materials that I have created over the years. The materials are mostly related to statistics, social medicine, public health and medical ethics, but there are also some on other topics. The posts here are in bulgarian and english. You can easily filter the posts by category, discipline, date or language.\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\nОсновна терминология. Стандартизация\n\n\n\nBulgarian\n\n\nStatistics\n\n\nClass 1\n\n\nStandardization\n\n\nTerminology\n\n\n\nМатериалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация.\n\n\n\nКостадин Костадинов\n\n\nNov 3, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html",
+    "href": "teaching-posts/teaching-posts-01.html",
+    "title": "Основна терминология. Стандартизация",
+    "section": "",
+    "text": "Статистиката е метод чрез който данните се превръщат в информация.\nСтатистиката помага в ежедневната медицинска практика, чрез създаване на клинични наръчници или политики в здравеопазването.\nСтатистиката е езикът на науката, тя помага както на пациентите, така и за поддържане на здравето в обществото."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#абсолютни-величини",
+    "href": "teaching-posts/teaching-posts-01.html#абсолютни-величини",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Абсолютни величини",
+    "text": "Абсолютни величини\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са числа, които количествено характеризират обемите на статистическите съвкупности или на части от тях. Те представляват стойност на конкретни статистически признаци.\n\n\n\n\n\nАбсолютните величини са винаги наименовани с конкретни мерни единици.\nСтатистическите изследвания, обикновено започват с анализ на абсолютните величини, но те не са достатъчни за директни сравнения в пространствено-времеви аспект.\n\n\nПримери за абсолютни величини\nСистолното артериално налягане измерено в mmHg е абсолютна величина - има числова стойност, мерна единица и количествено характеризира определен признак. Кръвната захар измерена в mmol/l също е абсолютна величина - отново е число с мерна единица и измерващо конкретен показател."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#относителни-величини",
+    "href": "teaching-posts/teaching-posts-01.html#относителни-величини",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Относителни величини",
+    "text": "Относителни величини\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТе се изчисляват при разделяне на две абсолютни величини. Представят се като коефициенти, а при умножение по 100 или 1000 в проценти или промили."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#примери-за-относителни-величини",
+    "href": "teaching-posts/teaching-posts-01.html#примери-за-относителни-величини",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Примери за относителни величини",
+    "text": "Примери за относителни величини\nВ медицината, често използваме относителни величини. Например, когато измерваме помпената функция на сърцето можем да измерим количеството кръв, което постъпва в аортата, след едно сърдечно съкращение. Това е абсолютната величина ударен обем. Хората с по-висок ръст и по-високо тегло (по-едро телосложение) имат по-високи стойности на усърдния обем, спрямо тези с по-нисък ръст и по-малко тегло. Така например сърцето на състезател по сумо изтласква по-голямо количество кръв (в милилитри), спрямо сърцето на първокласник. Означава ли това, че сърцето на сумиста работи по-добре от това на първокласника? Отговорът е, че не можем да преценим - двете абсолютни величини не бива да се сравняват директно. Затова по-важното, в случая е съотношението на ударният обем, спрямо количеството кръв налично в сърцето, точно преди неговото съкращение. Това е т.н “фракция на изтласкване” и представлява относителна величина."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#екстензивни-показатели",
+    "href": "teaching-posts/teaching-posts-01.html#екстензивни-показатели",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Екстензивни показатели",
+    "text": "Екстензивни показатели\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са структурни показатели, които показват как едно статистическо явление се разпределя на съставните си части в определено време и място.\n\n\n\n\nПримери за екстензивни показатели\nАко приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастовата група, спрямо всички жители на града ще получим екстензивен показател - измерен в процент. На фигура 1 e представено разпределението на възрастта в гр. Пловдив. Важно за екстензивните показатели е, че сумата от всички тях е равна на 1 (или 100%).\n\n\n\n\n\n\n\n\nфигура 1: Пример за екстензивен показател.Възраст на населението в гр. Пловдив, 2022 г."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#интензивни-показатели",
+    "href": "teaching-posts/teaching-posts-01.html#интензивни-показатели",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Интензивни показатели",
+    "text": "Интензивни показатели\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са честотни показатели, които показват колко често се среща дадено явление в свойствената си среда. Всеки интензивен показател е съотношение между обемите на две различни статистически съвкупности, намиращи се във връзка една с друга. В числителя е явлението от което се интересуваме, а в знаменателя е абсолютният обем на средата, в която възниква то.\n\n\n\n\n\nПримери за интензивни показатели\n\nЛеталитетът представлява броя смъртни случаи от конкретно заболяване, спрямо общия брой болни от това заболяване. Ако леталитетът от морбили (дребна шарка) при деца (до 18 г.) е 5%, това означава, че от 100 деца със заболяването, 5 са починали. С други думи, показателят представя честотата на една статистическа съвкупност (смъртните случаи) върху друга съвкупност (болните деца).\nСмъртността представлява съотношение на броя на починалите, спрямо средния брой население. Смъртността по причини представлява броя на починалите от дадено заболяването, разделен на броя на всички починали. Двата показателя не бива да се бъркат с леталитета.\nЗаболеваемостта, представлява съотношението на броя новозаболели от дадено заболяване (например от рак на гърдата), спрямо популацията в риск (всички, които биха могли да се разболеят от това заболяване).\nВ ежедневната практика като лекари, също ще ползвате интензивни показатели. Например, при пациенти с белодробна астма, видът на използваното лечение, зависи от честотата на екзацербации (обостряния) т.н интензивния показател “exacerbation rate”."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#стъпки",
+    "href": "teaching-posts/teaching-posts-01.html#стъпки",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Стъпки",
+    "text": "Стъпки\nЗа да извършим стандартизация (в курса по статистика се спираме единствено на прекия метод за стандартизация) следва да разполага с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в таблица 2.\n\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n\n\n25-34г.\n500\n300\n\n\n35-44г.\n1000\n700\n\n\nнад 45г.\n2000\n1600\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n\n\n25-34г.\n2000\n1400\n\n\n35-44г.\n1000\n800\n\n\nнад 45г.\n1000\n900\n\n\n\n\n\n\n\n\nтаблица 2: Таблица с разпределние по възраст\n\n\n\n\nМоже би, ви прави впечатление от фигура 2, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.\n\n\n\n\n\n\n\n\nфигура 2: Разлика на възрастовата структура между ваксинирани и неваксинирани - възрастовите групи са представени от млади към стари.в групата до 24 г. преобладат неваксинирани, докато при над 45-годинишните ваксинираните\n\n\n\n\n\n\nСтъпка 1 Изчисляване на нестандартизираните интензивни показатели\nКакто по-рано, така и сега, можем да изчислим, какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона леталитет в таблица 3 .\n\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nЛеталитет1\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n\n\n25-34г.\n500\n300\n0.6\n\n\n35-44г.\n1000\n700\n0.7\n\n\nнад 45г.\n2000\n1600\n0.8\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n\n\n25-34г.\n2000\n1400\n0.7\n\n\n35-44г.\n1000\n800\n0.8\n\n\nнад 45г.\n1000\n900\n0.9\n\n\n\n1 Нестандартизиран\n\n\n\n\n\n\n\n\n\nтаблица 3: Нестандартизиран леталитет. Тук е важно да запомним, че общият нестандартизиран показател не е сума от резултатите по групи. Не можем да сумираме нестандартизираните показатели.\n\n\n\n\n\n\nСтъпка 2 Изчисляване на “стандарт”\nЗа да направим стандартизацията е необходимо да изберем за стандарт, една от двете възрастови структури - тази на ваксинираните или тези на неваксинираните.\nТук, често възниква въпросът коя структура трябва да изберем? Защо да предпочетем едната спрямо другата? Какво е правилото?\nВсъщност, няма особено значение точно коя структура се избира. Разбира се, числата след стандартизация зависят от избора и те биха се различавали. От значение, обаче е разликата, а не конкретните стойности на стандартизиран леталитет в двете групи 3\nКакво обаче е стандартът?\nАко изберем за стандарт групата на неваксинираните, за да изчислим стандарта - ще използваме броя на участниците във всяка възрастова група за числител, а общия брой неваксинирани за знаменател. Полученият коефициент е “стандарт” за конкретната възрастова група.\nВ таблица 4 са представени получените стандарти.\nНеваксинираните участниците под 24 год. са 4000, а общият брой неваксинирани 8000. Стандартът за тази група е 0.5 (ако умножим по 100 ще получим 50%). Това е стандартът за тази група, които обаче ще използваме и за ваксинираните.\nМоже да ви направи впечатление, че сборът на всички стандарти е равен на 1-ца (тоест 100%). Това е така, защото стандартът винаги е екстензивен показател.\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nСтандарт1\n\n\n\n\nпод 24 г.\n4000\n2400\n0.500\n\n\n25-34г.\n2000\n1400\n0.250\n\n\n35-44г.\n1000\n800\n0.125\n\n\nнад 45г.\n1000\n900\n0.125\n\n\n\n1 За изчисляване на колоната стандарт е изпозлвана възрастовата структура на неваксинираните\n\n\n\n\n\n\n\n\n\nтаблица 4: Определяне на стандарт за всяка възрастова група\n\n\n\n\n\n\nСтъпка 3: Изчисляване на стандартизираните показатели\nЗа да изчислим стандартизираният леталитет, за всяка възрастова група умножаваме нестандартизирания показател по посоченият по-горе стандарт.\n\n\n\n\nтаблица 5: Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизирания леталитет е 0,5, а стандартът 0,250. За да стандартизираме умножаваме 0,5 по 0.250. При неваксинираните, отново за същата възрастова група умножаваме нестандартизирания показател 0,6 по стандарта 0,25\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nНС Леталитет1\nСтандарт2\nС Леталитет3\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n0.500\n0.2500\n\n\n25-34г.\n500\n300\n0.6\n0.250\n0.1500\n\n\n35-44г.\n1000\n700\n0.7\n0.125\n0.0875\n\n\nнад 45г.\n2000\n1600\n0.8\n0.125\n0.1000\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n0.500\n0.3000\n\n\n25-34г.\n2000\n1400\n0.7\n0.250\n0.1750\n\n\n35-44г.\n1000\n800\n0.8\n0.125\n0.1000\n\n\nнад 45г.\n1000\n900\n0.9\n0.125\n0.1125\n\n\n\n1 Нестандартизиран леталитет\n\n\n2 Изчислен спрямо неваксинираните\n\n\n3 Стандартизиран леталитет\n\n\n\n\n\n\n\n\n\n\n\nНа този етап стандартизацията е почти изпълнена - Вече знаем, че нестандартизираните показатели не се събират. За сметка на това стандартизираните се събират. Когато ги съберем получаваме общия стандартизиран леталитет, който е “изчистен” от замъгляващия ефект на различната възраст в двете групи. С други думи, показателите след стандартизация, представят какъв би бил леталитетът, ако двете групи имаха еднаква възрастова структура.\n\n\nСтъпка 4: Заключение\nНека извършим тази последна калкулация.\nЗа групата на ваксинираните общият стандартизиран леталитет е:\n\n25 % (стандартизираният леталитет за всички до 24 г.) + 15 % (стандартизираният леталитет за възрастовата група от 25-34 г.) + 8,7 % (стандартизираният леталитет за възрастовата група от 35-44 г.) + 10 % (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 58.7%\n\nЗа групата на неваксинираните общият стандартизиран леталитет е:\n\n30 % (стандартизираният леталитет за всички до 24 г.) + 17,5 % (стандартизираният леталитет за възрастовата група от 25-34 г.) + 10 % (стандартизираният леталитет за възрастовата група от 35-44 г.) + 11,25 % (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 65.75%\n\n\n\n\n\n\n\n\nЗаключение\n\n\n\n\n\nСтандартизираните показатели за леталитет в двете групи са съответно 58.75 % и 68.75 %. Леталитетът сред неваксинираните, е с 10 % по-висок.\n\n\n\n\nСтандартизираните показатели позволяват да се анализира и оцени нивото на изучаваното явление при създадени условия на еднородност, тоест методът ни показва какви биха били коефициентите, в сравняваните групи, ако те имаха еднакъв състав."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#стъпки---при-алтернативен-избор-за-стандарт",
+    "href": "teaching-posts/teaching-posts-01.html#стъпки---при-алтернативен-избор-за-стандарт",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Стъпки - при алтернативен избор за стандарт",
+    "text": "Стъпки - при алтернативен избор за стандарт\nЗа да докажем, че изводът не зависи от избора на стандарт, ще решим отново примера, като този път използваме за стандарт възрастовата структура на ваксинираните.\n\nСтъпка 2 Изчисляваме стандарта (този път спрямо ваксинираните)\nСега ще използваме данните само за ваксинираните. При тях, частниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в таблица 6 .\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nСтандарт1\n\n\n\n\nпод 24 г.\n500\n250\n0.125\n\n\n25-34г.\n500\n300\n0.125\n\n\n35-44г.\n1000\n700\n0.250\n\n\nнад 45г.\n2000\n1600\n0.500\n\n\n\n1 За изчисляване на колоната стандарт е изпозлвана възрастовата структура на ваксинираните\n\n\n\n\n\n\n\n\n\nтаблица 6: Определяне на стандарт за всяка възрастова група\n\n\n\n\n\n\nСтъпка 3: Изчисляване на стандартизираните показатели за леталитет\nСлед като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация тя е представена в таблица 7\n\n\n\n\nтаблица 7: Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nНС Леталитет1\nСтандарт2\nС Леталитет3\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n0.125\n0.0625\n\n\n25-34г.\n500\n300\n0.6\n0.125\n0.0750\n\n\n35-44г.\n1000\n700\n0.7\n0.250\n0.1750\n\n\nнад 45г.\n2000\n1600\n0.8\n0.500\n0.4000\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n0.125\n0.0750\n\n\n25-34г.\n2000\n1400\n0.7\n0.125\n0.0875\n\n\n35-44г.\n1000\n800\n0.8\n0.250\n0.2000\n\n\nнад 45г.\n1000\n900\n0.9\n0.500\n0.4500\n\n\n\n1 Нестандартизиран леталитет\n\n\n2 Изчислен спрямо неваксинираните\n\n\n3 Стандартизиран леталитет\n\n\n\n\n\n\n\n\n\n\n\nЛогично, след като сме използвали друг стандарт, числовите стойности са различни, но заключението едно и също.\n\n\n\n\n\n\n\nЗаключение\n\n\n\n\n\nСтандартизираните показатели за леталитет в двете групи са съответно 71.25 % и 81.25 %. Леталитетът сред неваксинираните, е с 10 % по-висок."
+  },
+  {
+    "objectID": "teaching-posts/teaching-posts-01.html#footnotes",
+    "href": "teaching-posts/teaching-posts-01.html#footnotes",
+    "title": "Основна терминология. Стандартизация",
+    "section": "Бележки",
+    "text": "Бележки\n\n\nВ момента дори има разработени скенери които “сами разчитат” дали пациента има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаване дали е налице определено заболяване.↩︎\nВажно: простите аритметични операции между проценти се изразяват в процентни пунктове.↩︎\nВ това упражнение ще докажем това, като извършим стандартизацията, като вземем за стандарт, първо възрастовата структура на неваксинираните, а после тази на ваксинираните.↩︎"
   },
   {
     "objectID": "CV.html",
     "href": "CV.html",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "",
     "text": "drkostadinkostadinov@gmail | GitHub | Twitter | Linkedin | ORCID"
   },
   {
     "objectID": "CV.html#ngo-memberships",
     "href": "CV.html#ngo-memberships",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "NGO Memberships",
     "text": "NGO Memberships\n2021 - Present\n\n“Air for Health” Physician Network\n\n2011 - 2017\n\nStudent Council | President 20212 | Chair of the General Assembly 2013-2015\n\n2012 - 2017\n\nBulgarian Medical Students’ Association | Chair of the Supervisory Board 2015-2016 | Secretary 2017"
   },
   {
     "objectID": "CV.html#teaching",
     "href": "CV.html#teaching",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "Teaching",
     "text": "Teaching\n\nWinter Semester 2021/22: Biostatistics | Medical Ethics | Public Dental Health\nSummer Semester 2021/22: Social Medicine and Public Health\nWinter Semester 2022/23: Biostatistics | Medical Ethics | Public Dental Health\nSummer Semester 2022/23: Social Medicine and Public Health\nWinter Semester 2023/24: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies\nSummer Semester 2023/24: Social Medicine and Public Health\nWinter Semester 2024/25: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies"
   },
   {
     "objectID": "CV.html#language",
     "href": "CV.html#language",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "Language",
     "text": "Language\nBulgarian (Native)\nEnglish\n\nFirst Certificate in English (FCE) - Cambridge English Language Assessment | Reading C1 | Writing B2 | Use of English C1 | Listening B2 | Speaking C1"
   },
   {
     "objectID": "CV.html#social",
     "href": "CV.html#social",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "Social",
     "text": "Social\nEngaging in academic and instructional endeavors within a diverse setting encompassing students from medical, dental, pharmacy, and nursing disciplines. Contributing to postgraduate programs with attendees hailing from various continents. Actively involved in social and charitable initiatives of non-profit and non-governmental entities. Professional development in Ireland, Greece, Austria, and Finland."
   },
   {
     "objectID": "CV.html#computer-skills",
     "href": "CV.html#computer-skills",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "Computer skills",
     "text": "Computer skills\nProgramming languages and tools\n\nData analysis R | Python | SPSS | SAS | STATA | Orange | Jamovi | JASP\nOther Linux; R studio; MySQL; Latex; VS code; html; CSS; Quarto; Pandoc; Microsoft 365; Google Workspace"
   },
   {
     "objectID": "CV.html#other",
     "href": "CV.html#other",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "Other",
     "text": "Other\n\nDriving license"
   },
   {
     "objectID": "CV.html#national",
     "href": "CV.html#national",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "National",
     "text": "National\nSince 2016 Youth Scientific Society “Asclepius” | Board Member, Term 2024-2026\nSince 2017 Bulgarian Medical Association\nSince 2017 Bulgarian Society of Cardiology\nSince 2020 Bulgarian Scientific Society for Public Health\nSince 2020 Bulgarian Association for Public Health\nSince 2016 Association of Trainers and Researchers in General Medicine in Bulgaria\nSince 2020 Association for Social Research and Applied Research Practices"
   },
   {
     "objectID": "CV.html#international",
     "href": "CV.html#international",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "International",
     "text": "International\nSince 2020 European Public Health Association\nSince 2022 World Federation of Public Health Associations (WFPHA)"
   },
   {
     "objectID": "CV.html#university-projects",
     "href": "CV.html#university-projects",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "University projects",
     "text": "University projects\nSeptember 2021\n\n“Rapid Microbiological Diagnosis of Genital Infections in Women and Men – Comparative Analysis” | Project No. НО-03/2020 (НО-Р-8445) | Research project funded by the Bulgarian Ministry of Education and Science under the 2017 regulations for targeted state budget allocations for scientific and creative activities in higher education institutions | Medical University of Plovdiv\n\nSeptember 2022\n\n“Antimicrobial Activity of Root Canal Fillers for the Treatment of Endodontic Infection in Primary Teeth” | PhD and Postdoctoral Project | agreement contract 04/01.09. | Medical University of Plovdiv\n\nSeptember 2023\n\n“Study of the Relationship Between Non-Cultivable and Hard-to-Culture Microorganisms and Fertility Function in Men with Symptomatic and Asymptomatic Infections of the Lower Urogenital Tract” | University Project No. НО-17/2023 | Medical University of Plovdiv\n\nOctober 2023\n\n“Comparative Study on Modern Microbiological Methods for Rapid Etiological Diagnosis of Urinary Tract Infections” | PhD and Postdoctoral Project | Agrement No. 10/2023 | Medical University of Plovdiv"
   },
   {
     "objectID": "CV.html#national-projects",
     "href": "CV.html#national-projects",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "National projects",
     "text": "National projects\nApril 2021\n\nNational Science Program “Young Scientists and Postdoctoral Researchers” | Ministry of Education and Science of the Republic of Bulgaria\n\nOctober 2024\n\nResearch Group (RG) 3.1.5 – “Health and Quality of Life in a Green and Sustainable Environment” | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Agreement: BG-RRP-2.004-0007-C01 from 31.12.2022\n\nSeptember 2024\n\nNational Science Program “Young Scientists and Postdoctoral Researchers - 2” | Ministry of Education and Science of the Republic of Bulgaria"
   },
   {
     "objectID": "CV.html#international-projects",
     "href": "CV.html#international-projects",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "International projects",
     "text": "International projects\nMarch - May 2020\n\n“Interdisciplinarity, Multiculturalism, and Patient Care in Non-Standard Situations in the Context of Didactic Activities in Medical and Health Sciences at Medical Simulation Centers” | Project No. 2019-1-PL01-KA203-065205 | Erasmus+ Program, Key Action 2: Cooperation for Innovation and Exchange of Good Practices | KA203: Strategic Partnerships for Higher Education\n\nSeptember 2021 - September 2022\n\nScreen4Care | “Shortening the Path to Rare Disease Diagnosis Using Newborn Genetic Screening and Digital Technologies” | Innovative Medicines Initiative 2 Joint Undertaking (JU) | Grant Agreement No. 101034427\n\nFebruary 2022 - December 2024\n\nSafe4Child | “Caring for Violent Children Safely in Child Psychiatric and Residential Units” | Erasmus+ Programme | Key Action 2 | Agreement No. 2021-1-FI01-KA220-HED-000032106\n\nApril 2023 - December 2023\n\nW@S | “Developing Multi-Professional Higher Education for Promoting Mental Health and Well-Being in Schools” | Project Reference: 2020-1-FI01-KA203-066521\n\n2018 - 2019\n\nClinical trial | ApoA-I Event Reducing in Ischemic Syndromes II (AEGIS II) | Study Coordinator\n\n2024 - 2026\n\nAFFIRMO | Atrial Fibrillation Integrated Approach in Frail, Multimorbid, and Polymedicated Older People | Monitor | European Union’s Horizon 2020 research and innovation programme | Grant agreement 899871"
   },
   {
     "objectID": "CV.html#national-1",
     "href": "CV.html#national-1",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "National",
     "text": "National\nSeptember 27-29, 2019\n\n11th Scientific Meeting of SOIBOM | “The Pathway of Patients with Cardiovascular Disease” | Oral Presentation | “Clinical Case of Valvular Atrial Fibrillation” | Kostadinov K.\n\nNovember 28, 2020\n\nVirtual Congress Center “Rare Diseases and Orphan Drugs” | “Acquired Thrombotic Thrombocytopenic Purpura along the Path of Challenges” | Kostadinov K.\n\nMarch 9-11, 2021\n\nScience and Youth 2021 Conference\n\n\n“Changes in Dietary Habits and Behavior During COVID-19 Epidemic Control Measures” | Plenary Lecture | Hubenova M, Kostadinov K, Mandova V\n“Changes in Physical Activity During Epidemic Control Measures” | Plenary Lecture | Kostadinov K, Hubenova M, Mandova V\n“Oral Health Self-Assessment among Hemophilia Families” | Mandova V, Kostadinov K, Stefanov R\n\nMay 13-14, 2021\n\nXIV National Scientific-Technical Conference with International Participation “Ecology and Health” | “Modern Microbiological and Molecular Screening of Genital Infections in Symptomatic Non-Pregnant Women” | Eli Hristozova, Zoya Rachkovska, Tihomir Dermendzhiev, Mariana Murdjeva, Vida Georgieva, Ekaterina Uchikova, Kostadin Kostadinov | Medical University Plovdiv\n\nSeptember 14-16, 2021\n\nXVIII National Congress on Clinical Microbiology and Infections of the Bulgarian Association of Microbiologists | “Rapid Molecular Screening for Vaginal Candidiasis in Symptomatic Women” | Christozova E., Rachkovska Z., Georgieva V., Dermendzhiev T., Kostadinov K., Vlahova M., Uchikova E., Murdjeva M. | Poster session\n\nSeptember 15-16, 2022\n\nXX Jubilee National Congress on Clinical Microbiology and Infections of the Bulgarian Association of Microbiologists\n\n\n“Study of Urethral Microbiome with Androflor Screen in Men with Non-Specific Genital Symptoms During the COVID-19 Pandemic” | E. Christozova, T. Dermendzhiev, Z. Rachkovska, V. Georgieva, K. Kostadinov, C. Pavlov, M. Murdjeva | Published in Proceedings\n“Omicron - Relief or Challenge?” | M. Atanasova, N. Korsun, R. Komitova, K. Kostadinov, I. Aleksiev, R. Raycheva, I. Ivanov, L. Glomb, C. Petkova, L. Djoglova | Plenar Lecture | Published in Proceedings\n\nSeptember 30 - October 1, 2022\n\nFourth National Conference on Epidemiology | “Infectious Diseases in Bulgaria: Challenges and Perspectives” | “COVID-19 in Bulgaria and the Impact of Vaccines on Hospitalizations, Mortality, and Lethality” | A. Kevorkyan, K. Kostadinov, V. Rangelova, R. Raycheva, A. Kunchev, A. Serbezova\n\nApril 19-21, 2024\n\nScience and Youth Conference 2021 | “Assessment of Antimicrobial Susceptibility of Staphylococcus Aureus Nasal Isolates from Preclinical Medical Students at the Medical University of Plovdiv” | Aras Budak, Kostadin Kostadinov, Radoslav Tashev, Eli Christozova | Awarded with the “Best Presentation” prize\n\nSeptember 27-29, 2024\n\nSixth National Epidemiology Conference | “Challenges in Infectious Disease Prevention” | “Assessment of Occupational Risk Exposures and Compliance with Standard Precautions among Medical Staff” | Velina Stoeva, Hristiana Batselova, Kostadin Kostadinov, Kiril Atliev\n\nSeptember 27-28, 2024\n\nSeventh Scientific Conference with International Participation | “Public Health: A Look Toward the Future” | “Enhancing Patient-Centered Care through Simulation Training with Virtual Reality Glasses” | Gergana Petrova, Kostadin Kostadinov, Valentina Lalova, Svetla Ivanova | Awarded with the “Best Presentation” prize\n\nOctober 10-13, 2024\n\nXVIII National Congress of Cardiology | “The Role of Air Pollution in Cardiovascular Disease Genesis” | Kostadin Kostadinov | Plovdiv\n\nOctober 10-11, 2024\n\nScientific Conference “Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities” | “Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health” | Assoc. Prof. Dr. Angel Djambov, Asst. Dr. Kostadin Kostadinov, Prof. Donka Dimitrova | Plovdiv University “Paisii Hilendarski” | Plovdiv"
   },
   {
     "objectID": "CV.html#international-1",
     "href": "CV.html#international-1",
-    "title": "CURRICULUM VITAE",
+    "title": "Curriculum Vitae",
     "section": "International",
     "text": "International\nOctober 20-23, 2022\n\nJoint Forum: 12th South-East European Conference and 32nd Annual Assembly of IMAB | “Antimicrobial Activity of Root Canal Filling Materials for Endodontic Treatment in Primary Dentition” | Maria Shindova, Eli Hristozova, Plamen Katsarov, Michael Onov, Kostadin Kostadinov, Vasko Toplev, Ani Belcheva | Lecture\n\nApril 15-18, 2023\n\n33rd European Congress of Clinical Microbiology and Infectious Diseases | “Impact of COVID-19 Vaccines – Data from Bulgaria” | Ani Kevorkyan, Kostadin Kostadinov, Vania Rangelova, Ralitsa Raycheva, Angel Kunchev | Plenary Lecture | Plovdiv\n\nMarch 4-11, 2023\n\n41st European Winter Conference on Brain Research (EWCBR) | “Immunological Reactivity Under Acute and Chronic Stress. Where Are We? Experience in Bulgaria.” | M. Ivanovska, T. Kalfova, P. Gardjeva, K. Kostadinov, M. Murdjeva\n\nSeptember 14, 2023\n\nWebinar | EU Health Technology Assessment Regulation | The Role and Involvement of Cancer Patients | Landscape of Bulgarian HTA Regulations | Kostadin K. | Belgium\n\nMay 2023\n\nISPOR 2023 | Boston, MA, USA | “The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria” | Raycheva R., Kostadinov K.\n\nNovember 2023\n\nISPOR Europe 2022 | Vienna, Austria | “Delay of Innovative Oncology Treatments - Case From Bulgaria” | Raycheva R., Kostadinov K.\n\nNovember 13-15, 2024\n\n17th European Public Health Conference 2024 | DV.24 - Mapping the Policy Alternatives for Rare Cancer | Kostadinov K., Hristozova E., Musurova N., Iskrov G., Stefanov R."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html",
-    "href": "stat-posts/stat-posts-01.html",
-    "title": "Основна терминология. Стандартизация",
-    "section": "",
-    "text": "Статистиката е метод чрез който данните се превръщат в информация.\nСтатистиката помага в ежедневната медицинска практика, чрез създаване на клинични наръчници или политики в здравеопазването.\nСтатистиката е езикът на науката, тя помага както на пациентите, така и за поддържане на здравето в обществото."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#абсолютни-величини",
-    "href": "stat-posts/stat-posts-01.html#абсолютни-величини",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Абсолютни величини",
-    "text": "Абсолютни величини\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са числа, които количествено характеризират обемите на статистическите съвкупности или на части от тях. Те представляват стойност на конкретни статистически признаци.\n\n\n\n\n\nАбсолютните величини са винаги наименовани с конкретни мерни единици.\nСтатистическите изследвания, обикновено започват с анализ на абсолютните величини, но те не са достатъчни за директни сравнения в пространствено-времеви аспект.\n\n\nПримери за абсолютни величини\nСистолното артериално налягане измерено в mmHg е абсолютна величина - има числова стойност, мерна единица и количествено характеризира определен признак. Кръвната захар измерена в mmol/l също е абсолютна величина - отново е число с мерна единица и измерващо конкретен показател."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#относителни-величини",
-    "href": "stat-posts/stat-posts-01.html#относителни-величини",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Относителни величини",
-    "text": "Относителни величини\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТе се изчисляват при разделяне на две абсолютни величини. Представят се като коефициенти, а при умножение по 100 или 1000 в проценти или промили."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#примери-за-относителни-величини",
-    "href": "stat-posts/stat-posts-01.html#примери-за-относителни-величини",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Примери за относителни величини",
-    "text": "Примери за относителни величини\nВ медицината, често използваме относителни величини. Например, когато измерваме помпената функция на сърцето можем да измерим количеството кръв, което постъпва в аортата, след едно сърдечно съкращение. Това е абсолютната величина ударен обем. Хората с по-висок ръст и по-високо тегло (по-едро телосложение) имат по-високи стойности на усърдния обем, спрямо тези с по-нисък ръст и по-малко тегло. Така например сърцето на състезател по сумо изтласква по-голямо количество кръв (в милилитри), спрямо сърцето на първокласник. Означава ли това, че сърцето на сумиста работи по-добре от това на първокласника? Отговорът е, че не можем да преценим - двете абсолютни величини не бива да се сравняват директно. Затова по-важното, в случая е съотношението на ударният обем, спрямо количеството кръв налично в сърцето, точно преди неговото съкращение. Това е т.н “фракция на изтласкване” и представлява относителна величина."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#екстензивни-показатели",
-    "href": "stat-posts/stat-posts-01.html#екстензивни-показатели",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Екстензивни показатели",
-    "text": "Екстензивни показатели\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са структурни показатели, които показват как едно статистическо явление се разпределя на съставните си части в определено време и място.\n\n\n\n\nПримери за екстензивни показатели\nАко приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастовата група, спрямо всички жители на града ще получим екстензивен показател - измерен в процент. На фигура 1 e представено разпределението на възрастта в гр. Пловдив. Важно за екстензивните показатели е, че сумата от всички тях е равна на 1 (или 100%).\n\n\n\n\n\n\n\n\nфигура 1: Пример за екстензивен показател.Възраст на населението в гр. Пловдив, 2022 г."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#интензивни-показатели",
-    "href": "stat-posts/stat-posts-01.html#интензивни-показатели",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Интензивни показатели",
-    "text": "Интензивни показатели\n\n\n\n\n\n\n\nОпределение\n\n\n\n\n\nТова са честотни показатели, които показват колко често се среща дадено явление в свойствената си среда. Всеки интензивен показател е съотношение между обемите на две различни статистически съвкупности, намиращи се във връзка една с друга. В числителя е явлението от което се интересуваме, а в знаменателя е абсолютният обем на средата, в която възниква то.\n\n\n\n\n\nПримери за интензивни показатели\n\nЛеталитетът представлява броя смъртни случаи от конкретно заболяване, спрямо общия брой болни от това заболяване. Ако леталитетът от морбили (дребна шарка) при деца (до 18 г.) е 5%, това означава, че от 100 деца със заболяването, 5 са починали. С други думи, показателят представя честотата на една статистическа съвкупност (смъртните случаи) върху друга съвкупност (болните деца).\nСмъртността представлява съотношение на броя на починалите, спрямо средния брой население. Смъртността по причини представлява броя на починалите от дадено заболяването, разделен на броя на всички починали. Двата показателя не бива да се бъркат с леталитета.\nЗаболеваемостта, представлява съотношението на броя новозаболели от дадено заболяване (например от рак на гърдата), спрямо популацията в риск (всички, които биха могли да се разболеят от това заболяване).\nВ ежедневната практика като лекари, също ще ползвате интензивни показатели. Например, при пациенти с белодробна астма, видът на използваното лечение, зависи от честотата на екзацербации (обостряния) т.н интензивния показател “exacerbation rate”."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#стъпки",
-    "href": "stat-posts/stat-posts-01.html#стъпки",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Стъпки",
-    "text": "Стъпки\nЗа да извършим стандартизация (в курса по статистика се спираме единствено на прекия метод за стандартизация) следва да разполага с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в таблица 2 .\n\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n\n\n25-34г.\n500\n300\n\n\n35-44г.\n1000\n700\n\n\nнад 45г.\n2000\n1600\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n\n\n25-34г.\n2000\n1400\n\n\n35-44г.\n1000\n800\n\n\nнад 45г.\n1000\n900\n\n\n\n\n\n\n\n\nтаблица 2: Таблица с разпределние по възраст\n\n\n\n\nМоже би, ви прави впечатление от фигура 2, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.\n\n\n\n\n\n\n\n\nфигура 2: Разлика на възрастовата структура между ваксинирани и неваксинирани - възрастовите групи са представени от млади към стари.в групата до 24 г. преобладат неваксинирани, докато при над 45-годинишните ваксинираните\n\n\n\n\n\n\nСтъпка 1 Изчисляване на нестандартизираните интензивни показатели\nКакто по-рано, така и сега, можем да изчислим, какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона леталитет в таблица 3 .\n\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nЛеталитет1\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n\n\n25-34г.\n500\n300\n0.6\n\n\n35-44г.\n1000\n700\n0.7\n\n\nнад 45г.\n2000\n1600\n0.8\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n\n\n25-34г.\n2000\n1400\n0.7\n\n\n35-44г.\n1000\n800\n0.8\n\n\nнад 45г.\n1000\n900\n0.9\n\n\n\n1 Нестандартизиран\n\n\n\n\n\n\n\n\n\nтаблица 3: Нестандартизиран леталитет. Тук е важно да запомним, че общият нестандартизиран показател не е сума от резултатите по групи. Не можем да сумираме нестандартизираните показатели.\n\n\n\n\n\n\nСтъпка 2 Изчисляване на “стандарт”\nЗа да направим стандартизацията е необходимо да изберем за стандарт, една от двете възрастови структури - тази на ваксинираните или тези на неваксинираните.\nТук, често възниква въпросът коя структура трябва да изберем? Защо да предпочетем едната спрямо другата? Какво е правилото?\nВсъщност, няма особено значение точно коя структура се избира. Разбира се, числата след стандартизация зависят от избора и те биха се различавали. От значение, обаче е разликата, а не конкретните стойности на стандартизиран леталитет в двете групи 3\nКакво обаче е стандартът?\nАко изберем за стандарт групата на неваксинираните, за да изчислим стандарта - ще използваме броя на участниците във всяка възрастова група за числител, а общия брой неваксинирани за знаменател. Полученият коефициент е “стандарт” за конкретната възрастова група.\nВ таблица 4 са представени получените стандарти.\nНеваксинираните участниците под 24 год. са 4000, а общият брой неваксинирани 8000. Стандартът за тази група е 0.5 (ако умножим по 100 ще получим 50%). Това е стандартът за тази група, които обаче ще използваме и за ваксинираните.\nМоже да ви направи впечатление, че сборът на всички стандарти е равен на 1-ца (тоест 100%). Това е така, защото стандартът винаги е екстензивен показател.\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nСтандарт1\n\n\n\n\nпод 24 г.\n4000\n2400\n0.500\n\n\n25-34г.\n2000\n1400\n0.250\n\n\n35-44г.\n1000\n800\n0.125\n\n\nнад 45г.\n1000\n900\n0.125\n\n\n\n1 За изчисляване на колоната стандарт е изпозлвана възрастовата структура на неваксинираните\n\n\n\n\n\n\n\n\n\nтаблица 4: Определяне на стандарт за всяка възрастова група\n\n\n\n\n\n\nСтъпка 3: Изчисляване на стандартизираните показатели\nЗа да изчислим стандартизираният леталитет, за всяка възрастова група умножаваме нестандартизирания показател по посоченият по-горе стандарт.\n\n\n\n\nтаблица 5: Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизирания леталитет е 0,5, а стандартът 0,250. За да стандартизираме умножаваме 0,5 по 0.250. При неваксинираните, отново за същата възрастова група умножаваме нестандартизирания показател 0,6 по стандарта 0,25\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nНС Леталитет1\nСтандарт2\nС Леталитет3\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n0.500\n0.2500\n\n\n25-34г.\n500\n300\n0.6\n0.250\n0.1500\n\n\n35-44г.\n1000\n700\n0.7\n0.125\n0.0875\n\n\nнад 45г.\n2000\n1600\n0.8\n0.125\n0.1000\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n0.500\n0.3000\n\n\n25-34г.\n2000\n1400\n0.7\n0.250\n0.1750\n\n\n35-44г.\n1000\n800\n0.8\n0.125\n0.1000\n\n\nнад 45г.\n1000\n900\n0.9\n0.125\n0.1125\n\n\n\n1 Нестандартизиран леталитет\n\n\n2 Изчислен спрямо неваксинираните\n\n\n3 Стандартизиран леталитет\n\n\n\n\n\n\n\n\n\n\n\nНа този етап стандартизацията е почти изпълнена - Вече знаем, че нестандартизираните показатели не се събират. За сметка на това стандартизираните се събират. Когато ги съберем получаваме общия стандартизиран леталитет, който е “изчистен” от замъгляващия ефект на различната възраст в двете групи. С други думи, показателите след стандартизация, представят какъв би бил леталитетът, ако двете групи имаха еднаква възрастова структура.\n\n\nСтъпка 4: Заключение\nНека извършим тази последна калкулация.\nЗа групата на ваксинираните общият стандартизиран леталитет е:\n\n25 % (стандартизираният леталитет за всички до 24 г.) + 15 % (стандартизираният леталитет за възрастовата група от 25-34 г.) + 8,7 % (стандартизираният леталитет за възрастовата група от 35-44 г.) + 10 % (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 58.7%\n\nЗа групата на неваксинираните общият стандартизиран леталитет е:\n\n30 % (стандартизираният леталитет за всички до 24 г.) + 17,5 % (стандартизираният леталитет за възрастовата група от 25-34 г.) + 10 % (стандартизираният леталитет за възрастовата група от 35-44 г.) + 11,25 % (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 65.75%\n\n\n\n\n\n\n\n\nЗаключение\n\n\n\n\n\nСтандартизираните показатели за леталитет в двете групи са съответно 58.75 % и 68.75 %. Леталитетът сред неваксинираните, е с 10 % по-висок.\n\n\n\n\nСтандартизираните показатели позволяват да се анализира и оцени нивото на изучаваното явление при създадени условия на еднородност, тоест методът ни показва какви биха били коефициентите, в сравняваните групи, ако те имаха еднакъв състав."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#стъпки---при-алтернативен-избор-за-стандарт",
-    "href": "stat-posts/stat-posts-01.html#стъпки---при-алтернативен-избор-за-стандарт",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Стъпки - при алтернативен избор за стандарт",
-    "text": "Стъпки - при алтернативен избор за стандарт\nЗа да докажем, че изводът не зависи от избора на стандарт, ще решим отново примера, като този път използваме за стандарт възрастовата структура на ваксинираните.\n\nСтъпка 2 Изчисляваме стандарта (този път спрямо ваксинираните)\nСега ще използваме данните само за ваксинираните. При тях, частниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в таблица 6 .\n\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nСтандарт1\n\n\n\n\nпод 24 г.\n500\n250\n0.125\n\n\n25-34г.\n500\n300\n0.125\n\n\n35-44г.\n1000\n700\n0.250\n\n\nнад 45г.\n2000\n1600\n0.500\n\n\n\n1 За изчисляване на колоната стандарт е изпозлвана възрастовата структура на ваксинираните\n\n\n\n\n\n\n\n\n\nтаблица 6: Определяне на стандарт за всяка възрастова група\n\n\n\n\n\n\nСтъпка 3: Изчисляване на стандартизираните показатели за леталитет\nСлед като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация тя е представена в таблица 7\n\n\n\n\nтаблица 7: Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)\n\n\n\n\n\n\n\n\n\n\nВъзраст\nОбщо\nПочинали\nНС Леталитет1\nСтандарт2\nС Леталитет3\n\n\n\n\nВаксинирани\nпод 24 г.\n500\n250\n0.5\n0.125\n0.0625\n\n\n25-34г.\n500\n300\n0.6\n0.125\n0.0750\n\n\n35-44г.\n1000\n700\n0.7\n0.250\n0.1750\n\n\nнад 45г.\n2000\n1600\n0.8\n0.500\n0.4000\n\n\nНеваксинирани\nпод 24 г.\n4000\n2400\n0.6\n0.125\n0.0750\n\n\n25-34г.\n2000\n1400\n0.7\n0.125\n0.0875\n\n\n35-44г.\n1000\n800\n0.8\n0.250\n0.2000\n\n\nнад 45г.\n1000\n900\n0.9\n0.500\n0.4500\n\n\n\n1 Нестандартизиран леталитет\n\n\n2 Изчислен спрямо неваксинираните\n\n\n3 Стандартизиран леталитет\n\n\n\n\n\n\n\n\n\n\n\nЛогично, след като сме използвали друг стандарт, числовите стойности са различни, но заключението едно и също.\n\n\n\n\n\n\n\nЗаключение\n\n\n\n\n\nСтандартизираните показатели за леталитет в двете групи са съответно 71.25 % и 81.25 %. Леталитетът сред неваксинираните, е с 10 % по-висок."
-  },
-  {
-    "objectID": "stat-posts/stat-posts-01.html#footnotes",
-    "href": "stat-posts/stat-posts-01.html#footnotes",
-    "title": "Основна терминология. Стандартизация",
-    "section": "Бележки",
-    "text": "Бележки\n\n\nВ момента дори има разработени скенери които “сами разчитат” дали пациента има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаване дали е налице определено заболяване.↩︎\nВажно: простите аритметични операции между проценти се изразяват в процентни пунктове.↩︎\nВ това упражнение ще докажем това, като извършим стандартизацията, като вземем за стандарт, първо възрастовата структура на неваксинираните, а после тази на ваксинираните.↩︎"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kostadin Kostadinov",
-    "section": "",
-    "text": "Email Twitter Github Scholar ORCID\n\n\nHello! I’m Kostadin Kostadinov – a medical doctor, assistant professor and researcher in the department of Social Medicine and Public Health, Plovdiv, Bulgaria. I have a strong background in internal medicine, epidemiology, heath policy and economics. I love data analysis and statistical methods, primarily using R and Python. I’m also passionate about teaching public health and epidemiology. I’m a big fan of open-source software and I’m always looking for ways to contribute to the community."
   }
 ]

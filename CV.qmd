@@ -1,5 +1,5 @@
 ---
-title: "CURRICULUM VITAE"
+title: "Curriculum Vitae"
 author: "Kostadin Rangelov Kostadinov, MD, MPH, MEcon"
 bibliography: referencelist.bib
 csl: "plos-medicine.csl"

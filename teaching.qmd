@@ -1,5 +1,5 @@
 ---
-title: "Практически упражнения по медицинска статистика"
+title: "Teaching materials"
 listing: 
   id: blog-listing
   categories: true
@@ -7,14 +7,15 @@ listing:
   sort-ui: [date]
   sort: "date desc"
   contents:
-  - "stat-posts/!(template|blog-image|references).qmd"
+  - "teaching-posts/!(template|blog-image|references).qmd"
   fields: [title, date, author, description, categories]
   type: grid
   grid-columns: 1
   image-height: "12em"
 ---
 
-В тази секция ще намерите записки за практическите упражнения по медицинска статистика, които съм подготвил за студентите от специалност "Медицина" и "Дентална медицина" в МУ-Пловдив.
+This page contains a collection of teaching materials that I have created over the years. The materials are mostly related to statistics, social medicine, public health and medical ethics, but there are also some on other topics. The posts here are in bulgarian and english. You can easily filter the posts by category, discipline, date or language.
+
 
 <br>
 

@@ -23,9 +23,9 @@ website:
       - href: index.qmd
         text: Home
       - href: CV.qmd
-        text: CV (EN)
-      - href: Stat-BG.qmd
-        text: Stat clases (in BG)
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
         
 format:
   html:
