@@ -1,0 +1,78 @@
+---
+title: "Epidemiology – definition, tasks, methods. Natural history of the disease"
+author: "Kostadin Kostadinov"
+date: 2024-11-05
+description: "The first practical class on medical ethics. Introduction to the field and the basic principles of medical ethics."
+categories: 
+  - "English"
+  - "Public Health"
+  - "Epidemiology"
+  - "Medicine, 3rd year"
+  - "Dental Medicine, 5th year"
+title-meta: "Epidemiology – definition, tasks, methods. Natural history of the disease"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-11-05
+---
+
+# Epidemiology - Definition {#epi-general}
+
+Epidemiology is a medical science and practical approach that is an integral part of social medicine and public health. The word originates from the Greek - "epi" - above, "demos" - people, and "logos" - science. Epidemiology studies the **causes** of diseases and their **distribution** in the population. The definition is based on two fundamental assumptions: frist, the occurrence of diseases in populations is not a purely random process, and second, it is determined by causal and preventive factors
+
+# Historical Development of Epidemiology 
+
+- The historical development of this science can be traced back to the time of Hippocrates. In his three books titled "Epidemics I", "Epidemics III", and "On Airs, Waters, and Places", Hippocrates attempted to describe disease from a rational perspective rather than as a supernatural manifestation. He observed that different diseases occurred in different places and introduced concepts such as epidemics and endemics.
+- However, the "father" of modern epidemiology is considered to be the English physician-anesthesiologist John Snow (1813–1858). While his name is associated with the application of chloroform for anesthesia, including for Queen Victoria, Snow is better known for his pioneering work in epidemiology. Twenty years before the development of the microscope, Snow conducted studies on cholera outbreaks to discover the cause of the disease and prevent its recurrence. As his work illustrates the classical sequence from *descriptive* epidemiology to *hypothesis generation*, *hypothesis testing* (analytical epidemiology), and *application* of knowledge in practical health measures, two of his studies will be described in detail.
+   1. Snow conducted one of his famous investigations in 1854 when a cholera outbreak occurred in Golden Square, London. He began his investigation by determining where the cholera patients lived and worked in that area. He **mapped out each residence on a map of the area**. Believing that water was the source of cholera infection, Snow marked the locations of the water pumps on his map (designated with the Latin letters A, B, C). He then sought a connection between the distribution of households with cholera cases and the location of the pumps. He observed that more households with cholera cases were clustered around pump "A" - the Broad Street pump, than around pumps "B" or "C". When he interviewed residents living in the vicinity of Golden Square, they told him they avoided pump B because it was heavily polluted, and pump C was inconveniently located for most of them. Based on this information, Snow concluded that the Broad Street pump (pump A) was the primary source of water for the region and the most likely source of infection for most cholera patients in the Golden Square area. However, he curiously noted that in the area of two blocks located east of the Broad Street pump, there were no cases of cholera. Upon investigation, Snow discovered that there was a brewery with a deep well located there. The brewery workers obtained water from this well, as well as a daily ration of malt alcohol. Access to these uncontaminated wells may explain why none of the brewery employees were infected with cholera. To **confirm** that the Broad Street pump was the source of the epidemic, Snow gathered information on where the cholera patients obtained water. Consumption of water from the Broad Street pump was the only common factor among cholera patients. After presenting his findings to municipal officials, despite some resistance, the pump was removed, and the pandemic outbreaks ceased. The site of the pump is now marked with a memorial plaque.
+   2. Snow's second investigation reexamines the data from the 1854 cholera epidemic in London. During the cholera epidemic a few years earlier, Snow noticed that areas with the highest mortality were served by two water supply companies: the Lambeth Company and the Southwark and Vauxhall Company. At that time, both companies obtained water from the River Thames at intake points located downstream from London, making them susceptible to contamination from London sewage, which was directly discharged into the river. To avoid contamination from London sewage, in 1852 the Lambeth Company relocated its intake to a location considerably upstream from London. Over a period of 7 weeks in the summer of 1854, Snow compared the cholera mortality rates in areas supplied by one or both water supply companies. Snow's collected data showed that the cholera mortality was more than 5 times higher in areas served exclusively by the Southwark and Vauxhall Company (downstream intake from London) than in areas served only by the Lambeth Company (upstream intake from London). These data were consistent with the hypothesis that water obtained from the Thames below London was a source of cholera. To **test his hypothesis** regarding water supply, Snow focused on areas served by both companies, as households within these areas were usually *comparable*, except for the water supply company. In these areas, Snow first determined the water supply company for each household where a cholera death had occurred during the 7-week period. Upon analyzing the data, a higher cholera mortality was found among households served by the Southwark and Vauxhall Company, supporting Snow's hypothesis. This systematic approach has actually been used by modern epidemiologists to investigate disease outbreaks. Following this investigation, efforts to control the epidemic were directed towards relocating the water intake of the Southwark and Vauxhall Company to avoid sources of contamination. In this way, without knowledge of microorganisms, Snow demonstrated that water could serve as a means of transmitting cholera and that epidemiological information could be used to guide prompt and appropriate public health actions.
+
+# Concepts
+
+- Epidemiology may be considered as minor to physical sciences because it does not investigate the biological mechanism leading from exposure to disease as, for example, toxicology does. However, the ability of identifying modifiable conditions that contribute to health outcomes without identifying the biological mechanisms or the agent(s) that lead to these outcomes is a strength of epidemiology: It is not always necessary to wait until the underlying mechanism is completely understood in order to facilitate preventive action. This is illustrated by the historical examples of the improvements of environmental hygiene that led to a reduction of infectious diseases like cholera that was possible before the identifciation of vibrio cholerae. 
+- What distinguishes epidemiology is its **perspective on groups or populations rather than individuals**. It is this demographic focus where statistical methods enter the feild and provide the tools needed to compare different characteristics relating to disease occurrence between populations. Epidemiology is a comparative discipline that contrasts occurrence of diseases and characteristics between different time periods, different places, or different groups of persons. The comparison of groups is a central feature of epidemiology, be it the comparison of morbidity or mortality in populations with and without a certain exposure or the comparison of exposure between diseased subjects and a control group. Inclusion of an appropriate reference group (non-exposed or non-diseased) for comparison with the group of interest is a condition for causal inference. 
+
+# Application of Epidemiological Knowledge 
+
+Epidemiological knowledge concerns populations. There are two ways to use this knowledge. **The frist is group-oriented**: It consists in applying knowledge about a specifcic population directly to this population itself. This is part of public health. The conceptually simplest applications of this kind concern the planning of the health system and of health strategies. The second path is taken when we are **confronted with an individual person**, typically in a clinical setting: We can then regard this person as a member of a population for which relevant epidemiological knowledge is available and deal with her or him accordingly. 
+
+# Difference between Epidemiology and Epidemiology of Infectious Diseases
+
+- Unlike the specialty of "Epidemiology of Infectious Diseases" (EID), general epidemiology (GE) focuses on **one** population.
+- In general epidemiology, risk factors are understood as elements with an increased risk of developing a disease, while EID considers the **infected individual** as a "risk factor" for others.
+- Essentially, GE attempts to discover the causes of diseases and assess their impact on the population, while in EID, the **causes are known** (infectious agent).
+
+# Objectives of Epidemiology
+
+Epidemiology pursues three major objectives: 
+
+- to describe the spectrum of diseases and their determinants
+- to identify the causal factors of diseases
+- to apply this knowledge to prevention and public health practice. 
+
+
+# Tasks of Epidemiology:
+
+1. *Identifying risk factors* that influence health and providing scientific support for health promotion and prevention.
+2. *Determining the significance and priority* of various factors affecting health.
+3. *Identifying populations at risk* for specific diseases.
+4. *Evaluating the effectiveness* of preventive and therapeutic programs.
+5. *Studying the natural course* of diseases.
+6. *Registering and tracking* the frequency of diseases.
+7. *Investigating disease outbreaks* ("epidemic") requires examining the extreme acting risk factor.
+
+# Natural History of Disease
+
+1. **Definition** - The natural history of disease represents a simplified model of the development of a disease from the moment of exposure to the risk factor to the final stage of chronicity, death, or recovery. The natural history (NH) of disease is one of the fundamental concepts in epidemiology. NH includes the following stages:
+   
+2. **Stages:**
+    1. *First Stage* - susceptibility stage. This stage occurs before a person develops a certain disease. During this stage, the individual is susceptible to the disease but has not yet been exposed to the risk factor.
+    2. *Second Stage* - exposure stage. During this stage, the individual is exposed to the risk factor. The risk factor may act with a small dose and over a prolonged period (occupational risk factors - microclimate, vibrations; smoking) or with a very high dose over a short period (poisoning, radiation, electric shocks).
+    3. *Third Stage* - asymptomatic period. During this stage, the individual does not exhibit symptoms but has developed the disease. In this stage, the individual may fully recover without seeking contact with the healthcare system. In infectious diseases, the individual may be infectious during this period. Usually, this period ends with the onset of clinical symptoms, prompting the seeking of medical assistance.
+    4. *Fourth Stage* - clinical diagnosis. In this stage, the individual seeks medical help. For some diseases, the clinical diagnosis may be made based solely on clinical symptoms, while for others, additional diagnostic procedures (laboratory, radiological, tomographic, biopsy, etc.) may be necessary. This period can be exceptionally long for some rare diseases or clinical entities not described until now. In 30% of cases, a diagnosis may not be made due to a lack of sufficient medical knowledge in the field.
+    5. *Fifth Stage* - disease development. During this period, after diagnosis, the individual begins etiological, pathogenetic, and/or symptomatic treatment. The disease develops according to the specifics of the organism and the effectiveness of the applied therapy.
+    6. *Sixth Stage* - Outcome of the disease. During this period, the individual may *fully recover*, *partially recover* - with limited functional abilities (chronification), or pass away.
+
+3. **Application of the Natural History of Disease**
+    1. *Development of preventive programs*. Understanding the natural history of a disease can help determine the stages of the disease where interventions can be most effective in preventing its spread. For example, if the disease has a long latent period, interventions aimed at detecting and treating the disease during this stage can be effective in preventing transmission.
+    2. *Effective treatment*. Knowing the natural history of a disease can help healthcare providers choose appropriate treatment at each stage of the disease. For example, medications may be more effective in the early stages of the disease than in later stages when irreversible damage may occur.
+    3. *Prognosis for disease outcome*. Understanding the natural history of a particular disease can help predict the likely outcome for each patient depending on their personal characteristics and health status. This information can be used to make treatment decisions and to counsel patients and their families.
+    4. *Disease control*. Understanding the natural history of a disease is essential for developing strategies to control or eliminate the disease. For example, in the case of an infectious disease, identifying the stages of the disease where transmission is most likely can serve as information for interventions aimed at controlling its spread.

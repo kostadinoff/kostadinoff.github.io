@@ -5,10 +5,9 @@ date: 2024-11-03
 description: "Материалът представя основната терминология за екстензивни и интензивни показатели както и метода на директна стандартизация."
 categories: 
   - "Bulgarian"
-  - "Statistics"
-  - "Class 1"
-  - "Standardization"
-  - "Terminology"
+  - "Medical Statistics"
+  - "Medicine, 2nd year"
+  - "Dental medicine, 2nd year"
 language: custom.yml
 title-meta: "Основна терминология. Стандартизация"
 author-meta: "Костадин Костадинов"

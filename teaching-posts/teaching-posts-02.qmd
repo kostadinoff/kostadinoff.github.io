@@ -5,10 +5,9 @@ date: 2024-11-04
 description: "The first practical class on medical ethics. Introduction to the field and the basic principles of medical ethics."
 categories: 
   - "English"
-  - "Ethics"
-  - "Class 1"
-  - "Principles"
-  - "Terminology"
+  - "Medical Ethics"
+  - "Medicine, 2nd year"
+  - "Dental medicine, 5th year"
 title-meta: "Medical ethics - Introduction and principles"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2024-11-03
