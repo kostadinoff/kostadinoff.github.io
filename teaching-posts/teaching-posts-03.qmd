@@ -7,8 +7,8 @@ categories:
   - "English"
   - "Public Health"
   - "Epidemiology"
-  - "Medicine 3rd year"
-  - "Dental medicine 5th year"
+  - "Medicine | 3rd year"
+  - "Dental medicine | 5th year"
 title-meta: "Epidemiology – definition, tasks, methods. Natural history of the disease"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2024-11-05

@@ -6,8 +6,8 @@ description: "The first practical class on medical ethics. Introduction to the f
 categories: 
   - "English"
   - "Medical Ethics"
-  - "Medicine 2nd year"
-  - "Dental medicine 5th year"
+  - "Medicine | 2nd year"
+  - "Dental medicine | 5th year"
 title-meta: "Medical ethics - Introduction and principles"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2024-11-03

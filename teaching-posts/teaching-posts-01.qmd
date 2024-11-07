@@ -6,8 +6,8 @@ description: "Материалът представя основната тер�
 categories: 
   - "Bulgarian"
   - "Medical Statistics"
-  - "Medicine 2nd year"
-  - "Dental medicine 2nd year"
+  - "Medicine | 2nd year"
+  - "Dental medicine | 2nd year"
 language: custom.yml
 title-meta: "Основна терминология. Стандартизация"
 author-meta: "Костадин Костадинов"
