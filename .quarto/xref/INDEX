@@ -1,46 +1,23 @@
 {
-  "about.qmd": {
-    "about.html": "19f07abe"
-  },
   "index.qmd": {
-    "index.html": "e1a76bf0"
-  },
-  "blog.qmd": {
-    "blog.html": "4d931340"
-  },
-  "Consulting.qmd": {
-    "Consulting.html": "c7ad9fb0"
+    "index.html": "d1c57307"
   },
   "CV.qmd": {
-    "CV.html": "70cfb43a",
-    "CV.tex": "b6503003",
-    "CV.typ": "7039ad33"
-  },
-  "stat-posts/stat-post-1.qmd": {
-    "stat-post-1.html": "18585a11"
-  },
-  "Stat (BG).qmd": {
-    "Stat (BG).html": "16624e87"
-  },
-  "Stat-BG.qmd": {
-    "Stat-BG.html": "4c8f6619"
-  },
-  "stat-posts/stat-posts-01.qmd": {
-    "stat-posts-01.html": "1423d056"
+    "CV.html": "2e498915"
   },
   "teaching-posts/teaching-posts-01.qmd": {
-    "teaching-posts-01.html": "10ac16a9"
-  },
-  "teaching.qmd": {
-    "teaching.html": "1086385e"
+    "teaching-posts-01.html": "fe98bbe8"
   },
   "teaching-posts/teaching-posts-02.qmd": {
-    "teaching-posts-02.html": "2a8c1d84"
+    "teaching-posts-02.html": "352d8bc3"
   },
   "teaching-posts/teaching-posts-03.qmd": {
-    "teaching-posts-03.html": "b783f7cf"
+    "teaching-posts-03.html": "d56bad08"
   },
   "teaching-posts/teaching-posts-04.qmd": {
-    "teaching-posts-04.html": "e3ebcfbb"
+    "teaching-posts-04.html": "d1cdb7a2"
+  },
+  "teaching.qmd": {
+    "teaching.html": "634fe1e3"
   }
 }
