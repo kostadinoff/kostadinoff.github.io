@@ -19,8 +19,6 @@ date-meta: 2024-11-03
 #| include: false
 #| warning: false
 library(tidyverse)
-
-
 theme_nice <- ggthemes::theme_tufte() +
   theme(
     axis.ticks = element_line(linewidth = 0.5, color = "black"),

@@ -38,80 +38,6 @@ library(janitor)
 #| include: false
 #| warning: false
 library(tidyverse)
-# # Define a custom theme
-# theme_nice <- ggthemes::theme_tufte() +
-#   theme(
-#     # Axis settings
-#     axis.line = element_line(color = "transparent", size = 0),
-#     axis.ticks.length = unit(0.35, "cm"),
-#     axis.title = element_text(size = 22, family = "Sofia Sans"),
-#     axis.ticks = element_line(linewidth = 0.5, color = "black"),
-#     axis.title.x = element_text(
-#       family = "Sofia Sans",
-#       size = 18,
-#       margin = margin(t = 15, b = 5)
-#     ),
-#     axis.title.y = element_text(
-#       family = "Sofia Sans",
-#       size = 18,
-#       margin = margin(r = 10, l = 5)
-#     ),
-#     axis.text.x = element_text(
-#       size = 13,
-#       colour = "black",
-#       margin = margin(t = 7),
-#       vjust = 0.5,
-#       family = "Sofia Sans"
-#     ),
-#     axis.text.y = element_text(
-#       size = 13,
-#       colour = "black",
-#       margin = margin(r = 7),
-#       vjust = 0.5,
-#       family = "Sofia Sans"
-#     ),
-#     
-#     # Legend settings
-#     legend.background = element_rect(color = "transparent", fill = "transparent"),
-#     legend.box.background = element_rect(color = "transparent", fill = "transparent"),
-#     legend.key = element_rect(color = "transparent", fill = "transparent"),
-#     legend.key.size = unit(1, "cm"),
-#     legend.text = element_text(size = 13, family = "Sofia Sans"),
-#     
-#     # Panel settings
-#     panel.border = element_rect(
-#       color = "transparent",
-#       fill = "transparent",
-#       linewidth = 0
-#     ),
-#     panel.spacing = unit(3, "cm"),
-#     panel.grid = element_blank(),
-#     panel.background = element_rect(color = "transparent", fill = "transparent"),
-#     
-#     # Plot settings
-#     plot.background = element_rect(fill = "transparent", color = "transparent"),
-#     plot.margin = margin(),
-#     plot.title = element_text(
-#       size = 16,
-#       face = "bold",
-#       hjust = 0,
-#       vjust = 2,
-#       family = "Sofia Sans"
-#     ),
-#     plot.subtitle = element_text(size = 16, family = "Sofia Sans"),
-#     plot.caption = element_text(
-#       size = 12,
-#       hjust = 1,
-#       family = "Sofia Sans"
-#     ),
-#     
-#     # Facet settings
-#     strip.background = element_rect(fill = "transparent", color = "transparent")
-#   )
-# 
-# # Set the custom theme
-# theme_set(theme_nice)
-
 theme_nice <- ggthemes::theme_tufte() +
   theme(
     axis.ticks = element_line(linewidth = 0.5, color = "black"),
@@ -145,7 +71,6 @@ theme_nice <- ggthemes::theme_tufte() +
       family = "Sofia Sans Condensed", 
       size = 16),
   )
-
 # Set the defined theme as the default theme
 theme_set(theme_nice)
 ```
@@ -271,7 +196,7 @@ heart_rate %>%
   ) +
   geom_rug() +
   guides(x = guide_axis(cap = "both"), y = guide_axis(cap = "both")) +
-  labs(x = "сърдечна честота", y = "") +
+  labs(x = "Сърдечна честота", y = "") +
   theme(axis.text.y = element_blank(), 
         axis.ticks.y = element_blank(),
         axis.line.y = element_blank())
