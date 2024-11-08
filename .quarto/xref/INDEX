@@ -19,5 +19,8 @@
   },
   "teaching.qmd": {
     "teaching.html": "634fe1e3"
+  },
+  "teaching-posts/teaching-posts-05.qmd": {
+    "teaching-posts-05.html": "db416b85"
   }
 }

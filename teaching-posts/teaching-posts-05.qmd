@@ -1,0 +1,218 @@
+---
+title: "Autonomy, informed consent and capacity to give valid consent"
+author: "Kostadin Kostadinov"
+date: 2024-11-04
+description: "The material covers the principles of autonomy, informed consent, and capacity to give valid consent in clinical practice."
+categories: 
+  - "English"
+  - "Medical Ethics"
+  - "Medicine | 2nd year"
+  - "Dental medicine | 5th year"
+title-meta: "Autonomy, informed consent and capacity to give valid consent"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-11-03
+---
+
+
+# Autonomy implementation in clinical practice 
+
+The word autonomy is derived from the Greek words auto (self) and nomos (law) — one who gives oneself own law. For full implementation of autonomy the following conditions have to be respected:
+
+1. Right to **information**
+2. Right to **confidence**
+3. Right to **privacy**
+
+
+## Right to Information
+
+Full information is an essential basis for any rational process through which an individual can form an opinion and reach a decision. The duty to inform is, therefore, among the basic tasks of every physician. Regarding language, form, and contents, information should be **adapted** to patient’s understanding; it should contain *all essential facts* upon which a decision is built. For chronic diseases, presenting information to a patient should be regarded as a process, rather than a single event: information changes along with the dynamics of the disease. The patient’s right to information corresponds to the physician’s virtue of veracity.
+
+## Right to Confidence
+
+Since the time of Hippocrates and other ancient healers, respect for confidence has been among the basic physician’s duties. Disrespect of confidence may affect patients’ autonomy since individuals not authorized by the patient may influence decision-making as well as infringing the patient’s privacy. Other patients’ rights and interests may also be affected. As an example, spreading the information about a genetic predisposition to a disease may affect individual’s interests regarding education, employment, health and life insurance, or choice of partner, and may also affect the lives of other family members.
+
+## Right to Privacy
+
+While the obligation to confidentiality corresponds to the right of a patient to control the flow of personal information, respecting privacy should protect a patient’s right not to be disturbed in his private world. The degree to which the right to privacy is respected may be the most obvious difference between state-owned and private providers of healthcare. Inadequate conditions in overcrowded hospitals lead to frequent disrespect of the right to privacy. During hospital rounds, patients are often interviewed or examined in the presence of other patients in the same room. However, we should not blame only the old hospital facilities: quite often, physicians and other health personnel do not even notice that their conduct is inappropriate.
+
+# Informed consent
+
+Decisions about medical treatment are ideally made following discussion, with the doctor’s clinical expertise and the patient’s individual needs and preferences being shared in order to select the best treatment option. The patient’s consent is then the **trigger that allows treatment or examination to take place**. Seeking consent from patients therefore forms a crucial part of the practice of almost every doctor. It is central to the partnership between doctor and patient, with each having a role in decisions about treatment or care. Patients should be listened to and their views respected in the course of discussion. This should involve the sharing of information required by patients in order for them to reach decisions for themselves. Consent is also the cornerstone in good medical practice.
+
+## General principles
+
+1. A patient gives consent when they has **capacity**, is adequately informed and voluntarily agrees to treatment, examination or another aspect of healthcare. Before examining or treating adult patients with capacity, doctors must obtain patient consent, **except in emergencies where it is not possible to do so or where the law prescribes otherwise**, for example where compulsory treatment is authorized by mental health legislation
+
+2.  Adults are always **presumed to have capacity*** unless demonstrated otherwise. Unexpected or apparently irrational decisions do not mean a patient lacks capacity, but may indicate a need for further information or explanation.
+
+3. For consent to be valid the patient must:
+    -  have capacity
+    -  be offered sufficient information to make an informed decision
+    -  be acting voluntarily and free from undue pressure
+    -  be aware that they can refuse.
+
+4. Patients may have capacity to make **some** healthcare decisions but not others. Their capacity may also **fluctuate** over time. Patients may give explicit or express consent orally, in writing or by other means of communication available to them. They may also imply consent non-verbally, for example by complying with the proposed examination or treatment. Adult patients with capacity are entitled to **refuse treatment**, even where treatment would clearly benefit them. The only exception to this rule is where the treatment is for a **mental disorder** and the patient is detained under mental health legislation.
+
+## The process of seeking consent
+
+Consent is not a one-off event, it **involves a process** of information giving and explanation that facilitates informed decision making. It is essential that informing and involving patients, in a way that they can understand, is not seen as ‘additional’ to medical practice, but as an integral part of it. In much of healthcare, informed patients indicate their consent through actions, such as opening their mouth for examination, offering an arm for blood pressure to be taken or attending a doctor and giving information about an illness. Consent that is indicated in this way is often termed **‘implied’** consent and applies only to the immediate procedure, and not necessarily to subsequent tests or treatment that flow from it. However, acquiescence when a patient does not know what the intervention entails, or that there is an option of refusing, is not ‘consent’. Consent that is given orally, in writing or via other means of communication available to the patient, is known as **‘explicit’**, or ‘express’, consent. A signed consent form is simply prima facie evidence that the process of information giving and explanation has taken place. It is the quality and clarity of the information provided, along with the capacity of the patient and the voluntariness of the consent given, which determine the its validity, rather than a signature on a piece of paper.
+
+
+## Type of information to be given
+
+You must fully inform the patient of the risks and benefits of each procedure in advance. The explanation must be in language that the patient understands and include full information regarding **alternative treatments**. The patient cannot make an informed choice for one treatment if they does not know the existence of others. The information should include:
+
+1. the diagnosis and prognosis;
+2. any uncertainties about the diagnosis or prognosis, including options for further investigations;
+3. options for treating or managing the condition, including the option not to treat;
+4. the purpose of a proposed investigation or treatment and what it will involve;
+5. the potential benefits, risks and burdens, and the likelihood of success, for each option;
+6. whether a proposed investigation or treatment is part of a research programme or is an innovative treatment designed specifically for their benefit; 
+7. how the proposed treatment differs from the usual methods, why it is being offered, and if there are any risks or uncertainties;
+8. the people who will be mainly responsible for and involved in their care, what their roles are, and to what extent students may be involved;
+9. their right to refuse to take part in teaching or research;
+10. their right to seek a second opinion;
+11. any bills they will have to pay;
+12. any conflicts of interest that the doctor, or healthcare organisation, may have;
+13. any treatments that the doctor believes have greater potential benefit for the patient than those that the doctor, or his or her healthcare organisation, can offer.
+
+
+## Refusing to receive information
+
+In most cases, doctors and patients decide together which treatment option would be the most appropriate. Doctors contribute their clinical knowledge and experience while patients bring their personal needs, preferences and values to the decision-making process. In some cases, however, patients do not want to know and ask their doctor to make the decision on their behalf. When this happens, doctors should try to find out why the patient feels this way, and explain the importance of knowing the options open to them and what the treatment will involve. Even if they continue to refuse, it is a **legal requirement** that basic information, such as what the treatment or procedure is intended to achieve and what it will involve, including any serious risks, be provided in order for consent to be valid. If patients insist that they do not want even this basic information, the doctor must explain the potential consequences of not receiving it; for example, their consent to the treatment or procedure may not be valid. Doctors must record the fact that a patient has declined basic information and make it clear to patients that they can change their minds and have more information at any time.
+
+Without basic information, patients **cannot make a valid choice** to delegate responsibility for treatment decisions to the doctor. The amount of basic information needed depends upon the individual circumstances, the severity of the condition and the risks associated with the treatment. Some doctors ask patients to sign a form confirming that they were offered information but declined it, both in order to emphasize the importance of the decision the patient is taking and to protect the doctor against future charges of failing to provide sufficient information. Others record each discussion that takes place in the medical notes. Either way, it is important to have thorough documentation of the information refusal, and to do so in a form that is easily accessible to others providing care for the patient
+
+## Documenting consent
+
+Doctors should make a note of the information provided in discussions they have with patients about the nature and purpose of more complex or ongoing procedures, or, for example, elective surgical interventions, when seeking consent. This is usually by recording contemporaneously in the health record that information has been provided and a discussion has taken place. **In many cases, there is no need for patients to indicate their agreement in writing**. 
+
+Where complex procedures are proposed, or there are significant risks associated with the procedure, consent forms are used to document the patient’s agreement. They are common, for example, in surgery. The form simply documents that some discussion about the procedure or investigation has taken place, but it is the quality and clarity of the information given, rather than a signature on a form, that is paramount.
+
+Written consent is needed when:
+
+1.  the investigation or treatment or procedure is complex or involves significant risks 
+
+2.  there may be significant consequences for the patient’s employment, or social or
+personal life
+
+3.  providing clinical care is not the primary purpose of the investigation or treatment
+
+4.  the treatment is part of a research programme or is an innovative treatment designed specifically for the patient’s benefit
+
+
+## The scope of consent
+
+### Duration
+
+Consent should be perceived as a **continuing process** rather than a one-off decision. Before beginning treatment, a member of the healthcare team should check that the patient still wants to go ahead. Doctors sometimes query the length of time for which consent is valid. In usual practice, this is not an issue because patients’ continued participation in treatment is an indication that they have not changed their minds. Occasionally, however, if treatment involves a number of invasive or complex procedures over a period of time, for example successive surgical interventions, it may be appropriate to ask for explicit, or even written, consent for each intervention. Sometimes there is a long period between the original consent being sought and the procedure being undertaken, during which time the patient’s condition or wishes may have changed, or new information may have become available. It is then important to reaffirm that the patient still consents to the procedure going ahead, even if no new information or explanations are needed. It is important that the patient is given **continuing opportunities to ask further questions** and to review the decision.
+
+### Exceeding consent
+
+**Consent is valid only insofar as it applies to the treatment** in question; so, for example, when a patient agrees to a surgical procedure, the surgeon cannot simply change their mind and perform a different or additional operation. If the patient signs a consent form for an operation on her left knee, you cannot, in the operating room, decide to operate on her right knee and assume that you have consent. If a patient signs a consent for an appendectomy, but when you open her up you find colon cancer, you cannot just do the colectomy without first informing the patient of the additional procedure and obtaining consent. There can be no presumption for consent for anything beyond what the patient specifically said they consented to. Either the patient has to sign consent in advance for the other procedures or they have to regain consciousness and have the additional procedure explained.
+
+The only time when doctors are justified in proceeding **without prior authority** is when it is essential to do so immediately in order to save life or prevent a serious deterioration in the patient’s condition, and it is not possible to obtain that person’s consent.
+
+## Informed refusal
+
+Patients are not obliged to justify their decisions to refuse treatment, but the healthcare team should ensure that patients base their decisions on accurate information and that they have corrected any misunderstandings. Just as patients giving consent should have sufficient accurate information, **those refusing should ideally have an awareness of their condition, the proposed treatment, any significant risks or side effects, the probability of a successful recovery, the consequences of not having the treatment and alternative forms of treatment**. Doctors must not put pressure on patients to decide in a particular way, but should allow them time to consider a decision with potentially serious consequences.
+
+**A refusal of a particular treatment does not imply a refusal of all treatment** or all facets of care. When a patient has refused treatment, alternative treatments and procedures intended to keep the patient comfortable and free from pain or discomfort should still be offered. In addition, **patients are entitled to change their minds about a decision, including a refusal**, at any time, so long as they have the capacity to do so. If there are circumstances in which not providing treatment at a given time would limit the options for providing treatment in the future, this should be made clear from the outset. For example, a cancer may be operable at the time a patient presents for treatment; if the patient refuses and then changes his or her mind a month later, the cancer might have progressed to a stage that is inoperable.
+
+## Capacity to give valid consent
+
+**Competence is a legal term**. Competency decisions transpire within the judicial system. Only a court can determine that a patient is incompetent. **All adult patients are considered competent** unless specifically proven otherwise. Physicians can determine whether or not a patient has the capacity to understand their medical condition. The physician makes a determination of the capacity to comprehend patients medical problems based on whether there is an organic delirium due to a clinical condition such as hypoxia, drug intoxication, meningitis, encephalitis, or a psychiatric disorder. These determinations are based in large part on a neurological tests on memory, comprehension, reasoning, and judgment. Any physician can make this determination not only psychiatrist. However, psychiatrist may be useful in rendering decision-making capacity determinations in cases that are complex or equivocal. If the patient obviously does or does not have the capacity to understand, a psychiatrist is not needed.
+
+### Minors
+
+By definition, a **minor is a person under the age of 18**. With some exceptions, minors are generally not considered competent to make their own decisions. Only a parent or a legal guardian can give consent for a minor. Neighbors, aunts, uncles, and grandparents cannot give consent. This rule **does not cover life-threatening or serious emergencies**. Consent is always implied for emergency treatment. A physician should not withhold blood or surgery in a life-threatening accident just because the parent is not present.
+
+A small number of minors, particularly at **older ages such as 16 or 17**, may be considered “emancipated” or freed of the need to have parental consent for any medical care. The criteria are that the minor is married, self-supporting and living independently, in the military, or the parent of a child that they themselves support. The criteria for being an emancipated minor relate to being no longer dependent on one’s parents for support. In other words, if the minor does not live with their parents, has a job, and is self-supporting financially, then the minor no longer is dependent upon parental consent for his actions. An emancipated minor is free to make health-care decisions in all areas, not only just STDs, prenatal care, contraception, or substance abuse.
+
+
+### Psychiastric patients 
+
+All suicidal patients are considered to lack capacity to understand because active suicidal ideation is deemed to be a sign of impaired judgment. In addition, the level of competence necessary to make financial decisions is different from that necessary for an informed refusal. In other words, a patient may have a history of bipolar disorder making it impossible for him to manage financial decisions. However, the same person might still be considered to have capacity to refuse treatment. There is a very limited demand placed on patients to establish capacity to refuse treatments.
+
+### Proxy decision making and the role of those close to the patient
+
+When patients lack the capacity to make decisions, others clearly need to make it on their behalf. Families and those close to the adult often feel that they are the natural decision makers, but the law is clear that they are only entitled to consent where they have been appointed as the patient’s proxy decision maker. **Surrogate decision-making does not refer to the ethical principle of autonomy, but rather to the ethical principle of beneficence**. When making a decision about a medical procedure for my child or for my elderly parents with dementia, one should not defend a decision that would be harmful. Children are not parents’ property, and parents share the duty to act in their best interests. The physician has the right and the duty to defend a child or another person with limited autonomy when a surrogate decision-maker acts against the patient’s best interests. In cases of disagreement, the interests of the child, or of another person with limited autonomy should prevail. The most appropriate resolution of such a disagreement is a rapid court decision.
+
+
+### Advanced Directives
+
+In cases of limited autonomy, the patient’s advanced directive is the second possibility to support a medical decision. Advanced directives are a logical consequence of the clash between the widening options of modern medical technologies to prolong life, and the increasing awareness of the right to control one’s own life, here including dignity when approaching the end of life. 
+
+Elderly, or patients with severe chronic diseases often wish to express their preference regarding treatment in case of **future incompetence and deterioration of their health**. Since nobody can envision all possible future scenarios, the contents of such advance directives are usually quite broad and include statements such as **refusal to be admitted to an intensive-care unit, or refusal of resuscitation**. 
+
+While advanced written directives remain rare in many countries (including Bulgaria), it is clear that this practice will become more common in future. Advanced directives may be written and signed, sometimes in the presence of a family physician. They may also be expressed orally, preferably in the presence of at least two witnesses. An advanced directive **has no absolute validity**. First, there is a time limit: many laws and regulations limit the validity of patients’ advanced directives to 5 years, after which the person should renew its validity. Physician should always strive to understand whether the patient really envisioned the current situation at the time when formulating an advanced directive. The nature of the current medical problem is important: while a successful antibiotic treatment of acute pneumonia may quickly return the patient to her previous state, such a scenario is clearly different from a decision to start long-lasting artificial ventilation. Even when presented with a clear advanced directive, the physician **should speak to a frail patient and try to get his or her current preference**. 
+
+# Summary – capacity to give valid consent
+
+- Adult patients are presumed to have capacity to make treatment decisions unless there is evidence to the contrary. 
+- A patient’s capacity should be assessed on an individual basis and should not be assumed on grounds of disability, age, appearance or the fact that the patient’s decisions appear to others to be irrational or unjustified.
+- Capacity is decision specific and patients’ abilities can fluctuate over time.
+- Patients should not be regarded as incapable of making or communicating a decision unless all practical steps have been taken to maximise their ability to do so.
+- Patients with capacity can make advance decisions or appoint a welfare attorney to make healthcare decisions on their behalf in the event that they lose capacity
+
+# Ethical cases in medical practice
+
+## Case 1
+
+10-year-old boy accidentally runs through a glass window at school and lacerates the radial artery. His teacher brings him to the emergency department. The boy is bleeding and needs both a blood transfusion and surgery to correct the defect. What should you do?
+
+
+## Case 2
+
+16-year-old girl comes to see you in clinic to discuss contraception. She is generally healthy but is not accompanied by a parent. What should you do?
+
+
+### Case 3
+
+16-year-old girl comes to see you in her first trimester of pregnancy. She is seeking an abortion. What should you do?
+
+## Case 4
+
+You inform a patient about the risks and benefits of bone marrow transplantation for chronic myelogenous leukemia. You fully inform the patient about the risk of transplantation, including the possibility of developing graft versus host disease. After the transplantation the patient develops graft versus host disease, which is hard to control. The patient learns that there is an alternative treatment called imitanib (gleevec) which you did not tell them about. Gleevec does not include the risk of graft versus host disease, but will not cure the leukemia. The patient files suit against you. What will be the most likely outcome of the suit?
+
+
+## Case 5
+
+A man an undergoes coronary angioplasty. He is informed that the artery may rupture and that there is a small chance he could bleed to death during the surgery to repair the damaged vessel. He knows he could have bypass surgery instead. He understands and chooses the angioplasty. He dies from a ruptured blood vessel. The family files suit against you. What will be the most likely outcome?
+
+
+## Case 6
+
+A 40-year-old man is undergoing a nasal polypectomy. In the operating room you see a lesion on the nasal turbinate that the frozen section determines to be a cancer. You have found the cancer early but will need to resect the nasal turbinate to cure it. What should you do?
+
+
+## Case 7
+
+64-year-old woman accompanied by her husband comes to the emergency room seeking treatment for chest pain. The patient clearly tells you that she wants to have her aorta repaired and she signs consent for the procedure. She later becomes hypotensive and loses consciousness. Her husband is now the decision maker and says, “Let her die.” What do you tell him?
+
+
+## Case 8
+
+You are an intern who has consulted surgery to place a subclavian central venous line. You only know access must be obtained. You do not know why the internal jugular approach is not being used. On the phone the surgical resident says, “Can you go get the consent while I am coming up?” What should you do?
+
+
+## Case 9
+
+A 64-year-old woman with MS is hospitalized. The team feels she may need to be placed on a feeding tube soon to assure adequate nourishment. They ask the patient about this in the morning and she agrees. However, in the evening (before the tube has been placed), the patient becomes disoriented and seems confused about her decision to have the feeding tube placed. She tells the team she doesn't want it in. They revisit the question in the morning, when the patient is again lucid. Unable to recall her state of mind from the previous evening, the patient again agrees to the procedure.
+
+Is this patient competent to decide? Which preference should be honored?
+
+
+## Case 10
+
+A 55-year-old man has a 3-month history of chest pain and fainting spells. You feel his symptoms merit cardiac catheterization. You explain the risks and potential benefits to him, and include your assessment of his likely prognosis without the intervention. He is able to demonstrate that he understands all of this, but refuses the intervention.
+
+Can he do that, legally? Should you leave it at that?
+
+## Case 11
+
+You are the attending physician at a chronic care facility. One of the residents, Mr. T, an 84-year-old war veteran with no living relatives, unable to look after himself owing to physical frailty and mild cognitive decline, develops gangrene in his foot due to poor circulation; it does not respond to medical treatment. Advised to have the foot amputated, Mr. T refuses, saying, “My foot will get better on its own. I’ve seen lots worse during the war!”
+
+## Case 12
+
+Ms. X., a 60-year-old woman with early-stage breast cancer, accompanied by her 25-year-old daughter, has come to see Dr. Y for a second opinion. The breast surgeon explains, as far as surgery goes, fortunately all she needs is breast-conserving surgery (BCS). Ms. X does not look relieved. With her daughter translating, she replies, “That’s what the other doctor said, too. But that’s not what I want!” Her daughter explains she wants a modified radical mastectomy, having no confidence in the first type of operation as one of her friends had a recurrence of breast cancer after it. Dr Y. is a little confused. She usually finds herself in the opposite position of trying to convince some women to have any surgery at all. Although Dr. Y describes the morbidity associated with radical surgery, Ms. X remains unconvinced. Her daughter explains this view of BCS is common in their culture.
