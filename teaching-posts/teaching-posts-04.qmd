@@ -30,8 +30,9 @@ library(ggridges)
 library(rstatix)
 library(tidyverse)
 library(broom)
-library(showtext)
 library(janitor)
+font_add(family = "Sofia Sans", regular = "SofiaSansCondensed-Thin.ttf")
+showtext_auto()
 ```
 
 ```{r}
