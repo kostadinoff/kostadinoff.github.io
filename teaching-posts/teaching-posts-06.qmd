@@ -5,7 +5,8 @@ date: 2024-11-04
 description: "Risk factors are characteristics that increase the chance of disease or adverse outcomes. Causality assessment is essential to determine whether these associations are causal. Bradford Hill’s criteria provide a systematic approach to assess causation, including strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment, and analogy."
 categories: 
   - "English"
-  - "Epistemology"
+  - "Public Health"
+  - "Epidemiology"
   - "Medicine | 3rd year"
   - "Dental medicine | 5th year"
 title-meta: "Risk factors, causality. Bradford Hill’s criteria"

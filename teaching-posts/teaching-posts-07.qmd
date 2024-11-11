@@ -5,7 +5,8 @@ date: 2024-11-04
 description: "Measurement of disease involves quantifying disease frequency, typically through prevalence, incidence, and mortality rates. Accurate exposure measurement assesses the extent, duration, and intensity of contact with potential risk factors. Together, these metrics enable risk assessment, which evaluates the likelihood of adverse health outcomes from specific exposures. This process combines epidemiological data with statistical models to estimate the probability and severity of health risks, guiding public health interventions and policy decisions."
 categories: 
   - "English"
-  - "Epistemology"
+  - "Public Health"
+  - "Epidemiology"
   - "Medicine | 3rd year"
   - "Dental medicine | 5th year"
 title-meta: "Measurement of diseases and exposure. Risk assessment"
