@@ -14,7 +14,7 @@ author-meta: "Kostadin Kostadinov"
 date-meta: 2024-11-11
 ---
 
-# Definition of Terms:
+# Definitions
 
 1. Illness - Refers to the actual manifestation of a pathological condition or disease in an individual. It encompasses the symptoms and signs experienced by the person and is often the reason for seeking medical attention or treatment.
 2. Disease - Describes a pathological condition or disorder that involves a disturbance in the normal functioning of the body or its organs. It may be characterized by specific symptoms, signs, or abnormalities that can be diagnosed by healthcare professionals through clinical examination, laboratory tests, or imaging studies.
