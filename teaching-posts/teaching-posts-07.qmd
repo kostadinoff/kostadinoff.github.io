@@ -127,4 +127,4 @@ date-meta: 2024-11-11
 2. **Formula:** $$PEF = \frac{I_{population} - I_{unex}}{I_{population}}$$
 3. **Interpretation:** For example, if the population etiologic fraction is 88%, it means that 88 out of 100 cases of the disease in the entire population are a result of the action of the studied risk factor.
 
-![1731349985098](images/1731349985098.png)
+![Risk assessment indicators](images/1731349985098.png)
