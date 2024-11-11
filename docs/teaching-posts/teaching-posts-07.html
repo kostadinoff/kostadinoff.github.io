@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2024-11-11">
+<meta name="description" content="Measurement of disease involves quantifying disease frequency, typically through prevalence, incidence, and mortality rates. Accurate exposure measurement assesses the extent, duration, and intensity of contact with potential risk factors. Together, these metrics enable risk assessment, which evaluates the likelihood of adverse health outcomes from specific exposures. This process combines epidemiological data with statistical models to estimate the probability and severity of health risks, guiding public health interventions and policy decisions.">
+
+<title>Measurement of diseases and exposure. Risk assessment – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-00cf8c64da4471281cad4f5b300ba6b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Measurement of diseases and exposure. Risk assessment – Kostadin Kostadinov">
+<meta name="twitter:description" content="Measurement of disease involves quantifying disease frequency, typically through prevalence, incidence, and mortality rates. Accurate exposure measurement assesses the extent, duration, and intensity of contact with potential risk factors. Together, these metrics enable risk assessment, which evaluates the likelihood of adverse health outcomes from specific exposures. This process combines epidemiological data with statistical models to estimate the probability and severity of health risks, guiding public health interventions and policy decisions.">
+<meta name="twitter:image" content="images/iceberg.png">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#definition-of-terms" id="toc-definition-of-terms" class="nav-link active" data-scroll-target="#definition-of-terms">Definition of Terms:</a>
+  <ul class="collapse">
+  <li><a href="#measures-of-diseases" id="toc-measures-of-diseases" class="nav-link" data-scroll-target="#measures-of-diseases">Measures of Diseases</a></li>
+  <li><a href="#measures-of-exposure" id="toc-measures-of-exposure" class="nav-link" data-scroll-target="#measures-of-exposure">Measures of Exposure:</a></li>
+  <li><a href="#incidence" id="toc-incidence" class="nav-link" data-scroll-target="#incidence">Disease Incidence</a></li>
+  <li><a href="#prevalence" id="toc-prevalence" class="nav-link" data-scroll-target="#prevalence">Disease Prevalence</a></li>
+  <li><a href="#measures-of-exposure-1" id="toc-measures-of-exposure-1" class="nav-link" data-scroll-target="#measures-of-exposure-1">Measures of Exposure</a></li>
+  <li><a href="#rr" id="toc-rr" class="nav-link" data-scroll-target="#rr">Relative Risk</a></li>
+  <li><a href="#ar" id="toc-ar" class="nav-link" data-scroll-target="#ar">Atributive Risk</a></li>
+  <li><a href="#or" id="toc-or" class="nav-link" data-scroll-target="#or">Odds Ratio</a></li>
+  <li><a href="#risk_diff" id="toc-risk_diff" class="nav-link" data-scroll-target="#risk_diff">Risk Difference (Attributable Risk)</a></li>
+  <li><a href="#ef" id="toc-ef" class="nav-link" data-scroll-target="#ef">Etiologic Fraction (EF) also attributable fraction in the exposed</a></li>
+  <li><a href="#par" id="toc-par" class="nav-link" data-scroll-target="#par">Population Attributable Risk (PAR)</a></li>
+  <li><a href="#pef" id="toc-pef" class="nav-link" data-scroll-target="#pef">Population Etiologic Fraction (PEF)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Measurement of diseases and exposure. Risk assessment</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">English</div>
+    <div class="quarto-category">Epistemology</div>
+    <div class="quarto-category">Medicine | 3rd year</div>
+    <div class="quarto-category">Dental medicine | 5th year</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Measurement of disease involves quantifying disease frequency, typically through prevalence, incidence, and mortality rates. Accurate exposure measurement assesses the extent, duration, and intensity of contact with potential risk factors. Together, these metrics enable risk assessment, which evaluates the likelihood of adverse health outcomes from specific exposures. This process combines epidemiological data with statistical models to estimate the probability and severity of health risks, guiding public health interventions and policy decisions.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kostadin Kostadinov </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 4, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="definition-of-terms" class="level1">
+<h1>Definition of Terms:</h1>
+<ol type="1">
+<li>Illness - Refers to the actual manifestation of a pathological condition or disease in an individual. It encompasses the symptoms and signs experienced by the person and is often the reason for seeking medical attention or treatment.</li>
+<li>Disease - Describes a pathological condition or disorder that involves a disturbance in the normal functioning of the body or its organs. It may be characterized by specific symptoms, signs, or abnormalities that can be diagnosed by healthcare professionals through clinical examination, laboratory tests, or imaging studies.</li>
+<li>Sickness - This term is often used interchangeably with illness or disease and generally refers to a state of poor health or being unwell. It can encompass both physical and mental aspects of health and well-being and may involve various symptoms, discomfort, or impairment of normal activities.</li>
+<li><strong>Morbidity Iceberg</strong> - The Morbidity Iceberg, often referred to simply as the “Iceberg of Disease,” is a conceptual model used in epidemiology and public health to illustrate the discrepancy between reported or diagnosed cases of a disease and the actual total number of cases within a population. It is called an “iceberg” because, like an iceberg, only a small portion is visible above the surface, while the majority remains hidden beneath.
+<ol type="1">
+<li>Visible Portion: This represents the reported or diagnosed cases of a particular disease. These are the cases that have come to the attention of healthcare providers, typically through seeking medical care or through active surveillance by public health authorities. These cases are recorded in official health records and databases.</li>
+<li>Hidden Portion: This refers to the undetected or unreported cases of the disease within the population. These cases may go unnoticed for various reasons, such as mild symptoms that do not prompt individuals to seek medical attention, lack of access to healthcare services, underdiagnosis by healthcare providers, or asymptomatic infections. Additionally, some cases may be misdiagnosed or not properly documented.</li>
+<li>Factors Contributing to the Hidden Portion:
+<ol type="1">
+<li>Access to Healthcare</li>
+<li>Diagnostic Practices</li>
+<li>Stigma and Social Factors</li>
+<li>Asymptomatic Cases</li>
+</ol></li>
+</ol></li>
+</ol>
+<div id="fig-iceberg" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-iceberg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/iceberg.png" class="img-fluid figure-img" style="width:3in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-iceberg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Disease Iceberg. The visible part of the iceberg of disease is a collection of discovered and diagnosed diseases known to the health service. The invisible part is a collection of diseases for which medical assistance has not been sought.
+</figcaption>
+</figure>
+</div>
+<section id="measures-of-diseases" class="level3">
+<h3 class="anchored" data-anchor-id="measures-of-diseases">Measures of Diseases</h3>
+<ol type="1">
+<li><strong>Absolute Number of Cases</strong> - Has limited significance in epidemiology. It is useful for administrative purposes, but it does not provide a measure of the magnitude of the problem in the population.</li>
+<li><strong>Frequency Coefficients</strong> - Two types of frequency coefficients are used in epidemiology: the <strong>incidence</strong> and the <strong>prevalence</strong>.
+<ul>
+<li><strong>Incidence</strong> - Measures the rate of occurrence of <em>new cases</em> of a disease in a defined population over a specified period.</li>
+<li><strong>Prevalence</strong> - Measures the proportion of individuals in a population who have a particular disease at a specific point in time.</li>
+</ul></li>
+<li><strong>Proportions</strong> - Structural, extensive indicators where the numerator is a part of the denominator. Expressed as a percentage (%).</li>
+</ol>
+</section>
+<section id="measures-of-exposure" class="level3">
+<h3 class="anchored" data-anchor-id="measures-of-exposure">Measures of Exposure:</h3>
+<ol type="1">
+<li><a href="#rr"><strong>Relative Risk</strong></a></li>
+<li><a href="#ar"><strong>Atributive Risk</strong></a></li>
+<li><a href="#or"><strong>Odds Ratio</strong></a></li>
+<li><a href="#risk_diff"><strong>Risk Difference (Attributable Risk)</strong></a></li>
+<li><a href="#ef"><strong>Attributable Fraction in the Exposed</strong></a></li>
+<li><a href="#par"><strong>Population Attributable Risk</strong></a></li>
+<li><a href="#pef"><strong>Population Attributable Fraction</strong></a></li>
+</ol>
+</section>
+<section id="incidence" class="level3">
+<h3 class="anchored" data-anchor-id="incidence">Disease Incidence</h3>
+<ol type="1">
+<li><strong>Definition:</strong> Incidence is a dynamic measure that assesses the frequency of <em>new cases</em> of a disease during a specified period in a population at risk.</li>
+<li><strong>Types of Indicators:</strong>
+<ol type="1">
+<li><strong>Incidence Rate:</strong> This indicator provides insight into the rate at which new cases of a disease occur within a population over a specific period. It is calculated by dividing the number of new cases of disease or injury during a specified period by the total time each person was observed, summed for all individuals in the population at risk. This measure is often expressed per unit time (e.g., per 1,000 person-years). A higher incidence rate indicates a higher risk of acquiring the disease within the population.<span class="math display">\[I_{rate} = \frac{new~cases~of~disease~or~injury~during~specified~period}{Time~each~person~was~observed~totaled~for~all~people}\cdot{10}^n \]</span></li>
+<li><strong>Cumulative Incidence:</strong> This indicator offers a broader perspective by measuring the proportion of individuals who develop the disease within the initial population at risk over a specified period. Also known as the attack rate or risk, cumulative incidence is calculated by dividing the number of new cases of disease or injury by the size of the population at the start of the period. This measure provides a clear understanding of the risk of developing the disease within a defined population during a specific timeframe. <span class="math display">\[CI = \frac{New~cases~of~disease~or~injury}{Size~of~population~at~start~of~period}\cdot{10}^n \cdot t\]</span></li>
+</ol></li>
+<li><strong>Significance:</strong>
+<ul>
+<li><strong>Increased Incidence:</strong> An increase in disease incidence may indicate various factors such as strong acting risk factors (e.g., exposure to radiation, natural disasters), low levels of prevention (e.g., lack of vaccination, poor sanitation), or epidemiological outbreaks (e.g., infectious diseases). Monitoring changes in disease incidence can help identify emerging health threats and inform public health interventions.</li>
+<li><strong>Decreased Incidence:</strong> A decrease in disease incidence may result from effective prevention strategies (primarily primary prevention) and the efficient organization of healthcare services. It indicates successful efforts in reducing the risk of disease within a population and improving overall health outcomes.</li>
+</ul></li>
+</ol>
+</section>
+<section id="prevalence" class="level3">
+<h3 class="anchored" data-anchor-id="prevalence">Disease Prevalence</h3>
+<ol type="1">
+<li><strong>Definition:</strong> Prevalence, sometimes referred to as the frequency of occurrence, represents the proportion of individuals in a given population who have a specific disease or condition at a particular point in time or over a specified period. Unlike incidence, which focuses solely on new cases, prevalence includes both new and pre-existing cases at a given moment. The formula for prevalence is <span class="math display">\[P= \frac{all~new~cases~and~pre-existing~cases~of~disease~or~injury}{Population~during~the~same~time~period}\cdot{10}^n\]</span></li>
+<li><strong>Types of Indicators:</strong>
+<ol type="1">
+<li><strong>Point Prevalence:</strong> This indicator measures the proportion of individuals with a specific disease or condition on a particular date.</li>
+<li><strong>Period Prevalence:</strong> This indicator measures the proportion of individuals with a specific disease or condition at any time during a specific interval.</li>
+</ol></li>
+<li><strong>Significance:</strong>
+<ol type="1">
+<li><strong>Distinguishing Prevalence from Incidence:</strong>
+<ul>
+<li>The numerator of incidence consists only of individuals whose disease began within a specified interval.</li>
+<li>The numerator of prevalence includes all individuals who have the disease for a specific reason during the specified interval, regardless of when the disease started. It includes not only new cases but also pre-existing cases, representing individuals who remained ill for some part of the specified interval.</li>
+</ul></li>
+<li><strong>Factors Influencing Prevalence:</strong>
+<ul>
+<li><strong>Increased Prevalence:</strong> Prevalence tends to increase with longer durations of diseases (chronic conditions), lower disease mortality rates, more effective therapies for maintaining health, increased exposure to risk factors, immigration of sick or predisposed individuals, emigration of healthy individuals, and advancements in diagnostic methods.</li>
+<li><strong>Decreased Prevalence:</strong> Prevalence decreases with diseases with high mortality rates, acute conditions with rapid recovery, reduction in disease incidence, immigration of healthy individuals, and emigration of sick individuals.</li>
+</ul></li>
+</ol></li>
+</ol>
+</section>
+<section id="measures-of-exposure-1" class="level3">
+<h3 class="anchored" data-anchor-id="measures-of-exposure-1">Measures of Exposure</h3>
+</section>
+<section id="rr" class="level3">
+<h3 class="anchored" data-anchor-id="rr">Relative Risk</h3>
+<ol type="1">
+<li><strong>Definition:</strong> Relative risk is a measure of the association between a particular disease or condition and the factor or exposure under investigation. It represents the ratio of the incidence of the disease among the exposed to the incidence of the disease among the unexposed group. It serves as a measure of the strength of the relationship between the factor and the disease. The values can range from 0 to + infinity.</li>
+<li><strong>Formula:</strong> <span class="math display">\[RR = \frac{I_{e}}{I_{unex}}\]</span></li>
+<li><strong>Interpretation:</strong>
+<ol type="1">
+<li>Relative Risk = 1 means that the incidence among the exposed is equal to the incidence among the unexposed, indicating no association between the exposure and the disease.</li>
+<li>A value greater than 1 indicates that the incidence among the exposed is higher compared to that among the unexposed, meaning that the exposure is a factor that increases the likelihood of developing the disease.</li>
+<li>A relative risk value less than 1 indicates a lower incidence among the unexposed, meaning that the exposure reduces the likelihood of developing the disease, indicating a protective effect.</li>
+</ol></li>
+</ol>
+</section>
+<section id="ar" class="level3">
+<h3 class="anchored" data-anchor-id="ar">Atributive Risk</h3>
+<ol type="1">
+<li><strong>Definition:</strong> Attributable risk is the rate (proportion) of a disease or other outcome in exposed individuals that can be attributed to the exposure. This is a more useful term for public health purposes as it reflects the amount, usually expressed as a percentage, <strong>by which the risk of a disease is reduced by elimination or control of a particular exposure</strong>. Using attributable risk, it is possible to estimate the number of people spared the consequences of exposure, by subtracting the rate of the outcome (usually incidence or mortality) among the unexposed from the rate among the exposed individuals.</li>
+<li><strong>Formula:</strong> <span class="math display">\[AR = I_{e} - I_{unex}\]</span></li>
+<li><strong>Interpretation:</strong> For example, if there were 6 deaths per 100 among smokers, and 1 death per 100 in non-smokers, the attributable risk would be 5 per 100. This assumes that causes other than the one under investigation have had equal effects on the exposed and unexposed groups.</li>
+</ol>
+</section>
+<section id="or" class="level3">
+<h3 class="anchored" data-anchor-id="or">Odds Ratio</h3>
+<ol type="1">
+<li><p><strong>Definition:</strong> The odds ratio is a relative measure of risk that quantifies the likelihood of exposed individuals developing a disease compared to the likelihood of unexposed individuals developing the same disease. The odds ratio is a way to compare whether the probability of an event occurring is the same for two groups.</p></li>
+<li><p><strong>Formula:</strong> <span class="math display">\[OR = \frac{Odds_{e}}{Odds_{unex}}\]</span></p></li>
+<li><p><strong>Interpretation:</strong></p>
+<ol type="1">
+<li>If the value is equal to 1, the probability of the event occurring is the same for both groups.</li>
+<li>A value greater than 1 indicates that the event is more likely to occur in the first group,</li>
+<li>a value less than 1 indicates that the event is more likely to occur in the second group.</li>
+</ol></li>
+</ol>
+</section>
+<section id="risk_diff" class="level3">
+<h3 class="anchored" data-anchor-id="risk_diff">Risk Difference (Attributable Risk)</h3>
+<ol type="1">
+<li><strong>Definition:</strong> The attributable risk, or risk difference, is the difference in incidence between the exposed and unexposed groups, i.e., it assesses the excess morbidity in the exposed group due to the impact of the studied risk factor. The attributable risk quantifies the risk in the exposed group that is attributable to the exposure. It represents the portion of morbidity that could be reduced or eliminated by removing the exposure.</li>
+<li><strong>Formula:</strong> <span class="math display">\[RD = AR = I_{e} - I_{unex}\]</span></li>
+<li><strong>Interpretation:</strong> For example, if the risk difference is 0.05, it means that 5 out of 100 individuals developed the disease as a result of the exposure.</li>
+<li><strong>Number Needed to Harm (NNH):</strong> This is the number of exposed individuals needed to develop one additional case of the disease. <span class="math display">\[NNH = \frac{1}{RD}\]</span></li>
+</ol>
+</section>
+<section id="ef" class="level3">
+<h3 class="anchored" data-anchor-id="ef">Etiologic Fraction (EF) also attributable fraction in the exposed</h3>
+<ol type="1">
+<li><strong>Definition:</strong> The attributable fraction in the exposed represents the relative proportion of diseased individuals in the exposed group who developed the disease as a result of the impact of the studied risk factor.</li>
+<li><strong>Formula:</strong>
+<ol type="1">
+<li><span class="math display">\[EF = \frac{I_{e} - I_{unex}}{I_{e}}\]</span></li>
+</ol>
+<ul>
+<li>Alternatively, if incidence data are not available, the relative risk (RR) can be used to calculate the EF <span class="math display">\[EF = \frac{RR - 1}{RR}\]</span></li>
+</ul></li>
+<li><strong>Interpretation:</strong> For example, if the attributable fraction in the exposed is 10%, it means that one-tenth of all diseased individuals in the exposed group developed the disease as a result of the impact of the studied risk factor.</li>
+</ol>
+</section>
+<section id="par" class="level3">
+<h3 class="anchored" data-anchor-id="par">Population Attributable Risk (PAR)</h3>
+<ol type="1">
+<li><strong>Definition:</strong> The population attributable risk assesses the proportion of all cases of the disease in the entire population (both exposed and unexposed) that are attributable to the exposure or the action of the risk factor. It evaluates the excess morbidity in the entire population attributable to the risk factor.</li>
+<li><strong>Formula:</strong> <span class="math display">\[PAR = I_{population} - I_{unex}\]</span></li>
+<li><strong>Interpretation:</strong> For example, a study in the USA in 1986 showed that the incidence of lung cancer among non-smokers was 8.7/100,000 per year, while in the entire population, it was 72.5/100,000 per year. The PAR of 63.8/100,000 per year is a result of smoking.</li>
+</ol>
+</section>
+<section id="pef" class="level3">
+<h3 class="anchored" data-anchor-id="pef">Population Etiologic Fraction (PEF)</h3>
+<ol type="1">
+<li><strong>Definition:</strong> The population etiologic fraction represents the relative proportion of morbidity in the entire population (both exposed and unexposed) that is a result of the action of the exposure.</li>
+<li><strong>Formula:</strong> <span class="math display">\[PEF = \frac{I_{population} - I_{unex}}{I_{population}}\]</span></li>
+<li><strong>Interpretation:</strong> For example, if the population etiologic fraction is 88%, it means that 88 out of 100 cases of the disease in the entire population are a result of the action of the studied risk factor.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/1731349985098.png" class="img-fluid figure-img"></p>
+<figcaption>1731349985098</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at kostadinr.kostadinov@mu-plovdiv.bg</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

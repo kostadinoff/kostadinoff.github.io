@@ -1,0 +1,81 @@
+---
+title: "Risk factors, causality. Bradford Hill’s criteria"
+author: "Kostadin Kostadinov"
+date: 2024-11-04
+description: "Risk factors are characteristics that increase the chance of disease or adverse outcomes. Causality assessment is essential to determine whether these associations are causal. Bradford Hill’s criteria provide a systematic approach to assess causation, including strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment, and analogy."
+categories: 
+  - "English"
+  - "Epistemology"
+  - "Medicine | 3rd year"
+  - "Dental medicine | 5th year"
+title-meta: "Risk factors, causality. Bradford Hill’s criteria"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-11-11
+---
+
+# Risk Factor
+
+1. **Definition:** Risk factor refers to characteristics or conditions that increase the likelihood of an individual or population developing a specific disease, injury, or adverse health outcome. A risk factor is an element associated with increased risk.
+2. Basic definitions:
+    1. Risk - The likelihood of an adverse event or disease occurrence.
+    2. Odds - The probability of an event happening (p) divided by the probability of the event not happening (q).
+3. Classification - Risk factors can be classified in several ways:
+    1. *Modifiable and Non-modifiable*: Modifiable risk factors are those that can be changed or managed, such as smoking, diet, or physical activity. Non-modifiable risk factors are those that cannot be changed, such as genetic characteristics.
+    2. *Behavioral and Environmental Factors*: Behavioral risk factors are related to individual choices and actions, such as smoking, alcohol consumption, and physical activity. Environmental risk factors are associated with the surrounding environment of the individual, such as exposure to pollution, infectious agents, or workplace hazards.
+    3. *Biological and Social*: Biological risk factors are linked to an individual's physiology and genetics, such as hormonal imbalances or inherited traits. Social risk factors are related to the social and economic environment of the individual, such as poverty, social isolation, or lack of access to healthcare.
+    4. *Proximal and Distal*: Proximal risk factors are those that directly contribute to the development of a particular disease or condition, such as high blood pressure or elevated blood glucose levels. Distal risk factors are those that indirectly contribute to the development of a disease or condition, such as socio-economic status or level of education.
+    5. *Primary and Secondary*: Primary risk factors are those directly associated with the development of a specific disease or condition, such as smoking and lung cancer. Secondary risk factors are those that increase the risk of developing a disease or condition indirectly, such as obesity and its association with diabetes and heart diseases.
+4. **Exposure:** The moment of contact between an individual and the risk factor. It includes the strength of the factor (power of exposure) and the duration of contact. Typically in epidemiology, individuals who have had contact with the risk factor are called exposed, while those without contact are termed unexposed.
+5. **Risk Group:** A group of the population with an increased risk of disease, sharing common risk factors.
+    1. Low-risk groups: Not exposed to the influence of any known risk factor.
+    2. Moderate-risk groups: Exposed to moderate effects of one or several risk factors.
+    3. High-risk groups: Exposed to multiple risk factors over an extended period.
+    4. Very high-risk groups: Groups with known inherited risk factors - genetic predisposition.
+6. **Leading Risk Factors**
+    1. Behavioral Risk Factors:
+        1. Smoking
+        2. High alcohol consumption
+        3. Low physical activity
+        4. Unhealthy diet
+    2. Secondary Risk Factors:
+        1. Arterial hypertension
+        2. Overweight
+        3. Hypercholesterolemia
+        4. Hyperglycemia
+
+## Causality
+
+1. **Definition:** The concept of "causality" is fundamental to applied epidemiology. In its definition, epidemiology attempts to uncover the "causes" of diseases. In the broadest sense, a "cause" is understood as an event or phenomenon that leads to a subsequent event or phenomenon called a result. Determining the "cause" of diseases is crucial for social medicine because:
+    1. It allows for the introduction of health actions preventing contact with risk factors for disease in healthy individuals (primary prevention).
+    2. It clarifies the mechanism of interaction between risk factors and the body and establishes the natural course of the disease.
+    3. It introduces specific activities for early detection of the diseased (secondary prevention).
+    4. It provides opportunities for in-depth research on diseases, discovery, and implementation of specific therapy and rehabilitation (tertiary prevention).
+2. **Types of Epidemiological Relationships:** The concept of causality in epidemiology is quite complex. Two types of relationships are possible:
+    1. *Direct* - an association (correlation) between the factor and the result, with or without a true cause-effect relationship between them. When two phenomena are related but there is no cause-effect relationship, we refer to it as "*parallelism*."
+    2. *Indirect* - it is also possible for "*third*" or more factors to "blur" the true cause-effect relationship between phenomena or to modify (increase or decrease) the manifestation thereof.
+3. **Mechanisms:** From the perspective of causality theory, a factor can cause a disease through the following mechanisms:
+    1. The factor is *necessary and sufficient*. An example of such interaction is monogenic diseases. In this group of diseases, the factor represents a genetic structural anomaly that leads to a phenotypic change.
+    2. The factor is *necessary but not sufficient*. Many infectious diseases, for example, require additional factors besides the infectious agent. Tuberculosis bacteria are necessary for the manifestation of acute miliary tuberculosis, but they are not sufficient to cause it alone. Here, the interaction of the infectious agent with other factors in the body and the environment, which modify its effect (modifiers), is primarily important.
+    3. The factor is *not necessary but sufficient*. An example of such interaction is some oncological diseases. Smoking is a proven risk factor of lung cancer. Independently, it is sufficient for this disease. However, smoking is not "necessary" as an obligatory element for the onset of the disease. Other factors alone or in interaction with each other can cause the same disease in non-smokers.
+    4. The factor is *neither necessary nor sufficient*. These are factors that have been mistakenly considered "etiological" or "risk" factors for the onset of the disease. However, it is established that they are neither necessary nor sufficient to cause it.
+4. **Types of Interactions between Factor (Cause) and Result:** Despite the various types of interactions between different factors in the genesis of the disease, from an epidemiological point of view, three types of interfactor interactions can be presented schematically and simplified.
+   1. **Chain Interaction: Mediator/Modifier Type:** In this form of interaction, a single risk factor alone is potent enough to incite a particular ailment. However, the involvement of a third factor, often termed a "mediator," intercedes in the connection between the risk factor and the disease manifestation. For instance, the relationship between smoking and cerebrovascular disease -  while smoking can directly lead to cerebrovascular issues, it can also induce arterial hypertension, which subsequently increases the risk of cerebrovascular disease. Moreover, within this model, there's discussion about modifying interactions, where an additional factor alters the impact of the risk factor, either attenuating or amplifying it. Such alterations may exhibit:
+    1. *Multiplicative* effects (significantly stronger when combined).
+    2. *Additive* effects (the combined influence of the modifier and the risk factor).
+2. **Divergent Interaction: Confounding Factor Type:** This scenario involves a factor that acts as a common underlying cause for both the risk factor and the disease outcome. In clinical epidemiology, common confounding factors include gender and age. Despite being often categorized as "*risk*" factors, gender and age should more accurately be labeled as "*prognostic*", rather than direct *causes* of diseases. For example, when exploring the link between coffee consumption and myocardial infarction, while coffee intake might be perceived as a direct risk factor, upon separate examination within smoker and non-smoker groups, the link disappear. Here, coffee consumption acts as a confounding factor, while the actual cause-effect relationship lies between smoking and heart attacks. The process of segregating individuals based on such factors is known as "stratification."
+3. **Cumulative Interaction (Collier):** This type involves a factor that emerges as a shared outcome of both the risk factor and the disease itself. For instance, a study conducted by Sackett in 1979, where an analysis of hospitalized patients found a correlation between locomotor deficits and infectious lung diseases. Initially appearing as a plausible association, later scrutiny in a sample of non-hospitalized individuals failed to establish such a relationship. This discrepancy underscores the nuanced nature of disease interactions, wherein seemingly related conditions might, upon closer examination, reveal independent pathways to the same outcome, such as hospitalization.
+
+## Bradford Hill Criteria
+
+1. **Definition:** Bradford-Hill endeavors to introduce criteria that should be met to determine a causal relationship between two factors. His work remains foundational in epidemiology and causality theory.
+2. **Criteria:**
+    1. *Strength of Association:* The stronger the statistical association between phenomena, the more likely the relationship between them is causal.
+    2. *Consistency (Reproducibility):* The findings should be reproducible by other researchers, at different times, in different places, and using different methods, with explanations for any discrepancies.
+    3. *Specificity of Association:* The more precisely the disease and exposure to the presumed risk factor can be defined, the stronger the observed association.
+    4. *Temporal Relationship:* The presumed cause must always precede the effect in time. This is the only obligatory criterion.
+    5. *Biological Gradient:* Changes in the intensity of exposure to the presumed risk factor lead to corresponding changes in the level of disease occurrence.
+    6. *Plausibility:* The association must have a logical explanation in line with general medical knowledge and science.
+    7. *Coherence:* All observations and results should be consistent with the hypothetical model.
+    8. *Experimental Evidence:* In experimental conditions, changes in the cause should lead to changes in the outcome.
+    9. *Analogy:* The association should resemble similar described phenomena and events.
+3. **Mandatory Criterion:** Temporal relationship
