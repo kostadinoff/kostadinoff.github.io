@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Костадин Костадинов">
+<meta name="dcterms.date" content="2024-11-08">
+<meta name="description" content="Материалът представя основните правила при тестването на хипотези, видовете грешки, мощността на статистическия тест и видовете статистически тестове. Представен е и Т-тестът като статистически метод за тестване на разликата в средните стойности на две независими групи.">
+
+<title>Тест на хипотеза. Т-тест – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-00cf8c64da4471281cad4f5b300ba6b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Без резултат",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Копирай линка за търсене",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Тест на хипотеза. Т-тест – Kostadin Kostadinov">
+<meta name="twitter:description" content="Материалът представя основните правила при тестването на хипотези, видовете грешки, мощността на статистическия тест и видовете статистически тестове. Представен е и Т-тестът като статистически метод за тестване на разликата в средните стойности на две независими групи.">
+<meta name="twitter:image" content="teaching-posts-08_files/figure-html/fig-pulse-1.png">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">На тази страница</h2>
+   
+  <ul>
+  <li><a href="#важни-правила-от-дескриптивната-и-инферентна-статистика" id="toc-важни-правила-от-дескриптивната-и-инферентна-статистика" class="nav-link active" data-scroll-target="#важни-правила-от-дескриптивната-и-инферентна-статистика">Важни правила от дескриптивната и инферентна статистика</a></li>
+  <li><a href="#тест-на-хипотези" id="toc-тест-на-хипотези" class="nav-link" data-scroll-target="#тест-на-хипотези">Тест на хипотези</a>
+  <ul class="collapse">
+  <li><a href="#видове-грешки" id="toc-видове-грешки" class="nav-link" data-scroll-target="#видове-грешки">Видове грешки</a></li>
+  <li><a href="#мощност" id="toc-мощност" class="nav-link" data-scroll-target="#мощност">Мощност</a></li>
+  <li><a href="#видове-статистически-тестове" id="toc-видове-статистически-тестове" class="nav-link" data-scroll-target="#видове-статистически-тестове">Видове статистически тестове</a></li>
+  <li><a href="#статистическа-и-клинична-значимост" id="toc-статистическа-и-клинична-значимост" class="nav-link" data-scroll-target="#статистическа-и-клинична-значимост">Статистическа и клинична значимост</a></li>
+  </ul></li>
+  <li><a href="#t-тест" id="toc-t-тест" class="nav-link" data-scroll-target="#t-тест">T-тест</a>
+  <ul class="collapse">
+  <li><a href="#условия-за-използване-на-т-тест-15" id="toc-условия-за-използване-на-т-тест-15" class="nav-link" data-scroll-target="#условия-за-използване-на-т-тест-15">Условия за използване на Т тест </a></li>
+  <li><a href="#т-тест-за-количествени-признаци" id="toc-т-тест-за-количествени-признаци" class="nav-link" data-scroll-target="#т-тест-за-количествени-признаци">Т-тест за количествени признаци</a>
+  <ul class="collapse">
+  <li><a href="#дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1" id="toc-дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1" class="nav-link" data-scroll-target="#дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1">Дефиниране на нулева хипотеза <span class="math inline">\({H_0}\)</span> и алтернативна хипотеза <span class="math inline">\({H_1}\)</span></a></li>
+  <li><a href="#определяне-на-риска-за-грешка-alpha" id="toc-определяне-на-риска-за-грешка-alpha" class="nav-link" data-scroll-target="#определяне-на-риска-за-грешка-alpha">Определяне на риска за грешка <span class="math inline">\({\alpha}\)</span></a></li>
+  <li><a href="#определянето-на-средната-аритметична-и-стандартното-отклонение-в-двете-групи-19" id="toc-определянето-на-средната-аритметична-и-стандартното-отклонение-в-двете-групи-19" class="nav-link" data-scroll-target="#определянето-на-средната-аритметична-и-стандартното-отклонение-в-двете-групи-19">Определянето на средната аритметична и стандартното отклонение в двете групи </a></li>
+  <li><a href="#изчисляване-на-t-статистиката" id="toc-изчисляване-на-t-статистиката" class="nav-link" data-scroll-target="#изчисляване-на-t-статистиката">Изчисляване на t-статистиката</a></li>
+  <li><a href="#изчисляване-на-p-стойността" id="toc-изчисляване-на-p-стойността" class="nav-link" data-scroll-target="#изчисляване-на-p-стойността">Изчисляване на p стойността</a></li>
+  <li><a href="#статистически-извод" id="toc-статистически-извод" class="nav-link" data-scroll-target="#статистически-извод">Статистически извод</a></li>
+  <li><a href="#важни-зависимости" id="toc-важни-зависимости" class="nav-link" data-scroll-target="#важни-зависимости">Важни зависимости</a></li>
+  </ul></li>
+  <li><a href="#т-тест-за-качествени-признаци" id="toc-т-тест-за-качествени-признаци" class="nav-link" data-scroll-target="#т-тест-за-качествени-признаци">Т-тест за качествени признаци</a>
+  <ul class="collapse">
+  <li><a href="#дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1-1" id="toc-дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1-1" class="nav-link" data-scroll-target="#дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1-1">Дефиниране на нулева хипотеза <span class="math inline">\({H_0}\)</span> и алтернативна хипотеза <span class="math inline">\({H_1}\)</span></a></li>
+  <li><a href="#определяне-на-риска-за-грешка-ниво-на-значимост" id="toc-определяне-на-риска-за-грешка-ниво-на-значимост" class="nav-link" data-scroll-target="#определяне-на-риска-за-грешка-ниво-на-значимост">Определяне на риска за грешка (ниво на значимост)</a></li>
+  <li><a href="#определяне-на-стандартната-грешка" id="toc-определяне-на-стандартната-грешка" class="nav-link" data-scroll-target="#определяне-на-стандартната-грешка">Определяне на стандартната грешка</a></li>
+  <li><a href="#изчисляване-на-t-статистиката-1" id="toc-изчисляване-на-t-статистиката-1" class="nav-link" data-scroll-target="#изчисляване-на-t-статистиката-1">Изчисляване на t-статистиката</a></li>
+  <li><a href="#определяме-p-стойността" id="toc-определяме-p-стойността" class="nav-link" data-scroll-target="#определяме-p-стойността">Определяме p стойността</a></li>
+  <li><a href="#заключение" id="toc-заключение" class="nav-link" data-scroll-target="#заключение">Заключение</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Тест на хипотеза. Т-тест</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Bulgarian</div>
+    <div class="quarto-category">Medical Statistics</div>
+    <div class="quarto-category">Medicine | 2nd year</div>
+    <div class="quarto-category">Dental medicine | 2nd year</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Материалът представя основните правила при тестването на хипотези, видовете грешки, мощността на статистическия тест и видовете статистически тестове. Представен е и Т-тестът като статистически метод за тестване на разликата в средните стойности на две независими групи.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Автор</div>
+    <div class="quarto-title-meta-contents">
+             <p>Костадин Костадинов </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Публикувано</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 8, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="важни-правила-от-дескриптивната-и-инферентна-статистика" class="level1">
+<h1>Важни правила от дескриптивната и инферентна статистика</h1>
+<ol type="1">
+<li>За да се опише статистически една извадка е необходимо да:
+<ul>
+<li>се определи <strong>централна тенденция</strong> на всички наблюдавани променливи <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>;</li>
+<li>се определели нивото на <strong>разсейване</strong> спрямо тази тенденция <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>;</li>
+</ul></li>
+<li>Променливите биват <strong>количествени</strong> и <strong>качествени</strong>:
+<ul>
+<li><em>Количествените</em> се измерват на силни скали (интервална, пропорционална) <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>;</li>
+<li><em>Качествени</em> се измерват на слаби скали <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>:
+<ul>
+<li>Ако признакът е подредим - ординална скала (нп. <em>стадии на онкологично заболяване</em>);</li>
+<li>Ако признакът приема само две възможни стойности - дихотомна скала (нп. <em>пол - мъж/жена</em>);</li>
+</ul></li>
+</ul></li>
+<li>Когато количествени променливи са <strong>нормално разпределение</strong> <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, те се описват със средната аритметична <span class="math inline">\(\bar{x}\)</span> и стандартното отклонение <span class="math inline">\({SD}\)</span>;</li>
+<li>При асиметрично разпределение (ляво или дясно изтеглено) по-подходящи са медианата <span class="math inline">\({Me}\)</span> и интерквартилния размах <span class="math inline">\({IQR}\)</span>;</li>
+<li>Стандартното отклонение:
+<ul>
+<li>Е измерител на средното ниво на вариабилност около средната аритметична;</li>
+<li>Може да бъде “0” при наблюдения с едни и същи стойности;</li>
+<li>Намалява с увеличение на наблюденията в извадката;</li>
+<li>Е високо, ако наблюдаваните стойности са много разпръснати около средната аритметична;</li>
+</ul></li>
+<li>Интерквартилния размах:
+<ul>
+<li>Представлява нивото на вариабилност спрямо медианата.</li>
+<li>Се представя чрез диаграмата <strong>boxplot</strong>.
+<ul>
+<li>Тя представлява кутия с “мустаци” - двете и страни съответстват на стойностите на първия Q1 и третия Q3 квартил, а средната линия, разделяща кутията, е медианата.<br>
+</li>
+<li>Интерквартилният размах е разликата между стойностите на третия и първия квартил;</li>
+<li>“Мустаците” от двете страни на кутията определят вида на разпределението <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>;</li>
+</ul></li>
+</ul></li>
+<li>В основа на резултатите от <strong>извадката</strong> (статистики) се изгражда интервал от стойности, в който с определена степен на сигурност, се намира параметърът за генералната съвкупност <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>.
+<ul>
+<li>Първата стъпка при построяването на доверителния интервал е определянето на <strong>стандартната грешка</strong>
+<ul>
+<li>Тя зависи от броя наблюдения - увеличаването на броя води до намалява стандартната грешка;</li>
+<li>Тя зависи от стандартното отклонение - увеличаването на стандартното отклонение води до увеличаване на стандартната грешка;</li>
+</ul></li>
+<li>Широчината на <strong>доверителния интервал</strong> зависи от <em>стандартната грешка</em> и от избраното <em>ниво на сигурност</em> <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>;</li>
+<li>При равни други условия, ако увеличим степента на сигурност от 90 до 99% широчината на интервала нараства;</li>
+<li>При високи стойности на стандартна грешка интервалът на доверителност също е широк;</li>
+</ul></li>
+</ol>
+</section>
+<section id="тест-на-хипотези" class="level1 page-columns page-full">
+<h1>Тест на хипотези</h1>
+<p>Освен да опишем една извадка и да направим предположение за това каква е стойността на показателя в генералната съвкупност, статистиката се използва и за тестване на хипотези. Хипотезата е научно предположение за наличие на връзка между две или повече изследвани променливи. Хипотезите биват два вида - нулева и алтернативна.</p>
+<p>При тестването на хипотези се определя колко е вероятно една взаимовръзка да бъде наблюдавана в резултат на случайност. Тази вероятност се бележи със символа <span class="math inline">\(p\)</span>. В класическата теория на статистиката се <em>“тества”</em> единствено <strong>нулевата хипотеза</strong> - приемаме, че тя е вярна, ако вероятността <span class="math inline">\(p\)</span> е равна или по-голяма от 5% (0.05). От друга страна, ако <span class="math inline">\(p\)</span> е под 5% (0.05) отхвърляме нулевата хипотеза и приемаме за вярна алтернативната <a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Определения
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Нулевата хипотеза</strong> <span class="math inline">\({H_0}\)</span> е винаги <strong>отричащо</strong> твърдение за наличието на връзка между две или повече явления.<span class="math inline">\({^a}\)</span></p>
+<p><strong>Алтернативната хипотеза</strong> <span class="math inline">\({H_1}\)</span> е твърдение <strong>противоположно</strong> на нулевата хипотеза. <span class="math inline">\({^b}\)</span>.</p>
+<p><span class="math inline">\({^a}\)</span> <span class="math inline">\({H_0}\)</span> е твърдението <em>“Новият медикамент за хипертония <strong>не</strong> намалява стойностите на кръвното налягане, ако има подобно намаляване, то е наблюдавано <strong>случайно</strong>”</em></p>
+<p><span class="math inline">\({^b}\)</span> <span class="math inline">\({H_1}\)</span> е твърдението <em>“Новият медикамент за хипертония намалява стойностите на кръвното налагане, това намаление е <strong>не в резултат на случайност</strong>”.</em></p>
+</div>
+</div>
+</div>
+<div class="column-page-right">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Пример
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Тестваме ново лекарство за хипертония, като избираме две групи пациенти (извадки). Случайно избираме едната от тях, която лекуваме с новия медикамент, а на другата прилагаме плацебо таблетка, която не съдържа лечебно вещество. В края на изследването сравняваме средните стойности на кръвното налягане в двете групи пациенти. Нека приемем, че в експерименталната група кръвното налягане е средно 10 mmHg по-ниско от това в плацебо групата.</p>
+<p><span class="math inline">\({H_0}\)</span> Нулевата хипотеза гласи <em>“Не съществува връзка между приема на медикамента и стойността на кръвното налягане. Тази разлика от 10 mmHg е в следствие на случайността.”</em></p>
+<p><span class="math inline">\({H_1}\)</span> Алтернативната хипотеза е противоположна <em>“Има връзка между медикамента и понижаването на кръвното налягане. Тази разлика от 10 mmHg <strong>НЕ</strong> е в резултат на случайността.</em></p>
+<p>Чрез статистически методи определяме <strong>колко е вероятно</strong> да получим подобна разлика случайно (<span class="math inline">\(p\)</span>). Ако приемем, че в нашия пример <span class="math inline">\(p\)</span> е 0.09 (9%), това означава, че ако новият медикамент действително не работи и повторим експеримента с други пациенти 100 пъти, такава или по-голяма разлика в кръвното налягане ще се наблюдава случайно в 9 от тези 100 опита. В случая това е “прекалено много” за да отхвърлим нулевата хипотеза. Обратно, ако сме изчислили, че <span class="math inline">\(p\)</span> е по-малко от 0.05 (9%), това означава, че ако в действителност новият медикамент не работи и повторим експеримента с други пациенти 100 пъти, такава или по-голяма разлика в кръвното налягане ще се наблюдава случайно в по-малко от 5 в тези 100 опита. В случая това е достатъчно за да отхвърлим нулевата хипотеза и приемем алтернативната.</p>
+</div>
+</div>
+</div>
+</div>
+<section id="видове-грешки" class="level2">
+<h2 class="anchored" data-anchor-id="видове-грешки">Видове грешки</h2>
+<p>Определянето на “вероятността за случайност” <span class="math inline">\(p\)</span> зависи от множество фактори. Понякога е възможно да направим “погрешен” статистически извод, следствие на това, че сме наблюдавали много малък брой участници или сме ги подбрали по неправилен начин. При изграждане на извод в основа на тестването на хипотези са възможни два вида грешки <a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> представени в <a href="#tbl-errors" class="quarto-xref">Таблица&nbsp;1</a></p>
+<div id="tbl-errors" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30,35,35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-errors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;1: Видове грешки при тестването на хипотеза
+</figcaption>
+<div aria-describedby="tbl-errors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;"><span class="math inline">\({H_0}\)</span> е <strong>вярна</strong></th>
+<th style="text-align: left;"><span class="math inline">\({H_0}\)</span> <strong>е грешна</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Отхвърляме <span class="math inline">\({H_0}\)</span></td>
+<td style="text-align: left;">Грешка от първи род <span class="math inline">\({\alpha}\)</span></td>
+<td style="text-align: left;">Правилно решение</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Приемаме <span class="math inline">\({H_0}\)</span></td>
+<td style="text-align: left;">Правилно решение</td>
+<td style="text-align: left;">Грешка от втори род <span class="math inline">\({\beta}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<ul>
+<li>Грешката от първи род <span class="math inline">\({\alpha}\)</span> е от особено значение на статистическия анализ. При нея се приемат за “научни открития” явления, които в действителност <strong>не</strong> са верни. Граничната стойност на вероятността <span class="math inline">\(p\)</span>, под която отхвърляме нулевата хипотеза, представлява допустимото ниво на <span class="math inline">\({\alpha}\)</span> грешката.</li>
+<li>Грешка от втори род <span class="math inline">\({\beta}\)</span> е свързана основно с използвания статистически тест и броя на включените в изследването наблюдения. В основа на тази грешка не сме способни да докажем действително съществуващи връзки.</li>
+</ul>
+</section>
+<section id="мощност" class="level2">
+<h2 class="anchored" data-anchor-id="мощност">Мощност</h2>
+<p>Мощността е характеристика на статистическия тест и представлява възможността докажем връзка между две явления, когато действително такава съществува. Мощността е равна на <span class="math inline">\(1 - {\beta}\)</span> и зависи от:</p>
+<ol type="1">
+<li>Риска за грешка от 1-ви род <span class="math inline">\({\alpha}\)</span>. Увеличаването на допустимото ниво на риск за грешка от 1-ви род <span class="math inline">\({\alpha}\)</span> от 0.5 до 0.1, намалява грешката от втори род <span class="math inline">\({\beta}\)</span> и увеличава мощността.</li>
+<li>Размер на “терапевтичния ефект”. При много силни взаимовръзки в статистическите явления, тестът има по-голяма мощност <a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</li>
+<li>Хомогенността на групата. Колкото по-хомогенно е представена статистическата връзка в изследваните индивиди, толкова по-голяма е мощността на теста.</li>
+<li>Обемът на извадките. Високия брой наблюдения в извадката води до по-малко стандартно отклонение и стандартна грешка. От своя страна по-малката стандартна грешка повишава мощността на статистическия тест.</li>
+</ol>
+</section>
+<section id="видове-статистически-тестове" class="level2">
+<h2 class="anchored" data-anchor-id="видове-статистически-тестове">Видове статистически тестове</h2>
+<p>Статистическите тестове са математическите “инструменти”, с които се определя числено вероятността за случайно установяване на взаимовръзка между две или повече променливи. Изборът на тест зависи от:</p>
+<ol type="1">
+<li>Вида на променливата, която изследваме <a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></li>
+<li>Броя на изследваните групи <a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></li>
+<li>Дизайна на изследването <a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></li>
+</ol>
+<p>В <a href="#tbl-test1" class="quarto-xref">Таблица&nbsp;2</a> и <a href="#tbl-test2" class="quarto-xref">Таблица&nbsp;3</a> са представени основните статистически тестове спрямо разгледаните по-горе признаци.</p>
+<div id="tbl-test1" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[7,31,31,31]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-test1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;2: Видове статистически тестове при независим дизайн (еднократно изследване на групите)
+</figcaption>
+<div aria-describedby="tbl-test1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 31%">
+<col style="width: 31%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Групи</th>
+<th>Параметричен тест (<strong>количествени</strong>)</th>
+<th>Непараметричен тест (<strong>количествени</strong>)</th>
+<th>Непараметричен тест (<strong>качествени</strong>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Едногрупов t тест</td>
+<td>Wilcoxon тест</td>
+<td><span class="math inline">\({\chi}^2\)</span> за съответствие</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>t тест</td>
+<td>Mann Whitney U тест</td>
+<td><span class="math inline">\({\chi}^2\)</span> тест</td>
+</tr>
+<tr class="odd">
+<td>≥ 3</td>
+<td>ANOVA</td>
+<td>Kruskal Wallis H тест</td>
+<td><span class="math inline">\({\chi}^2\)</span> тест</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-test2" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[7,31,31,31]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-test2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;3: Видове статистически тестове при зависим дизайн (едни и същи групи са изследвани многократно във времето)
+</figcaption>
+<div aria-describedby="tbl-test2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 31%">
+<col style="width: 31%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Групи</th>
+<th>Параметричен тест (<strong>количествени</strong>)</th>
+<th>Непараметричен тест (<strong>количествени</strong>)</th>
+<th>Непараметричен тест (<strong>качествени</strong>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>RM - t test</td>
+<td>Wilcoxon тест</td>
+<td>McNemar тест</td>
+</tr>
+<tr class="even">
+<td>≥ 3</td>
+<td>RM-ANOVA</td>
+<td>Friedman тест</td>
+<td>ТMcNemar тест</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="статистическа-и-клинична-значимост" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="статистическа-и-клинична-значимост">Статистическа и клинична значимост</h2>
+<p>Потвърждаването на статистически значима връзка между две променливи не означава, че тя е и клинично значима. Ако приемем, че нов медикамент понижава стойностите на кръвното налягане статистически значимо, но с минимален ефект от 1 mmHg не можем да твърдим, че той приложим за болшинството пациенти страдащи от това заболяване.</p>
+<div class="column-page-right">
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Определения
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Статистическата значимост</strong> представлява математическа оценка на вероятността да получим подобен или по-висок резултат в следствие на случайност.</p>
+<p><strong>Клинична значимост</strong> представлява оценка на ефектът на статистическата взаимовръзка в реалната клинична практика <span class="math inline">\({^a}\)</span>.</p>
+<p><span class="math inline">\({^a}\)</span> Нов медикамент, може да е “статистически значим” като редуцира кръвното с 2 mmHg, но това не е клинично значим ефект нито пациента, нито вие като лекар.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="t-тест" class="level1 page-columns page-full">
+<h1>T-тест</h1>
+<p>Т тестът установява наличието на <strong>разлика</strong> в една нормално разпределена количествена величина в две независими една от други групи.</p>
+<section id="условия-за-използване-на-т-тест-15" class="level2">
+<h2 class="anchored" data-anchor-id="условия-за-използване-на-т-тест-15">Условия за използване на Т тест <a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></h2>
+<ol type="1">
+<li>Количествената величина в двете изследвани извадки е нормално разпределена и има приблизително еднаква вариабилност (стандартно отклонение);</li>
+<li>Включени са поне 30 единици във всяка от двете групи;</li>
+<li>Извадките са представителни по отношение на генералната съвкупност.</li>
+</ol>
+</section>
+<section id="т-тест-за-количествени-признаци" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="т-тест-за-количествени-признаци">Т-тест за количествени признаци</h2>
+<p>Т- тестът се прилага при следването на следните 7 стъпки:</p>
+<ol type="1">
+<li>Дефиниране на нулева хипотеза <span class="math inline">\({H_0}\)</span> и алтернативна хипотеза <span class="math inline">\({H_1}\)</span>;</li>
+<li>Определяне на ниво на значимост <span class="math inline">\({\alpha}\)</span>;</li>
+<li>Определянето на средната аритметична и стандартното отклонение в двете групи;</li>
+<li>Изчисляване на стандартната грешка;</li>
+<li>Изчисляване на t статистиката;</li>
+<li>Определяне на p стойността;</li>
+<li>Статистическо заключение.</li>
+</ol>
+<p>За да представим стъпките нека разгледаме следния <em>пример.</em> Проведено е проучване с цел да установим дали нов медикамент - бета блокер е ефективен за намаляване на сърдечната честотата <a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>. Изследователката компанията е извършила първоначален експеримент с 80 случайно избрани пациенти - 40 са получили новия медикамент, а останалите 40 плацебо таблетка. След 4 месеца са измерени стойностите на сърдечната честота на всеки един участник. Данните са представени в <a href="#tbl-data1" class="quarto-xref">Таблица&nbsp;4</a> и в <a href="#tbl-data2" class="quarto-xref">Таблица&nbsp;5</a></p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div id="tbl-data1" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-tbl figure page-columns page-full">
+<div aria-describedby="tbl-data1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="bukdlwffwz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#bukdlwffwz table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#bukdlwffwz thead, #bukdlwffwz tbody, #bukdlwffwz tfoot, #bukdlwffwz tr, #bukdlwffwz td, #bukdlwffwz th {
+  border-style: none;
+}
+
+#bukdlwffwz p {
+  margin: 0;
+  padding: 0;
+}
+
+#bukdlwffwz .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#bukdlwffwz .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#bukdlwffwz .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#bukdlwffwz .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#bukdlwffwz .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#bukdlwffwz .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#bukdlwffwz .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#bukdlwffwz .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#bukdlwffwz .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#bukdlwffwz .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#bukdlwffwz .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#bukdlwffwz .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#bukdlwffwz .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#bukdlwffwz .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#bukdlwffwz .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bukdlwffwz .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#bukdlwffwz .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#bukdlwffwz .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#bukdlwffwz .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bukdlwffwz .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#bukdlwffwz .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bukdlwffwz .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#bukdlwffwz .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bukdlwffwz .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bukdlwffwz .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bukdlwffwz .gt_left {
+  text-align: left;
+}
+
+#bukdlwffwz .gt_center {
+  text-align: center;
+}
+
+#bukdlwffwz .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#bukdlwffwz .gt_font_normal {
+  font-weight: normal;
+}
+
+#bukdlwffwz .gt_font_bold {
+  font-weight: bold;
+}
+
+#bukdlwffwz .gt_font_italic {
+  font-style: italic;
+}
+
+#bukdlwffwz .gt_super {
+  font-size: 65%;
+}
+
+#bukdlwffwz .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#bukdlwffwz .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#bukdlwffwz .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#bukdlwffwz .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#bukdlwffwz .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#bukdlwffwz .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#bukdlwffwz .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#bukdlwffwz .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#bukdlwffwz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="aЕкспериментална-група" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Експериментална група</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="Експериментална група">58, 58, 58, 59, 60, 60, 60, 60, 61, 61, 62, 62, 63, 64, 64, 64, 64, 65, 65, 65, 65, 66, 66, 66, 66, 67, 67, 67, 68, 68, 68, 69, 69, 70, 70, 70, 71, 71, 71, 72</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-data1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;4: Стойности на сърдечна честота на пациентите в експерименталната група
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div id="tbl-data2" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-tbl figure page-columns page-full">
+<div aria-describedby="tbl-data2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="guzrdsksvo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#guzrdsksvo table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#guzrdsksvo thead, #guzrdsksvo tbody, #guzrdsksvo tfoot, #guzrdsksvo tr, #guzrdsksvo td, #guzrdsksvo th {
+  border-style: none;
+}
+
+#guzrdsksvo p {
+  margin: 0;
+  padding: 0;
+}
+
+#guzrdsksvo .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#guzrdsksvo .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#guzrdsksvo .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#guzrdsksvo .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#guzrdsksvo .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#guzrdsksvo .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#guzrdsksvo .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#guzrdsksvo .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#guzrdsksvo .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#guzrdsksvo .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#guzrdsksvo .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#guzrdsksvo .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#guzrdsksvo .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#guzrdsksvo .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#guzrdsksvo .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#guzrdsksvo .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#guzrdsksvo .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#guzrdsksvo .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#guzrdsksvo .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#guzrdsksvo .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#guzrdsksvo .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#guzrdsksvo .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#guzrdsksvo .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#guzrdsksvo .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#guzrdsksvo .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#guzrdsksvo .gt_left {
+  text-align: left;
+}
+
+#guzrdsksvo .gt_center {
+  text-align: center;
+}
+
+#guzrdsksvo .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#guzrdsksvo .gt_font_normal {
+  font-weight: normal;
+}
+
+#guzrdsksvo .gt_font_bold {
+  font-weight: bold;
+}
+
+#guzrdsksvo .gt_font_italic {
+  font-style: italic;
+}
+
+#guzrdsksvo .gt_super {
+  font-size: 65%;
+}
+
+#guzrdsksvo .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#guzrdsksvo .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#guzrdsksvo .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#guzrdsksvo .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#guzrdsksvo .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#guzrdsksvo .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#guzrdsksvo .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#guzrdsksvo .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#guzrdsksvo div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="aКонтролна-група" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Контролна група</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="Контролна група">68, 68, 70, 71, 71, 72, 72, 74, 74, 75, 75, 76, 76, 78, 78, 79, 80, 80, 81, 82, 82, 82, 83, 84, 84, 85, 85, 86, 88, 89, 89, 90, 91, 92, 93, 93, 93, 94, 94, 96</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-data2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;5: Стойности на сърдечна честота на пациентите в контролната група група
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1" class="level3">
+<h3 class="anchored" data-anchor-id="дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1">Дефиниране на нулева хипотеза <span class="math inline">\({H_0}\)</span> и алтернативна хипотеза <span class="math inline">\({H_1}\)</span></h3>
+<dl>
+<dt>Нулева хипотеза</dt>
+<dd>
+<p>Няма разлика между средната сърдечна честота в двете групи пациенти. В случай, че такава се наблюдава, това е в резултат на случайност <a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>.</p>
+</dd>
+<dt>Алтернативна хипотеза</dt>
+<dd>
+<p>Има значителна разлика в средната сърдечна честота между групата ползваща лекарство и тази приемаща плацебо <a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
+</dd>
+</dl>
+</section>
+<section id="определяне-на-риска-за-грешка-alpha" class="level3">
+<h3 class="anchored" data-anchor-id="определяне-на-риска-за-грешка-alpha">Определяне на риска за грешка <span class="math inline">\({\alpha}\)</span></h3>
+<p>Както посочихме по-рано <span class="math inline">\({\alpha}\)</span> в медицинските изследвания е <strong>0.05 (5%)</strong>. С други думи можем да “отхвърлим” нулевата хипотеза, само ако вероятността да наблюдаваме явлението в резултат на случайност е под риска за грешка от 5 %.</p>
+</section>
+<section id="определянето-на-средната-аритметична-и-стандартното-отклонение-в-двете-групи-19" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="определянето-на-средната-аритметична-и-стандартното-отклонение-в-двете-групи-19">Определянето на средната аритметична и стандартното отклонение в двете групи <a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></h3>
+<p>От <a href="#fig-pulse" class="quarto-xref">Фигура&nbsp;1</a>, както и от <a href="#tbl-groups" class="quarto-xref">Таблица&nbsp;6</a> можем да добием представа за това как е разпределена величина пулс в двете изследвани групи. Пациентите лекувани с бета блокер се характеризират с среден пулс от 65 уд/мин и стандартно отклонение от 4,08 уд/мин, докато при пациентите приемащи плацебо средният пулс е близо 82 уд/мин, а стандартното отклонение 8.16 уд/мин. Наблюдаваната разликата между средните величини в двете групи е почти 17 уд/мин.</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-pulse" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-pulse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teaching-posts-08_files/figure-html/fig-pulse-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-pulse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Фигура&nbsp;1: В групата с бета блокер (тъмно сиво) средният пулс е 65 уд/мин (непрекъсната линия), докато в контролната група (светлосиво) пулсът е 81 уд/мин (прекъсната линия). Добиваме и представа и за хомогеността. Пулсът на пациентите с бета блокер варира малко, а стойностите са близко около средната аритметична, докато в плацебо групата вариацията е по-голяма - разпределението по-широко.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div id="tbl-groups" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-tbl figure page-columns page-full">
+<div aria-describedby="tbl-groups-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="vcdqpzwpcv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#vcdqpzwpcv table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#vcdqpzwpcv thead, #vcdqpzwpcv tbody, #vcdqpzwpcv tfoot, #vcdqpzwpcv tr, #vcdqpzwpcv td, #vcdqpzwpcv th {
+  border-style: none;
+}
+
+#vcdqpzwpcv p {
+  margin: 0;
+  padding: 0;
+}
+
+#vcdqpzwpcv .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#vcdqpzwpcv .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#vcdqpzwpcv .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#vcdqpzwpcv .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#vcdqpzwpcv .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#vcdqpzwpcv .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#vcdqpzwpcv .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#vcdqpzwpcv .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#vcdqpzwpcv .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#vcdqpzwpcv .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#vcdqpzwpcv .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#vcdqpzwpcv .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#vcdqpzwpcv .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#vcdqpzwpcv .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#vcdqpzwpcv .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#vcdqpzwpcv .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#vcdqpzwpcv .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#vcdqpzwpcv .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#vcdqpzwpcv .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#vcdqpzwpcv .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#vcdqpzwpcv .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#vcdqpzwpcv .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#vcdqpzwpcv .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#vcdqpzwpcv .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#vcdqpzwpcv .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#vcdqpzwpcv .gt_left {
+  text-align: left;
+}
+
+#vcdqpzwpcv .gt_center {
+  text-align: center;
+}
+
+#vcdqpzwpcv .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#vcdqpzwpcv .gt_font_normal {
+  font-weight: normal;
+}
+
+#vcdqpzwpcv .gt_font_bold {
+  font-weight: bold;
+}
+
+#vcdqpzwpcv .gt_font_italic {
+  font-style: italic;
+}
+
+#vcdqpzwpcv .gt_super {
+  font-size: 65%;
+}
+
+#vcdqpzwpcv .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#vcdqpzwpcv .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#vcdqpzwpcv .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#vcdqpzwpcv .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#vcdqpzwpcv .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#vcdqpzwpcv .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#vcdqpzwpcv .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#vcdqpzwpcv .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#vcdqpzwpcv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="aхарактертистика" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">характертистика</th>
+<th id="aБета-блокер" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Бета блокер</th>
+<th id="aПлацебо" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Плацебо</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="характертистика">Средна аритметична</td>
+<td class="gt_row gt_right" headers="Бета блокер">65.00</td>
+<td class="gt_row gt_right" headers="Плацебо">81.83</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="характертистика">SD</td>
+<td class="gt_row gt_right" headers="Бета блокер">4.08</td>
+<td class="gt_row gt_right" headers="Плацебо">8.16</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="характертистика">Медиана</td>
+<td class="gt_row gt_right" headers="Бета блокер">65.00</td>
+<td class="gt_row gt_right" headers="Плацебо">82.00</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="характертистика">IQR</td>
+<td class="gt_row gt_right" headers="Бета блокер">6.25</td>
+<td class="gt_row gt_right" headers="Плацебо">14.00</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-groups-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;6: Описателна статистики на променливата сърдечен пулс в двете групи
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="изчисляване-на-t-статистиката" class="level3">
+<h3 class="anchored" data-anchor-id="изчисляване-на-t-статистиката">Изчисляване на t-статистиката</h3>
+<p>За да достигнем до извод колко е вероятно тази разликата в пулса да е случайна, трябва да изчислим стойността <span class="math inline">\(t\)</span> като използваме формула</p>
+<p><span class="math display">\[ t = \frac{|{\bar{x}_1}-{\bar{x}_2}|}{\sqrt{{{SE_{m_1}}^2} + {SE_{m_2}}^2}} \]</span></p>
+<p>Където:</p>
+<ul>
+<li><span class="math inline">\({\bar{x}_1}\)</span> е средната аритметична на пулса в групата с бета блокер;</li>
+<li><span class="math inline">\({\bar{x}_2}\)</span> е средната аритметична на пулса в контролната група;</li>
+<li><span class="math inline">\({SE_{m{_1}}}\)</span> е стандартната грешка на средната аритметична в групата с бета блокер;</li>
+<li><span class="math inline">\({SE_{m{_2}}}\)</span> е стандартната грешка на средната аритметична в контролната група;</li>
+<li><span class="math inline">\({|{\bar{x}_1}-{\bar{x}_2}|}\)</span> е абсолютната стойност на разликата между средните аритметични;</li>
+<li><span class="math inline">\({\sqrt{{{SE_{m_1}}^2} + {SE_{m_2}}^2}}\)</span> е корен квадратен от сумата на квадратите на стандартните грешки на средните аритметични;</li>
+<li><span class="math inline">\({t}\)</span> е стойността на t-статистиката.</li>
+</ul>
+<section id="изчисляване-на-стандартните-грешки" class="level4">
+<h4 class="anchored" data-anchor-id="изчисляване-на-стандартните-грешки">Изчисляване на стандартните грешки</h4>
+<p>За да изчислим стандартната грешка за всяка от групите прилагаме вече позната формула от упражнение 2</p>
+<p>За групата с бета блокер: <span class="math display">\[ {SE_{m{_1}}}=\frac{SD_1}{\sqrt{n_1}} \]</span></p>
+<p><span class="math display">\[ {SE_{m{_1}}} =\frac{4,08}{\sqrt{40}}=\frac{4,08}{6,32}= 0,75\]</span></p>
+<p>За групата с плацебо <a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> <span class="math display">\[ {SE_{m{_2}}}=\frac{SD_2}{\sqrt{n_2}} \]</span></p>
+<p><span class="math display">\[ {SE_{m{_2}}} =\frac{8,16}{\sqrt{40}}=\frac{8,16}{6,32}= 1,29\]</span></p>
+</section>
+<section id="приложение-на-формулата-за-t-стойността" class="level4">
+<h4 class="anchored" data-anchor-id="приложение-на-формулата-за-t-стойността">Приложение на формулата за t-стойността</h4>
+<p>След като сме изчислили стандартните грешки на средните аритметични за двете групи заместваме във формулата:</p>
+<p><span class="math display">\[ t = \frac{|{\bar{x}_1}-{\bar{x}_2}|}{\sqrt{{{SE_{m_1}}^2} + {SE_{m_2}}^2}} \]</span> <span class="math display">\[ {t} = \frac{|65,00-81,83|}{\sqrt{{0,75^2} + {1,29}^2}} \]</span></p>
+<p><span class="math display">\[ {t} = \frac{|-16,83|}{\sqrt{0,56 + 1,66}} = \frac{16,83}{\sqrt{2,22}} = \frac{16,83}{1,49}=11,3 \]</span></p>
+</section>
+</section>
+<section id="изчисляване-на-p-стойността" class="level3">
+<h3 class="anchored" data-anchor-id="изчисляване-на-p-стойността">Изчисляване на p стойността</h3>
+<p>За да определим вероятността разликата в двете групи да бъде случайна - <span class="math inline">\(p\)</span> използваме изчислената <span class="math inline">\(t\)</span> стойност. Не са необходими допълнителни формули, понеже не е необходима точната числена стойност на <span class="math inline">\(p\)</span>. В тази стъпка само определяме отношението на вероятността <span class="math inline">\(p\)</span> спрямо зададеното нивото на значимост (риск от грешка 1-ви род) <span class="math inline">\({\alpha}\)</span>. За целта използваме <a href="#tbl-t-dist" class="quarto-xref">Таблица&nbsp;7</a></p>
+<div id="tbl-t-dist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-t-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;7: t-разпределение
+</figcaption>
+<div aria-describedby="tbl-t-dist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">df</th>
+<th style="text-align: center;">p = 0.1</th>
+<th style="text-align: center;"><strong>p= 0.05</strong></th>
+<th style="text-align: center;">p = 0.01</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">t= 1.645</td>
+<td style="text-align: center;"><strong>t = 1.960</strong></td>
+<td style="text-align: center;">t = 2.576</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>В таблицата:</p>
+<ul>
+<li><span class="math inline">\({df}\)</span> е <strong>степента на свобода</strong>. Тя зависи от броя единици на наблюдения. Познаването на този индикатор не е необходимо за настоящият анализ - по правило се използват само стойностите отговарящи на <span class="math inline">\({df}&gt;30\)</span>;</li>
+<li>Всяка една колона представя гранично ниво на риска за грешка от първи род <span class="math inline">\({\alpha}\)</span>. В медицината използваме лимитираща стойност от <span class="math inline">\({\alpha}&lt;0.05\)</span>, затова се интересуваме от стойностите във <strong>втората колона</strong>;</li>
+<li>По редове са представени стойностите на <span class="math inline">\(t\)</span> критерия, отговорящи на съответните нива на значимост;</li>
+<li>Ако получим <span class="math inline">\({t} = 1,645\)</span> вероятността за случайност е 10% (0.1). При <span class="math inline">\({t} = 1,96\)</span> вероятността за случайност е 5% (0.1), а при <span class="math inline">\({t} = 2,576\)</span> вероятността за случайност е 1% (0.01).</li>
+</ul>
+<p>В нашия пример стойността <span class="math inline">\({t} = 11,3\)</span>. Въпреки, че тя липсва в <a href="#tbl-t-dist" class="quarto-xref">Таблица&nbsp;7</a> можем да заключим, че вероятността за случайност е под 1% (0.01).</p>
+</section>
+<section id="статистически-извод" class="level3">
+<h3 class="anchored" data-anchor-id="статистически-извод">Статистически извод</h3>
+<p>Сега е момента да направим финалното заключение за нашето проучване.</p>
+<ul>
+<li>Разликата между двете групи e 16,83, а t критерия е 11,3.</li>
+<li>В таблицата установения t критерии е по-голям от 2.576, следователно и вероятността да наблюдаваме подобна разлика в двете групи е по-малка от от 0,01.</li>
+<li>Определената вероятност е под риска за грешка - p &lt; <span class="math inline">\({\alpha}\)</span> &lt;0.05, което означава че отхвърляме <span class="math inline">\({H_0}\)</span> и приемаме <span class="math inline">\({H_1}\)</span> - групата лекувана с бета блокер има значително по-ниски стойности на сърдечния пулс спрямо пациентите лекувани с плацебо.</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Важно
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Колкото е по-висока стойността на <span class="math inline">\({t}\)</span> критерия, толкова по-малко вероятно е да бъде наблюдаваме случайно. При стойност на <span class="math inline">\({t}\)</span> над 1,96, вероятността за случайност <span class="math inline">\(p &lt; 0.05\)</span>, което ни позволява да отхвърлям нулевата хипотеза</p>
+</div>
+</div>
+</div>
+</section>
+<section id="важни-зависимости" class="level3">
+<h3 class="anchored" data-anchor-id="важни-зависимости">Важни зависимости</h3>
+<p>При равни други условия:</p>
+<ul>
+<li>По-голямата <strong>абсолютната разлика</strong> в средните аритметични води до по-голяма стойност на t критерия и до по-малка вероятност за случайност;</li>
+<li>По-високата <strong>хомогенност</strong> в групите води до по-малко стандартно отклонение, което е причина за по-малка стандартна грешка и по-високи стойности на t критерия;</li>
+<li>Увеличаването на <strong>броя наблюдения</strong> в извадката води до по-малко стандартно отклонение и по-малка стандартната грешка, тоест до по-високи стойности на t критерия.</li>
+</ul>
+</section>
+</section>
+<section id="т-тест-за-качествени-признаци" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="т-тест-за-качествени-признаци">Т-тест за качествени признаци</h2>
+<p>T тестът може да се използва и за качествени признаци, когато искаме да сравним два относителни дяла. За целта се използва формулата:</p>
+<p><span class="math display">\[ t = \frac{|{\hat{p}_1}-{\hat{p}_2}|}{\sqrt{{{SE_{p_1}}^2} + {SE_{p_2}}^2}} \]</span></p>
+<p>Където:</p>
+<ul>
+<li><span class="math inline">\({\hat{p}_1}\)</span> е относителният дял на група 1;</li>
+<li><span class="math inline">\({\hat{p}_2}\)</span> е относителният дял на група 2;</li>
+<li><span class="math inline">\({SE_{p_1}}\)</span> е стандартната грешка на относителния дял в група 1;</li>
+<li><span class="math inline">\({SE_{p_2}}\)</span> е стандартната грешка на относителния дял в група 2;</li>
+<li><span class="math inline">\({|{\hat{p}_1}-{\hat{p}_2}|}\)</span> е абсолютната стойност на разликата между относителните дялове;</li>
+<li><span class="math inline">\({\sqrt{{{SE_{p_1}}^2} + {SE_{p_2}}^2}}\)</span> е корен квадратен от сумата на квадратите на стандартните грешки на относителните дялове.</li>
+</ul>
+<p>За да приложим формулата нека представим следния пример. Проследили сме пациентите ползващи бета блокер или плацебо за период от 5 години. Изследователите са записали броя на починалите от всяка една от двете групи.</p>
+<p>Общо са починали 38 пациенти. В групата с бета блокер са починали 6-ма (15%), а в групата с плацебо 32-ма (80%). В <a href="#fig-proportion" class="quarto-xref">Фигура&nbsp;2</a> прави впечатление, че пропорцията на починалите сред приемащите новото лекарство е в пъти по-малка от тази на контролната група.</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-proportion" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-proportion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teaching-posts-08_files/figure-html/fig-proportion-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-proportion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Фигура&nbsp;2: Пропорция на починалите в двете групи пациенти
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>За да установим дали тази разлика е в резултат на случайност, отново използваме t-теста. В този пример обаче e необходима неговата модификация - вместо средните аритметични се използват относителните дялове (процент).</p>
+<section id="дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1-1" class="level3">
+<h3 class="anchored" data-anchor-id="дефиниране-на-нулева-хипотеза-h_0-и-алтернативна-хипотеза-h_1-1">Дефиниране на нулева хипотеза <span class="math inline">\({H_0}\)</span> и алтернативна хипотеза <span class="math inline">\({H_1}\)</span></h3>
+<dl>
+<dt>Нулева хипотеза</dt>
+<dd>
+<p>Няма разлика между съотношението на починалите в двете групи пациенти. Дори и да наблюдаваме такава, тя е резултат на случайност и не съществува в генералната съвкупност.</p>
+</dd>
+<dt>Алтернативна хипотеза</dt>
+<dd>
+<p>Има разлика между относителните дялове на починалите пациенти в двете групи. Тази разлика не е в резултат на случайност.</p>
+</dd>
+</dl>
+</section>
+<section id="определяне-на-риска-за-грешка-ниво-на-значимост" class="level3">
+<h3 class="anchored" data-anchor-id="определяне-на-риска-за-грешка-ниво-на-значимост">Определяне на риска за грешка (ниво на значимост)</h3>
+<p>Отново използваме нивото <span class="math inline">\({\alpha}\)</span> под 0,05</p>
+</section>
+<section id="определяне-на-стандартната-грешка" class="level3">
+<h3 class="anchored" data-anchor-id="определяне-на-стандартната-грешка">Определяне на стандартната грешка</h3>
+<p>Използваме познатата от упражнение 2 формула: <span class="math display">\[{SE_p}=\sqrt{\frac{\hat{p}\cdot{(100-{\hat{p})}}}{n}}\]</span></p>
+<p>За пациентите ползващи бета блокер: <span class="math display">\[{SE_p{_1}}=\sqrt{\frac{\hat{p_1}\cdot{(100-{\hat{p_1})}}}{n}}=\sqrt{\frac{15\cdot{(100-{15)}}}{40}}=\sqrt{\frac{15\cdot{85}}{40}}=\sqrt{\frac{1275}{40}}=\sqrt{31,88}=5,6\]</span></p>
+<p>За пациентите ползващи плацебо:</p>
+<p><span class="math display">\[{SE_p{_2}}=\sqrt{\frac{\hat{p_2}\cdot{(100-{\hat{p_2})}}}{n}}=\sqrt{\frac{80\cdot{(100-{80)}}}{40}}=\sqrt{\frac{80\cdot{20}}{40}}=\sqrt{\frac{1600}{40}}=\sqrt{40}=6,32\]</span></p>
+</section>
+<section id="изчисляване-на-t-статистиката-1" class="level3">
+<h3 class="anchored" data-anchor-id="изчисляване-на-t-статистиката-1">Изчисляване на t-статистиката</h3>
+<p>Прилагаме формулата:</p>
+<p><span class="math display">\[{t} = \frac{|\hat{p_1}-\hat{p_2}|}{\sqrt{{SE_p{_1}^2} +{SE_p{_2}^2}}}\]</span></p>
+<p><span class="math display">\[{t} = \frac{|15-80|}{\sqrt{{5,6}^2+{6,32}^2}}=\frac{|-65|}{\sqrt{31,36+40,45}}=\frac{65}{\sqrt{31,36+40,45}}=\frac{65}{\sqrt{71,81}}=\frac{65}{8,47}=7,6\]</span></p>
+</section>
+<section id="определяме-p-стойността" class="level3">
+<h3 class="anchored" data-anchor-id="определяме-p-стойността">Определяме p стойността</h3>
+<p>След като получим стойността на t критерия проверяваме в коя посока се намира вероятността <span class="math inline">\(p\)</span> в <a href="#tbl-t-dist2" class="quarto-xref">Таблица&nbsp;8</a></p>
+<div id="tbl-t-dist2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-t-dist2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;8: t-разпределение
+</figcaption>
+<div aria-describedby="tbl-t-dist2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">df</th>
+<th style="text-align: center;">p = 0.1</th>
+<th style="text-align: center;">p= 0.05</th>
+<th style="text-align: center;">p = 0.01</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">t= 1.645</td>
+<td style="text-align: center;">t = 1.960</td>
+<td style="text-align: center;">t = 2.576</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>T критерият е по-висок от 2.576 (тоест е надясно от най-високата стойност), което означава, че вероятността <span class="math inline">\(p\)</span> е по-малка от 0,01.</p>
+</section>
+<section id="заключение" class="level3">
+<h3 class="anchored" data-anchor-id="заключение">Заключение</h3>
+<p>При t = 7,6 вероятността за случайност <span class="math inline">\(p\)</span> е по-малка от риска за грешка <span class="math inline">\({\alpha}\)</span> &lt; 0.05. Следователно, отхвърляме <span class="math inline">\({H_0}\)</span> и приемаме <span class="math inline">\({H_1}\)</span> - съществува статистически значима разлика в относителните дялове на починалите в двете извадки.</p>
+
+
+</section>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Бележки</h2>
+
+<ol>
+<li id="fn1"><p>Показатели за централна тенденция са <em>средната аритметична</em>, <em>медианата</em> или <em>относителен дял</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Показатели за разсейване са <em>стандартното отклонение</em> и <em>интерквартилния размах</em><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Като <em>пропорционална</em> или <em>интервална</em>;<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Като <em>номинална</em> и <em>ординална</em>;<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Нормалното разпределение е симетрично, камбановидно.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Ако мустаците са равни - разпределението е симетрично, ако десния мустак е по-дълъг от левия - разпределението е дясно изтеглено, ако левият мустак е по-дълъг от десния - разпределението е ляво изтеглено.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Пример за “статистика” е средната аритметична за ръста в <em>една извадка</em>, параметър е средната аритметична за ръста в <em>генералната съвкупност</em>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>В медицината най-често се използва <span class="math inline">\(95\%{CI}\)</span><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Някой изследователи не приемат зададеното ниво за <span class="math inline">\(p\)</span> от 0.05 (5%). Алтернативно други предложени гранични стойности за отхвърляне на нулевата хипотеза са <span class="math inline">\(p\)</span> &lt; 0,01 (1%) или <span class="math inline">\(p\)</span> &lt; 0.1 (10 %).<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Двата вида грешки са взаимосвързани (<strong>но не пропорционално</strong>) - ако намалим вероятността за грешка от първи род, като променим гранична стойността на <span class="math inline">\(p\)</span> от 0.5 на 0.1, ще се увеличим възможността за грешка от втори род. Обратно, ако приемем, че отхвърляме нулевата хипотеза при ниво от 0.1, вместо 0.5 - увеличаваме възможността за грешка от първи род <span class="math inline">\({\alpha}\)</span>, но намаляваме възможността за грешка от втори <span class="math inline">\({\beta}\)</span>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>В ситуация, в която “новият” медикамент действително е много силен и драстично намаля кръвното налягане, разликата между с плацебо групата ще е голяма, а вероятността да сме я наблюдавали случайно - ниска.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Важно е да определим типа на променливите за които предполагаме връзка - възможни са всички комбинации между качествени и/или количествени променливи. Ако изследване връзка с участие на количествени променливи, които са <strong>нормално разпределени</strong> използваме <strong>параметрични</strong> тестове, за всички останали - <strong>непараметрични</strong>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Възможно е да тестваме резултатите получени от една единствена група спрямо предполагаема от литературата стойност. Повечето изследвания сравняват две групи - експериментална и контролна, а други включват допълнителни множество изследвани групи.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Трябва да се определи дали изследваните групи са “независими” - тоест такива, които се изследват еднократно или “зависими” - при които провеждаме изследване на едни и същи единици в два или повече момента във времето.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>T тестът се използва основно за количествени признаци, но е разработен и модифициран вариант за качествени променливи измерени чрез относителен дял.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>При пациенти със сърдечно-съдови заболявания, пулс около 60 е оптимален, защото позволява на сърцето да си “почива” по-дълго във фазата на диастола, по време на която се храни с кръв от коронарните артерии.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Това е тестваната хипотеза. Тя предполага, че независимо в коя група е попаднал пациента съществена разлика в пулса не се наблюдава. Дори и да има такава, това ще е в резултат на случайността (а не на медикамента).<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>Алтернативната хипотеза е противоположна на нулевата нулевата. Според нея разлика в стойностите на пулса има и причината за това е новия медикамент.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Формулите и методът за определяне на средната аритметична и стандартното отклонение са представени в упражнение 2.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Тук е момента да припомним, че плацебо групата има по-голяма грешка, поради факта, че групата е по-нехомогенна.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Копирано!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Копирано!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at kostadinr.kostadinov@mu-plovdiv.bg</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
