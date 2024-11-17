@@ -1,0 +1,182 @@
+---
+title: "Confidentiality"
+author: "Kostadin Kostadinov"
+date: 2024-11-17
+description: "Confidentiality is a fundamental part of the trust between patients and healthcare professionals. It is essential for the provision of safe and effective care. This material discusses the importance of confidentiality in healthcare and the legal and ethical obligations of healthcare professionals to maintain patient confidentiality."
+categories: 
+  - "English"
+  - "Medical Ethics"
+  - "Medicine | 2nd year"
+  - "Dental medicine | 5th year"
+title-meta: "Confidentiality"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-11-17
+---
+
+Confidentiality has been recognized as an important aspect of the doctor-patient relationship from the earliest days of medical practice. In fact, though many other ethical values in medicine have changed considerably over time, the weight given to confidentiality has remained remarkably constant. The Hippocratic oath requires that: *‘All that may come to my knowledge in the exercise of my profession or outside of my profession or in daily commerce with men, which ought not to be spread abroad, I will keep secret and never reveal.’*
+
+## Glossary of terms
+
+1. Consent - Agreement to an action based on knowledge of what hat action involves and its likely consequences.
+2. Explicit consent - Consent that is expressed orally or in writing. Also known as explicit consent. An articulation of patient agreement for the disclosure of information, freely given in circumstances where the available options and the consequences have been made clear. **Express consent is generally preferable** because it is unambiguous.
+3. Implied consent - Patients are normally considered to have given implied consent for sharing information within the healthcare team or with others providing their care.
+4. Personal information - Information about people that doctors learn in a professional capacity and from which individuals can be identified. **Such information is subject to a duty of confidentiality**.
+5. Identifiable information - Name, address and full postcode clearly identify a patient. Sometimes, pieces of information that itself are not identifiable may be combined and and enable full identification.
+6. Healthcare team - Comprises the people providing clinical services for a patient, and the administrative and other staff who support the provision of their care.
+7. Disclosure - The provision of access to information about a patient, regardless of the purpose.
+8. Public interest disclosure - **Exceptional circumstances** that justify overriding the right of an individual to confidentiality in order to serve a **broader social interest**. Decisions about the public interest must take account of both the potential harm that disclosure may cause and the interests of society in the continued provision of a confidential health service.
+9. Anonymised information - Information from which individuals cannot reasonably be identified. Requires the removal of name, address, full postcode, identification numbers or any other detail or combination of details that might support identification.
+10. Pseudonymised information - Information from which individuals cannot be identified by the recipient, but which enables information about different patients to be distinguished or to link information about the same patients over time. A **‘key’** might be retained by the service that coded the information so that it can be reconnected with the patient.
+
+## The duty of confidentiality
+
+Confidentiality is a fundamental requirement for the **preservation of trust between patients and health professionals**, and is subject to **legal and ethical safeguards**. Patients should be able to expect that information about their health which they give in confidence will be kept confidential unless there is a compelling reason why it should not. 
+
+Patient confidentiality is a **legal obligation** which is a requirement established within professionals’ codes of conduct. There is also a strong public interest in maintaining confidentiality so that individuals will be encouraged to seek appropriate treatment and share information relevant to it.
+
+## General principles
+
+1. Information must be readily available to patients explaining how their data will be shared within the healthcare team, in order to provide clinical care, unless they object.
+
+2. Consent should usually be sought for the use/re-use or disclosure of identifiable personal health information outside the healthcare team.
+
+3. Information may be used more freely if it is effectively anonymised and therefore deidentified data should be used wherever possible.
+
+4. Exceptionally, when identifiable data are needed and it is not possible to obtain consent, information may be disclosed, with strict safeguards, either with support under the Health Service (Control of Patient Information), where approval has been obtained, or where the balance of public interests supports disclosure.
+
+5. Disclosures should be kept to the **minimum necessary** to achieve the purpose.
+
+6. Doctors must always be prepared to justify their decisions about the use of personal health information.
+
+7. Information about patients must be properly protected to prevent malicious, thoughtless or inadvertent breaches of confidentiality.
+
+8. All people who come into contact with personal health information in their work should have training in confidentiality and security issues.
+
+## What data are confidential?
+
+1. Any clinical information about an individual’s diagnosis or treatment
+2. Any picture, X-ray, photograph, video, audiotape or other images of the patient
+3. Who the patient’s doctor is and which clinics the patient attends and when
+4. Any social information that a doctor may learn about a patient, for example, information about family life
+5. Anything else that may be used to identify a patient directly or indirectly.
+
+## What are the characteristics of the medical secret?
+
+1. Medical secret covers the information about patient’s family as well;
+2. The secret should be kept even after the death of the patient;
+3. All medical documentation, data and outcomes from consultations performed should also be regarded confidential;
+4. When more physicians are involved in the treatment of a particular patient at the same time or consecutively they are dispensed from the responsibility to keep medical secret;
+5. Anonymous information may be used for legitimate purposes without consent; 
+6. Legal requirements to reveal certain kinds of information include:
+- physician as an witness or an expert in a legal proceedings;
+- notification of communicable diseases;
+- notification of criminal abortions, in cases of poisonings, severe physical damages, suicides and murders;
+- anonymous information for statistical and scientific purposes.
+
+## Electronic communication with patients
+
+Rapidly evolving area with regard to privacy is electronic communication with patients. While email communication has been around for over 20 years, newer forms of engaging, such as texting, video conferencing, social media, and patient portals are increasingly prevalent. All these raise concerns about physicians’ statutory obligations to protect privacy
+
+Rules for electronic communication with patients:
+
+1. Set up a professional email address (e.g., DoctorX@organization.com) separate from your personal email account;
+2. Clarify who will have access to this account;
+3. Clarify what types of information will be sent by email and what will not be;
+4. Establish expectations for response times;
+5. Obtain written consent for such communication;
+6. Advise patients of risks to privacy, regardless of the security of the system;
+7. Use a private computer for communication, not one shared with others;
+8. Establish how email communication will be integrated into the patient record;
+9. Remember that electronic communications are permanent;
+10. Never write anything in an email that you could not support if it was known to the patient or publicly disclosed;
+11. Do not write or respond to emails when tired or upset;
+12. Establish whether it is reasonable to be compensated for providing care to patients in this way.
+
+## When can confidentiality be overridden?
+
+If confidentiality is to be breached, there must be a good reason for doing so. The most common justifications are as follows:
+
+1. The patient **consents explicitly**. The patient might well, for example, consent to their doctor informing a relative of their diagnosis.
+2. The patient consents **implicitly**. For example, if a patient agrees to be referred to a consultant, they will be taken to have **implicitly consented** to the GP passing on medical information to the consultant. This exception can also apply to local clinical audits and similar standard hospital practice.
+3. If the patient lacks mental capacity, then confidentiality can be breached if it is in their best interests to do so.
+4. The **disclosure is required by law**. For example, doctors must register births and deaths: the patient has no right of opt-​out. Likewise, patients who receive fertility treatment or abortions also must be registered. Doctors are also required by law to inform the Health Protection Agency if their patients are suspected to be suffering from any of the conditions included in the list of **‘notifiable disease’**. These include cholera, legionnaires’ disease, rabies, and whooping cough [^4].
+5. The disclosure can be justified in the public interest. This might be used where a patient **poses a risk to others** and disclosure is needed to protect other people from harm.
+6. Police who are investigating a crime may obtain a judge’s permission to access medical notes. In such cases, the doctor is legally obliged to provide the information requested. Doctors are also required to disclose information that may prevent an **act of terrorism**, or that may help police in identifying the perpetrator of a driving offence.
+
+[^4]: **NB: It is worth noting here that HIV/​AIDS is not a notifiable disease, although it is often mistakenly assumed to be.**
+
+In almost all jurisdictions, medical practitioners are required to breach confidentiality and report any information about the possible mistreatment or neglect of **children**. Again, the threshold for reporting is having an opinion, based on “reasonable suspicion or belief,” that abuse is taking place. Failure to report reasonable suspicions may be **punishable** by fine 
+
+Sometimes a physician may be asked by an employer to report on a patient’s fitness to return to work. The specific medical conditions of the patient **do not have to be identified** and ought not to be without the patient’s consent. More complicated situations arise where a physician acts as a “third party” examiner, such as for an insurance company requesting an independent medical examination of one of their clients. Even if the examination is done for third-party purposes, any suspicious or unanticipated findings with **consequences for the patient’s welfare** must be disclosed first to the patient and, only with their consent, to their own family doctor. 
+
+
+## Degrees of disclosure of medical information (breaching levels)
+
+Considering the type of information disclosed as well as to whom it was disclosed four levels of breach of confidentiality are distinguished
+
+- 0 - **NO BREACH** - When information is shared between the members of the medical team for the purposes of exact diagnostic, treatment and rehabilitation processes.
+- 1 - **TRIVIAL BREACH**  - When medical staff share some information about the patients without giving any identification information.
+- 2 - **SIGNIFICANT BREACH** - When medical information is shared to non-medical persons and the names of the patients are mentioned or some other data about the patients are presented. As a result of such disclosure the patient may sustain some moral, financial or psychological damages.
+- 3 — **SEVERE BREACH** - This includes situations when besides medical information being shared with non-medical persons, also the patients have been identified and the information shared is related to their private life, emotional status, sexual behaviour, etc., that can discredit them to the society and their relatives and friends.
+
+| Level | Disclosure to whom | Active identification | Social and psychological information |
+|-------|--------------------|:---------------------:|:------------------------------------:|
+| 0     | Medical team       |          +/-          |                 +/-                  |
+| 1     | Outsider           |           -           |                  -                   |
+| 2     | Outsider           |           +           |                  -                   |
+| 3     | Outsider           |           +           |                  +                   |
+
+: Levels of breach of confidentiality {#tbl-levels} 
+
+## Balancing benefits and harms
+
+A decision to disclose is often not based on the interests of the person concerned but is made to protect other people or the public at large. The decision to disclose is based partly
+on a balancing of several moral imperatives, including the risk and likelihood of harm if
+no disclosure is made, and the need to maintain the trust of the patient and the harms that
+may result from breach of confidence. 
+
+Health professionals can be in an invidious position in having to weigh speculative as well as known facts, and assess whether a perceived harm can be better averted by making a disclosure or by maintaining the trust of an individual while attempting to persuade him or her to disclose voluntarily. 
+
+In some cases, although a duty of confidentiality is owed, the need to protect other people may tip the balance. This may be the case, for example, when domestic violence occurs in a family where children are at risk. In many cases, however, clear and unambiguous information upon which to judge the potential threat is unavailable. Non-consensual disclosure is generally considered justifiable in cases where the threat appears serious, and disclosure is likely to limit or prevent it occurring.
+
+## Children who lack competence
+
+Occasionally, children seek medical treatment but are judged to lack the competence to give consent. An explicit request by a child that information should not be disclosed to parents or guardians, or indeed to any third party, must be respected save in the most exceptional circumstances, for example where it puts the child at risk of significant harm, in which case the disclosure may take place in the public interest without consent. 
+
+Where a health professional decides to disclose information to a third party against a child’s wishes, the child should generally be told before the information is disclosed. The discussion with the child and the reasons for disclosure should also be documented in the child’s record. People with parental responsibility may give consent for the sharing of information about children who lack the competence to decide. 
+
+## Are relatives entitled to information from the deceased’s medical record?
+
+Family members have no legal right of access to the health records of the deceased
+patient. In practice, however,doctors have always had discretion to disclose information to a deceased person’s relatives or others for appropriate purposes when there is a clear justification. A common example is when the family requests details of the terminal illness because of an anxiety that the patient might have been misdiagnosed or there might have been negligence. Disclosure in such cases is likely to be what the deceased wanted and may also be in the interests of justice. Refusal to disclose in the absence of some evidence that this was the deceased patient’s known wish exacerbates suspicion and can result in unnecessary litigation. In other cases, the balance of benefit to be gained by disclosure to the family, for example of a hereditary or infectious condition, may outweigh the general obligation of confidentiality to the deceased. Information should not be disclosed if the patient gave it in the past with the specific understanding or expectation that it would be kept confidential. No information at all can be revealed if the patient requested non-disclosure except where there is a public interest justification.
+
+# Clinical cases
+
+
+## Case 1
+
+You are a resident in the emergency department. An irate parent comes to you furious because the social worker has been asking him about striking his child. The child is a 5-year-old boy who has been in the emergency department four times this year with several episodes of trauma that did not seem related. Today, the child is brought in with a child complaint of slipping into a hot bathtub with a bum wound on his legs. The parent threatens to sue you and says How dare you think that about me? I love my son!
+
+## Case 2
+
+You are working at the desk in your hospital when another employee of the hospital asks for information about a patient who was admitted last night with a pulmonary embolus secondary to cancer. You know the details of the case. The person requesting the information states that he is a close friend and co-worker of your patient. He shows you proper identification proving he really is a co-worker of your patient who also works in the hospital. 
+
+## Case 3
+
+You are a psychiatrist in session with a patient who tells you he thinks his boss at work is persecuting him. The patient has had mild schizophrenia. The patient asks you if you can keep a secret and then tells you that he is planning to kill his boss “when the time is right.” You say, “Of course, everything you tell me during the session will always be confidential” 
+
+## Case 4
+
+A 38-year-old bus driver is seen in clinic for fever, cough, and sputum with an apical infiltrate as well as sputum positive for acid-fast bacilli. The patient is unwilling to take tuberculosis (TB) medications consistently and his sputum remains positive for TB. Directly observed therapy while in his home has failed. You continue to cajole, discuss, encourage, threaten, educate, advise, and beg him to take the medications but he refuses. 
+
+## Case 5
+
+42-yars-old man with leukemia repeatedly refuses chemotherapy. He loses consciousness and his mother begs you to give the chemotherapy. What should you tell her?
+
+## Case 6
+
+A surgeon is consulted to place a central line. He is very rude and arrogant and speaks harshly to the patient. The patient signs consent after being informed of the complications and alternatives in management. A pneumothorax occurs and the patient is infuriated that this “high-handed bastard” hurt him. He files suit against the surgeon for malpractice. What will be the most likely out- come of the suit?
+
+## Case 7
+
+A patient with diabetes has osteomyelitis on an X ray of his foot. The physician does not perform a bone biopsy and gives the patient oral cefadroxyl for six weeks. After therapy is over, the osteomyelitis has completely resolved. The patient sees some literature on the Internet several months later conclusively showing that a bone biopsy is an indispensable part of osteomyelitis care to determine an organism and its sensitivities. In addition, he sees that intravenous therapy is the standard of care. He files suit against the physician. What will be the most likely outcome?
