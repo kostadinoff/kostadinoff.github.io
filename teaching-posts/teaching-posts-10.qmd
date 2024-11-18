@@ -175,11 +175,40 @@ Sexual contact between a physician and a patient is always inappropriate. It is 
 
 # Clinical cases
 
+
 ## Case 1
+
+You are a resident in the emergency department. An irate parent comes to you furious because the social worker has been asking him about striking his child. The child is a 5-year-old boy who has been in the emergency department four times this year with several episodes of trauma that did not seem related. Today, the child is brought in with a child complaint of slipping into a hot bathtub with a bum wound on his legs. The parent threatens to sue you and says How dare you think that about me? I love my son!
+
+## Case 2
+
+You are working at the desk in your hospital when another employee of the hospital asks for information about a patient who was admitted last night with a pulmonary embolus secondary to cancer. You know the details of the case. The person requesting the information states that he is a close friend and co-worker of your patient. He shows you proper identification proving he really is a co-worker of your patient who also works in the hospital. 
+
+## Case 3
+
+You are a psychiatrist in session with a patient who tells you he thinks his boss at work is persecuting him. The patient has had mild schizophrenia. The patient asks you if you can keep a secret and then tells you that he is planning to kill his boss “when the time is right.” You say, “Of course, everything you tell me during the session will always be confidential” 
+
+## Case 4
+
+A 38-year-old bus driver is seen in clinic for fever, cough, and sputum with an apical infiltrate as well as sputum positive for acid-fast bacilli. The patient is unwilling to take tuberculosis (TB) medications consistently and his sputum remains positive for TB. Directly observed therapy while in his home has failed. You continue to cajole, discuss, encourage, threaten, educate, advise, and beg him to take the medications but he refuses. 
+
+## Case 5
+
+42-yars-old man with leukemia repeatedly refuses chemotherapy. He loses consciousness and his mother begs you to give the chemotherapy. What should you tell her?
+
+## Case 6
+
+A surgeon is consulted to place a central line. He is very rude and arrogant and speaks harshly to the patient. The patient signs consent after being informed of the complications and alternatives in management. A pneumothorax occurs and the patient is infuriated that this “high-handed bastard” hurt him. He files suit against the surgeon for malpractice. What will be the most likely out- come of the suit?
+
+## Case 7
+
+A patient with diabetes has osteomyelitis on an X ray of his foot. The physician does not perform a bone biopsy and gives the patient oral cefadroxyl for six weeks. After therapy is over, the osteomyelitis has completely resolved. The patient sees some literature on the Internet several months later conclusively showing that a bone biopsy is an indispensable part of osteomyelitis care to determine an organism and its sensitivities. In addition, he sees that intravenous therapy is the standard of care. He files suit against the physician. What will be the most likely outcome?
+
+## Case 8
 
 A patient with diabetes lives in a small town with only one endocrinologist. The endocrinologist has a full practice and is not accepting new patients. The patient has very bad diabetes and has a very complex regimen that her family practitioner insists is beyond the scope of his understanding. The patient shows up in the office and insists to the office manager that she be accepted. What should be done?
 
-## Case 2
+## Case 9
 
 James is an young doctor, 3 months into his job. He has just finished a 12-hour on-call night shift when he decides to go to his local supermarket to pick up some groceries on his way home. Whilst there, he hears someone shout for help. He rushes over to find a body lying on the floor. It appears that the person has fainted and hit their head on the floor, causing a significant head wound. James introduces himself as a doctor and applies pressure to the site of bleeding to stem blood flow, having checked that the patient was breathing. He asks for an ambulance to be called. James continues to monitor the patient’s breathing whilst applying pressure to the head wound. After a short while, an ambulance arrives and the paramedics take over. The supermarket manager takes down James’ details and asks for a description of what happened. The next day, James arrives at work and recounts the story to a colleague. His colleague expressed his concern at James’ actions, saying that he could get sued. Several days later, two letters arrive for James in the post. He becomes slightly anxious after hearing what his colleague had said about legal action. He opens the letters; one is from the supermarket manager and the other is from the patient. They both expressed their gratitude for his actions. 
 
@@ -190,7 +219,7 @@ Questions
 • What standard of care would the doctor be held to in a court of law?
 • Is there an ethical and professional duty to act as a Good Samaritan?
 
-## Case 3
+## Case 10
 
 It is Friday night and you have almost finished admitting your patient. You are just waiting for his blood test results. The locum doctor taking over your shift is running late, and you are getting a bit stressed as you have a train to catch back to London so that you can make it home in time for your cousin’s birthday party. Just as you are about to leave your bleep goes off. A nurse informs you that one of your patients, Eric, is having some chest pain. He was admitted 2 days ago with pneumonia and you suspect that the pain is related to the infection. You ask the nurse to do a set of observations and an electrocardiogram (ECG) and say you will ask the doctor taking over to assess him. You then receive an incoming call. It is your cousin, who is very drunk and urging you to hurry up as you are missing out on all the fun. You tell her you are on your way. The locum arrives 20 minutes later and you rush off straight away. Later that night you remember that you completely forgot to hand over the patient who was having chest pain. You decide to ring the hospital and find that he is now a patient on the coronary care unit, having had a massive heart attack.
 
@@ -202,7 +231,7 @@ not seen since the onset of new symptoms?
 • Should hospitals have systems in place to ensure that ill patients are handed over to
 night staff?
 
-## Case 4
+## Case 11
 
 Ben is a 48-year-old man with terminal metastatic melanoma. Originally diagnosed 3 years ago, the cancer has spread despite all treatments, including surgical resection, chemotherapy and radiotherapy. He is angry at having terminal cancer and has been verbally abusive to numerous staff members, face to face, on the telephone and via email, and including senior consultants, junior doctors, specialist cancer nurses and ward nurses. Ben has made several formal complaints against the hospital, in addition to his local District Nursing service and community palliative care team. He has, however, maintained strong and friendly relationships with a few oncology team members and his own GP. Ben has had his care transferred from another hospital and between oncologists at his current hospital due to recurrent breakdowns in relationships with his doctors and nurses due to his behaviour. Ben attends the emergency department at 2 a.m. with uncontrolled pain. The emergency department doctors have referred him to oncology as he is a cancer patient and have refused to see him. You are the junior oncology doctor working overnight in the hospital. After politely introducing yourself and appropriately commenting on the difficulties you are aware he is facing from his disease, Ben tells you aggressively to stop being condescending, swears at you and makes a derogatory comment about your physical appearance. He demands to see a senior oncology team member who he says knows his case and he has a good relationship with. You are the only oncology doctor available to see the patient for the next 7 hours when the shift changes.
 
@@ -214,7 +243,7 @@ abusive?
 badly to their condition or illness?
 • What if there is no one else able to take over care?
 
-## Case 5
+## Case 12
 
 Nora, a frail 82 year old lady with advanced lung cancer, is brought to A&E late at night by ambulance. Her husband, her main carer, was admitted yesterday with pneumonia. He mentioned to staff that his wife was at home alone and was concerned she might not be managing without him. After she failed to answer the staff’s phone calls, an ambulance was dispatched, and she was found in her chair, dehydrated and unable to mobilise. Since her husband’s admission she had been too weak and breathless to get up, and had been unable to get herself anything to eat or drink. Fortunately her test results are normal and the A&E doctor suggests she stays overnight so a carer can be arranged the following morning. The doctor explains to Nora they are concerned that if she goes home she may become dehydrated or have a fall. Nora is adamant she wants to go home, stating that she is fine, would rather sleep in her own bed, and will take a sandwich from A&E for supper. She starts getting up and making her way towards the door. She has no history of mental health problems.
 
@@ -224,7 +253,7 @@ Questions
 • What issues arise from the complex interplay between health and social care,
 particularly during out of hours?
 
-## Case 6
+## Case 13
 
 An 18-month-old girl, Lilly, presents to A&E with vomiting. She is well known to the paediatric department for vomiting and poor feeding. She was born at 29 weeks’ gestation and was very ill as a neonate. She spent the next 4 months in hospital with various infections and difficulty tolerating feeds. Since coming home, her mother struggled to feed Lilly and ensure she put on weight. Her mother coped as well as she could but had to give up her job as an office manager, as she felt no one else could spend the time Lilly needed to feed. Lilly’s mother also has to look after her 3-year-old son, who is healthy. Lilly has no defined diagnosis and this makes managing her condition difficult. Her mother has consulted a number of different hospitals in a desperate attempt to help her daughter. Each hospital performed the same tests and came to the same conclusion – that Lilly was malnourished but no firm diagnosis could be made. At presentation, Lilly looks thin and small. Her mother says Lilly has not been able to keep anything down for days because she has been coughing. You think she looks a little dehydrated but otherwise not too bad. Her chest is clear. You ask for a chest X-ray to rule out a chest infection. The radiologist later alerts you to the multiple rib fractures of differing ages. He also tells you the bones look osteopenic, consistent with chronic metabolic bone disease. You discuss the case with your consultant, who is not convinced of any child abuse. He asks you to focus on making the child better and ready for discharge.
 
@@ -234,7 +263,7 @@ Questions
 • How would you proceed?
 • Do you have any ethical obligations to Lilly’s mother?
 
-## Case 7
+## Case 14
 
 Since you graduated from medical school you have been bombarded with people asking you about their possible medical problems. When you went home for a weekend to escape from the hospital, your brother-in-law asks you to give him some advice on his hayfever. You felt able to do this so you made some suggestions. Your aunt then asked you about her arthritis and whether you could prescribe her some extra pain relief. Later that day your grandparents come to visit. Your grandma confides in you that she is worried about the number of times your grandpa is getting up to go to the toilet in the night. She wants some reassurance that this is normal.
 

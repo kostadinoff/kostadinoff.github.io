@@ -152,31 +152,81 @@ patient. In practice, however,doctors have always had discretion to disclose inf
 
 # Clinical cases
 
-
 ## Case 1
 
-You are a resident in the emergency department. An irate parent comes to you furious because the social worker has been asking him about striking his child. The child is a 5-year-old boy who has been in the emergency department four times this year with several episodes of trauma that did not seem related. Today, the child is brought in with a child complaint of slipping into a hot bathtub with a bum wound on his legs. The parent threatens to sue you and says How dare you think that about me? I love my son!
+42-year-old man is hospitalized with chest pain. The patient is awake and alert. His wife comes to you demanding information about the patient, saying that she is his wife. She shows her identification card verifying this. What should you tell her?
 
 ## Case 2
 
-You are working at the desk in your hospital when another employee of the hospital asks for information about a patient who was admitted last night with a pulmonary embolus secondary to cancer. You know the details of the case. The person requesting the information states that he is a close friend and co-worker of your patient. He shows you proper identification proving he really is a co-worker of your patient who also works in the hospital. 
+Mr. J. is 35 years old. He has had unprotected sex with prostitutes on at least two occasions. Although he is asymptomatic, he is worried about the possibility that he may have contracted a sexually transmitted disease and consults his physician. After conducting a careful physical examination and providing appropriate counselling, the physician orders a number of investigations. The blood test comes back with a positive result for HIV. The physician offers to meet with Mr. J. and his wife to assist with the disclosure of this information, but Mr. J states that he does not want his wife to know about his condition.
 
 ## Case 3
 
-You are a psychiatrist in session with a patient who tells you he thinks his boss at work is persecuting him. The patient has had mild schizophrenia. The patient asks you if you can keep a secret and then tells you that he is planning to kill his boss “when the time is right.” You say, “Of course, everything you tell me during the session will always be confidential” 
+A 75-year-old woman shows signs of abuse that appears to be inflicted by her husband. As he is her primary caregiver, she feels dependent on him and pleads with you not to say anything to him about it.
+
 
 ## Case 4
 
-A 38-year-old bus driver is seen in clinic for fever, cough, and sputum with an apical infiltrate as well as sputum positive for acid-fast bacilli. The patient is unwilling to take tuberculosis (TB) medications consistently and his sputum remains positive for TB. Directly observed therapy while in his home has failed. You continue to cajole, discuss, encourage, threaten, educate, advise, and beg him to take the medications but he refuses. 
+Your patient is awaiting the results of a biopsy to tell whether or not she has cancer. Her son calls you and asks you to give him the information because the family is concerned that the bad news will depress his mother. He is sincere and genuine in his concern. What do you tell him?
+
 
 ## Case 5
 
-42-yars-old man with leukemia repeatedly refuses chemotherapy. He loses consciousness and his mother begs you to give the chemotherapy. What should you tell her?
+Late one night, the surgeon on call, Dr S., is asked to see Kaylee, a 16-year-old girl with right lower quadrant abdominal pain. Her mother is present during the encounter. Kaylee’s history and exam are very typical for appendicitis. She reports her menstrual periods are regular, and she adamantly denies being sexually active. In the operating room at midnight, the appendix is found to be normal, but there is bleeding mass in her right fallopian tube, almost certainly an ectopic pregnancy. A gynecologist is called in and carries out a right salpingectomy (removal of the fallopian tube). After the procedure, Dr S. goes out to talk with Kaylee’s mother in the waiting room.
 
-## Case 6
+- What should Dr S tell Kaylee’s mother?
 
-A surgeon is consulted to place a central line. He is very rude and arrogant and speaks harshly to the patient. The patient signs consent after being informed of the complications and alternatives in management. A pneumothorax occurs and the patient is infuriated that this “high-handed bastard” hurt him. He files suit against the surgeon for malpractice. What will be the most likely out- come of the suit?
+### Case 6
 
-## Case 7
+You are a family physician working in an inner-city drug rehabilitation clinic one day a week. One of your patients, Mr. H., admits to you that he has committed numerous robberies over the years to support his drug use. He even confesses that the police have mistakenly convicted another man for one of his crimes. Does this situation justify breaching patient confidentiality? What would you do?
 
-A patient with diabetes has osteomyelitis on an X ray of his foot. The physician does not perform a bone biopsy and gives the patient oral cefadroxyl for six weeks. After therapy is over, the osteomyelitis has completely resolved. The patient sees some literature on the Internet several months later conclusively showing that a bone biopsy is an indispensable part of osteomyelitis care to determine an organism and its sensitivities. In addition, he sees that intravenous therapy is the standard of care. He files suit against the physician. What will be the most likely outcome?
+
+### Case 7
+
+Ms. K. is 29 years old and has epilepsy. Her driving license was revoked when she was first diagnosed with epilepsy and she has continued to have seizures every three to four months while on treatment. Ms. K mentions in passing to her physician that she sometimes drives short distances to get groceries. When her physician challenges her about this she says her seizures are very infrequent.
+
+### Case 8
+
+The phone on the ward rings. The nurse answers it. The caller asks how a particular patient is doing. Since the nurse knows the patient, she tells the caller that the patient has pneumonia on top of chronic bronchitis and that IV antibiotics have been started. On putting the phone down, you ask the nurse who called. She doesn’t know. What do you do? 
+
+### Case 9
+
+A case accompanied by photo material was presented at a conference. Personal details, current symptoms, past history of disease were given. What is the level of confidentiality beach in this case? Do you think that the patient’s consent is needed?
+
+### Case 10
+
+You have a new patient with a complex history who has been trying to get a copy of her record from her previous doctor. The other practice said she must provide them with a valid reason for why she needs the chart. You call the other doctor’s office trying to get the chart. The practice administrator informs you that the patient is extremely unpleasant and difficult. In addition, because the patient has not paid her bill the prior practice feels no obligation to provide you with the chart. The patient returns to see you the following day and asks what has become of her record. What do you tell her?
+
+### Case 11
+
+Paula is 17 and has an inherited metabolic disease. She has been attending a specialist clinic on a yearly basis for monitoring. Sometimes Paula attends with her parents, although patients are encouraged to increasingly take an independent approach. At the latest appointment Paula specifically asked to speak to the consultant without her dad being present. She asked the consultant of the risks of developing a metabolic crisis associated with illicit drug use. She admitted that she occasionally uses recreational drugs. She insisted that her parents should not be informed of this and from previous conversations with her parents it is clear that they do not know of the drug use. The team has advised Paula about the implications and risks of her behaviour in terms of her health and the fact that it is illegal, but the consultant wonders whether he should inform Paula’s parents of her drug use.
+
+### Case 12
+
+One of your patients has recently died from ovarian cancer. She had presented to the surgery twice with vague symptoms prior to being referred for an ultrasound scan which demonstrated advanced cancer. Despite aggressive treatment with chemotherapy and surgery, she died less than 6 months after diagnosis. Her family is understandably distraught, and her daughter has written to the practice manager requesting a full copy of her medical records as they are wondering whether the cancer could have been diagnosed earlier. As the complaints lead for the practice, you have been asked to respond to the letter.
+
+Questions
+
+- Does confidentiality continue after death?
+- Can a relative request access to a patient’s medical records?
+- What processes are in place to protect confidentiality and medical records?
+
+### Case 13
+
+Doug is 51 and married with three adult children. He has been treated by his GP for depression for the last 7 years. More recently he has developed abnormal facial movements and spasms in his legs which are occurring at rest. The GP suspected that his low mood and lethargy over the past 7 years may be due to Huntington’s disease, which is now only becoming apparent with the onset of new clinical features. Doug was referred to a specialist for genetic testing, and sadly the result has come back positive and he has now been given a definite diagnosis of Huntington’s disease. Doug was adopted at birth and has no knowledge of his biological parents. He feels relieved that he was unaware that one of his parents would also have had the condition as he would not have wanted to find out his diagnosis before becoming symptomatic. Doug has told his wife, and together they have decided that they do not want any of their children to know about his diagnosis. They have been informed by the counsellor at the genetics clinic that their children might want to know because they each have a 50% chance of having the gene mutation. Although Doug and his wife have been offered support to share the difficult news with their children, they strongly resist telling them as they feel the knowledge would be a burden to them – ‘and what can they do about it anyway?’ 
+
+- Should genetic information belong to individuals or families?
+- Do Doug and his wife have an ethical obligation to tell their children they are at risk
+of a genetic condition?
+- Are there any circumstances in which genetic information can be disclosed without
+their consent?
+
+### Case 14
+
+Pearl and Dean have been married for 12 years and have a 6-year-old son. Dean’s father and grandfather died from cancer when they were in their early 40s. Because of the strong family history of cancer, Dean wanted to have a genetic test to find out his level of risk. Although no clear diagnosis was possible, tests indicated that he was at risk of hereditary non-polyposis colorectal cancer. Now Dean is feeling tired and unwell, and has a colonoscopy. The test reveals that he has inoperable bowel cancer. Pearl is concerned that their son might also be at risk of colon cancer when he is older, and she wants him to be tested to see if he is at risk. 
+
+Questions
+
+- Should parents be allowed to have their children tested for adult-onset genetic
+conditions?
+- Do children have a right to know about their genetic risks?
