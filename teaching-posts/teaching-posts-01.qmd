@@ -18,7 +18,22 @@ date-meta: 2024-11-03
 ```{r}
 #| include: false
 #| warning: false
+library(ggthemes)
+library(gt)
+library(gtsummary)
+library(showtext)
+library(ggeffects)
+library(patchwork)
+library(scales)
+library(sysfonts)
+library(ggsci)
+library(ggridges)
+library(rstatix)
 library(tidyverse)
+library(broom)
+library(janitor)
+font_add(family = "Sofia Sans Condensed", regular = "SofiaSansCondensed-Regular.ttf")
+showtext_auto()
 theme_nice <- ggthemes::theme_tufte() +
   theme(
     axis.ticks = element_line(linewidth = 0.5, color = "black"),

@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Костадин Костадинов">
+<meta name="dcterms.date" content="2024-11-20">
+<meta name="description" content="Материалът представя основните понятия и методи за изследване на връзките между две променливи. Представени са статистически тестове за корелация и асоциация. Дискутирани са основните разлики между статистическа и причинно-следственна връзка.">
+
+<title>Изследване на връзки. Корелация. Асоциация – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-00cf8c64da4471281cad4f5b300ba6b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Без резултат",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Копирай линка за търсене",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Изследване на връзки. Корелация. Асоциация – Kostadin Kostadinov">
+<meta name="twitter:description" content="Материалът представя основните понятия и методи за изследване на връзките между две променливи. Представени са статистически тестове за корелация и асоциация. Дискутирани са основните разлики между статистическа и причинно-следственна връзка.">
+<meta name="twitter:image" content="teaching-posts-11_files/figure-html/fig-results-1.png">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">На тази страница</h2>
+   
+  <ul>
+  <li><a href="#увод" id="toc-увод" class="nav-link active" data-scroll-target="#увод">Увод</a></li>
+  <li><a href="#основни-понятия" id="toc-основни-понятия" class="nav-link" data-scroll-target="#основни-понятия">Основни понятия</a></li>
+  <li><a href="#асоциация" id="toc-асоциация" class="nav-link" data-scroll-target="#асоциация">Асоциация</a>
+  <ul class="collapse">
+  <li><a href="#дефиниране-на-хипотези" id="toc-дефиниране-на-хипотези" class="nav-link" data-scroll-target="#дефиниране-на-хипотези">Дефиниране на хипотези</a></li>
+  <li><a href="#ниво-на-грешка" id="toc-ниво-на-грешка" class="nav-link" data-scroll-target="#ниво-на-грешка">Ниво на грешка</a></li>
+  <li><a href="#изчисляване-на-теоретични-честоти" id="toc-изчисляване-на-теоретични-честоти" class="nav-link" data-scroll-target="#изчисляване-на-теоретични-честоти">Изчисляване на теоретични честоти</a></li>
+  <li><a href="#изчисляване-на-стойността-на-chi2" id="toc-изчисляване-на-стойността-на-chi2" class="nav-link" data-scroll-target="#изчисляване-на-стойността-на-chi2">Изчисляване на стойността на <span class="math inline">\({\chi^2}\)</span></a></li>
+  <li><a href="#определяне-на-p-стойност" id="toc-определяне-на-p-стойност" class="nav-link" data-scroll-target="#определяне-на-p-стойност">Определяне на p-стойност</a></li>
+  </ul></li>
+  <li><a href="#заключение" id="toc-заключение" class="nav-link" data-scroll-target="#заключение">Заключение</a></li>
+  <li><a href="#малко-повече-за-асоциацията" id="toc-малко-повече-за-асоциацията" class="nav-link" data-scroll-target="#малко-повече-за-асоциацията">Малко повече за асоциацията</a></li>
+  <li><a href="#корелация" id="toc-корелация" class="nav-link" data-scroll-target="#корелация">Корелация</a>
+  <ul class="collapse">
+  <li><a href="#корелационен-коефициент" id="toc-корелационен-коефициент" class="nav-link" data-scroll-target="#корелационен-коефициент">Корелационен коефициент</a>
+  <ul class="collapse">
+  <li><a href="#коефициент-на-пирсън" id="toc-коефициент-на-пирсън" class="nav-link" data-scroll-target="#коефициент-на-пирсън">Коефициент на Пирсън</a></li>
+  <li><a href="#изчисление-на-коефициента-на-пирсън" id="toc-изчисление-на-коефициента-на-пирсън" class="nav-link" data-scroll-target="#изчисление-на-коефициента-на-пирсън">Изчисление на коефициента на Пирсън</a></li>
+  <li><a href="#пример-за-изчисление-на-коефициента-на-пирсън" id="toc-пример-за-изчисление-на-коефициента-на-пирсън" class="nav-link" data-scroll-target="#пример-за-изчисление-на-коефициента-на-пирсън">Пример за изчисление на коефициента на Пирсън</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#тестове-и-задачи-за-самоподготовка" id="toc-тестове-и-задачи-за-самоподготовка" class="nav-link" data-scroll-target="#тестове-и-задачи-за-самоподготовка">Тестове и задачи за самоподготовка</a>
+  <ul class="collapse">
+  <li><a href="#задачи" id="toc-задачи" class="nav-link" data-scroll-target="#задачи">Задачи</a>
+  <ul class="collapse">
+  <li><a href="#задача-1" id="toc-задача-1" class="nav-link" data-scroll-target="#задача-1">Задача 1</a></li>
+  <li><a href="#задача-2" id="toc-задача-2" class="nav-link" data-scroll-target="#задача-2">Задача 2</a></li>
+  <li><a href="#задача-3" id="toc-задача-3" class="nav-link" data-scroll-target="#задача-3">Задача 3</a></li>
+  <li><a href="#първо" id="toc-първо" class="nav-link" data-scroll-target="#първо">Първо:</a></li>
+  <li><a href="#второ" id="toc-второ" class="nav-link" data-scroll-target="#второ">Второ:</a></li>
+  </ul></li>
+  <li><a href="#трето" id="toc-трето" class="nav-link" data-scroll-target="#трето">Трето:</a></li>
+  <li><a href="#тестове" id="toc-тестове" class="nav-link" data-scroll-target="#тестове">Тестове</a></li>
+  </ul></li>
+  <li><a href="#отворени-въпроси" id="toc-отворени-въпроси" class="nav-link" data-scroll-target="#отворени-въпроси">Отворени въпроси</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Изследване на връзки. Корелация. Асоциация</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Bulgarian</div>
+    <div class="quarto-category">Medical Statistics</div>
+    <div class="quarto-category">Medicine | 2nd year</div>
+    <div class="quarto-category">Dental medicine | 2nd year</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Материалът представя основните понятия и методи за изследване на връзките между две променливи. Представени са статистически тестове за корелация и асоциация. Дискутирани са основните разлики между статистическа и причинно-следственна връзка.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Автор</div>
+    <div class="quarto-title-meta-contents">
+             <p>Костадин Костадинов </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Публикувано</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 20, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="увод" class="level1">
+<h1>Увод</h1>
+<p>Често при представяне на статистически данни сме податливи на бързи заключения за връзката между две или повече явления. Наличието на статистическа връзка е особено важно за медицината, тъй като тя е основна при определянето на конкретен фактор за “рисков” за развитието на определено заболяване. Въпреки това способността ни да изграждаме “причинно-следствени” вериги понякога ни “заблуждава”. Човешкият мозък е склонен да мисли за две явления като свързани, дори и в действителност такава връзка да липсва. Не бива да се смята, че статистическа и <strong>причинно следствена свръзка</strong> са едно и също понятие. Дори напротив, резултатите от статистическия анализ сами по себе си <strong>не могат</strong> да се разглеждат като изчерпателно доказателство в подкрепа на тезата за причинната обусловеност <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Вероятността дадена връзка да бъде причинно-следствена е по-голяма:</p>
+<ol type="1">
+<li>Когато тя е <strong>по-силна</strong> и характеризира се с високи стойности за статистическите коефициенти;</li>
+<li>Когато тя е <strong>правдоподобна</strong> от биомедицинска гледна точка. Научните (теоретични, експериментални) данни и доказателства за механизма на взаимодействията са основни аргументи в полза на причинността. Изясняването на правдоподобността на връзката се предопределя от нивото на достигнатото познанието за явленията <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>;</li>
+<li>Когато тя се потвърждава и в <strong>други сродни проучвания</strong>, тоест има устойчив характер.</li>
+<li>Когато <strong>времевата последователност</strong> на причината и следствието съответства на специфичния механизъм на взаимодействията между явленията <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
+</ol>
+</section>
+<section id="основни-понятия" class="level1">
+<h1>Основни понятия</h1>
+<p>В настоящия курс са разгледани най-улеснените видове статистически връзки - тази между две променливи. Връзката между два <strong>количествени</strong> признака (нп. тегло, ръст, кръвно налягане) се означава като <strong>корелация</strong> и се изследва с помощта на корелационен анализ. Връзката между два качествени признака (нп. пол, заболеваемост, тютюнопушене, диагноза) се изследва с помощта на теста за <strong>асоциация</strong>.</p>
+<p>Статистическата връзка се изследва в <strong>обема</strong> на наличните данни от извадката. Предположението и в по-широк мащаб и при стойности извън наличните в извадката е пример за екстраполация <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Екстраполация
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Екстраполацията е математически метод за намиране на нови стойности на конкретна променлива, следствие на установена статистическа връзка, които са извън интервала при нейното построяване.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="асоциация" class="level1 page-columns page-full">
+<h1>Асоциация</h1>
+<p>Тестът за оценка на връзка между две качествени променливи се нарича <strong><span class="math inline">\({\chi^2}\)</span> тест за асоциация</strong>. Той е един от най-често използваните в медицинската статистика. Тестът протича в следната последователност от стъпки:</p>
+<ol type="1">
+<li>Дефиниране на нулева и алтернативна хипотеза;</li>
+<li>Определяне на ниво на грешка;</li>
+<li>Изчисляване на теоретични честоти;</li>
+<li>Изчисляване на стойността на <span class="math inline">\({\chi^2}\)</span>;</li>
+<li>Определяне на p-стойност;</li>
+<li>Заключение.</li>
+</ol>
+<p>За прилагането му е представен следния пример:</p>
+<p>Да приемем, че в проучване се тестват три вида лекарства за лечение на КОВИД-19. Медикаментите са означени като “А”, “В” и “C”. В изследването са включени 500 пациенти, от които лекувани с “А” са 150, с “В” - 250, а с “С” - 100. След 1 месец са установени следните резултати от терапията - починали са 180, с частично подобрение - 220, а напълно оздравели са 100. Резултатите са представени в <a href="#tbl-covid" class="quarto-xref">Таблица&nbsp;1</a> и на <a href="#fig-results" class="quarto-xref">Фигура&nbsp;1</a>.</p>
+<div id="tbl-covid" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[12,22,22,22,22]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-covid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;1: Данни (наблюдавани честоти) за лечението на COVID-19 с три лекарства при 500 изследвани лица
+</figcaption>
+<div aria-describedby="tbl-covid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">л-вство</th>
+<th style="text-align: center;">починали</th>
+<th style="text-align: center;">подобрение</th>
+<th style="text-align: center;">оздравели</th>
+<th style="text-align: center;"><span class="math inline">\(\sum_{rows}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">А</td>
+<td style="text-align: center;"><span class="math inline">\({f_o{a}}\)</span> <strong>65</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{d}}\)</span> <strong>70</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{g}}\)</span> <strong>15</strong></td>
+<td style="text-align: center;">150</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">В</td>
+<td style="text-align: center;"><span class="math inline">\({f_o{b}}\)</span> <strong>100</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{e}}\)</span> <strong>110</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{h}}\)</span> <strong>40</strong></td>
+<td style="text-align: center;">250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">С</td>
+<td style="text-align: center;"><span class="math inline">\({f_o{c}}\)</span> <strong>15</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{f}}\)</span> <strong>40</strong></td>
+<td style="text-align: center;"><span class="math inline">\({f_o{i}}\)</span> <strong>45</strong></td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\sum_{columns}\)</span></td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">220</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;"><em>500</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-results" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teaching-posts-11_files/figure-html/fig-results-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Фигура&nbsp;1: Наблюдавани честоти при изследвеане с три лекарства на 500 изследвани лица
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Числата, записани във всяка една от клетките на <a href="#tbl-covid" class="quarto-xref">Таблица&nbsp;1</a> (a, b, c и т.н) се наричат <strong>наблюдавани</strong> или <strong>обсервирани</strong> честоти. Те се бележат със символа <span class="math inline">\({f_o}\)</span> и са в резултат от действително наблюдаваните резултати от клиничното проучване.</p>
+<section id="дефиниране-на-хипотези" class="level2">
+<h2 class="anchored" data-anchor-id="дефиниране-на-хипотези">Дефиниране на хипотези</h2>
+<dl>
+<dt>Нулевата хипотеза</dt>
+<dd>
+<p>твърди, че <strong>не</strong> съществува асоциация (връзка) между вида на терапията и резултата от лечението <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+</dd>
+<dt>Алтернативната хипотеза</dt>
+<dd>
+<p>е противоположна на нулевата и твърди, че същества асоциация между лекарството и резултата от лечението.</p>
+</dd>
+</dl>
+</section>
+<section id="ниво-на-грешка" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="ниво-на-грешка">Ниво на грешка</h2>
+<p>За ниво на грешка в повечето медицински проучвания се използва стойността 0,05. Това означава, че при бихме отхвърлили нулевата хипотеза, само ако вероятността тя да е вярна (да се наблюдавали връзката случайно) е по-малка от 0,05.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>За всички останали клетки <span class="math display">\[{f_t}b = \frac{180\cdot250}{500} = 90\]</span></p>
+<p><span class="math display">\[{f_t}c = \frac{180\cdot100}{500} = 36\]</span></p>
+<p><span class="math display">\[{f_t}d = \frac{220\cdot150}{500} = 66\]</span></p>
+<p><span class="math display">\[{f_t}e = \frac{220\cdot250}{500} = 110\]</span></p>
+<p><span class="math display">\[{f_t}f = \frac{220\cdot100}{500} = 44\]</span></p>
+<p><span class="math display">\[{f_t}g = \frac{100\cdot150}{500} = 30\]</span></p>
+<p><span class="math display">\[{f_t}h = \frac{100\cdot250}{500} = 50\]</span></p>
+<p><span class="math display">\[{f_t}i = \frac{100\cdot100}{500} = 20\]</span></p>
+</div></div></section>
+<section id="изчисляване-на-теоретични-честоти" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="изчисляване-на-теоретични-честоти">Изчисляване на теоретични честоти</h2>
+<p>Теоретичните честоти са числата (стойностите) на клетките (a, b, c и т.н), които <strong>бихме наблюдавали</strong>, ако нулевата хипотеза е вярна. Те се изчисляват по следната формула:</p>
+<p><span class="math display">\[{f_t}cell = \frac{{\sum_{columns}}\cdot{\sum_{rows}}}{\sum_{total}}\]</span></p>
+<p>Където:</p>
+<ul>
+<li><span class="math inline">\({f_t}cell\)</span> е теоретична честота за всяка една клетка;</li>
+<li><span class="math inline">\(\sum_{columns}\)</span> е сумата по колоните;</li>
+<li><span class="math inline">\(\sum_{rows}\)</span> е сумата по редовете;</li>
+<li><span class="math inline">\(\sum_{total}\)</span> е общата сума (всички участници);</li>
+</ul>
+<p>Нека приложим формулата за първата клетка “а”:</p>
+<p><span class="math display">\[{f_t}a = \frac{180\cdot150}{500} = 54\]</span></p>
+<p>Теоретичната честота <span class="math inline">\({f_t{a}}\)</span> означава, че ако липсва връзка между лечението и резултата, починалите пациентите лекувани с терапия “А” трябва да бъдат 54. Резултатите за всички клетки са представени в <a href="#tbl-covid-expected" class="quarto-xref">Таблица&nbsp;2</a> и на <a href="#fig-theory" class="quarto-xref">Фигура&nbsp;2</a>.</p>
+<div id="tbl-covid-expected" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[12,22,22,22,22]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-covid-expected-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;2: <strong>Теоретични</strong> честоти за лечението на COVID-19 с три лекарства при 500 изследвани лица
+</figcaption>
+<div aria-describedby="tbl-covid-expected-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">л-вство</th>
+<th style="text-align: center;">починали</th>
+<th style="text-align: center;">подобрение</th>
+<th style="text-align: center;">оздравели</th>
+<th style="text-align: center;"><span class="math inline">\(\sum_{rows}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">А</td>
+<td style="text-align: center;"><span class="math inline">\({f_t{a}}\)</span> <em>54</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{d}}\)</span> <em>66</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{g}}\)</span> <em>30</em></td>
+<td style="text-align: center;">150</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">В</td>
+<td style="text-align: center;"><span class="math inline">\({f_t{b}}\)</span> <em>90</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{e}}\)</span> <em>110</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{h}}\)</span> <em>50</em></td>
+<td style="text-align: center;">250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">С</td>
+<td style="text-align: center;"><span class="math inline">\({f_t{c}}\)</span> <em>36</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{f}}\)</span> <em>44</em></td>
+<td style="text-align: center;"><span class="math inline">\({f_t{i}}\)</span> <em>20</em></td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\sum_{columns}\)</span></td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">220</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;"><em>500</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-theory" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-theory-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teaching-posts-11_files/figure-html/fig-theory-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-theory-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Фигура&nbsp;2: Теоретични честоти, при вярна нулева хипотеза
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="изчисляване-на-стойността-на-chi2" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="изчисляване-на-стойността-на-chi2">Изчисляване на стойността на <span class="math inline">\({\chi^2}\)</span></h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Във <strong>формулата</strong>:</p>
+<ul>
+<li><span class="math inline">\({\chi^2}\)</span> е стойността на хи-квадрат;</li>
+<li><span class="math inline">\({f_0}\)</span> е наблюдаваната честота за всяка една клетка (а, b, c и т.н);</li>
+<li><span class="math inline">\({f_t}\)</span> е теоретичната честота за всяка една клетка (а, b, c и т.н);</li>
+<li><span class="math inline">\({f_0}-{f_t}\)</span> е разликата между наблюдаваната и теоретичната честота за всяка една клетка (а, b, c и т.н);</li>
+<li><span class="math inline">\(({f_0}-{f_t})^2\)</span> е разликата повдигната на квадрат;</li>
+<li><span class="math inline">\(\frac{({f_0}-{f_t})^2}{f_t}\)</span> е делимото на повдигната на квадрат разлика спрямо теоретичната честота за всяка една клетка (а, b, c и т.н);</li>
+<li><span class="math inline">\(\sum\)</span> е сумата от всички разделяния.</li>
+</ul>
+</div></div><p>Очевидно има разлика между очакванията на нулевата хипотеза (<a href="#tbl-covid-expected" class="quarto-xref">Таблица&nbsp;2</a>) и реалните данни (<a href="#tbl-covid" class="quarto-xref">Таблица&nbsp;1</a>). За да се измери до каква степен наблюдаваните данни се различават от теоретичните честоти и да се оцени силата на връзка между изследваните променливи (вид лечение и клиничен резултат) се използва показателя <span class="math inline">\({\chi^2}\)</span> (хи-квадрат).</p>
+<p>Формулата е:</p>
+<p><span class="math display">\[{\chi^2}=\sum\frac{({f_0}-{f_t})^2}{f_t}\]</span></p>
+<p>В примера:</p>
+<p><span class="math display">\[{\chi^2}=\frac{(65 – 54)^2}{54}+ \frac{(100 – 90)^2}{90}+\frac{(15 – 36)^2}{36}+\frac{(70 – 66)^2}{66}+\frac{(110 – 110)^2}{110}+\]</span></p>
+<p><span class="math display">\[\frac{(40 – 44)^2}{44}+\frac{(15 – 30)^2}{30}+\frac{(40 – 50)^2}{50}+\frac{(45 – 20)^2}{20}\]</span></p>
+<p><span class="math display">\[{\chi^2}=\frac{11^2}{54}+\frac{10^2}{90}+\frac{(-21)^2}{36}+\frac{4^2}{66}+\frac{0^2}{110}+\frac{(-4)^2}{44}+\frac{(-15)^2}{30}+\frac{(-10)^2}{50}+\frac{25^2}{20}\]</span></p>
+<p><span class="math display">\[{\chi^2}=\frac{121}{54}+\frac{100}{90}+\frac{441}{36}+\frac{16}{66}+\frac{0}{110}+\frac{16}{44}+\frac{225}{30}+\frac{100}{50}+\frac{625}{20}\]</span></p>
+<p><span class="math display">\[{\chi^2}=2,24+1,11+12,25+0,24+0+0,36+7,5+2+31,25 = 56,95\]</span></p>
+<p>Стойността <strong>54</strong> е оценка на “несъответствието” между това, което нулевата хипотеза твърди и това, което ние действително сме наблюдавали.</p>
+</section>
+<section id="определяне-на-p-стойност" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="определяне-на-p-стойност">Определяне на p-стойност</h2>
+<p>Следва да се определи, каква е вероятността това несъответствие да е чиста случайност <span class="math inline">\(p\)</span>. По подобие на t стойността в упражнение 3, отново се използва таблица, с известни стойности <span class="math inline">\({\chi^2}\)</span> и съответните им вероятности <span class="math inline">\(p\)</span>. Преди тази стъпки трябва да определялият “степените на свобода” <span class="math inline">\({df}\)</span>. От тях зависи точния ред на статистическата таблица за <span class="math inline">\({\chi^2}\)</span> разпределението, който трябва да се използва за всеки конкретен пример.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Във формулата:</p>
+<ul>
+<li><span class="math inline">\({N_{columns}}\)</span> е броят на колоните;</li>
+<li><span class="math inline">\({N_{rows}}\)</span> е броят на редовете;</li>
+</ul>
+</div></div><p><span class="math inline">\({df}\)</span> е число, което зависи от размера на таблично представените данни - броя на колоните и редовете и се изчисляват по формулата:</p>
+<p><span class="math display">\[{df}=({N_{columns}}-1)\cdot({N_{rows}}-1)\]</span></p>
+<p>В посочения пример - таблицата е с 3 колони и 3 реда (таблица 3х3).</p>
+<p>Степените на свобода са: <span class="math display">\[{df}=(3-1)\cdot(3-1)=2\cdot2=4\]</span></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="tbl-chi2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-chi2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;3: Таблица за определяне на p-стойността при <span class="math inline">\({\chi^2}\)</span> тест за асоциация
+</figcaption>
+<div aria-describedby="tbl-chi2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">df</th>
+<th style="text-align: center;">p = 0.1</th>
+<th style="text-align: center;">p = 0.05</th>
+<th style="text-align: center;">p = 0.01</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><span class="math inline">\({\chi^2}\)</span> =7,779</td>
+<td style="text-align: center;"><span class="math inline">\({\chi^2}\)</span> =9,488</td>
+<td style="text-align: center;"><span class="math inline">\({\chi^2}\)</span> =13,27</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div></div><p>В <a href="#tbl-chi2" class="quarto-xref">Таблица&nbsp;3</a> са представени данните само за реда, съответстващ на <span class="math inline">\({df}=4\)</span>. За всяка стойност на <span class="math inline">\({\chi^2}\)</span> е определена вероятността <span class="math inline">\(p\)</span>.</p>
+<p>В тази стъпка сравняваме изчислената стойност на <span class="math inline">\({\chi^2}=57\)</span> с наличните данни. Въпреки че точната стойност не е налична в <a href="#tbl-chi2" class="quarto-xref">Таблица&nbsp;3</a>, тя е по-голяма от <strong>най-дясно разположеното</strong> число - 13,27, което съответства на вероятност <span class="math inline">\(p\)</span> 0,01.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Важно
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>С увеличаването на стойността на <span class="math inline">\({\chi^2}\)</span>, вероятността <span class="math inline">\(p\)</span> намалява.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="заключение" class="level1">
+<h1>Заключение</h1>
+<p><span class="math inline">\({\chi^2}=57\)</span> е по-голямо от 13,27, което означава, че вероятността <span class="math inline">\(p\)</span> е по-малка от нивото на грешка 0,05. Следователно - отхвърляме нулевата хипотеза и приемаме алтернативната. Има статистически значима <strong>връзка (зависимост)</strong> между избраното лечение и клиничния резултат.</p>
+</section>
+<section id="малко-повече-за-асоциацията" class="level1 page-columns page-full">
+<h1>Малко повече за асоциацията</h1>
+<ul>
+<li>За да прилагаме този тест е необходимо да имаме поне <strong>5</strong> наблюдения във всяка една клетка. При по-малки стойности не можем да се доверим на получената стойност за <span class="math inline">\(p\)</span>.</li>
+<li>Когато работим с качествени (алтернативни) признаци с две възможни стойности (таблици 2х2) може да се използва разновидност на <em>корелационния анализ</em>. Коефициентът в случая се означава с символът <span class="math inline">\({\phi}\)</span> <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, а пример за неговото приложение е представен в <a href="#tbl-vaccine" class="quarto-xref">Таблица&nbsp;4</a>.</li>
+</ul>
+<div id="tbl-vaccine" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-vaccine-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;4: Таблица 2х2 за изследване на връзката между ваксината и имунния отговор
+</figcaption>
+<div aria-describedby="tbl-vaccine-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ваксина</th>
+<th>Имунен отговор</th>
+<th>Без имунен отговор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Нова</td>
+<td>“а” 90</td>
+<td>“c” 10</td>
+</tr>
+<tr class="even">
+<td>Стара</td>
+<td>“b” 160</td>
+<td>“d” 90</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Където:</p>
+<ul>
+<li><span class="math inline">\({\phi}\)</span> е коефициентът на корелация;</li>
+<li>“а” е броят на ваксинираните с новата ваксина и придобили имунитет;</li>
+<li>“b” е броят на ваксинираните с старата ваксина и и придобили имунитет;</li>
+<li>“c” е броят на ваксинираните с новата ваксина и не придобили имунитет;</li>
+<li>“d” е броят на ваксинираните със старата ваксина и не придобили имунитет;</li>
+</ul>
+</div></div><p><span class="math display">\[{\phi}=\frac{(a\cdot{d})-(b\cdot{c})}{\sqrt{(a+b)\cdot(c+d)\cdot(a+c)\cdot(b+d)}}\]</span> В примера:</p>
+<p><span class="math display">\[{\phi}=\frac{(90\cdot90)-(160\cdot10)}{\sqrt{(90+160)\cdot(10+90)\cdot(90+10)\cdot(160+90)}}\]</span></p>
+<p><span class="math display">\[{\phi}=\frac{(8100)-(1600)}{\sqrt{(250)\cdot(100)\cdot(100)\cdot(250)}}\]</span></p>
+<p><span class="math display">\[{\phi}=\frac{6500}{\sqrt{62500000}} =\frac{6500}{7906,25}=0,82\]</span></p>
+</section>
+<section id="корелация" class="level1 page-columns page-full">
+<h1>Корелация</h1>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Корелационният анализ е:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Статистически метод, използван за изследване на взаимовръзка между две <strong>количествени</strong> променливи</p>
+</div>
+</div>
+</div>
+<section id="корелационен-коефициент" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="корелационен-коефициент">Корелационен коефициент</h2>
+<p>Корелационният коефициент е число в диапазона от -1 до +1. Колкото по отдалечена е стойността му от 0 -лата, толкова <strong>по-силна</strong> е наблюдаваната статистическа връзка. Съществуват множество методики и видове корелационнни коефициенти, въпреки това целта на всички тях е:</p>
+<ul>
+<li>Да оцени <strong>силата на статистическата връзка</strong></li>
+<li>Да се оцени <strong>посоката</strong> на връзката <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>;</li>
+<li>Да се определи <strong>формата</strong> на връзката <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>;</li>
+</ul>
+<section id="коефициент-на-пирсън" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="коефициент-на-пирсън">Коефициент на Пирсън</h3>
+<p>В настоящият курс е представен само един от множеството коефициенти за корелация - този на Пирсън, който се означава с гръцката буква <span class="math inline">\({\rho}\)</span> или с латинската <span class="math inline">\({r}\)</span>. Коефициентът е подходящ, когато изследваните променливи са <strong>нормално разпределени</strong>, а предполагаемата връзката между тях е <strong>линейна</strong>. Интерпретацията на коефициента на Пирсън е представена в <a href="#tbl-correlation" class="quarto-xref">Таблица&nbsp;5</a>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="tbl-correlation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;5: <span class="math inline">\({\rho}\)</span> интерпретация
+</figcaption>
+<div aria-describedby="tbl-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="math inline">\({\rho}\)</span></th>
+<th style="text-align: left;">сила и посока на връзката</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">“перфектна” <em>права</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">0,67 до 1</td>
+<td style="text-align: left;">силна <em>права</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">0, 34 до 0, 66</td>
+<td style="text-align: left;">умерена <em>права</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">0 до 0,33</td>
+<td style="text-align: left;">слаба <em>права</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td style="text-align: left;"><strong>липсва връзка</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">0 до - 0,33</td>
+<td style="text-align: left;">слаба <em>обратна</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">- 0,34 до -0,66</td>
+<td style="text-align: left;">умерена <em>обратна</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">- 0,67 до - 1</td>
+<td style="text-align: left;">силна <em>обратна</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">-1</td>
+<td style="text-align: left;">“перфектна” <em>обратна</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div></div></section>
+<section id="изчисление-на-коефициента-на-пирсън" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="изчисление-на-коефициента-на-пирсън">Изчисление на коефициента на Пирсън</h3>
+<p><span class="math inline">\({\rho}\)</span> се изчислява с помощта на следната формула:</p>
+<p><span class="math display">\[{\rho}=\frac{ \sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y}) }{\sqrt{\sum_{i=1}^{n}(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar{y})^2}}\]</span></p>
+<p>Където:</p>
+<ul>
+<li><span class="math inline">\(x_i\)</span> и <span class="math inline">\(y_i\)</span> са стойностите на променливите x и y за всеки един от участниците в изследването;</li>
+<li><span class="math inline">\(\bar{x}\)</span> и <span class="math inline">\(\bar{y}\)</span> са средните аритметични за променливите x и y;</li>
+<li><span class="math inline">\(x_i-\bar{x}\)</span> е отклонението на всяка една точка от средната аритметична за променливата x;</li>
+<li><span class="math inline">\(y_i-\bar{y}\)</span> е отклонението на всяка една точка от средната аритметична за променливата y;</li>
+<li><span class="math inline">\(\sum_{i=1}^{n}(x_i-\bar{x})^2\)</span> е сумата на квадратите на отклоненията за променливата x;</li>
+<li><span class="math inline">\(\sum_{i=1}^{n}(y_i-\bar{y})^2\)</span> е сумата на квадратите на отклоненията за променливата y;</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="tbl-correlation-data" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;6: Данни за ръста и теглото на 3-ма студенти
+</figcaption>
+<div aria-describedby="tbl-correlation-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">име</th>
+<th style="text-align: center;">Ръст (x)</th>
+<th style="text-align: center;">Тегло (y)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Мария</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Иван</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Чавдар</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div></div></section>
+<section id="пример-за-изчисление-на-коефициента-на-пирсън" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="пример-за-изчисление-на-коефициента-на-пирсън">Пример за изчисление на коефициента на Пирсън</h3>
+<p>Формулата може да се представи като последователност от стъпки. Нека приемем, че разполагаме с данните за ръста и теглото на 3 студенти и следва да определим корелацията между тези две количествени променливи. Данните са представени в <a href="#tbl-correlation-data" class="quarto-xref">Таблица&nbsp;6</a> и на <a href="#fig-correlation" class="quarto-xref">Фигура&nbsp;3</a>.</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-correlation" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="teaching-posts-11_files/figure-html/fig-correlation-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Фигура&nbsp;3: Диаграма на разсейване за ръста и теглото на 3 участника в изследване. Със сиви прекъснати линии - средните аритметични, с черна линия - корелационната връзка, със зелени и сини непрекъснати линии - отклоненията спрямо средните аритметични
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="стъпка-1---изчисляване-на-средната-аритметична" class="level4">
+<h4 class="anchored" data-anchor-id="стъпка-1---изчисляване-на-средната-аритметична">Стъпка 1 - изчисляване на средната аритметична</h4>
+<p>Изчисляваме средната аритметична, както за променливата х (ръста), така и за променливата у (теглото).</p>
+<p>за ръста <span class="math display">\[\bar{x}=\frac{160+170+180}{3}=170\]</span></p>
+<p>за теглото <span class="math display">\[\bar{y}=\frac{50+90+100}{3}=80\]</span></p>
+</section>
+<section id="стъпка-2---изчисляване-на-отклоненията" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="стъпка-2---изчисляване-на-отклоненията">Стъпка 2 - Изчисляване на отклоненията</h4>
+<p>Отклоненията представляват разликата между стойността на наблюденията и средната аритметична за групата.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>За втория студент (Иван) тези отклонения са:</p>
+<p><span class="math display">\[x_{i=2}-\bar{x}=170-170=0\]</span> <span class="math display">\[y_{i=2}-\bar{y}=90-80=10\]</span></p>
+<p>За третия студент (Чавдар) тези отклонения са:</p>
+<p><span class="math display">\[x_{i=3}-\bar{x}=180-170=10\]</span> <span class="math display">\[y_{i=3}-\bar{y}=100-80=20\]</span></p>
+</div></div><p>За първия студент (Мария) тези отклонения са:</p>
+<p>за ръста <span class="math display">\[x_{i_1}-\bar{x}=160-170=-10\]</span></p>
+<p>за теглото <span class="math display">\[y_{i=1}-\bar{y}=50-80=-30\]</span></p>
+<p>В <a href="#tbl-correlation-deviation" class="quarto-xref">Таблица&nbsp;7</a> са представени резултатите от тази стъпка за всички наблюдавани студенти.</p>
+<div id="tbl-correlation-deviation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-deviation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;7: Таблица с отклоненията на ръста и теглото на 3-ма студенти
+</figcaption>
+<div aria-describedby="tbl-correlation-deviation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 27%">
+<col style="width: 26%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">име</th>
+<th style="text-align: center;">Ръст</th>
+<th style="text-align: center;">Тегло</th>
+<th style="text-align: center;"><span class="math inline">\((x-\bar{x})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((y-\bar{y})\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Мария</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">-10</td>
+<td style="text-align: center;">-30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Иван</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">90</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Чавдар</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x}\)</span> = <strong><em>170</em></strong></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{y}\)</span> = <strong><em>80</em></strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="стъпка-3---изчисляване-на-кръстосания-продукт" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="стъпка-3---изчисляване-на-кръстосания-продукт">Стъпка 3 - Изчисляване на кръстосания продукт</h4>
+<p>В трета стъпка се определя “сумата на кръстосания продукт.” Под “кръстосан продукт” се разбира умножението на отклоненията за всяка една от променливите.</p>
+<p><span class="math display">\[\sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y})\]</span>.</p>
+<div style="page-break-after: always;"></div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>За втория студент (Иван):</p>
+<p><span class="math display">\[(x-\bar{x})\cdot(y-\bar{y})=(0)\cdot(10)=0\]</span></p>
+<p>За третия студент (Чавдар):</p>
+<p><span class="math display">\[(x-\bar{x})\cdot(y-\bar{y})=(10)\cdot(20)=200\]</span></p>
+</div></div><p>За първия студент (Мария) кръстосаният продукт е:</p>
+<p><span class="math display">\[(x-\bar{x})\cdot(y-\bar{y})=(-10)\cdot(-30)=300\]</span></p>
+<p><a href="#tbl-correlation-cross-product" class="quarto-xref">Таблица&nbsp;8</a> представя таблично резултатите от тази стъпка и сумата на кръстосаните произведения за всички наблюдавани студенти.</p>
+<div id="tbl-correlation-cross-product" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[10,15,15,20,20,15]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-cross-product-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;8: Таблица с кръстосани произведения на ръста и теглото на 3-ма студенти
+</figcaption>
+<div aria-describedby="tbl-correlation-cross-product-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">име</th>
+<th style="text-align: center;">Ръст</th>
+<th style="text-align: center;">Тегло</th>
+<th style="text-align: center;"><span class="math inline">\((x-\bar{x})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((y-\bar{y})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((x-\bar{x})\cdot(y-\bar{y})\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Мария</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">-10</td>
+<td style="text-align: center;">-30</td>
+<td style="text-align: center;">300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Иван</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">90</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Чавдар</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">200</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x}\)</span> = <strong><em>170</em></strong></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{y}\)</span> = <strong><em>80</em></strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(\sum\)</span> = 500</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Стъпка 3 предоставя числителя на посочената по-горе формула. В използвания пример той е равен на 500.</p>
+</section>
+<section id="стъпка-4---изчисляване-на-сумата-на-квадратите-на-отклоненията" class="level4">
+<h4 class="anchored" data-anchor-id="стъпка-4---изчисляване-на-сумата-на-квадратите-на-отклоненията">Стъпка 4 - Изчисляване на сумата на квадратите на отклоненията</h4>
+<p>Стъпка 4 се използва за определяне на знаменателя на посочената формула. В нея, изчисляваме сумата на квадратите на отклоненията за всяка една променлива - <span class="math inline">\({(x-\bar{x})^2}\)</span> и <span class="math inline">\({(y-\bar{y})^2}\)</span>.</p>
+<p>Самите отклонения са изчислени в стъпка 2 и представени в <a href="#tbl-correlation-deviation" class="quarto-xref">Таблица&nbsp;7</a>. В този етап, те се повдигат на квадрат и сумират, както е представено в <a href="#tbl-correlation-square-deviation" class="quarto-xref">Таблица&nbsp;9</a>.</p>
+<div id="tbl-correlation-square-deviation" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[10,12,12,16,16,17,17]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-square-deviation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;9: Таблица с квадратите на отклоненията на ръста и теглото на 3-ма студенти
+</figcaption>
+<div aria-describedby="tbl-correlation-square-deviation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">име</th>
+<th style="text-align: center;">Ръст</th>
+<th style="text-align: center;">Тегло</th>
+<th style="text-align: center;"><span class="math inline">\((x-\bar{x})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((x-\bar{x})^2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((y-\bar{y})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((y-\bar{y})^2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Мария</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">-10</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">-30</td>
+<td style="text-align: center;">900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Иван</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">90</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Чавдар</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">400</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x}\)</span> = <strong><em>170</em></strong></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{y}\)</span> = <strong><em>80</em></strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(\sum\)</span> = 200</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(\sum\)</span>=1400</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="стъпка-5---изчисляване-на-корелационния-коефициент" class="level4">
+<h4 class="anchored" data-anchor-id="стъпка-5---изчисляване-на-корелационния-коефициент">Стъпка 5 - Изчисляване на корелационния коефициент</h4>
+<p>Вече сме готови за заместим във формулата:</p>
+<p><span class="math display">\[{\rho}=\frac{\sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y}) }{\sqrt{\sum_{i=1}^{n}(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar{y})^2}}\]</span></p>
+<p><span class="math display">\[{\rho}=\frac{500}{\sqrt{200}\cdot{\sqrt{1400}}}\]</span></p>
+<p><span class="math display">\[{\rho}=\frac{500}{{14,1}\cdot{37,42}}=\frac{500}{529}=0,94\]</span></p>
+</section>
+<section id="стъпка-6-заключение" class="level4">
+<h4 class="anchored" data-anchor-id="стъпка-6-заключение">Стъпка 6 Заключение</h4>
+<p>При тези трима студенти се наблюдава <strong>силна</strong> <strong>позитивна</strong> корелация между ръста и теглото - увеличението на теглото се свързва с увеличение на ръста. Връзката е валидна <strong>само за тези трима студенти</strong>. За да установим дали има такава в генералната съвкупност, провеждаме тест на хипотеза <a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p>В случая:</p>
+<dl>
+<dt>Нулевата хипотеза</dt>
+<dd>
+<p>твърди, че популационният корелационен коефициент е <strong>нула</strong>. С други думи не същества корелация между теглото и ръста.</p>
+</dd>
+<dt>Алтернативната хипотеза</dt>
+<dd>
+<p>твърди, че че в действителност има корелация и тя не е равна на 0-ла.</p>
+</dd>
+</dl>
+<p>За да тестваме нулевата хипотеза, използваме тест подобен на вече известния Т теста.</p>
+</section>
+</section>
+</section>
+</section>
+<section id="тестове-и-задачи-за-самоподготовка" class="level1">
+<h1>Тестове и задачи за самоподготовка</h1>
+<section id="задачи" class="level2">
+<h2 class="anchored" data-anchor-id="задачи">Задачи</h2>
+<section id="задача-1" class="level3">
+<h3 class="anchored" data-anchor-id="задача-1">Задача 1</h3>
+<p>Като използвате <strong>непараметричен тест хи квадрат</strong> проверете съществува ли асоциация между продължителността трудовия стаж при миньорите и заболеваемостта от вибрационна болест?</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>трудов стаж</th>
+<th>с вибрационна болест</th>
+<th>здрави</th>
+<th>Общо</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>до 5г.</td>
+<td>32</td>
+<td>127</td>
+<td>159</td>
+</tr>
+<tr class="even">
+<td>6-15г.</td>
+<td>56</td>
+<td>268</td>
+<td>324</td>
+</tr>
+<tr class="odd">
+<td>16-25г.</td>
+<td>23</td>
+<td>48</td>
+<td>71</td>
+</tr>
+<tr class="even">
+<td>над 25г.</td>
+<td>41</td>
+<td>34</td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td>Общо</td>
+<td>152</td>
+<td>477</td>
+<td>629</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="задача-2" class="level3">
+<h3 class="anchored" data-anchor-id="задача-2">Задача 2</h3>
+<p>При проучване на влиянието на вида използван дюшек при получаване на декубитусни рани, са получени следните резултати:</p>
+<ul>
+<li>При <em>low air-loss</em> дюшек при <strong>7 от 56</strong> изследвани случаи имат декубитусни рани</li>
+<li>При <em>воден дюшек</em> при <strong>13 от 71</strong> изследвани лица</li>
+<li>При дюшек <em>на вълни</em> с декубитусни рани са <strong>25 от 72</strong> пациенти</li>
+</ul>
+<p>Определете дали видът на използвания дюшек е фактор за появата на декубитосни рани?</p>
+</section>
+<section id="задача-3" class="level3">
+<h3 class="anchored" data-anchor-id="задача-3">Задача 3</h3>
+<p>При проучване на нов анестетик е отчетено времето от подаването му във венозната система до реакцията на пациента и съответната ефективна доза, определена в ug/kg.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">доза</th>
+<th style="text-align: center;">време за въздействие</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1,3</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1,9</td>
+<td style="text-align: center;">13</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1,5</td>
+<td style="text-align: center;">19</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1,1</td>
+<td style="text-align: center;">23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">26</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1,3</td>
+<td style="text-align: center;">21</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2,1</td>
+<td style="text-align: center;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1,7</td>
+<td style="text-align: center;">30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1,6</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0,9</td>
+<td style="text-align: center;">24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">общо: 14,4</td>
+<td style="text-align: center;">общо: 206</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="първо" class="level3">
+<h3 class="anchored" data-anchor-id="първо">Първо:</h3>
+<p>Изчислете 95% -вия интервал на доверителност на ефективна доза в генералната съвкупност.</p>
+</section>
+<section id="второ" class="level3">
+<h3 class="anchored" data-anchor-id="второ">Второ:</h3>
+<p>Изчислете 95% -вия интервал на доверителност за времето до ефект в генералната съвкупност.</p>
+</section>
+</section>
+<section id="трето" class="level2">
+<h2 class="anchored" data-anchor-id="трето">Трето:</h2>
+<p>Докажете дали съществува връзка между явленията <strong>доза</strong> и <strong>време за реакция</strong>.</p>
+</section>
+<section id="тестове" class="level2">
+<h2 class="anchored" data-anchor-id="тестове">Тестове</h2>
+<ol type="1">
+<li>Кой вид диаграма е най-подходящ за представяне на връзката между 2 количествени променливи?</li>
+</ol>
+<ol type="a">
+<li>Комбинирана диаграма на разсейването (scatterplot)</li>
+<li>Стълбовидна диаграма (bar chart)</li>
+<li>Хистограма</li>
+<li>Кръгова диаграма (pie chart)</li>
+</ol>
+<ol start="2" type="1">
+<li>Корелационен коефициент r = -0.10 означава:</li>
+</ol>
+<ol type="a">
+<li>Силна обратна причинно-следствена връзка.</li>
+<li>Умерена обратна причинно-следствена връзка.</li>
+<li>Слаба обратна причинно-следствена връзка.</li>
+<li>Всички отговори са грешни.</li>
+</ol>
+<ol start="3" type="1">
+<li>Кое от следните твърдения е вярно?</li>
+</ol>
+<ol type="a">
+<li>Интерполацията прогнозира извън област от вече известни стойности, които са послужили за конструиране на регресионен модел.</li>
+<li>При равни други условия, екстраполацията постига по-голяма валидност на получената оценка в сравнение с интерполацията.</li>
+<li>Екстраполацията поставя условие наблюдаваната зависимост да се запази извън областта от вече известните стойности.</li>
+<li>Графичният образ на еднофакторните нелинейни модели са различни прави в равнината.</li>
+</ol>
+<ol start="4" type="1">
+<li>Фи коефициентът за корелация на Пирсън се използва при анализ на връзката между:</li>
+</ol>
+<ol type="a">
+<li>2 количествени променливи.</li>
+<li>2 дихотомни променливи.</li>
+<li>1 количествена и 1 качествена променливи.</li>
+<li>1 количествена и 1 дихотомна променливи.</li>
+</ol>
+<ol start="5" type="1">
+<li>Корелационен коефициент r = -1.2 означава:</li>
+</ol>
+<ol type="a">
+<li>Силна обратна зависимост.</li>
+<li>Умерена обратна зависимост.</li>
+<li>Слаба обратна зависимост.</li>
+<li>Всички отговори са грешни.</li>
+</ol>
+</section>
+</section>
+<section id="отворени-въпроси" class="level1">
+<h1>Отворени въпроси</h1>
+<ol type="1">
+<li><p>Проучване на нивото на затлъстяване (дефинирано като „предзатлъстяване” „затлъстяване I степен” „затлъстяване II степен” и „затлъстяване III степен”) при пушачи и непушачи достига до резултат χ2 = 9.488 / df = 4. На колко е равна р-стойността в този случай и какво означава това? Какъв извод може да се направи въз основа на този резултат?</p></li>
+<li><p>Проучване на нивото на затлъстяване при пушачи и непушачи достига до резултат χ2 = 15.507 / df = 8. На колко е равна р-стойността в този случай и какво означава това? Какъв извод може да се направи въз основа на този резултат?</p></li>
+</ol>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Бележки</h2>
+
+<ol>
+<li id="fn1"><p>В повечето случаи, взаимоотношенията в областта на биологията, медицината и здравеопазването са твърде сложни, за да се обяснят единствено със статистическите коефициенти.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Липсата на научни знания за механизма на взаимоотношенията обаче не означава, че причинно-следственият характер на връзката трябва да бъде отхвърлен.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Проверката по този критерий може да не бъде толкова лесна и проста задача, колкото изглежда на пръв поглед. Понякога трябва да се преодолеят редица трудности, за да се маркират времевите моменти на причинно-следствените промени<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Да приемем, че в една извадка (предимно с деца) сме наблюдавали връзка между увеличаването на теглото и увеличаването на ръста. Същата връзка обаче не бива да се екстраполира при възрастните - при тях растежът на височина е завършил, а теглото може да се увеличава (понякога и безконтролно).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>С други думи, каквото и хапче да даваме на тези пациенти, резултатът е един и същ, а ако наблюдаваме някаква разлика, тя е следствие на случайност.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><span class="math inline">\({\phi}\)</span> се интерпретира, както коефициентът на Пирсън - обяснен по-надолу.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Права връзка (позитивна корелация) се наблюдава, когато двете променливи се увеличават или намалят синхронно. Негативна корелация (обратна връзка) се наблюдава, когато увеличението в една променлива е свързано с намаление в другата.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Връзката може да е “линейна” още пропорционална или “нелинейна” - експоненциална, логаритмична и т.н. В този курс ще се спрем единствено на <strong>линейната връзка</strong>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Тестът на хипотеза за корелационния коефициент не е обект на настоящия курс.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Копирано!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Копирано!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at kostadinr.kostadinov@mu-plovdiv.bg</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

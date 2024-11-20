@@ -31,7 +31,7 @@ library(rstatix)
 library(tidyverse)
 library(broom)
 library(janitor)
-font_add(family = "Sofia Sans", regular = "SofiaSansCondensed-Thin.ttf")
+font_add(family = "Sofia Sans Condensed", regular = "SofiaSansCondensed-Regular.ttf")
 showtext_auto()
 ```
 

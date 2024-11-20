@@ -39,7 +39,7 @@ library(janitor)
 #| include: false
 #| warning: false
 library(showtext)
-font_add(family = "Sofia Sans", regular = "SofiaSansCondensed-Thin.ttf")
+font_add(family = "Sofia Sans Condensed", regular = "SofiaSansCondensed-Regular.ttf")
 showtext_auto()
 library(tidyverse)
 # Define a custom theme
