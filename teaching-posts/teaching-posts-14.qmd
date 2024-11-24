@@ -129,7 +129,7 @@ When patients are recognised as dying, their treatment needs to be continually m
 - Goal 9.3 The LCP **Coping with dying leaflet** or equivalent is given to the relative or carer
 - Goal 9.4 The patient’s primary health care team/GP practice is notified that the patient is dying
 
-![The Liverpool Care Pathway for the Dying Patient algorithm. Reproduced by permission of The Royal Liverpool and Broadgreen University Hospitals NHS Trust and Marie Curie Cancer Care, operated under the MCPCIL, 2010](image/05-end_of_life_issues_euthanasia_en/1697384397475.png)
+![The Liverpool Care Pathway for the Dying Patient algorithm. Reproduced by permission of The Royal Liverpool and Broadgreen University Hospitals NHS Trust and Marie Curie Cancer Care, operated under the MCPCIL, 2010](images/1697384397475.png)
 
 ## Pain and symptom relief 
 
