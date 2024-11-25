@@ -21,7 +21,7 @@ Patients are approaching *the end of life* when they are **likely to die within 
 
 The term *‘approaching the end of life’* can also apply to extremely premature neonates whose prospects for survival are known to be very poor, and patients who are diagnosed as being in a persistent vegetative state (PVS) for whom a decision to withdraw treatment and care may lead to their death.
 
-# Diagnosing the dying patient and preparing for death
+## Diagnosing the dying patient and preparing for death
 
 Patients should be diagnosed as early as possible. In some cases, recognising that a patient has a limited life expectancy may occur 12 months or so in advance of death. One of the tools that has been developed to identify such patients, and provide care for them in their last year, is the **Gold Standards Framework**. Originally developed in 2000 in England by the Department of Health End of Life Programme for use in a primary care setting, it was subsequently extended to other parts of the UK and to other care settings. Its main aims are to identify patients who will need **palliative or supportive care**, assess their needs, preferences and issues important to them and plan around those needs and preferences. It seeks to develop guidance that clinicians are able to recognise when a patient is dying, particularly when the individual enters the last hours or days of life. 
 
@@ -79,7 +79,7 @@ Examples of what might be included are the individual’s:
 
 # Palliative care
 
-Palliative care is defined as **‘an approach that improves the quality of life of patients and their families facing the problems associated with life-threatening illness, through the prevention and treatment of pain and other problems, physical, psychosocial and spiritual’**. When patients approach the end of life, palliative care brings together various forms of care to help them to live out their remaining days to the fullest ex- tent and to prepare themselves for death. The principles underpinning it include the following:
+Palliative care is defined as **‘an approach that improves the quality of life of patients and their families facing the problems associated with life-threatening illness, through the prevention and treatment of pain and other problems, physical, psychosocial and spiritual’**. When patients approach the end of life, palliative care brings together various forms of care to help them to live out their remaining days to the fullest extent and to prepare themselves for death. The principles underpinning it include the following:
 
 
 1. focus on **quality of life**, including good symptom control;
@@ -235,7 +235,7 @@ an elderly man with COPD progresses to the point of needing mechanical ventilati
 
 ## Case 3
 
-a 42-year-old man sustains a cervical spine injury at C1 and C2 leaving him paralyzed from the neck down and ventilator dependent. He is very upbeat and cheerful. He says he will get better and wants to be maintained per- manently on the ventilator. You clearly inform him that he is wrong and he will never improve. He says he wants the ventilator forever, or until he is cured. What do you tell him?
+a 42-year-old man sustains a cervical spine injury at C1 and C2 leaving him paralyzed from the neck down and ventilator dependent. He is very upbeat and cheerful. He says he will get better and wants to be maintained permanently on the ventilator. You clearly inform him that he is wrong and he will never improve. He says he wants the ventilator forever, or until he is cured. What do you tell him?
 
 
 ## Case 4
@@ -267,7 +267,7 @@ a 42-year-old HIV-positive man is admitted for hematuria that is most likely fro
 
 ## Case 10
 
-A 47-year-old theoretical physicist with amyotrophic lateral sclero- sis has become progressively more disabled to the point of being virtually immo- bile in a wheelchair. He is unable to work in a meaningful way. He has pulled out the gastric feeding tube and refuses to allow its reinsertion. His wife, who is also his nurse, is insisting that you reinsert it. What should you tell her?
+A 47-year-old theoretical physicist with amyotrophic lateral sclerosis has become progressively more disabled to the point of being virtually immobile in a wheelchair. He is unable to work in a meaningful way. He has pulled out the gastric feeding tube and refuses to allow its reinsertion. His wife, who is also his nurse, is insisting that you reinsert it. What should you tell her?
 
 
 ### Case 11
