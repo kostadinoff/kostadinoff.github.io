@@ -216,10 +216,8 @@ Questions
 Doug is 51 and married with three adult children. He has been treated by his GP for depression for the last 7 years. More recently he has developed abnormal facial movements and spasms in his legs which are occurring at rest. The GP suspected that his low mood and lethargy over the past 7 years may be due to Huntington’s disease, which is now only becoming apparent with the onset of new clinical features. Doug was referred to a specialist for genetic testing, and sadly the result has come back positive and he has now been given a definite diagnosis of Huntington’s disease. Doug was adopted at birth and has no knowledge of his biological parents. He feels relieved that he was unaware that one of his parents would also have had the condition as he would not have wanted to find out his diagnosis before becoming symptomatic. Doug has told his wife, and together they have decided that they do not want any of their children to know about his diagnosis. They have been informed by the counsellor at the genetics clinic that their children might want to know because they each have a 50% chance of having the gene mutation. Although Doug and his wife have been offered support to share the difficult news with their children, they strongly resist telling them as they feel the knowledge would be a burden to them – ‘and what can they do about it anyway?’ 
 
 - Should genetic information belong to individuals or families?
-- Do Doug and his wife have an ethical obligation to tell their children they are at risk
-of a genetic condition?
-- Are there any circumstances in which genetic information can be disclosed without
-their consent?
+- Do Doug and his wife have an ethical obligation to tell their children they are at risk of a genetic condition?
+- Are there any circumstances in which genetic information can be disclosed without their consent?
 
 ### Case 14
 
@@ -227,6 +225,5 @@ Pearl and Dean have been married for 12 years and have a 6-year-old son. Dean’
 
 Questions
 
-- Should parents be allowed to have their children tested for adult-onset genetic
-conditions?
+- Should parents be allowed to have their children tested for adult-onset genetic conditions?
 - Do children have a right to know about their genetic risks?

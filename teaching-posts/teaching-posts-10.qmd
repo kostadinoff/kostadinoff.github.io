@@ -214,10 +214,10 @@ James is an young doctor, 3 months into his job. He has just finished a 12-hour 
 
 Questions
 
-• What is a Good Samaritan act?
-• Is there a legal duty to perform a Good Samaritan act?
-• What standard of care would the doctor be held to in a court of law?
-• Is there an ethical and professional duty to act as a Good Samaritan?
+- What is a Good Samaritan act?
+- Is there a legal duty to perform a Good Samaritan act?
+- What standard of care would the doctor be held to in a court of law?
+- Is there an ethical and professional duty to act as a Good Samaritan?
 
 ## Case 10
 
@@ -225,11 +225,9 @@ It is Friday night and you have almost finished admitting your patient. You are 
 
 Questions
 
-• Who has a duty of care to this patient?
-• Did you, as the young doctor who received the call, have a duty of care to a patient you have
-not seen since the onset of new symptoms?
-• Should hospitals have systems in place to ensure that ill patients are handed over to
-night staff?
+- Who has a duty of care to this patient?
+- Did you, as the young doctor who received the call, have a duty of care to a patient you have not seen since the onset of new symptoms?
+- Should hospitals have systems in place to ensure that ill patients are handed over to night staff?
 
 ## Case 11
 
@@ -237,11 +235,9 @@ Ben is a 48-year-old man with terminal metastatic melanoma. Originally diagnosed
 
 Questions
 
-• Does a doctor’s duty extend to treating patients who are aggressive and verbally
-abusive?
-• Does it make a difference if the behaviour is as a result of the patient reacting
-badly to their condition or illness?
-• What if there is no one else able to take over care?
+- Does a doctor’s duty extend to treating patients who are aggressive and verbally abusive?
+- Does it make a difference if the behaviour is as a result of the patient reacting badly to their condition or illness?
+- What if there is no one else able to take over care?
 
 ## Case 12
 
@@ -249,9 +245,8 @@ Nora, a frail 82 year old lady with advanced lung cancer, is brought to A&E late
 
 Questions
 
-• How should doctors approach patients who make decisions they consider unwise?
-• What issues arise from the complex interplay between health and social care,
-particularly during out of hours?
+- How should doctors approach patients who make decisions they consider unwise?
+- What issues arise from the complex interplay between health and social care, particularly during out of hours?
 
 ## Case 13
 
@@ -259,9 +254,9 @@ An 18-month-old girl, Lilly, presents to A&E with vomiting. She is well known to
 
 Questions
 
-• What are your legal obligations in this case?
-• How would you proceed?
-• Do you have any ethical obligations to Lilly’s mother?
+- What are your legal obligations in this case?
+- How would you proceed?
+- Do you have any ethical obligations to Lilly’s mother?
 
 ## Case 14
 
@@ -269,5 +264,5 @@ Since you graduated from medical school you have been bombarded with people aski
 
 Questions
 
-• What should a doctor do when a friend or relative asks for medical advice?
-• Can a doctor write a prescription for a friend?
+- What should a doctor do when a friend or relative asks for medical advice?
+- Can a doctor write a prescription for a friend?
