@@ -1,0 +1,334 @@
+---
+title: "Sociological methods in medicine"
+author: "Kostadin Kostadinov"
+date: 2024-12-08
+description: "Sociological research in healthcare aids decision-making, exploring impacts on people's behaviors and relationships within medical teams. Key applications include studying doctor-patient dynamics, linking health with social factors, and improving healthcare management. Data sources include individual interviews, observed behavior, and document analysis. Sociological research involves preparation (problem definition, sampling, piloting) and execution (data collection, analysis, publication). Core sociological methods include surveys (questionnaires, interviews), observation (participant or structured), and document analysis (content and dissemination tools). The primary tool in social research is the questionnaire, which must ensure clarity, logical structure, and anonymity."
+categories: 
+  - "English"
+  - "Public Health"
+  - "Epidemiology"
+  - "Medicine | 3rd year"
+  - "Dental medicine | 5th year"
+title-meta: "Sociological methods in medicine"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-12-08
+---
+
+Sociological research serves as a crucial tool for the scientific management of healthcare. These studies not only help formulate and adopt optimal managerial decisions but also examine the mechanisms of their impact on people, their perception by various categories of medical professionals, track how these decisions are translated into people's thoughts and behaviors, and how they influence relationships within work teams and social groups.
+
+# Application of the Sociological Approach in Social Medicine {#soc_applications}
+
+1. Study of the medical-social issues within the society (doctor-patient relationships, healthcare needs, satisfaction).
+2. Investigation of the social cause-and-effect relationships between health status and social factors.
+3. Development of various approaches for the management, governance, and functioning of healthcare services and the healthcare system.
+
+The utilization of sociological methods in social medicine for the purpose of gathering primary sociological information is referred to as **empirical sociological research**.
+
+# Sources of Sociological Data {#soc_sources}
+
+Sociological information can be gathered from three main sources:
+
+1. From the *researched individual and/or their close associates* - verbal information is collected (interview) or written information (survey).
+2. Studying the *behavior* of the observed individual - visual or auditory data are collected.
+3. Documents about and concerning the researched individual - written or other information is gathered through document analysis.
+
+# Stages of Empirical Sociological Research {#esi_stages}
+
+## Preparation
+
+The preparation phase of sociological research is a crucial. It usually involves:
+
+1. Formulating the problem through analysis of literary data.
+2. Defining the topic and the purpose of the research (the topic should be clearly articulated).
+3. Formulating the research tasks (detailed steps to achieve the goal).
+4. Defining the research design (accurately determining the sample size to ensure statistically significant differences and conclusions).
+5. Developing the research program (includes formulating hypotheses and developing a sociological model).
+6. Organizational plan (involves accepting a schedule plan, selecting a research team, determining the necessary funding, and preparing the required documents for the research).
+7. Pilot study among a small number of respondents, aimed at evaluating the questionnaire's receptivity.
+8. Refining the questionnaire and accepting its final version.
+
+## Conducting
+
+This involves gathering data from the designated respondents. It is also known as "fieldwork."
+
+## Data Processing and Analysis
+
+1. Organization and presentation of data (calculating statistical properties such as the mean and the median, standard deviation, preparing tables, and graphs).
+2. Data analysis (includes hypothesis testing, exploring trends, comparative analyses).
+3. Interpretation of data (drawing conclusions to support or reject the hypotheses under study, identifying the need for future research).
+4. Publishing the results.
+
+A key tool for conducting any sociological study is the preparation of a **questionnaire**.
+
+# Questionnaire / Survey Form {#survey}
+
+The questionnaire is a fundamental tool for collecting individual sociological information and is an essential component of any sociological study. It consists of building blocks - **questions**, reflecting specific characteristics of the researched individuals.
+
+## Types of Questionnaires
+
+- Self-administered questionnaire;
+- Interview questionnaire;
+- Questionnaire/ Diaries for sociological observation;
+- Questionnaire for extracting information from documents.
+
+## Types of Questions
+
+1. According to their place in the questionnaire:
+    1. *Introductory*: placed at the beginning of the questionnaire, introducing the topic of the study and providing general information.
+    2. *Filtering*: follow the introductory questions and divide the respondents into subgroups based on certain factors. Your sample may include people who will respond in some fundamentally difefrent ways and you may wish to explore those difefrences further. In this case, rather than ask inappropriate questions of some people you can include filter questions which guide people to the section which is appropriate for them. For example, ‘If you smoke, go to question 7; otherwise go to question 31’. 
+    3. *Main/ Core questions*: cover the research topic.
+    4. *Identification*: characterize the respondents by basic socio-demographic indicators and are placed at the end of the questionnaire.
+    5. *Control*: to reveal the objectivity of the data.
+2. According to the formulation of the questions:
+    1. *Standard*: in the form of interrogative sentences (direct or indirect).
+    2. *Visual*: suitable for children or individuals with low literacy.
+    3. *Scenario questions*: present a situation and require an evaluation, attitude, or determination of a course of action.
+    4. *Dialogue questions*: presented as a dialogue and require expression of attitude, opinion, or evaluation.
+    5. *Associative questions*: respondents are asked to indicate in words what association certain words or concepts evoke.
+3. According to the expected answer:
+    1. *Closed-ended*: pre-formulated responses; the respondent chooses an answer without expressing another opinion.
+        - *Likert-type questions*:
+            - Responses are formulated on a 5 or 7-point scale with a midpoint (e.g., strongly agree, agree, neutral, disagree, strongly disagree).
+            - 4-point forced scale without a midpoint (e.g., strongly agree, agree, disagree, strongly disagree).
+        - *2-point alternative scale*: responses are only "yes" or "no."
+            - *With one possible answer*: processed quickly and easily.
+            - *With more than one answer*: processed more slowly and with difficulty.
+    2. *Open-ended*: without pre-formulated responses; the respondent answers freely in their own words.
+    3. *Semi-closed*: have pre-formulated responses but provide an opportunity to express another opinion.
+4. According to the collected information (subject area):
+    1. *Objective facts* (factual).
+    2. *Subjective opinion*, evaluation (evaluative).
+
+## Main Requirements for the Questionnaire
+
+1. Indicate the institution organizing the survey.
+2. Specify the type of questionnaire and the topic of the study.
+3. Include:
+    1. Address to the surveyed individuals providing information about the purpose of the study.
+    2. Explanation why the individual has been selected for the survey.
+    3. Instructions for responding.
+    4. Assurance of the anonymity of the survey.
+    5. Expression of gratitude to the individual for their participation, etc.
+4. Well-structured with logical consistency of questions (introductory, filtering, main, identification, control).
+5. Avoid double negation questions - for example, *"Do you not agree that...?"*
+6. Be tailored to the educational level of the surveyed individuals.
+7. Allow for responses within 30-40 minutes for self-administered surveys and no more than 1 hour for interviews.
+8. Avoid requesting quantitative information that the individual cannot provide at the moment.
+
+# Survey (Questionnaire) Method
+
+A scientific research method in which information is gathered through **written questions and written responses**, systematically organized in a specially prepared questionnaire (survey form). This method collects information about the opinions, attitudes, desires, intentions, social roles, and positions of the surveyed individuals.
+
+## Types of Surveys
+
+### Direct Group Survey
+
+1. Definition: A form of inquiry in which there is direct contact between the interviewer and the respondents. The respondents are gathered in one place and simultaneously fill out the distributed survey forms by hand.
+2. Advantages:
+    1. A large number of individuals can be surveyed in a short period.
+    2. Allows for anonymity.
+    3. Requires fewer interviewers.
+    4. Convenient for working with formal groups during work or study hours.
+    5. Provides a quick assessment of collective opinions.
+3. Disadvantages:
+    1. Many organizational and technical conditions need to be observed. All respondents must be gathered in one place at the same time.
+    2. Not suitable for studying individuals not organized in groups.
+
+### Direct Individual Survey
+
+1. Definition: A form of inquiry where the respondent fills out the provided survey form by themselves, individually, rather than in a group setting. The interviewer is not required to be present during the completion.
+2. Advantages:
+    1. The questionnaire reaches each individual designated for surveying.
+    2. The individual responds to the questions at their own convenience.
+3. Disadvantages:
+    1. Requires more time to conduct the study.
+    2. Raises doubts among respondents about anonymity.
+    3. Not convenient for assessing knowledge.
+    4. Difficult to control the behavior of the surveyed individuals.
+
+### Mail Survey / Online Survey
+
+1. Definition: A form of surveying where the questionnaire reaches the surveyed individuals by mail (in an envelope, newspaper, or magazine) and is returned to the survey organizer by mail. With the online communication, its variation is used - the online survey: where a link is sent (published on social networks or via email), and the respondent answers at their convenience and through an electronic device.
+2. Advantages:
+    1. No need for interviewers.
+    2. The respondent answers the questions in a familiar environment and at their convenience.
+3. Disadvantages:
+    1. There is low response rate. That can reduce the representativeness of the sample.
+    2. Not suitable for surveys assessing knowledge, due to the possibility of external consultation.
+
+### Indirect Survey = Structured Interview
+
+1. Definition: A form of inquiry where the interviewer fills out the questionnaire themselves after gathering the necessary information from the individual by asking questions.
+2. Advantages:
+    1. Provides an opportunity to obtain information from all intended participants in the study.
+    2. The reliability of the information is higher as it is obtained from different sources.
+3. Disadvantages:
+    1. Requires a large number of interviewers.
+    2. Interviewers must have high general culture, work conscientiously, and responsibly.
+    3. Requires prolonged time and financial resources.
+
+# Observation
+
+## Definition
+
+Observation is the recording of primary sociological information regarding specific social phenomena and processes from objective reality in real-time and space (the behaviour of the studied objects) in accordance with the research rogram. It is carried out using specific methodology.
+
+## Types
+
+1. According to the observer:
+    1. External observation - registration is carried out by an external observer.
+    2. Self-observation - registration is carried out by the individuals themselves.
+2. According to the conditions under which the observation is conducted:
+    1. In natural conditions (home, workplace).
+    2. In laboratory conditions (hospital, atypical and new places for the individual).
+3. According to the degree of anonymity:
+    1. Overt observation.
+    2. Covert observation.
+4. According to the type of behavior studied:
+    1. Non-verbal behavior.
+    2. Verbal behavior.
+    3. Simulation of predetermined actions.
+5. According to the frequency:
+    1. Single-time.
+    2. Multiple-time.
+6. According to the use of technical means:
+    1. Without technical means.
+    2. Audio observation.
+    3. Video observation.
+    4. Combined.
+7. According to the researcher's level of involvement
+   1. **complete participant**, the role as an observer might be hidden from the other participant;
+   2. **complete observer**, who does not participate at all and whose role is also kept from the people who are being observed. An example of the first could be a researcher who covertly joins an organisation to observe it from within. 
+   3. **participant-as-observer**, which, as the name suggests, involves researchers taking part in the activity to be observed but revealing that they are researchers. 
+   4. **marginal participant**: researchers might have taken steps, such as wearing particular clothing, in order to be unobtrusive.
+   5. **observer-as- participant**: researchers would reveal the fact that they were observing but not participating directly in the action being observed. 
+8. Level at which the behaviour is being observed and recorded. 
+   1. Molar behaviour refers to larger-scale behaviour such as greeting a person who enters the room; this level of observation can involve interpretation by the observer as to the nature of the behaviour. 
+   2. Molecular behaviour refers to the components which make up molar behaviour, and is less likely to involve interpretation. For example, a molecular description of the behaviour described earlier as greeting a person who enters the room might be stated thus: ‘*extends hand to newcomer; grips newcomer’s hand and shakes it; turns corners of mouth up and makes eye contact, briefly; lets go of newcomer’s hand’*.
+9. A further way of classifying observation depends on the degree to which the nature of the observation is predetermined. This can range from what is termed
+   1.  **informal or casual observation** 
+   2.  **formal or  systematic observation**.
+
+## Advantages and Disadvantages
+
+1. Advantages:
+    1. Systematic, planned, and purposeful.
+    2. Allows for in-depth study of the phenomenon.
+    3. Conducted in real-time, place, and environment.
+    4. Allows for the use of modern technical means.
+    5. Provides direct way in studying the object.
+    6. Allows for multiple observations.
+2. Disadvantages:
+    1. Studies only present events.
+    2. Has a limited scope.
+    3. Requires a large number of personnel for observation.
+    4. Subjective nature of perceptions by the observer.
+    5. Ethical issues when using technical means - audio and video observation should be conducted with the consent of the observed individuals.
+    6. Requires a significant amount of time.
+    7. Tendency towards adaptation to conditions (in overt observation) by the observed individuals.
+
+# Interview
+
+## Definition and Preparation
+
+1. Definition: An interview is a form of inquiry based on direct **verbal** communication between two or more individuals through oral questioning and responses. This sociological method finds wide application in practice. However, it should be distinguished from its use in journalism, for conversation between an employer and a job candidate, between a lawyer and a client, as well as between a doctor and a patient. Taking medical history, which is the first stage of medical diagnosis, is actually an interview, where the interviewer is the doctor and the interviewee is the patient.
+2. Characteristics:
+    1. Information about the elements of behavior and self-awareness of the subject is gathered during the meeting;
+    2. The questions and answers are recorded by the researcher;
+    3. Interviewers need to possess certain psychological qualities and sociological training to create an atmosphere of trust and openness;
+    4. It allows for follow-up meetings.
+3. Preparatory steps - elements:
+    1. Determining the type of interview;
+    2. Choosing the time and place for its conduct;
+    3. Developing and testing the questionnaires;
+    4. Selecting and training the interviewers.
+
+## Requirements
+
+1. The interviewee should not feel like they are being interrogated; it is necessary to gain their trust. 
+2. During the conversation, the interviewee's opinions and beliefs should not be criticized, nor should they be lectured. However, the interviewer should guide and protect the interviewee from circumstantial and unnecessary answers.
+3. During the interview, it is necessary to start with general questions and gradually deepen the conversation topic according to the research objectives.
+
+*The renowned sociologist Albert has developed the following exemplary plan for gradually deepening the topic during the interview: the interviewer introduces themselves - name, profession, tasks, etc.; then asks about the interviewee's age; traditions and upbringing, culture; education; illnesses and accidents; life plans, intentions in the profession field; hobbies and leisure activities; cultural interests; hopes and ambitions; personal attachment to men, women, animals, books, etc.; dreams; fears and concerns; humiliations and disappointments; dislikes and repulsions; intimate and sexual life; neuroticism and phobias; religiosity; worldview, life philosophy. This plan should be understood as an example, as an approach.*
+
+## Types
+
+1. According to the type of questionnaire used:
+    1. Structured standard with a questionnaire form - The most formal format is a questionnaire. The exact wording of each question is selected beforehand and each participant is asked the same questions in the same order.
+    2. Unstructured - Free interviews. Need have no agenda and no prearranged questions. The conversation can be allowed to take whatever path the participants find most interesting. In the context of research, however, the researcher is likely to have some preliminary ideas which will guide at least the initial questions. Nonetheless, he or she is not going to constrain the conversation. 
+    3. Semi-structured - Less formal. Here the questioner has an agenda: a specific topic to ask about and a set of questions which he or she wants answered. However, the exact wording of the questions is not considered critical and the order in which the questions are asked is not fixed. This allows the interview to flow more like a conversation. Nonetheless, the interviewer may have to steer the conversation back to the given topic and check that the original questions have been  answered. 
+2. According to the number of subjects studied:
+    1. Individual.
+    2. Collective focus groups.
+        1. In this case, the focus is on a specific problem area, and the conversation is held not with one, but with several interviewees.
+        2. The topic, place, and time of the meeting are planned, and a script is prepared in advance. It includes introductory words on the topic, introduction of participants, the purpose of the discussion, and its subject.
+        3. The list of questions should contain several main questions, as well as supporting materials for illustration.
+        4. The discussions are led by a facilitator (moderator), who introduces topics and guides the discussion. The moderator should not evaluate the opinions of the interviewees. A co-moderator supervises the work in the focus group, assists, and intervenes if necessary, taking notes during the discussions.
+        5. The duration of the discussions is usually between one and a half to two hours. Typically, audio and video recordings are made of focus group discussions, and participants are informed in advance so they can decline participation.
+        6. A group discussion is conducted with **8-12** people, discussing several main topics related to the research, monitoring, or evaluation being conducted.
+        7. Participants should not be in hierarchical or competitive relationships with each other, as this can block discussion. It is best if they do not know each other at all. Research tasks are transformed into a series of questions to be answered and discussed during the group work. This method establishes the typical attitudes and orientations of participants regarding the discussed issue.
+3. According to the frequency of conducting:
+    1. Single.
+    2. Multiple.
+4. According to the method of conducting:
+    1. "Face to face" - interviews involve the interviewer and participant being present together or, in the case of video link, able to see and hear each other in real time. The interviewer asks the questions and notes down the responses. Such interviews can occur in a number of places. They can be conducted: 
+       1. on the  interviewer’s territory, when participants visit the researcher’s place of work; 
+       2. on the participant’s territory, when the interviewer visits the participant’s home or place of work; or 
+       3. with each on his or her own territory via video link. 
+       4. Finally, they can be conducted on neutral territory such as outside a shop. 
+    2. Remote - Telephone; Online - Answers are immediately entered into a computer with specialized software for data processing and analysis.
+
+# Documentary Method
+
+## Definition
+
+1. The documentary method is a procedure for collecting primary empirical information from documents, primarily reflected on other occasions;
+2. A document is any material carrier of information. These are written sources and non-written materials (means of production, works of art, photographs, household inventory, etc.). The document is a given for the researcher. The researcher cannot control the placement of information in it.
+
+## Types of Documents
+
+### According to Type
+
+1. Written
+    1. Official - those issued by public and state institutions. These documents can be public or personal.
+        1. Public: contain information about activities and events related to society as a whole or to specific segments of it.
+        2. Personal: contain information about lifestyle, activities, thoughts, desires, social values, and other characteristics of a particular individual. These include petitions, applications, autobiographies, etc. An important aspect here is the motive for their creation.
+    2. Unofficial: usually personal. These include petitions, applications, autobiographies, etc. An important aspect here is the motive for their creation.
+2. Non-written: include drawings, sound recordings, video recordings, etc.
+
+### According to Origin
+
+1. Spontaneously arisen
+2. Commissioned
+
+### According to the Contained Information
+
+1. Primary - contain information about the event or phenomenon itself. They are created at the time of the event and can be analyzed in the context of study. 
+2. Secondary - contain information about the event or phenomenon, but are created after the event and they are not crafted for the purpose of the study.
+
+### Types of Analysis
+
+1. Content Analysis
+    1. Quantitative analysis (word count, reading time, most commonly used words)
+    2. Qualitative analysis - analysis of themes in the text, expressive means, etc.
+2. Analysis of Dissemination Tools
+3. Author Analysis
+4. Audience Analysis
+5. Effect Analysis
+
+The analysis of written documents can be *comprehensive* or *selective* (only to certain aspects) depending on the purpose of the study.
+
+## Advantages and Disadvantages:
+
+1. Advantages:
+    1. Provides an opportunity to objectify certain social facts.
+    2. Retrospective study of events and phenomena over a long period.
+    3. Allows the determination of the direction of development of social processes.
+    4. Multiple studies.
+    5. Provides information about contradictions between the individual and the social environment.
+    6. Allows for making a typological characterization of individual personalities or categories of individuals.
+2. Disadvantages:
+    1. Lack of representativeness of the data.
+    2. The information is prepared for another occasion.
+    3. Selectivity of information both on the part of the researcher and the one who provided it.
+    4. Danger of deliberately distorting phenomena and processes.

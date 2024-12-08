@@ -1,0 +1,184 @@
+---
+title: "Ethical issues in human reproduction"
+date: 2024-12-08
+description: "Advancements in fertility and reproduction control have significantly impacted societal dynamics, granting women greater autonomy in childbearing decisions. Ethical tensions arise from the balance between a woman’s autonomy over her body, the moral consideration of fetuses, and societal perspectives rooted in diverse moral, religious, and cultural convictions. Reproductive topics such as contraception, sterilization, abortion, and assisted reproduction (including surrogacy and IVF) raise complex legal and ethical debates about rights, responsibilities, and societal obligations, highlighting the necessity of informed consent, respect for individual autonomy, and ethical considerations in medical practices"
+categories: 
+  - "English"
+  - "Medical Ethics"
+  - "Medicine | 2nd year"
+  - "Dental medicine | 5th year"
+title-meta: "Ethical issues in human reproduction"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2024-12-08
+---
+
+The increasing ability of people to exercise control over fertility and reproduction has led to major changes in the way people live their lives. Women are now able to exercise choice over whether and when to have children to a greater extent than ever before. Although emphasis is often placed on the provision of contraception to young women, **boys and men also need advice about contraception and sexual health**. Similarly, although decisions about the progress of a pregnancy ultimately rest with the woman carrying the fetus, fathers also have a role in decision making, particularly when they intend to take an active part in bringing up the child. Reproduction differs from many other areas of medical practice because of its complexity and because tension can sometimes arise between the **rights of women** to make decisions about their own bodies and the **moral duties owed to embryos and fetuses**. It is this aspect of reproduction that is at the root of many of the ethical, legal, social and psychological questions that continue to be of concern to society. Control over one’s body, abortion, reproduction and parenthood are matters about which most people hold strong views. For many, such views are based on moral, religious or cultural convictions. Given the existence of such diversity of opinion, it is clear that some of these questions can never be resolved to the satisfaction of all sections of society, but will be the subject of continuing ethical debate. Broad areas of moral consensus can, however, be sketched out after wide ranging consultation and public debate, and these form the basis of legislation, guidance and practice in this area.
+
+# General principles
+
+When considering questions about contraception, abortion and birth, the following general principles should apply.
+
+1. The confidentiality of all patients, including those aged under 16, should be respected except in exceptional cases.
+2. Young people who are sufficiently mature to understand the nature and implications of the treatment requested are able to give valid consent, but parental involvement should be encouraged.
+3. No treatment may be provided to an adult who has capacity without valid consent.
+4. Adults are presumed to have capacity unless there is clear evidence to the contrary. (Being in labour does not, in itself, affect decision-making capacity.)
+5. Women should be encouraged to participate to the greatest possible extent in decisions about their pregnancy.
+6. A woman who plans to carry her fetus to term has special moral responsibilities towards the unborn child, but neither health professionals nor society can force her to fulfil those duties.
+7. Discussion about reproduction inevitably focuses primarily on women, but the role of men should not be undermined. Contraception and sexual health are the responsibility of both sexes.
+
+# The autonomy of pregnant women
+
+It is an accepted principle of medical law and ethics that adults with capacity have the right to refuse any treatment or medical intervention, even if that refusal results in their avoidable death. The courts have held that this rule applies equally to a woman who is pregnant even if she is carrying a viable fetus capable of being born alive. **The fetus, up to the moment of birth, does not have any separate legal interests capable of being taken into account by a court**, and therefore the legal position is that the woman’s right to refuse treatment overrides all other legal considerations.
+
+# Is there a right to reproduce?
+
+A woman’s right to refuse life-prolonging treatment is one of a number of ‘rights’ that are frequently appealed to in relation to reproduction. A distinction is often made between negative and positive rights or between a liberty and a right. **Negative rights simply involve being free from interference and are based on the notion that the state should not interfere with essentially private decisions**. In terms of reproduction, this confers the right not to be prevented from procreation, for example by non-consensual sterilisation. **Positive rights, however, would include the right to demand appropriate healthcare**. In terms of reproduction, this would include a positive obligation on the state and health professionals to support the individual’s reproductive choices, including providing reproductive technology for every person who requires it. Claims to positive rights are often seen as problematic in that they suppose that there is a corresponding obligation on other people to supply what the right holder claims.
+
+# Contraception
+
+The continuing high number of unwanted or unintended pregnancies demonstrates a clear need for better access to, and uptake of, contraceptive information and services. Cooperation has been encouraged for many years between various agencies, including health and education services, the voluntary sector, and service users to try to improve family planning services. This includes recognition of the need for specific training to enable providers to assess, and explain to patients, the range of contraceptive methods available and to provide general advice about sexual health to accompany the provision of contraceptives. Most women who seek contraceptive advice and services do so from their GP practice, although many younger women tend to prefer the anonymity of specialist clinic
+
+Before providing **contraception to young people**, health professionals must:
+
+1. Consider whether the patient **understands the potential risks and benefits** of the treatment
+2. Consider whether the patient understands the **advice given**
+3. Discuss with the patient the value of **parental support**(doctors must encourage young people to inform parents of the consultation and explore the reasons if the patientis unwilling to do so) – it is important for persons aged under 16 who are seeking contraceptive advice to be aware that, although the doctor is obliged to discuss the value of parental support, he or she will respect their confidentiality
+4. Take into account whether the patient is **likely to have sexual intercourse without contraception** 
+5. Assess whether the patient’s **physical or mental health** or both are likely to suffer if the patient does not receive contraceptive advice or treatment
+6. Consider whether the patient’s best interests would require the provision of contraceptive advice or treatment or both without parental consent.
+ 
+Even if the doctor is unwilling to supply contraception on the grounds of the patient’s immaturity, he or she still maintains a general duty of confidentiality unless there are exceptional reasons for disclosing information without consent. Such reasons could occur when, for example, the request for contraception arises in the context of sexual exploitation, incest or other sexual abuse. In such exceptional cases the doctor has a duty to protect the patient and this may eventually involve a breach of confidentiality, although with counselling and support the patient may feel able to agree to disclosure. Nevertheless, it is important that doctors avoid making completely unconditional promises about secrecy to individual young people, while at the same time making it clear that confidentiality as a general principle extends to all consultations.
+
+# Sterilisation 
+
+Depending on national legislation, men or women above certain age may apply for sterilization. For men, the procedure (vasectomy) is simpler than for women (tubectomy or the blocking of Fallopian tubes). From the point of view of ethics, it is important that the person understands that after successful sterilization, fertility can be recovered only in exceptional cases. **Sterilization without consent or even under coercion is illegal and represents a grave ethical offense.**
+
+Male or female sterilisation is usually expected to produce **permanent sterility** (although this is not necessarily the outcome). Although some people have conscientious objections to sterilisation for contraceptive purposes, within society as a whole it appears to be viewed as an acceptable form of family planning, as long as individuals are adequately informed of the implications of the procedure and no pressure is exerted upon them. Reliance on sterilisation for contraceptive purposes is highest amongst older women. Non-consensual sterilisation of those who are unable to give valid consent has, however, been the subject of intense debate Sterilisation (unless for therapeutic reasons) is one of a small number of procedures that must not be carried out without applying for a court declaration. This is because of its intended irreversible nature, which deprives the individual of what is, according to one judge, ‘widely and rightly regarded as one of the fundamental rights of a woman, the right to bear a child’.
+
+# Abortion
+
+In order to understand the very contentious background to the abortion debate, it may be helpful to mention briefly the main strands of the argument. People generally give one of three common types of response to abortion: prochoice, anti-abortion and the middle ground that abortion is acceptable in some circumstances. The main arguments in support of each of these positions is set out below.
+
+## Arguments in support of abortion being made widely available
+
+Those who support the wide availability of abortion consider the matter to be primarily one of a woman’s right to choose and to exercise control over her own body. These arguments tend not to consider the fetus to be a person, deserving of any rights or owed any duties. Those who judge actions by their consequences alone could argue that abortion is equivalent to a deliberate failure to conceive a child and, because contraception is widely available, abortion should be too. Others take a slightly different approach, believing that, even if the fetus has rights and entitlements, these are very limited and do not weigh significantly against the interests of people who have already been born, such as parents or existing children of the family. Most people believe it is right for couples to be able to plan their families and for women to have control over when they become pregnant. Although contraception is understood to be the appropriate means to avoid unwanted pregnancy, all methods have a failure rate. When contraception fails, or when couples fail to use it effectively, many people accept that abortion is preferable to forcing a woman to continue with an unwanted pregnancy.
+
+## Arguments against abortion
+ 
+Some people consider that abortion is wrong in any circumstance because it fails to recognise the rights of the fetus or because it challenges the notion of the sanctity of all human life. They argue that permitting abortion diminishes the respect society feels for other vulnerable humans, possibly leading to their involuntary euthanasia. Those who consider that an embryo is a human being with full moral status from the moment of conception see abortion as intentional killing in the same sense as the murder of any other person. Those who take this view cannot accept that women should be allowed to obtain abortions, however difficult the lives of those women or their existing families are made as a result. Such views may be based on religious or moral convictions that each human life has unassailable intrinsic value, which is not diminished by any impairment or suffering that may be involved for the individual living that life. Many worry that the availability of abortion on grounds of fetal abnormality encourages prejudice towards any person with a handicap and insidiously creates the impression that the only valuable people are those who conform to some ill-defined stereotype of ‘normality’. More recently, some have shifted the arguments on to the pregnant woman and have argued that abortion is wrong because of the psychological and health consequences for a woman, although evidence in support of this is elusive and controversial. Some of those who oppose abortion in general nevertheless concede that it may be justifiable in very exceptional cases when termination is seen as the lesser moral offence. This could include cases such as where the pregnancy is the result of rape, or the consequence of the exploitation of a young girl or a woman lacking capacity. Risk to the mother’s life may be another justifiable exception, but only when abortion is the only option. It would thus not be seen as justifiable to abort a fetus if the life of both fetus and mother could be saved by implementing any other solution.
+
+## Types of abortion
+
+1. Medical Abortion:
+   - Medical abortion is a type of abortion that is conducted for **medical reasons**, typically when the continuation of a pregnancy poses a **threat to the health or life of the pregnant person**. It may also be performed in cases of severe fetal abnormalities where the baby is not expected to survive after birth
+   - This type of abortion is typically carried out with the guidance of healthcare professionals, using medication or surgical procedures to ensure the safety of the patient.
+2. Social Abortion:
+   - Social abortion, also known as **elective abortion**, is the termination of a pregnancy **for non-medical reasons**. It is a personal choice made by the pregnant person due to various factors, such as their life circumstances, financial situation, or personal beliefs.
+   - The legality and availability of social abortions **can vary widely** from one region or country to another. Some places may have strict regulations or restrictions on elective abortions, while others may have more permissive laws.
+3. Criminal Abortion:
+   - Criminal abortion refers to an abortion that is performed **in violation of the laws of a particular jurisdiction**. This can encompass a wide range of circumstances, such as performing an abortion **without proper medical training or in a setting that doesn't meet legal standards**.
+   - Criminal abortion may also refer to cases where abortion is **considered illegal**, regardless of the circumstances. The legality of abortion varies widely across the world, with some countries allowing it under certain conditions and others prohibiting it entirely.
+
+# Assisted reproduction 
+
+Assisted reproduction enables the deliberate manipulation of the processes and materials of human reproduction outside of sexual intercourse. In describing the practices that constitute assisted reproduction, it must be understood that all such practices are embedded with ethical issues, whether standard therapies such as ovulation induction, insemination with donor sperm, and in vitro fertilization (IVF) ; emerging practices such as pre-implantation genetic diagnosis (PGD) ; or practices prohibited under law in many countries, such as the purchase or bartering of oocytes. Ovulation induction through clomiphene citrate has been practiced for over 30 years. 
+
+This oral therapeutic strategy can assist 50–80% of women with ovulatory dysfunction become pregnant, depending on the etiology of their disorder (with the exception of premature ovarian failure). Aromatase inhibitors are new oral ovulation induction agents. When these are unsuccessful in inducing ovulation, menotropins (also referred to as gonadotropins) may be used . This is a much riskier strategy, with side eff- ects including ovarian hyperstimulation syndrome and the creation of high-order multiple pregnancies. Provision of sperm, by other than the woman’s partner, was one of the earliest forms of assisted reproduction and has been encompassed in medical practice for 50 years. Sperm donation is a common practice when a woman’s partner has sperm of low count or quality or carries a communicable disease, when she is in a lesbian relationship, or if she is single. Oocytes may be provided to women who no longer have an *‘‘ovarian reserve,’’* because of their advanced age or having undergone cancer treatment 
+
+## Insemination or Egg Cell Donation
+
+In the case of infertility, insemination with donor sperm or donation of egg cells are nowadays routine procedures. The main legal and ethical issues concern the status of the donor. In Bulgaria and in many other countries, the donor remains anonymous. Only in cases of exceptional and justified health-related reasons can the court in a non-contentious procedure allow disclosure of the donor’s identity. 
+
+## In Vitro Fertilization
+
+In recent years, a stark increase in age at which the future parents decide to have children has been seen, especially in developed countries. Because fertility decreases with age, it is understandable that many parents require medical assistance in conception. The procedures of in vitro fertilization are also used in cases when we need to select among the fetuses to avoid genetic diseases. Ethical considerations here are similar to those in prenatal diagnostics: medicine supports the wishes of the parents to have only healthy children. Obviously, in vitro fertilization is ethically not acceptable when it serves to choose the gender or physical or mental characteristics of the child.
+
+## Surrogate Motherhood
+
+The most significant deviation from natural conception and pregnancy is **surrogate motherhood**. Surrogacy arrangement means that the fetus is implanted into the womb of another woman who gives birth to the child and then gives the child to the “biological parents”. Surrogacy opens the door to severe abuse. The indication for surrogacy is often not a medical one, that is, the inability of the biological mother to carry a pregnancy and give birth, but rather the biological mother wants to avoid all the risks and discomforts of pregnancy and birth. In some parts of the world, for example, India, the so called rent-a-womb is already a well-established source of income for poor women. This practice is illegal in many countries and is ethically very problematic. Few healthy women would accept the role of a surrogate mother purely for altruistic motives, and in the large majority of cases, it is the money that drives the decision. Surrogate motherhood is a clear case of disrespect of the ethical principle of justice. Ethically, it is hard to defend exploitation of the poor, who are forced to put their health and well-being at risk. The second problematic issue is that pregnancy is not merely a waiting time, but rather a precious period for both parents to prepare for their new role. Talking, or singing to a child before birth, is a most common and enriching experience. Likewise, the father also gradually adapts to his new role. Thus, all events during pregnancy prepare the family for the great change in family life and for the (often difficult) period of caring for a newborn baby. This role of pregnancy as preparation for parenthood is missing if the only reminder of the new family member is a marked date on a calendar. Finally, we must also think of some unfortunate potential scenarios. What happens if the newborn child is not healthy? Would the “biological parents” return him or her as we do with malfunctioning washing machines in stores? If the surrogate mother during pregnancy or delivery gets a disease or even dies - who is responsible and who takes care of her other children? 
+
+# Case studies
+
+
+## Case 1
+
+Ms. A is 19 years old and 25 weeks pregnant. Although her pregnancy was unplanned, at no time has she considered pregnancy termination. During a prenatal office visit, Ms. A reveals that she has a daily drug habit that includes crack cocaine and intravenous narcotics. She refuses to consider a change in her behavior, despite a thorough review of the potential effects of her substance abuse on her pregnancy outcome. Specifically, she refuses to participate in a methadone or other substance-abuse program.
+
+## Case 2
+
+Ms. B is 24 years old and has been in labor for 18 hours. The cervical dilatation has not progressed past 3 cm. The fetal heart rate tracing has been worrisome but is now seriously abnormal, showing a profound bradycardia of 65 beats per minute. This bradycardia does not resolve with conservative measures. Repeat pelvic examination reveals no prolapsed cord and confirms a vertex presentation at 3 cm dilatation. The obstetrician explains to Ms. B that a cesarean section will be necessary because of suspected fetal distress. Ms. B absolutely refuses, saying ‘‘No surgery.’
+
+## Case 3
+
+A 30-year-old woman presents to the clinic during her third trimester. The estimated gestational age of the fetus is 28 weeks and she is seeking an abortion. The patient is generally healthy. An ultrasound of the fetus at 26 weeks and routine genetic testing showed no abnormalities.
+
+## Case 4
+
+A 23-year-old woman, Ms J, who seems happily pregnant, is screened at 16 weeks for fetal anomalies. When the ultrasound reveals her fetus has a cleft palate, she requests a pregnancy termination. Considering this a trivial reason for a therapeutic abortion, her clinician, Dr I, shares this view with her. Is it acceptable for the clinician to voice her opinion in this way? Should the clinician simply keep quiet and fill out the referral form for the abortion? How else might she respond?
+
+## Case 5
+
+A childless lesbian couple, Ms K and Ms M, arrange for the creation of an in vitro embryo from Ms K’s egg and sperm donated anonymously. Neither Ms K nor Ms M is physically able to bear a child. The embryo is successfully im- planted into a surrogate mother, Ms L, contracted by the couple to give birth to the child, Baby B, whom the couple intend to raise. The pregnancy is success- fully carried to term; however, Ms K and Ms M split up acrimoniously shortly before the child’s birth. The gamete provider, Ms K, now says she wants her former partner, Ms M, to have nothing to do with raising Baby B. Ms M objects and seeks legal remedy. Who should be considered the parents of this child? What if Ms L decides to simultaneously apply to be legally considered Baby B’s mother? Does the source of the gametes make a difference?
+
+## Case 6 
+
+Although currently in remission, a three-year-old girl, Becky L, has been gravely ill with leukemia. Curative treatment is possible but requires bone marrow stem cell donation from a suitable donor. Without it, the child will almost certainly die when the disease recurs, as it almost certainly will. No suitable match is found. The parents decide to conceive a new child in the hope this will result in a suitable donor, but they need ART because Becky’s mother, now 38, experienced premature ovarian insufficiency at age 36. The mother’s twin sister is prepared to donate her eggs. Is this an acceptable use of ART? Is doing prenatal genetic testing (PGT) to find HLA compatibility acceptable?
+
+## Case 7
+
+As part of your clinical duties as a gynaecology trainee, you have been asked to see some of the patients in the fertility treatment clinic. These patients have usually been referred by their GP for specialist advice and information provision when struggling to conceive naturally. You are therefore surprised to discover that one couple is in a same-sex relationship. They tell you they had their civil partnership 6 months ago and would now like to start a family. Neither of them have had children previously and they are interested in finding out more about the different options of fertility treatment available to them.
+
+Questions
+
+- Are same-sex couples entitled to fertility treatment?
+- Who can legally be named as a parent on a birth certificate?
+- What are the ethical arguments against same-sex parenting?
+
+## Case 8
+
+You are a lawyer specialising in family law. To celebrate your new job, your best friend, Tessa, and her husband have come round to dinner. They have been having trouble conceiving and have had several failed IVF attempts. After dinner Tessa takes you to one side and confides that the fertility clinic they have been using mentioned the option of surrogacy. Tessa has been thinking it over but is unsure about the legalities of surrogacy in the UK and so asks for your advice. She has seen several documentaries on the television about high-profile couples using a surrogate but had always assumed it would be extremely expensive.
+
+Questions
+
+- What is surrogacy?
+- Is surrogacy lawful?
+- What ethical concerns may arise from surrogacy?
+- Who in law are the parents of a child born as a result of surrogacy?
+
+## Case 9
+
+Mike and Lauren, both in their late 20s, have been happily married for 4 years. Lauren has congenital deafness due to a known gene mutation, and Mike is an unaffected carrier. They have a one-in-two chance of having a deaf child, and they wish to avoid that risk. They are referred to the Pre-implantation Genetic Diagnosis (PGD) clinic as they are seeking in vitro fertilisation with PGD so that an embryo without the mutation causing deafness can be selected for implantation.
+
+
+Questions
+
+- What is pre-implantation genetic diagnosis?
+- Does the law allow pre-implantation genetic diagnosis for a condition which does not require medical treatment?
+
+## Case 10
+
+Adele is a 39-year-old solicitor. She has been married to her husband for 8 years. Although they have both always wanted a family, Adele initially wanted to focus on her career and then struggled to conceive. When she finally fell pregnant, both Adele and her husband were thrilled. Unfortunately, following her first trimester scan, a nuchal screening test indicated that the foetus had a high risk of suffering from Down’s syndrome. She decided to undergo further diagnostic testing, and amniocentesis confirmed Down’s syndrome. The couple is distraught. They had waited a long time to conceive and wanted the ‘perfect’ baby to fit into their busy lifestyles. Adele does not feel she would ever be able to return to work if she had to care for a disabled child and thinks having to give up her career would be detrimental to her mental health. After much deliberation she visits her doctor to discuss termination of pregnancy.
+
+Questions
+
+- What is the extent of a woman’s reproductive autonomy?
+- At what stage of gestation, if at all, does the moral status of the foetus limit a woman’s right to choose?
+
+## Case 11
+
+Sophie has had her 20-week anomaly scan and has discovered she is expecting another boy. This is her fourth pregnancy. She already has three sons and she and her husband decided to have another child in the hope of having a daughter. Sophie and her own mother had a very close bond growing up, and she had dreamt of recreating the mother–daughter bond with her own child. This desire had been made stronger due to the recent death of her own mother. You are her GP and when she comes to see you she is visibly distressed. She confides that she has already booked an appointment with a counsellor at the British Pregnancy Advisory Service. She does not want to continue with the current pregnancy as she does not feel she could give enough love to another son. She also tells you that her husband is supportive of any decision she chooses to make as he too has a preference to have a daughter.
+
+Questions
+
+- What are the grounds for a lawful termination of pregnancy?
+- Is it lawful to terminate a pregnancy on the grounds of foetal sex?
+- Does the potential father have any legal rights?
+
+## Case 12
+
+Adele is a 39-year-old solicitor. She is 16 weeks pregnant with her first child. Following her first trimester scan at 13 weeks she was informed that she was high risk for having a child with Down’s syndrome. She underwent further diagnostic testing in the form of amniocenteses which confirmed the diagnosis. The couple is distraught as they had tried for a long time to conceive, but Adele does not think she can cope with a baby with Down’s syndrome. Despite counselling, Adele is now sure that she wants to terminate the pregnancy. She visits her GP to request a termination. However, the GP is a practising Roman Catholic with a strong faith, and he does not wish to participate in abortion services.
+
+Questions
+
+- In what circumstances can a healthcare professional refuse to be involved in a termination of pregnancy?
+- Are there any other medical situations when conscientious objection can be used by a healthcare professional?
