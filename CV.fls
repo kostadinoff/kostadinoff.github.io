@@ -191,6 +191,9 @@ INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\CV.aux
+INPUT .\CV.aux
+INPUT CV.aux
 OUTPUT CV.aux
 INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\drkos\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
