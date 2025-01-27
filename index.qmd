@@ -10,6 +10,6 @@ about:
 [{{< fa envelope >}}<br>Email](mailto:kostadinr.kostadinov@mu-plovdiv.bg){.btn .btn-secondary .btn role="button" data-toggle="data" title="email"} [{{< fa brands twitter >}}<br>Twitter](https://x.com/kostadinoffMD){.btn .btn-secondary .btn role="button" data-toggle="data" title="twitter"} [{{< fa brands github >}}<br>Github](https://github.com/kostadinoff){.btn .btn-secondary .btn role="button" data-toggle="data" title="github"} [{{< fa graduation-cap >}}<br>Scholar](https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en){.btn .btn-secondary .btn role="button" data-toggle="data" title="scholar"} [{{< fa id-badge >}}<br>ORCID](https://orcid.org/0000-0003-1414-8738){.btn .btn-secondary .btn role="button" data-toggle="data" title="ORCID"}
 :::
 
-<br> 
+<br>
 
-I’m Kostadin Kostadinov, a medical doctor, assistant professor, and researcher in the department of social medicine and public health, Plovdiv, Bulgaria. My background is in internal medicine, epidemiology, health policy, and economics. I am interested in data science, policy evaluation, and health services research. This website is a collection of my thoughts, teaching materials, and research projects. The expressed opinions are my own and do not represent the views of any institution. 
+I’m Kostadin Kostadinov, a medical doctor, assistant professor, and researcher in the department of social medicine and public health, Plovdiv, Bulgaria. My background is in internal medicine, epidemiology, health policy, and economics. I am interested in data science, policy evaluation, and health services research. This website is a collection of my thoughts, teaching materials, and research projects. The expressed opinions are my own and do not represent the views of any institution.
