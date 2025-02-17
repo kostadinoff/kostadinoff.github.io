@@ -16,6 +16,16 @@ date-meta: 2024-12-08
 
 Sociological research serves as a crucial tool for the scientific management of healthcare. These studies not only help formulate and adopt optimal managerial decisions but also examine the mechanisms of their impact on people, their perception by various categories of medical professionals, track how these decisions are translated into people's thoughts and behaviors, and how they influence relationships within work teams and social groups.
 
+
+# Purposes of Social Research 
+
+1. Exploration - When we have a new or relatively underresearched topic, exploratory research is a way of learning about that topic. Exploratory research can help us fill a gap in our knowledge about a new or underresearched topic, or approach the topic from a different perspective to generate new and emerging insights. When you conduct a literature review and come up short, this absence of adequate research is often an  indicator that exploratory research is needed. Such research may prompt further investigation, including the development of an appropriate methodological plan.
+2. Description - When we want to describe individuals, groups, activities, events, or situations, descriptive research is appropriate. Descriptive research aims to generate “thick descriptions” of social life (those that provide details, meanings, and context), typically from the perspective of the people living it. Researchers may turn to rigorous observation or related methods of interview in order to document how things are experienced, with respect to the phenomenon under investigation. 
+3. Explanation - When we want to explain causes and effects, correlations, or why things are the way they are, explanatory research is appropriate. For example, if we want to know the particular factors that shape people’s attitudes about a controversial issue such as stem cell research, or immigration policies, we may conduct explanatory research. This type of research can also provide evidence for causal relationships, suggesting that A causes B, or that A causes B only under certain circumstances.  
+4. Community Change or Action - When relevant stakeholders have identified the need for community change or action, we may conduct research with the aim of prompting such community change, social action, or community intervention. For instance, if a community is undergoing rapid development and some stakeholders in the community are being excluded from the development process, we may develop a research project with the  aim of intervening in that process. 
+5. Evaluation - When we want to assess the effectiveness or impact of a program or policy, evaluation research provides a means of doing so. Evaluation can be considered a type of explanation. Evaluation research is useful in numerous kinds of research projects, from evaluating particular outreach programs, educational programs, to public policies, campaigns of various sorts, and so forth. For instance, evaluation research can help us determine how changes in a policy have impacted successes or failures in a particular program or the effectiveness of a particular awareness campaign. 
+6. Evoke, Provoke, or Unsettle - When we want to jar specified audiences (groups of people) into thinking about or seeing something differently, promote new learning, or create an awareness campaign, we may conduct research with the aim of evoking, provoking, or unsettling. This kind of research may aim to disrupt or unsettle stereotypes or “commonsense” ideologies, serve as an intervention, stimulate self-reflection, or generate social awareness. Research conducted with this purpose may follow a generative model whereby the inquiry itself is the research act.
+
 # Application of the Sociological Approach in Social Medicine {#soc_applications}
 
 1. Study of the medical-social issues within the society (doctor-patient relationships, healthcare needs, satisfaction).
@@ -24,7 +34,7 @@ Sociological research serves as a crucial tool for the scientific management of 
 
 The utilization of sociological methods in social medicine for the purpose of gathering primary sociological information is referred to as **empirical sociological research**.
 
-# Sources of Sociological Data {#soc_sources}
+# Sources of Sociological Data: {#soc_sources}
 
 Sociological information can be gathered from three main sources:
 
@@ -32,7 +42,7 @@ Sociological information can be gathered from three main sources:
 2. Studying the *behavior* of the observed individual - visual or auditory data are collected.
 3. Documents about and concerning the researched individual - written or other information is gathered through document analysis.
 
-# Stages of Empirical Sociological Research {#esi_stages}
+# Stages of Empirical Sociological Research: {#esi_stages}
 
 ## Preparation
 
@@ -171,7 +181,7 @@ A scientific research method in which information is gathered through **written 
 
 ## Definition
 
-Observation is the recording of primary sociological information regarding specific social phenomena and processes from objective reality in real-time and space (the behaviour of the studied objects) in accordance with the research rogram. It is carried out using specific methodology.
+Observation is the recording of primary sociological information regarding specific social phenomena and processes from objective reality in real-time and space (the behaviour of the studied objects) in accordance with the research program. It is carried out using specific methodology. Participant observation always takes place in community  settings, in locations believed to have some relevance to the research questions. The method is distinctive because the researcher approaches participants in their own environment rather than having the participants come to the researcher. Generally speaking, the researcher engaged in participant observation tries to learn what life is like for an “insider” while remaining, inevitably, an “outsider”. In the community setting, the researcher makes careful, objective notes about what he sees, recording all accounts and observations as field notes in a field notebook. Informal conversation and interaction with members of the study population are also important components of the method and should be recorded in the field  notes, in as much detail as possible. 
 
 ## Types
 
@@ -255,20 +265,22 @@ Observation is the recording of primary sociological information regarding speci
 
 1. According to the type of questionnaire used:
     1. Structured standard with a questionnaire form - The most formal format is a questionnaire. The exact wording of each question is selected beforehand and each participant is asked the same questions in the same order.
-    2. Unstructured - Free interviews. Need have no agenda and no prearranged questions. The conversation can be allowed to take whatever path the participants find most interesting. In the context of research, however, the researcher is likely to have some preliminary ideas which will guide at least the initial questions. Nonetheless, he or she is not going to constrain the conversation. 
+    2. Unstructured - Deep interviews. Need have no agenda and no prearranged questions. The conversation can be allowed to take whatever path the participants find most interesting. In the context of research, however, the researcher is likely to have some preliminary ideas which will guide at least the initial questions. Nonetheless, he or she is not going to constrain the conversation. The qualitative in - depth interview is a favored strategy of data collection in qualitative research and produces rich data. It is a ‘conversation with a purpose’ in which the interviewer aims to obtain the perspectives, feelings and perceptions from the participants in the research. The in - depth interview is a technique designed to elicit a vivid picture of the participant’s perspective on the research topic. During in - depth interviews, the person being interviewed is considered the expert and the interviewer is considered the student. The researcher’s  interviewing techniques are motivated by the desire to learn everything the participant can share about the research topic. Researchers engage with participants by posing questions in a neutral manner, listening attentively to participant’s responses, and asking follow - up questions and probes based on those responses. They do not lead participants according to any preconceived notions, nor do they encourage participants to provide particular answers by expressing approval or disapproval of what they say. In - depth interviews are usually  conducted face - to - face and involve one interviewer and one participant. The details of conducting interviews have already been covered  in detail in an earlier chapter and the readers are advised to go through the same. 
     3. Semi-structured - Less formal. Here the questioner has an agenda: a specific topic to ask about and a set of questions which he or she wants answered. However, the exact wording of the questions is not considered critical and the order in which the questions are asked is not fixed. This allows the interview to flow more like a conversation. Nonetheless, the interviewer may have to steer the conversation back to the given topic and check that the original questions have been  answered. 
 2. According to the number of subjects studied:
     1. Individual.
-    2. Collective focus groups.
-        1. In this case, the focus is on a specific problem area, and the conversation is held not with one, but with several interviewees.
-        2. The topic, place, and time of the meeting are planned, and a script is prepared in advance. It includes introductory words on the topic, introduction of participants, the purpose of the discussion, and its subject.
-        3. The list of questions should contain several main questions, as well as supporting materials for illustration.
-        4. The discussions are led by a facilitator (moderator), who introduces topics and guides the discussion. The moderator should not evaluate the opinions of the interviewees. A co-moderator supervises the work in the focus group, assists, and intervenes if necessary, taking notes during the discussions.
-        5. The duration of the discussions is usually between one and a half to two hours. Typically, audio and video recordings are made of focus group discussions, and participants are informed in advance so they can decline participation.
-        6. A group discussion is conducted with **8-12** people, discussing several main topics related to the research, monitoring, or evaluation being conducted.
-        7. Participants should not be in hierarchical or competitive relationships with each other, as this can block discussion. It is best if they do not know each other at all. Research tasks are transformed into a series of questions to be answered and discussed during the group work. This method establishes the typical attitudes and orientations of participants regarding the discussed issue.
+    2. Collective -- focus groups discussion is a qualitative data collection method effective in helping researchers learn the social norms of a community or subgroup, as well as the range of perspectives that exist within that community or subgroup. Focus groups seek to illuminate group opinion. This method is especially well suited for socio-behavioural research that will be used to develop and measure health services that meet the needs of a given population. An FGD requires the following :  
+        1. The focus is on a specific problem area, and the conversation is held not with one, but with several interviewees.
+        2. These participants should be as homogenous as possible  with respect to their background characteristics. 
+        3. There is a moderator conducting the discussion but not  leading the discussion. 
+        4. The topic, place, and time of the meeting are planned, and a script is prepared in advance. It includes introductory words on the topic, introduction of participants, the purpose of the discussion, and its subject.
+        5. The list of questions should contain several main questions, as well as supporting materials for illustration.
+        6. The discussions are led by a facilitator (moderator), who introduces topics and guides the discussion. The moderator should not evaluate the opinions of the interviewees. A co-moderator supervises the work in the focus group, assists, and intervenes if necessary, taking notes during the discussions.
+        7. The duration of the discussions is usually between one and a half to two hours. Typically, audio and video recordings are made of focus group discussions, and participants are informed in advance so they can decline participation.
+        8. A group discussion is conducted with **8-12** people, discussing several main topics related to the research, monitoring, or evaluation being conducted.
+        9. Participants should not be in hierarchical or competitive relationships with each other, as this can block discussion. It is best if they do not know each other at all. Research tasks are transformed into a series of questions to be answered and discussed during the group work. This method establishes the typical attitudes and orientations of participants regarding the discussed issue.
 3. According to the frequency of conducting:
-    1. Single.
+    1. Single (one-time).
     2. Multiple.
 4. According to the method of conducting:
     1. "Face to face" - interviews involve the interviewer and participant being present together or, in the case of video link, able to see and hear each other in real time. The interviewer asks the questions and notes down the responses. Such interviews can occur in a number of places. They can be conducted: 
@@ -296,17 +308,12 @@ Observation is the recording of primary sociological information regarding speci
     2. Unofficial: usually personal. These include petitions, applications, autobiographies, etc. An important aspect here is the motive for their creation.
 2. Non-written: include drawings, sound recordings, video recordings, etc.
 
-### According to Origin
-
-1. Spontaneously arisen
-2. Commissioned
-
 ### According to the Contained Information
 
-1. Primary - contain information about the event or phenomenon itself. They are created at the time of the event and can be analyzed in the context of study. 
-2. Secondary - contain information about the event or phenomenon, but are created after the event and they are not crafted for the purpose of the study.
+1. Primary
+2. Secondary
 
-### Types of Analysis
+## Types of Analysis
 
 1. Content Analysis
     1. Quantitative analysis (word count, reading time, most commonly used words)
