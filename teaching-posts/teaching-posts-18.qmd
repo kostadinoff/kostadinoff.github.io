@@ -359,12 +359,12 @@ The level of birth rate and the nature of population reproduction are determined
         6.  If there are no signs that death occurred following recent trauma, such as an accident, workplace injury, beating, household accident, etc.
     7.  According to the ICD, the causes of death to be entered are all diseases, pathological conditions, or injuries that led to or contributed to death, as well as the circumstances of the accident or violence that caused the fatal injury (see table @tbl-icd).
 
-| Cause of Death                                                       | Duration of Illness |
-|----------------------------------------------------------------------|:-------------------:|
-| Disease or pathological condition directly leading to death          |         Ia          |
-| Pre-existing complications and conditions leading to the above cause |         Ib          |
-| Underlying cause of death (disease)                                  |         Ic          |
-| Other significant accompanying conditions                            |         II          |
+| Cause of Death | Duration of Illness |
+|-----------------------------------------------------|:-----------------:|
+| Disease or pathological condition directly leading to death | Ia |
+| Pre-existing complications and conditions leading to the above cause | Ib |
+| Underlying cause of death (disease) | Ic |
+| Other significant accompanying conditions | II |
 
 : Arrangement of causes of death according to ICD requirements {#tbl-icd}
 
