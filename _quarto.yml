@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plodiv."
+  description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plodiv
+
   page-footer:
     left: "Email me at kostadinr.kostadinov@mu-plovdiv.bg"
   title: "Kostadin Kostadinov"
@@ -26,7 +27,7 @@ website:
         text: CV
       - href: teaching.qmd
         text: Teaching
-        
+
 format:
   html:
     theme:
@@ -34,4 +35,5 @@ format:
       - barbie.scss
     css: styles.css
     toc: true
-editor: visual
+editor: source
+site-url: "https://kostadinoff.github.io"
