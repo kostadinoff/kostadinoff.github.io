@@ -7,7 +7,7 @@ about:
 ---
 
 ::: {.btn-group role="group" aria-label="Social Links"}
-[{{< fa envelope >}}<br>Email](mailto:kostadinr.kostadinov@mu-plovdiv.bg){.btn .btn-secondary .btn role="button" data-toggle="data" title="email"} [{{< fa brands twitter >}}<br>Twitter](https://x.com/kostadinoffMD){.btn .btn-secondary .btn role="button" data-toggle="data" title="twitter"} [{{< fa brands github >}}<br>Github](https://github.com/kostadinoff){.btn .btn-secondary .btn role="button" data-toggle="data" title="github"} [{{< fa graduation-cap >}}<br>Scholar](https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en){.btn .btn-secondary .btn role="button" data-toggle="data" title="scholar"} [{{< fa id-badge >}}<br>ORCID](https://orcid.org/0000-0003-1414-8738){.btn .btn-secondary .btn role="button" data-toggle="data" title="ORCID"}
+[{{< fa brands twitter >}}<br>Twitter](https://x.com/kostadinoffMD){.btn .btn-secondary .btn role="button" data-toggle="data" title="twitter"} [{{< fa brands github >}}<br>Github](https://github.com/kostadinoff){.btn .btn-secondary .btn role="button" data-toggle="data" title="github"} [{{< fa graduation-cap >}}<br>Scholar](https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en){.btn .btn-secondary .btn role="button" data-toggle="data" title="scholar"} [{{< fa id-badge >}}<br>ORCID](https://orcid.org/0000-0003-1414-8738){.btn .btn-secondary .btn role="button" data-toggle="data" title="ORCID"}
 :::
 
 <br>
