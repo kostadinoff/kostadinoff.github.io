@@ -17,31 +17,24 @@ date-meta: 2024-11-08
 ```{r}
 #| include: false
 #| warning: false
-library(ggthemes)
-library(gt)
-library(gtsummary)
-library(showtext)
-library(ggeffects)
-library(patchwork)
-library(scales)
-library(sysfonts)
-library(ggsci)
-library(ggridges)
-library(rstatix)
-library(statsExpressions)
-library(tidyverse)
-library(broom)
-library(showtext)
-library(janitor)
+# Load or install pacman
+if (!require("pacman")) install.packages("pacman")
+
+# Use pacman to install (if necessary) and load required packages
+pacman::p_load(
+  ggthemes, gt, gtsummary, showtext, ggeffects, patchwork, scales, sysfonts,
+  ggsci, ggridges, rstatix, statsExpressions, tidyverse, broom, janitor
+)
+
 ```
 
 ```{r}
 #| include: false
 #| warning: false
-library(showtext)
+
 font_add(family = "Sofia Sans Condensed", regular = "SofiaSansCondensed-Regular.ttf")
 showtext_auto()
-library(tidyverse)
+
 # Define a custom theme
 
 theme_nice <- ggthemes::theme_tufte() +
