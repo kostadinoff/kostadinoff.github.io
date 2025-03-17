@@ -1,7 +1,7 @@
 ---
 title: "Medical demography"
 author: "Department of Social Medicine and Public Health, Faculty of Public Health, Medical University of Plovdiv"
-date: 2024-12-08
+date: 2025-03-03
 description: "Demography is a pillar of public health. It studies the population in terms of size, distribution, and structure. Medical demography is an integrated social science that studies demographic processes closely related to the health of populations. This teaching post covers the history of demography, its branches, the demographic transition model, demographic policy, family planning, population dynamics, migration, natural and vital events, and birth and death registration."
 categories: 
   - "English"
