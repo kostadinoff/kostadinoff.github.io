@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plodiv
+  description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv
 
   page-footer:
     left: "Email me at <a href='mailto:kostadinr.kostadinov@mu-plovdiv.bg'>kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href='https://tinyurl.com/whentomeetme' target='_blank'>meeting</a>"
