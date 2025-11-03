@@ -2,7 +2,7 @@
 title: "Autonomy, informed consent and capacity to give valid consent"
 author: "Kostadin Kostadinov"
 date: 2024-11-04
-description: "The material covers the principles of autonomy, informed consent, and capacity to give valid consent in clinical practice."
+description: "This teaching post discusses the principles of autonomy in clinical practice, the process of obtaining informed consent from patients, and the assessment of a patient's capacity to give valid consent. It covers the rights to information, confidence, and privacy, as well as the legal and ethical considerations surrounding consent in medical treatment."
 categories: 
   - "English"
   - "Medical Ethics"

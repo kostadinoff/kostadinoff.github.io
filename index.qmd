@@ -3,7 +3,7 @@ image: face_id.png
 about: 
   template: jolla
   image-shape: rectangle
-  image-width: 23.5em
+  image-width: 21.5em
 ---
 
 ::: {.btn-group role="group" aria-label="Social Links"}
@@ -12,4 +12,4 @@ about:
 
 <br>
 
-I’m Kostadin Kostadinov, a medical doctor, assistant professor, and researcher in the department of social medicine and public health, Plovdiv, Bulgaria. My background is in internal medicine, epidemiology, health policy, and economics. I am interested in data science, policy evaluation, and health services research. This website is a collection of my thoughts, teaching materials, and research projects. The expressed opinions are my own and do not represent the views of any institution.
+I’m Kostadin Kostadinov, a medical doctor, senior assistant professor, and researcher in the Department of Social Medicine and Public Health, Plovdiv, Bulgaria. I hold an MD (MU–Plovdiv), an MPH (MU–Plovdiv), and MSc in Economics and Finance (Sofia University). I am also a graduate (MBA) of the D. A. Tsenov Academy of Economics in Svishtov (statistics). I am currently pursuing a master’s in Policy Analysis (Sofia University). I hold a PhD and a medical specialty in Social Medicine, and I am currently a fellow in Epidemiology. My interests include data science, policy evaluation, and health services research. This website is a collection of my thoughts, teaching materials, and research projects. The expressed opinions are my own and do not represent the views of any institution.

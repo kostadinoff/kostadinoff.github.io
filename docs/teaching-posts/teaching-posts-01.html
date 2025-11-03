@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.17">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -35,14 +54,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-da03d714c310c60cec1d83284c92da2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f1222f18e1d9b43d11ea295a1a746451.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ac27f92417ab8b5a3e47054f053d8185.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,6 +107,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
@@ -171,6 +193,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#обобщение-на-метода-на-директна-стандартизация" id="toc-обобщение-на-метода-на-директна-стандартизация" class="nav-link" data-scroll-target="#обобщение-на-метода-на-директна-стандартизация">Обобщение на метода на директна стандартизация</a></li>
   <li><a href="#задачи-за-самоподготовка" id="toc-задачи-за-самоподготовка" class="nav-link" data-scroll-target="#задачи-за-самоподготовка">Задачи за самоподготовка</a></li>
+  <li><a href="#литература" id="toc-литература" class="nav-link" data-scroll-target="#литература">Литература</a></li>
   </ul>
 </nav>
     </div>
@@ -222,9 +245,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="защо-учим-статистика" class="level1">
 <h1>Защо учим статистика?</h1>
 <ul>
-<li>Статистиката е метод чрез който данните се превръщат в информация.</li>
+<li>Статистиката е метод чрез който данните се превръщат в информация <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</li>
 <li>Статистиката помага в ежедневната медицинска практика, чрез създаване на клинични наръчници или политики в здравеопазването.</li>
-<li>Статистиката е езикът на науката, тя помага както на пациентите, така и за поддържане на здравето в обществото.</li>
+<li>Статистиката е езикът на науката, тя помага както на пациентите, така и за поддържане на здравето в обществото <span class="citation" data-cites="altman1991 bland2015">[<a href="#ref-altman1991" role="doc-biblioref">2</a>,<a href="#ref-bland2015" role="doc-biblioref">3</a>]</span>.</li>
 </ul>
 </section>
 <section id="с-какво-ще-ни-помогне-статистиката" class="level1">
@@ -232,16 +255,16 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Да взимаме <strong>информирани решения</strong> в ежедневната ни практика.</li>
 <li>Да разберем как работи <strong>науката</strong>.</li>
-<li>За да четем критично <strong>нова</strong> научна информация.</li>
+<li>За да четем критично <strong>нова</strong> научна информация <span class="citation" data-cites="petrie2020">[<a href="#ref-petrie2020" role="doc-biblioref">4</a>]</span>.</li>
 </ul>
 </section>
 <section id="какво-няма-да-научите" class="level1">
 <h1>Какво няма да научите?</h1>
-<p>Понастоящем статистиката е основата на “науката за данните” и изкуствения интелект (data science). В съчетание със сложна математика, програмиране и доза креативност, тази нова дисциплина навлиза във всекидневния ни живот докато пазаруваме, учим и работим. Всички технологии базирани на “изкуствен интелект” същност използват статистика <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> . В този курс, обаче целта е да придобиете най-основните знания за това как работи статистиката, каква е логиката в нея и какъв език използва.</p>
+<p>Понастоящем статистиката е основата на “науката за данните” и изкуствения интелект (data science). В съчетание със сложна математика, програмиране и доза креативност, тази нова дисциплина навлиза във всекидневния ни живот докато пазаруваме, учим и работим. Всички технологии базирани на “изкуствен интелект” в същност използват статистика <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. В този курс, обаче целта е да придобиете най-основните знания за това как работи статистиката, каква е логиката в нея и какъв език използва <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 </section>
 <section id="терминология" class="level1 page-columns page-full">
 <h1>Терминология</h1>
-<p>За да “не сме изгубени в превода”, въвеждаме някои основни термини, обяснени с примери.</p>
+<p>За да “не сме изгубени в превода”, въвеждаме някои основни термини, обяснени с примери <span class="citation" data-cites="iskrov2025 kirkwood2003">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>,<a href="#ref-kirkwood2003" role="doc-biblioref">5</a>]</span>.</p>
 <section id="абсолютни-величини" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="абсолютни-величини">Абсолютни величини</h2>
 <div class="column-page-right">
@@ -251,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Определение
+<span class="screen-reader-only">Warning</span>Определение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -264,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <ul>
 <li><p>Абсолютните величини са винаги <strong>наименовани</strong> с конкретни <strong>мерни единици</strong>.</p></li>
-<li><p>Статистическите изследвания, обикновено започват с анализ на абсолютните величини, но те <strong>не са достатъчни</strong> за директни сравнения в <strong>пространствено-времеви аспект.</strong></p></li>
+<li><p>Статистическите изследвания обикновено започват с анализ на абсолютните величини, но те <strong>не са достатъчни</strong> за директни сравнения в <strong>пространствено-времеви аспект</strong> <span class="citation" data-cites="altman1991">[<a href="#ref-altman1991" role="doc-biblioref">2</a>]</span>.</p></li>
 </ul>
 <section id="примери-за-абсолютни-величини" class="level3">
 <h3 class="anchored" data-anchor-id="примери-за-абсолютни-величини">Примери за абсолютни величини</h3>
@@ -280,20 +303,20 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Определение
+<span class="screen-reader-only">Warning</span>Определение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Те се изчисляват при разделяне на две абсолютни величини. Представят се като коефициенти, а при умножение по 100 или 1000 - в проценти или промили.</p>
+<p>Те се изчисляват при разделяне на две абсолютни величини. Представят се като коефициенти, а при умножение по 100 или 1000 - в проценти или промили <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 </div>
 </div>
 </div>
 </div>
 <section id="примери-за-относителни-величини" class="level3">
 <h3 class="anchored" data-anchor-id="примери-за-относителни-величини">Примери за относителни величини</h3>
-<p>В медицината, често използваме относителни величини. Например, когато измерваме помпената функция на сърцето можем да измерим количеството кръв, което постъпва в аортата, след едно сърдечно съкращение. Това е абсолютната величина <strong>ударен обем</strong>. Хората с по-висок ръст и по-високо тегло (по-едро телосложение) имат по-високи стойности на усърдния обем, спрямо тези с по-нисък ръст и по-малко тегло. Така например сърцето на състезател по сумо изтласква по-голямо количество кръв (в милилитри), спрямо сърцето на първокласник. Означава ли това, че сърцето на сумиста работи по-добре от това на първокласника? Отговорът е, че не можем да преценим - двете абсолютни величини не бива да се сравняват директно. Затова по-важното, в случая е съотношението на ударният обем, спрямо количеството кръв налично в сърцето, точно преди неговото съкращение. Това е т.н “фракция на изтласкване” и представлява <strong>относителна величина</strong>.</p>
+<p>В медицината често използваме относителни величини. Например, когато измерваме помпената функция на сърцето можем да измерим количеството кръв, което постъпва в аортата след едно сърдечно съкращение. Това е абсолютната величина <strong>ударен обем</strong>. Хората с по-висок ръст и по-високо тегло (по-едро телосложение) имат по-високи стойности на ударния обем, спрямо тези с по-нисък ръст и по-малко тегло. Така например сърцето на състезател по сумо изтласква по-голямо количество кръв (в милилитри), спрямо сърцето на първокласник. Означава ли това, че сърцето на сумиста работи по-добре от това на първокласника? Отговорът е, че не можем да преценим - двете абсолютни величини не бива да се сравняват директно. Затова по-важното в случая е съотношението на ударния обем спрямо количеството кръв налично в сърцето точно преди неговото съкращение. Това е т.н “фракция на изтласкване” и представлява <strong>относителна величина</strong>.</p>
 </section>
 </section>
 <section id="екстензивни-показатели" class="level2 page-columns page-full">
@@ -304,28 +327,28 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Определение
+<span class="screen-reader-only">Warning</span>Определение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Това са <strong>структурни</strong> показатели, които показват как едно статистическо явление се разпределя на съставните си части в определено време и място. Важна особеност: <strong>сумата от всички екстензивни показатели винаги е равна на 1 (или 100%)</strong>, защото те описват как цялото се разделя на части.</p>
+<p>Това са <strong>структурни</strong> показатели, които показват как едно статистическо явление се разпределя на съставните си части в определено време и място. Важна особеност: <strong>сумата от всички екстензивни показатели винаги е равна на 1 (или 100%)</strong>, защото те описват как цялото се разделя на части <span class="citation" data-cites="iskrov2025 bland2015">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>,<a href="#ref-bland2015" role="doc-biblioref">3</a>]</span>.</p>
 </div>
 </div>
 </div>
 <section id="примери-за-екстензивни-показатели" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="примери-за-екстензивни-показатели">Примери за екстензивни показатели</h3>
-<p>Ако приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастовата група, спрямо всички жители на града ще получим екстензивен показател - измерен в процент. На <a href="#fig-age" class="quarto-xref">Фигура&nbsp;1</a> e представено разпределението на възрастта в гр. Пловдив.</p>
+<p>Ако приемем “възрастта” в гр. Пловдив за статистическо “явление” можем да представим всички жители на града в категории по възрастова група - новородени до 1 г., деца между 1 и 5 год., от 5 до 10 г. и т.н. Ако разделим броя на хората в съответната възрастова група спрямо всички жители на града, ще получим екстензивен показател - измерен в проценти. На <a href="#fig-age" class="quarto-xref">Фигура&nbsp;1</a> е представено разпределението на възрастта в гр. Пловдив.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-age" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="teaching-posts-01_files/figure-html/fig-age-1.png" class="img-fluid figure-img" width="672">
+<img src="teaching-posts-01_files/figure-html/fig-age-1.png" class="img-fluid figure-img" width="4200">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Фигура&nbsp;1: Пример за екстензивен показател.Възраст на населението в гр. Пловдив, 2022 г.
+Фигура&nbsp;1: Пример за екстензивен показател. Възраст на населението в гр. Пловдив, 2022 г.
 </figcaption>
 </figure>
 </div>
@@ -342,13 +365,13 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Определение
+<span class="screen-reader-only">Warning</span>Определение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Това са <strong>честотни</strong> показатели, които показват колко често се среща дадено явление в свойствената си среда. Всеки интензивен показател е съотношение между обемите на две <strong>различни</strong> статистически съвкупности, намиращи се във връзка една с друга. В числителя е явлението от което се интересуваме, а в знаменателя е абсолютният обем на средата, в която възниква то.</p>
+<p>Това са <strong>честотни</strong> показатели, които показват колко често се среща дадено явление в свойствената си среда. Всеки интензивен показател е съотношение между обемите на две <strong>различни</strong> статистически съвкупности, намиращи се във връзка една с друга <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>. В числителя е явлението от което се интересуваме, а в знаменателя е абсолютният обем на средата, в която възниква то.</p>
 </div>
 </div>
 </div>
@@ -356,42 +379,42 @@ ul.task-list li input[type="checkbox"] {
 <section id="примери-за-интензивни-показатели" class="level3">
 <h3 class="anchored" data-anchor-id="примери-за-интензивни-показатели">Примери за интензивни показатели</h3>
 <ol type="1">
-<li><p><strong>Леталитетът</strong> представлява броя смъртни случаи от конкретно заболяване, спрямо общия брой болни от това заболяване. Ако леталитетът от морбили (дребна шарка) при деца (до 18 г.) е 5%, това означава, че от 100 деца със заболяването, 5 са починали. С други думи, показателят представя <strong>честотата</strong> на една статистическа съвкупност (смъртните случаи) върху друга съвкупност (болните деца).</p></li>
-<li><p><strong>Смъртността</strong> представлява съотношение на броя на починалите, спрямо средния брой население (или населението в риск). <strong>Важно:</strong> Смъртността се различава от леталитета - при леталитета в знаменателя са болните, а при смъртността - цялото население.</p></li>
-<li><p><strong>Заболеваемостта</strong>, представлява съотношението на броя новозаболели от дадено заболяване (например от рак на гърдата), спрямо популацията в риск (всички, които биха могли да се разболеят от това заболяване).</p></li>
-<li><p>В ежедневната практика като лекари, също ще ползвате интензивни показатели. Например, при пациенти с белодробна астма, видът на използваното лечение, зависи от честотата на екзацербации (обостряния) т.н интензивния показател “exacerbation rate”.</p></li>
+<li><p><strong>Леталитетът</strong> представлява броя смъртни случаи от конкретно заболяване спрямо общия брой болни от това заболяване. Ако леталитетът от морбили (дребна шарка) при деца (до 18 г.) е 5%, това означава, че от 100 деца със заболяването, 5 са починали. С други думи, показателят представя <strong>честотата</strong> на една статистическа съвкупност (смъртните случаи) върху друга съвкупност (болните деца).</p></li>
+<li><p><strong>Смъртността</strong> представлява съотношение на броя на починалите спрямо средния брой население (или населението в риск). <strong>Важно:</strong> Смъртността се различава от леталитета - при леталитета в знаменателя са болните, а при смъртността - цялото население <span class="citation" data-cites="kirkwood2003">[<a href="#ref-kirkwood2003" role="doc-biblioref">5</a>]</span>.</p></li>
+<li><p><strong>Заболеваемостта</strong> представлява съотношението на броя новозаболели от дадено заболяване (например от рак на гърдата) спрямо популацията в риск (всички, които биха могли да се разболеят от това заболяване).</p></li>
+<li><p>В ежедневната практика като лекари също ще ползвате интензивни показатели. Например, при пациенти с белодробна астма, видът на използваното лечение зависи от честотата на екзацербации (обостряния) т.н интензивния показател “exacerbation rate”.</p></li>
 </ol>
 </section>
 </section>
 </section>
 <section id="пряк-метод-на-стандартизация" class="level1 page-columns page-full">
 <h1>Пряк метод на стандартизация</h1>
-<p>Преди определението за стандартизация, нека представя следния пример пример. Представете си, че от днес сте министър на здравеопазването. Изправени сте пред сериозен проблем - в държавата върлува опасен вирус. Имате ваксина, но липсва доверие на гражданите в нея. Много хора смятат, че ваксините дори убиват. Днес след среща с граждани, противопоставящи се на ваксините, получавате научна статия, в която се твърди, че ваксините повишават вероятността от смърт. В <a href="#tbl-antivax" class="quarto-xref">Таблица&nbsp;1</a> можете да видите данните от нея.</p>
+<p>Преди определението за стандартизация, нека представя следния пример. Представете си, че от днес сте министър на здравеопазването. Изправени сте пред сериозен проблем - в държавата върлува опасен вирус. Имате ваксина, но липсва доверие на гражданите в нея. Много хора смятат, че ваксините дори убиват. Днес след среща с граждани, противопоставящи се на ваксините, получавате научна статия, в която се твърди, че ваксините повишават вероятността от смърт. В <a href="#tbl-antivax" class="quarto-xref">Таблица&nbsp;1</a> можете да видите данните от нея.</p>
 <div class="cell tbl-column-margin">
 <div id="tbl-antivax" class="cell tbl-column-margin quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-antivax-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Таблица&nbsp;1: Таблица на антиваксарите
+Таблица&nbsp;1: Таблица на антиваксърите
 </figcaption>
 <div aria-describedby="tbl-antivax-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="zxsxrmgljl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#zxsxrmgljl table {
+<div id="bhitygpgih" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#bhitygpgih table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#zxsxrmgljl thead, #zxsxrmgljl tbody, #zxsxrmgljl tfoot, #zxsxrmgljl tr, #zxsxrmgljl td, #zxsxrmgljl th {
+#bhitygpgih thead, #bhitygpgih tbody, #bhitygpgih tfoot, #bhitygpgih tr, #bhitygpgih td, #bhitygpgih th {
   border-style: none;
 }
 
-#zxsxrmgljl p {
+#bhitygpgih p {
   margin: 0;
   padding: 0;
 }
 
-#zxsxrmgljl .gt_table {
+#bhitygpgih .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -417,12 +440,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_caption {
+#bhitygpgih .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#zxsxrmgljl .gt_title {
+#bhitygpgih .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -434,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#zxsxrmgljl .gt_subtitle {
+#bhitygpgih .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -446,7 +469,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#zxsxrmgljl .gt_heading {
+#bhitygpgih .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -458,13 +481,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_bottom_border {
+#bhitygpgih .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_col_headings {
+#bhitygpgih .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -479,7 +502,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_col_heading {
+#bhitygpgih .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -499,7 +522,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zxsxrmgljl .gt_column_spanner_outer {
+#bhitygpgih .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -511,15 +534,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#zxsxrmgljl .gt_column_spanner_outer:first-child {
+#bhitygpgih .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zxsxrmgljl .gt_column_spanner_outer:last-child {
+#bhitygpgih .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zxsxrmgljl .gt_column_spanner {
+#bhitygpgih .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -531,11 +554,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#zxsxrmgljl .gt_spanner_row {
+#bhitygpgih .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#zxsxrmgljl .gt_group_heading {
+#bhitygpgih .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -561,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#zxsxrmgljl .gt_empty_group_heading {
+#bhitygpgih .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -576,15 +599,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#zxsxrmgljl .gt_from_md > :first-child {
+#bhitygpgih .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zxsxrmgljl .gt_from_md > :last-child {
+#bhitygpgih .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zxsxrmgljl .gt_row {
+#bhitygpgih .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -603,7 +626,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zxsxrmgljl .gt_stub {
+#bhitygpgih .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -616,7 +639,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zxsxrmgljl .gt_stub_row_group {
+#bhitygpgih .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -630,15 +653,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#zxsxrmgljl .gt_row_group_first td {
+#bhitygpgih .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#zxsxrmgljl .gt_row_group_first th {
+#bhitygpgih .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#zxsxrmgljl .gt_summary_row {
+#bhitygpgih .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -648,16 +671,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zxsxrmgljl .gt_first_summary_row {
+#bhitygpgih .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_first_summary_row.thick {
+#bhitygpgih .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#zxsxrmgljl .gt_last_summary_row {
+#bhitygpgih .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -667,7 +690,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_grand_summary_row {
+#bhitygpgih .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -677,7 +700,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zxsxrmgljl .gt_first_grand_summary_row {
+#bhitygpgih .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -687,7 +710,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_last_grand_summary_row_top {
+#bhitygpgih .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -697,11 +720,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_striped {
+#bhitygpgih .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zxsxrmgljl .gt_table_body {
+#bhitygpgih .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -710,7 +733,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_footnotes {
+#bhitygpgih .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -724,7 +747,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_footnote {
+#bhitygpgih .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -733,7 +756,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zxsxrmgljl .gt_sourcenotes {
+#bhitygpgih .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -747,7 +770,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zxsxrmgljl .gt_sourcenote {
+#bhitygpgih .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -755,68 +778,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zxsxrmgljl .gt_left {
+#bhitygpgih .gt_left {
   text-align: left;
 }
 
-#zxsxrmgljl .gt_center {
+#bhitygpgih .gt_center {
   text-align: center;
 }
 
-#zxsxrmgljl .gt_right {
+#bhitygpgih .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zxsxrmgljl .gt_font_normal {
+#bhitygpgih .gt_font_normal {
   font-weight: normal;
 }
 
-#zxsxrmgljl .gt_font_bold {
+#bhitygpgih .gt_font_bold {
   font-weight: bold;
 }
 
-#zxsxrmgljl .gt_font_italic {
+#bhitygpgih .gt_font_italic {
   font-style: italic;
 }
 
-#zxsxrmgljl .gt_super {
+#bhitygpgih .gt_super {
   font-size: 65%;
 }
 
-#zxsxrmgljl .gt_footnote_marks {
+#bhitygpgih .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#zxsxrmgljl .gt_asterisk {
+#bhitygpgih .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#zxsxrmgljl .gt_indent_1 {
+#bhitygpgih .gt_indent_1 {
   text-indent: 5px;
 }
 
-#zxsxrmgljl .gt_indent_2 {
+#bhitygpgih .gt_indent_2 {
   text-indent: 10px;
 }
 
-#zxsxrmgljl .gt_indent_3 {
+#bhitygpgih .gt_indent_3 {
   text-indent: 15px;
 }
 
-#zxsxrmgljl .gt_indent_4 {
+#bhitygpgih .gt_indent_4 {
   text-indent: 20px;
 }
 
-#zxsxrmgljl .gt_indent_5 {
+#bhitygpgih .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell tbl-column-margin caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell tbl-column-margin caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th id=" " class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -844,21 +867,21 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-<p>Авторът посочва, че след 1 година от 4000 ваксинирани са починали 2850 души, докато при 8000 неваксинирани, починали са 5500. Тези числа представляват абсолютни величини. За да се сравнят, трябва да използваме относителни. С други думи, каква пропорция от ваксинираните са починали, спрямо тази при неваксинираните. “Сметката” тук е лесна: трябва да разделим броя на починалите сред ваксинираните, върху общият брой на ваксинираните. Същата пропорция трябва да изчислим и за неваксинираните. Резултатите са относителни величини - интензивни показатели.</p>
+<p>Авторът посочва, че след 1 година от 4000 ваксинирани са починали 2850 души, докато при 8000 неваксинирани, починали са 5500. Тези числа представляват абсолютни величини. За да се сравнят, трябва да използваме относителни. С други думи, каква пропорция от ваксинираните са починали спрямо тази при неваксинираните. Изчислението тук е лесно: трябва да разделим броя на починалите сред ваксинираните върху общия брой на ваксинираните. Същата пропорция трябва да изчислим и за неваксинираните. Резултатите са относителни величини - интензивни показатели.</p>
 <div class="cell page-columns page-full">
 
 <div class="no-row-height column-margin column-container"><div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="teaching-posts-01_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="teaching-posts-01_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="4200"></p>
 <figcaption>Разлика между смъртността при ваксинирани и неваксинирани.</figcaption>
 </figure>
 </div>
 </div></div></div>
-<p>Оказва се, че в групата на ваксинираните починалите са 71.2%, докато при неваксинираните - 68.8%. Това е разлика от 2,4 процентни пункта<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Може би, наистина “антиваксърите” имат право.</p>
-<p>Как бихме могли да си обясним този резултат? Нима наистина ваксините са причина за по-големия брой смъртни случай? Трябва ли да продължим да използваме тази ваксина? Бихте ли посъветвали пациентите си да се ваксинират?</p>
-<p>Преди да дадем категоричното си решение, трябва да помислим върху данните. Те все още не са информация, на която да базираме решенията си. В случая, можем да разглеждаме цифрите в таблицата, като <em>сурови</em> данни измерващи една връзка. Това е връзката между ваксинация и смъртен изход. Не изглежда логично, смъртта да се причинява единствено от ваксината или липсата на такава. Има редица други фактори, които могат да повлияят - например <strong>възрастта</strong>. Нормално е, ако ваксинираните са по-възрастни спрямо неваксинираните, при тях да наблюдаваме повече починали, дори и ако ваксината наистина работи и ефективна.</p>
-<p>При сравняването на интензивни величини се наблюдава фактът, че стойността на тези показатели е в зависимост от структурата на средата, в която са изучавани явленията. За да проверим дали тази среда “замъглява” връзката между фактора и резултата, можем да използваме статистическия метод на <strong>стандартизацията</strong>.</p>
+<p>Оказва се, че в групата на ваксинираните починалите са 71.2%, докато при неваксинираните - 68.8%. Това е разлика от 2,4 процентни пункта<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Може би наистина “антиваксърите” имат право.</p>
+<p>Как бихме могли да си обясним този резултат? Нима наистина ваксините са причина за по-големия брой смъртни случаи? Трябва ли да продължим да използваме тази ваксина? Бихте ли посъветвали пациентите си да се ваксинират?</p>
+<p>Преди да дадем категоричното си решение, трябва да помислим върху данните. Те все още не са информация, на която да базираме решенията си. В случая можем да разглеждаме цифрите в таблицата като <em>сурови</em> данни измерващи една връзка. Това е връзката между ваксинация и смъртен изход. Не изглежда логично смъртта да се причинява единствено от ваксината или липсата на такава. Има редица други фактори, които могат да повлияят - например <strong>възрастта</strong>. Нормално е, ако ваксинираните са по-възрастни спрямо неваксинираните, при тях да наблюдаваме повече починали, дори и ако ваксината наистина работи и е ефективна <span class="citation" data-cites="simpson1951">[<a href="#ref-simpson1951" role="doc-biblioref">6</a>]</span>.</p>
+<p>При сравняването на интензивни величини се наблюдава фактът, че стойността на тези показатели е в зависимост от структурата на средата, в която са изучавани явленията. За да проверим дали тази среда “замъглява” връзката между фактора и резултата, можем да използваме статистическия метод на <strong>стандартизацията</strong> <span class="citation" data-cites="iskrov2025 armitage2002">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>,<a href="#ref-armitage2002" role="doc-biblioref">7</a>]</span>.</p>
 <div class="column-page-right">
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
@@ -866,42 +889,42 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Определение
+<span class="screen-reader-only">Warning</span>Определение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Под стандартизация се разбира преобразуването на общите коефициенти, с което се отстранява (елиминира) влиянието на възрастови или други различия в състава на сравняваните групи.</p>
+<p>Под стандартизация се разбира преобразуването на общите коефициенти, с което се отстранява (елиминира) влиянието на възрастови или други различия в състава на сравняваните групи <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 </div>
 </div>
 </div>
 </div>
 <section id="стъпки" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="стъпки">Стъпки</h2>
-<p>За да извършим стандартизация (в курса по статистика се спираме единствено на <strong>прекия метод за стандартизация</strong>) следва да разполага с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в <a href="#tbl-age" class="quarto-xref">Таблица&nbsp;2</a>.</p>
+<p>За да извършим стандартизация (в курса по статистика се спираме единствено на <strong>прекия метод за стандартизация</strong>) следва да разполагаме с повече данни. Таблицата, която разгледахме, не съдържа информация за възрастта на участниците. Затова, след запитване към автора, получаваме по-подробни данни - представени в <a href="#tbl-age" class="quarto-xref">Таблица&nbsp;2</a>.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-age" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="upkowbgbkk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#upkowbgbkk table {
+<div id="furofroywd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#furofroywd table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#upkowbgbkk thead, #upkowbgbkk tbody, #upkowbgbkk tfoot, #upkowbgbkk tr, #upkowbgbkk td, #upkowbgbkk th {
+#furofroywd thead, #furofroywd tbody, #furofroywd tfoot, #furofroywd tr, #furofroywd td, #furofroywd th {
   border-style: none;
 }
 
-#upkowbgbkk p {
+#furofroywd p {
   margin: 0;
   padding: 0;
 }
 
-#upkowbgbkk .gt_table {
+#furofroywd .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -927,12 +950,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_caption {
+#furofroywd .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#upkowbgbkk .gt_title {
+#furofroywd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -944,7 +967,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#upkowbgbkk .gt_subtitle {
+#furofroywd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -956,7 +979,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#upkowbgbkk .gt_heading {
+#furofroywd .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -968,13 +991,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_bottom_border {
+#furofroywd .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_col_headings {
+#furofroywd .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -989,7 +1012,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_col_heading {
+#furofroywd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1009,7 +1032,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#upkowbgbkk .gt_column_spanner_outer {
+#furofroywd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1021,15 +1044,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#upkowbgbkk .gt_column_spanner_outer:first-child {
+#furofroywd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#upkowbgbkk .gt_column_spanner_outer:last-child {
+#furofroywd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#upkowbgbkk .gt_column_spanner {
+#furofroywd .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1041,11 +1064,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#upkowbgbkk .gt_spanner_row {
+#furofroywd .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#upkowbgbkk .gt_group_heading {
+#furofroywd .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1071,7 +1094,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#upkowbgbkk .gt_empty_group_heading {
+#furofroywd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1086,15 +1109,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#upkowbgbkk .gt_from_md > :first-child {
+#furofroywd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#upkowbgbkk .gt_from_md > :last-child {
+#furofroywd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#upkowbgbkk .gt_row {
+#furofroywd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1113,7 +1136,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#upkowbgbkk .gt_stub {
+#furofroywd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1126,7 +1149,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#upkowbgbkk .gt_stub_row_group {
+#furofroywd .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1140,15 +1163,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#upkowbgbkk .gt_row_group_first td {
+#furofroywd .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#upkowbgbkk .gt_row_group_first th {
+#furofroywd .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#upkowbgbkk .gt_summary_row {
+#furofroywd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1158,16 +1181,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#upkowbgbkk .gt_first_summary_row {
+#furofroywd .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_first_summary_row.thick {
+#furofroywd .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#upkowbgbkk .gt_last_summary_row {
+#furofroywd .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1177,7 +1200,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_grand_summary_row {
+#furofroywd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1187,7 +1210,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#upkowbgbkk .gt_first_grand_summary_row {
+#furofroywd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1197,7 +1220,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_last_grand_summary_row_top {
+#furofroywd .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1207,11 +1230,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_striped {
+#furofroywd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#upkowbgbkk .gt_table_body {
+#furofroywd .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1220,7 +1243,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_footnotes {
+#furofroywd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1234,7 +1257,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_footnote {
+#furofroywd .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1243,7 +1266,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#upkowbgbkk .gt_sourcenotes {
+#furofroywd .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1257,7 +1280,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#upkowbgbkk .gt_sourcenote {
+#furofroywd .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1265,68 +1288,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#upkowbgbkk .gt_left {
+#furofroywd .gt_left {
   text-align: left;
 }
 
-#upkowbgbkk .gt_center {
+#furofroywd .gt_center {
   text-align: center;
 }
 
-#upkowbgbkk .gt_right {
+#furofroywd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#upkowbgbkk .gt_font_normal {
+#furofroywd .gt_font_normal {
   font-weight: normal;
 }
 
-#upkowbgbkk .gt_font_bold {
+#furofroywd .gt_font_bold {
   font-weight: bold;
 }
 
-#upkowbgbkk .gt_font_italic {
+#furofroywd .gt_font_italic {
   font-style: italic;
 }
 
-#upkowbgbkk .gt_super {
+#furofroywd .gt_super {
   font-size: 65%;
 }
 
-#upkowbgbkk .gt_footnote_marks {
+#furofroywd .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#upkowbgbkk .gt_asterisk {
+#furofroywd .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#upkowbgbkk .gt_indent_1 {
+#furofroywd .gt_indent_1 {
   text-indent: 5px;
 }
 
-#upkowbgbkk .gt_indent_2 {
+#furofroywd .gt_indent_2 {
   text-indent: 10px;
 }
 
-#upkowbgbkk .gt_indent_3 {
+#furofroywd .gt_indent_3 {
   text-indent: 15px;
 }
 
-#upkowbgbkk .gt_indent_4 {
+#furofroywd .gt_indent_4 {
   text-indent: 20px;
 }
 
-#upkowbgbkk .gt_indent_5 {
+#furofroywd .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -1385,18 +1408,18 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Таблица&nbsp;2: Таблица с разпределние по възраст
+Таблица&nbsp;2: Таблица с разпределение по възраст
 </figcaption>
 </figure>
 </div>
 </div>
-<p>Може би, ви прави впечатление от <a href="#fig-by-age" class="quarto-xref">Фигура&nbsp;2</a>, че ваксинираните, са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.</p>
+<p>Може би ви прави впечатление от <a href="#fig-by-age" class="quarto-xref">Фигура&nbsp;2</a>, че ваксинираните са предимно по-възрастни хора, докато при неваксинираните преобладават по-младите.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-by-age" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-by-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="teaching-posts-01_files/figure-html/fig-by-age-1.png" class="img-fluid figure-img" width="672">
+<img src="teaching-posts-01_files/figure-html/fig-by-age-1.png" class="img-fluid figure-img" width="4200">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-by-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Фигура&nbsp;2: Разлика на възрастовата структура между ваксинирани и неваксинирани. В по-младите групи преобладават неваксинираните, докато при над 45-годишните - ваксинираните.
@@ -1407,29 +1430,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="стъпка-1-изчисляване-на-нестандартизираните-интензивни-показатели" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-1-изчисляване-на-нестандартизираните-интензивни-показатели">Стъпка 1 Изчисляване на <strong>нестандартизираните</strong> интензивни показатели</h4>
-<p>Както по-рано, така и сега, можем да изчислим, какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона <em>леталитет</em> в <a href="#tbl-case_fatality" class="quarto-xref">Таблица&nbsp;3</a> .</p>
+<p>Както по-рано, така и сега можем да изчислим какъв процент от участниците в двете групи са починали. В случая ще направим това за всяка една възрастова група. Резултатите са представени в колона <em>леталитет</em> в <a href="#tbl-case_fatality" class="quarto-xref">Таблица&nbsp;3</a>.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-case_fatality" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-case_fatality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="eqiukyookc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#eqiukyookc table {
+<div id="jbwvbuekcj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jbwvbuekcj table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#eqiukyookc thead, #eqiukyookc tbody, #eqiukyookc tfoot, #eqiukyookc tr, #eqiukyookc td, #eqiukyookc th {
+#jbwvbuekcj thead, #jbwvbuekcj tbody, #jbwvbuekcj tfoot, #jbwvbuekcj tr, #jbwvbuekcj td, #jbwvbuekcj th {
   border-style: none;
 }
 
-#eqiukyookc p {
+#jbwvbuekcj p {
   margin: 0;
   padding: 0;
 }
 
-#eqiukyookc .gt_table {
+#jbwvbuekcj .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1455,12 +1478,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_caption {
+#jbwvbuekcj .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#eqiukyookc .gt_title {
+#jbwvbuekcj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1472,7 +1495,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#eqiukyookc .gt_subtitle {
+#jbwvbuekcj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1484,7 +1507,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#eqiukyookc .gt_heading {
+#jbwvbuekcj .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1496,13 +1519,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_bottom_border {
+#jbwvbuekcj .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_col_headings {
+#jbwvbuekcj .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1517,7 +1540,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_col_heading {
+#jbwvbuekcj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1537,7 +1560,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#eqiukyookc .gt_column_spanner_outer {
+#jbwvbuekcj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1549,15 +1572,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#eqiukyookc .gt_column_spanner_outer:first-child {
+#jbwvbuekcj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#eqiukyookc .gt_column_spanner_outer:last-child {
+#jbwvbuekcj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#eqiukyookc .gt_column_spanner {
+#jbwvbuekcj .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1569,11 +1592,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#eqiukyookc .gt_spanner_row {
+#jbwvbuekcj .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#eqiukyookc .gt_group_heading {
+#jbwvbuekcj .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1599,7 +1622,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#eqiukyookc .gt_empty_group_heading {
+#jbwvbuekcj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1614,15 +1637,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#eqiukyookc .gt_from_md > :first-child {
+#jbwvbuekcj .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#eqiukyookc .gt_from_md > :last-child {
+#jbwvbuekcj .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#eqiukyookc .gt_row {
+#jbwvbuekcj .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1641,7 +1664,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#eqiukyookc .gt_stub {
+#jbwvbuekcj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1654,7 +1677,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#eqiukyookc .gt_stub_row_group {
+#jbwvbuekcj .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1668,15 +1691,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#eqiukyookc .gt_row_group_first td {
+#jbwvbuekcj .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#eqiukyookc .gt_row_group_first th {
+#jbwvbuekcj .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#eqiukyookc .gt_summary_row {
+#jbwvbuekcj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1686,16 +1709,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#eqiukyookc .gt_first_summary_row {
+#jbwvbuekcj .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_first_summary_row.thick {
+#jbwvbuekcj .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#eqiukyookc .gt_last_summary_row {
+#jbwvbuekcj .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1705,7 +1728,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_grand_summary_row {
+#jbwvbuekcj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1715,7 +1738,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#eqiukyookc .gt_first_grand_summary_row {
+#jbwvbuekcj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1725,7 +1748,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_last_grand_summary_row_top {
+#jbwvbuekcj .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1735,11 +1758,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_striped {
+#jbwvbuekcj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#eqiukyookc .gt_table_body {
+#jbwvbuekcj .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1748,7 +1771,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_footnotes {
+#jbwvbuekcj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1762,7 +1785,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_footnote {
+#jbwvbuekcj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1771,7 +1794,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#eqiukyookc .gt_sourcenotes {
+#jbwvbuekcj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1785,7 +1808,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#eqiukyookc .gt_sourcenote {
+#jbwvbuekcj .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1793,68 +1816,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#eqiukyookc .gt_left {
+#jbwvbuekcj .gt_left {
   text-align: left;
 }
 
-#eqiukyookc .gt_center {
+#jbwvbuekcj .gt_center {
   text-align: center;
 }
 
-#eqiukyookc .gt_right {
+#jbwvbuekcj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#eqiukyookc .gt_font_normal {
+#jbwvbuekcj .gt_font_normal {
   font-weight: normal;
 }
 
-#eqiukyookc .gt_font_bold {
+#jbwvbuekcj .gt_font_bold {
   font-weight: bold;
 }
 
-#eqiukyookc .gt_font_italic {
+#jbwvbuekcj .gt_font_italic {
   font-style: italic;
 }
 
-#eqiukyookc .gt_super {
+#jbwvbuekcj .gt_super {
   font-size: 65%;
 }
 
-#eqiukyookc .gt_footnote_marks {
+#jbwvbuekcj .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#eqiukyookc .gt_asterisk {
+#jbwvbuekcj .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#eqiukyookc .gt_indent_1 {
+#jbwvbuekcj .gt_indent_1 {
   text-indent: 5px;
 }
 
-#eqiukyookc .gt_indent_2 {
+#jbwvbuekcj .gt_indent_2 {
   text-indent: 10px;
 }
 
-#eqiukyookc .gt_indent_3 {
+#jbwvbuekcj .gt_indent_3 {
   text-indent: 15px;
 }
 
-#eqiukyookc .gt_indent_4 {
+#jbwvbuekcj .gt_indent_4 {
   text-indent: 20px;
 }
 
-#eqiukyookc .gt_indent_5 {
+#jbwvbuekcj .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -1935,36 +1958,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="стъпка-2-изчисляване-на-стандарт" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-2-изчисляване-на-стандарт">Стъпка 2 Изчисляване на “стандарт”</h4>
-<p>За да направим стандартизацията е необходимо да изберем за стандарт, една от двете възрастови структури - тази на ваксинираните или тези на неваксинираните.</p>
-<p>Тук, често възниква въпросът коя структура трябва да изберем? Защо да предпочетем едната спрямо другата? Какво е правилото?</p>
-<p>Всъщност, няма особено значение точно коя структура се избира. Разбира се, числата след стандартизация зависят от избора и те биха се различавали. От значение, обаче е разликата, а не конкретните стойности на стандартизиран леталитет в двете групи <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>За да направим стандартизацията е необходимо да изберем за стандарт една от двете възрастови структури - тази на ваксинираните или тази на неваксинираните.</p>
+<p>Тук често възниква въпросът коя структура трябва да изберем? Защо да предпочетем едната спрямо другата? Какво е правилото?</p>
+<p>Всъщност няма особено значение точно коя структура се избира. Разбира се, числата след стандартизация зависят от избора и те биха се различавали. От значение обаче е разликата, а не конкретните стойности на стандартизиран леталитет в двете групи<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
 <p>Какво обаче е стандартът?</p>
-<p>Ако изберем за стандарт групата на неваксинираните, за да изчислим стандарта - ще използваме броя на участниците във всяка възрастова група за числител, а общия брой неваксинирани за знаменател. Полученият коефициент е “стандарт” за конкретната възрастова група.</p>
+<p>Ако изберем за стандарт групата на неваксинираните, за да изчислим стандарта - ще използваме броя на участниците във всяка възрастова група за числител, а общия брой неваксинирани за знаменател. Полученият коефициент е “стандарт” за конкретната възрастова група <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 <p>В <a href="#tbl-standart" class="quarto-xref">Таблица&nbsp;4</a> са представени получените стандарти.</p>
-<p>Неваксинираните участниците под 24 год. са 4000, а общият брой неваксинирани 8000. Стандартът за тази група е 0.5 (ако умножим по 100 ще получим 50%). Това е стандартът за тази група, които обаче ще използваме и за ваксинираните.</p>
+<p>Неваксинираните участниците под 24 год. са 4000, а общият брой неваксинирани 8000. Стандартът за тази група е 0.5 (ако умножим по 100 ще получим 50%). Това е стандартът за тази група, който обаче ще използваме и за ваксинираните.</p>
 <p>Може да ви направи впечатление, че сборът на всички стандарти е равен на 1-ца (тоест 100%). Това е така, защото стандартът винаги е екстензивен показател.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-standart" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-standart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="qbfaprunoh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qbfaprunoh table {
+<div id="gfihakafyr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gfihakafyr table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#qbfaprunoh thead, #qbfaprunoh tbody, #qbfaprunoh tfoot, #qbfaprunoh tr, #qbfaprunoh td, #qbfaprunoh th {
+#gfihakafyr thead, #gfihakafyr tbody, #gfihakafyr tfoot, #gfihakafyr tr, #gfihakafyr td, #gfihakafyr th {
   border-style: none;
 }
 
-#qbfaprunoh p {
+#gfihakafyr p {
   margin: 0;
   padding: 0;
 }
 
-#qbfaprunoh .gt_table {
+#gfihakafyr .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1990,12 +2013,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_caption {
+#gfihakafyr .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#qbfaprunoh .gt_title {
+#gfihakafyr .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2007,7 +2030,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#qbfaprunoh .gt_subtitle {
+#gfihakafyr .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2019,7 +2042,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#qbfaprunoh .gt_heading {
+#gfihakafyr .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2031,13 +2054,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_bottom_border {
+#gfihakafyr .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_col_headings {
+#gfihakafyr .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2052,7 +2075,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_col_heading {
+#gfihakafyr .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2072,7 +2095,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#qbfaprunoh .gt_column_spanner_outer {
+#gfihakafyr .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2084,15 +2107,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#qbfaprunoh .gt_column_spanner_outer:first-child {
+#gfihakafyr .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qbfaprunoh .gt_column_spanner_outer:last-child {
+#gfihakafyr .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qbfaprunoh .gt_column_spanner {
+#gfihakafyr .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2104,11 +2127,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#qbfaprunoh .gt_spanner_row {
+#gfihakafyr .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#qbfaprunoh .gt_group_heading {
+#gfihakafyr .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2134,7 +2157,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#qbfaprunoh .gt_empty_group_heading {
+#gfihakafyr .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2149,15 +2172,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#qbfaprunoh .gt_from_md > :first-child {
+#gfihakafyr .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qbfaprunoh .gt_from_md > :last-child {
+#gfihakafyr .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qbfaprunoh .gt_row {
+#gfihakafyr .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2176,7 +2199,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#qbfaprunoh .gt_stub {
+#gfihakafyr .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2189,7 +2212,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#qbfaprunoh .gt_stub_row_group {
+#gfihakafyr .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2203,15 +2226,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#qbfaprunoh .gt_row_group_first td {
+#gfihakafyr .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#qbfaprunoh .gt_row_group_first th {
+#gfihakafyr .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#qbfaprunoh .gt_summary_row {
+#gfihakafyr .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2221,16 +2244,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#qbfaprunoh .gt_first_summary_row {
+#gfihakafyr .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_first_summary_row.thick {
+#gfihakafyr .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#qbfaprunoh .gt_last_summary_row {
+#gfihakafyr .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2240,7 +2263,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_grand_summary_row {
+#gfihakafyr .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2250,7 +2273,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#qbfaprunoh .gt_first_grand_summary_row {
+#gfihakafyr .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2260,7 +2283,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_last_grand_summary_row_top {
+#gfihakafyr .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2270,11 +2293,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_striped {
+#gfihakafyr .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qbfaprunoh .gt_table_body {
+#gfihakafyr .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2283,7 +2306,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_footnotes {
+#gfihakafyr .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2297,7 +2320,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_footnote {
+#gfihakafyr .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2306,7 +2329,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#qbfaprunoh .gt_sourcenotes {
+#gfihakafyr .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2320,7 +2343,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#qbfaprunoh .gt_sourcenote {
+#gfihakafyr .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2328,68 +2351,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#qbfaprunoh .gt_left {
+#gfihakafyr .gt_left {
   text-align: left;
 }
 
-#qbfaprunoh .gt_center {
+#gfihakafyr .gt_center {
   text-align: center;
 }
 
-#qbfaprunoh .gt_right {
+#gfihakafyr .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qbfaprunoh .gt_font_normal {
+#gfihakafyr .gt_font_normal {
   font-weight: normal;
 }
 
-#qbfaprunoh .gt_font_bold {
+#gfihakafyr .gt_font_bold {
   font-weight: bold;
 }
 
-#qbfaprunoh .gt_font_italic {
+#gfihakafyr .gt_font_italic {
   font-style: italic;
 }
 
-#qbfaprunoh .gt_super {
+#gfihakafyr .gt_super {
   font-size: 65%;
 }
 
-#qbfaprunoh .gt_footnote_marks {
+#gfihakafyr .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#qbfaprunoh .gt_asterisk {
+#gfihakafyr .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#qbfaprunoh .gt_indent_1 {
+#gfihakafyr .gt_indent_1 {
   text-indent: 5px;
 }
 
-#qbfaprunoh .gt_indent_2 {
+#gfihakafyr .gt_indent_2 {
   text-indent: 10px;
 }
 
-#qbfaprunoh .gt_indent_3 {
+#gfihakafyr .gt_indent_3 {
   text-indent: 15px;
 }
 
-#qbfaprunoh .gt_indent_4 {
+#gfihakafyr .gt_indent_4 {
   text-indent: 20px;
 }
 
-#qbfaprunoh .gt_indent_5 {
+#gfihakafyr .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th id="Възраст" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Възраст</th>
@@ -2443,32 +2466,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="стъпка-3-изчисляване-на-стандартизираните-показатели" class="level4">
 <h4 class="anchored" data-anchor-id="стъпка-3-изчисляване-на-стандартизираните-показатели">Стъпка 3: Изчисляване на стандартизираните показатели</h4>
-<p>За да изчислим стандартизираният леталитет, за всяка възрастова група <strong>умножаваме</strong> нестандартизирания показател по посоченият по-горе стандарт.</p>
+<p>За да изчислим стандартизирания леталитет, за всяка възрастова група <strong>умножаваме</strong> нестандартизирания показател по посочения по-горе стандарт.</p>
 <div class="cell">
 <div id="tbl-final" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-final-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Таблица&nbsp;5: Например, за възрасттовата група до 24 г. при ваксинираните, нестандартизираният леталитет е 0,5, а стандартът 0,500 . За да стандартизираме умножаваме 0,5 по 0.500. При неваксинираните, отново за същата възрастова група, умножаваме нестандартизирания показател 0,6 по стандарта 0,500
+Таблица&nbsp;5: Например, за възрастовата група до 24 г. при ваксинираните, нестандартизираният леталитет е 0,5, а стандартът 0,500. За да стандартизираме умножаваме 0,5 по 0.500. При неваксинираните, отново за същата възрастова група, умножаваме нестандартизирания показател 0,6 по стандарта 0,500
 </figcaption>
 <div aria-describedby="tbl-final-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="wcivqomwsy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#wcivqomwsy table {
+<div id="lgvnzwqsxp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#lgvnzwqsxp table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#wcivqomwsy thead, #wcivqomwsy tbody, #wcivqomwsy tfoot, #wcivqomwsy tr, #wcivqomwsy td, #wcivqomwsy th {
+#lgvnzwqsxp thead, #lgvnzwqsxp tbody, #lgvnzwqsxp tfoot, #lgvnzwqsxp tr, #lgvnzwqsxp td, #lgvnzwqsxp th {
   border-style: none;
 }
 
-#wcivqomwsy p {
+#lgvnzwqsxp p {
   margin: 0;
   padding: 0;
 }
 
-#wcivqomwsy .gt_table {
+#lgvnzwqsxp .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2494,12 +2517,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_caption {
+#lgvnzwqsxp .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wcivqomwsy .gt_title {
+#lgvnzwqsxp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2511,7 +2534,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#wcivqomwsy .gt_subtitle {
+#lgvnzwqsxp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2523,7 +2546,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#wcivqomwsy .gt_heading {
+#lgvnzwqsxp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2535,13 +2558,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_bottom_border {
+#lgvnzwqsxp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_col_headings {
+#lgvnzwqsxp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2556,7 +2579,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_col_heading {
+#lgvnzwqsxp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2576,7 +2599,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#wcivqomwsy .gt_column_spanner_outer {
+#lgvnzwqsxp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2588,15 +2611,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#wcivqomwsy .gt_column_spanner_outer:first-child {
+#lgvnzwqsxp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wcivqomwsy .gt_column_spanner_outer:last-child {
+#lgvnzwqsxp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wcivqomwsy .gt_column_spanner {
+#lgvnzwqsxp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2608,11 +2631,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#wcivqomwsy .gt_spanner_row {
+#lgvnzwqsxp .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#wcivqomwsy .gt_group_heading {
+#lgvnzwqsxp .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2638,7 +2661,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#wcivqomwsy .gt_empty_group_heading {
+#lgvnzwqsxp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2653,15 +2676,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#wcivqomwsy .gt_from_md > :first-child {
+#lgvnzwqsxp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wcivqomwsy .gt_from_md > :last-child {
+#lgvnzwqsxp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wcivqomwsy .gt_row {
+#lgvnzwqsxp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2680,7 +2703,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#wcivqomwsy .gt_stub {
+#lgvnzwqsxp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2693,7 +2716,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wcivqomwsy .gt_stub_row_group {
+#lgvnzwqsxp .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2707,15 +2730,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#wcivqomwsy .gt_row_group_first td {
+#lgvnzwqsxp .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wcivqomwsy .gt_row_group_first th {
+#lgvnzwqsxp .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#wcivqomwsy .gt_summary_row {
+#lgvnzwqsxp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2725,16 +2748,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wcivqomwsy .gt_first_summary_row {
+#lgvnzwqsxp .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_first_summary_row.thick {
+#lgvnzwqsxp .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wcivqomwsy .gt_last_summary_row {
+#lgvnzwqsxp .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2744,7 +2767,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_grand_summary_row {
+#lgvnzwqsxp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2754,7 +2777,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wcivqomwsy .gt_first_grand_summary_row {
+#lgvnzwqsxp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2764,7 +2787,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_last_grand_summary_row_top {
+#lgvnzwqsxp .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2774,11 +2797,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_striped {
+#lgvnzwqsxp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wcivqomwsy .gt_table_body {
+#lgvnzwqsxp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2787,7 +2810,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_footnotes {
+#lgvnzwqsxp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2801,7 +2824,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_footnote {
+#lgvnzwqsxp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2810,7 +2833,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wcivqomwsy .gt_sourcenotes {
+#lgvnzwqsxp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2824,7 +2847,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wcivqomwsy .gt_sourcenote {
+#lgvnzwqsxp .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2832,68 +2855,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wcivqomwsy .gt_left {
+#lgvnzwqsxp .gt_left {
   text-align: left;
 }
 
-#wcivqomwsy .gt_center {
+#lgvnzwqsxp .gt_center {
   text-align: center;
 }
 
-#wcivqomwsy .gt_right {
+#lgvnzwqsxp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wcivqomwsy .gt_font_normal {
+#lgvnzwqsxp .gt_font_normal {
   font-weight: normal;
 }
 
-#wcivqomwsy .gt_font_bold {
+#lgvnzwqsxp .gt_font_bold {
   font-weight: bold;
 }
 
-#wcivqomwsy .gt_font_italic {
+#lgvnzwqsxp .gt_font_italic {
   font-style: italic;
 }
 
-#wcivqomwsy .gt_super {
+#lgvnzwqsxp .gt_super {
   font-size: 65%;
 }
 
-#wcivqomwsy .gt_footnote_marks {
+#lgvnzwqsxp .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#wcivqomwsy .gt_asterisk {
+#lgvnzwqsxp .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wcivqomwsy .gt_indent_1 {
+#lgvnzwqsxp .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wcivqomwsy .gt_indent_2 {
+#lgvnzwqsxp .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wcivqomwsy .gt_indent_3 {
+#lgvnzwqsxp .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wcivqomwsy .gt_indent_4 {
+#lgvnzwqsxp .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wcivqomwsy .gt_indent_5 {
+#lgvnzwqsxp .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -2992,7 +3015,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-<p>На този етап стандартизацията е почти изпълнена - Вече знаем, че <strong>нестандартизираните показатели не се събират</strong>. За сметка на това <strong>стандартизираните се събират</strong>. Когато ги съберем получаваме общия стандартизиран леталитет, който е “изчистен” от замъгляващия ефект на различната възраст в двете групи. С други думи, показателите след стандартизация, представят какъв би бил леталитетът, ако двете групи имаха еднаква възрастова структура.</p>
+<p>На този етап стандартизацията е почти завършена - Вече знаем, че <strong>нестандартизираните показатели не се събират</strong>. За сметка на това <strong>стандартизираните се събират</strong>. Когато ги съберем получаваме общия стандартизиран леталитет, който е “изчистен” от замъгляващия ефект на различната възраст в двете групи. С други думи, показателите след стандартизация представят какъв би бил леталитетът, ако двете групи имаха еднаква възрастова структура <span class="citation" data-cites="iskrov2025 armitage2002">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>,<a href="#ref-armitage2002" role="doc-biblioref">7</a>]</span>.</p>
 </section>
 <section id="стъпка-4-заключение" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-4-заключение">Стъпка 4: Заключение</h4>
@@ -3003,7 +3026,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>За групата на неваксинираните общият стандартизиран леталитет е:</p>
 <ul>
-<li><strong>30 %</strong> (стандартизираният леталитет за всички до 24 г.) + <strong>17,5 %</strong> (стандартизираният леталитет за възрастовата група от 25-34 г.) + <strong>10 %</strong> (стандартизираният леталитет за възрастовата група от 35-44 г.) + <strong>11,25 %</strong> (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички ваксинирани, стандартизираният леталитет е 65.75%</li>
+<li><strong>30 %</strong> (стандартизираният леталитет за всички до 24 г.) + <strong>17,5 %</strong> (стандартизираният леталитет за възрастовата група от 25-34 г.) + <strong>10 %</strong> (стандартизираният леталитет за възрастовата група от 35-44 г.) + <strong>11,25 %</strong> (стандартизираният леталитет за възрастовата група над 45 г.). Общо за всички неваксинирани, стандартизираният леталитет е 68.75%</li>
 </ul>
 <div class="column-page-right">
 <div class="callout callout-style-default callout-caution callout-titled">
@@ -3012,18 +3035,18 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Заключение
+<span class="screen-reader-only">Caution</span>Заключение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Стандартизираните показатели за леталитет в двете групи са съответно <strong>58.75 %</strong> и <strong>68.75 %</strong>. Леталитетът сред неваксинираните, е с <strong>10 %</strong> по-висок.</p>
+<p>Стандартизираните показатели за леталитет в двете групи са съответно <strong>58.75 %</strong> и <strong>68.75 %</strong>. Леталитетът сред неваксинираните е с <strong>10 %</strong> по-висок.</p>
 </div>
 </div>
 </div>
 </div>
-<p>Стандартизираните показатели позволяват да се анализира и оцени нивото на изучаваното явление при създадени условия на <strong>еднородност</strong>, тоест методът ни показва какви биха били коефициентите, в сравняваните групи, ако те имаха еднакъв състав.</p>
+<p>Стандартизираните показатели позволяват да се анализира и оцени нивото на изучаваното явление при създадени условия на <strong>еднородност</strong>, тоест методът ни показва какви биха били коефициентите в сравняваните групи, ако те имаха еднакъв състав <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 </section>
 </section>
 <section id="стъпки---при-алтернативен-избор-за-стандарт" class="level2 page-columns page-full">
@@ -3031,29 +3054,29 @@ ul.task-list li input[type="checkbox"] {
 <p>За да докажем, че изводът не зависи от избора на стандарт, ще решим отново примера, като този път използваме за стандарт възрастовата структура на ваксинираните.</p>
 <section id="стъпка-2-изчисляваме-стандарта-този-път-спрямо-ваксинираните" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-2-изчисляваме-стандарта-този-път-спрямо-ваксинираните">Стъпка 2 Изчисляваме стандарта (този път спрямо ваксинираните)</h4>
-<p>Сега ще използваме данните само за ваксинираните. При тях, участниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в <a href="#tbl-standart_alt" class="quarto-xref">Таблица&nbsp;6</a> .</p>
+<p>Сега ще използваме данните само за ваксинираните. При тях участниците под 24 г. са 500 от общо 4000. Това означава, че стандартът за тази група е 0.125 (или 12.5%). Получените стандарти са представени в <a href="#tbl-standart_alt" class="quarto-xref">Таблица&nbsp;6</a>.</p>
 <div class="cell page-columns page-full" data-cap-location="margin">
 <div id="tbl-standart_alt" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
 <figure class="quarto-float quarto-float-tbl figure page-columns page-full">
 <div aria-describedby="tbl-standart_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="mpbjifxlam" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#mpbjifxlam table {
+<div id="afugtgxukn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#afugtgxukn table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#mpbjifxlam thead, #mpbjifxlam tbody, #mpbjifxlam tfoot, #mpbjifxlam tr, #mpbjifxlam td, #mpbjifxlam th {
+#afugtgxukn thead, #afugtgxukn tbody, #afugtgxukn tfoot, #afugtgxukn tr, #afugtgxukn td, #afugtgxukn th {
   border-style: none;
 }
 
-#mpbjifxlam p {
+#afugtgxukn p {
   margin: 0;
   padding: 0;
 }
 
-#mpbjifxlam .gt_table {
+#afugtgxukn .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3079,12 +3102,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_caption {
+#afugtgxukn .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#mpbjifxlam .gt_title {
+#afugtgxukn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3096,7 +3119,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#mpbjifxlam .gt_subtitle {
+#afugtgxukn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3108,7 +3131,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#mpbjifxlam .gt_heading {
+#afugtgxukn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3120,13 +3143,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_bottom_border {
+#afugtgxukn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_col_headings {
+#afugtgxukn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3141,7 +3164,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_col_heading {
+#afugtgxukn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3161,7 +3184,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#mpbjifxlam .gt_column_spanner_outer {
+#afugtgxukn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3173,15 +3196,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#mpbjifxlam .gt_column_spanner_outer:first-child {
+#afugtgxukn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#mpbjifxlam .gt_column_spanner_outer:last-child {
+#afugtgxukn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#mpbjifxlam .gt_column_spanner {
+#afugtgxukn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3193,11 +3216,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#mpbjifxlam .gt_spanner_row {
+#afugtgxukn .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#mpbjifxlam .gt_group_heading {
+#afugtgxukn .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3223,7 +3246,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#mpbjifxlam .gt_empty_group_heading {
+#afugtgxukn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3238,15 +3261,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#mpbjifxlam .gt_from_md > :first-child {
+#afugtgxukn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#mpbjifxlam .gt_from_md > :last-child {
+#afugtgxukn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#mpbjifxlam .gt_row {
+#afugtgxukn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3265,7 +3288,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#mpbjifxlam .gt_stub {
+#afugtgxukn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3278,7 +3301,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#mpbjifxlam .gt_stub_row_group {
+#afugtgxukn .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3292,15 +3315,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#mpbjifxlam .gt_row_group_first td {
+#afugtgxukn .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#mpbjifxlam .gt_row_group_first th {
+#afugtgxukn .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#mpbjifxlam .gt_summary_row {
+#afugtgxukn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3310,16 +3333,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#mpbjifxlam .gt_first_summary_row {
+#afugtgxukn .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_first_summary_row.thick {
+#afugtgxukn .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#mpbjifxlam .gt_last_summary_row {
+#afugtgxukn .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3329,7 +3352,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_grand_summary_row {
+#afugtgxukn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3339,7 +3362,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#mpbjifxlam .gt_first_grand_summary_row {
+#afugtgxukn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3349,7 +3372,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_last_grand_summary_row_top {
+#afugtgxukn .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3359,11 +3382,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_striped {
+#afugtgxukn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#mpbjifxlam .gt_table_body {
+#afugtgxukn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3372,7 +3395,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_footnotes {
+#afugtgxukn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3386,7 +3409,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_footnote {
+#afugtgxukn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3395,7 +3418,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#mpbjifxlam .gt_sourcenotes {
+#afugtgxukn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3409,7 +3432,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#mpbjifxlam .gt_sourcenote {
+#afugtgxukn .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3417,68 +3440,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#mpbjifxlam .gt_left {
+#afugtgxukn .gt_left {
   text-align: left;
 }
 
-#mpbjifxlam .gt_center {
+#afugtgxukn .gt_center {
   text-align: center;
 }
 
-#mpbjifxlam .gt_right {
+#afugtgxukn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mpbjifxlam .gt_font_normal {
+#afugtgxukn .gt_font_normal {
   font-weight: normal;
 }
 
-#mpbjifxlam .gt_font_bold {
+#afugtgxukn .gt_font_bold {
   font-weight: bold;
 }
 
-#mpbjifxlam .gt_font_italic {
+#afugtgxukn .gt_font_italic {
   font-style: italic;
 }
 
-#mpbjifxlam .gt_super {
+#afugtgxukn .gt_super {
   font-size: 65%;
 }
 
-#mpbjifxlam .gt_footnote_marks {
+#afugtgxukn .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#mpbjifxlam .gt_asterisk {
+#afugtgxukn .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#mpbjifxlam .gt_indent_1 {
+#afugtgxukn .gt_indent_1 {
   text-indent: 5px;
 }
 
-#mpbjifxlam .gt_indent_2 {
+#afugtgxukn .gt_indent_2 {
   text-indent: 10px;
 }
 
-#mpbjifxlam .gt_indent_3 {
+#afugtgxukn .gt_indent_3 {
   text-indent: 15px;
 }
 
-#mpbjifxlam .gt_indent_4 {
+#afugtgxukn .gt_indent_4 {
   text-indent: 20px;
 }
 
-#mpbjifxlam .gt_indent_5 {
+#afugtgxukn .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th id="Възраст" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Възраст</th>
@@ -3532,32 +3555,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="стъпка-3-изчисляване-на-стандартизираните-показатели-за-леталитет" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="стъпка-3-изчисляване-на-стандартизираните-показатели-за-леталитет">Стъпка 3: Изчисляване на стандартизираните показатели за леталитет</h4>
-<p>След като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация тя е представена в <a href="#tbl-final_alt" class="quarto-xref">Таблица&nbsp;7</a></p>
+<p>След като имаме “стандарт”, този път в основа на групата на ваксинираните, можем да пристъпим отново към стъпка 3 - стандартизация. Тя е представена в <a href="#tbl-final_alt" class="quarto-xref">Таблица&nbsp;7</a>.</p>
 <div class="cell">
 <div id="tbl-final_alt" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-final_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Таблица&nbsp;7: Отново, за възрасттовата група до 24 г.при ваксинираните, нестандартизирания леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5x0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизирания леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075)
+Таблица&nbsp;7: Отново, за възрастовата група до 24 г. при ваксинираните, нестандартизираният леталитет е 0,5, а новият стандарт 0,125. Стандартизираният леталитет е 0,5×0,125 = 0,0625. При неваксинираните, до 24 г. нестандартизираният леталитет е 0,6, за да получим стандартизирания умножаваме по стандарта 0,125, получаваме 0,075
 </figcaption>
 <div aria-describedby="tbl-final_alt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="nkxiaycljb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#nkxiaycljb table {
+<div id="ietlloyuqv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ietlloyuqv table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#nkxiaycljb thead, #nkxiaycljb tbody, #nkxiaycljb tfoot, #nkxiaycljb tr, #nkxiaycljb td, #nkxiaycljb th {
+#ietlloyuqv thead, #ietlloyuqv tbody, #ietlloyuqv tfoot, #ietlloyuqv tr, #ietlloyuqv td, #ietlloyuqv th {
   border-style: none;
 }
 
-#nkxiaycljb p {
+#ietlloyuqv p {
   margin: 0;
   padding: 0;
 }
 
-#nkxiaycljb .gt_table {
+#ietlloyuqv .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3583,12 +3606,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_caption {
+#ietlloyuqv .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#nkxiaycljb .gt_title {
+#ietlloyuqv .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3600,7 +3623,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#nkxiaycljb .gt_subtitle {
+#ietlloyuqv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3612,7 +3635,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#nkxiaycljb .gt_heading {
+#ietlloyuqv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3624,13 +3647,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_bottom_border {
+#ietlloyuqv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_col_headings {
+#ietlloyuqv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3645,7 +3668,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_col_heading {
+#ietlloyuqv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3665,7 +3688,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#nkxiaycljb .gt_column_spanner_outer {
+#ietlloyuqv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3677,15 +3700,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#nkxiaycljb .gt_column_spanner_outer:first-child {
+#ietlloyuqv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#nkxiaycljb .gt_column_spanner_outer:last-child {
+#ietlloyuqv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#nkxiaycljb .gt_column_spanner {
+#ietlloyuqv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3697,11 +3720,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#nkxiaycljb .gt_spanner_row {
+#ietlloyuqv .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#nkxiaycljb .gt_group_heading {
+#ietlloyuqv .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3727,7 +3750,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#nkxiaycljb .gt_empty_group_heading {
+#ietlloyuqv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3742,15 +3765,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#nkxiaycljb .gt_from_md > :first-child {
+#ietlloyuqv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#nkxiaycljb .gt_from_md > :last-child {
+#ietlloyuqv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#nkxiaycljb .gt_row {
+#ietlloyuqv .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3769,7 +3792,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#nkxiaycljb .gt_stub {
+#ietlloyuqv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3782,7 +3805,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#nkxiaycljb .gt_stub_row_group {
+#ietlloyuqv .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3796,15 +3819,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#nkxiaycljb .gt_row_group_first td {
+#ietlloyuqv .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#nkxiaycljb .gt_row_group_first th {
+#ietlloyuqv .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#nkxiaycljb .gt_summary_row {
+#ietlloyuqv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3814,16 +3837,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#nkxiaycljb .gt_first_summary_row {
+#ietlloyuqv .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_first_summary_row.thick {
+#ietlloyuqv .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#nkxiaycljb .gt_last_summary_row {
+#ietlloyuqv .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3833,7 +3856,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_grand_summary_row {
+#ietlloyuqv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3843,7 +3866,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#nkxiaycljb .gt_first_grand_summary_row {
+#ietlloyuqv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3853,7 +3876,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_last_grand_summary_row_top {
+#ietlloyuqv .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3863,11 +3886,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_striped {
+#ietlloyuqv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#nkxiaycljb .gt_table_body {
+#ietlloyuqv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3876,7 +3899,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_footnotes {
+#ietlloyuqv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3890,7 +3913,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_footnote {
+#ietlloyuqv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3899,7 +3922,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#nkxiaycljb .gt_sourcenotes {
+#ietlloyuqv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3913,7 +3936,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#nkxiaycljb .gt_sourcenote {
+#ietlloyuqv .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3921,68 +3944,68 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#nkxiaycljb .gt_left {
+#ietlloyuqv .gt_left {
   text-align: left;
 }
 
-#nkxiaycljb .gt_center {
+#ietlloyuqv .gt_center {
   text-align: center;
 }
 
-#nkxiaycljb .gt_right {
+#ietlloyuqv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#nkxiaycljb .gt_font_normal {
+#ietlloyuqv .gt_font_normal {
   font-weight: normal;
 }
 
-#nkxiaycljb .gt_font_bold {
+#ietlloyuqv .gt_font_bold {
   font-weight: bold;
 }
 
-#nkxiaycljb .gt_font_italic {
+#ietlloyuqv .gt_font_italic {
   font-style: italic;
 }
 
-#nkxiaycljb .gt_super {
+#ietlloyuqv .gt_super {
   font-size: 65%;
 }
 
-#nkxiaycljb .gt_footnote_marks {
+#ietlloyuqv .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#nkxiaycljb .gt_asterisk {
+#ietlloyuqv .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#nkxiaycljb .gt_indent_1 {
+#ietlloyuqv .gt_indent_1 {
   text-indent: 5px;
 }
 
-#nkxiaycljb .gt_indent_2 {
+#ietlloyuqv .gt_indent_2 {
   text-indent: 10px;
 }
 
-#nkxiaycljb .gt_indent_3 {
+#ietlloyuqv .gt_indent_3 {
   text-indent: 15px;
 }
 
-#nkxiaycljb .gt_indent_4 {
+#ietlloyuqv .gt_indent_4 {
   text-indent: 20px;
 }
 
-#nkxiaycljb .gt_indent_5 {
+#ietlloyuqv .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -4066,7 +4089,7 @@ ul.task-list li input[type="checkbox"] {
 <td colspan="7" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> Нестандартизиран леталитет</td>
 </tr>
 <tr class="even">
-<td colspan="7" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>2</sup></span> Изчислен спрямо неваксинираните</td>
+<td colspan="7" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>2</sup></span> Изчислен спрямо ваксинираните</td>
 </tr>
 <tr class="odd">
 <td colspan="7" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>3</sup></span> Стандартизиран леталитет</td>
@@ -4081,7 +4104,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-<p>Логично, след като сме използвали друг стандарт, числовите стойности са различни, но заключението едно и също.</p>
+<p>Логично, след като сме използвали друг стандарт, числовите стойности са различни, но заключението е едно и също.</p>
 <div class="column-page-right">
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
@@ -4089,13 +4112,13 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Заключение
+<span class="screen-reader-only">Caution</span>Заключение
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Стандартизираните показатели за леталитет в двете групи са съответно <strong>71.25 %</strong> и <strong>81.25 %</strong>. Леталитетът сред неваксинираните, е с <strong>10 %</strong> по-висок.</p>
+<p>Стандартизираните показатели за леталитет в двете групи са съответно <strong>71.25 %</strong> и <strong>81.25 %</strong>. Леталитетът сред неваксинираните е с <strong>10 %</strong> по-висок.</p>
 </div>
 </div>
 </div>
@@ -4111,13 +4134,13 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Кога използваме стандартизация?
+<span class="screen-reader-only">Tip</span>Кога използваме стандартизация?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Стандартизацията се прилага, когато искаме да сравним две или повече групи, които имат различна структура (най-често по възраст), която може да “замъглява” истинската връзка между фактор и резултат.</p>
+<p>Стандартизацията се прилага, когато искаме да сравним две или повече групи, които имат различна структура (най-често по възраст), която може да “замъглява” истинската връзка между фактор и резултат <span class="citation" data-cites="iskrov2025">[<a href="#ref-iskrov2025" role="doc-biblioref">1</a>]</span>.</p>
 <p><strong>Основни стъпки:</strong></p>
 <ol type="1">
 <li><strong>Изчисляване на нестандартизираните показатели</strong> - за всяка подгрупа поотделно</li>
@@ -4142,7 +4165,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>:::</p>
 </section>
 <section id="задачи-за-самоподготовка" class="level1">
 <h1>Задачи за самоподготовка</h1>
@@ -4259,7 +4281,7 @@ ul.task-list li input[type="checkbox"] {
 <th><p>Преминали</p>
 <p>(Б)</p></th>
 <th><p>Починали</p>
-<p>(А)</p></th>
+<p>(Б)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -4296,6 +4318,32 @@ ul.task-list li input[type="checkbox"] {
 <ol start="4" type="1">
 <li>Нестандартизираните показатели за леталитет в две болници А и Б са съответно 10‰ и 12‰. След стандартизация спрямо болница А, леталитетът в болница А остава 10‰, а този в болница Б става 8‰. Изчислете стандартизираните леталитети, ако за стандарт се използва структурата на болница Б.</li>
 </ol>
+</section>
+<section id="литература" class="level1">
+<h1>Литература</h1>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-iskrov2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Искров Г. Медицинска статистика. Пловдив: Пловдивски университет "Паисий Хилендарски"; 2025. </div>
+</div>
+<div id="ref-altman1991" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Altman DG. Practical statistics for medical research. London: Chapman; Hall; 1991. </div>
+</div>
+<div id="ref-bland2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Bland M. An introduction to medical statistics. 4th ed. Oxford: Oxford University Press; 2015. </div>
+</div>
+<div id="ref-petrie2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Petrie A, Sabin C. Medical statistics at a glance. 4th ed. Chichester: Wiley-Blackwell; 2020. </div>
+</div>
+<div id="ref-kirkwood2003" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Kirkwood BR, Sterne JAC. Essential medical statistics. 2nd ed. Oxford: Blackwell Publishing; 2003. </div>
+</div>
+<div id="ref-simpson1951" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Simpson EH. The interpretation of interaction in contingency tables. Journal of the Royal Statistical Society: Series B. 1951;13: 238–241. doi:<a href="https://doi.org/10.1111/j.2517-6161.1951.tb00088.x">10.1111/j.2517-6161.1951.tb00088.x</a></div>
+</div>
+<div id="ref-armitage2002" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Armitage P, Berry G, Matthews JNS. Statistical methods in medical research. 4th ed. Oxford: Blackwell Science; 2002. </div>
+</div>
+</div>
 
 
 </section>
@@ -4304,7 +4352,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Бележки</h2>
 
 <ol>
-<li id="fn1"><p>В момента дори има разработени скенери които “сами разчитат” дали пациента има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаване дали е налице определено заболяване.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>В момента дори има разработени скенери които “сами разчитат” дали пациентът има заболяване и показват какво е то. Разработени са и електрокардиографии, записващи сърдечната дейност на пациента и “автоматично” разпознаващи дали е налице определено заболяване.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Важно: простите аритметични операции между проценти се изразяват в процентни пунктове.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>В това упражнение ще докажем това, като извършим стандартизацията, като вземем за стандарт, първо възрастовата структура на неваксинираните, а после тази на ваксинираните.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
@@ -4360,13 +4408,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

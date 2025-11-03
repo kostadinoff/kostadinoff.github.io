@@ -2,7 +2,7 @@
 title: "Epidemiology – definition, tasks, methods. Natural history of the disease"
 author: "Kostadin Kostadinov"
 date: 2024-11-05
-description: "The first practical class on medical ethics. Introduction to the field and the basic principles of medical ethics."
+description: "Epidemiology is a medical science and practical approach that is an integral part of social medicine and public health. The word originates from the Greek - 'epi' - above, 'demos' - people, and 'logos' - science. Epidemiology studies the causes of diseases and their distribution in the population."
 categories: 
   - "English"
   - "Public Health"
