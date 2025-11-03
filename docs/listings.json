@@ -24,5 +24,12 @@
       "/teaching-posts/teaching-posts-20.html",
       "/teaching-posts/teaching-posts-19.html"
     ]
+  },
+  {
+    "listing": "/epinews.html",
+    "items": [
+      "/epinews-posts/2025-W44-bg.html",
+      "/epinews-posts/2025-W44-en.html"
+    ]
   }
 ]

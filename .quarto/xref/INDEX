@@ -75,5 +75,14 @@
   },
   "teaching-posts/teaching-posts-21.qmd": {
     "teaching-posts-21.html": "58e63b80"
+  },
+  "epinews-posts/2025-W44-bg.qmd": {
+    "2025-W44-bg.html": "dcc93f67"
+  },
+  "epinews-posts/2025-W44-en.qmd": {
+    "2025-W44-en.html": "d1f61142"
+  },
+  "epinews.qmd": {
+    "epinews.html": "53de28b3"
   }
 }

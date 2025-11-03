@@ -1,0 +1,24 @@
+---
+title: "Epi News"
+listing: 
+  id: blog-listing
+  categories: true
+  filter-ui: true
+  feed: true
+  sort-ui: [date]
+  sort: "date desc"
+  contents:
+  - "epinews-posts/!(template|blog-image|references).qmd"
+  fields: [title, date, author, description, categories]
+  type: grid
+  grid-columns: 1
+  image-height: "12em"
+---
+
+Welcome to Epidemiology Weekly — a regularly updated section featuring key news, insights, and trends from the world of epidemiology, public health, and health policy. Each week, I share highlights and analyses from global, European, and Bulgarian sources — bringing together the most relevant developments shaping population health.
+
+You can filter the posts by category, date, or topic to easily find what interests you most.
+It’s my commitment to keep this section updated every week — a small promise to make epidemiology more accessible, timely, and connected to real-world change.
+
+::: {#blog-listing}
+:::

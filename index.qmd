@@ -12,4 +12,15 @@ about:
 
 <br>
 
-I’m Kostadin Kostadinov, a medical doctor, senior assistant professor, and researcher in the Department of Social Medicine and Public Health, Plovdiv, Bulgaria. I hold an MD (MU–Plovdiv), an MPH (MU–Plovdiv), and MSc in Economics and Finance (Sofia University). I am also a graduate (MBA) of the D. A. Tsenov Academy of Economics in Svishtov (statistics). I am currently pursuing a master’s in Policy Analysis (Sofia University). I hold a PhD and a medical specialty in Social Medicine, and I am currently a fellow in Epidemiology. My interests include data science, policy evaluation, and health services research. This website is a collection of my thoughts, teaching materials, and research projects. The expressed opinions are my own and do not represent the views of any institution.
+I’m Dr. Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.
+
+I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance at Sofia University and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Currently, I am pursuing a Master’s degree in Policy Analysis at Sofia University.
+
+I am the founder of the Social Epidemiology Lab, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.
+
+My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.
+
+This website serves as a space to share my research projects, teaching materials, and reflections on public health and social epidemiology.
+All teaching materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
+
+All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.

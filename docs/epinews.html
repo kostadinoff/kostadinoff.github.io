@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kostadin Kostadinov</title>
+<title>Epi News – Kostadin Kostadinov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,18 +30,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-e679e825b067034b937cc6fa1ac50c51.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,17 +70,74 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog-listing'] = new List('listing-blog-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Kostadin Kostadinov">
+<meta name="twitter:title" content="Epi News – Kostadin Kostadinov">
 <meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
-<meta name="twitter:image" content="face_id.png">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -99,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -111,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./epinews.html"> 
+    <a class="nav-link active" href="./epinews.html" aria-current="page"> 
 <span class="menu-text">Epi News</span></a>
   </li>  
 </ul>
@@ -142,29 +200,143 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QnVsZ2FyaWFu">Bulgarian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW5nbGlzaA==">English <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXBpZGVtaW9sb2d5">Epidemiology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5mZWN0aW91cyUyMERpc2Vhc2Vz">Infectious Diseases <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3VydmVpbGxhbmNl">Surveillance <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2Vla2x5JTIwVXBkYXRl">Weekly Update <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="face_id.png" class="about-image
-  rectangle " style="width: 21.5em;">
- <header id="title-block-header" class="quarto-title-block"></header><main class="content" id="quarto-document-content">
-<div class="btn-group" role="group" aria-label="Social Links">
-<p><a href="https://x.com/kostadinoffMD" class="btn btn-secondary" role="button" data-toggle="data" title="twitter"><i class="fa-brands fa-twitter" aria-label="twitter"></i><br>Twitter</a> <a href="https://github.com/kostadinoff" class="btn btn-secondary" role="button" data-toggle="data" title="github"><i class="fa-brands fa-github" aria-label="github"></i><br>Github</a> <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&amp;hl=en" class="btn btn-secondary" role="button" data-toggle="data" title="scholar"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i><br>Scholar</a> <a href="https://orcid.org/0000-0003-1414-8738" class="btn btn-secondary" role="button" data-toggle="data" title="ORCID"><i class="fa-solid fa-id-badge" aria-label="id-badge"></i><br>ORCID</a></p>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Epi News</h1>
 </div>
-<p><br></p>
-<p>I’m Dr.&nbsp;Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.</p>
-<p>I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance at Sofia University and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Currently, I am pursuing a Master’s degree in Policy Analysis at Sofia University.</p>
-<p>I am the founder of the Social Epidemiology Lab, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.</p>
-<p>My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.</p>
-<p>This website serves as a space to share my research projects, teaching materials, and reflections on public health and social epidemiology. All teaching materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.</p>
-<p>All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.</p>
 
 
-</main>  
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Welcome to Epidemiology Weekly — a regularly updated section featuring key news, insights, and trends from the world of epidemiology, public health, and health policy. Each week, I share highlights and analyses from global, European, and Bulgarian sources — bringing together the most relevant developments shaping population health.</p>
+<p>You can filter the posts by category, date, or topic to easily find what interests you most. It’s my commitment to keep this section updated every week — a small promise to make epidemiology more accessible, timely, and connected to real-world change.</p>
+<div id="listing-blog-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-blog-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-blog-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
- <!-- /main -->
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="RXBpZGVtaW9sb2d5JTJDUHVibGljJTIwSGVhbHRoJTJDSW5mZWN0aW91cyUyMERpc2Vhc2VzJTJDU3VydmVpbGxhbmNlJTJDV2Vla2x5JTIwVXBkYXRlJTJDQnVsZ2FyaWFu" data-listing-date-sort="1762120800000" data-listing-file-modified-sort="1762198108161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2324">
+<a href="./epinews-posts/2025-W44-bg.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Епидемиологични Новини: Седмица 44, 2025
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXBpZGVtaW9sb2d5'); return false;">Epidemiology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwSGVhbHRo'); return false;">Public Health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mZWN0aW91cyUyMERpc2Vhc2Vz'); return false;">Infectious Diseases</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VydmVpbGxhbmNl'); return false;">Surveillance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2Vla2x5JTIwVXBkYXRl'); return false;">Weekly Update</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QnVsZ2FyaWFu'); return false;">Bulgarian</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Обхватна седмична епидемиологична справка за 44-та седмица на 2025 г.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Костадин Костадинов
+</div>
+<div class="listing-date">
+Nov 3, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RXBpZGVtaW9sb2d5JTJDUHVibGljJTIwSGVhbHRoJTJDSW5mZWN0aW91cyUyMERpc2Vhc2VzJTJDU3VydmVpbGxhbmNlJTJDV2Vla2x5JTIwVXBkYXRlJTJDRW5nbGlzaA==" data-listing-date-sort="1762120800000" data-listing-file-modified-sort="1762192876531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="27" data-listing-word-count-sort="5271">
+<a href="./epinews-posts/2025-W44-en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Epidemiological News: Week 44, 2025
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXBpZGVtaW9sb2d5'); return false;">Epidemiology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwSGVhbHRo'); return false;">Public Health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mZWN0aW91cyUyMERpc2Vhc2Vz'); return false;">Infectious Diseases</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VydmVpbGxhbmNl'); return false;">Surveillance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2Vla2x5JTIwVXBkYXRl'); return false;">Weekly Update</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5nbGlzaA=='); return false;">English</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Comprehensive weekly epidemiological surveillance update for week 44, 2025, covering global pharmaceutical developments, European vector-borne diseases including West Nile…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kostadin Kostadinov
+</div>
+<div class="listing-date">
+Nov 3, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

@@ -27,6 +27,8 @@ website:
         text: CV
       - href: teaching.qmd
         text: Teaching
+      - href: epinews.qmd
+        text: Epi News
 
 format:
   html:

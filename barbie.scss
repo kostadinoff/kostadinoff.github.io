@@ -4,11 +4,12 @@
 /*-- Define colors for later use --*/
 $primary: #3AA6B9;
 $secondary: #a82b61;
-$tertiary: #FF9EAA;
+$tertiary: #e99a11;
 $body-bg: #fff;
 $body-color: #444;
 $success: #3AA6B9;
-$h1-font-family-sans-serif: 'Sofia Sans', sans-serif;
+$h1-font-family-sans-serif: 'Roboto Condensed', sans-serif;
+
 
 
 /*-- scss:rules --*/
@@ -58,7 +59,7 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 div.sourceCode, div.sourceCode pre.sourceCode {
     color: #222;
     background-color: #f6d5e920;
-    border-color: #bf2986ff;
+    border-color: rgb(126, 8, 81);
     padding-left: 3px;
     border-radius: .5rem;
 }
@@ -66,7 +67,7 @@ div.sourceCode, div.sourceCode pre.sourceCode {
 
 #title-block-header.quarto-title-block.default .quarto-title .title {
     font-size: 3em;
-    color: #be4a7c;
+    color: #ce0f62;
 }
 .navbar-dark .navbar-brand {
     color: white;
@@ -90,14 +91,14 @@ div.sourceCode, div.sourceCode pre.sourceCode {
 
 .btn-secondary {
     color: white;
-    background-color: #ed5c9b;
-    border-color: #ed5c9b;
+    background-color: #951049;
+    border-color: #c62f70;
 }
 
 #title-block-header.quarto-title-block.default .quarto-title .title {
     font-family: "Open Sans";
     font-size: 3em;
-    color: #be4a7c;
+    color: #c4286b;
     font-family: Sans-Serif;
 }
 
