@@ -14,15 +14,13 @@ author-meta: "Department of Social Medicine and Public Health, Kostadin Kostadin
 date-meta: 2025-11-09
 ---
 
-# International collaboration in healthcare. WHO. Programs and priorities
-
-## Introduction
+# Introduction
 
 The World Health Organization stands as the preeminent international institution dedicated to the advancement of health and wellbeing for all humanity. Established in the aftermath of the Second World War during a period of unprecedented international cooperation and institution-building, the WHO emerged from a recognition that health challenges transcend national boundaries and that coordinated global action remains essential for addressing the fundamental determinants of disease and promoting universal health security. Since its inception, the organization has evolved from a modest coordinating body into a complex multilateral institution that shapes health policy, coordinates responses to disease outbreaks, establishes normative standards, and provides technical assistance to nations across all stages of economic development.
 
 Understanding the WHO's role in contemporary global health requires examination of its historical foundations, organizational architecture, programmatic initiatives, and the evolving challenges it faces in an increasingly interconnected yet politically fragmented world. The organization operates at the intersection of scientific expertise, diplomatic negotiation, and practical implementation, attempting to balance the sometimes competing demands of sovereign nations while pursuing the universal goal of health for all people. This article explores the multifaceted nature of the WHO, examining how its structure enables its functions, how its programs address both communicable and noncommunicable diseases, and how it has adapted to meet emerging health challenges in the twenty-first century.
 
-## Historical Foundations and Development
+# Historical Foundations and Development
 
 The origins of international health cooperation predate the WHO by more than a century. The first **International Sanitary Conference convened in Paris in 1851**, bringing together twelve European nations to address cholera epidemics that repeatedly swept across continents through expanding trade routes. These early conferences, though often hampered by competing national interests and limited scientific understanding of disease transmission, established the principle that epidemic diseases required coordinated international responses. The late nineteenth and early twentieth centuries witnessed the establishment of several regional and international health organizations, including the **Pan American Sanitary Bureau in 1902**, which later became the **Pan American Health Organization**, and the Office International d'Hygiène Publique established in Paris in 1907.
 
@@ -38,7 +36,7 @@ Following the smallpox success, the WHO launched the Expanded Programme on Immun
 
 The late twentieth and early twenty-first centuries brought new challenges that tested and reshaped the WHO. The 2003 SARS outbreak demonstrated the speed with which infectious diseases could spread through air travel and the importance of transparent reporting and international cooperation in outbreak control. This experience led to revision of the International Health Regulations, which entered into force in 2005, creating binding obligations for countries to detect, assess, report, and respond to public health emergencies. The 2009 H1N1 influenza pandemic further highlighted challenges in pandemic preparedness and risk communication. The 2014-2016 West African Ebola epidemic, which caused over eleven thousand deaths, revealed serious deficiencies in the WHO's emergency response capacity and led to creation of the Health Emergencies Programme to consolidate the organization's outbreak response functions under unified leadership.
 
-## Organizational Structure and Governance
+# Organizational Structure and Governance
 
 The WHO's organizational architecture reflects its dual nature as both a technical agency providing scientific guidance and a diplomatic forum where member states negotiate health policy and allocate resources. The **World Health Assembly** serves as the organization's supreme decision-making body, convening annually in Geneva each May. The Assembly comprises delegations from all member states, currently numbering 194 countries, making it one of the most universal international forums. Each member state has one vote regardless of population size or financial contribution, embodying the principle of sovereign equality. The Assembly's functions include approving the organization's budget, electing the Director-General, adopting conventions and agreements, and establishing health policies. Major decisions require a two-thirds majority, while procedural matters need only simple majorities.
 
@@ -52,7 +50,7 @@ The **WHO Secretariat**, led by the Director-General, comprises the internationa
 
 Country offices represent the WHO's presence in most member states, serving as the primary interface between the organization and national health authorities. Country offices support ministries of health in developing health policies, strengthening health systems, implementing disease control programs, and responding to emergencies. The WHO Representatives who lead country offices play important diplomatic and technical roles, advising governments while ensuring that WHO programs align with country priorities and capacities. The effectiveness of country offices varies considerably depending on the country context, the skills and experience of WHO staff, and the strength of relationships with national counterparts.
 
-## Financing and Budgetary Challenges
+# Financing and Budgetary Challenges
 
 The WHO's financing structure significantly shapes its capacity to fulfill its mandate and has been subject to ongoing debate and concern. The organization's budget comprises assessed contributions from member states and voluntary contributions from member states, philanthropic foundations, and other donors. Assessed contributions are calculated based on countries' capacity to pay, similar to the United Nations regular budget. However, assessed contributions have remained essentially frozen since the early 1990s and currently represent only about twenty percent of the WHO's total budget. This means the organization depends heavily on voluntary contributions for approximately eighty percent of its funding, a situation that creates significant challenges for strategic planning and autonomy.
 
@@ -62,7 +60,7 @@ The Bill and Melinda Gates Foundation has emerged as one of the largest voluntar
 
 Budget cycles follow a biennial pattern, with the World Health Assembly approving a Programme Budget for two-year periods. The budget is divided between base programs that address the WHO's core normative and technical work and outbreak and crisis response that provides flexible resources for emergencies. Recent budgets have exceeded six billion US dollars for the biennium, though actual expenditures depend on the mobilization of voluntary contributions. Efforts to reform the WHO's financing have included proposals to gradually increase assessed contributions to provide a more stable and flexible resource base, but progress has been slow due to member state resistance to increasing their mandatory financial obligations.
 
-## Core Functions and Normative Work
+# Core Functions and Normative Work
 
 The WHO's Constitution establishes broad functions that encompass providing leadership on health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries, and monitoring health trends. These functions are operationalized through various mechanisms that generate global public goods and support country-level action.
 
@@ -76,7 +74,7 @@ The **International Health Regulations** constitute a legally binding instrument
 
 **Health statistics** and monitoring constitute essential WHO functions that enable evidence-based policy making. The organization collects, validates, and disseminates health data from countries, producing flagship publications including the World Health Statistics annual report and the Global Health Observatory data repository. The WHO also coordinates health measurement efforts such as the Global Burden of Disease estimates developed with partners, which quantify mortality and morbidity from diseases, injuries, and risk factors. These data products inform priority-setting, resource allocation, and monitoring of progress toward health goals. The WHO has worked to strengthen country capacity for health information systems through frameworks such as the Health Metrics Network and support for civil registration and vital statistics systems.
 
-## Programs Addressing Communicable Diseases
+# Programs Addressing Communicable Diseases
 
 The WHO's **communicable disease programs** reflect both historical priorities and ongoing challenges from infectious diseases that continue to cause substantial mortality and morbidity, particularly in low- and middle-income countries. The Global Polio Eradication Initiative, launched in 1988, represents one of the WHO's most ambitious disease control efforts. The initiative brought together the WHO, UNICEF, Rotary International, the US Centers for Disease Control and Prevention, and later the Bill and Melinda Gates Foundation in a partnership to eradicate polio through mass immunization campaigns supplemented by surveillance and outbreak response. The program has reduced polio cases by more than ninety-nine percent, with wild poliovirus transmission now limited to Pakistan and Afghanistan. However, final eradication has proven challenging due to insecurity in affected areas, vaccine hesitancy, and the problem of vaccine-derived poliovirus that can emerge in areas with low immunization coverage.
 
@@ -92,7 +90,7 @@ The **Global Malaria Programme** coordinates efforts against a parasitic disease
 
 **Emerging infectious diseases** and pandemic preparedness have received increased attention following SARS, H1N1 influenza, Ebola, Zika, and COVID-19. The WHO's Health Emergencies Programme, established in 2016, consolidates the organization's capacity to detect, assess, and respond to disease outbreaks and humanitarian emergencies. The program operates emergency operations centers, deploys rapid response teams, coordinates international assistance, and provides technical guidance during outbreaks. The COVID-19 pandemic, which the WHO declared a Public Health Emergency of International Concern in January 2020, tested the organization's emergency response capacity at unprecedented scale. The WHO provided technical guidance on case detection, clinical management, and infection prevention and control; coordinated research efforts; and launched the Access to COVID-19 Tools Accelerator (ACT-Accelerator) partnership to accelerate development, production, and equitable distribution of diagnostics, treatments, and vaccines.
 
-## Programs Addressing Noncommunicable Diseases
+# Programs Addressing Noncommunicable Diseases
 
 Noncommunicable diseases including cardiovascular diseases, cancers, chronic respiratory diseases, and diabetes have emerged as the leading causes of mortality globally, responsible for approximately seventy percent of deaths. The WHO's response to noncommunicable diseases evolved more slowly than its communicable disease programs, reflecting historical emphasis on infectious diseases and the perception that chronic diseases were primarily problems of wealthy countries. The political declaration on noncommunicable diseases adopted by the United Nations General Assembly in 2011 represented a turning point, recognizing that these diseases impede social and economic development and require coordinated international action.
 
@@ -104,7 +102,7 @@ The WHO's efforts to address **unhealthy diet and physical inactivity** include 
 
 **Cancer control** efforts address a group of diseases that kill approximately ten million people annually. The WHO's cancer programs promote comprehensive cancer control including prevention through reduction of risk factors such as tobacco use, vaccination against human papillomavirus and hepatitis B which cause cervical and liver cancers respectively, early detection through screening programs for cervical, breast, and colorectal cancers, treatment including surgery, chemotherapy, and radiotherapy, and palliative care for advanced disease. The organization's work on access to pain relief medications addresses the global imbalance where most controlled medicines are available in high-income countries while patients in many low- and middle-income countries lack access to essential pain control, particularly morphine for cancer pain.
 
-## Health Systems Strengthening and Universal Health Coverage
+# Health Systems Strengthening and Universal Health Coverage
 
 The WHO's work on health systems addresses the foundational structures and functions that enable delivery of health services. The health systems framework identifies six building blocks: service delivery, health workforce, health information systems, access to essential medicines, financing, and leadership and governance. Strengthening health systems requires attention to each component and their interactions, recognizing that weakness in one area can undermine overall system performance. The Alma-Ata Declaration on Primary Health Care, adopted at the International Conference on Primary Health Care in 1978, established primary health care as the key to achieving health for all. The declaration emphasized comprehensive primary health care encompassing promotive, preventive, curative, and rehabilitative services as close as possible to where people live and work, delivered through participatory approaches engaging communities in health decisions.
 
@@ -116,7 +114,7 @@ Human resources for health constitute a critical constraint for many health syst
 
 Quality of care has received increased attention as evidence accumulated that even when services are available and accessible, poor quality can prevent achievement of health outcomes. The WHO defines quality of care as health care that is effective, safe, people-centered, timely, equitable, integrated, and efficient. The organization develops technical standards and guidelines for quality improvement, supports countries in implementing quality assurance programs, and promotes patient safety initiatives addressing adverse events, medication errors, health care-associated infections, and other threats to safety.
 
-## Reproductive Maternal Newborn Child and Adolescent Health
+# Reproductive Maternal Newborn Child and Adolescent Health
 
 The WHO's programs addressing reproductive, maternal, newborn, child, and adolescent health aim to reduce preventable deaths and ensure healthy development throughout the life course. Despite substantial progress over recent decades, approximately 287,000 women still die annually from pregnancy and childbirth complications, 2.4 million newborns die in their first month of life, and 5.2 million children under age five die, with the vast majority of deaths occurring in low- and middle-income countries and being preventable with known interventions.
 
@@ -126,7 +124,7 @@ The WHO's work on sexual and reproductive health addresses family planning, mate
 
 Nutrition programs address both undernutrition including stunting, wasting, and micronutrient deficiencies, and overweight and obesity. The WHO's nutrition guidance covers infant and young child feeding including promotion of exclusive breastfeeding for the first six months of life and appropriate complementary feeding; micronutrient supplementation and food fortification; management of severe acute malnutrition; and prevention and management of overweight and obesity. The organization works with countries to develop nutrition policies and programs, improve nutrition surveillance, and strengthen capacity for nutrition action across sectors including health, agriculture, education, and social protection.
 
-## Environmental Health and Climate Change
+# Environmental Health and Climate Change
 
 Environmental health determinants significantly influence disease burdens and health inequalities. The WHO estimates that environmental risk factors contribute to approximately one quarter of the global disease burden. The organization's environmental health programs address air pollution, both outdoor air pollution from industry, transportation, and energy production, and household air pollution from use of polluting fuels for cooking and heating. Air pollution causes approximately seven million premature deaths annually through cardiovascular disease, respiratory disease, and cancer. The WHO's air quality guidelines provide evidence-based recommendations on pollutant levels to protect health and serve as reference for national standards and policy development.
 
@@ -136,7 +134,7 @@ Chemical safety programs address occupational and environmental exposure to haza
 
 Climate change poses mounting threats to health through multiple pathways including increased frequency and intensity of extreme weather events, changing patterns of vector-borne diseases as geographic ranges of mosquitoes and other vectors expand, impacts on food security and nutrition, water scarcity, and population displacement. The WHO's climate and health program aims to strengthen health sector capacity to protect populations from climate risks through climate-resilient health systems, surveillance for climate-sensitive health outcomes, promotion of mitigation measures that also improve health such as active transportation and clean energy, and incorporation of health considerations into climate change adaptation plans.
 
-## Health Security and Epidemic Preparedness
+# Health Security and Epidemic Preparedness
 
 Health security encompasses protection from acute threats to collective health whether from disease outbreaks, chemical or radiological incidents, or bioterrorism. The International Health Regulations provide the legal framework for health security, but implementation requires substantial national capacity for surveillance, laboratory confirmation, risk assessment, and response coordination. The WHO supports countries in building core capacities through the IHR Monitoring and Evaluation Framework and joint external evaluations that assess preparedness levels and identify gaps requiring investment.
 
@@ -144,7 +142,7 @@ The Research and Development Blueprint for Action to Prevent Epidemics, launched
 
 The COVID-19 pandemic revealed both strengths and weaknesses in global health security architecture. The WHO's early risk assessments, technical guidance development, and coordination of scientific research demonstrated its technical capacity and convening power. However, delays in declaring a Public Health Emergency of International Concern, variable quality of guidance on mask use and other interventions as evidence evolved, and challenges in the ACT-Accelerator particularly regarding vaccine equity attracted criticism. The pandemic exposed fundamental tensions between national sovereignty and global solidarity, with countries prioritizing domestic populations over equitable international distribution of scarce vaccines and other countermeasures. Proposals for reform include strengthening the WHO's investigative authority during disease outbreaks, creating sustainable financing for pandemic preparedness, and developing binding mechanisms to ensure equitable access to medical countermeasures during health emergencies.
 
-## Health in Humanitarian Emergencies
+# Health in Humanitarian Emergencies
 
 Armed conflicts, natural disasters, and complex emergencies create acute health needs while disrupting health systems. The WHO's Health Emergencies Programme addresses health in humanitarian crises through rapid needs assessments, coordination of health response, provision of essential medicines and supplies, disease surveillance and outbreak response, and support for restoring health services. The Health Cluster coordination mechanism brings together humanitarian organizations to ensure comprehensive health response avoiding gaps and duplication.
 
@@ -152,7 +150,7 @@ Emergencies create particular vulnerabilities for women, children, persons with 
 
 The Health Resources and Services Availability Monitoring System (HeRAMS) collects and disseminates information on health facilities and services in countries affected by emergencies, enabling response actors to identify functional health facilities, gaps in service coverage, and priority needs for health system recovery. The WHO's Emergency Medical Teams initiative establishes standards for clinical teams deployed internationally to provide surgical, trauma, and critical care during emergencies, ensuring quality and accountability of foreign medical teams.
 
-## Contemporary challenges And criticisms
+# Contemporary challenges And criticisms
 
 The WHO faces significant challenges in fulfilling its mandate in the contemporary global health landscape. Geopolitical tensions affect the organization's functioning, with member states sometimes prioritizing national interests over collective action and using the WHO as an arena for broader political conflicts. The COVID-19 pandemic intensified such tensions, with the United States temporarily withdrawing from the WHO in 2020 over allegations of Chinese influence and mishandling of the pandemic response. Although the United States rejoined in 2021, the episode highlighted the organization's vulnerability to great power politics.
 
@@ -164,7 +162,7 @@ Criticisms of the WHO's performance have come from various directions. Some argu
 
 The tension between the WHO's technical and political functions creates inherent challenges. As a technical agency, the WHO should provide objective scientific guidance based on evidence. As an intergovernmental organization, it must operate through consensus among member states with diverse perspectives and interests. When scientific evidence points toward recommendations that some member states oppose for political, economic, or cultural reasons, the WHO must navigate between scientific integrity and political feasibility. This tension appears in debates over sexual and reproductive health, harm reduction approaches to drug use, health consequences of conflict and occupation, and numerous other issues where evidence and politics may diverge.
 
-## Future Directions and Reforms
+# Future Directions and Reforms
 
 Ongoing discussions about the future of global health governance and the WHO's role within it address several key themes. Strengthening pandemic preparedness and response capacity includes proposals for a new international agreement on pandemic prevention, preparedness, and response that would establish binding commitments on surveillance, information sharing, equitable access to medical countermeasures, and financing. Negotiations on this pandemic accord have proven contentious, with divisions over intellectual property provisions, financing obligations, and the balance between national sovereignty and international solidarity.
 
@@ -176,7 +174,7 @@ The shift toward multisectoral action to address health determinants beyond the 
 
 Addressing health inequalities within and between countries remains a central challenge requiring attention to the social, economic, and political determinants that create systematic differences in health opportunities and outcomes. The WHO Commission on Social Determinants of Health documented how inequitable distribution of power, income, goods, and services shapes health and produced the 2008 report "Closing the Gap in a Generation" with recommendations for action on health equity. Implementation requires political will to address structural inequalities and power dynamics that maintain health disparities.
 
-## Conclusion
+# Conclusion
 
 The World Health Organization stands at a critical juncture after more than seventy-five years of existence. The COVID-19 pandemic simultaneously demonstrated the indispensable value of global health coordination and exposed significant limitations in the current architecture. The WHO's technical expertise, normative authority, and convening power remain essential assets for addressing health challenges that transcend borders and exceed the capacity of any single nation to solve. Yet the organization's ability to fulfill its constitutional mandate of helping all peoples attain the highest possible level of health depends on resolving fundamental tensions around financing, governance, and the balance between national sovereignty and collective action.
 
