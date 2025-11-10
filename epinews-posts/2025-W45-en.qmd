@@ -1,0 +1,221 @@
+---
+title: "Epidemiological News: Week 45, 2025"
+author: "Kostadin Kostadinov"
+date: 2025-11-10
+description: "Comprehensive weekly epidemiological update for week 45, 2025, covering global pharmaceutical developments, European vector-borne diseases including chikungunya and West Nile virus outbreaks, and detailed national surveillance data from Bulgaria across multiple disease categories. Includes EMA-approved veterinary medicines for avian influenza and parasitic infections, 1,150 autochthonous chikungunya cases in two European countries, and epidemiological trends in Bulgaria including sexually transmitted infections, gastrointestinal pathogens, and respiratory viruses."
+categories: 
+  - "Epidemiology"
+  - "Public Health"
+  - "Infectious Diseases"
+  - "Surveillance"
+  - "Weekly Update"
+  - "English"
+title-meta: "Epidemiological News: Week 45, 2025"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2025-11-10
+---
+
+## World: Global Health Developments
+
+### SARS-CoV-2 Variant Surveillance and Classification
+
+As of October 31, 2025, the European epidemiological landscape for SARS-CoV-2 continues to evolve with sustained circulation of multiple viral lineages. The variant classification system maintained by ECDC recognizes no current variants of concern, but continues to monitor **one variant of interest and two variants under monitoring** that collectively account for the majority of sequenced infections across reporting countries.
+
+The VOI and VUM median proportions in the EU/EEA for weeks 41-42, based on five reporting countries, demonstrate the following distribution: BA.2.86 classified as a variant of interest represents 4.4% of sequences (range: 0.0-14%; interquartile range 2.9-7.3%); NB.1.8.1 classified as a variant under monitoring accounts for 10.5% (range: 2.3-30.0%; IQR: 4.6-12.9%); and XFG, also a variant under monitoring, predominates at 85% (range: 60.0-86.5%; IQR: 82.2-86.2%).
+
+The EU/EEA population overall has accumulated significant hybrid immunity through combinations of prior infection and vaccination, conferring substantial protection against severe disease. Current circulating variants classified as VOI or VUM appear **unlikely to be associated with increases in infection severity** compared with previously circulating variants, or with significant reductions in vaccine effectiveness against severe disease. However, certain populations remain at elevated risk for severe outcomes: **older adults aged 65 years and above, individuals with underlying medical conditions that compromise immune function or cardiorespiratory capacity, and persons who have not been previously infected may still develop serious symptoms requiring hospitalization if infected**. 
+
+### Ebola Virus Disease: Democratic Republic of the Congo Outbreak Approaching Resolution
+
+The Ebola virus disease outbreak in Kasai Province, Democratic Republic of the Congo, which began in early September 2025, has entered a critical phase approaching **declaration of outbreak termination**. On October 19, 2025, the World Health Organization announced that the last Ebola patient had been discharged from treatment, initiating the 42-day countdown period for declaring the outbreak over. This countdown period represents twice the maximum incubation period for Ebola virus disease and allows public health authorities to ensure no additional transmission chains remain undetected in the community.
+
+As of November 6, 2025, no new cases have been reported since September 26, and all 1,735 of 1,787 contacts (97.3%) identified through contact tracing have completed their follow-up period with no individuals remaining under active monitoring. If no new cases are detected, the outbreak will be officially declared over in early December 2025, marking the resolution of what became the sixteenth documented Ebola outbreak in DRC since the virus was first identified in 1976.
+
+Since the outbreak declaration on September 4, 2025, there have been 64 total cases (53 confirmed through laboratory testing and 11 probable based on clinical and epidemiological criteria) and 45 deaths (34 among confirmed cases and 11 among probable cases), yielding an overall case fatality rate of 70.3%. All cases were reported from six health areas within Bulape health zone, with geographic clustering suggesting the outbreak originated from a single zoonotic spillover event followed by human-to-human transmission chains.
+
+The outbreak response has been comprehensive, incorporating multiple interventions including rapid case detection and isolation, meticulous contact tracing, ring vaccination using the rVSV-ZEBOV vaccine (with 37,178 people vaccinated as of November 6), and treatment of patients with monoclonal antibody therapy (31 patients received mAb114). The geographic concentration of cases in a single health zone, combined with aggressive public health interventions, appears to have successfully interrupted transmission chains before wider geographic spread could occur.
+
+### Cholera: Global Outbreak Monitoring and Burden Assessment
+
+The global cholera situation in 2025 continues to reflect significant disease burden across multiple continents, with substantial case numbers and mortality reported from endemic regions and areas experiencing humanitarian crises. Since January 1, 2025, and as of October 29, 2025, a total of 562,449 cholera cases including 7,201 deaths have been reported worldwide, representing a concerning increase compared to the 462,096 cases and 3,434 deaths reported during the equivalent period in 2024.
+
+Since May 2, 2025, and as of October 29, 2025, there have been 450,783 new cholera cases including 5,642 new deaths reported globally. The five countries reporting the highest numbers of new cases during this period are Afghanistan (123,416 cases), Yemen (74,452 cases), Sudan (62,315 cases), South Sudan (53,602 cases), and Democratic Republic of the Congo (46,832 cases). These countries collectively account for the majority of global cholera burden and share common characteristics including ongoing armed conflict, displacement of populations, disruption of water and sanitation infrastructure, and challenges in healthcare access.
+
+The five countries reporting the most new deaths are Sudan (1,749 deaths), Democratic Republic of the Congo (1,507 deaths), South Sudan (862 deaths), Nigeria (468 deaths), and Angola (344 deaths). The disproportionate mortality in these settings reflects both the large case numbers and challenges in providing timely rehydration therapy, which is the cornerstone of cholera case management. In settings with functioning health systems and adequate supplies of oral and intravenous rehydration solutions, cholera case fatality rates can be reduced to less than 1%, but in complex humanitarian emergencies with limited healthcare infrastructure, case fatality rates often exceed 2-5%.
+
+In 2025, cholera cases have been reported from countries across Africa, Asia, the Middle East, and the Americas, demonstrating the continued global distribution of this disease. The concentration of cases in countries experiencing armed conflict, population displacement, and water infrastructure disruption highlights the complex intersection of infectious disease transmission, humanitarian emergencies, and climate phenomena. Many of the most severely affected countries have experienced flooding events that contaminate water supplies while simultaneously displacing populations into crowded settings with inadequate sanitation.
+
+### Dengue and Arboviral Diseases: Global Surveillance
+
+Dengue surveillance in Europe during week 45 shows that locally acquired transmission has essentially concluded for the 2025 season. Since the beginning of 2025, and as of November 5, 2025,**three countries in Europe have reported autochthonous dengue cases: France (29 cases), Italy (four cases), and Portugal (two cases)**. During week 45 specifically, no new cases of dengue were reported to ECDC, and all previously identified clusters have been closed, suggesting that declining temperatures and reduced mosquito activity have effectively terminated local transmission for this season.
+
+The presence of autochthonous dengue transmission in three European countries represents a significant epidemiological development, as historically dengue in Europe was exclusively associated with travel-related importation from endemic regions in tropical and subtropical areas. The establishment of local transmission demonstrates that all necessary components for sustained arboviral transmission have aligned in certain European locales: populations of competent mosquito vectors (primarily *Aedes albopictus*), suitable climatic conditions for viral replication and transmission during warm months, and sufficient numbers of susceptible hosts.
+
+### Rift Valley Fever: Emerging Outbreak in Western Africa
+
+An emerging outbreak of Rift Valley fever in Western Africa represents a significant public health development requiring enhanced surveillance and response efforts. Since September 21, 2025, Senegal has reported 397 human cases including 29 deaths (case fatality rate: 7.3%). The eight affected regions are Saint-Louis (304 cases), Louga (18), Matam (27), Fatick (18), Dakar (9), Kaolack (14), Thiès (2), Tambacounda (3), and Kèdougou (2). Most cases have occurred in males, with the most affected age group being individuals 15-35 years old. Animal surveillance has identified 160 cases among livestock with no deaths but 640 animal abortions, and 11,644 animals have been vaccinated.
+
+Since September 27, 2025, Mauritania has reported 46 human cases including 14 deaths (case fatality rate: 30.4%). The 13 affected regions are concentrated in the south near the Senegal border, three of which share international borders: Assaba (bordering Mali), Brakna, and Trarza (both bordering Senegal along the Senegal River). Animal surveillance has documented 235 confirmed cases and 71 deaths among livestock since September 15.
+
+On November 5, 2025, media sources citing health officials reported the first human case of Rift Valley fever in Gambia, in the Senegalese border village of Ker Ayib. Animal surveillance on October 28 identified four cases in livestock in Gambia. The cases in all three countries are primarily located around the Senegal River delta and valley, and early autumn months are considered a high-risk period for RVF in the region.
+
+Genomic analysis suggests that the current outbreak in Senegal is linked to previous detections in Senegal (Fatick in 2020 and Matam in 2022) and in Mauritania (2020), indicating that the virus has been circulating in the region with periodic emergence into epidemic transmission. All three countries have reported outbreaks among livestock animals, which serve as amplifying hosts for the virus. To date, no human-to-human transmission of RVF has been documented, with all human infections resulting from direct or indirect contact with infected animal tissues or fluids, or from bites by infected mosquito vectors.
+
+## Europe: Regional Infectious Disease Surveillance
+
+### Medical Products and Disease Updates
+
+During week 45, the European Medicines Agency continued its regulatory activities to ensure safe and effective therapeutic options across both human and veterinary medicine sectors. While no new opinions for human medicinal products were publicly reported during this specific week, ongoing pharmacovigilance activities and post-marketing surveillance continued for previously authorized medicines. The Committee for Medicinal Products for Veterinary Use was notably active, adopting several important opinions that will enhance disease prevention and control capabilities in animal populations, which indirectly supports public health through reduction of zoonotic disease risks and protection of food-producing animals.
+
+### Veterinary Pharmaceutical Developments and Regulatory Actions
+
+The Committee for Medicinal Products for Veterinary Use concluded its meeting for week 45 of 2025 with several significant regulatory decisions that will impact veterinary medical practice across Europe. The committee adopted positive opinions for multiple new products and variations to existing products that address important veterinary health needs.
+
+The committee adopted a positive opinion, in exceptional circumstances, for a marketing authorization for **Vaxxinact H5**, an avian influenza vaccine utilizing subunit recombinant technology. This vaccine is intended for prevention and control of highly pathogenic avian influenza serotype 5, including the currently circulating clade 2.3.4.4b. The specific indications include: active immunization to prevent mortality, clinical signs, and to reduce viral excretion in chickens and mulard ducks; to reduce mortality, clinical signs and viral excretion in muscovy ducks and turkeys; and to reduce viral excretion in pekin ducks. This approval represents an important tool for controlling avian influenza in poultry operations, as highly pathogenic avian influenza continues to cause periodic outbreaks with significant economic impact and zoonotic potential.
+
+The committee adopted a positive opinion for a marketing authorization for **Ecovaxxin MS**, a *Mycoplasma synoviae* vaccine for active immunization of future layer and future breeder chickens from 4 weeks of age. This vaccine is indicated to reduce air sac lesions, foot pad lesions (synovitis), ovarian regressions, and egg production losses caused by *Mycoplasma synoviae* infections. *Mycoplasma synoviae* is an important poultry pathogen that causes significant economic losses through reduced egg production and condemnation of affected carcasses.
+
+The committee adopted a positive opinion for a variation for **Frontpro (afoxolaner)** concerning changes to therapeutic indications, including: addition of treatment of tick infestation with *Hyalomma marginatum*, reduction of the risk of infection with *Dipylidium caninum* via transmission by *Ctenocephalides felis* (cat flee) for 30 days, and reduction of the risk of infection with *Babesia canis canis* via transmission by *Dermacentor reticulatus* for 28 days. These expanded indications reflect growing recognition of the importance of ectoparasite control not only for comfort and dermatological health but also for prevention of vector-borne pathogen transmission.
+
+The committee adopted a positive opinion for a variation following a work-sharing procedure for Credelio (lotilaner), Lotimax (lotilaner), and Credelio Plus (lotilaner/milbemycin oxime) concerning changes to therapeutic indications in dogs. The expanded indications include treatment of sarcoptic mange (*Sarcoptes scabiei* var. *canis*) and reduction of the risk of infection with *Babesia canis canis* via transmission by *Dermacentor reticulatus* for one month.
+
+The committee also adopted positive opinions for variations to several other products including Mhyosphere PCV ID (introducing manufacturing changes and upgrading 'Elevated body temperature' from common to very common adverse events), Librela (bedinvetmab) (implementing signal management outcomes to include additional adverse events and extending shelf-life from 2 to 3 years), and multiple quality-related manufacturing changes for other veterinary medicinal products.
+
+### Respiratory Virus Epidemiology: Early Winter Season Developments
+
+Respiratory virus surveillance across the EU/EEA during week 45 demonstrates expected early winter season patterns with gradually increasing activity for multiple respiratory pathogens. The number of patients visiting primary care with symptoms of respiratory illness remains at low overall levels but has begun increasing in most countries, consistent with typical seasonal patterns for this time of year. Similar increases have not yet been observed in patients admitted to hospital with respiratory illness, suggesting that current community transmission has not yet translated into severe disease requiring hospitalization at elevated levels.
+
+Influenza circulation remains at low levels overall but is beginning to increase in some countries, following typical seasonal patterns. Respiratory syncytial virus circulation similarly remains low but shows early signs of increasing activity. SARS-CoV-2 circulation continues to be widespread but is decreasing overall, following a trend similar to patterns observed at this time during the previous season. The co-circulation of these three major respiratory viruses at varying levels of activity requires continued vigilance, as simultaneous high-level circulation could stress healthcare systems during winter months.
+
+In terms of virological surveillance in primary care settings during week 44, 105 influenza detections were made, with influenza A accounting for 103 cases (99%), predominantly split between A(H1N1)pdm09 (36 cases, 41%) and A(H3) (51 cases, 59%), with 16 influenza A cases not subtyped. Only one influenza B detection was reported. RSV detections totaled 18 cases, with RSV-B (6 cases, 67%) being more common than RSV-A (3 cases, 33%), and 9 RSV detections not typed. SARS-CoV-2 detections totaled 123 cases.
+
+For the cumulative period from week 40 to week 44, there were 397 influenza detections (377 influenza A accounting for 98% and 8 influenza B), 68 RSV detections, and 1,322 SARS-CoV-2 detections from primary care sentinel surveillance. In hospital SARI (severe acute respiratory infection) surveillance during week 44, there were 53 influenza detections (all influenza A), 20 RSV detections, and 62 SARS-CoV-2 detections.
+
+The age distribution of RSV cases shows primary impact in children aged below five years, while influenza circulation is primarily observed in children aged below 15 years. This age-specific pattern is consistent with typical seasonal respiratory virus epidemiology, with RSV particularly affecting infants and young children who lack prior immunity, while influenza affects broader pediatric age groups.
+
+### Chikungunya Virus Disease: Continued Autochthonous Transmission
+
+Autochthonous transmission of chikungunya continues to be documented in Southern Europe, marking an important epidemiological development for this arboviral disease. Since the beginning of 2025, and as of November 5, 2025, two countries have reported locally acquired cases: France (776 cases across 77 clusters, with 18 clusters currently active) and Italy (374 cases across six clusters, with three clusters currently active).
+
+During week 45 specifically, France reported eight new locally acquired cases and Italy reported four new cases. In the previous week (week 44), France had reported 13 new cases and Italy had reported one new case. The largest active cluster in France is located in Antibes, while Italy's largest cluster encompasses multiple municipalities: Carpi, San Prospero, Soliera, Novellara, Cavezzo, Modena, Nonantola, Correggio, Novi di Modena, and Cesenatico.
+
+The sustained transmission of chikungunya, a disease traditionally associated with tropical and subtropical regions of Africa, Asia, and the Indian Ocean islands, signals the expanding geographic range of competent vectors and the adaptation of arboviral transmission to European climatic conditions. The primary vector responsible for European transmission is *Aedes albopictus*, commonly known as the Asian tiger mosquito. This highly adaptive mosquito species has successfully colonized much of Southern Europe over the past two decades, taking advantage of international trade and travel to establish populations far from its native Southeast Asian range.
+
+Unlike *Culex* mosquitoes that transmit West Nile virus, *Aedes albopictus* feeds during daytime hours, with peak biting activity during early morning and late afternoon hours. The chikungunya virus is transmitted directly from human to mosquito to human, without requiring avian or animal reservoir hosts. When a mosquito bites an infected person during the viremic phase of illness, typically during the first week of symptoms, it may acquire the virus and subsequently transmit it to other humans. This direct human-to-human transmission cycle via mosquito vectors allows for rapid amplification of cases in areas with high densities of competent mosquitoes and susceptible human populations.
+
+The disease manifests with sudden onset of high fever and severe joint pain, often so debilitating that patients have difficulty walking. The name "chikungunya" derives from a Kimakonde word meaning "to become contorted," referring to the stooped posture of patients suffering from severe arthralgia. While rarely fatal, the joint pain can persist for months or even years in some patients, causing significant morbidity and reduced quality of life.
+
+The establishment of autochthonous transmission in France and Italy represents a sentinel event in European infectious disease epidemiology. Previously, chikungunya cases in Europe were exclusively travel-associated, with patients having acquired infection during visits to endemic areas. The documentation of local transmission indicates that all three necessary components for sustained arboviral disease have aligned: competent vector populations, suitable climatic conditions for viral replication and transmission, and sufficient numbers of susceptible hosts.
+
+### West Nile Virus: End-of-Season European Surveillance
+
+During week 45, transmission activity appears to be **declining consistent with seasonal expectations**, though final case counts for the week were not specified in the surveillance summary. The extended transmission season, with cases continuing to be documented into early November, likely reflects warmer autumn temperatures that prolong mosquito survival and activity beyond historical seasonal patterns, combined with changes in precipitation patterns that create more persistent breeding sites.
+
+## Bulgaria: National Surveillance and Disease Trends
+
+### Proposed Health Legislation Under Public Consultation
+
+During week 45, the Ministry of Health released several significant regulatory proposals for public consultation, reflecting ongoing efforts to modernize and strengthen Bulgaria's healthcare infrastructure and disease surveillance systems.
+
+**Medical Standard for Forensic Medicine and Deontology**
+
+A comprehensive draft regulation establishing medical standards for forensic medicine practice was released for public consultation from November 7 to December 8, 2025. This regulation defines forensic medicine as an interdisciplinary specialty that develops theoretically and applies practically medical knowledge and methods specific to forensic medicine, as well as those from all medical specialties, in order to answer questions arising in the process of justice administration and deontological questions in medicine.
+
+The standard establishes requirements for facilities conducting forensic medical activities across three levels: specialized outpatient care, secondary-level hospital structures, and tertiary-level facilities offering advanced capabilities including DNA analysis (profiling), chemical/toxicological investigations, forensic medical imaging diagnostics, entomological investigations, and forensic anthropological investigations. The regulation specifies minimum requirements for equipment, personnel, and quality standards for forensic medical examinations of living persons, document reviews, autopsy procedures, and specialized laboratory investigations.
+
+**Amendments to Immunization Regulation**
+
+A draft regulation amending the Immunization Regulation No. 15 from 2005 was released for public consultation from November 7 to December 8, 2025. The proposed amendments introduce several significant changes to Bulgaria's mandatory immunization schedule:
+
+**Addition of varicella (chickenpox) to mandatory childhood immunizations, with one dose at 12-15 months of age and a second dose at 4 years of age**. This addition addresses varicella as a common childhood illness that, while typically mild, can cause serious complications in immunocompromised individuals, pregnant women, and occasionally in healthy adults.
+
+Introduction of **respiratory syncytial virus (RSV) immunization for pregnant women during gestational weeks 24-36**. This represents an important advance in maternal immunization strategies, as RSV is the leading cause of hospitalization for respiratory illness in infants, and maternal antibodies transferred during late pregnancy can provide protection to newborns during their most vulnerable first months of life.
+
+Modifications to the **pertussis (whooping cough) immunization schedule for children born to mothers vaccinated during pregnancy, with immunization starting at 2 months of age rather than 6 weeks**. This adjustment recognizes that infants of vaccinated mothers may have maternal antibodies that alter optimal vaccine timing.
+
+Updates to pneumococcal vaccine schedules for children of vaccinated mothers, with immunization beginning at 2 months of age. The regulation specifies that subsequent immunizations should occur no earlier than 8 weeks after the first dose.
+
+**Amendments to Water Quality Regulation**
+
+A draft regulation amending Water Quality Regulation No. 9 from 2001 was released for consultation. The proposed changes aim to strengthen requirements for protecting drinking water sources and align Bulgarian legislation with EU directives on water quality. Amendments include enhanced protection requirements for water catchment areas, updated monitoring requirements, and provisions for addressing emerging contaminants.
+
+**Amendment to Regulation on Classification Systems for Diseases and Medical Procedures**
+
+A proposal to amend Regulation No. 42 from 2004 on introducing classification statistical systems for coding diseases, health-related problems, and medical procedures was released for consultation from November 7 to December 8, 2025. The amendments aim to update the scope of approved disease codes according to the International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10), reflecting normative changes and ensuring that Bulgaria's disease classification system remains current with international standards.
+
+**Medical Standard for Child Psychiatry**
+
+A draft regulation establishing a medical standard for child psychiatry was released for consultation from November 5 to December 5, 2025. This represents the first standalone standard specifically for child psychiatry as an independent medical specialty, as previous relevant provisions were contained within the general psychiatry standard but were insufficient for the specific clinical needs of pediatric psychiatric practice. Bulgaria currently has approximately 33 physicians with recognized specialty in child psychiatry, with the majority (about 16) working in Sofia and the remainder distributed across other major regional cities including Varna, Burgas, Plovdiv, Pleven, Ruse, Targovishte, Razlog, Kyustendil, and Lovech.
+
+### Communicable Disease Surveillance: Week 45 Detailed Analysis
+
+The National Centre of Infectious and Parasitic Diseases reported comprehensive surveillance data for week 45, covering November 3-9, 2025. The surveillance system captured data across multiple disease categories, reflecting Bulgaria's ongoing commitment to comprehensive infectious disease monitoring.
+
+**Varicella (Chickenpox)**
+
+During week 45, Bulgaria registered 337 cases of varicella, representing an increase of 25 cases from the previous week. By case classification, 38 cases were classified as possible, 255 as probable, and 44 as confirmed. Since the beginning of 2025, a total of 18,118 varicella cases have been registered nationally, representing a decrease of 4,710 cases compared to the 22,828 cases documented during the equivalent period in 2024. This substantial year-over-year decrease reflects the cyclical nature of varicella epidemiology, with the disease exhibiting multi-year patterns of higher and lower transmission intensity.
+
+The proposed addition of varicella vaccine to Bulgaria's mandatory immunization schedule, currently under public consultation, would significantly alter the epidemiological landscape of this common childhood disease. Varicella, while typically self-limiting in healthy children, can cause serious complications including bacterial superinfection of skin lesions, pneumonia, cerebellar ataxia, and encephalitis. The disease poses particular risks to immunocompromised individuals, pregnant women, and occasionally to healthy adults who may develop more severe manifestations than children.
+
+**Gastrointestinal and Foodborne Infections**
+
+Gastrointestinal infections represented a substantial portion of infectious disease surveillance during week 45. A total of 165 cases of gastroenteritis and enterocolitis were registered, representing a decrease of 13 cases from the previous week. Case classification showed 60 possible cases, 99 probable cases, and 6 confirmed cases. Since the beginning of 2025, Bulgaria has registered 8,359 such cases, representing a decrease of 509 cases compared to the 8,868 cases documented during 2024.
+
+Salmonellosis showed lower activity during week 45, with 6 confirmed cases reported, representing a decrease of 9 cases from the previous week. All reported cases were confirmed through laboratory testing. The cumulative total from the beginning of the year reached 618 cases, representing a substantial decrease of 247 cases compared to the 865 cases reported during the equivalent period in 2024. Salmonellosis typically results from consumption of contaminated poultry products, eggs, or vegetables, with symptoms including diarrhea, fever, and abdominal cramps developing 12 to 72 hours after exposure.
+
+Campylobacteriosis demonstrated sustained activity with 9 confirmed cases reported during week 45, representing a decrease of 5 cases from the previous week. The year-to-date total of 407 cases represents a notable increase of 120 cases compared to the 287 cases documented during 2024. *Campylobacter* species, particularly *Campylobacter jejuni*, represent the most common bacterial cause of gastroenteritis globally and are typically acquired through consumption of undercooked poultry, unpasteurized milk, or contaminated water.
+
+One case of yersiniosis was confirmed during week 45, increasing by 1 case from the previous week. The annual total of 14 cases represents a decrease of 3 cases compared to 17 cases in 2024. Yersiniosis caused by *Yersinia enterocolitica* typically manifests as acute diarrhea, fever, and abdominal pain that may mimic appendicitis, particularly in children.
+
+Eight cases of *E. coli* enteritis were confirmed during week 45, increasing by 3 cases from the previous week. The year-to-date total of 283 cases represents a decrease of 32 cases compared to 315 cases in 2024. No cases of Shiga toxin-producing *E. coli* (STEC/VTEC) were reported, though surveillance for these potentially severe infections continues.
+
+Rotaviral gastroenteritis, which predominantly affects pediatric populations, showed 8 confirmed cases during week 45, representing a decrease of 3 cases from the previous week. The annual total of 649 cases remains relatively stable compared to 675 cases in 2024. Rotavirus remains a leading cause of severe dehydrating diarrhea in young children despite vaccine availability, with transmission occurring through the fecal-oral route in settings where young children congregate.
+
+One case of dysentery (shigellosis) was confirmed during week 45, increasing by 1 case from the previous week. The cumulative total of 51 cases represents a decrease of 23 cases compared to 74 cases in 2024. Shigellosis typically causes severe dysentery with bloody diarrhea, fever, and abdominal cramps, and is highly transmissible in settings with inadequate sanitation.
+
+**Scarlet Fever and Streptococcal Infections**
+
+Scarlet fever activity continued during week 45 with 50 reported cases (18 possible, 20 probable, and 12 confirmed), representing a decrease of 3 cases from the previous week. The year-to-date total of 2,976 cases represents a substantial decrease of 4,743 cases compared to the 7,719 cases documented during 2024. Scarlet fever is caused by group A streptococci producing erythrogenic toxins and manifests with fever, pharyngitis, and a characteristic sandpaper-like rash. The decline may reflect natural cyclical variations in streptococcal disease activity or changes in diagnostic practices.
+
+**Tick-Borne Diseases**
+
+Lyme borreliosis continued to be documented, with 5 confirmed cases reported during week 45, representing a decrease of 2 cases from the previous week. The year-to-date total of 363 cases represents a modest increase of 4 cases compared to 359 cases during 2024. This stable endemic transmission of *Borrelia burgdorferi* sensu lato through *Ixodes* tick vectors is expected given Bulgaria's geographic and climatic characteristics. Lyme disease typically manifests initially with the characteristic erythema migrans rash at the site of tick attachment, potentially followed by disseminated infection affecting the nervous system, heart, or joints if untreated.
+
+
+**Respiratory Infections and Invasive Bacterial Diseases**
+
+COVID-19 surveillance continued in Bulgaria, with 162 confirmed cases reported during week 45, representing a decrease of 66 cases from the previous week. The year-to-date total of 2,653 cases reflects a dramatic decrease of 11,938 cases compared to the 14,591 cases documented during the equivalent period in 2024. This decline aligns with global trends showing decreasing COVID-19 incidence as population immunity from vaccination and prior infection accumulates.
+
+One case of pertussis (whooping cough) was confirmed during week 45, increasing by 1 case from the previous week. The annual total of 83 cases represents a dramatic decrease of 2,589 cases from the 2,672 cases during 2024, likely reflecting the cyclical nature of pertussis epidemiology, with epidemic peaks occurring every three to five years followed by inter-epidemic periods of low transmission.
+
+One case of meningococcal infection was confirmed during week 45, increasing by 1 case from the previous week. The year-to-date total of 14 cases represents an increase of 8 cases from the 6 cases during 2024, requiring continued vigilance for this potentially rapidly fatal infection.
+
+One case of listeriosis was confirmed during week 45, increasing by 1 case from the previous week. The annual total of 5 cases represents a decrease of 7 cases from the 12 cases during 2024. Listeriosis, caused by *Listeria monocytogenes*, primarily affects pregnant women, newborns, elderly individuals, and immunocompromised persons, and can cause severe illness including meningitis and septicemia.
+
+Four cases of viral meningitis and meningoencephalitis were reported during week 45 (2 probable and 2 confirmed), increasing by 4 cases from the previous week. The year-to-date total of 80 cases represents an increase of 5 cases compared to 75 cases during 2024.
+
+No cases of legionnaires' disease were reported during week 45, following one case the previous week. The annual total of 11 cases represents a slight increase from 10 cases during 2024. Legionnaires' disease results from inhalation of water aerosols contaminated with *Legionella pneumophila* and manifests as severe pneumonia that can be fatal without appropriate antibiotic therapy.
+
+**Viral Hepatitis**
+
+Acute viral hepatitis demonstrated elevated activity during week 45, with 42 reported cases (5 possible, 3 probable, and 34 confirmed), representing a decrease of 2 cases from the previous week. The year-to-date total of 1,278 cases represents a substantial increase of 678 cases compared to the 600 cases documented during 2024. This significant increase requires detailed investigation to determine whether it reflects heightened transmission of specific hepatitis viruses, changes in diagnostic practices with increased testing, or reporting artifacts.
+
+**Sexually Transmitted Infections**
+
+Sexually transmitted infections continue to represent an important public health concern in Bulgaria, with ongoing transmission of multiple pathogens documented through surveillance systems. During week 45, 8 confirmed HIV infections were reported, representing a decrease of 2 cases from the previous week. The year-to-date total of 267 cases represents an increase of 24 cases compared to the 243 cases during 2024. This upward trend in HIV diagnoses may reflect increased transmission, improved case detection through expanded testing initiatives, or delayed diagnoses of infections acquired in previous years.
+
+Syphilis surveillance documented 5 confirmed cases during week 45, representing a decrease of 1 case from the previous week. The year-to-date total of 309 cases compares to 289 cases during 2024. Of particular concern is the documentation of 33 cases of congenital syphilis during 2025, a dramatic increase from the 12 cases during 2024. Congenital syphilis results from maternal-fetal transmission during pregnancy and can cause severe fetal and neonatal complications including stillbirth, neonatal death, and serious long-term sequelae among survivors. The substantial increase in congenital syphilis cases suggests gaps in prenatal screening and treatment programs that require urgent public health attention.
+
+Urogenital chlamydial infection showed 6 confirmed cases during week 45, representing a decrease of 1 case from the previous week. The year-to-date total of 167 cases represents a substantial increase from the 94 cases during 2024. *Chlamydia trachomatis* is the most commonly reported bacterial sexually transmitted infection and can cause cervicitis, urethritis, and pelvic inflammatory disease if untreated, with potential complications including ectopic pregnancy and infertility.
+
+Gonorrhea surveillance documented 2 confirmed cases during week 45, representing a decrease of 1 case from the previous week. The year-to-date total of 105 cases compares to 83 cases during 2024. The increasing trend in gonorrhea cases parallels global patterns and raises concerns regarding antimicrobial resistance in *Neisseria gonorrhoeae*, which has developed resistance to multiple classes of antibiotics historically used for treatment.
+
+## Data Sources
+
+The epidemiological data and regulatory information presented in this report are synthesized from multiple authoritative sources across international, European, and national surveillance networks. Primary infectious disease surveillance data are obtained from the European Centre for Disease Prevention and Control's weekly surveillance reports, which aggregate case reports from national public health institutes across Member States according to standardized European case definitions. The European Food Safety Authority contributes specialized vector-borne disease surveillance data, with particular emphasis on the intersection of animal health, environmental factors, and human disease risk through integrated One Health surveillance frameworks.
+
+Bulgarian national surveillance data are provided by the National Centre of Infectious and Parasitic Diseases, accessible at ncipd.org, which manages the comprehensive communicable disease surveillance system for the country. NCIPD collects, analyzes, and disseminates epidemiological information on all reportable infectious diseases in Bulgaria, providing weekly operational analyses that inform public health decision-making at national and regional levels. All Bulgarian case data represent confirmed, probable, or possible cases according to national case definitions that are aligned with European Union standards for cross-border disease surveillance and reporting.
+
+Veterinary pharmaceutical regulatory information derives from the meeting outcomes of the European Medicines Agency's Committee for Medicinal Products for Veterinary Use, accessible at ema.europa.eu, which provides authoritative information on medicinal product approvals, indication expansions, and regulatory decisions affecting therapeutic options across the European Economic Area.
+
+For detailed case definitions, specific outbreak investigations, regional risk assessments, and clinical management guidance, healthcare providers and public health professionals should consult the ECDC website at ecdc.europa.eu, the EFSA website at efsa.europa.eu, the EMA website at ema.europa.eu, and the Bulgarian NCIPD website at ncipd.org, where regularly updated technical documents, surveillance reports, and guidance materials are publicly available. National health authorities in individual countries may provide additional country-specific guidance, reporting requirements, and clinical protocols that complement European-level recommendations.
