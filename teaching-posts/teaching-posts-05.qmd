@@ -37,7 +37,9 @@ While the obligation to confidentiality corresponds to the right of a patient to
 
 # Informed consent
 
-Decisions about medical treatment are ideally made following discussion, with the doctor’s clinical expertise and the patient’s individual needs and preferences being shared in order to select the best treatment option. The patient’s consent is then the **trigger that allows treatment or examination to take place**. Seeking consent from patients therefore forms a crucial part of the practice of almost every doctor. It is central to the partnership between doctor and patient, with each having a role in decisions about treatment or care. Patients should be listened to and their views respected in the course of discussion. This should involve the sharing of information required by patients in order for them to reach decisions for themselves. Consent is also the cornerstone in good medical practice.
+Informed consent is an **ethical and legal process** in which a patient authorizes or refuses a specific intervention after receiving adequate information, demonstrating comprehension, and making a voluntary choice, free from coercion or undue influence. The American Medical Association (AMA) and the American College of Radiology (ACR) emphasize that informed consent is essential to respect patient autonomy and self-determination.
+
+Decisions about medical treatment are ideally made following discussion, with the doctor's clinical expertise and the patient's individual needs and preferences being shared in order to select the best treatment option. The patient's consent is then the **trigger that allows treatment or examination to take place**. Seeking consent from patients therefore forms a crucial part of the practice of almost every doctor. It is central to the partnership between doctor and patient, with each having a role in decisions about treatment or care. Patients should be listened to and their views respected in the course of discussion. This should involve the sharing of information required by patients in order for them to reach decisions for themselves. Consent is the cornerstone in good medical practice.
 
 ## General principles
 
@@ -51,7 +53,114 @@ Decisions about medical treatment are ideally made following discussion, with th
     -  be acting voluntarily and free from undue pressure
     -  be aware that they can refuse.
 
-4. Patients may have capacity to make **some** healthcare decisions but not others. Their capacity may also **fluctuate** over time. Patients may give explicit or express consent orally, in writing or by other means of communication available to them. They may also imply consent non-verbally, for example by complying with the proposed examination or treatment. Adult patients with capacity are entitled to **refuse treatment**, even where treatment would clearly benefit them. The only exception to this rule is where the treatment is for a **mental disorder** and the patient is detained under mental health legislation.
+4. Patients may have capacity to make **some** healthcare decisions but not others. Their capacity may also **fluctuate** over time. Adult patients with capacity are entitled to **refuse treatment**, even where treatment would clearly benefit them. The only exception to this rule is where the treatment is for a **mental disorder** and the patient is detained under mental health legislation.
+
+## Types of informed consent
+
+There are **three main types of informed consent** that are used in clinical practice, each appropriate for different clinical situations:
+
+1. **Explicit (written) consent** — Typically required for invasive procedures, surgery, research participation, or interventions with significant risks. The patient provides written authorization, usually by signing a consent form. This formal documentation serves as evidence that the informed consent process has occurred.
+
+2. **Verbal (oral) consent** — Used for less risky interventions and routine procedures. While no signature is obtained, the physician must document the discussion and the patient's agreement in the medical record. This type of consent maintains the ethical principles while being more practical for lower-risk situations.
+
+3. **Implied consent** — Applies in situations where consent is inferred from the patient's actions or behavior (e.g., presenting an arm for blood pressure measurement or rolling up a sleeve for phlebotomy). Implied consent also applies in **emergency situations** when immediate intervention is necessary to prevent serious harm or death, and the patient is unable to provide explicit consent due to their medical condition.
+
+It is important to recognize that implied consent applies only to the immediate procedure being performed, and not necessarily to subsequent tests or treatments that may follow from it. Healthcare providers should remain vigilant to ensure that what appears as implied consent represents genuine agreement rather than mere acquiescence when a patient does not fully understand what the intervention entails.
+
+## Limitations and challenges of informed consent
+
+While informed consent is a cornerstone of ethical medical practice, it is important to recognize several significant limitations and challenges that can affect its implementation:
+
+### Variable patient comprehension
+
+Many patients do not fully understand the information provided during the consent process. Research has shown that consent forms are often lengthy and written at reading levels that exceed patients' comprehension abilities. This gap between the complexity of medical information and patients' health literacy can significantly undermine the validity of consent. Factors contributing to poor comprehension include:
+
+- Complex medical terminology and jargon
+- Lengthy consent documents (sometimes exceeding 20 pages)
+- High reading level requirements (often college-level, when average adults read at 7th-8th grade level)
+- Information overload, particularly when multiple risks and alternatives are presented
+- Time pressure and anxiety in clinical settings
+
+### Cultural and socioeconomic factors
+
+Cultural background and socioeconomic status can profoundly affect decision-making, understanding, and voluntariness. Patients from different cultural backgrounds may have varying expectations about medical decision-making, with some cultures preferring family-based or physician-directed decisions rather than individual autonomy. Language barriers, health literacy differences, and varying levels of trust in the healthcare system can all impact the quality of informed consent.
+
+### Therapeutic misconception
+
+In research settings particularly, but also in clinical care, patients may confuse research participation with individualized clinical treatment. This **therapeutic misconception** leads patients to believe that the primary purpose of a research study is to benefit them personally, rather than to generate generalizable knowledge. This misunderstanding can compromise the validity of consent, as patients may not accurately weigh the risks and benefits of participation.
+
+### Documentation versus genuine communication
+
+There is a risk that the informed consent process becomes overly focused on obtaining signatures on consent forms, rather than engaging in meaningful dialogue and ensuring true understanding. When consent becomes merely a bureaucratic exercise or a means of legal protection for healthcare providers, the ethical foundation of respect for patient autonomy is undermined. The emphasis should be on the **quality of communication and understanding**, not simply on obtaining a signature.
+
+### Capacity assessment challenges
+
+Assessing a patient's capacity to consent can be complex, particularly when capacity fluctuates (as in patients with delirium or dementia), when patients have partial understanding, or when cultural factors affect how decisional capacity is expressed. The assessment must be proportional to the risk of the intervention—higher-risk procedures require more stringent capacity evaluation.
+
+## Best practices for informed consent
+
+To address the limitations outlined above and ensure high-quality informed consent processes, the American Society of Pain and Neuroscience (ASPN) and the American College of Radiology (ACR) recommend the following best practices:
+
+### Use plain language
+
+Information should be presented in **plain, accessible language** rather than medical jargon. Evidence suggests that consent materials should ideally be written at a **sixth-grade reading level** to ensure comprehension by the majority of patients. This does not mean "dumbing down" the content, but rather presenting complex information clearly and concisely. Key recommendations include:
+
+- Avoid medical jargon or explain technical terms when necessary
+- Use short sentences and active voice
+- Break complex information into manageable sections
+- Define unfamiliar terms immediately when first used
+- Use bullet points and clear formatting to organize information
+
+### Incorporate multimedia tools
+
+Traditional written consent forms can be supplemented or enhanced with multimedia approaches, including:
+
+- Visual aids (diagrams, illustrations, models) to explain anatomical structures or procedures
+- Video presentations that demonstrate what the procedure involves
+- Digital interactive tools that allow patients to learn at their own pace
+- Decision aids that help patients weigh the pros and cons of different treatment options
+- Teach-back methods where patients explain the information in their own words to verify understanding
+
+### Allow adequate time for discussion
+
+The consent process should not be rushed. Patients need:
+
+- Sufficient time to absorb and process complex medical information
+- Opportunities to ask questions and seek clarification
+- Time to discuss the decision with family members or trusted advisors if desired
+- The option to return for additional discussions before making a final decision, particularly for non-urgent procedures
+
+### Tailor the process to individual needs
+
+The American College of Radiology emphasizes that informed consent should be **individualized to meet each patient's specific needs**. This includes:
+
+- Assessing the patient's baseline understanding and health literacy
+- Considering cultural and linguistic factors that may affect communication
+- Adapting the depth and detail of information to the patient's preferences and capacity
+- Providing interpreters when language barriers exist
+- Being sensitive to sensory impairments (hearing, vision) that may affect communication
+
+### Document both content and understanding
+
+While a signature on a consent form has limited value, thorough documentation remains important. Documentation should include:
+
+- The key information provided to the patient (diagnosis, proposed treatment, risks, benefits, alternatives)
+- Evidence that the patient understood the information (e.g., through teach-back or questions answered)
+- Confirmation that the patient had the opportunity to ask questions
+- Verification that the decision was made voluntarily without coercion
+- Any special circumstances (interpreter used, family members present, patient declined certain information)
+
+The emphasis should be on documenting the **quality of the communication process** and patient understanding, not merely that a form was signed.
+
+### Foster genuine dialogue
+
+Rather than a one-way transmission of information, informed consent should be a **two-way conversation** that:
+
+- Elicits patient values, preferences, and concerns
+- Responds to patient questions and addresses misunderstandings
+- Explores how the treatment aligns with patient goals
+- Respects patient autonomy while providing medical expertise
+- Creates a partnership in decision-making
 
 ## The process of seeking consent
 
