@@ -4,11 +4,6 @@ author: "Kostadin Kostadinov"
 date: 2025-11-10
 description: "Comprehensive weekly epidemiological update for week 45, 2025, covering global pharmaceutical developments, European vector-borne diseases including chikungunya and West Nile virus outbreaks, and detailed national surveillance data from Bulgaria across multiple disease categories. Includes EMA-approved veterinary medicines for avian influenza and parasitic infections, 1,150 autochthonous chikungunya cases in two European countries, and epidemiological trends in Bulgaria including sexually transmitted infections, gastrointestinal pathogens, and respiratory viruses."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
   - "English"
 title-meta: "Epidemiological News: Week 45, 2025"
 author-meta: "Kostadin Kostadinov"

@@ -4,11 +4,6 @@ author: "Kostadin Kostadinov"
 date: 2025-11-17
 description: "Week 46 of 2025 brought significant developments in infectious disease surveillance, most notably the detection of wild poliovirus type 1 in German wastewater and the continued emergence of mpox clade I transmission within European sexual networks. Bulgaria reported 1,077 cases across 28 infectious diseases, with notable increases in varicella and scarlet fever consistent with seasonal patterns. The European Medicines Agency recommended approval of ten new medicines, including groundbreaking gene therapies and first-in-class treatments. As Europe enters the respiratory virus season, influenza circulation has begun earlier than in previous years, while vector-borne disease transmission appears to be concluding for the season."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
   - "English"
 title-meta: "Epidemiological News: Week 46, 2025"
 author-meta: "Kostadin Kostadinov"

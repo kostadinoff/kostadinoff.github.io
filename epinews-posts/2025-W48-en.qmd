@@ -4,11 +4,6 @@ author: "Kostadin Kostadinov"
 date: 2025-12-01
 description: "The most consequential global development is the emergence of the first human infection with highly pathogenic avian influenza A(H5N5), confirmed in Washington State, USA, resulting in the patient's death on 21 November 2025. While the virus belongs to clade 2.3.4.4b and lacks markers of mammalian adaptation, this novel zoonotic event demands heightened vigilance, particularly given ongoing A(H5N5) circulation in wild birds across northern Europe. The first Marburg virus disease outbreak ever recorded in Ethiopia continues to evolve, with 15 cases (12 confirmed, 3 probable) and 11 deaths (case fatality rate 66.7%) reported as of 27 November, including geographic expansion to Hawassa City in Sidama Region—underscoring the outbreak's potential for wider dissemination."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
   - "English"
 title-meta: "Epidemiological News: Week 48, 2025"
 author-meta: "Kostadin Kostadinov"

@@ -4,11 +4,6 @@ author: "Kostadin Kostadinov"
 date: 2025-11-03
 description: "Comprehensive weekly epidemiological surveillance update for week 44, 2025, covering global pharmaceutical developments, European vector-borne diseases including West Nile virus and chikungunya outbreaks, and detailed Bulgarian national surveillance data across multiple disease categories. Features EMA drug approvals for bronchiectasis and immune thrombocytopenia, 989 WNV cases across 13 European countries, and Bulgaria's infectious disease trends including sexually transmitted infections, gastrointestinal pathogens, and respiratory viruses."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
   - "English"
 title-meta: "Epidemiological News: Week 44, 2025"
 author-meta: "Kostadin Kostadinov"

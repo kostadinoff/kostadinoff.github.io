@@ -4,12 +4,7 @@ author: "Костадин Костадинов"
 date: 2025-11-03
 description: "Обхватна седмична епидемиологична справка за 44-та седмица на 2025 г."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
-  - "Bulgarian"
+  - "Български"
 title-meta: "Епидемиологични Новини: Седмица 44, 2025"
 author-meta: "Костадин Костадинов"
 date-meta: 2025-11-03

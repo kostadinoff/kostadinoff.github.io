@@ -4,11 +4,6 @@ author: "Kostadin Kostadinov"
 date: 2025-11-24
 description: "Week 47 of 2025 presents a complex epidemiological landscape characterized by both familiar seasonal patterns and notable deviations requiring attention. The unusually early onset of the influenza season across Europe, driven by A(H3N2) subclade K, stands as the most immediate public health priority affecting the EU/EEA region, demanding urgent acceleration of vaccination efforts and healthcare system preparedness for potential surge in respiratory illness during coming months. Globally, the continued spillover of avian influenza viruses into human populations, exemplified by the first A(H5N5) human case and continued A(H5N1) infections, reminds us of the persistent pandemic threat posed by zoonotic influenza and the critical importance of sustained surveillance at the human-animal interface. The multi-country Rift Valley fever outbreak in West Africa and Ethiopia's first Marburg virus disease outbreak underscore the ongoing challenge of emerging and re-emerging zoonotic infections, particularly in resource-limited settings where human-wildlife interfaces, limited healthcare infrastructure, and inadequate disease surveillance create conditions favoring disease emergence and spread."
 categories: 
-  - "Epidemiology"
-  - "Public Health"
-  - "Infectious Diseases"
-  - "Surveillance"
-  - "Weekly Update"
   - "English"
 title-meta: "Epidemiological News: Week 47, 2025"
 author-meta: "Kostadin Kostadinov"
