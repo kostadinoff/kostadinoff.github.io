@@ -1,0 +1,103 @@
+---
+title: "Epidemiological News: Week 50, 2025"
+author: "Kostadin Kostadinov"
+date: 2025-12-15
+description: "Week 50 of 2025 presents an intensifying respiratory virus season requiring immediate public health attention across Europe. Influenza activity continues its unusually early surge, with widespread transmission now established in 14 of 23 reporting countries and influenza A(H3N2) subclade K driving increasing hospitalization rates, particularly among adults aged 65 years and above. This early season onset—three to four weeks ahead of the previous two years—combined with the approaching holiday period creates significant risk for healthcare system strain. The European Medicines Agency recommended seven new medicines for approval, including a conditionally approved bladder cancer treatment and a new COVID-19 mRNA vaccine, while rejecting an Alzheimer's disease treatment. In Bulgaria, Week 50 surveillance revealed a 27% week-over-week increase in scarlet fever cases and a 21% increase in gastroenteritis cases, while COVID-19 activity declined by 24% compared to the previous week. The Marburg virus disease outbreak in Ethiopia reported no new cases during Week 50, though contact tracing continues with vaccine trials now initiated. These developments demand enhanced influenza vaccination efforts, healthcare system surge preparations, and continued vigilance for imported high-consequence pathogens as the winter season intensifies."
+categories: 
+  - "English"
+title-meta: "Epidemiological News: Week 50, 2025"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2025-12-15
+---
+
+# Non-Communicable Disease & Healthcare System Developments
+
+The European Medicines Agency's December 2025 meeting yielded several clinically significant regulatory decisions that will impact patient care across the EU/EEA. The Committee for Medicinal Products for Human Use (CHMP) recommended conditional marketing authorization for ***Anktiva*** (nogapendekin alfa inbakicept) for treatment of high-risk non-muscle invasive bladder cancer, addressing a significant unmet need given that bladder cancer affects over 200,000 people annually in the European Union, with most cases being this non-muscle invasive subtype. The conditional approval pathway reflects urgent therapeutic needs while additional confirmatory data are collected.
+
+The committee recommended marketing authorization for ***Aumseqa*** (aumolertinib) for EGFR-mutated non-small cell lung cancer, ***Exdensur*** (depemokimab) for severe eosinophilic asthma and severe chronic rhinosinusitis with nasal polyps, and ***Myqorzo*** (aficamten) for obstructive hypertrophic cardiomyopathy. For COVID-19 prevention, ***Mnexspike*** (COVID-19 mRNA vaccine) received positive opinion for individuals aged 12 years and above, expanding the vaccine portfolio available during the current winter season.
+
+Two biosimilar medicines received positive opinions: ***Gotenfia*** (golimumab) for inflammatory conditions including rheumatoid arthritis and ulcerative colitis, and ***Ranluspec*** (ranibizumab) for retinopathies. Biosimilars continue to improve access to biological therapies while reducing healthcare costs.
+
+Particularly noteworthy was the extension of ***Mounjaro*** (tirzepatide) indication to include adolescents and children from 10 years of age for treatment of type 2 diabetes that is not satisfactorily controlled. This expansion addresses growing concerns about pediatric type 2 diabetes linked to rising childhood obesity rates. The committee also recommended 11 other indication extensions for previously authorized medicines.
+
+The CHMP issued a negative opinion for ***Blarcamesine Anavex*** (blarcamesine) intended for Alzheimer's disease treatment, concluding that the main study failed to demonstrate effectiveness and safety in patients with early Alzheimer's disease who do not have mutations in the SIGMAR1 gene. This decision underscores continued challenges in developing effective treatments for neurodegenerative diseases and rigorous evidence standards maintained by regulatory authorities.
+
+# Infectious Diseases: Global Perspective
+
+## Healthcare-Associated and Respiratory Transmission
+
+The Marburg virus disease outbreak in Ethiopia showed no new confirmed cases during Week 50, with the last confirmed case reported on December 5. As of December 11, the outbreak totals 16 cases (13 laboratory-confirmed and three probable) with 11 deaths, yielding a case fatality rate of 61.5%. Contact tracing continues with 349 identified contacts, of whom 119 (34.1%) have completed their 21-day monitoring period without developing illness as of November 26.
+
+A significant development during the reporting period was the December 8 initiation of vaccine trials using the cAd3-Marburg vaccine in the two affected regions (South Ethiopia Regional State and Sidama Region). According to Africa CDC briefings on December 11, 2,500 doses have been provided and are being offered to healthcare professionals and contacts of cases. The implementation of monoclonal antibody treatment for cases represents another therapeutic advancement during this outbreak. Cases have been reported in Jinka city, Omo Zone (the epicenter) and Hawassa City, Sidama Region.
+
+The Ethiopian Ministry of Health continues intensified response efforts including community-level monitoring, contact tracing, and house-to-house case finding. International partners including Africa CDC and WHO are supporting the response. The viral strain shows similarities to those previously identified in East Africa, and no cases have been detected outside Ethiopia.
+
+Middle East Respiratory Syndrome coronavirus surveillance detected two imported MERS cases in France during the reporting period, representing the first MERS cases in the EU/EEA since 2014. Both patients were part of the same travel group that visited the Arabian Peninsula. Crucially, no secondary transmission has been detected, demonstrating effectiveness of infection prevention and control measures in EU/EEA healthcare settings.
+
+## Vector-Borne Transmission
+
+West Nile virus surveillance for 2025 has concluded as environmental conditions are no longer favorable for vector activity. No new cases were reported during Week 50, with the latest date of symptom onset being October 27, 2025. Weekly surveillance reporting has been discontinued until the 2026 transmission season begins, anticipated in June or July 2026.
+
+# Infectious Diseases: European Union/European Economic Area
+
+## Respiratory and Droplet Transmission
+
+Influenza activity escalated during Week 50, with most EU/EEA countries now reporting widespread geographic spread at low-to-medium intensity. This represents the continuation of a season that began three to four weeks earlier than the previous two years, creating particular concern as peak transmission may coincide with the December holiday period when healthcare systems operate with reduced staffing and increased travel facilitates viral spread.
+
+In Week 49 (the most recent week with complete virological data), 934 influenza-positive specimens were detected in primary care settings, with influenza A accounting for 99% of detections. Among typed specimens, A(H3N2) comprised 82% (587 cases) while A(H1N1)pdm09 represented 18% (128 cases). Only one influenza B detection was reported. Hospital surveillance revealed 398 influenza-positive samples, with A(H3N2) accounting for 63% and A(H1N1)pdm09 for 37% of typed specimens.
+
+Genetic characterization from Week 40-49 shows A(H3N2) subclade 2a.3a.1(K) predominating at 91% (277 of 305 characterized viruses), with smaller proportions of subclade 2a.3a.1(J.2) at 4%. The dominance of H3N2 is concerning as H3N2-predominant seasons historically result in higher morbidity and mortality, especially among older adults. Hospitalization increases are being observed across all age groups but primarily affecting adults aged 65 years and above.
+
+The number of patients presenting to primary care with influenza-like illness or acute respiratory infection symptoms is elevated in approximately half of reporting countries. For Week 49, intensity data showed seven countries at baseline, two at low, and one at medium. Geographic spread data revealed seven countries with sporadic activity, two with regional spread, and 14 with widespread influenza transmission. Circulation is highest among children aged 5-14 years, though severe disease disproportionately affects older adults.
+
+ECDC published a Threat Assessment Brief during this period assessing the risk of influenza for the EU/EEA in the context of increasing A(H3N2) subclade K circulation. Key recommendations include vaccination of all eligible populations particularly those at high risk, appropriate use of antivirals for treatment and post-exposure prophylaxis, use of face masks in healthcare and long-term care facilities, and healthcare system preparedness including surge capacity planning. These recommendations require urgent implementation given the current epidemiological situation and approaching festive period.
+
+Respiratory syncytial virus circulation is increasing slowly from low levels, though a slight decrease was observed in Week 49. In that week, 87 RSV-positive specimens were detected in primary care (3% positivity rate) with RSV-A and RSV-B each accounting for 50% of typed specimens. Hospital data showed 88 RSV-positive samples (6.2% positivity rate) with RSV-B accounting for 62% of typed specimens. Rising RSV-related hospital admissions are occurring primarily among children under five years in a few countries. Overall RSV circulation remains below levels observed at this time in the past four seasons.
+
+SARS-CoV-2 continues to circulate but is decreasing across all age groups with currently limited impact on hospitalizations. In Week 49, 180 SARS-CoV-2-positive specimens were detected in primary care (6.2% positivity rate) and 65 positive samples in hospitals (4.5% positivity rate). Limited recent variant data shows XFG variant detected in one country (19 detections, 68% distribution) and NB.1.8.1 detected in one country (5 detections, 18% distribution).
+
+Measles surveillance for October 2025 (the most recent month with complete data) shows 83 cases reported by nine EU/EEA countries, with 19 countries reporting zero cases. This represents a decrease compared with previous months, consistent with measles seasonality.
+
+Supplementary epidemic intelligence surveillance conducted December 9-10 detected one active outbreak in Poland with 26 cases in Podkarpacie region as of December 3. Local health authorities are performing active contact tracing, offering free vaccination, and limiting hospital visitations. Several EU/EEA countries reported sporadic cases: Ireland reported three cases in Week 48, all in the Dublin and North East region, with no other cases in the preceding 12 weeks. Germany reported 11 new cases between November 13 and December 9, bringing the 2025 total to 278 cases. The Netherlands reported 12 new cases between November 5 and December 3.
+
+# Infectious Diseases: Bulgaria
+
+## Respiratory and Droplet Transmission
+
+Bulgaria's Week 50 surveillance data reveals significant respiratory disease activity. Varicella (chickenpox) cases totaled 583, representing an 18% increase from Week 49's 494 cases (89 additional cases). The geographic distribution shows highest case counts in Sofia city (113 cases), Varna (68 cases), Stara Zagora (45 cases), and Plovdiv (40 cases), reflecting typical urban concentration of this highly transmissible infection during winter months.
+
+Scarlet fever showed 102 cases in Week 50, a 27% increase from Week 49's 74 cases (28 additional cases). The most affected regions were Sofia city (22 cases), Plovdiv (19 cases), Pleven (19 cases), and Sofia district (18 cases). This increase is consistent with winter seasonal patterns for group A streptococcal infections, though notably lower than 2024 levels during the same period.
+
+Pertussis surveillance detected three confirmed cases in Week 50 compared to zero cases in Week 49, distributed in Blagoevgrad, Burgas, and Varna regions. These sporadic cases reflect endemic transmission at much lower levels than the 2024 pertussis resurgence that affected multiple European countries.
+
+COVID-19 activity declined with 54 confirmed cases in Week 50, a 24% decrease from Week 49's 71 cases (17 fewer cases). Cases were distributed across 17 regions with highest numbers in Sofia city (10 cases), Varna (6 cases), Burgas (3 cases), and Veliko Tarnovo (3 cases). This declining trend reflects continued high population immunity from vaccination and prior infection.
+
+Viral meningitis and meningoencephalitis showed four cases in Week 50, doubling from two cases in Week 49. All four cases were classified as probable based on clinical presentation. One case of bacterial meningitis and meningoencephalitis was reported from Veliko Tarnovo.
+
+## Fecal-Oral Transmission
+
+Acute viral hepatitis surveillance revealed 53 confirmed cases in Week 50, a 16% decrease from Week 49's 63 cases. The geographic distribution included Plovdiv (10 cases), Pleven (10 cases), Shumen (8 cases), Haskovo (7 cases), and Smolyan (4 cases). The continued elevated hepatitis activity compared to historical baselines warrants ongoing investigation to determine causative pathogens and transmission sources.
+
+Gastroenteritis and enterocolitis cases numbered 181 in Week 50, a 21% increase from Week 49's 149 cases (32 additional cases). The largest case numbers were reported from Plovdiv (35 cases), Sofia city (32 cases), Varna (26 cases), and Burgas (8 cases). This increase reflects typical winter gastroenteritis season onset with multiple viral and bacterial pathogens contributing to overall disease burden.
+
+Salmonellosis showed nine confirmed cases in Week 50, a decrease from 11 cases in Week 49. Cases were distributed across Burgas (2 cases), Plovdiv (1 case), Shumen (1 case), Sofia city (3 cases), Sofia district (1 case), and Yambol (1 case). The sporadic distribution suggests foodborne transmission from diverse sources rather than a common-source outbreak.
+
+Campylobacteriosis detected 10 confirmed cases in Week 50, increasing from six cases in Week 49 (67% increase). Cases were reported from Varna (2 cases), Pernik (1 case), Plovdiv (4 cases), Ruse (2 cases), and Sofia city (1 case). This increase may reflect enhanced laboratory detection or genuine increases in exposure to contaminated poultry or other sources.
+
+E. coli infections (coliform enteritis/escherichiosis) numbered 13 cases in Week 50, more than doubling from six cases in Week 49. Geographic distribution included Blagoevgrad (1 case), Burgas (1 case), Varna (1 case), Sofia city (3 cases), Plovdiv (5 cases), Ruse (1 case), and Stara Zagora (1 case). One shigellosis case was confirmed in Veliko Tarnovo, while nine rotavirus gastroenteritis cases were detected across six regions including Burgas, Varna, Gabrovo, Pernik, Plovdiv, and Sofia city.
+
+## Vector-Borne Transmission
+
+Lyme disease surveillance detected three confirmed cases in Week 50, a decrease from five cases in Week 49. Cases were reported from Varna (2 cases) and Pleven (1 case), consistent with endemic tick-borne disease transmission. One dengue case was confirmed in Week 50 (compared to zero in Week 49), likely representing a travel-associated infection given that sustained autochthonous dengue transmission has not been established in Bulgaria.
+
+**Q fever showed one confirmed case in Week 50 from Plovdiv**, compared to zero cases in Week 49. Q fever, caused by the intracellular bacterium Coxiella burnetii, is a zoonotic infection primarily transmitted through inhalation of contaminated aerosols from infected livestock, particularly sheep, goats, and cattle during parturition when the organism is shed in high concentrations in birth fluids and products. The infection can also occur through consumption of unpasteurized dairy products or direct contact with contaminated materials. In humans, Q fever presents with a wide clinical spectrum ranging from asymptomatic infection to acute disease with high fever, severe headache, myalgia, and atypical pneumonia, with chronic Q fever manifesting as endocarditis or vascular infections in approximately 1-5% of cases, particularly in individuals with pre-existing cardiac valve disease or immunocompromise. The single case detected in Plovdiv during Week 50 likely represents occupational or rural exposure to livestock, and warrants assessment of potential source farms and implementation of appropriate control measures. Bulgaria maintains endemic Q fever transmission in agricultural regions where small ruminant farming is common, and sporadic human cases occur throughout the year with some seasonal variation related to lambing and kidding seasons. No cases of other vector-borne diseases including West Nile virus, tick-borne encephalitis, or Mediterranean spotted fever were reported during Week 50.
+
+## Contact and Sexual Transmission
+
+HIV infections totaled four confirmed cases in Week 50, decreasing from seven cases in Week 49. Cases were distributed across Burgas (1 case), Veliko Tarnovo (1 case), Plovdiv (1 case), and Stara Zagora (1 case). Syphilis showed five confirmed cases in Week 50, decreasing from six cases in Week 49, with cases in Burgas (1 case), Varna (1 case), Plovdiv (1 case), Ruse (1 case), and Sofia city (1 case). No congenital or infant syphilis cases were reported during Week 50, though one case was reported in Week 49.
+
+Gonorrhea surveillance detected two confirmed cases in Week 50, stable compared to Week 49. Cases were reported from Plovdiv and Sofia city. Urogenital chlamydia infections showed zero cases in Week 50, decreasing from seven cases in Week 49. The weekly fluctuations in sexually transmitted infection detections reflect both actual transmission patterns and testing practices, though overall trends suggest ongoing transmission requiring sustained prevention efforts.
+
+## Healthcare-Associated and Other Infections
+
+One confirmed case of invasive pneumococcal disease (pneumococcal bacteremia without meningitis) was detected in Week 50 from Plovdiv, stable compared to Week 49. No cases of legionnaires' disease, tetanus, botulism, or other vaccine-preventable diseases were reported during Week 50.
