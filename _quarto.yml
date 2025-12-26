@@ -29,6 +29,8 @@ website:
         text: Teaching
       - href: epinews.qmd
         text: Epi News
+      - href: study-guide.qmd
+        text: Social medicine study guide
 
 format:
   html:

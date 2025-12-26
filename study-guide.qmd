@@ -1,0 +1,5 @@
+---
+title: "Social medicine study guide"
+---
+
+<iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px"></iframe>
