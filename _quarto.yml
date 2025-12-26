@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - SOCIAL_SEMESTER_BOOK_EN.pdf
+    - .nojekyll
 
 website:
   description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv

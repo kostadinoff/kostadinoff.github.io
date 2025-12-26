@@ -2,4 +2,7 @@
 title: "Social medicine study guide"
 ---
 
-<iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px"></iframe>
+<div class="pdf-container">
+    <p>If the PDF does not appear, you can <a href="SOCIAL_SEMESTER_BOOK_EN.pdf" target="_blank">download it here</a>.</p>
+    <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;"></iframe>
+</div>
