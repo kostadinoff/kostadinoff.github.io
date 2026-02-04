@@ -1,0 +1,167 @@
+---
+title: "Epidemiological News: Week 2, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-01-13
+description: "Week 2 of 2026 presents a concerning acceleration of enteric and respiratory infections across Bulgaria and the EU/EEA. Acute viral hepatitis cases in Bulgaria surged by 120% week-over-week and 256% compared to the same period last year, continuing the troubling hepatitis transmission trends observed since late 2025. Simultaneously, gastroenteritis cases nearly doubled nationally, with salmonellosis and campylobacteriosis showing year-to-date increases exceeding 200%. The European respiratory season maintains peak activity, with influenza A(H3N2) accounting for 76% of circulating strains and hospitalisations concentrated among adults aged 65 years and above. The Marburg virus disease outbreak in Ethiopia appears to be winding down, with no new cases reported for 21 days and contact monitoring completed. Globally, cholera continues to exact a substantial toll, with over 600,000 cases reported in 2025. Five new MERS-CoV cases emerged in Saudi Arabia, while China reported seven additional avian influenza A(H9N2) human infections. These developments demand sustained vigilance for hepatitis A transmission sources, continued respiratory illness prevention messaging, and maintained surveillance for imported high-consequence pathogens."
+categories: 
+  - "English"
+title-meta: "Epidemiological News: Week 2, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-01-13
+---
+
+## Infectious Diseases: Global Perspective
+
+### Respiratory and Droplet Transmission
+
+#### Marburg Virus Disease — Ethiopia
+
+The Marburg virus disease (MVD) outbreak in Ethiopia, first confirmed on 14 November 2025, appears to be approaching its conclusion. As of 5 January 2026, no new cases have been reported since 12 December 2025, and no contacts remain under active monitoring — a period of 21 consecutive days without identified transmission. The outbreak has now entered the final observation period; per WHO and Ethiopian guidelines, official termination will be declared 42 days after the last patient tests negative and is discharged.
+
+Marburg virus belongs to the family Filoviridae and causes severe viral haemorrhagic fever with case fatality ratios historically approaching 88% in some outbreaks. Transmission occurs through direct contact with blood, secretions, or other bodily fluids of infected persons or animals, particularly fruit bats of the *Rousettus* genus, which serve as the natural reservoir. The incubation period ranges from 3 to 21 days, most commonly 5 to 10 days. Clinical presentation includes sudden onset fever, severe headache, myalgia, diarrhoea, vomiting, and in advanced stages, unexplained bleeding from mucosal surfaces.
+
+The final outbreak toll stands at 17 cases (14 laboratory-confirmed, three probable) with 12 deaths, yielding a case fatality rate of 64.3% among confirmed cases. Geographic distribution was limited to two areas: Jinka town in South Ethiopia Regional State (the epicentre) and Hawassa City in Sidama Region, the latter affected by a single imported case. A total of 886 contacts were monitored, and five patients have recovered. Ethiopian authorities initiated vaccine trials using the cAd3-Marburg vaccine in the affected regions, with 2,500 doses distributed to healthcare workers and case contacts. Neighbouring countries including South Sudan, Kenya, and Somalia have intensified preparedness activities.
+
+The ECDC risk assessment for EU/EEA citizens visiting or residing in Ethiopia remains low, with the likelihood of onward transmission within the EU/EEA assessed as very low given stringent infection prevention measures in European healthcare settings.
+
+#### Middle East Respiratory Syndrome Coronavirus
+
+MERS-CoV transmission continues at low levels on the Arabian Peninsula. Since the previous update on 10 December 2025, five new cases including one fatality have been reported in Saudi Arabia, with symptom onset between September and December 2025. Cases were distributed across Makkah (two), Riyadh (two), and Najran (one) regions. All patients were adults, with three aged over 65 years. Two cases reported direct camel contact, while the remaining three had no identified exposure to camels or camel products. No secondary transmission has been detected.
+
+MERS-CoV is a zoonotic betacoronavirus with dromedary camels serving as the intermediate host and primary source of human infection. The virus causes severe respiratory illness with a crude case fatality rate of approximately 36% among reported cases globally. Since 2012, a total of 2,647 cases including 959 deaths have been reported worldwide, with the vast majority occurring in Saudi Arabia. Human-to-human transmission occurs primarily in healthcare settings but is limited in community contexts.
+
+For 2025, Saudi Arabia has reported 17 cases with four fatalities, with an additional two imported cases identified in France. The probability of sustained human-to-human transmission in Europe remains very low, and the ECDC assessment characterises the current risk to the EU/EEA as low.
+
+#### Avian Influenza A(H9N2)
+
+China reported seven new human cases of avian influenza A(H9N2) infection since early November 2025, according to WHO's monthly assessment published 19 December 2025. Cases were identified in Guangdong, Guangxi, Henan, and Hubei provinces with symptom onset spanning September through November 2025. Five cases occurred in children and two in adults. Clinical presentation was mild in five individuals; two elderly patients required hospitalisation, one of whom had severe pneumonia complicated by underlying conditions.
+
+Exposure assessment identified contact with backyard poultry in four cases and live poultry market attendance in two cases, with investigation ongoing for one case. No secondary transmission has been documented among contacts.
+
+A(H9N2) viruses circulate widely among poultry in Asia and pose intermittent zoonotic risk. Since 1998, 190 human cases including two deaths have been reported globally from ten countries. China has contributed 149 cases since 2015, with a case fatality rate of 1.4%. The virus typically causes mild respiratory illness without evidence of sustained human-to-human transmission capability. The ECDC assessment indicates very low risk to human health in the EU/EEA.
+
+#### Swine Influenza A(H1N1) Variant
+
+WHO reported a single human case of Eurasian avian-like swine influenza A(H1N1) variant infection in Yunnan Province, China. The patient, a male farmer in his sixties, developed symptoms on 2 November 2025 following exposure to backyard pigs. Despite hospitalisation from 6 to 10 November, clinical course was mild. No secondary cases have been identified.
+
+Sporadic human infections with swine-origin influenza viruses occur globally, typically following direct pig contact. Limited, non-sustained human-to-human transmission has been documented rarely. Novel influenza viruses require thorough characterisation and reporting through International Health Regulations mechanisms.
+
+### Fecal-Oral Transmission
+
+#### Cholera — Global Update
+
+Global cholera transmission persists at substantial levels. Between 24 November and 24 December 2025, 30,611 new cases and 275 deaths were reported worldwide. Year-to-date, 601,845 cases including 7,671 deaths have been documented in 2025, compared with 733,355 cases and 4,834 deaths during the equivalent period in 2024.
+
+The Democratic Republic of the Congo leads current reporting with 8,374 new cases and 192 deaths in the past month, followed by Afghanistan (7,942 cases), Yemen (7,820 cases), South Sudan (1,599 cases), and Angola (1,398 cases). Cholera is a severe diarrhoeal disease caused by toxigenic strains of *Vibrio cholerae* serogroups O1 and O139, characterised by profuse watery diarrhoea that can lead to rapid dehydration and death within hours if untreated. Case fatality rates below 1% are achievable with adequate rehydration therapy but exceed 50% when treatment access is limited.
+
+Africa bears the greatest burden, with active transmission reported in 21 countries during the reporting period. The Democratic Republic of the Congo has accumulated 67,124 cases and 1,939 deaths in 2025, representing a substantial increase over 2024 figures. South Sudan's outbreak is particularly severe, with 79,633 cumulative cases and 1,277 deaths — a dramatic escalation from 114 cases in the same period of 2024. Sudan's protracted conflict continues to drive transmission, with 72,057 cases and 2,077 deaths reported in 2025.
+
+Angola's outbreak, which commenced in 2025, has now reached 36,077 cases with 892 deaths. Mozambique, Zambia, and Zimbabwe continue reporting new cases, while Chad's outbreak has largely subsided.
+
+The risk of cholera infection for travellers remains low, though sporadic importation to the EU/EEA is possible. In 2023, 12 confirmed cases were reported by five EU/EEA countries, all with travel history to affected regions. Vaccination is recommended only for emergency and relief workers at elevated exposure risk; travellers should observe standard food and water hygiene precautions.
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Respiratory and Droplet Transmission
+
+#### Seasonal Respiratory Virus Surveillance
+
+The EU/EEA respiratory virus season remains at elevated intensity as of Week 1, 2026. Syndromic surveillance demonstrates elevated consultation rates for acute respiratory illness in most reporting countries, indicating substantial circulating respiratory pathogen activity.
+
+Influenza virus circulation continues to increase across the region, though some countries appear to have passed peak activity. Influenza A(H3N2) dominates at the EU/EEA level, accounting for 76% of subtyped specimens in primary care surveillance (170 A(H3N2) versus 46 A(H1N1)pdm09 in Week 1). Cumulatively since Week 40, 2025, 5,120 A(H3N2) and 1,601 A(H1N1)pdm09 detections have been reported. Genetic characterisation reveals that 91% of A(H3N2) viruses belong to subclade 2a.3a.1(K), while 99% of A(H1N1)pdm09 viruses fall within subclade 5a.2a.1(D.3.1). Influenza B circulation remains minimal, with only 30 detections season-to-date, predominantly B/Victoria lineage.
+
+Test positivity in primary care reached 39% (pooled) with a country median of 37% (IQR: 30–48%). Hospital-based severe acute respiratory infection surveillance shows influenza positivity of 35% (pooled, 41% median), reflecting continued disease severity. Of 22 countries reporting intensity, five reported high activity, nine medium, four low, and two baseline. Geographic spread was classified as widespread in 17 of 21 reporting countries, regional in one, and sporadic in three.
+
+Hospitalisation rates are elevated, particularly among adults aged 65 years and above. Early estimates of 2025-2026 seasonal vaccine effectiveness published by ECDC in December 2025 align with assessments from the United Kingdom and Canada for A(H3N2) protection.
+
+Respiratory syncytial virus activity continues its gradual seasonal increase, with pooled test positivity of 8.8% in primary care (median 6%, IQR: 4.1–11%) and 8.5% in hospitals (median 6.3%, IQR: 2.9–15%). RSV-A predominates, accounting for 60% of subtyped specimens. Hospital admissions are concentrated among children under five years, though EU/EEA-level hospitalisations remain below the four-season baseline for this time of year.
+
+SARS-CoV-2 circulation continues to decline across all age groups, with pooled test positivity of 3.3% in primary care and 3.0% in hospitals. The XFG variant under monitoring accounts for the majority of sequenced specimens in the single reporting country.
+
+All surveillance data remain provisional and subject to reporting delays, incomplete country coverage, and variable testing practices. Countries with high testing volumes may disproportionately influence pooled estimates.
+
+## Infectious Diseases: Bulgaria
+
+### Respiratory and Droplet Transmission
+
+#### COVID-19
+
+COVID-19 notifications increased by 68% week-over-week, with 57 cases reported in Week 2 compared to 34 in Week 1. Year-to-date, 91 cases have been recorded versus 69 in the same period of 2025, representing a 32% increase. All reported cases were laboratory-confirmed. This uptick aligns with broader European patterns of continued low-level SARS-CoV-2 transmission, though absolute numbers remain modest compared to previous years.
+
+#### Varicella
+
+Varicella notifications surged in Week 2, with 1,001 cases reported representing an increase of 723 cases (260%) from the 278 cases registered in Week 1. This post-holiday acceleration reflects the typical epidemiological pattern of increased transmission following school reconvening and family gatherings. Case classification included 121 possible, 789 probable, and 91 confirmed cases. Year-to-date cumulative incidence stands at 1,279 cases, down 21% from 1,621 cases during the same period in 2025.
+
+Varicella-zoster virus is highly transmissible via respiratory droplets and direct contact with vesicular fluid, with secondary attack rates approaching 90% in susceptible household contacts. The incubation period is typically 14 to 16 days. While generally mild in immunocompetent children, complications including bacterial superinfection, pneumonia, and neurological involvement occur more frequently in adolescents, adults, and immunocompromised individuals.
+
+The geographic distribution shows Sofia-grad reporting the highest burden (282 cases), followed by Varna (109 cases), Plovdiv (66 cases), Burgas (57 cases), and Veliko Tarnovo (45 cases). The Sofia-grad concentration likely reflects population density and institutional transmission settings.
+
+#### Scarlet Fever
+
+Scarlet fever notifications increased by 133% week-over-week, from 15 cases in Week 1 to 35 cases in Week 2. Case classification included 10 possible, 17 probable, and eight confirmed cases. Despite the sharp weekly increase, year-to-date totals (50 cases) remain 38% below the 81 cases reported in the same period of 2025.
+
+Scarlet fever is caused by group A *Streptococcus pyogenes* producing erythrogenic exotoxins. Transmission occurs via respiratory droplets, with an incubation period of two to five days. The characteristic presentation includes pharyngitis, fever, and a diffuse erythematous sandpaper-like rash, followed by desquamation. School-aged children (5-15 years) are most commonly affected. The observed week-over-week increase coincides with school return following winter holidays.
+
+#### Pertussis
+
+Two confirmed pertussis cases were reported in Week 2, after no cases in Week 1. Year-to-date notifications (two cases) remain below the seven cases recorded in the same period of 2025. Pertussis, caused by *Bordetella pertussis*, remains a vaccine-preventable disease of ongoing concern, particularly given observed multi-year epidemic cycling and potential waning immunity in adolescents and adults who can serve as transmission sources to vulnerable infants.
+
+### Fecal-Oral Transmission
+
+#### Acute Viral Hepatitis
+
+Acute viral hepatitis represents the most epidemiologically concerning signal in Week 2 Bulgarian surveillance. A total of 44 cases were reported, representing a 120% increase from 20 cases in Week 1. Year-to-date cumulative notifications reach 64 cases, compared with only 18 during the same period in 2025 — a 256% increase.
+
+Case classification included 40 confirmed, two probable, and two possible cases. The predominance of confirmed cases suggests robust diagnostic ascertainment. Geographic distribution shows concentration in Plovdiv (one case), Pleven (11 cases), and Haskovo (four cases), with cases distributed across multiple additional regions.
+
+The magnitude of year-over-year increase warrants urgent epidemiological investigation to determine the predominant viral aetiology, identify transmission settings, and characterise affected populations. Common source outbreaks of hepatitis A linked to contaminated food products or person-to-person transmission in specific communities require distinct public health responses.
+
+#### Gastroenteritis and Enterocolitis
+
+Gastroenteritis and enterocolitis notifications nearly doubled, with 205 cases in Week 2 compared to 109 in Week 1 (88% increase). Case classification included 74 possible, 122 probable, and nine confirmed cases. Year-to-date cumulative notifications (314 cases) exceed the 2025 baseline (271 cases) by 16%.
+
+This syndromic category encompasses multiple enteric pathogens. The post-holiday increase likely reflects multiple factors including delayed healthcare-seeking during holiday periods, increased social mixing, and potential foodborne exposures associated with festive gatherings. Sofia-grad (42 cases), Plovdiv (66 cases), Varna (27 cases), and Lovech (12 cases) reported the highest burdens.
+
+#### Salmonellosis
+
+Salmonellosis notifications doubled week-over-week, with 18 cases in Week 2 versus nine in Week 1. All cases were laboratory-confirmed. Year-to-date cumulative notifications (27 cases) exceed the 2025 baseline (eight cases) by 238%, representing a substantial and concerning increase.
+
+Non-typhoidal *Salmonella* species cause acute gastroenteritis characterised by diarrhoea, fever, and abdominal cramping, typically 12 to 72 hours after consumption of contaminated food — most commonly poultry, eggs, or products containing raw eggs. Person-to-person transmission can occur. The pronounced year-over-year increase warrants investigation for potential common source outbreaks or detection of emerging serotypes.
+
+#### Campylobacteriosis
+
+Nine campylobacteriosis cases were reported in Week 2, up from seven in Week 1 (29% increase). All cases were laboratory-confirmed. Year-to-date notifications (16 cases) represent a 300% increase compared to four cases in the same period of 2025.
+
+*Campylobacter* species, predominantly *C. jejuni* and *C. coli*, represent the leading bacterial cause of gastroenteritis in many industrialised countries. Transmission typically occurs through consumption of undercooked poultry, unpasteurised milk, or contaminated water, with an incubation period of two to five days. While usually self-limited, complications include reactive arthritis and Guillain-Barré syndrome. The substantial year-over-year increase parallels salmonellosis trends and may indicate common epidemiological drivers.
+
+#### Rotavirus Gastroenteritis
+
+Rotavirus gastroenteritis notifications increased from three cases in Week 1 to 11 cases in Week 2 (267% increase). All cases were laboratory-confirmed. However, year-to-date totals (14 cases) remain substantially below the 59 cases recorded in the same period of 2025, representing a 76% decrease.
+
+Rotavirus is the leading cause of severe diarrhoeal disease among young children globally. Transmission occurs via the fecal-oral route with high secondary attack rates. The week-over-week increase following low holiday-period detection is typical surveillance behaviour; the year-over-year decrease may reflect ongoing impact of rotavirus vaccination programmes.
+
+#### Escherichiosis (Coliform Enteritis)
+
+Three cases of coliform enteritis were reported in Week 2, up from two in Week 1. All cases were laboratory-confirmed. Year-to-date notifications (five cases) exceed the two cases reported in the same period of 2025.
+
+### Contact and Sexual Transmission
+
+#### Sexually Transmitted Infections
+
+Marked week-over-week increases were observed across multiple sexually transmitted infection categories. Urogenital chlamydia infections increased from one case in Week 1 to 11 cases in Week 2, with year-to-date totals (12 cases) exceeding the 2025 baseline (five cases) by 140%. Gonorrhoea similarly increased from one to seven cases week-over-week, with year-to-date notifications (eight cases) above the three reported in the same period of 2025.
+
+Syphilis notifications declined from four cases in Week 1 to two cases in Week 2, with year-to-date totals (six cases) below the 2025 baseline (12 cases). HIV diagnoses numbered three in Week 2 (none in Week 1), with year-to-date notifications (three cases) below the ten recorded in the same period of 2025.
+
+*Chlamydia trachomatis* and *Neisseria gonorrhoeae* are bacterial sexually transmitted infections frequently presenting as urethritis, cervicitis, or asymptomatic infection. Both can ascend to cause pelvic inflammatory disease with potential for tubal scarring and infertility. The substantial week-over-week increases likely reflect post-holiday diagnostic testing patterns rather than acute transmission surges, though sustained elevated reporting warrants monitoring.
+
+### Vector-Borne Transmission
+
+#### Lyme Borreliosis
+
+Two Lyme borreliosis cases were reported in Week 2, down from three in Week 1. Year-to-date notifications (five cases) are slightly below the six cases reported in the same period of 2025. Winter detection reflects the prolonged incubation and diagnostic workup timeline rather than active tick exposure during January.
+
+## Key Surveillance Observations
+
+The Week 2 Bulgarian surveillance data demonstrate several patterns warranting public health attention. The acute viral hepatitis surge (+256% year-over-year) constitutes the most significant signal and requires rapid epidemiological assessment to characterise the outbreak by viral aetiology, transmission setting, and affected populations. Concurrent increases in salmonellosis (+238% YTD), campylobacteriosis (+300% YTD), and general gastroenteritis suggest either enhanced surveillance ascertainment, common environmental exposures, or genuine increases in enteric pathogen transmission during the post-holiday period.
+
+At the European level, respiratory virus circulation remains elevated with influenza A(H3N2) dominant. Hospitalisation rates in adults aged 65 years and above underscore the continued importance of vaccination for this population. The approaching conclusion of the Ethiopian Marburg outbreak represents a positive development, while ongoing global cholera transmission and sporadic zoonotic influenza cases maintain the need for international health surveillance vigilance.
