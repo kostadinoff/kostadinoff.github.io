@@ -25,6 +25,11 @@ a {
 .quarto-title-block .quarto-title-banner {
   background-color: #3aa6b922;
   border-bottom: 3px solid $primary;
+  color: $body-color;
+  
+  .description, .quarto-title-meta {
+    color: $body-color;
+  }
 }
 
 
