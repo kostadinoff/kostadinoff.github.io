@@ -47,9 +47,6 @@ format:
     css: styles.css
     toc: true
     sharing: [twitter, linkedin, facebook]
-    comments:
-      giscus:
-        repo: kostadinoff/kostadinoff.github.io
     title-block-banner: true
 editor: source
 site-url: "https://kostadinoff.github.io"
