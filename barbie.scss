@@ -13,6 +13,19 @@ $h1-font-family-sans-serif: 'Roboto Condensed', sans-serif;
 
 
 /*-- scss:rules --*/
+a {
+  color: $secondary;
+  text-decoration: none;
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+
+.quarto-title-block .quarto-title-banner {
+  background-color: #3aa6b922;
+  border-bottom: 3px solid $primary;
+}
 
 
 span.theorem-title{
@@ -120,7 +133,8 @@ div.quarto-post .listing-categories .listing-category {
 
 #title-block-header.quarto-title-block.default .quarto-title .title {
     font-size: 3em;
-    color: #3AA6B9;
+    color: $primary;
+    font-weight: 700;
 }
 
 .nav-footer .nav-footer-left {

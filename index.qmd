@@ -4,6 +4,15 @@ about:
   template: jolla
   image-shape: rectangle
   image-width: 21.5em
+listing:
+  contents: epinews-posts
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, description]
 ---
 
 ::: {.btn-group role="group" aria-label="Social Links"}
@@ -24,3 +33,12 @@ This website serves as a space to share my research projects, teaching materials
 All teaching materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
 
 All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.
+
+---
+
+## Recent Epidemiological News
+
+::: {#recent-posts}
+:::
+
+[View all Epi News →](epinews.qmd){.btn .btn-outline-primary .btn role="button"}

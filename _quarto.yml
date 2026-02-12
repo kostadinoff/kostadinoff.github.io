@@ -11,6 +11,7 @@ website:
   page-footer:
     left: "Email me at <a href='mailto:kostadinr.kostadinov@mu-plovdiv.bg'>kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href='https://tinyurl.com/whentomeetme' target='_blank'>meeting</a>"
   title: "Kostadin Kostadinov"
+  favicon: favicon.png
 
   twitter-card:
     creator: "@https://x.com/kostadinoffMD"
@@ -22,7 +23,10 @@ website:
         href: https://x.com/kostadinoffMD
       - icon: linkedin
         href: https://www.linkedin.com/in/kostadinovmd/
+      - icon: rss
+        href: epinews.xml
     background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -42,5 +46,10 @@ format:
       - barbie.scss
     css: styles.css
     toc: true
+    sharing: [twitter, linkedin, facebook]
+    comments:
+      giscus:
+        repo: kostadinoff/kostadinoff.github.io
+    title-block-banner: true
 editor: source
 site-url: "https://kostadinoff.github.io"

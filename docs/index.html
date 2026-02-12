@@ -30,6 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -38,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-af712d3725d799f71d997ff1728bb751.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a9a6970bdda81c0fc461aebe63f14df1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -68,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Kostadin Kostadinov">
@@ -78,10 +139,10 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -132,6 +193,11 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text"></span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -140,15 +206,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#recent-epidemiological-news" id="toc-recent-epidemiological-news" class="nav-link active" data-scroll-target="#recent-epidemiological-news">Recent Epidemiological News</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <div class="quarto-about-jolla">
   <img src="face_id.png" class="about-image
   rectangle " style="width: 21.5em;">
- <header id="title-block-header" class="quarto-title-block"></header><main class="content" id="quarto-document-content">
+ <main class="content quarto-banner-title-block" id="quarto-document-content">
+
 <div class="btn-group" role="group" aria-label="Social Links">
 <p><a href="https://x.com/kostadinoffMD" class="btn btn-secondary" role="button" data-toggle="data" title="twitter"><i class="fa-brands fa-twitter" aria-label="twitter"></i><br>Twitter</a> <a href="https://github.com/kostadinoff" class="btn btn-secondary" role="button" data-toggle="data" title="github"><i class="fa-brands fa-github" aria-label="github"></i><br>Github</a> <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&amp;hl=en" class="btn btn-secondary" role="button" data-toggle="data" title="scholar"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i><br>Scholar</a> <a href="https://orcid.org/0000-0003-1414-8738" class="btn btn-secondary" role="button" data-toggle="data" title="ORCID"><i class="fa-solid fa-id-badge" aria-label="id-badge"></i><br>ORCID</a></p>
 </div>
@@ -159,9 +233,74 @@ ul.task-list li input[type="checkbox"] {
 <p>My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.</p>
 <p>This website serves as a space to share my research projects, teaching materials, and reflections on public health and social epidemiology. All teaching materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.</p>
 <p>All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.</p>
+<hr>
+<section id="recent-epidemiological-news" class="level2">
+<h2 data-anchor-id="recent-epidemiological-news">Recent Epidemiological News</h2>
+<div id="recent-posts">
+</div>
+<p><a href="./epinews.html" class="btn btn-outline-primary" role="button">View all Epi News →</a></p>
 
 
-</main>  
+</section>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RW5nbGlzaA==" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1770883364620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="32" data-listing-word-count-sort="6206">
+<a href="./epinews-posts/2026-W6-en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Epidemiological News: Week 6, 2026
+</h5>
+<div class="card-text listing-description delink">
+<p>Week 6 of 2026 presents a critical multi-country food safety incident requiring urgent public health action across the EU/EEA. Cereulide toxin contamination of infant…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 15, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RW5nbGlzaA==" data-listing-date-sort="1770156000000" data-listing-file-modified-sort="1770883165764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="62" data-listing-word-count-sort="12205">
+<a href="./epinews-posts/2026-W5-en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Epidemiological News: Week 5, 2026
+</h5>
+<div class="card-text listing-description delink">
+<p>Week 5 of 2026 continues the established pattern of winter respiratory virus activity across Europe, though with early signs of the seasonal peak beginning to moderate.…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 4, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RW5nbGlzaA==" data-listing-date-sort="1768255200000" data-listing-file-modified-sort="1770883165763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2771">
+<a href="./epinews-posts/2026-W2-en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Epidemiological News: Week 2, 2026
+</h5>
+<div class="card-text listing-description delink">
+<p>Week 2 of 2026 presents a concerning acceleration of enteric and respiratory infections across Bulgaria and the EU/EEA. Acute viral hepatitis cases in Bulgaria surged by…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jan 13, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main>  
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -556,6 +695,35 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "kostadinoff/kostadinoff.github.io";
+    script.dataset.repoId = "";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
