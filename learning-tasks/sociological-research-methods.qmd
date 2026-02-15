@@ -1,0 +1,132 @@
+---
+title: "Sociological Research Methods"
+author: "Kostadin Kostadinov"
+date: 2026-02-15
+description: "A comprehensive library of public health scenarios and methodological challenges for students to design, defend, and critique research protocols in sociological research methods."
+categories: 
+  - "Medical Sociology"
+  - "Research Methods"
+  - "Public Health"
+  - "Assignment"
+---
+
+# Practical Class Instructions:
+
+This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. The instructor will choose a scenario for each group (or pair of groups) to solve using the principles of sociological research methods.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Sociological Research Methods in Medicine](../15-minute-learning/sociological-research-methods.qmd). All methodological justifications and critiques must reference concepts from this text.*
+
+### General Instructions for Students
+
+Each group will independently solve a distinct research problem. Your task is to:
+
+1. **Analyze the Research Question**: Determine which sociological method (survey, observation, interview or documentary analysis) best addresses it.
+2. **Design the Instrument**: Create a concrete data collection tool - questionnaire, interview guide, observation checklist or documentary analysis framework.
+3. **The Battle (Debate)**: Prepare to defend your choice and critique alternative methods using evidence-based reasoning.
+
+---
+
+## Scenario "The Healthcare Worker Burnout Crisis"
+
+**The Problem:**: University Hospital Plovdiv has experienced a 40% increase in physician resignations. Exit interviews mention "*moral injury*", "*administrative burden*", and "*lack of institutional support*".
+
+**Goal:** Understand the drivers of burnout to plan interventions.
+
+You choose to use:
+
+### Structured Survey Approach:
+
+- **Your Stance:** Use a standardized questionnaire (burnout assessment, stressor categories, demographics) distributed to all physicians.
+- **Strengths:** Systematic comparison across departments; anonymity encourages disclosure of workplace criticism; large sample size for statistical power.
+- **Anticipate Critiques:** How do you capture complex "moral injury" in a closed-ended scale? What about social desirability bias (fear of appearing weak)?
+
+OR 
+
+### In-Depth Interview Approach
+
+- **Your Stance:** Semi-structured interviews with a purposive sample of current and former physicians.
+- **Strengths:** Reveals lived experiences and causal mechanisms (the "why"); follow-up questions probe beneath surface explanations.
+- **Anticipate Critiques:** Is a sample of 20-30 representative of 400+ doctors? How do you handle interviewer bias and the time-intensive nature of qualitative work?
+
+---
+
+## Scenario "Hospital Hand Hygiene Compliance"
+
+**The Problem:** Surgical site infections have increased by 35%. Administration claims 80% hygiene compliance, but clinical evidence suggests otherwise.
+
+**Goal:** Document true compliance rates and situational triggers for non-compliance.
+
+You choose to use:
+
+### Overt Observation (Visible Observers)
+
+- **Your Stance:** Trained observers use a checklist based on WHO's "5 Moments for Hand Hygiene" while visible to staff.
+- **Strengths:** High reliability; observers can clarify clinical context; easier ethical approval.
+- **Anticipate Critiques:** The Hawthorne Effect—staff will perform perfectly only while you are watching.
+
+OR
+
+### Covert/Hybrid Observation
+
+- **Your Stance:** Use disguised observers or hidden cameras to capture baseline behavior, followed by overt observation for feedback.
+- **Strengths:** Captures "true" behavior without reactivity; reveals hidden patterns of non-compliance.
+- **Anticipate Critiques:** Serious ethical concerns regarding informed consent and workplace surveillance.
+
+---
+
+## Scenario: Improving Maternal Health Clinic Attendance
+
+**The Problem:** Roma communities in suburban Plovdiv attend prenatal care at lower rates. Administrators suspect "culture," while community workers suspect "discrimination."
+
+**Goal:** Redesign the service based on actual barriers.
+
+You choose to use:
+
+### Focus Group Method
+
+- **Your Stance:** Facilitate discussions with women who stopped attending to reveal collective sense-making and shared experiences.
+- **Strengths:** Reveals social norms and community-held beliefs; safer space for sensitive topics like discrimination.
+- **Anticipate Critiques:** Dominant voices may silence others; results might represent "consensus" rather than individual reality.
+
+OR
+
+### Documentary Analysis
+
+- **Your Stance:** Audit medical records, appointment logs, and staff communications for patterns of differential treatment.
+- **Strengths:** Objective audit trail; immune to recall bias; identifies structural barriers in scheduling or documentation.
+- **Anticipate Critiques:** Records show what was documented, not the "informal" tone of voice or dismissive body language.
+
+---
+
+## Scenario: Tuberculosis Treatment Adherence (Mixed Methods)
+
+**The Problem:** 28% of TB patients in Plovdiv stop treatment early. Brief exit interviews lack depth.
+
+**Goal:** Redesign the "Directly Observed Therapy" (DOT) program.
+
+You choose to use:
+
+### Individual Interviews
+
+- **Your Stance:** Conduct semi-structured interviews with a purposive sample of current and former TB patients.
+- **Strengths:** Reveals lived experiences and causal mechanisms (the "why"); follow-up questions probe beneath surface explanations.
+- **Anticipate Critiques:** Is a sample of 20-30 representative of 400+ doctors? How do you handle interviewer bias and the time-intensive nature of qualitative work?
+
+OR
+
+### Documentary Analysis
+
+- **Your Stance:** Audit medical records, appointment logs, and staff communications for patterns of differential treatment.
+- **Strengths:** Objective audit trail; immune to recall bias; identifies structural barriers in scheduling or documentation.
+- **Anticipate Critiques:** Records show what was documented, not the "informal" tone of voice or dismissive body language.
+
+---
+
+### Evaluation Criteria:
+
+- **Methodological Precision (30%):** Instrument design follows the logic of the chosen method.
+- **Conceptual Application (30%):** Arguments explicitly reference the 15-minute reading material.
+- **Critical Reasoning (20%):** Groups identify and address valid threats (Recall Bias, Hawthorne Effect, Ecological Fallacy).
+- **Communication (20%):** Ability to defend and critique professionally.

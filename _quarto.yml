@@ -32,8 +32,10 @@ website:
         text: Home
       - href: CV.qmd
         text: CV
-      - href: teaching.qmd
-        text: Teaching
+      - href: learning.qmd
+        text: 15-minute learning
+      - href: tasks.qmd
+        text: Learning tasks
       - href: epinews.qmd
         text: Epi News
       - href: study-guide.qmd

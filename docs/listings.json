@@ -1,36 +1,18 @@
 [
   {
-    "listing": "/teaching.html",
+    "listing": "/tasks.html",
     "items": [
-      "/teaching-posts/teaching-posts-25.html",
-      "/teaching-posts/teaching-posts-24.html",
-      "/teaching-posts/teaching-posts-21.html",
-      "/teaching-posts/teaching-posts-22.html",
-      "/teaching-posts/teaching-posts-23.html",
-      "/teaching-posts/teaching-posts-18.html",
-      "/teaching-posts/teaching-posts-15.html",
-      "/teaching-posts/teaching-posts-16.html",
-      "/teaching-posts/teaching-posts-17.html",
-      "/teaching-posts/teaching-posts-13.html",
-      "/teaching-posts/teaching-posts-14.html",
-      "/teaching-posts/teaching-posts-11.html",
-      "/teaching-posts/teaching-posts-09.html",
-      "/teaching-posts/teaching-posts-10.html",
-      "/teaching-posts/teaching-posts-04.html",
-      "/teaching-posts/teaching-posts-08.html",
-      "/teaching-posts/teaching-posts-03.html",
-      "/teaching-posts/teaching-posts-02.html",
-      "/teaching-posts/teaching-posts-05.html",
-      "/teaching-posts/teaching-posts-06.html",
-      "/teaching-posts/teaching-posts-07.html",
-      "/teaching-posts/teaching-posts-12.html",
-      "/teaching-posts/teaching-posts-01.html",
-      "/teaching-posts/teaching-posts-20.html",
-      "/teaching-posts/teaching-posts-19.html"
+      "/learning-tasks/sociological-research-methods.html"
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/learning.html",
+    "items": [
+      "/15-minute-learning/sociological-research-methods.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W6-en.html",
       "/epinews-posts/2026-W5-en.html",
@@ -51,7 +33,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W6-en.html",
       "/epinews-posts/2026-W5-en.html",

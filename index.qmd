@@ -29,8 +29,8 @@ I am the founder of the Social Epidemiology Lab, a private research company dedi
 
 My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.
 
-This website serves as a space to share my research projects, teaching materials, and reflections on public health and social epidemiology.
-All teaching materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
+This website serves as a space to share my research projects, 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology.
+All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
 
 All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.
 

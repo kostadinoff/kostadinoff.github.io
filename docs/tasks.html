@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kostadin Kostadinov</title>
+<title>Learning Tasks – Kostadin Kostadinov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,13 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +74,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-tasks-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-tasks-listing'] = new List('listing-tasks-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,11 +132,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Kostadin Kostadinov">
+<meta name="twitter:title" content="Learning Tasks – Kostadin Kostadinov">
 <meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
-<meta name="twitter:image" content="face_id.png">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -160,7 +158,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -172,7 +170,7 @@ window.Quarto = {
 <span class="menu-text">15-minute learning</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tasks.html"> 
+    <a class="nav-link active" href="./tasks.html" aria-current="page"> 
 <span class="menu-text">Learning tasks</span></a>
   </li>  
   <li class="nav-item">
@@ -213,105 +211,117 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Learning Tasks</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#recent-epidemiological-news" id="toc-recent-epidemiological-news" class="nav-link active" data-scroll-target="#recent-epidemiological-news">Recent Epidemiological News</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXNzaWdubWVudA==">Assignment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVkaWNhbCUyMFNvY2lvbG9neQ==">Medical Sociology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBNZXRob2Rz">Research Methods <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="face_id.png" class="about-image
-  rectangle " style="width: 21.5em;">
- <main class="content quarto-banner-title-block" id="quarto-document-content">
-
-<div class="btn-group" role="group" aria-label="Social Links">
-<p><a href="https://x.com/kostadinoffMD" class="btn btn-secondary" role="button" data-toggle="data" title="twitter"><i class="fa-brands fa-twitter" aria-label="twitter"></i><br>Twitter</a> <a href="https://github.com/kostadinoff" class="btn btn-secondary" role="button" data-toggle="data" title="github"><i class="fa-brands fa-github" aria-label="github"></i><br>Github</a> <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&amp;hl=en" class="btn btn-secondary" role="button" data-toggle="data" title="scholar"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i><br>Scholar</a> <a href="https://orcid.org/0000-0003-1414-8738" class="btn btn-secondary" role="button" data-toggle="data" title="ORCID"><i class="fa-solid fa-id-badge" aria-label="id-badge"></i><br>ORCID</a></p>
-</div>
-<p><br></p>
-<p>I’m Dr.&nbsp;Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.</p>
-<p>I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance at Sofia University and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Currently, I am pursuing a Master’s degree in Policy Analysis at Sofia University.</p>
-<p>I am the founder of the Social Epidemiology Lab, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.</p>
-<p>My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.</p>
-<p>This website serves as a space to share my research projects, 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology. All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.</p>
-<p>All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.</p>
-<hr>
-<section id="recent-epidemiological-news" class="level2">
-<h2 data-anchor-id="recent-epidemiological-news">Recent Epidemiological News</h2>
-<div id="recent-posts">
-</div>
-<p><a href="./epinews.html" class="btn btn-outline-primary" role="button">View all Epi News →</a></p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</section>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RW5nbGlzaA==" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1771154123935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="32" data-listing-word-count-sort="6206">
-<a href="./epinews-posts/2026-W6-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 6, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 6 of 2026 presents a critical multi-country food safety incident requiring urgent public health action across the EU/EEA. Cereulide toxin contamination of infant…</p>
+
+
+
+<p>This section contains learning tasks and assignments for students. These tasks are designed to complement the learning materials and help you apply sociological and public health concepts in practice.</p>
+<div id="listing-tasks-listing" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-tasks-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-tasks-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 15, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW5nbGlzaA==" data-listing-date-sort="1770156000000" data-listing-file-modified-sort="1771154123935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="62" data-listing-word-count-sort="12205">
-<a href="./epinews-posts/2026-W5-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 5, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 5 of 2026 continues the established pattern of winter respiratory virus activity across Europe, though with early signs of the seasonal peak beginning to moderate.…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW5nbGlzaA==" data-listing-date-sort="1768255200000" data-listing-file-modified-sort="1771154123935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2771">
-<a href="./epinews-posts/2026-W2-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 2, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 2 of 2026 presents a concerning acceleration of enteric and respiratory infections across Bulgaria and the EU/EEA. Acute viral hepatitis cases in Bulgaria surged by…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 13, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+Description
+</th>
+
+<th>
+Categories
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="TWVkaWNhbCUyMFNvY2lvbG9neSUyQ1Jlc2VhcmNoJTIwTWV0aG9kcyUyQ1B1YmxpYyUyMEhlYWx0aCUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1771156032300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="727" data-listing-title-sort="Sociological Research Methods" data-listing-filename-sort="sociological-research-methods.qmd">
+<td>
+<a href="./learning-tasks/sociological-research-methods.html" class="title listing-title">Sociological Research Methods</a>
+</td>
+<td>
+<span class="listing-date">Feb 15, 2026</span>
+</td>
+<td>
+<span class="listing-description">A comprehensive library of public health scenarios and methodological challenges for students to design, defend, and critique research protocols in sociological research methods.</span>
+</td>
+<td>
+<span class="listing-categories">Medical Sociology, Research Methods, Public Health, Assignment</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main>  
 </div>
- <!-- /main -->
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

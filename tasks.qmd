@@ -1,0 +1,17 @@
+---
+title: "Learning Tasks"
+listing: 
+  id: tasks-listing
+  categories: true
+  filter-ui: true
+  type: table
+  contents:
+  - "learning-tasks/*.qmd"
+  fields: [title, date, description, categories]
+  sort: "date desc"
+---
+
+This section contains learning tasks and assignments for students. These tasks are designed to complement the learning materials and help you apply sociological and public health concepts in practice.
+
+::: {#tasks-listing}
+:::
