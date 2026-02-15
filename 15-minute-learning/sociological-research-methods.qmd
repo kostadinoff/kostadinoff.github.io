@@ -2,7 +2,7 @@
 title: "Sociological Research Methods in Medicine"
 author: "Kostadin Kostadinov"
 date: 2026-02-15
-description: "An in-depth 20-minute lecture on integrating sociological inquiry within public health, exploring how qualitative and quantitative methods reveal the social mechanics of healthcare."
+description: "An in-depth 15-minute reading material on integrating sociological inquiry within public health, exploring how qualitative and quantitative methods reveal the social mechanics of healthcare."
 categories: 
   - "English"
   - "Medical Sociology"
