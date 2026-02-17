@@ -55,6 +55,7 @@ University Hospital Plovdiv has experienced a 40% increase in physician resignat
 **Method:** Semi-structured interviews with a purposive sample of 30 current and former physicians.
 
 **Hints for your design:**
+
 - **Rapport:** How do you start the conversation to make a stressed doctor open up?
 - **The "Why":** Use probes to move past phrases like "I was tired" to actual causal events.
 - **Moral Injury:** Design questions that explore the gap between clinical ideals and hospital reality.
