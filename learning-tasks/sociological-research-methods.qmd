@@ -61,6 +61,28 @@ University Hospital Plovdiv has experienced a 40% increase in physician resignat
 - **Moral Injury:** Design questions that explore the gap between clinical ideals and hospital reality.
 - **Logic:** Think about "thick description" and capturing the temporal sequence of the decision to quit.
 
+### Option C: Documentary Analysis
+
+**Method:** Systematic audit of administrative records, shift rosters, and resignation letters.
+
+**Hints for your design:**
+
+- **Objective Data:** How do HR records on overtime and sick leave correlate with resignation dates?
+- **The "Official" Reason:** Compare resignation letters with exit interview notes—where are the gaps?
+- **Incident Reports:** Track if departments with the most "near-misses" also have the highest turnover.
+- **Logic:** Explain how document analysis provides a baseline of "hard facts" to compare with subjective reports.
+
+### Option D: Ethnographic Observation
+
+**Method:** Researcher immersion in the ICU and ER environments over a 4-week period.
+
+**Hints for your design:**
+
+- **Micro-stressors:** Capture things doctors don't report (e.g., noise levels, broken equipment, interruptions).
+- **Communication Flow:** Observe how hierarchy affects interactions between departments.
+- **"Invisible Work":** Note time spent on administrative "scut work" versus patient care.
+- **Logic:** Address the value of seeing stressors in real-time rather than relying on memory.
+
 ---
 
 ## Scenario: "Hospital Hand Hygiene Compliance"
@@ -73,27 +95,49 @@ Surgical site infections (SSIs) have increased by 35%, potentially costing the h
 
 **Primary Question:** What is the actual hand hygiene compliance rate among different healthcare worker categories (surgeons, nurses, students) across different clinical settings (ICU, Wards)?
 
-### Option A: Overt Observation
+### Option A: Structured Survey Approach
 
-**Method:** Visible observers in clinical areas using standardized checklists.
+**Method:** Anonymous questionnaire on self-reported compliance and perceived barriers.
+
+**Hints for your design:**
+
+- **Social Desirability Bias:** How do you ask "do you wash your hands" without everyone just saying "yes"?
+- **Barrier Identification:** Design items to rank reasons for non-compliance (lack of time, skin irritation, sink distance).
+- **Knowledge vs. Action:** Test their knowledge of the "5 Moments" vs. their reported behavior.
+- **Logic:** Explain how surveys can reach the entire hospital staff quickly to identify cultural norms.
+
+### Option B: Focus Group Approach
+
+**Method:** Facilitated discussions with groups of surgeons, nurses, and residents.
+
+**Hints for your design:**
+
+- **Hierarchy:** Should you mix surgeons and students in the same group? Why or why not?
+- **Peer Pressure:** How do you explore "unspoken rules" (e.g., "we only wash when the Chief is watching")?
+- **System Fixes:** Ask staff to design their "ideal" hygiene station to identify structural flaws.
+- **Logic:** Focus on how group dynamics reveal collective attitudes that individual observations might miss.
+
+### Option C: Documentary Analysis
+
+**Method:** Audit of alcohol-based hand rub (ABHR) procurement vs. clinical activity logs.
+
+**Hints for your design:**
+
+- **Proxy Measures:** Can you calculate "liters per patient-day" across different wards?
+- **Temporal Trends:** Does compliance (gel use) drop during night shifts or high-admission periods?
+- **Correlation:** Link infection rate spikes in specific wards to their ABHR consumption records.
+- **Logic:** Address the "Gel consumption vs. true compliance" debate—is more gel always better?
+
+### Option D: Hybrid Observation (Overt/Covert)
+
+**Method:** Trained observers using standardized checklists in clinical areas.
 
 **Hints for your design:**
 
 - **WHO 5 Moments:** How will you code "before touching a patient" vs. "after"?
 - **The Hawthorne Effect:** How do you handle the fact that people act differently when they see you with a clipboard?
-- **Inter-rater Reliability:** How do you ensure two different observers count the same way?
-- **Checklist:** Design a grid that captures the *who*, the *when*, and the *how well*.
-
-### Option B: Covert/Hybrid Observation
-
-**Method:** Disguised observers or hidden cameras to capture baseline behavior.
-
-**Hints for your design:**
-
-- **Ethics:** How do you justify observing staff without their immediate knowledge? Think about "Deferred Consent."
-- **Camera Placement:** Where would you put a camera to see the sink but respect privacy?
-- **Technical Detail:** Can a camera see if they used enough soap and rubbed for 20 seconds?
-- **The "Ground Truth":** Explain why seeing "real behavior" outweighs the ethical complexity.
+- **Ethics:** If using covert observation, how do you justify it? Think about "Deferred Consent."
+- **Logic:** Explain why seeing "real behavior" is the gold standard for clinical compliance research.
 
 ---
 
@@ -107,9 +151,20 @@ Roma women in suburban Plovdiv attend prenatal care at much lower rates (43%) th
 
 **Primary Question:** What are the real barriers (economic, social, health system-related) preventing attendance, and how do they interact?
 
-### Option A: Focus Group Method
+### Option A: Structured Survey Approach
 
-**Method:** Facilitated discussions with Roma women who attended few or no visits.
+**Method:** Community-wide survey targeting Roma households in selected districts.
+
+**Hints for your design:**
+
+- **Language and Literacy:** How will you administer the survey if participants have varying literacy levels?
+- **Perception Items:** Design Likert scales to measure trust in the healthcare system and perceived discrimination.
+- **Accessibility:** Include items on distance, cost of transport, and "opportunity cost" (lost work time).
+- **Logic:** Explain how representative sampling can prove that barriers are structural, not just "cultural."
+
+### Option B: Focus Group Method
+
+**Method:** Facilitated discussions with Roma women and community health mediators.
 
 **Hints for your design:**
 
@@ -118,7 +173,7 @@ Roma women in suburban Plovdiv attend prenatal care at much lower rates (43%) th
 - **Social Norms:** Design prompts that explore what the *community* thinks about clinics, not just the individual.
 - **Logistics:** Think about childcare, transportation, and incentives to attend the session.
 
-### Option B: Documentary Analysis
+### Option C: Documentary Analysis
 
 **Method:** Systematic audit of medical records, appointment logs, and staff communications.
 
@@ -128,6 +183,17 @@ Roma women in suburban Plovdiv attend prenatal care at much lower rates (43%) th
 - **Structural Barriers:** Can you prove wait times are longer for certain districts through the database?
 - **Sanitization:** Address the fact that doctors don't write "I was rude" in the medical notes.
 - **Objectivity:** Explain how an audit trail provides "hard evidence" that interviews might miss.
+
+### Option D: Environmental Observation
+
+**Method:** "Mystery Shopper" or waiting room observation at the maternal clinics.
+
+**Hints for your design:**
+
+- **Atmosphere:** How does the clinic staff treat patients who arrive late or without documents?
+- **Visual Cues:** Are there signs in Romani? Is the waiting room welcoming or intimidating?
+- **The "Welcome":** Observe the first 120 seconds of the interaction—what is the non-verbal communication?
+- **Logic:** Justify how observing the *setting* explains why women might choose not to return.
 
 ---
 
@@ -141,7 +207,18 @@ Roma women in suburban Plovdiv attend prenatal care at much lower rates (43%) th
 
 **Primary Question:** What are the multilayered barriers preventing completion, and why do they become critical at specific time points (like Week 11)?
 
-### Option A: Individual In-Depth Interviews:
+### Option A: Structured Survey Approach
+
+**Method:** Standardized adherence screening tool (e.g., MMAS-8) applied to all current patients.
+
+**Hints for your design:**
+
+- **Timing:** At what Week (1, 4, 8, 11) do you administer the survey to catch "early warnings"?
+- **Psychosocial Items:** Include scales for depression, social support, and TB-related stigma.
+- **Self-Report Accuracy:** How do you design questions to reduce "faking good" (social desirability)?
+- **Logic:** Focus on identifying statistical "at-risk" profiles across a large population.
+
+### Option B: Individual In-Depth Interviews
 
 **Method:** Narrative interviews with both "Completers" and "Discontinuers."
 
@@ -152,15 +229,27 @@ Roma women in suburban Plovdiv attend prenatal care at much lower rates (43%) th
 - **Side Effects:** Move past "I felt sick" to how side effects interfered with their specific life (work, parenting).
 - **Comparison:** What did the "Completers" have that the others didn't (Support? Better education?)?
 
-### Option B: Documentary Analysis
+### Option C: Documentary Analysis
+
 **Method:** Analysis of treatment cards, side effect reports, and social work assessments.
 
 **Hints for your design:**
 
 - **Predictors:** Can you find a "red flag" in the early notes that predicts who will quit later?
-- **Documentation Gaps:** If a patient quit, did the staff *actually* record any follow-up attempts or social assessments?
+- **Documentation Gaps:** If a patient quit, did the staff *actually* record any follow-up attempts?
 - **Side Effect Mapping:** Track the correlation between documented nausea/hepatitis and the date of discontinuation.
-- **Power:** Explain how analyzing the *entire* 2024 cohort (150 patients) is stronger than small interview samples.
+- **Power:** Explain how analyzing the *entire* 2024 cohort (150 patients) is stronger than small samples.
+
+### Option D: Direct Observation (DOT) Session Analysis
+
+**Method:** Observation of "Directly Observed Therapy" interactions at the dispensary.
+
+**Hints for your design:**
+
+- **Interaction Quality:** Does the nurse just "watch them swallow" or do they ask about side effects?
+- **Patient Burden:** Observe the time it takes for a patient to travel, wait, and get their dose.
+- **Verbal vs. Non-verbal:** Do patients look hesitant or rushed during the interaction?
+- **Logic:** Justify how observing the *delivery* of the drug helps explain the decision to quit.
 
 ### Evaluation Criteria:
 
