@@ -1,0 +1,120 @@
+---
+title: "Demography Indices and the Physician's Role in Registration"
+author: "Kostadin Kostadinov"
+date: 2026-02-22
+description: "An in-depth 15-minute reading material on demographic indices, population structures, and the legal framework for birth and death registration in public health."
+categories: 
+  - "English"
+  - "Demography"
+  - "Social Medicine"
+  - "Public Health"
+  - "Registration"
+---
+
+# Demography: Scope and Origins
+
+The word *demography* derives from two Greek roots — *δῆμος* (*demos*, people) and *γράφейн* (*graphein*, to write) — and denotes the science concerned with the analysis of population size, distribution, structure, characteristics, and change over time. Though its roots are interdisciplinary, drawing substantially from sociology, economics, statistics, geography, biology, medicine, and human genetics, demography functions as a coherent discipline with its own analytical methods and theoretical frameworks.
+
+The discipline's modern origins trace to seventeenth-century London, where parish priests were required to compile weekly lists of deaths from plague — records known as the **Bills of Mortality**. From these administrative documents, John Graunt (1620–1674), a cloth merchant with no formal scientific training, produced in 1662 his *Natural and Political Observations Made upon the Bills of Mortality*, a work recognised as the founding text of demographic analysis. Graunt demonstrated that populations exhibit regularities across births, deaths, and age structure that can be quantified and compared — an insight that would define the discipline for centuries.
+
+Demography examines populations along three interrelated dimensions. **Demographic statics** describes the size and composition of a population at a given moment: its age, sex, ethnicity, educational attainment, civil status, and spatial distribution. **Demographic dynamics** analyses the processes that alter this composition over time — births, deaths, marriages, and migration. The third dimension concerns the **relationships** between these structural and dynamic features and the broader social, economic, and physical environments in which populations exist. Together, these three domains provide the conceptual architecture for understanding population health.
+
+# The Demographic Transition Model
+
+The **Demographic Transition Model (DTM)**, initially formulated by American demographer Warren Thompson in 1929 and elaborated by Frank Notestein in 1945, describes the historical trajectory from high-fertility, high-mortality pre-industrial societies to low-fertility, low-mortality post-industrial ones. The model identifies five stages.
+
+In **Stage 1**, birth and death rates are both high and roughly balanced, producing stable but low population growth. Disease, famine, and war keep mortality elevated, and large families are both a cultural norm and an economic necessity. No country remains in this stage today. In **Stage 2**, death rates fall — driven by improved sanitation, nutrition, and public health measures — while birth rates remain high, producing rapid population growth. Many sub-Saharan African nations passed through this stage in the twentieth century. **Stage 3** is characterised by falling birth rates as education, urbanisation, women's labour force participation, and access to contraception change reproductive behaviour; population growth decelerates. In **Stage 4**, birth and death rates both stabilise at low levels, yielding demographic equilibrium. **Stage 5**, which many European and East Asian nations now occupy, is defined by below-replacement fertility — birth rates that are insufficient to sustain the population without immigration — and by the progressive ageing of the population structure.
+
+Bulgaria currently exhibits the characteristics of Stage 5: a crude birth rate of 8.3 per 1,000 (2024), a total fertility rate well below the replacement threshold of 2.1, and a rapidly ageing population in which 24.0% of residents are aged 65 or over.
+
+# Demographic Statics: Population Size and Structure
+
+Population size is the most fundamental demographic measure. In Bulgaria, the population as of 31 December 2023 was **6,445,481**, representing 1.4% of the European Union total, at a density of 58.1 persons per km². Population change between any two time points is governed by the **demographic (balance) equation**:
+
+$$P_x = P_{x-1} + B - D + I - E$$
+
+where $P_x$ is the population at the end of year $x$, $B$ is births, $D$ is deaths, $I$ is immigrants, and $E$ is emigrants. This equation makes explicit that population change has only two sources — natural increase (the balance of births and deaths) and net migration (the balance of immigration and emigration).
+
+The primary source of static population data is the **census** — a comprehensive statistical enumeration of all persons within a defined territory at a defined moment. Censuses adhere to principles of state funding, territorial precision, individual enumeration, simultaneity, and periodicity (at least every ten years). In Bulgaria, the National Statistical Institute (NSI) supplements census data with the population register and the register of civil status acts.
+
+## Age–Sex Structure and Population Pyramids
+
+Among all demographic characteristics, age and sex are the most fundamental. Their joint distribution is visualised through the **population pyramid** — a back-to-back bar chart with males on one side and females on the other, age groups ascending from the base. Three canonical forms exist. The **expansive pyramid** has a wide base and narrowing apex, characteristic of high-fertility populations with rapid growth (typical of Stage 2). The **stationary pyramid** exhibits roughly equal breadth across age groups, reflecting demographic equilibrium. The **constrictive pyramid** has a narrow base and broad upper sections — the form seen in ageing, below-replacement societies such as contemporary Bulgaria.
+
+The **sex ratio (SR)** is calculated as SR = F/M, expressing the number of women per man in the population. More males are born than females (a ratio of approximately 1.05 at birth globally), but higher male mortality across the life course reverses this balance in older age groups. In Bulgaria, the overall SR is 1.08.
+
+## Dependency Ratios and Ageing Indices
+
+Several composite indices describe the relationship between productive and dependent age groups. The **child dependency ratio** expresses children aged 0–14 per 100 persons of working age (15–64). The **old-age dependency ratio** expresses persons aged 65 and over per 100 working-age persons. Their sum is the **total dependency ratio**. The **ageing index** — persons aged 65 and over per 100 children aged 0–14 — reveals the relative magnitude of the elderly versus young population. A supplementary measure, the **caretaker ratio**, counts persons aged 80 and over per 100 women aged 50–64, reflecting the informal care burden concentrated in mid-life women. Finally, the **replacement ratio** compares those entering working age (15–19 years) to those leaving it (60–64 years); Bulgaria's replacement ratio stood at 69 as of 31 December 2022, signalling that fewer than seven young workers enter the labour force for every ten retiring.
+
+The mean age of Bulgaria's population reached **45.2 years**, with a marked rural–urban differential (47.6 versus 44.5 years) reflecting the concentration of youth in cities and the progressive depopulation of rural areas through emigration.
+
+# Demographic Dynamics: Migration
+
+Population change over time results from natural processes (births and deaths) and from **migration** — the spatial dimension of demographic dynamics. Migration is defined by three criteria: it must involve a permanent or semi-permanent change of residence, cross an administrative boundary, and occur within a defined period.
+
+Migration is classified as **external** (between countries — emigration and immigration) or **internal** (within a country — rural-to-urban, urban-to-rural, and so forth). Internal migration in Bulgaria has concentrated population in larger urban centres, especially Sofia, while peripheral rural regions have experienced accelerated demographic decline. External migration — primarily emigration to Western Europe — has removed disproportionately young, educated individuals from the Bulgarian population, accelerating ageing and reducing the reproductive cohort.
+
+External migration is quantified through several rates. The **inward migration rate** (arrivals ÷ mid-year population × 1,000) and **outward migration rate** (departures ÷ mid-year population × 1,000) capture the magnitude of each direction separately. The **net migration rate** (arrivals minus departures, divided by mid-year population) indicates whether migration adds to or subtracts from the population. The **gross migration rate** (sum of absolute arrivals and departures divided by mid-year population) captures overall population turnover. The **migration effectiveness ratio** — net divided by gross rate — indicates the degree of directionality: values near 1.0 describe strongly unidirectional flows, while values near 0.0 indicate balanced circular movement.
+
+## Health Effects of Migration by Type
+
+The health consequences of migration vary substantially by its type and circumstances. **Voluntary international migrants** tend to be younger and healthier than the populations they leave — a phenomenon termed the *healthy migrant effect* — but their chronic disease risk profile gradually shifts toward that of the host country through changes in diet, environment, and lifestyle. Japanese migrants to Hawaii and California, for example, showed declining stomach cancer rates but increasing colorectal cancer rates, mirroring the US pattern. Modern air travel also enables persons incubating infections to cross continents before clinical signs appear, as illustrated by the global spread of SARS in 2002–2003.
+
+**Forced migrants** — refugees and displaced persons — face a sharply different health landscape. Overcrowded, under-resourced displacement camps create conditions for epidemic transmission of communicable diseases; the 1994 Rwandan refugee crisis precipitated devastating cholera and dysentery outbreaks in Zaire. Malnutrition compounds immune suppression, and exposure to violence generates a high burden of psychological trauma. **Rural-to-urban internal migrants** frequently settle in informal periurban settlements where inadequate sanitation facilitates waterborne disease, air pollution increases respiratory disease risk, and overcrowded housing accelerates tuberculosis transmission. Socially disrupted urban environments are also associated with altered sexual networks and elevated HIV/STI transmission. **Trafficked individuals** — subject to forced sexual exploitation or labour — face elevated risk of physical abuse, occupational harm, and sexually transmitted infections. Finally, **animal and vector migration**, whether through the international livestock trade, wildlife movement, or climate-driven range expansion, carries zoonotic pathogens across boundaries — ticks carrying Crimean-Congo haemorrhagic fever travel with migratory birds, while the *Aedes albopictus* mosquito has colonised new continents partly through global shipping, bringing dengue and chikungunya with it.
+
+# Natality: Definitions and Legal Framework
+
+**Fertility** — the actual reproductive performance of a population — is the primary determinant of age structure and the driver of long-term population growth or decline. Under Bulgarian law (Ordinance No. 9 of 27 April 2021, Medical Standard "Obstetrics and Gynaecology"), a **birth** is defined as the complete expulsion or extraction of the product of conception that is *potentially viable* — meaning it derives from a pregnancy that has reached **25+0 gestational weeks** and/or the fetus weighs **700 grams or more**. A fetus expelled below 25 gestational weeks receives full resuscitative care and is recorded as a birth only after **surviving 72 hours**. A fetus that shows no signs of blood circulation is designated a stillbirth (*foetus mortuus*). **Abortion** refers to loss or termination of pregnancy before these viability thresholds are met and is classified as voluntary, spontaneous, therapeutic (TToP), or criminal. **Premature birth** is delivery before 37 completed gestational weeks (fewer than 259 days).
+
+## Natality Indicators
+
+The **crude birth rate (CBR)** — the number of live births per 1,000 population per year — is the most widely used indicator of natality. Rates below 15‰ are classified as low, 15–25‰ as average, and above 25‰ as high. Bulgaria's CBR in 2024 was 8.3‰ — firmly in the low category. The CBR, however, is sensitive to the age structure of the whole population and therefore provides limited insight into reproductive behaviour itself.
+
+The **total fertility rate (TFR)** addresses this by summing age-specific fertility rates across the reproductive lifespan (ages 15–49), estimating the average number of children a woman would bear over her lifetime under current fertility conditions. The replacement-level TFR in low-mortality populations is approximately 2.1 children per woman. The **net reproduction rate (NRR)** focuses specifically on female generational replacement. An NRR of 1 indicates exact replacement; values below 1 indicate that daughters are insufficient in number to replace their mothers' generation; values above 1 indicate above-replacement fertility.
+
+# Factors Determining Fertility
+
+Fertility rates are determined through a cascade of **proximate determinants** — the immediate biological and behavioural mechanisms through which all social and environmental influences ultimately operate.
+
+The first domain concerns **intercourse variables**: the age at union formation, the proportion of individuals who remain permanently single, time spent outside stable unions due to separation or widowhood, and the frequency of sexual intercourse. Later age at marriage and lower rates of union formation directly reduce fertility in populations where childbearing remains concentrated within partnerships. The second domain covers **conception variables**: use of contraception and voluntary sterilisation, involuntary infecundity (which increases with maternal age and can result from malnutrition or sexually transmitted infections), and breastfeeding-induced postpartum amenorrhoea, which temporarily suppresses ovulation. The third domain encompasses **gestation variables**: involuntary fetal mortality through miscarriage and stillbirth (risk increasing with maternal age), and voluntary fetal mortality through induced abortion.
+
+Beyond these proximate mechanisms, fertility is shaped by the **size of the reproductive cohort** (women aged 15–49), and by socioeconomic background factors — wealth, urbanisation, women's educational attainment, and the structure of the economy — that alter desired family size and drive adoption of contraception.
+
+# Mortality: Definitions, Confirmation, and Registration
+
+**Death** is defined as the irreversible cessation of life functions. Bulgarian law (Ordinance No. 21/2015) distinguishes two pathways. Death through **permanent and irreversible cessation of circulatory and respiratory functions** is established by physical examination demonstrating: palpable absence of pulse in both carotid and both femoral arteries; auscultatory absence of cardiac activity; absence of respiratory movements on visual observation; and absence of breath sounds on bilateral chest auscultation. An ECG may support but cannot alone confirm this finding. **Brain death** — permanent and irreversible cessation of all brain functions with maintained cardiac activity — is established exclusively in medical establishments authorised for organ procurement, by a standing commission of three physicians (specialised in anaesthesiology–intensive care, neurology, neurosurgery, or radiology), requiring unanimous agreement after two clinical examinations at least 12 hours apart. Instrumental confirmation of absent cerebral blood flow is obligatory in children under 6 years. The legal time of death in brain death is the moment of the **apnoea test**.
+
+## Death Registration
+
+The **death certificate** (*акт за смърт*) is drawn up on the basis of a written **Cause-of-Death Statement** (Medical Certificate of Cause of Death, per Ordinance No. 42/2004, ICD-10), a court decision, or a copy from a diplomatic or foreign civil status authority. The statement is submitted *immediately* to the civil status official of the municipality where death occurred (Art. 25). The death certificate must be drawn up within **48 hours** of death; in cases based on court decisions or foreign documents, within 7 days of document receipt. A death certificate cannot be drawn up for a person of unestablished identity (Art. 26).
+
+The Cause-of-Death Statement is completed in **triplicate**: the first copy goes to the civil registry official; the second to the **Regional Health Inspectorate** within two months (for ICD-10 coding and onward transmission to NSI territorial statistical bureaux); the third is retained by the certifying physician or the medical establishment. Medical establishments send monthly death counts to the respective Regional Health Inspectorate.
+
+# Factors Determining Mortality
+
+Mortality is shaped by three overlapping groups of determinants. **Biological and demographic factors** include age — mortality follows a J-shaped curve, highest in infancy, lowest in youth, rising progressively thereafter — sex (women globally outlive men, reflecting both biological and behavioural advantages), and baseline health status including genetic predisposition and acquired immunity.
+
+**Environmental and social determinants** include malnutrition, which suppresses immune function and amplifies mortality from otherwise treatable infections; population density, inadequate sanitation, unsafe water, and air pollution, which facilitate communicable disease transmission; and socioeconomic status, with poverty consistently associated with elevated mortality through multiple pathways including exposure to hazards, poor living conditions, and reduced access to healthcare. **Behavioural and lifestyle factors** — tobacco smoking, physical inactivity, poor diet, and excessive alcohol consumption — are the primary drivers of premature mortality in more-developed countries.
+
+The **proximate causes** of death differ systematically by level of development. In less-developed settings, communicable diseases dominate: lower respiratory infections, diarrhoeal diseases, HIV/AIDS, tuberculosis, malaria, and maternal/perinatal conditions. In more-developed settings, non-communicable diseases predominate: cardiovascular disease, cancers, chronic respiratory disease, and diabetes, with accidents and injuries representing a further significant component. Bulgaria's mortality profile is characteristic of European patterns, with circulatory system diseases accounting for a death rate of 948.5 per 100,000 population in 2024, followed by neoplasms and respiratory diseases.
+
+# Mortality Indicators
+
+The **crude death rate (CDR)** — deaths per 1,000 population — is the most basic mortality measure. Rates below 10‰ are low, 10–15‰ average, above 15‰ high. Bulgaria's CDR in 2024 was **15.6‰**. The CDR is heavily influenced by population age structure and therefore requires careful interpretation in comparative contexts; age-standardised rates are necessary when comparing populations with different age distributions.
+
+**Life expectancy at birth** summarises the entire age-specific mortality experience of a population into a single figure — the average years of life expected for a newborn if current mortality rates persist. It serves as an integrative indicator of population health, reflecting living conditions, nutrition, healthcare quality, and socioeconomic development. **Premature mortality** — deaths occurring before age 65 — represents a particularly important indicator of preventable mortality burden; in Bulgaria in 2024, premature deaths accounted for 20.2% of all deaths, with marked sex differential (13.0% of female deaths versus 27.0% of male deaths).
+
+Additional indicators include the **cause-specific mortality rate** (deaths from a given disease per 1,000 population), the **case fatality rate** (deaths from a disease per number of cases of that disease), and **proportionate mortality** (deaths from a specific cause as a proportion of all deaths).
+
+# Infant Mortality
+
+Infant mortality — deaths occurring within the first year of life — is among the most sensitive indicators of population health, reflecting the quality of maternal and child care, socioeconomic conditions, and the effectiveness of preventive health programmes. The **infant mortality rate (IMR)** expresses deaths under one year per 1,000 live births. Classification levels range from very low (below 10‰) through low (10–14.99‰), average (15–24.99‰), high (25–49.99‰), to very high (50‰ and above). Bulgaria's IMR in 2024 was 4.5 per 1,000 live births.
+
+The first year of life is subdivided into periods with distinct risk profiles. The **perinatal period** spans from the 25th completed gestational week through the first 6 days of postnatal life; the perinatal mortality rate combines stillbirths and early neonatal deaths per 1,000 total births (Bulgaria 2024: 7.3‰). The **neonatal period** covers days 1 through 27, with the neonatal mortality rate expressing deaths in this interval per 1,000 live births (Bulgaria 2024: 2.7‰); it is further divided into early neonatal (days 0–6) and late neonatal (days 7–27) sub-periods. The **post-neonatal period** extends from day 28 through the end of the first year; its mortality rate (Bulgaria 2024: 1.7‰) excludes deaths within the first 28 days. **Maternal mortality** — deaths of women related to pregnancy per 1,000 births — measures the safety and quality of obstetric care. The **stillbirth rate** counts stillbirths per 1,000 total births.
+
+# Demographic Policy
+
+**Demographic policy** is the purposeful management of demographic processes through legal, economic, and social mechanisms designed to influence fertility, mortality, migration, or population distribution. Three main orientations exist. **Pronatalist policy** aims to increase birth rates and is characteristic of countries facing below-replacement fertility and population ageing; it is currently adopted by more than half of the EU member states. **Antinatalist policy** aims to reduce birth rates in response to rapid population growth and resource constraints, and has become less common as global fertility has declined. **Liberal policy** declines to set numerical fertility targets, instead creating enabling conditions for individuals to realise their own reproductive intentions while combining elements of both approaches.
+
+In Bulgaria, the **Council of Ministers** leads demographic policy, while the **Ministry of Labour and Social Policy (MLSP)** coordinates and oversees implementation and is responsible for analysing, evaluating, and forecasting demographic processes. Policy instruments include financial compensation and child benefits, childcare facility networks, maternal and child health programmes, legal protection of women's reproductive capacity, harmonisation of employment and parenthood, and support for assisted reproductive technologies. Implementation operates across national, regional (with targeted interventions for deteriorating regions such as the Northwest), local (such as Plovdiv Municipality's support for infertility treatment), and business-sector levels (additional parental leave, flexible scheduling, workplace childcare).

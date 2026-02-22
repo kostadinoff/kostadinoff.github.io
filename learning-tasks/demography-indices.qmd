@@ -1,0 +1,154 @@
+---
+title: "Demography and Population Health"
+author: "Kostadin Kostadinov"
+date: 2026-02-22
+description: "Interactive case studies and problem-based learning tasks on demographic indices, population structures, and the legal registration of births and deaths."
+categories: 
+  - "Demography"
+  - "Registration"
+  - "Public Health"
+  - "Assignment"
+---
+
+# Practical Class Instructions:
+
+This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. Each group will work through a specific case study to calculate demographic indices, interpret population trends, and navigate the legal requirements for civil status registration.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Demography Indices and the Physician's Role in Registration](../15-minute-learning/demography-indices.qmd). All calculations and legal justifications must reference concepts and ordinances from this text.*
+
+### General Instructions for Students
+
+Each group will independently solve a distinct demographic problem. Your task is to:
+
+1.  **Perform the Calculations**: Solve the requested indices in sequence using the provided formulas. Show all working.
+2.  **Interpret the Results**: Relate the numbers to the demographic stages and assessment categories (low/high/average).
+3.  **Address the Discussion Questions**: Formulate brief, evidence-based answers (3–5 sentences) for class presentation.
+
+---
+
+## Case Study 1: "The Invisible Influx"
+
+### Migration as the Hidden Driver of Population Growth
+
+**Scenario:** The nation of *Arcadia* has a low birth rate and ageing population, yet cities are overcrowding. Clinics are overwhelmed by undocumented residents. The Ministry of Health needs to understand the true source of this growth.
+
+| Parameter | Value |
+|-----------|-------|
+| Population at start of year ($P_{x-1}$) | 10,000,000 |
+| Population at end of year ($P_x$) | 10,060,000 |
+| Live births during the year ($B$) | 100,000 |
+| Deaths during the year ($D$) | 90,000 |
+
+**Your Task:**
+
+1.  Calculate **Natural Increase** absolute ($B - D$).
+2.  Use the **Demographic Balance Equation** to find **Net Migration** ($M$): $P_x = P_{x-1} + B - D + M$.
+3.  Calculate **Crude Birth Rate (CBR)** and **Crude Death Rate (CDR)** per 1,000 population. State their assessment categories.
+4.  Calculate **Net Migration Rate** per 1,000 population.
+
+**Discussion Hints:**
+
+- Compare natural increase vs. net migration: Which is the "engine" of growth?
+- How does a "young adult" labor migration shift the population pyramid?
+- What are the risks of a "hidden" population for infectious disease surveillance (e.g., vaccine coverage)?
+
+---
+
+## Case Study 2: "The Silver Tsunami"
+
+### Quantifying the Burden of Population Ageing
+
+**Scenario:** *Nipponica* has exceptional life expectancy, but the workforce is shrinking. Planners need a full demographic profile to justify evidence-based reforms to the national health insurance.
+
+| Age group | Population |
+|-----------|------------|
+| Under 15 years | 15,000,000 |
+| 15 to 64 years (working age) | 70,000,000 |
+| 65 years and older | 35,000,000 |
+| **Total** | **120,000,000** |
+
+*Special Data:* $80+$ years $= 8.4M$; Women $50-64 = 9.6M$.
+
+**Your Task:**
+
+1.  Calculate **Child Dependency Ratio (CDR)** and **Old-Age Dependency Ratio (OADR)**.
+2.  Calculate **Total Dependency Ratio**. Interpret: how many dependents per 100 workers?
+3.  Calculate the **Ageing Index**.
+4.  Calculate the **Caretaker Ratio** ($P_{80+} / F_{50-64} \times 100$).
+
+**Discussion Hints:**
+
+- Which ratio best communicates "fiscal pressure" to a politician?
+- How does the "infrastructure of care" change when a population moves from Stage 4 to Stage 5?
+- Discuss "Compression of Morbidity": Do the numbers tell the whole story of disability?
+
+---
+
+## Case Study 3: "The Vulnerable Generation"
+
+### High Fertility, Infant Mortality, and the Demographic Trap
+
+**Scenario:** *Equatoria* is a developing region with rapid growth. Infant mortality is catastrophic, and maternal wards are overwhelmed. You must prioritize resources for the regional health authority.
+
+| Parameter | Value |
+|-----------|-------|
+| Total mid-year population | 5,000,000 |
+| Live births | 200,000 |
+| Deaths < 1 year | 16,000 |
+| Deaths < 28 days | 9,600 |
+| Stillbirths | 4,000 |
+| Women aged 15–49 | 1,200,000 |
+
+**Your Task:**
+
+1.  Calculate **Crude Birth Rate (CBR)** and **General Fertility Rate (GFR)**.
+2.  Calculate **Infant Mortality Rate (IMR)**. State its assessment level (Very Low to Very High).
+3.  Calculate **Neonatal** and **Post-neonatal Mortality Rates**. What causes do these suggest?
+4.  Calculate **Perinatal Mortality Rate**. (Assume early neonatal deaths are 60% of total neonatal deaths).
+
+**Discussion Hints:**
+
+- Explain the "Demographic Trap": Why does high infant mortality prevent family planning?
+- Reframe contraception as a *clinical* intervention for infant survival (birth intervals).
+- Identify the "low-hanging fruit": Is it cleaner water or better NICUs that this data calls for?
+
+---
+
+## Case Study 4: "The Reversed Transition"
+
+### Below-Replacement Fertility and Excess Male Mortality
+
+**Scenario:** *Borealis* is shrinking. Fertility is "lowest-low," and middle-aged men are dying at high rates from preventable causes (cirrhosis, lung cancer). Classical transition theory is being defied.
+
+| Parameter | Value |
+|-----------|-------|
+| Total mid-year population | 140,000,000 |
+| Live births | 1,400,000 |
+| Total deaths | 1,960,000 |
+| Premature deaths (< 65 yrs) | 470,400 |
+| Male / Female deaths | 1.078M / 0.882M |
+| Total Fertility Rate (TFR) | 1.3 |
+
+**Your Task:**
+
+1.  Calculate **Crude Birth Rate** and **Crude Death Rate**.
+2.  Calculate the **Rate of Natural Increase (RNI)**. Interpret a negative result.
+3.  Calculate **Proportion of Premature Deaths**. (Assume 70% of premature deaths are male).
+4.  Calculate the **Male-to-Female Death Ratio**.
+
+**Discussion Hints:**
+
+- Contrast the "Proximate Causes" of death in Borealis vs. Equatoria.
+- What is the "economic suicide" of lowest-low fertility combined with male premature mortality?
+- Evaluate pronatalist policy vs. public health lifestyle interventions: Which yields results faster?
+
+---
+
+## Evaluation Criteria:
+
+- **Mathematical Accuracy (40%):** Correct application of formulas and selection of denominators.
+- **Demographic Interpretation (30%):** Correct categorization of rates according to the reading material.
+- **Critical Synthesis (20%):** Integration of legal (Bulgarian Ordinance) and social concepts in the final task.
+- **Professional Communication (10%):** Clarity and precision of group presentation.
