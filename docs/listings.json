@@ -2,17 +2,19 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/demography-indices.html",
       "/learning-tasks/sociological-research-methods.html"
     ]
   },
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/demography-indices.html",
       "/15-minute-learning/sociological-research-methods.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W7-en.html",
       "/epinews-posts/2026-W6-en.html",
@@ -34,7 +36,7 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W7-en.html",
       "/epinews-posts/2026-W6-en.html",

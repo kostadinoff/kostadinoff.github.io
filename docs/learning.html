@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c4c4011f5b892ce9b4a6911cb10ad1e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -144,6 +145,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
@@ -229,7 +232,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW5nbGlzaA==">English <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVkaWNhbCUyMFNvY2lvbG9neQ==">Medical Sociology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBNZXRob2Rz">Research Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwTWVkaWNpbmU=">Social Medicine <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGVtb2dyYXBoeQ==">Demography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW5nbGlzaA==">English <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVkaWNhbCUyMFNvY2lvbG9neQ==">Medical Sociology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVnaXN0cmF0aW9u">Registration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBNZXRob2Rz">Research Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwTWVkaWNpbmU=">Social Medicine <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -259,7 +262,41 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="RW5nbGlzaCUyQ01lZGljYWwlMjBTb2Npb2xvZ3klMkNSZXNlYXJjaCUyME1ldGhvZHMlMkNTb2NpYWwlMjBNZWRpY2luZSUyQ1B1YmxpYyUyMEhlYWx0aA==" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1771396364733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1786">
+<div class="g-col-1" data-index="0" data-categories="RW5nbGlzaCUyQ0RlbW9ncmFwaHklMkNTb2NpYWwlMjBNZWRpY2luZSUyQ1B1YmxpYyUyMEhlYWx0aCUyQ1JlZ2lzdHJhdGlvbg==" data-listing-date-sort="1771711200000" data-listing-file-modified-sort="1771764697577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3192">
+<a href="./15-minute-learning/demography-indices.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Demography Indices and the Physician’s Role in Registration
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5nbGlzaA=='); return false;">English</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2dyYXBoeQ=='); return false;">Demography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U29jaWFsJTIwTWVkaWNpbmU='); return false;">Social Medicine</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwSGVhbHRo'); return false;">Public Health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVnaXN0cmF0aW9u'); return false;">Registration</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An in-depth 15-minute reading material on demographic indices, population structures, and the legal framework for birth and death registration in public health.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Kostadin Kostadinov
+</div>
+<div class="listing-date">
+Feb 22, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RW5nbGlzaCUyQ01lZGljYWwlMjBTb2Npb2xvZ3klMkNSZXNlYXJjaCUyME1ldGhvZHMlMkNTb2NpYWwlMjBNZWRpY2luZSUyQ1B1YmxpYyUyMEhlYWx0aA==" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1771762822724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1786">
 <a href="./15-minute-learning/sociological-research-methods.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -352,13 +389,14 @@ Feb 15, 2026
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
