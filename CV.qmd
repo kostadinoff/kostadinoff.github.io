@@ -31,6 +31,10 @@ format-links: [pdf]
 
 # Education
 
+`November 2025 - Present`
+
+- Resident Physician in Infectious Disease Epidemiology | Department of Epidemiology and Disaster Medicine | MU-Plovdiv
+
 `April 2022 - May 2025`
 
 - National Medical Board Certification | Medical specialty ‘Social Medicine and Organization of Health Care and Pharmacy’ | MU-Plovdiv
@@ -64,10 +68,6 @@ format-links: [pdf]
 # Work experience
 
 # Professional Experience
-
-`November 2025 - Present`
-
-- Resident Physician in Infectious Disease Epidemiology
 
 `July 2025 - Present`
 
