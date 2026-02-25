@@ -1,0 +1,113 @@
+---
+title: "Epidemiological News: Week 8, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-02-25
+description: "Week 8 of 2026 (16–22 February) presents a complex epidemiological picture characterized by several converging signals of public health concern. In Bulgaria, acute viral hepatitis continues its sustained and dramatic elevation above prior-year baselines, with year-to-date case counts 127% above the equivalent period in 2025; scarlet fever surged 50% week-over-week to 111 cases, while campylobacteriosis doubled in a single week and now runs 137% above last year's cumulative burden. Gonorrhea and urogenital chlamydial infection show marked year-over-year increases, signaling a persistent upward trend in bacterial STIs. At the European level, influenza activity is declining from its seasonal peak but respiratory viruses remain broadly elevated; mpox clade Ib transmission within MSM sexual networks is accelerating across multiple EU/EEA countries, now complicated by the detection of a clade Ib/IIb recombinant strain in the United Kingdom and India. Globally, a new human case of avian influenza A(H5N1) was confirmed in Cambodia, and a human case of A(H10N3) in China continues under monitoring. No significant communicable disease events were detected in the context of the Milan Winter Olympic Games."
+categories:
+  - "English"
+title-meta: "Epidemiological News: Week 8, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-02-25
+---
+
+## Infectious Diseases: Global Perspective
+
+### Respiratory and Droplet Transmission
+
+#### Avian Influenza A(H5N1)
+
+A new human case of avian influenza A(H5N1) was confirmed on 14 February 2026 in an adult male from Teuk Chhou district, Kampot province, Cambodia — the first such case reported from that country in 2026. The patient developed fever, cough, and abdominal pain following exposure to backyard poultry that had died at his residence; the carcasses were reportedly prepared and consumed three days prior to symptom onset, consistent with the typical direct-contact route of infection. The patient made a full recovery by the date of laboratory confirmation. Close contacts received antiviral prophylaxis with oseltamivir, and no secondary cases were identified among them.
+
+Avian influenza A(H5N1) is a zoonotic pathogen maintained primarily in wild aquatic birds and domestic poultry, with sporadic spillover to humans occurring through direct contact with infected animals, their secretions, or contaminated environments. The incubation period in humans is typically two to five days. Clinical presentation ranges from mild upper respiratory symptoms to severe pneumonia, acute respiratory distress syndrome, and multiorgan failure, with a global case fatality rate of approximately 48% since 2003. The current case is consistent with clade 2.3.2.1c, which has been enzootic in Cambodian poultry and has been responsible for the majority of human cases detected in that country; Cambodia has now reported a cumulative total of 91 human cases with 52 deaths (CFR: 57.1%) since 2003.
+
+Since 2003 and as of 16 February 2026, 994 confirmed human cases have been reported globally across 25 countries, with 476 deaths (CFR: 47.9%). No sustained human-to-human transmission has been detected. ECDC's risk assessment for the general population in the EU/EEA remains low, with direct animal contact representing the primary route of exposure. The pattern of severe disease and deaths observed in Asia and the Americas in individuals with unprotected contact with infected backyard poultry continues to underscore the vulnerability of rural populations engaged in small-scale poultry keeping.
+
+#### Avian Influenza A(H10N3)
+
+An update was provided during Week 8 for a human case of avian influenza A(H10N3) in a 34-year-old man from Guangdong province, China, first reported on 10 February 2026. The patient developed symptoms on 29 December 2025, was hospitalized, and remains in stable condition as of 20 February 2026. Exposure to live poultry was reported prior to symptom onset. This represents the third human case of A(H10N3) reported in 2025 and the seventh globally since 2021; all confirmed cases have occurred in adults in China across multiple provinces, and no human-to-human transmission has been documented. The risk to human health in the EU/EEA is assessed as very low. The absence of secondary cases across all seven documented instances is reassuring, though the recurrent detection of novel avian influenza subtypes in humans warrants continued surveillance.
+
+### Contact and Sexual Transmission
+
+#### Mpox — Clade Ib/IIb Recombinant Strain
+
+On 14 February 2026, WHO published a Disease Outbreak News item describing two human cases infected with a recombinant strain of monkeypox virus (MPXV) carrying genomic elements of both clade Ib and clade IIb. The cases were identified in the United Kingdom (reported December 2025) and India (reported January 2026), with the Indian case representing the earliest known detection; the UK case had travel history to the Asia-Pacific region in October 2025, while the Indian case had travel history to the Arabian Peninsula with symptom onset in September 2025. Phylogenetic analysis revealed greater than 99.9% genomic similarity between the two recombinant strains, confirming they represent the same lineage.
+
+The emergence of a recombinant MPXV strain is not unexpected given concurrent global circulation of clade I and clade II viruses in overlapping transmission networks, particularly among men who have sex with men, which creates conditions favorable for co-infection and intra-host recombination. The origin of the recombinant virus remains unknown, but transmission has already involved at least four countries across three WHO regions. Critically, no conclusions about altered transmissibility or clinical severity of the recombinant strain can yet be drawn from two cases. Both cases presented with clinical features consistent with non-recombinant clade I or clade II infection. ECDC has emphasized that these events highlight the ongoing evolutionary potential of MPXV and the indispensability of comprehensive genomic surveillance — continued sequencing of all positive cases and deposition of sequences in public repositories (ENA, SRA, GISAID EpiPox) is essential for tracking recombinant lineage spread.
+
+---
+
+## Infectious Diseases: European Union / European Economic Area
+
+### Respiratory and Droplet Transmission
+
+#### Influenza and Respiratory Viruses
+
+Respiratory virus circulation remains broadly elevated across the EU/EEA in Week 8, though the seasonal influenza peak has passed and activity has been declining since the start of the year. Primary care consultation rates for influenza-like illness and acute respiratory infection remain above baseline in the majority of reporting countries: across 20 reporting Member States, 17 countries recorded widespread influenza transmission and 3 reported regional spread. Pooled influenza test positivity in primary care settings stood at 25% (median; IQR 19–48%) based on 17 reporting countries in Week 7, down from 21 countries in Week 6, reflecting a genuine decline in transmission rather than a reporting artifact.
+
+Influenza A remains overwhelmingly dominant, accounting for virtually all typed influenza detections; A(H3) constitutes approximately 59% of subtyped viruses, with subclade 2a.3a.1(K) representing 90% of A(H3) detections, followed by A(H1)pdm09 at 41% of Influenza A, where subclade 5a.2a.1(D.3.1) accounts for 99% of A(H1) subtyping. Hospitalizations attributable to severe acute respiratory infection have decreased since the January peak, with adults aged 65 years and above continuing to account for the majority of influenza-associated admissions throughout the 2025/26 season. Hospital SARI influenza test positivity was 22% (median; IQR 11–26%) across nine reporting countries in Week 7.
+
+Respiratory syncytial virus (RSV) circulation remains elevated and heterogeneous across Member States, with pooled primary care test positivity at 9.9% (IQR 5.4–13%) and hospital SARI test positivity at 17% (IQR 13–24%). Children under five years continue to account for the majority of RSV-associated hospitalizations. SARS-CoV-2 activity remains low across all age groups, with primary care positivity at 2.2% and hospital positivity at 1.6%; the dominant circulating variants are XFG (56% of detections), NB.1.8.1 (25%), and BA.3.2 (13%), all classified as variants under monitoring. EuroMOMO reports elevated all-cause excess mortality, both overall and in the 65+ age group, consistent with the high respiratory virus burden experienced across the season.
+
+Early estimates of seasonal influenza vaccine effectiveness for 2025/26, published by ECDC on 19 December 2025, are consistent with effectiveness estimates reported by other countries for A(H3N2) viruses. This represents an important benchmark for assessing season outcomes and informing vaccine composition decisions for 2026/27.
+
+### Contact and Sexual Transmission
+
+#### Mpox Clade Ib — Expanding Transmission in MSM Networks
+
+The epidemiology of mpox clade Ib in the EU/EEA has undergone a qualitative transition during recent months, shifting from exclusively travel-associated importations to established local transmission within sexual networks. Since 1 January 2026 and as of 17 February 2026, 80 clade I cases have been reported to TESSy from seven EU/EEA countries: Spain (36), Italy (19), Germany (10), France (8), Netherlands (5), Czechia (1), and Ireland (1). The monthly trajectory shows unmistakable acceleration: 8 cases in September 2025, 12 in October, 20 in November, 37 in December, and 73 in January 2026 alone — a near-doubling from December to January. Spain accounts for the largest national burden, with 35 cases in January 2026 alone, up from 14 in November 2025.
+
+Overall, 185 clade I cases have been reported in the EU/EEA since August 2024. Of 91 cases with sexual behaviour data available, 80 (88%) were in men who have sex with men (MSM), with the vast majority having symptom onset since October 2025 and 59 of 75 cases with travel data attributable to local transmission — a critical departure from the exclusively imported pattern observed before October 2025. Sixty-six percent of MSM cases with vaccination data were unvaccinated against smallpox/mpox. The concentration of cases in Germany (largely Berlin) and Spain (multiple regions), with several German-linked cases identified internationally, suggests established transmission hubs within European MSM networks.
+
+ECDC maintains its risk assessment: moderate for MSM and low for the general population. The detection of the clade Ib/IIb recombinant strain (see Global section) adds an additional dimension of genomic surveillance urgency. Member States are encouraged to prioritize pre-exposure vaccination for gay, bisexual and other MSM; to support sexual health services in testing and contact tracing; and to ensure all positive cases are sequenced with sequences shared through public repositories. For the 255 total mpox cases (all clades) reported in the EU/EEA since 1 January 2026, Spain (84), Germany (45), Italy (30), Netherlands (28), Portugal (28), and France (26) account for the dominant burden.
+
+#### Mass Gathering — Milan Winter Olympics
+
+As of 19 February 2026, no major communicable disease events have been detected in the context of the Winter Olympic Games (4–22 February 2026, Milan-Cortina). ECDC continues active monitoring in collaboration with the Istituto Superiore di Sanità. The risk for EU/EEA citizens attending the Games is assessed as low provided standard preventive measures are observed. The Paralympic Winter Games are scheduled for 6–15 March 2026.
+
+---
+
+## Infectious Diseases: Bulgaria
+
+### Respiratory and Droplet Transmission
+
+#### Scarlet Fever
+
+Scarlet fever reported a substantial week-over-week increase in Week 8, with 111 cases registered compared to 74 in Week 7 — an increase of 50%, constituting one of the most significant signals in the current reporting period. Caused by *Streptococcus pyogenes* (group A streptococcus) producing erythrogenic toxin, scarlet fever is transmitted via respiratory droplets and direct contact, with school-age children representing the primary affected demographic. The disease typically presents with the characteristic erythematous rash, pharyngitis, and fever, and while generally benign with appropriate antibiotic therapy, serious complications including post-streptococcal glomerulonephritis and rheumatic fever remain possible. In the clinical classification for Week 8, 26 cases were classified as possible, 54 as probable, and 31 as confirmed.
+
+Geographically, cases were concentrated in Sofia-grad (33), Blagoevgrad (19), and Varna (18), with additional foci in Plovdiv, Stara Zagora, Pernik, and Shumen. The year-to-date burden of 527 cases nonetheless remains substantially below the equivalent period in 2025, when 778 cases had been registered by Week 8 — a 32% reduction year-over-year. The sharp week-over-week surge therefore represents a within-season acceleration against a lower overall background and should be monitored through the coming weeks to determine whether it represents a sustained epidemic rebound or a transient fluctuation consistent with expected seasonal dynamics in late winter.
+
+### Fecal-Oral Transmission
+
+#### Acute Viral Hepatitis
+
+Acute viral hepatitis remains the most epidemiologically significant ongoing signal in Bulgarian surveillance. Week 8 registered 41 cases, representing a decline of 8 cases (-16%) from the 49 cases recorded in Week 7. While this marginal week-over-week reduction is encouraging, the year-to-date cumulative burden of 309 cases is 127% above the 136 cases registered over the same eight-week period in 2025 — a difference of 173 cases representing a more than doubling of incidence. Of the Week 8 cases, 37 were confirmed, 1 probable, and 3 possible, indicating robust laboratory ascertainment.
+
+This sustained elevation above prior-year baselines, maintained across consecutive weeks since early 2026, is of considerable public health concern and warrants systematic serotype investigation to identify the dominant hepatitis virus(es) driving the excess. The aggregate reporting under the category "ABCDEN" does not allow direct inference as to whether the increases are driven primarily by hepatitis A (the most likely candidate for fecal-oral foodborne or waterborne outbreaks), hepatitis E (increasingly recognized as underdiagnosed in southeastern Europe), or other agents. Geographic disaggregation in the regional data reveals cases distributed across most provinces, with notable concentrations in Sofia-grad (7), Gabrovo (5), Stara Zagora (3), and Plovdiv (1), though the data do not reveal an obvious point-source geographic cluster. Enhanced virological characterization — including serotyping and genotyping — alongside hypothesis-generating epidemiological investigations to identify common exposure vehicles or social networks, remains a priority.
+
+#### Campylobacteriosis
+
+Campylobacteriosis recorded a doubling in reported cases during Week 8, rising from 8 cases in Week 7 to 16 confirmed cases — a 100% week-over-week increase. *Campylobacter* spp., principally *C. jejuni*, are the most common bacterial cause of gastroenteritis in Europe, with transmission primarily via contaminated poultry products, unpasteurized dairy, and contaminated water. The year-to-date burden of 76 cases now exceeds the 32 cases registered in the equivalent period of 2025 by 137%, representing a highly significant departure from recent seasonal patterns. Cases are geographically dispersed, with Sofia-grad (9) and Rusе (2) reporting the largest single-district contributions. While individual cases of campylobacteriosis rarely indicate common-source outbreaks, the cumulative year-over-year excess warrants assessment of whether enhanced case ascertainment, changes in food safety practices, or genuine increases in contamination along poultry supply chains may be contributing to the trend.
+
+#### Gastroenteritis and Enterocolitis
+
+Non-specific gastroenteritis and enterocolitis registered 120 cases in Week 8, a decline of 22 cases (-15.5%) from the 142 cases reported in Week 7. While this change falls just below the 20% reporting threshold, the year-to-date burden of 1,055 cases compares closely to 1,030 cases in the same period of 2025, indicating stable overall incidence. The majority of cases continue to be classified as possible (53) or probable (63), with only 4 confirmed, reflecting the syndromic nature of non-specific gastrointestinal surveillance. This category does not warrant specific action in the current week but should be contextualized against the campylobacteriosis and rotavirus trends within the broader enteric disease picture.
+
+#### Rotavirus Gastroenteritis
+
+Rotavirus gastroenteritis declined by 35% in Week 8, with 11 cases reported compared to 17 in Week 7. All cases were confirmed by laboratory testing. The year-to-date total of 98 cases is notably below the 170 cases registered in the same period of 2025, a 42% reduction consistent with the reduction in overall norovirus and rotavirus burden observed during 2026 to date. This may partly reflect residual population immunity from recent epidemic seasons or increased vaccination coverage, though definitive attribution would require coverage data.
+
+### Contact and Sexual Transmission
+
+#### Gonorrhea and Chlamydia
+
+The week 8 sexually transmitted infection data reveal a pattern of increasing bacterial STI burden that has been building over the course of 2026. Urogenital chlamydial infection reported 9 confirmed cases this week, up from 4 in Week 7 — a 125% week-over-week increase — bringing the year-to-date total to 39 cases compared to 21 over the same period in 2025, an 86% year-over-year increase. Gonorrhea registered 4 confirmed cases, stable compared to Week 7, but the year-to-date cumulative total of 31 cases represents a 210% increase above the 10 cases registered by Week 8 of 2025.
+
+These trends are concerning in aggregate. Gonorrhea in particular, caused by *Neisseria gonorrhoeae*, carries public health significance beyond its immediate clinical impact given the globally escalating burden of antimicrobial resistance in gonococci; the WHO has listed resistant *N. gonorrhoeae* as a priority pathogen, and surveillance of resistance patterns in Bulgarian isolates should complement epidemiological case counting to ensure therapeutic guidelines remain appropriate. The convergent rises in both chlamydia and gonorrhea — diseases that share transmission routes and risk populations — suggest either a genuine increase in STI transmission within sexual networks, a change in healthcare-seeking behavior or testing practices, or both. Active engagement of sexual health services and partner notification systems is warranted.
+
+#### Lyme Borreliosis
+
+Lyme borreliosis registered 5 confirmed cases in Week 8, up from 1 case in Week 7 — a fourfold increase, though the absolute numbers remain low. Caused by *Borrelia burgdorferi* sensu lato and transmitted by *Ixodes* ticks, Lyme disease in Bulgaria typically peaks during spring and autumn when tick activity is highest; detections in February are atypical and may reflect clinical ascertainment of cases with delayed presentation or laboratory confirmation rather than acute tick-bite exposures. The year-to-date cumulative total of 28 cases exceeds the 21 cases registered by Week 8 of 2025 by 33%. This finding merits continued monitoring as the tick season approaches.
+
+#### Varicella
+
+Varicella reported 644 cases in Week 8, representing an increase of 26 cases (+4.2%) from the 618 cases in Week 7, and the year-to-date total of 4,710 cases is 9% below the 5,162 cases registered by Week 8 of 2025. The modest week-over-week increment and the below-prior-year cumulative burden indicate stable endemic transmission without signals warranting specific action. The geographic distribution is broad, with the largest single-week contributions from Sofia-grad (186), Blagoevgrad (50), and Varna (55). This distribution reflects population density and school contact patterns typical for varicella in late winter.
