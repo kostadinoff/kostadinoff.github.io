@@ -39,6 +39,10 @@ format-links: [pdf]
 
 - PhD | Department of Social Medicine and Public Health | Medical University of Plovdiv | Health Policies in the Field of Rare Tumors
 
+`October 2025 - Present`
+
+- Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
+
 `October 2024 - Present`
 
 - Master’s in Statistical Business Consulting | D. A. Tsenov Academy of Economics, Svishtov
@@ -56,18 +60,22 @@ format-links: [pdf]
 - Master’s in Medicine | Faculty of Medicine | Medical University of Plovdiv
 
 --- 
-   
+
 # Work experience
 
 # Professional Experience
 
-`October 2024 - Present`
+`November 2025 - Present`
 
-- Medical University of Plovdiv | Junior Researcher - R1 | Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Contract: BG-RRP-2.004-0007-C01 from 31.12.2022
+- Resident Physician in Infectious Disease Epidemiology
 
 `July 2025 - Present`
 
 - MU-Plovdiv | Chief Assistant Professor | Department of Social Medicine and Public Health | Faculty of Public Health | Teaching and Practical Training in Medical Ethics; Biostatistics; Social Medicine and Public Health
+
+`October 2024 - Present`
+
+- Medical University of Plovdiv | Junior Researcher - R1 | Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Contract: BG-RRP-2.004-0007-C01 from 31.12.2022
 
 `September 2021 - July 2025`
 
@@ -304,7 +312,7 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `October 10-11, 2024`
 
-- Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities" | *["Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health"](https://hiddeneurope-jeanmonnet.uni-plovdiv.net/2024/10/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0%d1%82%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d1%8f-%d0%be%d0%ba/)* | Assoc. Prof. Dr. Angel Djambov, **Asst. Dr. Kostadin Kostadinov**, Prof. Donka Dimitrova | Plovdiv University "Paisii Hilendarski" | Plovdiv
+- Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities" | *["Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health"](https://hiddeneurope-jeanmonnet.uni-plovdiv.net/2024/10/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0%d1%82%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d1%8f-%d0%be%d0%ba/)* | Assoc. Prof. Dr. Angel Djambov, **Asst. Dr. Kostadin Kostadinov**, Prof. Donka Dimitrova | Plovdiv University "Paisii Hilendarski" | Plovdiv
 
 
 `09-11 May 2025`
@@ -438,22 +446,52 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - Certificate Course | Open Medical Institute (OMI) Seminar | Public Health Strategy - II | Maastricht University Program | Salzburg, Austria | Awarded with the "Best Presentation" prize
 
+`August 2024`
+
+- Micro learning course | Evaluating the study question | ECDC | Online
+
 `September 2024`
 
 - Course | National Aeronautics and Space Administration: Washington, D.C, US | Open Science | Certificate of Completion
+- Micro learning course | Evaluating completeness of study reporting | ECDC | Online
+
+`September 2024 - Present`
+
+- Professional Training | SQL: Data Analysis and Reporting | 60 hours | Certificate of Completion
+- Professional Training | Python: Data Analysis and Machine Learning | 75 hours | Certificate of Completion
 
 `October 2024 - July 2025`
 
 - Postgraduate Training | Sexology and Sexopathology | Medical University of Plovdiv | Department of Postgraduate Education
 
-`17-20 February 2025 г.`
+`17-20 February 2025`
 
-- GenEpi-BioTrain Virtual training | ECDC | R data analysis and visualisation for beginners | Online
+- GenEpi-BioTrain - Virtual training 14 | R data analysis and visualisation for beginners | ECDC | Online
 
-`February 2025 г.`
+`April 2025`
 
-- Micro learning course | Evaluating the study question | ECDC | Online
+- Micro learning course | Role of social and behavioural sciences in the prevention and control of infectious diseases | ECDC | Online
 
-`July 2025 г.`
+`June 2025`
 
-- GenEpi-BioTrain - Virtual training | Empowering AMR Research through R: Analysis and Visualisation | ECDC | Online
+- GenEpi-BioTrain - Virtual training 18 | Empowering AMR Research through R: Analysis and Visualisation | ECDC | Online
+
+`July 2025`
+
+- Micro learning course | Investigate an outbreak | ECDC | Online
+
+`August 2025`
+
+- Micro learning course | Assess and mitigate the risk of locally acquired Aedes-borne viral diseases in the EU/EEA | ECDC | Online
+
+`September 2025`
+
+- GenEpi-BioTrain - Virtual training 20 | Klebsiella pneumoniae genomic epidemiology and antimicrobial resistance | ECDC | Online
+
+`October 2025 - January 2026`
+
+- InfektEpiLehre | Robert Koch Institute (RKI) | Department of Infectious Disease Epidemiology | Curriculum for specialized infectious disease epidemiology | Berlin, Germany
+
+`January 2026`
+
+- AURORAE Webinar | INSaFLU-TELEVIR bioinformatics platform: virus metagenomic detection (TELEVIR) – demonstration and examples | ECDC/AURORAE | Online
