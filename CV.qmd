@@ -164,8 +164,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `Since 2020` Bulgarian Scientific Society for Public Health
 
-`Since 2020` Bulgarian Association for Public Health
-
 `Since 2016` Association of Trainers and Researchers in General Medicine in Bulgaria
 
 `Since 2020` Association for Social Research and Applied Research Practices
@@ -204,13 +202,17 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - "Antimicrobial Activity of Root Canal Fillers for the Treatment of Endodontic Infection in Primary Teeth" | PhD and Postdoctoral Project | agreement contract 04/01.09. | Medical University of Plovdiv
 
-`September 2023`
+`September 2023 - 2025`
 
 - "Study of the Relationship Between Non-Cultivable and Hard-to-Culture Microorganisms and Fertility Function in Men with Symptomatic and Asymptomatic Infections of the Lower Urogenital Tract" | University Project No. НО-17/2023 | Medical University of Plovdiv
 
 `October 2023`
 
 - "Comparative Study on Modern Microbiological Methods for Rapid Etiological Diagnosis of Urinary Tract Infections" | PhD and Postdoctoral Project | Agrement No. 10/2023 | Medical University of Plovdiv
+
+`2025`
+
+- "Healthcare Costs and Their Economic and Social Effects – Statistical Dimensions" | University Project | Medical University of Plovdiv | Sofia University
 
 ## National projects
 
@@ -232,11 +234,11 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - "Interdisciplinarity, Multiculturalism, and Patient Care in Non-Standard Situations in the Context of Didactic Activities in Medical and Health Sciences at Medical Simulation Centers" | Project No. 2019-1-PL01-KA203-065205 | Erasmus+ Program, Key Action 2: Cooperation for Innovation and Exchange of Good Practices | KA203: Strategic Partnerships for Higher Education
 
-`September 2021 - September 2022`
+`September 2021 - 2025`
 
 - Screen4Care | "Shortening the Path to Rare Disease Diagnosis Using Newborn Genetic Screening and Digital Technologies" | Innovative Medicines Initiative 2 Joint Undertaking (JU) | Grant Agreement No. 101034427
 
-`February 2022 - December 2024`
+`February 2022 - 2025`
 
 - Safe4Child | "Caring for Violent Children Safely in Child Psychiatric and Residential Units" | Erasmus+ Programme | Key Action 2 | Agreement No. 2021-1-FI01-KA220-HED-000032106
 
@@ -251,6 +253,10 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `2024 - 2026`
 
 - AFFIRMO | Atrial Fibrillation Integrated Approach in Frail, Multimorbid, and Polymedicated Older People | Monitor | European Union’s Horizon 2020 research and innovation programme | Grant agreement 899871 
+
+`2025`
+
+- "Combined Effects of Exposure to Natural and Built Environment – Informing Healthy and Sustainable Urban Development" | National Science Program with EU funding (RRP)
 
 ---
 
@@ -324,6 +330,14 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
    2.  *["A rapid review of health outcomes associated with the food environment in cities"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | **K. Kostadinov**, D. Dimitrova, M. Helbich, A. Burov, A. Dzhambov | Poster session
    3.  *["Optimization of GFR estimation for chemotherapy dosing in pediatric oncology"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | P. Markova, M. Spasova, A. Yaneva, **K. Kostadinov** | Oral presentation | Awarded with the "Best Presentation" prize
 
+`May 29 - June 1, 2025`
+
+- XII National Scientific Conference "HIV/AIDS and Exotic Parasitic and Infectious Diseases" | *"Assessment of Occupational Risk Exposures and Behavior Among Medical Staff"* | **Kostadinov K.**, Stoeva V., Batselova H., Atliev K.
+
+`September 12-13, 2025`
+
+- XVI National Conference on Rare Diseases and Orphan Drugs | *"Orphan Drugs in Bulgaria: The Path from Marketing Authorization to the Patient"* | **Stefanov R.**, Iskrov G., Raycheva R., **Kostadinov K.**
+
 ## International
 
 `October 20-23, 2022`
@@ -361,6 +375,28 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `19-20 June 2025`
 
 - International Scientific Conference "Education, Science, Economics and Technology" | Burgas, Bulgaria | *["Formed attitudes and benefits of training with virtual reality glasses among nursing students and educators"](https://www.conference-burgas.com/maevolumes/vol21_2025/book%205_25.pdf)*| Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova
+
+`June 20-24, 2024`
+
+- Xth International Conference of Young Scientists – Plovdiv | *"Regulatory Framework for Market Authorization of Gene Therapies in the EU and the USA"* | **Stefanov R.**, Iskrov G., Hristova-Atanasova E., **Kostadinov K.**, Dimitrov K.
+
+`September 18-19, 2025`
+
+- XVII International Symposium "Challenges Affecting the Strengthening of the Role of Nurses in Modern Society" | *"Developing Competencies for Specialized Healthcare for Patients with Psychological Trauma"* | **Kostadinov K.**, Petrova G., Lalova V., Ivanova S. | České Budějovice, CZ
+
+`September 23-27, 2025`
+
+- 56th Annual Meeting of the European Society for Paediatric Nephrology | *"Optimization of eGFR Assessment in Pediatric Oncology: Limitations of the Schwartz Formula and Alternative Approaches"* | **Kostadinov K.**, Yaneva A., Spasova M., Spasov N., Markova P. | Greece
+
+`September 28-30, 2025`
+
+- ISPOR Real-World Evidence Summit 2025 | Tokyo, Japan
+   1. *"RWD235 THE SOCIO-ECONOMIC BURDEN OF TERMINAL CANCER: REAL-WORLD EVIDENCE FROM BULGARIA"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
+   2. *"RWD73 THE SOCIO-ECONOMIC BURDEN OF END-STAGE KIDNEY DISEASE: REAL-WORLD EVIDENCE FROM BULGARIA"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
+
+`November 11-14, 2025`
+
+- 18th European Public Health Conference 2025 | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
 
 ---
 
