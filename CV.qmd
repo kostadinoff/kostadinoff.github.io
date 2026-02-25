@@ -43,7 +43,7 @@ format-links: [pdf]
 
 - Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
 
-`October 2024 - Present`
+`October 2024 - September 2025`
 
 - Master’s in Statistical Business Consulting | D. A. Tsenov Academy of Economics, Svishtov
 
@@ -175,6 +175,8 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `Since 2020` European Public Health Association
 
 `Since 2022` World Federation of Public Health Associations (WFPHA)
+
+`Since 2025` International Epidemiology Association (IEA)
 
 `Since 2025` Associate editor of the Journal of Medical Internet Research (JMIR)
 
