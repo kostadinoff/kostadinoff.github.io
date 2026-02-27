@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-02-22">
+<meta name="description" content="Interactive case studies and problem-based learning tasks on demographic indices, population structures, and the legal registration of births and deaths.">
+
+<title>Demography and Population Health – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c4c4011f5b892ce9b4a6911cb10ad1e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Demography and Population Health – Kostadin Kostadinov">
+<meta name="twitter:description" content="Interactive case studies and problem-based learning tasks on demographic indices, population structures, and the legal registration of births and deaths.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../learning.html"> 
+<span class="menu-text">15-minute learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tasks.html"> 
+<span class="menu-text">Learning tasks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../study-guide.html"> 
+<span class="menu-text">Social medicine study guide</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Demography and Population Health</h1>
+                  <div>
+        <div class="description">
+          Interactive case studies and problem-based learning tasks on demographic indices, population structures, and the legal registration of births and deaths.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Demography</div>
+                <div class="quarto-category">Registration</div>
+                <div class="quarto-category">Public Health</div>
+                <div class="quarto-category">Assignment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 22, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#practical-class-instructions" id="toc-practical-class-instructions" class="nav-link active" data-scroll-target="#practical-class-instructions">Practical Class Instructions:</a>
+  <ul class="collapse">
+  <li><a href="#reference-material" id="toc-reference-material" class="nav-link" data-scroll-target="#reference-material">Reference Material</a></li>
+  <li><a href="#general-instructions-for-students" id="toc-general-instructions-for-students" class="nav-link" data-scroll-target="#general-instructions-for-students">General Instructions for Students</a></li>
+  <li><a href="#case-study-1-the-invisible-influx" id="toc-case-study-1-the-invisible-influx" class="nav-link" data-scroll-target="#case-study-1-the-invisible-influx">Case Study 1: “The Invisible Influx”</a>
+  <ul class="collapse">
+  <li><a href="#migration-as-the-hidden-driver-of-population-growth" id="toc-migration-as-the-hidden-driver-of-population-growth" class="nav-link" data-scroll-target="#migration-as-the-hidden-driver-of-population-growth">Migration as the Hidden Driver of Population Growth</a></li>
+  </ul></li>
+  <li><a href="#case-study-2-the-silver-tsunami" id="toc-case-study-2-the-silver-tsunami" class="nav-link" data-scroll-target="#case-study-2-the-silver-tsunami">Case Study 2: “The Silver Tsunami”</a>
+  <ul class="collapse">
+  <li><a href="#quantifying-the-burden-of-population-ageing" id="toc-quantifying-the-burden-of-population-ageing" class="nav-link" data-scroll-target="#quantifying-the-burden-of-population-ageing">Quantifying the Burden of Population Ageing</a></li>
+  </ul></li>
+  <li><a href="#case-study-3-the-vulnerable-generation" id="toc-case-study-3-the-vulnerable-generation" class="nav-link" data-scroll-target="#case-study-3-the-vulnerable-generation">Case Study 3: “The Vulnerable Generation”</a>
+  <ul class="collapse">
+  <li><a href="#high-fertility-infant-mortality-and-the-demographic-trap" id="toc-high-fertility-infant-mortality-and-the-demographic-trap" class="nav-link" data-scroll-target="#high-fertility-infant-mortality-and-the-demographic-trap">High Fertility, Infant Mortality, and the Demographic Trap</a></li>
+  </ul></li>
+  <li><a href="#case-study-4-the-reversed-transition" id="toc-case-study-4-the-reversed-transition" class="nav-link" data-scroll-target="#case-study-4-the-reversed-transition">Case Study 4: “The Reversed Transition”</a>
+  <ul class="collapse">
+  <li><a href="#below-replacement-fertility-and-excess-male-mortality" id="toc-below-replacement-fertility-and-excess-male-mortality" class="nav-link" data-scroll-target="#below-replacement-fertility-and-excess-male-mortality">Below-Replacement Fertility and Excess Male Mortality</a></li>
+  </ul></li>
+  <li><a href="#evaluation-criteria" id="toc-evaluation-criteria" class="nav-link" data-scroll-target="#evaluation-criteria">Evaluation Criteria:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="practical-class-instructions" class="level1">
+<h1>Practical Class Instructions:</h1>
+<p>This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. Each group will work through a specific case study to calculate demographic indices, interpret population trends, and navigate the legal requirements for civil status registration.</p>
+<section id="reference-material" class="level3">
+<h3 class="anchored" data-anchor-id="reference-material">Reference Material</h3>
+<p><em>This assignment is based on the reading material: <a href="../15-minute-learning/demography-indices.html">Demography Indices and the Physician’s Role in Registration</a>. All calculations and legal justifications must reference concepts and ordinances from this text.</em></p>
+</section>
+<section id="general-instructions-for-students" class="level3">
+<h3 class="anchored" data-anchor-id="general-instructions-for-students">General Instructions for Students</h3>
+<p>Each group will independently solve a distinct demographic problem. Your task is to:</p>
+<ol type="1">
+<li><strong>Perform the Calculations</strong>: Solve the requested indices in sequence using the provided formulas. Show all working.</li>
+<li><strong>Interpret the Results</strong>: Relate the numbers to the demographic stages and assessment categories (low/high/average).</li>
+<li><strong>Address the Discussion Questions</strong>: Formulate brief, evidence-based answers (3–5 sentences) for class presentation.</li>
+</ol>
+<hr>
+</section>
+<section id="case-study-1-the-invisible-influx" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-1-the-invisible-influx">Case Study 1: “The Invisible Influx”</h2>
+<section id="migration-as-the-hidden-driver-of-population-growth" class="level3">
+<h3 class="anchored" data-anchor-id="migration-as-the-hidden-driver-of-population-growth">Migration as the Hidden Driver of Population Growth</h3>
+<p><strong>Scenario:</strong> The nation of <em>Arcadia</em> has a low birth rate and ageing population, yet cities are overcrowding. Clinics are overwhelmed by undocumented residents. The Ministry of Health needs to understand the true source of this growth.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population at start of year (<span class="math inline">\(P_{x-1}\)</span>)</td>
+<td>10,000,000</td>
+</tr>
+<tr class="even">
+<td>Population at end of year (<span class="math inline">\(P_x\)</span>)</td>
+<td>10,060,000</td>
+</tr>
+<tr class="odd">
+<td>Live births during the year (<span class="math inline">\(B\)</span>)</td>
+<td>100,000</td>
+</tr>
+<tr class="even">
+<td>Deaths during the year (<span class="math inline">\(D\)</span>)</td>
+<td>90,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li>Calculate <strong>Natural Increase</strong> absolute (<span class="math inline">\(B - D\)</span>).</li>
+<li>Use the <strong>Demographic Balance Equation</strong> to find <strong>Net Migration</strong> (<span class="math inline">\(M\)</span>): <span class="math inline">\(P_x = P_{x-1} + B - D + M\)</span>.</li>
+<li>Calculate <strong>Crude Birth Rate (CBR)</strong> and <strong>Crude Death Rate (CDR)</strong> per 1,000 population. State their assessment categories.</li>
+<li>Calculate <strong>Net Migration Rate</strong> per 1,000 population.</li>
+</ol>
+<p><strong>Discussion Hints:</strong></p>
+<ul>
+<li>Compare natural increase vs.&nbsp;net migration: Which is the “engine” of growth?</li>
+<li>How does a “young adult” labor migration shift the population pyramid?</li>
+<li>What are the risks of a “hidden” population for infectious disease surveillance (e.g., vaccine coverage)?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-study-2-the-silver-tsunami" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-2-the-silver-tsunami">Case Study 2: “The Silver Tsunami”</h2>
+<section id="quantifying-the-burden-of-population-ageing" class="level3">
+<h3 class="anchored" data-anchor-id="quantifying-the-burden-of-population-ageing">Quantifying the Burden of Population Ageing</h3>
+<p><strong>Scenario:</strong> <em>Nipponica</em> has exceptional life expectancy, but the workforce is shrinking. Planners need a full demographic profile to justify evidence-based reforms to the national health insurance.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Age group</th>
+<th>Population</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Under 15 years</td>
+<td>15,000,000</td>
+</tr>
+<tr class="even">
+<td>15 to 64 years (working age)</td>
+<td>70,000,000</td>
+</tr>
+<tr class="odd">
+<td>65 years and older</td>
+<td>35,000,000</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>120,000,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>Special Data:</em> <span class="math inline">\(80+\)</span> years <span class="math inline">\(= 8.4M\)</span>; Women <span class="math inline">\(50-64 = 9.6M\)</span>.</p>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li>Calculate <strong>Child Dependency Ratio (CDR)</strong> and <strong>Old-Age Dependency Ratio (OADR)</strong>.</li>
+<li>Calculate <strong>Total Dependency Ratio</strong>. Interpret: how many dependents per 100 workers?</li>
+<li>Calculate the <strong>Ageing Index</strong>.</li>
+<li>Calculate the <strong>Caretaker Ratio</strong> (<span class="math inline">\(P_{80+} / F_{50-64} \times 100\)</span>).</li>
+</ol>
+<p><strong>Discussion Hints:</strong></p>
+<ul>
+<li>Which ratio best communicates “fiscal pressure” to a politician?</li>
+<li>How does the “infrastructure of care” change when a population moves from Stage 4 to Stage 5?</li>
+<li>Discuss “Compression of Morbidity”: Do the numbers tell the whole story of disability?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-study-3-the-vulnerable-generation" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-3-the-vulnerable-generation">Case Study 3: “The Vulnerable Generation”</h2>
+<section id="high-fertility-infant-mortality-and-the-demographic-trap" class="level3">
+<h3 class="anchored" data-anchor-id="high-fertility-infant-mortality-and-the-demographic-trap">High Fertility, Infant Mortality, and the Demographic Trap</h3>
+<p><strong>Scenario:</strong> <em>Equatoria</em> is a developing region with rapid growth. Infant mortality is catastrophic, and maternal wards are overwhelmed. You must prioritize resources for the regional health authority.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total mid-year population</td>
+<td>5,000,000</td>
+</tr>
+<tr class="even">
+<td>Live births</td>
+<td>200,000</td>
+</tr>
+<tr class="odd">
+<td>Deaths &lt; 1 year</td>
+<td>16,000</td>
+</tr>
+<tr class="even">
+<td>Deaths &lt; 28 days</td>
+<td>9,600</td>
+</tr>
+<tr class="odd">
+<td>Stillbirths</td>
+<td>4,000</td>
+</tr>
+<tr class="even">
+<td>Women aged 15–49</td>
+<td>1,200,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li>Calculate <strong>Crude Birth Rate (CBR)</strong> and <strong>General Fertility Rate (GFR)</strong>.</li>
+<li>Calculate <strong>Infant Mortality Rate (IMR)</strong>. State its assessment level (Very Low to Very High).</li>
+<li>Calculate <strong>Neonatal</strong> and <strong>Post-neonatal Mortality Rates</strong>. What causes do these suggest?</li>
+<li>Calculate <strong>Perinatal Mortality Rate</strong>. (Assume early neonatal deaths are 60% of total neonatal deaths).</li>
+</ol>
+<p><strong>Discussion Hints:</strong></p>
+<ul>
+<li>Explain the “Demographic Trap”: Why does high infant mortality prevent family planning?</li>
+<li>Reframe contraception as a <em>clinical</em> intervention for infant survival (birth intervals).</li>
+<li>Identify the “low-hanging fruit”: Is it cleaner water or better NICUs that this data calls for?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-study-4-the-reversed-transition" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-4-the-reversed-transition">Case Study 4: “The Reversed Transition”</h2>
+<section id="below-replacement-fertility-and-excess-male-mortality" class="level3">
+<h3 class="anchored" data-anchor-id="below-replacement-fertility-and-excess-male-mortality">Below-Replacement Fertility and Excess Male Mortality</h3>
+<p><strong>Scenario:</strong> <em>Borealis</em> is shrinking. Fertility is “lowest-low,” and middle-aged men are dying at high rates from preventable causes (cirrhosis, lung cancer). Classical transition theory is being defied.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total mid-year population</td>
+<td>140,000,000</td>
+</tr>
+<tr class="even">
+<td>Live births</td>
+<td>1,400,000</td>
+</tr>
+<tr class="odd">
+<td>Total deaths</td>
+<td>1,960,000</td>
+</tr>
+<tr class="even">
+<td>Premature deaths (&lt; 65 yrs)</td>
+<td>470,400</td>
+</tr>
+<tr class="odd">
+<td>Male / Female deaths</td>
+<td>1.078M / 0.882M</td>
+</tr>
+<tr class="even">
+<td>Total Fertility Rate (TFR)</td>
+<td>1.3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li>Calculate <strong>Crude Birth Rate</strong> and <strong>Crude Death Rate</strong>.</li>
+<li>Calculate the <strong>Rate of Natural Increase (RNI)</strong>. Interpret a negative result.</li>
+<li>Calculate <strong>Proportion of Premature Deaths</strong>. (Assume 70% of premature deaths are male).</li>
+<li>Calculate the <strong>Male-to-Female Death Ratio</strong>.</li>
+</ol>
+<p><strong>Discussion Hints:</strong></p>
+<ul>
+<li>Contrast the “Proximate Causes” of death in Borealis vs.&nbsp;Equatoria.</li>
+<li>What is the “economic suicide” of lowest-low fertility combined with male premature mortality?</li>
+<li>Evaluate pronatalist policy vs.&nbsp;public health lifestyle interventions: Which yields results faster?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="evaluation-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-criteria">Evaluation Criteria:</h2>
+<ul>
+<li><strong>Mathematical Accuracy (40%):</strong> Correct application of formulas and selection of denominators.</li>
+<li><strong>Demographic Interpretation (30%):</strong> Correct categorization of rates according to the reading material.</li>
+<li><strong>Critical Synthesis (20%):</strong> Integration of legal (Bulgarian Ordinance) and social concepts in the final task.</li>
+<li><strong>Professional Communication (10%):</strong> Clarity and precision of group presentation.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
