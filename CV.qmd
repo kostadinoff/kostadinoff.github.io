@@ -129,6 +129,16 @@ format-links: [pdf]
 
 - Summer Semester 2025/26: Social Medicine and Public Health
 
+## Erasmus Mobility
+
+`September 2023`
+
+- Erasmus+ Staff Mobility for Teaching | University of West Attica (Athens), Greece | 04.09.2023 – 08.09.2023
+
+`January 2026`
+
+- Erasmus+ Staff Mobility for Teaching | Tartu Health Care College, Estonia | 19.01.2026 – 23.01.2026 | 16 teaching hours
+
 ## Language
 
 `Bulgarian`	 (Native)
@@ -139,7 +149,7 @@ format-links: [pdf]
 
 ## Social
 
-Engaging in academic and instructional endeavors within a diverse setting encompassing students from medical, dental, pharmacy, and nursing disciplines. Contributing to postgraduate programs with attendees hailing from various continents. Actively involved in social and charitable initiatives of non-profit and non-governmental entities. Professional development in Ireland, Greece, Austria, and Finland.
+Engaging in academic and instructional endeavors within a diverse setting encompassing students from medical, dental, pharmacy, and nursing disciplines. Contributing to postgraduate programs with attendees hailing from various continents. Actively involved in social and charitable initiatives of non-profit and non-governmental entities. Professional development in Ireland, Greece, Austria, Estonia, Germany and Finland.
 
 
 ## Computer skills
