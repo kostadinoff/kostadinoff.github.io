@@ -187,7 +187,7 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 # Publications
 
 ::: {#refs}
-\nocite{Kostadinov_2020, Garnier_2023, Guevara_2023, Hubenova_2022, Ignatova_2022, Iskrov_2024, Kelly_2023, Kevorkyan2023, Kiani_2023, Kostadinov_2023, Kostadinov_2023a, Kostadinov_2024a, Raycheva_2023a, Raycheva_2024, Bechev_2024, Kostadinov_2024b, Petrova_2024, Goodwin_2025, Kostadinov_2025a, Dzhambazova_2025, Kostadinov_2025b, Korhonen_2025, Stoeva_2025, Rupcheva_2025, Stefanov_Raycheva_Kostadinov_Stefanov_Zdravkova-Aneva_Dzhambazova_Iskrov_2025, Halil_Kostadinov_Traykova_Atanasova_Atliev_Dzhambazova_Atanassova_2025, Kostadinov_2025c, Bechev_2025, Raycheva_2025, Arabadzhiev_2026, Shindova_2026, Kostadinov_2024c, Groen_2025, Petrova_2025}
+\nocite{*}
 :::
 
 ------------------------------------------------------------------------
