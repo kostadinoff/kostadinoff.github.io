@@ -35,6 +35,10 @@ format-links: [pdf]
 
 - Resident Physician in Infectious Disease Epidemiology | Department of Epidemiology and Disaster Medicine | MU-Plovdiv
 
+`October 2025 - Present`
+
+- Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
+
 `April 2022 - May 2025`
 
 - National Medical Board Certification | Medical specialty ‘Social Medicine and Organization of Health Care and Pharmacy’ | MU-Plovdiv
@@ -42,10 +46,6 @@ format-links: [pdf]
 `December 2021 - January 2025`
 
 - PhD | Department of Social Medicine and Public Health | Medical University of Plovdiv | Health Policies in the Field of Rare Tumors
-
-`October 2025 - Present`
-
-- Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
 
 `October 2024 - September 2025`
 
@@ -95,13 +95,13 @@ format-links: [pdf]
 
 - "Air for Health" Physician Network
 
-`2011 - 2017`
-
-- Student Council | President 20212 | Chair of the General Assembly 2013-2015
-
 `2012 - 2017`
 
 - Bulgarian Medical Students’ Association | Chair of the Supervisory Board 2015-2016 | Secretary 2017
+
+`2011 - 2017`
+
+- Student Council | President 20212 | Chair of the General Assembly 2013-2015
 
 ---
 
@@ -230,19 +230,19 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 ## National projects
 
-`April 2021`
+`September 2024`
 
-- National Science Program "Young Scientists and Postdoctoral Researchers" | Ministry of Education and Science of the Republic of Bulgaria
+- National Science Program "Young Scientists and Postdoctoral Researchers - 2" | Ministry of Education and Science of the Republic of Bulgaria
 
 `October 2024`
 
 - Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Agreement: BG-RRP-2.004-0007-C01 from 31.12.2022
 
-`September 2024`
-
-- National Science Program "Young Scientists and Postdoctoral Researchers - 2" | Ministry of Education and Science of the Republic of Bulgaria
-
 ## International projects
+
+`2018 - 2019`
+
+- Clinical trial | ApoA-I Event Reducing in Ischemic Syndromes II (AEGIS II) | Study Coordinator
 
 `March - May 2020`
 
@@ -259,10 +259,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `April 2023 - December 2023`
 
 - W@S | "Developing Multi-Professional Higher Education for Promoting Mental Health and Well-Being in Schools" | Project Reference: 2020-1-FI01-KA203-066521
-
-`2018 - 2019`
-
-- Clinical trial | ApoA-I Event Reducing in Ischemic Syndromes II (AEGIS II) | Study Coordinator
 
 `2024 - 2026`
 
@@ -320,21 +316,21 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - Science and Youth Conference 2021 | *["Assessment of Antimicrobial Susceptibility of Staphylococcus Aureus Nasal Isolates from Preclinical Medical Students at the Medical University of Plovdiv"](https://asclepius.bg/cnm/wp-content/uploads/2024/04/SY-DMS-2024-abstracts-web.pdf)* | Aras Budak, **Kostadin Kostadinov**, Radoslav Tashev, Eli Christozova | Awarded with the "Best Presentation" prize
 
-`September 27-29, 2024`
-
-- Sixth National Epidemiology Conference | *"Challenges in Infectious Disease Prevention"* | *["Assessment of Occupational Risk Exposures and Compliance with Standard Precautions among Medical Staff"](http://bulepid.org/_upload2018/PROGRAMA%202024-final.pdf)* | Velina Stoeva, Hristiana Batselova, **Kostadin Kostadinov**, Kiril Atliev
-
 `September 27-28, 2024`
 
-- Seventh Scientific Conference with International Participation | *"Public Health: A Look Toward the Future"* | *["Enhancing Patient-Centered Care through Simulation Training with Virtual Reality Glasses"](https://publisher.mu-plovdiv.bg/wp-content/uploads/published-online/public-health-conf/2024/abstract-book.html#p=56)* | Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova | Awarded with the "Best Presentation" prize
+- Seventh Scientific Conference with International Participation | *"Public Health: A Look Toward the Future"* | *"Enhancing Patient-Centered Care through Simulation Training with Virtual Reality Glasses"* | https://publisher.mu-plovdiv.bg/wp-content/uploads/published-online/public-health-conf/2024/abstract-book.html#p=56 | Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova | Awarded with the "Best Presentation" prize
 
-`October 10-13, 2024`
+`September 27-29, 2024`
 
-- XVIII National Congress of Cardiology | *["The Role of Air Pollution in Cardiovascular Disease Genesis"](https://www.bgcardio.org/storage/app/media/uploaded-files/XVIII%20Congress%20program_web.pdf)* | **Kostadin Kostadinov** | Plovdiv
+- Sixth National Epidemiology Conference | *"Challenges in Infectious Disease Prevention"* | *"Assessment of Occupational Risk Exposures and Compliance with Standard Precautions among Medical Staff"* | http://bulepid.org/_upload2018/PROGRAMA%202024-final.pdf | Velina Stoeva, Hristiana Batselova, **Kostadin Kostadinov**, Kiril Atliev
 
 `October 10-11, 2024`
 
-- Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities" | *["Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health"](https://hiddeneurope-jeanmonnet.uni-plovdiv.net/2024/10/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0%d1%82%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d1%8f-%d0%be%d0%ba/)* | Assoc. Prof. Dr. Angel Djambov, **Asst. Dr. Kostadin Kostadinov**, Prof. Donka Dimitrova | Plovdiv University "Paisii Hilendarski" | Plovdiv
+- Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities" | *"Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health"* | https://hiddeneurope-jeanmonnet.uni-plovdiv.net/2024/10/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0%d1%82%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d1%8f-%d0%be%d0%ba/ | Assoc. Prof. Dr. Angel Djambov, **Asst. Dr. Kostadin Kostadinov**, Prof. Donka Dimitrova | Plovdiv University "Paisii Hilendarski" | Plovdiv
+
+`October 10-13, 2024`
+
+- XVIII National Congress of Cardiology | *"The Role of Air Pollution in Cardiovascular Disease Genesis"* | https://www.bgcardio.org/storage/app/media/uploaded-files/XVIII%20Congress%20program_web.pdf | **Kostadin Kostadinov** | Plovdiv
 
 
 `09-11 May 2025`
@@ -356,47 +352,45 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `2026`
 
-- ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
-
-`October 20-23, 2022`
+-`October 20-23, 2022`
 
 - Joint Forum: 12th South-East European Conference and 32nd Annual Assembly of IMAB | *"Antimicrobial Activity of Root Canal Filling Materials for Endodontic Treatment in Primary Dentition"* | Maria Shindova, Eli Hristozova, Plamen Katsarov, Michael Onov, **Kostadin Kostadinov**, Vasko Toplev, Ani Belcheva | Lecture
-
-`April 15-18, 2023`
-
-- 33rd European Congress of Clinical Microbiology and Infectious Diseases | *"Impact of COVID-19 Vaccines – Data from Bulgaria"* | Ani Kevorkyan, **Kostadin Kostadinov**, Vania Rangelova, Ralitsa Raycheva, Angel Kunchev | Plenary Lecture | Plovdiv
 
 `March 4-11, 2023`
 
 - 41st European Winter Conference on Brain Research (EWCBR) | *"Immunological Reactivity Under Acute and Chronic Stress. Where Are We? Experience in Bulgaria."* | M. Ivanovska, T. Kalfova, P. Gardjeva, **K. Kostadinov**, M. Murdjeva
 
-`September 14, 2023`
+`April 15-18, 2023`
 
-- Webinar | EU Health Technology Assessment Regulation | The Role and Involvement of Cancer Patients | *Landscape of Bulgarian HTA Regulations* | **Kostadin K.** | Belgium
+- 33rd European Congress of Clinical Microbiology and Infectious Diseases | *"Impact of COVID-19 Vaccines – Data from Bulgaria"* | Ani Kevorkyan, **Kostadin Kostadinov**, Vania Rangelova, Ralitsa Raycheva, Angel Kunchev | Plenary Lecture | Plovdiv
 
 `May 2023`
 
 - ISPOR 2023 | Boston, MA, USA | *["The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3665/126756)* | Raycheva R., **Kostadinov K.**
 
+`September 14, 2023`
+
+- Webinar | EU Health Technology Assessment Regulation | The Role and Involvement of Cancer Patients | *Landscape of Bulgarian HTA Regulations* | **Kostadin K.** | Belgium
+
 `November 2023`
 
 - ISPOR Europe 2022 | Vienna, Austria | *["Delay of Innovative Oncology Treatments - Case From Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/euro2022-3565/120960)* | Raycheva R., **Kostadinov K.**
+
+`June 20-24, 2024`
+
+- Xth International Conference of Young Scientists – Plovdiv | *"Regulatory Framework for Market Authorization of Gene Therapies in the EU and the USA"* | **Stefanov R.**, Iskrov G., Hristova-Atanasova E., **Kostadinov K.**, Dimitrov K.
 
 `November 13-15, 2024`
 
 - 17th European Public Health Conference 2024 | *[DV.24 - Mapping the Policy Alternatives for Rare Cancer](https://ephconference.eu/app/programme/programme.php?d=displays)* | **Kostadinov K.**, Hristozova E., Musurova N., Iskrov G., Stefanov R.
 
-`7-11 July 2025`
-
-- AESOP Congress 2025 | Yıldız Technical University, Istanbul | *"Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How?"* | Burov A., Dzhambov A., Dimitrova D., Markevych I., **Kostadinov K.**, Helbich M., Nieuwenhuijsen M.
-
 `19-20 June 2025`
 
 - International Scientific Conference "Education, Science, Economics and Technology" | Burgas, Bulgaria | *["Formed attitudes and benefits of training with virtual reality glasses among nursing students and educators"](https://www.conference-burgas.com/maevolumes/vol21_2025/book%205_25.pdf)*| Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova
 
-`June 20-24, 2024`
+`7-11 July 2025`
 
-- Xth International Conference of Young Scientists – Plovdiv | *"Regulatory Framework for Market Authorization of Gene Therapies in the EU and the USA"* | **Stefanov R.**, Iskrov G., Hristova-Atanasova E., **Kostadinov K.**, Dimitrov K.
+- AESOP Congress 2025 | Yıldız Technical University, Istanbul | *"Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How?"* | Burov A., Dzhambov A., Dimitrova D., Markevych I., **Kostadinov K.**, Helbich M., Nieuwenhuijsen M.
 
 `September 18-19, 2025`
 
@@ -419,6 +413,10 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `November 11-14, 2025`
 
 - 18th European Public Health Conference 2025 | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
+
+`2026`
+
+- ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
 
 ---
 
