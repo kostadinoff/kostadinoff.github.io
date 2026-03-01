@@ -1,0 +1,249 @@
+---
+title: "Risk Factors, Causality, and Morbidity Measurement"
+author: "Kostadin Kostadinov"
+date: 2026-03-01
+description: "Reading material for Practical Class 4: Risk Factors and Causality. Measurement of Diseases and Exposure. Morbidity Data Sources. Case Finding and Case Reporting."
+categories: 
+  - "English"
+  - "Epidemiology"
+  - "Social Medicine"
+  - "Public Health"
+---
+
+## Risk Factors and Causality
+
+### The Concept of a Risk Factor
+
+A risk factor is any characteristic, condition, or behaviour that increases the probability of an individual or population developing a specific disease, injury, or adverse health outcome. The concept is foundational to both epidemiological research and public health practice, because it identifies targets for preventive intervention even when the precise biological mechanisms of disease causation remain incompletely understood.
+
+Two preliminary definitions are indispensable for precise use of this concept. Risk is the probability that an adverse event or disease will occur within a defined population over a specified time period. Odds is the ratio of the probability of the event occurring to the probability of its not occurring. Although used interchangeably in everyday language, the two quantities carry distinct mathematical meanings that bear directly on how risk relationships are quantified, and confusion between them is a common source of error in the interpretation of epidemiological studies.
+
+It is equally important to distinguish associated factors from causal (risk) agents. All genuine causes of disease will demonstrate some form of statistical association with that disease, but the converse is not true: the presence of a statistical association does not, by itself, establish that the associated factor causes the disease. This distinction between association and causation is the central epistemological problem of observational epidemiology and motivates the frameworks for causal inference examined later in this chapter.
+
+The concept of exposure is closely related to, but distinct from, the concept of a risk factor. Exposure refers to the specific circumstances of contact between an individual and a risk factor, and must be characterised along two dimensions: the intensity (or power) of the contact, and the duration of contact. Two individuals exposed to the same carcinogen may face very different risks depending on whether the exposure was brief and low-intensity or prolonged and high-intensity.
+
+### Classification of Risk Factors
+
+Risk factors can be organised according to several complementary frameworks, each offering a different analytical perspective.
+
+**Modifiability**  
+
+The modifiability framework distinguishes factors that can be changed through intervention from those that cannot. Modifiable risk factors — such as tobacco use, dietary patterns, physical activity levels, and alcohol consumption — represent potential targets for preventive strategies ranging from individual counselling to population-level policy. Non-modifiable risk factors — including chronological age, biological sex, and genetic constitution — cannot be eliminated, but their identification serves a different purpose: they delineate populations at elevated baseline risk who may benefit from enhanced surveillance, earlier screening, or prophylactic treatment.
+
+**Origin**  
+
+Behavioural risk factors arise from individual choices and actions and are in principle amenable to change through health education and behavioural modification programmes. Environmental risk factors derive from the physical or social context surrounding the individual — ambient air pollution, infectious agents in drinking water, occupational chemical exposures, or substandard housing — and typically require structural or regulatory responses rather than individual-level interventions.
+
+**Mechanism**  
+
+Biological risk factors emerge from the physiological or genetic characteristics of the individual, such as hormonal dysregulation, inherited susceptibility variants, or immune deficits. Social risk factors reflect the socioeconomic and cultural environment: poverty, social isolation, low educational attainment, and barriers to healthcare access. The distinction between biological and social risk is important when designing interventions, because biological factors typically require medical management while social factors demand policy-level action targeting structural inequalities.
+
+**Proximity in the causal chain**  
+
+Proximal risk factors directly produce disease through immediate pathophysiological mechanisms. Elevated blood pressure and hyperglycaemia are proximal risk factors for cardiovascular disease because they cause direct, measurable damage to vascular structures. Distal risk factors exert their influence at a distance, acting through chains of intermediate variables. Socioeconomic status is a distal factor for many chronic diseases: it influences health through pathways that include diet quality, exposure to occupational hazards, psychosocial stress, health literacy, and access to preventive services. Understanding the position of a risk factor in the causal chain is essential for designing appropriate interventions.
+
+**Directness of the causal relationship**  
+
+Primary risk factors demonstrate direct causal relationships with specific diseases. The relationship between cigarette smoking and lung cancer is the paradigmatic example. Secondary risk factors increase disease risk indirectly, typically by exacerbating primary risk factors or through shared underlying mechanisms. Obesity is a secondary risk factor for type 2 diabetes and cardiovascular disease, operating through pathways including insulin resistance, dyslipidaemia, systemic inflammation, and endothelial dysfunction.
+
+## Establishing Causality in Epidemiology
+
+### The Nature of Causal Claims
+
+Causality in epidemiology refers to the relationship in which a specific factor (the cause) is responsible for producing an observed outcome (the effect). Establishing causal relationships requires far more than demonstrating a statistical association. Any observed association might reflect a genuine causal effect, confounding by a third variable related to both the exposure and the outcome, selection or information bias, or chance. Distinguishing causal from spurious associations is the central challenge of observational epidemiology.
+
+Multiple complementary frameworks have been developed to guide causal inference, each contributing important insights while carrying its own limitations. The Bradford Hill criteria remain the most widely taught and applied, but contemporary causal inference increasingly relies on formal graphical methods and the counterfactual framework.
+
+### Bradford Hill Criteria (1965)
+
+Sir Austin Bradford Hill proposed nine viewpoints for assessing whether a statistical association is likely to be causal. These criteria are not a checklist to be mechanically applied, but a framework for weighing the totality of evidence. Confidence in a causal interpretation increases as more criteria are satisfied, particularly when those satisfied include the ones with greatest logical force.
+
+**Strength of association.** The stronger the statistical association between exposure and disease, measured by relative risk or odds ratio, the less likely it is to be explained by confounding or bias. A strong association does not guarantee causality, but a weak association that disappears with modest adjustment is less convincing.
+
+**Consistency.** The association should be reproducible across different researchers, populations, time periods, and study designs. Replication using independent methods that have different potential biases provides stronger evidence than multiple studies sharing the same methodological limitations.
+
+**Specificity.** The more precisely the disease and exposure can be defined, and the more specific the relationship between them, the stronger the case for causality. This criterion has become less central in an era of multifactorial disease aetiology but retains relevance for infectious diseases with specific pathogens and specific clinical syndromes.
+
+**Temporal relationship.** The presumed cause must always precede the effect in time. This is the only obligatory criterion: no causal claim can stand if the putative cause follows the putative effect. Establishing the correct temporal sequence is one of the principal advantages of prospective cohort study designs over cross-sectional studies.
+
+**Biological gradient.** A dose-response relationship — in which increasing levels of exposure produce corresponding increases in disease frequency — strengthens causal inference. However, the absence of a monotonic dose-response does not rule out causality; some causal relationships exhibit threshold effects or non-linear patterns.
+
+**Plausibility.** The association should have a logically coherent explanation consistent with current biological and medical knowledge. Plausibility is constrained by the existing state of scientific knowledge, which changes over time; associations that seemed implausible at discovery have later proved causal as the underlying mechanisms were elucidated.
+
+**Coherence.** All available evidence — from clinical, experimental, and epidemiological sources — should be consistent with the hypothetical causal model. The causal hypothesis should not fundamentally contradict established natural history of the disease.
+
+**Experimental evidence.** Evidence from experimental manipulation — ideally randomised controlled trials in humans, or animal experiments when human experiments are not feasible or ethical — that removing or modifying the cause produces corresponding changes in the outcome strengthens causal inference substantially.
+
+**Analogy.** Evidence that a similar exposure causes a similar disease (by analogy) lowers the threshold of evidence required to accept a new causal claim. The prior existence of accepted teratogenic drugs, for example, made it easier to accept thalidomide's teratogenicity.
+
+## Measurement of Disease and Exposure
+
+### Illness, Disease, and Sickness
+
+Before examining measurement approaches, three foundational terms require precise definition. **Illness** refers to the subjective experience of poor health as perceived by the individual — the constellation of symptoms and signs that prompt healthcare seeking. **Disease** is the objective pathological condition identified by clinical criteria, laboratory findings, or imaging studies; it is a medical construct used for diagnosis, classification, and treatment. **Sickness** is a broader social and administrative concept encompassing both physical and mental aspects of poor health, often used in occupational, insurance, and administrative contexts without implying a specific diagnosis. Surveillance systems capture diagnosed disease, not the subjective experience of illness — a distinction critical for interpreting morbidity data, since the two will diverge whenever barriers to diagnosis exist.
+
+### The Morbidity Iceberg
+
+A conceptual model indispensable for interpreting disease frequency measures is the morbidity iceberg. Like an iceberg, disease burden presents a small visible portion — reported, diagnosed cases known to health services — and a much larger hidden portion that remains beneath the surface of clinical detection. The hidden component comprises cases where individuals experience symptoms but do not seek care (due to mild symptoms, financial barriers, geographic inaccessibility, or cultural factors), cases where care is sought but diagnosis fails (due to atypical presentation, limited diagnostic resources, or clinician oversight), and cases where infection or disease is entirely asymptomatic.
+
+The iceberg metaphor has direct implications for measurement. Incidence and prevalence estimates derived solely from diagnosed cases will substantially underestimate true disease burden when a large hidden component exists. This phenomenon motivates population-based screening programmes, active surveillance strategies, and epidemiological studies employing representative sampling to characterise total disease burden including undiagnosed cases. The morbidity iceberg is also directly relevant to case reporting systems: no passive notification system, however well designed, captures the full disease burden because it is structurally dependent on patients presenting to healthcare and receiving correct diagnoses.
+
+### Incidence
+
+Incidence measures the rate at which new cases of disease arise in a population that is at risk of developing the disease during a defined observation period. The denominator must exclude individuals already affected at the start of observation, since they cannot become new cases. Incidence thus captures the dynamic process of disease development and provides fundamental information about disease aetiology and the effectiveness of preventive interventions.
+
+**Incidence Rate (Incidence Density)**  
+
+The incidence rate, also termed incidence density, divides the number of new cases by the total person-time at risk accumulated by the population during the observation period. Person-time is calculated as the sum of disease-free observation periods contributed by each individual; a person observed for three years contributes three person-years to the denominator, while a person who develops disease after one year contributes only one. The incidence rate is expressed in units of inverse time (e.g., cases per 1,000 person-years) and has no upper bound, since multiple incident episodes can occur within a single person-year.  
+
+$I_{rate} = \frac{\text{Number of new cases}}{\text{Total person-time at risk}} \times 10^n$
+
+In the theoretical limit as the time interval approaches zero, the incidence rate converges to the hazard rate (also termed the force of morbidity or disease intensity) — the instantaneous rate of disease occurrence at any given moment among those at risk.
+
+**Cumulative Incidence (Risk / Attack Rate)**  
+
+The cumulative incidence, also called the attack rate or risk, measures the proportion of initially disease-free individuals who develop disease over a specified observation period. Unlike the incidence rate, cumulative incidence is a dimensionless probability ranging from 0 to 1, and its interpretation requires explicit specification of the time period.  
+
+$CI = \frac{\text{New cases during period}}{\text{Population at risk at start of period}}$
+
+Cumulative incidence assumes a closed population with complete follow-up (or random loss to follow-up). When substantial variation in follow-up duration exists, the incidence rate is methodologically preferable because it accommodates variable observation periods through its person-time denominator.
+
+**Cumulative Risk and the Rate-to-Risk Conversion**  
+
+Cumulative risk accumulates age-specific incidence rates over a defined age span — typically from birth to age 64 or 74 — to estimate the probability of developing a disease in the absence of competing causes of death. For rare diseases (cumulative risk less than 10%), cumulative risk can be approximated by the cumulative rate, which is the simple sum of age-specific incidence rates. The precise mathematical relationship is:  
+$\text{Cumulative Risk} = 1 - \exp(-\text{Cumulative Rate})$
+
+More generally, the conversion between an incidence rate and the corresponding risk over a time interval $\Delta t$ is:  
+
+$\text{Risk} = 1 - e^{(−I_{rate} \times \Delta t)}$
+
+### Prevalence
+
+Prevalence measures the proportion of individuals in a defined population who have a specified condition at a given moment, regardless of when disease onset occurred. Unlike incidence, which counts new cases, prevalence counts all existing cases and reflects the cumulative historical burden of the disease in the population.
+
+**Point prevalence** is the proportion of the population with disease on a specific date: 
+
+$P_{point} = \frac{\text{All cases at a specific point in time}}{\text{Total population at that point}} \times 10^n$
+
+**Period prevalence** is the proportion affected at any time during a defined interval, necessarily exceeding point prevalence unless there is zero incidence during the interval:  
+
+$P_{period} = \frac{\text{Cases at any time during the period}}{\text{Total population during the period}} \times 10^n$
+
+**Factors Governing Prevalence**  
+
+Prevalence is a function of both the rate of disease development and the duration of disease. The following relationship holds approximately under steady-state conditions (stable population with constant incidence and prevalence):  
+
+$P \approx I \times D$  
+
+where D is the average duration of the disease. Prevalence increases when disease duration is extended, when incidence rises, when affected individuals immigrate, or when improved diagnostics detect previously unrecognised cases. Prevalence falls when effective curative treatment shortens disease duration, when case-fatality rises, or when affected individuals emigrate.
+
+A closely related quantity is the prevalence odds — the ratio of diseased to non-diseased individuals in the population — which under steady-state conditions equals exactly $I_{rate} \times D$. This identity provides the theoretical foundation for the relationship between odds ratios from case-control studies and incidence rate ratios from cohort studies in stable populations.
+
+### Measuring Exposure: Risk Metrics
+
+Measuring the relationship between an exposure and a disease requires at least two comparison groups — the exposed and the unexposed — and a set of metrics that quantify both the strength of association and the absolute burden attributable to the exposure.
+
+**Relative Risk (RR)** 
+
+The relative risk (or risk ratio) is the ratio of disease incidence in the exposed group to disease incidence in the unexposed group. It ranges from 0 to positive infinity and measures the strength of the association between exposure and disease.  
+
+$RR = I_{exposed} / I_{unexposed}$
+
+**Odds Ratio (OR)**  
+
+The odds ratio is the ratio of the odds of disease in the exposed group to the odds of disease in the unexposed group. It is the natural measure of association in case-control studies. When the disease is rare, the OR approximates the RR closely.  
+$OR = \frac{\text{Odds of disease in exposed}}{\text{Odds of disease in unexposed}}$
+
+**Risk Difference and Number Needed to Harm**  
+
+The risk difference (or attributable risk) is the absolute excess incidence in the exposed group attributable to the studied factor.  
+$RD = I_{exposed} − I_{unexposed}$
+
+**Number Needed to Harm (NNH)** is the number of individuals who must be exposed to produce one additional case of disease:  
+
+$NNH = 1 / RD$
+
+**Attributable Fraction in the Exposed**  
+
+The attributable fraction (AF%) quantifies the relative proportion of cases in the exposed group that are attributable to the exposure.  
+
+$AF\% = [\frac{(I_{exposed} − I_{unexposed})}{I_{exposed}}] \times 100\%$
+
+**Population Attributable Risk and Etiologic Fraction**  
+
+The population attributable risk (PAR) is the absolute excess incidence in the entire population.  
+
+$PAR = I_{population} − I_{unexposed}$
+
+The population etiologic fraction (PAR%) expresses this excess as a proportion of total population incidence:  
+$PAR\% = [\frac{(I_{population} − I_{unexposed})}{I_{population}}] \times 100\%$
+
+| Measure | What it quantifies | Study design | Scale |
+|---------|---------------------|--------------|-------|
+| RR | Relative incidence ratio | Cohort | 0 → ∞ |
+| OR | Relative odds ratio | Case-control | 0 → ∞ |
+| RD / AR | Absolute excess risk | Cohort / RCT | −1 → 1 |
+| NNH | Exposed individuals per extra case | Clinical | 1 → ∞ |
+| AF% | Excess fraction attributable — in exposed | Cohort | 0–100% |
+| PAR | Excess incidence in the population | Population | Absolute |
+| PAR% | Attributable fraction — in population | Population | 0–100% |
+
+## Case Finding and Case Reporting Systems
+
+### Case Finding
+
+Case finding is the process of identifying individuals who meet a specified case definition for a disease or condition. It is a critical first step in outbreak investigation and in the ongoing operation of public health surveillance programmes. The quality of case finding — its completeness, timeliness, and selectivity — determines the quality of the epidemiological intelligence available for public health response.
+
+**Passive case finding** relies on patients presenting at healthcare facilities on their own initiative in response to symptoms. The fundamental limitation of this approach is its dependence on health-seeking behaviour. **Active case finding** involves public health authorities proactively searching for cases rather than waiting for them to present. Active methods include searching existing surveillance and laboratory data, systematic surveys of physicians and labs, contact tracing, and public announcements.
+
+Case finding can be organised on either a population basis or on a healthcare provider basis. Effective case finding in all contexts requires a clear case definition specifying clinical criteria, laboratory confirmation criteria, and orientations regarding time, place, and person.
+
+### Case Reporting Systems
+
+Case reporting systems, also termed notification systems, are the structured mechanisms through which information about identified cases is transmitted to public health authorities.
+
+**Passive reporting** places the responsibility for initiating a report on the healthcare provider or laboratory. **Active reporting** involves public health officials regularly contacting providers and laboratories to collect case data. Reporting may be mandatory (statutory) or voluntary. From the perspective of individual privacy, reporting systems are further classified as nominative (including identifying details) or non-nominative (anonymous).
+
+Modern reporting systems increasingly employ electronic platforms to accelerate data collection. Systems are evaluated on sensitivity and timeliness. Case reporting captures only the visible tip of the morbidity iceberg: cases that presented to healthcare, received a correct diagnosis, and were correctly reported. Delays and failures at any stage reduce the system's sensitivity.
+
+## Morbidity Data Sources and Disease Registration
+
+### Purposes of Disease Registration
+
+Disease registration serves multiple essential functions. **Control of infectious diseases** enables rapid identification and timely implementation of case isolation and contact tracing. **Planning and evaluation of preventive programmes** allow health authorities to identify populations at elevated risk and quantify disease burden. **Assessment of necessary healthcare services** indicate the number of patients requiring care and guide decisions about hospital capacity. **Evaluation of the economic burden of diseases** provide the foundation for cost-of-illness studies. **Research into etiology and pathogenesis** serve as sampling frames for analytical epidemiological studies. **National and international studies on disease prevalence and disability** enable valid cross-national comparison.
+
+### Classification of Morbidity Data Sources
+
+Health and medical establishments represent the primary source of morbidity data, encountered either through passive or active methods. The individual and their family constitute a complementary source through self-assessed health data and household surveys. Registration of deaths through cause-of-death certificates provides data on fatal outcomes. Specialised disease registries for conditions such as cancer, HIV/AIDS, and tuberculosis provide high-quality longitudinal data.
+
+### Epidemiological Case Definitions
+
+An epidemiological case definition is grounded in observable facts that can be reliably recorded. Three categories of certainty are used in Bulgarian infectious disease surveillance (Regulation 21 of July 18, 2005): **Possible** cases involve compatible clinical presentation without laboratory confirmation; **Probable** cases include clinical presentation plus an epidemiological link or preliminary lab evidence; **Confirmed** cases require definitive laboratory evidence.
+
+## The International Classification of Diseases (ICD)
+
+### Purpose and Structure
+
+The International Classification of Diseases (ICD) is the globally dominant system providing standardised nomenclature for diseases and causes of death. It uses a hierarchical alphanumeric structure to organise diseases into three major cause groups: **Group I** (Communicable, maternal, perinatal, and nutritional conditions), **Group II** (Non-communicable and degenerative diseases), and **Group III** (Injuries and external causes).
+
+### ICD-10 and ICD-11
+
+**ICD-10** was adopted in 1990 and consists of 22 chapters. In Bulgaria, its application across all healthcare institutions was made mandatory by Regulation 42 of December 8, 2004. **ICD-11** entered into force on January 1, 2022, and represents a fundamental structural modernisation with 28 chapters and a fully digital architecture. The transition from ICD-10 to ICD-11 is a multi-year process requiring updates to electronic health records and retraining of clinical coders.
+
+### Complementary WHO Classification Systems
+
+The ICD is complemented by the International Classification of Functioning, Disability and Health (ICF), the Anatomical Therapeutic Chemical (ATC) classification system for pharmaceuticals, and International Nonproprietary Names (INN) for generic drug nomenclature.
+
+## Bulgarian Legal Framework and the National Health Information System
+
+### Legal Framework for Disease Registration
+
+Disease registration is governed by several regulatory instruments. **Regulation 42 (2004)** makes ICD-10 mandatory. **Regulation 21 (2005)** covers infectious disease classification. **Regulation 8 (2016)** manages the state-maintained population screening system and dispensary registers. Additional regulations govern occupational diseases, psychiatric patient behavior, and health registration in schools.
+
+### Specialised Electronic Surveillance Systems
+
+The Ministry of Health maintains dedicated electronic systems for HIV and tuberculosis patient registration. The National Centre for Infectious and Parasitic Diseases administers systems for measles, rubella, epidemic mumps, and influenza. General practitioners and specialists maintain Infectious Diseases Registration Books following standardised templates.
+
+### The National Health Information System (NHIS)
+
+Established by **Regulation 6 of December 21, 2022**, the NHIS integrates separate information systems into a unified federated infrastructure and creates an electronic health record for every citizen. Strategic objectives include improving medical care quality, ensuring rational pharmacotherapy, and increasing healthcare system efficiency. Evolutionary implementation involves challenges such as deployment costs and interoperability between different EHR vendors.

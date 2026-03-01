@@ -2,6 +2,7 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/epidemiology-surveillance.html",
       "/learning-tasks/demography-indices.html",
       "/learning-tasks/sociological-research-methods.html"
     ]
@@ -9,12 +10,13 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/risk-factors-causality.html",
       "/15-minute-learning/demography-indices.html",
       "/15-minute-learning/sociological-research-methods.html"
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W8-en.html",
       "/epinews-posts/2026-W7-en.html",
@@ -37,7 +39,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W8-en.html",
       "/epinews-posts/2026-W7-en.html",
