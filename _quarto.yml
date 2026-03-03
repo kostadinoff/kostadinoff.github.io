@@ -6,6 +6,7 @@ project:
     - .nojekyll
 
 website:
+  site-url: "https://kostadinoff.github.io"
   description: Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv
 
   page-footer:
@@ -51,4 +52,3 @@ format:
     sharing: [twitter, linkedin, facebook]
     title-block-banner: true
 editor: source
-site-url: "https://kostadinoff.github.io"

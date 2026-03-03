@@ -132,7 +132,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Epi News – Kostadin Kostadinov">
+<link rel="alternate" type="application/rss+xml" title="Kostadin Kostadinov" href="epinews.xml" data-external="1"><meta name="twitter:title" content="Epi News – Kostadin Kostadinov">
 <meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
 <meta name="twitter:card" content="summary">
@@ -812,7 +812,7 @@ Nov 3, 2025
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
