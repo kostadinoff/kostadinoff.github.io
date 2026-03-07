@@ -2,6 +2,7 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/burden-of-disease.html",
       "/learning-tasks/epidemiology-surveillance.html",
       "/learning-tasks/demography-indices.html",
       "/learning-tasks/sociological-research-methods.html"
@@ -17,7 +18,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W9-en.html",
       "/epinews-posts/2026-W8-en.html",
@@ -41,7 +42,7 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W9-en.html",
       "/epinews-posts/2026-W8-en.html",

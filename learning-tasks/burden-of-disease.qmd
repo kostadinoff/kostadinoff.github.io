@@ -1,0 +1,141 @@
+---
+title: "Measuring the Burden of Disease"
+author: "Kostadin Kostadinov"
+date: 2026-03-07
+description: "Interactive class tasks for epidemiology students focusing on calculating and interpreting YLL, YLD, DALY, and QALY metrics within a public health framework."
+categories: 
+  - "Epidemiology"
+  - "Public Health"
+  - "Daly"
+  - "Qaly"
+  - "Assignment"
+---
+
+# Practical Class Instructions:
+
+This document contains four interactive scenarios designed for group work in epidemiology and public health workshops. Each group will analyze a specific case study to calculate burden of disease indicators, evaluate health-related quality of life, and debate the social and ethical implications of health resource allocation.
+
+### Reference Material
+
+*This assignment is based on the reading material: [The Burden of Disease: Concepts, Measurement, and the Bulgarian Context](../15-minute-learning/burden-of-disease.qmd). All calculations and interpretations must reference the definitions and metrics established in this text.*
+
+### General Instructions for Students
+
+Each group will independently solve a distinct burden of disease problem. Your task is to:
+
+1.  **Perform the Calculations**: Calculate the requested metrics (YLL, YLD, DALY, QALY) using the provided data and formulas. Show your working.
+2.  **Evaluate the Public Health Impact**: Interpret what the numbers mean for the affected community and the healthcare system.
+3.  **Participate in the "Battle" Presentation**: Prepare a brief defense of your position on the assigned "Battle Point" for a class-wide debate.
+
+---
+
+## Scenario 1: The Pediatric Outbreak (YLL & YLD Focus)
+
+**The Context:** In the region of Equatoria, an outbreak of a vaccine-preventable paralytic disease occurs among children under age five. Local health officials need to present the "social cost" of this outbreak to justify an emergency mass-immunization budget.
+
+**The Data:**
+
+| Parameter | Value |
+|-----------|-------|
+| Total Cases | 600 children |
+| Deaths | 40 children (Avg. age: 2 years) |
+| Survivors with Permanent Paralysis | 560 children |
+| Disability Duration | 60 years |
+| Disability Weight (DW) | 0.25 (25% disabled) |
+| Standard Life Expectancy at age 2 | 80 years |
+
+**Your Task:**
+
+1.  **Calculate YLL (Years of Life Lost)**: $Deaths \times (Life Expectancy - Age at Death)$.
+2.  **Calculate YLD (Years Lived with Disability)**: $Cases \times Duration \times Disability Weight$.
+3.  **Calculate Total DALYs (Disability-Adjusted Life Years)**: Sum of YLL and YLD.
+
+**Discussion Hints & "Battle" Points:**
+
+- **The Weight of the Young**: Discuss why infectious diseases in children often generate significantly more DALYs than chronic diseases in the elderly. Consider the "life unlived" component.
+- **Battle Point**: One group argues that **YLL** (death) is the only "true" loss, while another argues that **YLD** (disability) is a heavier social burden because it requires lifelong healthcare and social support. 
+- **Guidance**: Use the **"Health Gap"** concept to defend your position—how far does the reality fall from the ideal of full biological potential?
+
+---
+
+## Scenario 2: The Chronic Heart Initiative (DALY & HRQL Focus)
+
+**The Context:** A high-income nation is comparing two districts. District A has high rates of **Ischemic Heart Disease (IHD)**, while District B has high rates of **Depressive Disorders**. The Ministry of Health can only fund one major screening program.
+
+**The Data:**
+
+| District | Primary Condition | Mortality (Deaths/Year) | Survival Context |
+|----------|-------------------|-------------------------|------------------|
+| **District A** | Ischemic Heart Disease | 500 | Survivors have high HRQL scores (0.85 on SF-36) |
+| **District B** | Depressive Disorders | 10 (Suicides) | 2,000 people live with "Severe Depression" (DW = 0.65) |
+
+**Your Task:**
+
+1.  **Interpret the Burden**: Based on the data, identify which district likely carries more **YLLs** and which carries more **YLDs**.
+2.  **Mortality vs. DALY**: Explain why conditions like IHD, which often cause high mortality in older populations, might account for a higher percentage of total deaths than of total YLL.
+3.  **HRQL Assessment**: Review the **SF-36 concepts** (vitality, social functioning, mental health). Describe how a patient with IHD might score differently across these domains compared to a patient with severe depression.
+
+**Discussion Hints & "Battle" Points:**
+
+- **The Mortality Bias**: Discuss why traditional "death rates" would strongly favor funding District A, while **DALY** metrics might shift the focus toward the chronic suffering in District B.
+- **Battle Point**: Argue whether "Quality of Life" is too **subjective** to be used in national budget allocations. 
+- **Guidance**: Should we rely solely on **expert-derived disability weights** (used in DALY) or on **patient-reported outcomes** (used in HRQL tools like SF-36)? Which is more "democratic"?
+
+---
+
+## Scenario 3: Choosing the Treatment (QALY & Utility Focus)
+
+**The Context:** A hospital board must decide between two treatments for a chronic condition. Treatment X is a surgery that provides an immediate return to full health but carries a 5% mortality risk. Treatment Y is a safe long-term medication that leaves the patient in a suboptimal health state.
+
+**The Data:**
+
+| Treatment | Expected Outcome | Utility Elicitation (TTO Method) | Cost |
+|-----------|------------------|----------------------------------|------|
+| **Treatment X** | 10 years of "Perfect Health" | Utility (Q) = 1.0 | $50,000 |
+| **Treatment Y** | 12 years of "Suboptimal State" | Indifferent between 12y with condition vs 6y perfect | $20,000 |
+
+**Your Task:**
+
+1.  **Calculate the Utility Value (Q)**: Use the Time Trade-Off results: $Years_{Perfect} / Years_{Condition}$.
+2.  **Calculate QALYs (Quality-Adjusted Life Years)**: Multiply Expected Years of Life by the Utility Value (Q).
+3.  **Cost-Utility Analysis**: Calculate the **Average Cost-Effectiveness Ratio (ACER)** per QALY for both treatments. ($Cost / QALYs$).
+
+**Discussion Hints & "Battle" Points:**
+
+- **Extra-Welfarism**: Discuss the **Extra-welfarist approach**. How does this view differ from simply maximizing individual happiness?
+- **Battle Point**: One group defends Treatment X because it provides a higher number of **QALYs** on average. The other group attacks it on the grounds of **Equity and Ethics**, arguing that the 5% mortality risk is unacceptable even if the mathematical average is superior.
+- **Guidance**: If the patient dies during surgery, they get 0 QALYs. Is "Expected Value" a fair way to treat individual human lives?
+
+---
+
+## Scenario 4: The Aging "Silver Tsunami" (HALE & Social Values Focus)
+
+**The Context:** As life expectancy in a nation rises to 85 years, the government notices that **HALE (Health-Adjusted Life Expectancy)** is only 68 years. This indicates that citizens spend an average of 17 years in poor health.
+
+**The Data:**
+
+| State | Years in Disability | Average Disability Weight | YLL Component |
+|-------|---------------------|---------------------------|---------------|
+| **Current State** | 17 years | 0.30 | 0 (Lived to full expectancy) |
+| **Projected (After Policy)** | 10 years | 0.30 | 0 (Lived to full expectancy) |
+
+**Your Task:**
+
+1.  **Calculate Current DALYs**: For an individual over their lifespan ($Years \times Weight$).
+2.  **Calculate Projected DALYs**: After a "healthy aging" program aims for the **compression of morbidity**.
+3.  **Define HALE**: In plain language, explain the difference between standard life expectancy (85) and HALE (68) in this specific population.
+
+**Discussion Hints & "Battle" Points:**
+
+- **The Ethics of Age-Weighting**: Discuss the GBD concept of **age-weighting** (valuing years lived by young adults more than those by the elderly). 
+- **Battle Point**: One group argues that age-weighting is essential because young adults are "productive" and support children and the elderly. The other group argues this **discriminates against the aged** and violates social justice.
+- **Guidance**: Which "Social Value" should lead the nation’s health policy: Economic productivity or Universal Human Rights?
+
+---
+
+## Evaluation Criteria:
+
+- **Mathematical Accuracy (40%)**: Correct application of YLL, YLD, DALY, and QALY formulas.
+- **Public Health Interpretation (30%)**: Clear explanation of the difference between mortality-only measures and burden-of-disease measures.
+- **Critical Synthesis (20%)**: Depth of engagement with the "Battle Points" and ethical dilemmas.
+- **Professional Communication (10%)**: Clarity of the group's presentation during the class debate.
