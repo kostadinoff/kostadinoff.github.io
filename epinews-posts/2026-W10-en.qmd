@@ -1,0 +1,111 @@
+---
+title: "Epidemiological News: Week 10, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-03-13
+description: "Week 10 of 2026 (2–8 March) is marked by the continued resolution of the winter respiratory virus season across the EU/EEA, even as several priority signals demand sustained public health attention. Influenza and RSV activity are declining across most European countries, and all-cause excess mortality recorded during weeks 1–7 has reversed course. A chikungunya intensification in Mayotte, France, with over 270 autochthonous cases since January, represents the most significant vector-borne threat to European travellers at present. In Bulgaria, the dominant signals remain the sustained year-over-year surges in acute viral hepatitis (+95% relative to the same period in 2025), campylobacteriosis (+169%), and sexually transmitted infections—gonorrhoea (+215%) and urogenital chlamydial infection (+126%). A notable week-over-week increase in campylobacteriosis (62%) reinforces concerns about zoonotic foodborne transmission as conditions shift seasonally. In the domain of non-communicable disease, the COBRRA randomised trial published in the New England Journal of Medicine demonstrated that apixaban is associated with a 54% relative reduction in clinically relevant bleeding compared with rivaroxaban for acute venous thromboembolism, with immediate implications for anticoagulation practice. The ACT EU initiative has released a draft guidance document for clinical trials during public health emergencies, now open for stakeholder consultation. No WHO or EMA CHMP/PRAC data were available for this reporting week; the relevant sections have been omitted accordingly."
+categories: 
+  - "English"
+title-meta: "Epidemiological News: Week 10, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-03-13
+---
+
+## Non-Communicable Disease and Healthcare System Developments
+
+### Anticoagulation in Acute Venous Thromboembolism: COBRRA Trial Findings
+
+The New England Journal of Medicine published the results of the COBRRA trial (NCT03266783) in its 11 March 2026 issue, providing the most definitive head-to-head comparative evidence to date on bleeding risk between the two most widely used direct oral anticoagulants for acute venous thromboembolism (VTE). The trial enrolled 2,760 patients with symptomatic pulmonary embolism or proximal deep-vein thrombosis, randomised in a 1:1 ratio to receive either apixaban (10 mg twice daily for seven days, then 5 mg twice daily) or rivaroxaban (15 mg twice daily for 21 days, then 20 mg daily) for three months, using a prospective open-label blinded-endpoint design.
+
+The primary outcome—a composite of major bleeding or clinically relevant non-major bleeding as defined by the International Society on Thrombosis and Haemostasis—occurred in 3.3% of patients assigned to apixaban (44 of 1,345) compared with 7.1% of those assigned to rivaroxaban (96 of 1,355), yielding a relative risk of 0.46 (95% CI: 0.33–0.65; p<0.001). This represents a 54% relative reduction in clinically relevant bleeding, a difference of substantial magnitude. All-cause mortality was numerically lower in the apixaban group (0.1% vs. 0.3%), though the confidence interval was wide and this comparison was underpowered. Serious adverse events unrelated to bleeding were similar between arms.
+
+The clinical significance of these findings is considerable. Both agents have been guideline-equivalent options for acute VTE, with clinicians relying on indirect comparisons, pharmacodynamic reasoning, and observational data to differentiate them. COBRRA provides prospective randomised evidence supporting apixaban as the preferred agent where minimising bleeding risk is a priority, particularly in older patients, those with baseline anaemia, or those at elevated haemorrhagic risk. Healthcare systems with institutional anticoagulation protocols should review these data in the context of formulary and pathway decisions.
+
+### EMA ACT EU Draft Guidance on Clinical Trials During Public Health Emergencies
+
+The Accelerating Clinical Trials in the EU (ACT EU) initiative has released a draft guidance document outlining how clinical trials should be authorised, adapted, and continued during public health emergencies (PHEs), now open for stakeholder consultation until 30 April 2026. This is the first guidance produced under the current EU legislative framework and post-COVID-19 ICH guidelines. The document proposes regulatory mechanisms to accelerate both new trial authorisations and modifications to ongoing trials, encourages sponsors to seek scientific advice from EMA's Emergency Task Force (ETF), and addresses cross-site participant transfers and methodological adaptations that may be required under emergency conditions. 
+
+---
+
+## Infectious Diseases: Global Perspective
+
+### Respiratory and Droplet Transmission
+
+#### Middle East Respiratory Syndrome Coronavirus (MERS-CoV)
+
+As of 2 March 2026, no new MERS-CoV cases have been reported to WHO since the previous monthly update on 3 February 2026, and no cases have been reported anywhere globally since the beginning of 2026. This continues a trend of historically low detection rates—the lowest since 2014—with the cumulative total since April 2012 standing at 2,647 confirmed cases and 959 deaths worldwide. ECDC assesses the risk of sustained human-to-human transmission in Europe as very low, and the overall risk to the EU/EEA population as low. Endemic dromedary camel-to-human transmission in the Arabian Peninsula remains the primary epidemiological driver; imported cases via travel remain a low but non-negligible possibility. ECDC continues monthly monitoring.
+
+### Vector-Borne Transmission
+
+#### Chikungunya — Mayotte, France
+
+The most significant current vector-borne signal at the global-to-European interface is an intensifying chikungunya virus outbreak in Mayotte, France. Since 1 January 2026, more than 270 confirmed autochthonous cases have been reported, with a weekly average of 65 cases recorded in the final two weeks of February 2026. Mayotte was also affected in 2025, with 1,270 confirmed cases and a peak of 232 cases in a single week (week 21, 2025); case counts in 2025 were likely underestimated given restricted healthcare access in the aftermath of Cyclone Chido.
+
+Chikungunya virus is transmitted primarily by *Aedes aegypti* and *Aedes albopictus* mosquitoes, with an incubation period of two to twelve days. The disease presents with acute-onset febrile illness and severe, often debilitating polyarthralgia that may persist for weeks to months in a proportion of patients—a feature that distinguishes it from dengue and gives the disease its principal chronic morbidity burden. Mortality is low overall but elevated in neonates, older adults, and individuals with comorbidities.
+
+The current rainy season in Mayotte, which typically extends through April, is directly facilitating *Aedes* mosquito proliferation and viral amplification; outbreak continuation through the season's end is anticipated. The outbreak is embedded in a broader Indian Ocean regional resurgence: the Seychelles have reported cases in 2026, and renewed chikungunya circulation has been confirmed in La Réunion, Mauritius, Madagascar, and the Comoros. The probability of infection for travellers to Mayotte is assessed by ECDC as moderate. The likelihood of onward autochthonous transmission within mainland Europe following importation by a viraemic traveller remains low at this time of year, given unfavourable environmental conditions for *Aedes* activity, though this assessment will require re-evaluation as European summer approaches and *A. albopictus* activity resumes in southern regions.
+
+---
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Respiratory and Droplet Transmission
+
+#### Influenza and Other Respiratory Viruses
+
+Week 10 data from ECDC's European Respiratory Virus Surveillance Summary (ERVISS) indicate a continuing and substantive decline in respiratory virus activity across the EU/EEA. Primary care consultation rates for influenza-like illness and acute respiratory infection have returned to baseline levels in more than half of reporting countries, providing a clear epidemiological signal that the 2025/26 winter respiratory season is past its peak across much of the region.
+
+Influenza virus circulation, while still geographically widespread (13 of 20 reporting countries classifying spread as widespread), continues to decrease in both intensity and transmission indicators. Over half of reporting countries now categorise influenza intensity as baseline or low. In primary care, influenza test positivity was 19% (median; IQR 15–35%) in week 9, with 369 of 382 influenza-positive specimens in the primary care sentinel system being influenza A; of those subtyped, A(H3) predominated at 64%, followed by A(H1)pdm09 at 36%. In the hospitalised severe acute respiratory infection (SARI) population, influenza test positivity stood at 14% (IQR 3.4–7.8%). Influenza B (B/Vic lineage) remained a very minor contributor at approximately 2% of detections. From a genetic surveillance perspective, subclade 2a.3a.1(K) continues to dominate among A(H3) isolates (90%), and subclade 5a.2a.1(D.3.1) among A(H1)pdm09 isolates (99%). Hospitalisations are declining, with adults aged 65 years and above continuing to account for the majority of admissions.
+
+Respiratory syncytial virus (RSV) positivity in primary care was 9% (IQR 8.7–13%), with RSV-B dominant over RSV-A (77% vs. 23% in primary care; 57% vs. 43% in hospitals). RSV hospitalisations appear to have peaked at the EU/EEA level overall, though children under five years of age have not yet experienced a corresponding peak and continue to represent the dominant hospitalised age group. This paediatric RSV burden warrants continued monitoring by hospitals with neonatal and paediatric intensive care capacity.
+
+SARS-CoV-2 activity remains low across all age groups and healthcare settings, with test positivity at 2.9% in primary care and 1.1% in hospitals. The XFG variant under monitoring (VUM) represented approximately 66% of sequenced specimens in weeks 6–7 of 2026 in the limited data available from two reporting countries, followed by NB.1.8.1 at 9.1%. No changes have been made to ECDC's variant classifications since January 2026. Importantly, BA.3.2 was detected at proportions exceeding 40% in Germany and the Netherlands in week 1, 2026, but has not appeared in subsequent sequence submissions (weeks 6–7), suggesting either a transient signal or a data artefact attributable to very low sequencing volumes. The ECDC assessment is that no currently circulating variant is associated with increased infection severity or meaningfully reduced vaccine effectiveness against severe disease.
+
+All-cause excess mortality monitored through EuroMOMO has begun declining across all age groups following a period of above-expected mortality that persisted from weeks 1 through 7 of 2026—a period coinciding with the peak of the influenza and RSV season. This trajectory is consistent with expected post-peak dynamics.
+
+#### Mass Gathering — Milan Winter Paralympic Games
+
+The Winter Olympic Games concluded on 22 February 2026 without major communicable disease events detected among the general public or attendees. Limited clusters of gastrointestinal and influenza-like illness were documented within the Olympic Village among athletes, but no evidence of broader transmission at venues was identified. The Winter Paralympic Games commenced on 6 March and run through 15 March 2026. ECDC continues monitoring and assesses the probability of communicable disease transmission among EU/EEA citizens attending the Paralympic Games as low, provided standard preventive measures are applied.
+
+---
+
+## Infectious Diseases: Bulgaria
+
+The Week 10 surveillance data (2–8 March 2026) from the National Centre for Infectious and Parasitic Diseases (NCIPD) reveal a mixed epidemiological picture: the respiratory season continues to wind down, while several enteric, zoonotic, and sexually transmitted disease signals remain at elevated or accelerating levels relative to 2025 benchmarks.
+
+### Bloodborne Transmission
+
+#### Acute Viral Hepatitis
+
+Acute viral hepatitis (all serotypes combined: A, B, C, D, E, N) recorded 33 cases in week 10, a modest week-over-week decline of four cases from the 37 registered in week 9. While week-level fluctuations are modest, the cumulative burden through week 10 of 2026 has reached 379 cases, compared with 194 cases over the same period in 2025—a 95% year-over-year increase. This signal has been present and sustained since the beginning of the surveillance year and represents the highest-priority ongoing epidemiological concern in Bulgarian infectious disease surveillance. The underlying distribution by hepatitis serotype, which would clarify whether the burden is driven primarily by hepatitis A (fecal-oral, outbreak-prone) or hepatitis B/C (bloodborne, potentially reflecting undetected transmission chains), continues to be unavailable at the national analytical level due to the structural one-week lag in district-level serotype reporting. This diagnostic ambiguity limits the ability to direct appropriate interventions and constitutes a persistent surveillance limitation that should be addressed through enhanced serotype reporting capacity.
+
+### Fecal-Oral Transmission
+
+#### Campylobacteriosis
+
+Campylobacteriosis recorded 13 confirmed cases in week 10, an increase of five cases over the preceding week—a 62% week-over-week rise. More significantly, the cumulative total of 97 cases through ten weeks of 2026 compares unfavourably with 36 cases over the same period in 2025, representing a 169% year-over-year increase. *Campylobacter* spp. are thermophilic, gram-negative bacteria transmitted primarily through undercooked poultry and consumption of unpasteurised dairy products, with an incubation period of two to five days; most illness is self-limiting, but bacteraemia and Guillain-Barré syndrome are recognised complications in vulnerable populations. The combination of a sustained elevated baseline and a sharp week-over-week increment warrants enhanced ascertainment of exposure sources and geographic clustering to determine whether institutional or food-supply-level exposures are contributing.
+
+#### Gastroenteritis and Enterocolitis
+
+Gastroenteritis and enterocolitis registered 143 cases in week 10, a slight decrease of seven from the previous week. The year-to-date total of 1,348 cases modestly exceeds the 1,294 registered at the same point in 2025 (+4%), a difference that is below the threshold for epidemiological significance and likely reflects background variation. Rotavirus gastroenteritis, which is tracked separately, recorded 17 confirmed cases (a decrease of three week-over-week), with a year-to-date total of 135 versus 199 in the corresponding 2025 period (−32%)—suggesting that the rotavirus season in 2026 is attenuated relative to the prior year, potentially reflecting residual population immunity from a more intense 2024/25 season.
+
+### Contact and Sexual Transmission
+
+#### Gonorrhoea and Urogenital Chlamydial Infection
+
+The STI landscape in Bulgaria continues to show pronounced year-over-year escalation across multiple pathogens. Gonorrhoea registered four confirmed cases in week 10, bringing the year-to-date total to 41 cases compared with 13 at the same point in 2025—a 215% increase. Urogenital chlamydial infection recorded ten confirmed cases this week, with a cumulative year-to-date total of 61 versus 27 in 2025 (+126%). Both gonorrhoea and chlamydia are sexually transmitted bacterial infections (*Neisseria gonorrhoeae* and *Chlamydia trachomatis*, respectively) frequently co-occurring in the same individuals and disproportionately affecting young adults. *N. gonorrhoeae* is of particular epidemiological concern due to progressive antimicrobial resistance, with resistance to third-generation cephalosporins documented in several EU/EEA countries; treatment failures have been reported globally. The sustained and accelerating nature of these increases across both pathogens suggests structural changes in sexual network behaviour, testing uptake, or both, rather than simple stochastic variation.
+
+Syphilis recorded four confirmed cases in week 10 (one fewer than the preceding week), with a year-to-date total of 65 versus 76 in 2025 (−14%). This modest year-over-year decline is the only favourable STI trend in the current surveillance period. Of note, three confirmed cases of congenital and infant syphilis were registered in week 10—all new relative to the preceding week—bringing the year-to-date total to six, equal to the six cases registered at the same point in 2025. Congenital syphilis is a preventable outcome entirely dependent on antenatal screening and treatment; any case represents a sentinel event for inadequate antenatal care access or compliance and should prompt individual case investigation.
+
+### Respiratory and Droplet Transmission
+
+#### Scarlet Fever and Varicella
+
+Scarlet fever registered 79 cases in week 10, a decrease of 29 cases from the 108 registered in week 9—a 27% week-over-week decline. The year-to-date total of 714 cases compares favourably with 991 at the same point in 2025 (−28%), consistent with a less intense season. Varicella similarly declined week-over-week, from 635 cases in week 9 to 524 in week 10 (a 17.5% decrease), continuing a trajectory toward the expected spring-to-summer nadir. Year-to-date varicella cases (5,869) are modestly below 2025 levels (6,358, −8%), suggesting a comparable but slightly attenuated season. Both diseases are consistent with expected early-March dynamics and do not represent signals requiring enhanced action.
+
+Pertussis recorded zero cases in week 10 (one fewer than the preceding week), with a year-to-date total of only four cases compared with 31 at the same point in 2025—an 87% year-over-year reduction. This pronounced decline likely reflects residual population immunity following the substantial 2025 season rather than sustained low-level endemicity; continued vigilance for any resurgence in unvaccinated cohorts remains appropriate.
+
+### Vector-Borne Transmission
+
+#### Lyme Borreliosis
+
+Lyme borreliosis recorded four confirmed cases in week 10, one more than the preceding week. The year-to-date total of 35 cases modestly exceeds the 27 registered at the same point in 2025 (+30%). While this increase is not dramatic in absolute terms, it is consistent with the onset of tick activity as temperatures begin to rise in early March, and aligns with the broader pattern of early seasonal tick-borne disease activity observed in recent years across the Balkans. The Bulgarian surveillance system additionally tracks separate categories for Lyme neuroborreliosis, Q fever, Marseille fever (Mediterranean spotted fever), and tick-borne encephalitis, none of which have registered cases in 2026 to date.
