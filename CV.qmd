@@ -9,9 +9,9 @@ format:
   html:
     toc: true
   pdf:
-    mainfont: Roboto Condensed
-    monofont: Roboto Condensed 
-    sansfont: Roboto Condensed 
+    # mainfont: Roboto Condensed
+    # monofont: Roboto Condensed 
+    # sansfont: Roboto Condensed 
     fontsize: 12pt
     geometry:  margin=0.8in
     keep-tex: true

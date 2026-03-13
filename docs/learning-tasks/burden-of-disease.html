@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-03-07">
+<meta name="description" content="Interactive class tasks for epidemiology students focusing on calculating and interpreting YLL, YLD, DALY, and QALY metrics within a public health framework.">
 
-<title>Kostadin Kostadinov</title>
+<title>Measuring the Burden of Disease – Kostadin Kostadinov</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,27 +29,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-067f8ab80d092ae3595f7402c2c9b667.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc4be5a28da13f0c3ab719a367ca5a8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-067f8ab80d092ae3595f7402c2c9b667.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-cc4be5a28da13f0c3ab719a367ca5a8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,36 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -135,14 +105,11 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Kostadin Kostadinov">
-<meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
-<meta name="twitter:image" content="https://kostadinoff.github.io/face_id.png">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Measuring the Burden of Disease – Kostadin Kostadinov">
+<meta name="twitter:description" content="Interactive class tasks for epidemiology students focusing on calculating and interpreting YLL, YLD, DALY, and QALY metrics within a public health framework.">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
-<meta name="twitter:image-height" content="2997">
-<meta name="twitter:image-width" content="3461">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -152,7 +119,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
   </div>
@@ -163,27 +130,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./learning.html"> 
+    <a class="nav-link" href="../learning.html"> 
 <span class="menu-text">15-minute learning</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tasks.html"> 
+    <a class="nav-link" href="../tasks.html"> 
 <span class="menu-text">Learning tasks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./epinews.html"> 
+    <a class="nav-link" href="../epinews.html"> 
 <span class="menu-text">Epi News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./study-guide.html"> 
+    <a class="nav-link" href="../study-guide.html"> 
 <span class="menu-text">Social medicine study guide</span></a>
   </li>  
 </ul>
@@ -204,7 +171,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./epinews.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -216,105 +183,310 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Measuring the Burden of Disease</h1>
+                  <div>
+        <div class="description">
+          Interactive class tasks for epidemiology students focusing on calculating and interpreting YLL, YLD, DALY, and QALY metrics within a public health framework.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Epidemiology</div>
+                <div class="quarto-category">Public Health</div>
+                <div class="quarto-category">Daly</div>
+                <div class="quarto-category">Qaly</div>
+                <div class="quarto-category">Assignment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 7, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#recent-epidemiological-news" id="toc-recent-epidemiological-news" class="nav-link active" data-scroll-target="#recent-epidemiological-news">Recent Epidemiological News</a></li>
+  <li><a href="#practical-class-instructions" id="toc-practical-class-instructions" class="nav-link active" data-scroll-target="#practical-class-instructions">Practical Class Instructions:</a>
+  <ul class="collapse">
+  <li><a href="#reference-material" id="toc-reference-material" class="nav-link" data-scroll-target="#reference-material">Reference Material</a></li>
+  <li><a href="#general-instructions-for-students" id="toc-general-instructions-for-students" class="nav-link" data-scroll-target="#general-instructions-for-students">General Instructions for Students</a></li>
+  <li><a href="#scenario-1-the-pediatric-outbreak-yll-yld-focus" id="toc-scenario-1-the-pediatric-outbreak-yll-yld-focus" class="nav-link" data-scroll-target="#scenario-1-the-pediatric-outbreak-yll-yld-focus">Scenario 1: The Pediatric Outbreak (YLL &amp; YLD Focus)</a></li>
+  <li><a href="#scenario-2-the-chronic-heart-initiative-daly-hrql-focus" id="toc-scenario-2-the-chronic-heart-initiative-daly-hrql-focus" class="nav-link" data-scroll-target="#scenario-2-the-chronic-heart-initiative-daly-hrql-focus">Scenario 2: The Chronic Heart Initiative (DALY &amp; HRQL Focus)</a></li>
+  <li><a href="#scenario-3-choosing-the-treatment-qaly-utility-focus" id="toc-scenario-3-choosing-the-treatment-qaly-utility-focus" class="nav-link" data-scroll-target="#scenario-3-choosing-the-treatment-qaly-utility-focus">Scenario 3: Choosing the Treatment (QALY &amp; Utility Focus)</a></li>
+  <li><a href="#scenario-4-the-aging-silver-tsunami-hale-social-values-focus" id="toc-scenario-4-the-aging-silver-tsunami-hale-social-values-focus" class="nav-link" data-scroll-target="#scenario-4-the-aging-silver-tsunami-hale-social-values-focus">Scenario 4: The Aging “Silver Tsunami” (HALE &amp; Social Values Focus)</a></li>
+  <li><a href="#evaluation-criteria" id="toc-evaluation-criteria" class="nav-link" data-scroll-target="#evaluation-criteria">Evaluation Criteria:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="face_id.png" class="about-image
-  rectangle " style="width: 21.5em;">
- <main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<div class="btn-group" role="group" aria-label="Social Links">
-<p><a href="https://x.com/kostadinoffMD" class="btn btn-secondary" role="button" data-toggle="data" title="twitter"><i class="fa-brands fa-twitter" aria-label="twitter"></i><br>Twitter</a> <a href="https://github.com/kostadinoff" class="btn btn-secondary" role="button" data-toggle="data" title="github"><i class="fa-brands fa-github" aria-label="github"></i><br>Github</a> <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&amp;hl=en" class="btn btn-secondary" role="button" data-toggle="data" title="scholar"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i><br>Scholar</a> <a href="https://orcid.org/0000-0003-1414-8738" class="btn btn-secondary" role="button" data-toggle="data" title="ORCID"><i class="fa-solid fa-id-badge" aria-label="id-badge"></i><br>ORCID</a></p>
-</div>
-<p><br></p>
-<p>I’m Dr.&nbsp;Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.</p>
-<p>I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance at Sofia University and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Currently, I am pursuing a Master’s degree in Policy Analysis at Sofia University.</p>
-<p>I am the founder of the Social Epidemiology Lab, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.</p>
-<p>My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.</p>
-<p>This website serves as a space to share my research projects, 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology. All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.</p>
-<p>All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.</p>
+
+
+
+
+<section id="practical-class-instructions" class="level1">
+<h1>Practical Class Instructions:</h1>
+<p>This document contains four interactive scenarios designed for group work in epidemiology and public health workshops. Each group will analyze a specific case study to calculate burden of disease indicators, evaluate health-related quality of life, and debate the social and ethical implications of health resource allocation.</p>
+<section id="reference-material" class="level3">
+<h3 class="anchored" data-anchor-id="reference-material">Reference Material</h3>
+<p><em>This assignment is based on the reading material: <a href="../15-minute-learning/burden-of-disease.html">The Burden of Disease: Concepts, Measurement, and the Bulgarian Context</a>. All calculations and interpretations must reference the definitions and metrics established in this text.</em></p>
+</section>
+<section id="general-instructions-for-students" class="level3">
+<h3 class="anchored" data-anchor-id="general-instructions-for-students">General Instructions for Students</h3>
+<p>Each group will independently solve a distinct burden of disease problem. Your task is to:</p>
+<ol type="1">
+<li><strong>Perform the Calculations</strong>: Calculate the requested metrics (YLL, YLD, DALY, QALY) using the provided data and formulas. Show your working.</li>
+<li><strong>Evaluate the Public Health Impact</strong>: Interpret what the numbers mean for the affected community and the healthcare system.</li>
+<li><strong>Participate in the “Battle” Presentation</strong>: Prepare a brief defense of your position on the assigned “Battle Point” for a class-wide debate.</li>
+</ol>
 <hr>
-<section id="recent-epidemiological-news" class="level2">
-<h2 data-anchor-id="recent-epidemiological-news">Recent Epidemiological News</h2>
-<div id="recent-posts">
-</div>
-<p><a href="./epinews.html" class="btn btn-outline-primary" role="button">View all Epi News →</a></p>
+</section>
+<section id="scenario-1-the-pediatric-outbreak-yll-yld-focus" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-1-the-pediatric-outbreak-yll-yld-focus">Scenario 1: The Pediatric Outbreak (YLL &amp; YLD Focus)</h2>
+<p><strong>The Context:</strong> In the region of Equatoria, an outbreak of a vaccine-preventable paralytic disease occurs among children under age five. Local health officials need to present the “social cost” of this outbreak to justify an emergency mass-immunization budget.</p>
+<p><strong>The Data:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total Cases</td>
+<td>600 children</td>
+</tr>
+<tr class="even">
+<td>Deaths</td>
+<td>40 children (Avg. age: 2 years)</td>
+</tr>
+<tr class="odd">
+<td>Survivors with Permanent Paralysis</td>
+<td>560 children</td>
+</tr>
+<tr class="even">
+<td>Disability Duration</td>
+<td>60 years</td>
+</tr>
+<tr class="odd">
+<td>Disability Weight (DW)</td>
+<td>0.25 (25% disabled)</td>
+</tr>
+<tr class="even">
+<td>Standard Life Expectancy at age 2</td>
+<td>80 years</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li><strong>Calculate YLL (Years of Life Lost)</strong>: <span class="math inline">\(Deaths \times (Life Expectancy - Age at Death)\)</span>.</li>
+<li><strong>Calculate YLD (Years Lived with Disability)</strong>: <span class="math inline">\(Cases \times Duration \times Disability Weight\)</span>.</li>
+<li><strong>Calculate Total DALYs (Disability-Adjusted Life Years)</strong>: Sum of YLL and YLD.</li>
+</ol>
+<p><strong>Discussion Hints &amp; “Battle” Points:</strong></p>
+<ul>
+<li><strong>The Weight of the Young</strong>: Discuss why infectious diseases in children often generate significantly more DALYs than chronic diseases in the elderly. Consider the “life unlived” component.</li>
+<li><strong>Battle Point</strong>: One group argues that <strong>YLL</strong> (death) is the only “true” loss, while another argues that <strong>YLD</strong> (disability) is a heavier social burden because it requires lifelong healthcare and social support.</li>
+<li><strong>Guidance</strong>: Use the <strong>“Health Gap”</strong> concept to defend your position—how far does the reality fall from the ideal of full biological potential?</li>
+</ul>
+<hr>
+</section>
+<section id="scenario-2-the-chronic-heart-initiative-daly-hrql-focus" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-2-the-chronic-heart-initiative-daly-hrql-focus">Scenario 2: The Chronic Heart Initiative (DALY &amp; HRQL Focus)</h2>
+<p><strong>The Context:</strong> A high-income nation is comparing two districts. District A has high rates of <strong>Ischemic Heart Disease (IHD)</strong>, while District B has high rates of <strong>Depressive Disorders</strong>. The Ministry of Health can only fund one major screening program.</p>
+<p><strong>The Data:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 26%">
+<col style="width: 34%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>District</th>
+<th>Primary Condition</th>
+<th>Mortality (Deaths/Year)</th>
+<th>Survival Context</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>District A</strong></td>
+<td>Ischemic Heart Disease</td>
+<td>500</td>
+<td>Survivors have high HRQL scores (0.85 on SF-36)</td>
+</tr>
+<tr class="even">
+<td><strong>District B</strong></td>
+<td>Depressive Disorders</td>
+<td>10 (Suicides)</td>
+<td>2,000 people live with “Severe Depression” (DW = 0.65)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li><strong>Interpret the Burden</strong>: Based on the data, identify which district likely carries more <strong>YLLs</strong> and which carries more <strong>YLDs</strong>.</li>
+<li><strong>Mortality vs.&nbsp;DALY</strong>: Explain why conditions like IHD, which often cause high mortality in older populations, might account for a higher percentage of total deaths than of total YLL.</li>
+<li><strong>HRQL Assessment</strong>: Review the <strong>SF-36 concepts</strong> (vitality, social functioning, mental health). Describe how a patient with IHD might score differently across these domains compared to a patient with severe depression.</li>
+</ol>
+<p><strong>Discussion Hints &amp; “Battle” Points:</strong></p>
+<ul>
+<li><strong>The Mortality Bias</strong>: Discuss why traditional “death rates” would strongly favor funding District A, while <strong>DALY</strong> metrics might shift the focus toward the chronic suffering in District B.</li>
+<li><strong>Battle Point</strong>: Argue whether “Quality of Life” is too <strong>subjective</strong> to be used in national budget allocations.</li>
+<li><strong>Guidance</strong>: Should we rely solely on <strong>expert-derived disability weights</strong> (used in DALY) or on <strong>patient-reported outcomes</strong> (used in HRQL tools like SF-36)? Which is more “democratic”?</li>
+</ul>
+<hr>
+</section>
+<section id="scenario-3-choosing-the-treatment-qaly-utility-focus" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-3-choosing-the-treatment-qaly-utility-focus">Scenario 3: Choosing the Treatment (QALY &amp; Utility Focus)</h2>
+<p><strong>The Context:</strong> A hospital board must decide between two treatments for a chronic condition. Treatment X is a surgery that provides an immediate return to full health but carries a 5% mortality risk. Treatment Y is a safe long-term medication that leaves the patient in a suboptimal health state.</p>
+<p><strong>The Data:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 26%">
+<col style="width: 49%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Treatment</th>
+<th>Expected Outcome</th>
+<th>Utility Elicitation (TTO Method)</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Treatment X</strong></td>
+<td>10 years of “Perfect Health”</td>
+<td>Utility (Q) = 1.0</td>
+<td>$50,000</td>
+</tr>
+<tr class="even">
+<td><strong>Treatment Y</strong></td>
+<td>12 years of “Suboptimal State”</td>
+<td>Indifferent between 12y with condition vs 6y perfect</td>
+<td>$20,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li><strong>Calculate the Utility Value (Q)</strong>: Use the Time Trade-Off results: <span class="math inline">\(Years_{Perfect} / Years_{Condition}\)</span>.</li>
+<li><strong>Calculate QALYs (Quality-Adjusted Life Years)</strong>: Multiply Expected Years of Life by the Utility Value (Q).</li>
+<li><strong>Cost-Utility Analysis</strong>: Calculate the <strong>Average Cost-Effectiveness Ratio (ACER)</strong> per QALY for both treatments. (<span class="math inline">\(Cost / QALYs\)</span>).</li>
+</ol>
+<p><strong>Discussion Hints &amp; “Battle” Points:</strong></p>
+<ul>
+<li><strong>Extra-Welfarism</strong>: Discuss the <strong>Extra-welfarist approach</strong>. How does this view differ from simply maximizing individual happiness?</li>
+<li><strong>Battle Point</strong>: One group defends Treatment X because it provides a higher number of <strong>QALYs</strong> on average. The other group attacks it on the grounds of <strong>Equity and Ethics</strong>, arguing that the 5% mortality risk is unacceptable even if the mathematical average is superior.</li>
+<li><strong>Guidance</strong>: If the patient dies during surgery, they get 0 QALYs. Is “Expected Value” a fair way to treat individual human lives?</li>
+</ul>
+<hr>
+</section>
+<section id="scenario-4-the-aging-silver-tsunami-hale-social-values-focus" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-4-the-aging-silver-tsunami-hale-social-values-focus">Scenario 4: The Aging “Silver Tsunami” (HALE &amp; Social Values Focus)</h2>
+<p><strong>The Context:</strong> As life expectancy in a nation rises to 85 years, the government notices that <strong>HALE (Health-Adjusted Life Expectancy)</strong> is only 68 years. This indicates that citizens spend an average of 17 years in poor health.</p>
+<p><strong>The Data:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>State</th>
+<th>Years in Disability</th>
+<th>Average Disability Weight</th>
+<th>YLL Component</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Current State</strong></td>
+<td>17 years</td>
+<td>0.30</td>
+<td>0 (Lived to full expectancy)</td>
+</tr>
+<tr class="even">
+<td><strong>Projected (After Policy)</strong></td>
+<td>10 years</td>
+<td>0.30</td>
+<td>0 (Lived to full expectancy)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your Task:</strong></p>
+<ol type="1">
+<li><strong>Calculate Current DALYs</strong>: For an individual over their lifespan (<span class="math inline">\(Years \times Weight\)</span>).</li>
+<li><strong>Calculate Projected DALYs</strong>: After a “healthy aging” program aims for the <strong>compression of morbidity</strong>.</li>
+<li><strong>Define HALE</strong>: In plain language, explain the difference between standard life expectancy (85) and HALE (68) in this specific population.</li>
+</ol>
+<p><strong>Discussion Hints &amp; “Battle” Points:</strong></p>
+<ul>
+<li><strong>The Ethics of Age-Weighting</strong>: Discuss the GBD concept of <strong>age-weighting</strong> (valuing years lived by young adults more than those by the elderly).</li>
+<li><strong>Battle Point</strong>: One group argues that age-weighting is essential because young adults are “productive” and support children and the elderly. The other group argues this <strong>discriminates against the aged</strong> and violates social justice.</li>
+<li><strong>Guidance</strong>: Which “Social Value” should lead the nation’s health policy: Economic productivity or Universal Human Rights?</li>
+</ul>
+<hr>
+</section>
+<section id="evaluation-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-criteria">Evaluation Criteria:</h2>
+<ul>
+<li><strong>Mathematical Accuracy (40%)</strong>: Correct application of YLL, YLD, DALY, and QALY formulas.</li>
+<li><strong>Public Health Interpretation (30%)</strong>: Clear explanation of the difference between mortality-only measures and burden-of-disease measures.</li>
+<li><strong>Critical Synthesis (20%)</strong>: Depth of engagement with the “Battle Points” and ethical dilemmas.</li>
+<li><strong>Professional Communication (10%)</strong>: Clarity of the group’s presentation during the class debate.</li>
+</ul>
 
 
 </section>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RW5nbGlzaA==" data-listing-date-sort="1773352800000" data-listing-file-modified-sort="1773391729387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2376">
-<a href="./epinews-posts/2026-W10-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 10, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 10 of 2026 (2–8 March) is marked by the continued resolution of the winter respiratory virus season across the EU/EEA, even as several priority signals demand sustained…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 13, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW5nbGlzaA==" data-listing-date-sort="1772575200000" data-listing-file-modified-sort="1773391472842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3144">
-<a href="./epinews-posts/2026-W9-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 9, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 9 of 2026 presents a complex epidemiological landscape dominated by a persistent and escalating acute viral hepatitis burden in Bulgaria—346 cumulative cases as of 1…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW5nbGlzaA==" data-listing-date-sort="1771970400000" data-listing-file-modified-sort="1773391472842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2678">
-<a href="./epinews-posts/2026-W8-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Epidemiological News: Week 8, 2026
-</h5>
-<div class="card-text listing-description delink">
-<p>Week 8 of 2026 (16–22 February) presents a complex epidemiological picture characterized by several converging signals of public health concern. In Bulgaria, acute viral…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 25, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main>  
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
