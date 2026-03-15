@@ -1,195 +1,111 @@
 {
-  "index.qmd": {
-    "index.html": "d1c57307"
-  },
-  "CV.qmd": {
-    "CV.html": "2e498915",
-    "CV.tex": "69165a4c",
-    "CV.typ": "314e88b5"
-  },
-  "teaching-posts/teaching-posts-01.qmd": {
-    "teaching-posts-01.html": "fe98bbe8"
-  },
-  "teaching-posts/teaching-posts-02.qmd": {
-    "teaching-posts-02.html": "352d8bc3"
-  },
-  "teaching-posts/teaching-posts-03.qmd": {
-    "teaching-posts-03.html": "d56bad08"
-  },
-  "teaching-posts/teaching-posts-04.qmd": {
-    "teaching-posts-04.html": "d1cdb7a2"
-  },
-  "teaching.qmd": {
-    "teaching.html": "634fe1e3"
-  },
-  "teaching-posts/teaching-posts-05.qmd": {
-    "teaching-posts-05.html": "db416b85"
-  },
-  "teaching-posts/teaching-posts-06.qmd": {
-    "teaching-posts-06.html": "8f7d80e1"
-  },
-  "teaching-posts/teaching-posts-07.qmd": {
-    "teaching-posts-07.html": "0699b46f"
-  },
-  "teaching-posts/teaching-posts-08.qmd": {
-    "teaching-posts-08.html": "c4c657ba"
-  },
-  "teaching-posts/teaching-posts-09.qmd": {
-    "teaching-posts-09.html": "68b4b389"
-  },
-  "teaching-posts/teaching-posts-10.qmd": {
-    "teaching-posts-10.html": "1d96d78b"
-  },
-  "teaching-posts/teaching-posts-11.qmd": {
-    "teaching-posts-11.html": "82b10462"
-  },
-  "teaching-posts/teaching-posts-12.qmd": {
-    "teaching-posts-12.html": "fe7bc670"
-  },
-  "teaching-posts/teaching-posts-13.qmd": {
-    "teaching-posts-13.html": "e7a191f7"
-  },
-  "teaching-posts/teaching-posts-14.qmd": {
-    "teaching-posts-14.html": "8ce99b4d"
-  },
-  "teaching-posts/teaching-posts-15.qmd": {
-    "teaching-posts-15.html": "d7e20211"
-  },
-  "teaching-posts/teaching-posts-16.qmd": {
-    "teaching-posts-16.html": "5e01f097"
-  },
-  "teaching-posts/teaching-posts-17.qmd": {
-    "teaching-posts-17.html": "9fa7e143"
-  },
-  "teaching-posts/teaching-posts-18.qmd": {
-    "teaching-posts-18.html": "824a6e81"
-  },
-  "teaching-posts/teeacging-posts-19.qmd": {
-    "teeacging-posts-19.html": "b1227933"
-  },
-  "teaching-posts/teaching-posts-19.qmd": {
-    "teaching-posts-19.html": "3fce53d7"
-  },
-  "teaching-posts/teaching-posts-20.qmd": {
-    "teaching-posts-20.html": "0e9cb38e"
-  },
-  "teaching-posts/teaching-posts-21.qmd": {
-    "teaching-posts-21.html": "58e63b80"
-  },
-  "epinews-posts/2025-W44-bg.qmd": {
-    "2025-W44-bg.html": "dcc93f67"
-  },
-  "epinews-posts/2025-W44-en.qmd": {
-    "2025-W44-en.html": "d1f61142"
-  },
-  "epinews.qmd": {
-    "epinews.html": "53de28b3"
-  },
-  "teaching-posts/teaching-posts-22.qmd": {
-    "teaching-posts-22.html": "4801c63c"
-  },
-  "teaching-posts/teaching-posts-23.qmd": {
-    "teaching-posts-23.html": "a29c3ab0"
-  },
-  "teaching-posts/teaching-posts-24.qmd": {
-    "teaching-posts-24.html": "acab6454"
-  },
-  "epinews-posts/2025-W45-bg.qmd": {
-    "2025-W45-bg.html": "6ab3b536"
-  },
-  "epinews-posts/2025-W45-en.qmd": {
-    "2025-W45-en.html": "e992ac4f"
-  },
-  "epinews-posts/2025-W46-bg.qmd": {
-    "2025-W46-bg.html": "a69505a8"
-  },
-  "epinews-posts/2025-W46-en.qmd": {
-    "2025-W46-en.html": "7ae5e446"
-  },
-  "epinews-posts/2025-W47-en.qmd": {
-    "2025-W47-en.html": "b55d7767"
-  },
-  "epinews-posts/2025-W48-en.qmd": {
-    "2025-W48-en.html": "ad57e068"
-  },
-  "teaching-posts/teaching-posts-25.qmd": {
-    "teaching-posts-25.html": "2ee1bbb1"
-  },
-  "epinews-posts/2025-W48-bg.qmd": {
-    "2025-W48-bg.html": "a2e7e552"
-  },
-  "epinews-posts/2025-W49-en.qmd": {
-    "2025-W49-en.html": "be0f6e97"
-  },
-  "epinews-posts/2025-W50-bg.qmd": {
-    "2025-W50-bg.html": "e81c28f6"
-  },
-  "epinews-posts/2025-W50-en.qmd": {
-    "2025-W50-en.html": "a5ae97f1"
-  },
-  "study-guide.qmd": {
-    "study-guide.html": "afd54619"
-  },
-  "epinews-posts/2026-W1-en.qmd": {
-    "2026-W1-en.html": "f95771c7"
-  },
-  "epinews-posts/2026-W2-en.qmd": {
-    "2026-W2-en.html": "f05fbe3d"
-  },
-  "epinews-posts/2026-W5-en.qmd": {
-    "2026-W5-en.html": "198a451a"
-  },
-  "epinews-posts/2026-W6-en.qmd": {
-    "2026-W6-en.html": "ef0b17a3"
-  },
-  "15-minute-learning/sociological-research-methods.qmd": {
-    "sociological-research-methods.html": "86600fa5"
-  },
-  "learning-tasks/sociological-research-methods.qmd": {
-    "sociological-research-methods.html": "4b8a78ad"
-  },
-  "learning.qmd": {
-    "learning.html": "76001136"
-  },
-  "tasks.qmd": {
-    "tasks.html": "79996aeb"
-  },
-  "epinews-posts/2026-W7-en.qmd": {
-    "2026-W7-en.html": "eefd3aa0"
+  "15-minute-learning/burden-of-disease.qmd": {
+    "burden-of-disease.html": "2929915c"
   },
   "15-minute-learning/demography-indices.qmd": {
-    "demography-indices.html": "ccead2d9"
+    "demography-indices.html": "d32527a9"
   },
-  "learning-tasks/demography-indices.qmd": {
-    "demography-indices.html": "178875b7"
-  },
-  "epinews-posts/2026-W8-en.qmd": {
-    "2026-W8-en.html": "b8f9e9c1"
+  "15-minute-learning/primary-health-care.qmd": {
+    "primary-health-care.html": "f48528cd"
   },
   "15-minute-learning/risk-factors-causality.qmd": {
-    "risk-factors-causality.html": "1c249027"
+    "risk-factors-causality.html": "c278f468"
   },
-  "learning-tasks/epidemiology-surveillance.qmd": {
-    "epidemiology-surveillance.html": "5253e632"
+  "15-minute-learning/sociological-research-methods.qmd": {
+    "sociological-research-methods.html": "2ae3693e"
+  },
+  "CV.qmd": {
+    "CV.html": "c5e3e5e5",
+    "CV.tex": "1ed6b935"
+  },
+  "epinews-posts/2025-W44-bg.qmd": {
+    "2025-W44-bg.html": "e4be3209"
+  },
+  "epinews-posts/2025-W44-en.qmd": {
+    "2025-W44-en.html": "8641eccd"
+  },
+  "epinews-posts/2025-W45-bg.qmd": {
+    "2025-W45-bg.html": "55da2af7"
+  },
+  "epinews-posts/2025-W45-en.qmd": {
+    "2025-W45-en.html": "b06b4c43"
+  },
+  "epinews-posts/2025-W46-bg.qmd": {
+    "2025-W46-bg.html": "f4b91b45"
+  },
+  "epinews-posts/2025-W46-en.qmd": {
+    "2025-W46-en.html": "6afdf8b2"
+  },
+  "epinews-posts/2025-W47-en.qmd": {
+    "2025-W47-en.html": "8bf5a62e"
+  },
+  "epinews-posts/2025-W48-bg.qmd": {
+    "2025-W48-bg.html": "53301fdd"
+  },
+  "epinews-posts/2025-W48-en.qmd": {
+    "2025-W48-en.html": "98f7d8b5"
+  },
+  "epinews-posts/2025-W49-en.qmd": {
+    "2025-W49-en.html": "0512c143"
+  },
+  "epinews-posts/2025-W50-bg.qmd": {
+    "2025-W50-bg.html": "1f147fd5"
+  },
+  "epinews-posts/2025-W50-en.qmd": {
+    "2025-W50-en.html": "b07cbeed"
+  },
+  "epinews-posts/2026-W1-en.qmd": {
+    "2026-W1-en.html": "a10a5897"
+  },
+  "epinews-posts/2026-W10-en.qmd": {
+    "2026-W10-en.html": "f0cd4563"
+  },
+  "epinews-posts/2026-W2-en.qmd": {
+    "2026-W2-en.html": "fd59f6c7"
+  },
+  "epinews-posts/2026-W5-en.qmd": {
+    "2026-W5-en.html": "8b6db2f5"
+  },
+  "epinews-posts/2026-W6-en.qmd": {
+    "2026-W6-en.html": "b4676bcb"
+  },
+  "epinews-posts/2026-W7-en.qmd": {
+    "2026-W7-en.html": "8f23db97"
+  },
+  "epinews-posts/2026-W8-en.qmd": {
+    "2026-W8-en.html": "4834e0bd"
   },
   "epinews-posts/2026-W9-en.qmd": {
-    "2026-W9-en.html": "4861beb0"
+    "2026-W9-en.html": "ed566467"
   },
-  "15-minute-learning/burden-of-disease.qmd": {
-    "burden-of-disease.html": "18f1c8e9"
+  "epinews.qmd": {
+    "epinews.html": "50d9dec7"
+  },
+  "index.qmd": {
+    "index.html": "639cd248"
   },
   "learning-tasks/burden-of-disease.qmd": {
-    "burden-of-disease.html": "eec273d3"
+    "burden-of-disease.html": "e9878d14"
   },
-<<<<<<< Updated upstream
-  "epinews-posts/2026-W10-en.qmd": {
-    "2026-W10-en.html": "47a07553"
-=======
-  "15-minute-learning/primary-health-care.qmd": {
-    "primary-health-care.html": "258fc926"
+  "learning-tasks/demography-indices.qmd": {
+    "demography-indices.html": "3cefe4bb"
+  },
+  "learning-tasks/epidemiology-surveillance.qmd": {
+    "epidemiology-surveillance.html": "e1c9c1e5"
   },
   "learning-tasks/primary-health-care-indicators.qmd": {
-    "primary-health-care-indicators.html": "e26a1aed"
->>>>>>> Stashed changes
+    "primary-health-care-indicators.html": "2b40822c"
+  },
+  "learning-tasks/sociological-research-methods.qmd": {
+    "sociological-research-methods.html": "46c69833"
+  },
+  "learning.qmd": {
+    "learning.html": "2b65e620"
+  },
+  "study-guide.qmd": {
+    "study-guide.html": "d1176557"
+  },
+  "tasks.qmd": {
+    "tasks.html": "53a9752f"
   }
 }

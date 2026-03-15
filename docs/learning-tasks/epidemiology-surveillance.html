@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-03-01">
+<meta name="description" content="Problem-based learning tasks on outbreak investigation, vaccine surveillance, integrated health systems, and occupational epidemiology.">
+
+<title>Epidemiology and Disease Surveillance – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Epidemiology and Disease Surveillance – Kostadin Kostadinov">
+<meta name="twitter:description" content="Problem-based learning tasks on outbreak investigation, vaccine surveillance, integrated health systems, and occupational epidemiology.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../learning.html"> 
+<span class="menu-text">15-minute learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tasks.html"> 
+<span class="menu-text">Learning tasks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../study-guide.html"> 
+<span class="menu-text">Social medicine study guide</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Epidemiology and Disease Surveillance</h1>
+                  <div>
+        <div class="description">
+          Problem-based learning tasks on outbreak investigation, vaccine surveillance, integrated health systems, and occupational epidemiology.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Epidemiology</div>
+                <div class="quarto-category">Surveillance</div>
+                <div class="quarto-category">Public Health</div>
+                <div class="quarto-category">Assignment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 1, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#practical-class-instructions" id="toc-practical-class-instructions" class="nav-link active" data-scroll-target="#practical-class-instructions">Practical Class Instructions:</a>
+  <ul class="collapse">
+  <li><a href="#reference-material" id="toc-reference-material" class="nav-link" data-scroll-target="#reference-material">Reference Material</a></li>
+  <li><a href="#general-instructions-for-students" id="toc-general-instructions-for-students" class="nav-link" data-scroll-target="#general-instructions-for-students">General Instructions for Students</a></li>
+  <li><a href="#case-1-the-festival-fever" id="toc-case-1-the-festival-fever" class="nav-link" data-scroll-target="#case-1-the-festival-fever">Case 1: “The Festival Fever”</a>
+  <ul class="collapse">
+  <li><a href="#outbreak-surveillance-and-response" id="toc-outbreak-surveillance-and-response" class="nav-link" data-scroll-target="#outbreak-surveillance-and-response">Outbreak Surveillance and Response</a></li>
+  </ul></li>
+  <li><a href="#case-2-the-silver-shield-program" id="toc-case-2-the-silver-shield-program" class="nav-link" data-scroll-target="#case-2-the-silver-shield-program">Case 2: “The Silver Shield Program”</a>
+  <ul class="collapse">
+  <li><a href="#vaccine-surveillance" id="toc-vaccine-surveillance" class="nav-link" data-scroll-target="#vaccine-surveillance">Vaccine Surveillance</a></li>
+  </ul></li>
+  <li><a href="#case-3-district-health-reform" id="toc-case-3-district-health-reform" class="nav-link" data-scroll-target="#case-3-district-health-reform">Case 3: “District Health Reform”</a>
+  <ul class="collapse">
+  <li><a href="#integrated-information-systems" id="toc-integrated-information-systems" class="nav-link" data-scroll-target="#integrated-information-systems">Integrated Information Systems</a></li>
+  </ul></li>
+  <li><a href="#case-4-the-industrial-lung-study" id="toc-case-4-the-industrial-lung-study" class="nav-link" data-scroll-target="#case-4-the-industrial-lung-study">Case 4: “The Industrial Lung Study”</a>
+  <ul class="collapse">
+  <li><a href="#occupational-surveillance" id="toc-occupational-surveillance" class="nav-link" data-scroll-target="#occupational-surveillance">Occupational Surveillance</a></li>
+  </ul></li>
+  <li><a href="#evaluation-criteria" id="toc-evaluation-criteria" class="nav-link" data-scroll-target="#evaluation-criteria">Evaluation Criteria:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="practical-class-instructions" class="level1">
+<h1>Practical Class Instructions:</h1>
+<p>This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. Each group will work through a specific case study to design surveillance systems, calculate key epidemiological indicators, and debate the best course of action during public health crises.</p>
+<section id="reference-material" class="level3">
+<h3 class="anchored" data-anchor-id="reference-material">Reference Material</h3>
+<p><em>This assignment is based on the reading material: <a href="../15-minute-learning/risk-factors-causality.html">Risk Factors, Causality, and Morbidity Measurement</a>. All methodological justifications and critiques must reference concepts from this text.</em></p>
+</section>
+<section id="general-instructions-for-students" class="level3">
+<h3 class="anchored" data-anchor-id="general-instructions-for-students">General Instructions for Students</h3>
+<p>Each group will independently solve a distinct epidemiological problem. Your task is to:</p>
+<ol type="1">
+<li><strong>Organize the Epi System</strong>: Propose a surveillance framework (active vs.&nbsp;passive, syndromic, or integrated) and justify your choices based on the scenario’s constraints.</li>
+<li><strong>Perform the Calculations</strong>: Solve the requested indicators (Attack Rate, Relative Risk, Vaccine Effectiveness, etc.) using the provided data. Show all working.</li>
+<li><strong>The Battle (Debate)</strong>: Prepare to defend your suggested control measures and debate the trade-offs in different surveillance strategies.</li>
+</ol>
+<hr>
+</section>
+<section id="case-1-the-festival-fever" class="level2">
+<h2 class="anchored" data-anchor-id="case-1-the-festival-fever">Case 1: “The Festival Fever”</h2>
+<section id="outbreak-surveillance-and-response" class="level3">
+<h3 class="anchored" data-anchor-id="outbreak-surveillance-and-response">Outbreak Surveillance and Response</h3>
+<p><strong>Scenario:</strong> A major three-day music festival attracts 50,000 attendees to a rural county. By the second evening, the local emergency department reports a sudden influx of 45 patients with severe vomiting and abdominal pain. You are the lead epidemiological team tasked with investigating this potential outbreak.</p>
+<p><strong>Organize the Epi System:</strong></p>
+<p>You must implement a “drop-in” syndromic surveillance system. Decide which data sources to use (e.g., first-aid station logs, local pharmacies, or hospital “chief complaint” records). Define a preliminary case definition to identify symptomatic individuals without waiting for lab confirmation.</p>
+<p><strong>Calculate the Indicators:</strong></p>
+<ol type="1">
+<li><strong>Attack Rate:</strong> Based on a sample of 500 attendees from one specific campsite where 60 are ill, calculate the attack rate for that group.</li>
+<li><strong>Relative Risk (RR):</strong> If 45 ill people ate at “Vendor A” (total 200 eaters) and 15 ill people did not (total 300 non-eaters), calculate the RR for Vendor A.</li>
+<li><strong>Odds Ratio (OR):</strong> Use a 2x2 table to calculate the OR for specific food items if a full cohort cannot be identified.</li>
+</ol>
+<p><strong>Work Together &amp; Discuss:</strong></p>
+<ul>
+<li><strong>Suggestion:</strong> Propose immediate control measures (e.g., “callback” of products or closing specific vendors) before lab results arrive.</li>
+<li><strong>Battle Point:</strong> One group argues for active case finding (visiting tents) while another advocates for passive surveillance (waiting for clinic reports). Debate the trade-offs in timeliness vs.&nbsp;resources.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-2-the-silver-shield-program" class="level2">
+<h2 class="anchored" data-anchor-id="case-2-the-silver-shield-program">Case 2: “The Silver Shield Program”</h2>
+<section id="vaccine-surveillance" class="level3">
+<h3 class="anchored" data-anchor-id="vaccine-surveillance">Vaccine Surveillance</h3>
+<p><strong>Scenario:</strong> The Ministry of Health is rolling out a new influenza vaccine for citizens over 65. Within two weeks, rumors circulate on social media that the vaccine is causing neurological tremors. Public confidence is dropping.</p>
+<p><strong>Organize the Epi System:</strong></p>
+<p>Design a Phase IV post-marketing surveillance system. You must choose between a passive reporting system (doctors send in reports) or an active sentinel network of 50 designated geriatric clinics.</p>
+<p><strong>Calculate the Indicators:</strong></p>
+<ol type="1">
+<li><strong>Vaccine Coverage:</strong> If 150,000 doses were distributed to a target population of 500,000 elderly citizens, calculate the coverage.</li>
+<li><strong>Vaccine Effectiveness (VE):</strong> Using the screening method, if the proportion of cases vaccinated (PCV) is 20% and the population coverage (PPV) is 60%, estimate the VE.</li>
+<li><strong>Standardized Morbidity Ratio (SMR):</strong> Compare the observed tremors in the vaccinated group against the “expected” tremors based on historical rates in the general elderly population.</li>
+</ol>
+<p><strong>Work Together &amp; Discuss:</strong></p>
+<ul>
+<li><strong>Suggestion:</strong> How should the “risk communication” be handled to address social media rumors without causing more panic?</li>
+<li><strong>Battle Point:</strong> Discuss the “Healthy Vaccinee Effect”—are the people getting the vaccine inherently healthier, and does this bias your effectiveness indicators?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-3-district-health-reform" class="level2">
+<h2 class="anchored" data-anchor-id="case-3-district-health-reform">Case 3: “District Health Reform”</h2>
+<section id="integrated-information-systems" class="level3">
+<h3 class="anchored" data-anchor-id="integrated-information-systems">Integrated Information Systems</h3>
+<p><strong>Scenario:</strong> You are consultants for a developing region (“Region X”) that suffers from fragmented health data. HIV, Tuberculosis (TB), and Maternal Health data are all kept in separate, non-linkable paper logs. This “over-surveillance” is exhausting local nurses.</p>
+<p><strong>Organize the Epi System:</strong></p>
+<p>Implement the “Golden Rule” of health information systems: design one single register per population unit. Propose an Integrated Disease Surveillance and Response (IDSR) framework that uses a single weekly reporting form for multiple conditions.</p>
+<p><strong>Calculate the Indicators:</strong></p>
+<ol type="1">
+<li><strong>Point Prevalence:</strong> Calculate the TB prevalence in a village of 2,000 people on Jan 1st where 40 cases are currently on the register.</li>
+<li><strong>Period Prevalence:</strong> If 10 new cases are diagnosed during the year, calculate the Period Prevalence for that calendar year.</li>
+<li><strong>Incidence Density:</strong> Calculate the TB incidence rate using person-time at risk for 100 people followed over 6 months who generated 5 new cases.</li>
+<li><strong>Infant Mortality Rate (IMR):</strong> In a year with 1,200 live births and 60 deaths of children under age 1, calculate the IMR.</li>
+</ol>
+<p><strong>Work Together &amp; Discuss:</strong></p>
+<ul>
+<li><strong>Suggestion:</strong> Propose using “verbal autopsies” to identify causes of death in areas where physicians are rare.</li>
+<li><strong>Battle Point:</strong> Use the “Iceberg Metaphor” to discuss why your indicators might be significantly under-reported. How do you estimate the “underwater” portion of the disease burden?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="case-4-the-industrial-lung-study" class="level2">
+<h2 class="anchored" data-anchor-id="case-4-the-industrial-lung-study">Case 4: “The Industrial Lung Study”</h2>
+<section id="occupational-surveillance" class="level3">
+<h3 class="anchored" data-anchor-id="occupational-surveillance">Occupational Surveillance</h3>
+<p><strong>Scenario:</strong> A large mining corporation is being sued by former employees who claim that silica dust exposure caused a cluster of lung diseases. The company claims the rates are no higher than the general population.</p>
+<p><strong>Organize the Epi System:</strong></p>
+<p>Organize a non-concurrent (historical) cohort study. You must perform record linkage between the company’s payroll/union lists (to define exposure) and national death certificates or cancer registries (to define outcomes).</p>
+<p><strong>Calculate the Indicators:</strong></p>
+<ol type="1">
+<li><strong>Cumulative Incidence (10-year Risk):</strong> If 50 lung disease cases were diagnosed among 500 miners followed for 10 years, calculate the CI.</li>
+<li><strong>Attributable Risk among the Exposed (ARE):</strong> If the risk of disease in exposed miners is 0.15 and in unexposed office staff is 0.03, calculate the fraction of disease actually attributable to the mine.</li>
+<li><strong>Population Attributable Risk (PAR):</strong> If 30% of the town works in the mine, calculate how much the town’s total lung disease would drop if the mine exposure were eliminated.</li>
+</ol>
+<p><strong>Work Together &amp; Discuss:</strong></p>
+<ul>
+<li><strong>Suggestion:</strong> Propose Standard Operating Procedures (SOPs) for future dust-level measurements to ensure high-quality data for the next 10 years.</li>
+<li><strong>Battle Point:</strong> Discuss confounding by smoking behavior. Since the historical records don’t list who smoked, how does this “unfocused datascope” affect your ability to blame the mining dust?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="evaluation-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-criteria">Evaluation Criteria:</h2>
+<ul>
+<li><strong>Epidemiological Logic (40%):</strong> Correct application of surveillance principles and study design concepts.</li>
+<li><strong>Mathematical Accuracy (30%):</strong> Correct calculation of indicators and selection of denominators.</li>
+<li><strong>Synthesis &amp; Defense (20%):</strong> Ability to justify control measures and navigate ethical/resource trade-offs.</li>
+<li><strong>Professional Communication (10%):</strong> Clarity and precision of group presentation.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-03-15">
+<meta name="description" content="Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system.">
+
+<title>Primary Health Care Indicators in Bulgaria – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Primary Health Care Indicators in Bulgaria – Kostadin Kostadinov">
+<meta name="twitter:description" content="Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../learning.html"> 
+<span class="menu-text">15-minute learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tasks.html"> 
+<span class="menu-text">Learning tasks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../study-guide.html"> 
+<span class="menu-text">Social medicine study guide</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Primary Health Care Indicators in Bulgaria</h1>
+            <p class="subtitle lead">Scenario-Based Group Tasks — Practical Class 6</p>
+                  <div>
+        <div class="description">
+          Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Primary Health Care</div>
+                <div class="quarto-category">Health System Organisation</div>
+                <div class="quarto-category">Quality Indicators</div>
+                <div class="quarto-category">Assignment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 15, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#scenario-1-financial-compensation-capitation-and-fee-for-service" id="toc-scenario-1-financial-compensation-capitation-and-fee-for-service" class="nav-link" data-scroll-target="#scenario-1-financial-compensation-capitation-and-fee-for-service">Scenario 1 — Financial Compensation: Capitation and Fee-for-Service</a>
+  <ul class="collapse">
+  <li><a href="#context" id="toc-context" class="nav-link" data-scroll-target="#context">Context</a></li>
+  <li><a href="#the-practice" id="toc-the-practice" class="nav-link" data-scroll-target="#the-practice">The Practice</a></li>
+  <li><a href="#your-tasks" id="toc-your-tasks" class="nav-link" data-scroll-target="#your-tasks">Your Tasks</a></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions">Discussion Questions</a></li>
+  </ul></li>
+  <li><a href="#scenario-2-preventive-examination-coverage" id="toc-scenario-2-preventive-examination-coverage" class="nav-link" data-scroll-target="#scenario-2-preventive-examination-coverage">Scenario 2 — Preventive Examination Coverage</a>
+  <ul class="collapse">
+  <li><a href="#context-1" id="toc-context-1" class="nav-link" data-scroll-target="#context-1">Context</a></li>
+  <li><a href="#the-practice-1" id="toc-the-practice-1" class="nav-link" data-scroll-target="#the-practice-1">The Practice</a></li>
+  <li><a href="#your-tasks-1" id="toc-your-tasks-1" class="nav-link" data-scroll-target="#your-tasks-1">Your Tasks</a></li>
+  <li><a href="#discussion-questions-1" id="toc-discussion-questions-1" class="nav-link" data-scroll-target="#discussion-questions-1">Discussion Questions</a></li>
+  </ul></li>
+  <li><a href="#scenario-3-dispensary-observation-effectiveness" id="toc-scenario-3-dispensary-observation-effectiveness" class="nav-link" data-scroll-target="#scenario-3-dispensary-observation-effectiveness">Scenario 3 — Dispensary Observation Effectiveness</a>
+  <ul class="collapse">
+  <li><a href="#context-2" id="toc-context-2" class="nav-link" data-scroll-target="#context-2">Context</a></li>
+  <li><a href="#the-practice-2" id="toc-the-practice-2" class="nav-link" data-scroll-target="#the-practice-2">The Practice</a></li>
+  <li><a href="#your-tasks-2" id="toc-your-tasks-2" class="nav-link" data-scroll-target="#your-tasks-2">Your Tasks</a></li>
+  <li><a href="#discussion-questions-2" id="toc-discussion-questions-2" class="nav-link" data-scroll-target="#discussion-questions-2">Discussion Questions</a></li>
+  </ul></li>
+  <li><a href="#scenario-4-population-to-provider-ratio" id="toc-scenario-4-population-to-provider-ratio" class="nav-link" data-scroll-target="#scenario-4-population-to-provider-ratio">Scenario 4 — Population-to-Provider Ratio</a>
+  <ul class="collapse">
+  <li><a href="#context-3" id="toc-context-3" class="nav-link" data-scroll-target="#context-3">Context</a></li>
+  <li><a href="#the-district" id="toc-the-district" class="nav-link" data-scroll-target="#the-district">The District</a></li>
+  <li><a href="#your-tasks-3" id="toc-your-tasks-3" class="nav-link" data-scroll-target="#your-tasks-3">Your Tasks</a></li>
+  <li><a href="#discussion-questions-3" id="toc-discussion-questions-3" class="nav-link" data-scroll-target="#discussion-questions-3">Discussion Questions</a></li>
+  </ul></li>
+  <li><a href="#synthesis-connecting-the-scenarios" id="toc-synthesis-connecting-the-scenarios" class="nav-link" data-scroll-target="#synthesis-connecting-the-scenarios">Synthesis: Connecting the Scenarios</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>This exercise contains four scenarios drawn from the everyday operation of general practitioner practices in Bulgaria. Each scenario presents a specific dataset and asks you to calculate one or more indicators, interpret the result against national standards, and reflect on the broader implications for primary care delivery.</p>
+<p>Work through the scenarios in your assigned group. For each scenario, begin with the quantitative calculation, then move to the interpretive and discussion questions that follow. Be prepared to present your reasoning — not just the numbers — to the class. Where a question asks you to “propose” or “advise,” ground your answer in the regulatory framework and payment mechanisms described in the reading, not in general speculation.</p>
+<p><strong>Reference material:</strong> <a href="../15-minute-learning/primary-health-care.html">Primary Health Care, Outpatient Care, and the General Practitioner</a></p>
+<hr>
+</section>
+<section id="scenario-1-financial-compensation-capitation-and-fee-for-service" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-1-financial-compensation-capitation-and-fee-for-service">Scenario 1 — Financial Compensation: Capitation and Fee-for-Service</h2>
+<section id="context" class="level3">
+<h3 class="anchored" data-anchor-id="context">Context</h3>
+<p>General practitioners in Bulgaria are financed by the National Health Insurance Fund through a mixed payment model. The base layer is <strong>capitation</strong> — a fixed monthly payment for each registered patient, graded by age group — supplemented by <strong>fee-for-service</strong> payments for defined clinical activities such as dispensary examinations and annual preventive check-ups. This blended model is intended to reward both population coverage (through capitation) and the delivery of specific high-value services (through fee-for-service).</p>
+</section>
+<section id="the-practice" class="level3">
+<h3 class="anchored" data-anchor-id="the-practice">The Practice</h3>
+<p>Dr Petrova operates an individual GP practice in Stara Zagora. Her registered patient list currently stands at <strong>1,500 individuals</strong> distributed as follows: <strong>300 children</strong> aged 0–18 years, <strong>800 adults</strong> aged 19–59 years, and <strong>400 elderly patients</strong> aged 60 years and over. During the month of October, Dr Petrova performs <strong>50 annual preventive examinations</strong> for adults aged over 18 and conducts <strong>30 dispensary examinations</strong> for patients each diagnosed with a single chronic disease.</p>
+</section>
+<section id="your-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="your-tasks">Your Tasks</h3>
+<p><strong>Task 1.1 — Calculate the total monthly NHIF revenue for Dr Petrova’s practice.</strong> Break the calculation into capitation revenue (by age group) and fee-for-service revenue (by activity type), then sum both components.</p>
+<p>Use the following rates: capitation for children €2.79 per patient per month, for adults €2.48, for elderly patients €3.72; annual preventive examination €17.38 per exam; dispensary examination for a single chronic disease €12.27 per exam.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 1.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 1.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Multiply the number of patients in each age group by their respective capitation rate. Then multiply the number of each activity by its fee-for-service rate. Sum the two totals.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.2 — What proportion of Dr Petrova’s total NHIF revenue comes from capitation, and what proportion from fee-for-service?</strong> Express both as percentages.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 1.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 1.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the capitation total by the overall total and multiply by 100. Do the same for the fee-for-service total. Consider which component makes up the majority of the practice’s income.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.3 — Suppose Dr Petrova also sees 15 patients with two chronic diseases (dispensary rate €15.34) and 8 patients with more than two chronic diseases (dispensary rate €18.41) during the same month. Recalculate her total FFS revenue and total NHIF revenue.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 1.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 1.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Add the revenue from these two new categories of complex dispensary patients to the original fee-for-service total, then update the final combined revenue.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion-questions" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-questions">Discussion Questions</h3>
+<p><strong>Q1.</strong> The capitation model pays the same monthly amount for every 45-year-old adult, regardless of whether that patient visits the GP zero times or twelve times during the year. What behavioural incentives does this create for the GP, and what are the risks?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Think about what capitation encourages (efficiency, prevention) versus what it might discourage (spending too much time per patient, taking on complex cases).</p>
+</div>
+</div>
+</div>
+<p><strong>Q2.</strong> Dr Petrova’s practice generates approximately €5,500–€5,900 per month from the NHIF. Consider that this must cover not only the GP’s salary but also rent, equipment, supplies, a nurse’s salary, and administrative costs. What pressures does this create, and how might they affect the quality of care delivered?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Consider how a fixed or limited budget impacts a private GP’s willingness to invest in the practice (e.g., better equipment or staff) and whether it encourages shorter consultations to increase patient volume.</p>
+</div>
+</div>
+</div>
+<p><strong>Q3.</strong> In 2023, Bulgaria introduced performance-based payments for GPs who reach preventive service targets and increased capitation rates. What effect would you expect such reforms to have on the revenue composition you calculated above?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Reflect on how targeted bonuses affect the balance between passive income (capitation) and active income (fee-for-service and performance bonuses).</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-2-preventive-examination-coverage" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-2-preventive-examination-coverage">Scenario 2 — Preventive Examination Coverage</h2>
+<section id="context-1" class="level3">
+<h3 class="anchored" data-anchor-id="context-1">Context</h3>
+<p>One of the primary process quality indicators for Bulgarian GPs is the coverage rate for annual preventive examinations among the adult population. The national standard stipulates that at least <strong>33% of eligible adults</strong> on the GP’s register must undergo a preventive check-up within the calendar year. This threshold reflects a recognition that universal coverage, while ideal, is not achievable in practice — but that a GP who examines fewer than one in three eligible adults is failing to deliver adequate preventive care.</p>
+</section>
+<section id="the-practice-1" class="level3">
+<h3 class="anchored" data-anchor-id="the-practice-1">The Practice</h3>
+<p>Dr Ivanov works in an individual GP practice in Plovdiv with <strong>1,200 enrolled adult patients</strong> (aged over 18) eligible for an annual preventive examination. Over the calendar year, he successfully examines <strong>450 of these adults</strong>. Separately, his practice has <strong>380 registered children</strong> aged 0–18, of whom <strong>310</strong> received all scheduled preventive check-ups under the “Child Healthcare” programme (target: ≥ 83%).</p>
+</section>
+<section id="your-tasks-1" class="level3">
+<h3 class="anchored" data-anchor-id="your-tasks-1">Your Tasks</h3>
+<p><strong>Task 2.1 — Calculate the adult preventive examination coverage rate and determine whether it meets the national standard.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 2.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 2.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the number of examined adults by the total number of eligible adults, multiply by 100, and compare the result to the 33% threshold.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 2.2 — Calculate the child healthcare programme coverage rate and determine whether it meets the national standard.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 2.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 2.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Use the same percentage calculation for children (310 out of 380) and compare it against the 83% target.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 2.3 — Dr Ivanov’s colleague, Dr Dimitrova, practises in a rural municipality. She has 650 eligible adults and examines 190 during the year. Calculate her coverage rate and compare it with Dr Ivanov’s.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 2.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 2.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Calculate Dr Dimitrova’s rate (190 out of 650). Reflect on the difference between her rural practice’s metric and the urban one.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion-questions-1" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-questions-1">Discussion Questions</h3>
+<p><strong>Q1.</strong> The 33% minimum for adults is considerably lower than the 83% target for child healthcare. Why might the regulatory authorities have set such different thresholds for these two populations?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Consider the roles of parents in paediatric care, mandatory immunisation schedules, and differences in health-seeking behaviours between asymptomatic adults and children.</p>
+</div>
+</div>
+</div>
+<p><strong>Q2.</strong> Dr Dimitrova’s rural practice falls below the 33% threshold. What structural factors — beyond individual GP effort — might explain lower coverage in rural settings?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Think about geographic barriers, transportation, patient demographics (e.g., age and mobility), and health literacy in rural versus urban areas.</p>
+</div>
+</div>
+</div>
+<p><strong>Q3.</strong> If Dr Ivanov wanted to raise his adult coverage from 37.5% to 50%, how many additional patients would he need to examine, and what strategies might he employ?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>First find out what 50% of his total eligible adult list is, then subtract the number he has already done. For strategies, think of reminders, combining visits, and alternative hours.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-3-dispensary-observation-effectiveness" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-3-dispensary-observation-effectiveness">Scenario 3 — Dispensary Observation Effectiveness</h2>
+<section id="context-2" class="level3">
+<h3 class="anchored" data-anchor-id="context-2">Context</h3>
+<p>Dispensary observation (dispensarisation) is the systematic, longitudinal monitoring of patients with specified chronic diseases. It represents a defining feature of the Bulgarian primary care system, inherited from the Semashko tradition but adapted to the current insurance-based framework. For patients with cardiovascular or cerebrovascular disease, the national quality standard requires that dispensary observation be maintained for the full calendar year, with a minimum of <strong>six months of continuous care</strong>. The systematic observation percentage measures the proportion of registered dispensary patients who actually complete the required surveillance protocols.</p>
+</section>
+<section id="the-practice-2" class="level3">
+<h3 class="anchored" data-anchor-id="the-practice-2">The Practice</h3>
+<p>Dr Georgieva’s practice in Burgas has <strong>150 patients registered for dispensary observation</strong> for hypertension and ischaemic heart disease. By 31 December, <strong>120 of these patients</strong> have completed the required surveillance protocols (a minimum of six months of continuous monitoring with scheduled follow-up visits). The remaining 30 patients were either lost to follow-up (12 patients), dropped out after fewer than six months (10 patients), or relocated to another region (8 patients).</p>
+</section>
+<section id="your-tasks-2" class="level3">
+<h3 class="anchored" data-anchor-id="your-tasks-2">Your Tasks</h3>
+<p><strong>Task 3.1 — Calculate the systematic observation rate.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 3.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 3.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the number of patients completing the protocol by the total enrolled for dispensarisation, and convert to a percentage.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 3.2 — Consider the 30 non-adherent patients. If you exclude the 8 who relocated (and presumably transferred their dispensary records to a new GP), what is the adjusted observation rate among patients who remained in Dr Georgieva’s catchment area?</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 3.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 3.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Subtract the 8 relocated patients from the initial denominator (150) before calculating the new percentage.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 3.3 — Dr Georgieva also monitors 80 patients with non-insulin-dependent diabetes under a separate dispensary protocol. Of these, 58 completed at least six months of continuous observation. Calculate the diabetes-specific systematic observation rate.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 3.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 3.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Calculate the percentage of patients completing continuous observation specifically for the diabetes group.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion-questions-2" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-questions-2">Discussion Questions</h3>
+<p><strong>Q1.</strong> The quality indicator measures whether observation was maintained for at least six months, not whether clinical outcomes (blood pressure control, HbA1c levels) actually improved. What are the strengths and limitations of using a process-based continuity measure rather than a clinical outcome measure?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Consider how easy it is to verify continuous visits (administrative data) versus extracting specific lab results, but also whether attending a visit guarantees good care.</p>
+</div>
+</div>
+</div>
+<p><strong>Q2.</strong> Twelve patients were “lost to follow-up.” What might explain this category, and what proactive steps could the GP take to reduce losses?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Think about reasons patients stop attending (dissatisfaction, practical barriers, feeling well) and how GPs can use technology and staff to reconnect with them.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-4-population-to-provider-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-4-population-to-provider-ratio">Scenario 4 — Population-to-Provider Ratio</h2>
+<section id="context-3" class="level3">
+<h3 class="anchored" data-anchor-id="context-3">Context</h3>
+<p>To maintain meaningful therapeutic relationships and ensure adequate access, Bulgarian policy recognises graduated population limits for GP practices based on settlement size: up to 1,500 patients per GP in rural areas and small towns, up to 1,800 in medium-sized cities (50,000–150,000 population), and up to 2,000 in large metropolitan centres (over 150,000 population). These are guideline ratios rather than hard regulatory ceilings, since GP practices are private entities.</p>
+</section>
+<section id="the-district" class="level3">
+<h3 class="anchored" data-anchor-id="the-district">The District</h3>
+<p>A district in a large Bulgarian city (population exceeding 150,000) has <strong>22,000 residents</strong> and <strong>10 active GPs</strong>. A neighbouring rural municipality in the same region has <strong>4,800 residents</strong> served by <strong>2 active GPs</strong>.</p>
+</section>
+<section id="your-tasks-3" class="level3">
+<h3 class="anchored" data-anchor-id="your-tasks-3">Your Tasks</h3>
+<p><strong>Task 4.1 — Calculate the average population-to-provider ratio for the urban district and determine whether it falls within the recommended range.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 4.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 4.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the population by the number of GPs. Compare it against the 2,000 ceiling.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 4.2 — Calculate the ratio for the rural municipality.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 4.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 4.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the rural population by the number of GPs. Compare it against the 1,500 ceiling.</p>
+</div>
+</div>
+</div>
+<p><strong>Task 4.3 — If one of the two rural GPs retires and is not replaced, what becomes the ratio? What would this mean in practical terms for the remaining GP and the population?</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Task 4.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Task 4.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Recalculate the ratio with just 1 GP. Consider what tripling the recommended capacity means for waiting times, consultation lengths, and emergency care usage.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion-questions-3" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-questions-3">Discussion Questions</h3>
+<p><strong>Q1.</strong> The urban district exceeds the recommended ratio by 10% (2,200 vs.&nbsp;2,000), while the rural municipality exceeds it by 60% (2,400 vs.&nbsp;1,500). Which situation is more concerning from a public health perspective, and why?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Think about the absolute difference in numbers, alternative sources of care, patient age/morbidity profiles, and workforce stability.</p>
+</div>
+</div>
+</div>
+<p><strong>Q2.</strong> Bulgarian GP practices are private entities that can in principle accept any number of registrations, and the population-to-provider ratios are guideline figures rather than legal caps. What are the consequences of this regulatory gap?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Reflect on the maldistribution of GPs driven by financial incentives and individual choice, and possible policy solutions.</p>
+</div>
+</div>
+</div>
+<p><strong>Q3.</strong> How many additional GPs would need to be recruited to bring the urban district to the 2,000 ceiling and the rural municipality to the 1,500 ceiling?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint — Q3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint — Q3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Divide the respective populations by the target ratio ceilings to find the total number of GPs needed, then subtract the GPs currently working there.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="synthesis-connecting-the-scenarios" class="level2">
+<h2 class="anchored" data-anchor-id="synthesis-connecting-the-scenarios">Synthesis: Connecting the Scenarios</h2>
+<p>After completing all four scenarios, consider the following cross-cutting questions as a group. These are intended for class-wide discussion and do not have single correct answers.</p>
+<p><strong>Cross-cutting question 1.</strong> The capitation model (Scenario 1) pays a GP a fixed amount per registered patient. The quality indicators (Scenarios 2 and 3) reward process compliance and care continuity. The population-to-provider ratio (Scenario 4) is unregulated. How do these three elements interact? Could a GP maximise revenue by registering many patients (high capitation) while under-delivering on quality indicators — and if so, what systemic safeguards prevent this? ::: {.callout-tip collapse=“true” title=“Hint — Cross-cutting Q1”} Consider how registering too many patients affects the time available to meet the preventive and continuous observation targets, and how performance bonuses balance the capitation incentive. :::</p>
+<p><strong>Cross-cutting question 2.</strong> Bulgaria’s 2025 NHIF budget allocates nearly 47% of expenditure to inpatient care and only about 7% to primary outpatient care. In light of your calculations — where a GP practice with 1,500 patients generates roughly €5,500–€5,900 per month from the NHIF — what would need to change for primary care to genuinely function as the foundation of the system rather than its least-funded tier? ::: {.callout-tip collapse=“true” title=“Hint — Cross-cutting Q2”} Consider budget reallocation, expanding reimbursable primary care services, adjusting limits on referrals or prescribing, and strengthening primary care facilities. :::</p>
+<p><strong>Cross-cutting question 3.</strong> Suppose you are advising the Ministry of Health on a package of reforms to strengthen Bulgarian primary care. Drawing on all four scenarios, propose three concrete measures — one financial, one regulatory, and one workforce-related — and explain how each addresses a specific problem revealed by your calculations. ::: {.callout-tip collapse=“true” title=“Hint — Cross-cutting Q3”} Draw from the discussion about increasing payments or altering the capitation/FFS mix (financial), capping registration limits (regulatory), and incentivising rural practice (workforce). :::</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
