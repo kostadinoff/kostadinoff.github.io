@@ -1,0 +1,245 @@
+---
+title: "Primary Health Care Indicators in Bulgaria"
+subtitle: "Scenario-Based Group Tasks — Practical Class 6"
+author: "Kostadin Kostadinov"
+date: 2026-03-15
+description: "Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system."
+categories: 
+  - "Primary Health Care"
+  - "Health System Organisation"
+  - "Quality Indicators"
+  - "Assignment"
+---
+
+## Instructions
+
+This exercise contains four scenarios drawn from the everyday operation of general practitioner practices in Bulgaria. Each scenario presents a specific dataset and asks you to calculate one or more indicators, interpret the result against national standards, and reflect on the broader implications for primary care delivery.
+
+Work through the scenarios in your assigned group. For each scenario, begin with the quantitative calculation, then move to the interpretive and discussion questions that follow. Be prepared to present your reasoning — not just the numbers — to the class. Where a question asks you to "propose" or "advise," ground your answer in the regulatory framework and payment mechanisms described in the reading, not in general speculation.
+
+**Reference material:** [Primary Health Care, Outpatient Care, and the General Practitioner](../15-minute-learning/primary-health-care.qmd)
+
+---
+
+## Scenario 1 — Financial Compensation: Capitation and Fee-for-Service
+
+### Context
+
+General practitioners in Bulgaria are financed by the National Health Insurance Fund through a mixed payment model. The base layer is **capitation** — a fixed monthly payment for each registered patient, graded by age group — supplemented by **fee-for-service** payments for defined clinical activities such as dispensary examinations and annual preventive check-ups. This blended model is intended to reward both population coverage (through capitation) and the delivery of specific high-value services (through fee-for-service).
+
+### The Practice
+
+Dr Petrova operates an individual GP practice in Stara Zagora. Her registered patient list currently stands at **1,500 individuals** distributed as follows: **300 children** aged 0–18 years, **800 adults** aged 19–59 years, and **400 elderly patients** aged 60 years and over. During the month of October, Dr Petrova performs **50 annual preventive examinations** for adults aged over 18 and conducts **30 dispensary examinations** for patients each diagnosed with a single chronic disease.
+
+### Your Tasks
+
+**Task 1.1 — Calculate the total monthly NHIF revenue for Dr Petrova's practice.** Break the calculation into capitation revenue (by age group) and fee-for-service revenue (by activity type), then sum both components.
+
+Use the following rates: capitation for children €2.79 per patient per month, for adults €2.48, for elderly patients €3.72; annual preventive examination €17.38 per exam; dispensary examination for a single chronic disease €12.27 per exam.
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.1"}
+Multiply the number of patients in each age group by their respective capitation rate. Then multiply the number of each activity by its fee-for-service rate. Sum the two totals.
+:::
+
+**Task 1.2 — What proportion of Dr Petrova's total NHIF revenue comes from capitation, and what proportion from fee-for-service?** Express both as percentages.
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.2"}
+Divide the capitation total by the overall total and multiply by 100. Do the same for the fee-for-service total. Consider which component makes up the majority of the practice's income.
+:::
+
+**Task 1.3 — Suppose Dr Petrova also sees 15 patients with two chronic diseases (dispensary rate €15.34) and 8 patients with more than two chronic diseases (dispensary rate €18.41) during the same month. Recalculate her total FFS revenue and total NHIF revenue.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.3"}
+Add the revenue from these two new categories of complex dispensary patients to the original fee-for-service total, then update the final combined revenue.
+:::
+
+### Discussion Questions
+
+**Q1.** The capitation model pays the same monthly amount for every 45-year-old adult, regardless of whether that patient visits the GP zero times or twelve times during the year. What behavioural incentives does this create for the GP, and what are the risks?
+
+::: {.callout-tip collapse="true" title="Hint — Q1"}
+Think about what capitation encourages (efficiency, prevention) versus what it might discourage (spending too much time per patient, taking on complex cases).
+:::
+
+**Q2.** Dr Petrova's practice generates approximately €5,500–€5,900 per month from the NHIF. Consider that this must cover not only the GP's salary but also rent, equipment, supplies, a nurse's salary, and administrative costs. What pressures does this create, and how might they affect the quality of care delivered?
+
+::: {.callout-tip collapse="true" title="Hint — Q2"}
+Consider how a fixed or limited budget impacts a private GP's willingness to invest in the practice (e.g., better equipment or staff) and whether it encourages shorter consultations to increase patient volume.
+:::
+
+**Q3.** In 2023, Bulgaria introduced performance-based payments for GPs who reach preventive service targets and increased capitation rates. What effect would you expect such reforms to have on the revenue composition you calculated above?
+
+::: {.callout-tip collapse="true" title="Hint — Q3"}
+Reflect on how targeted bonuses affect the balance between passive income (capitation) and active income (fee-for-service and performance bonuses).
+:::
+
+---
+
+## Scenario 2 — Preventive Examination Coverage
+
+### Context
+
+One of the primary process quality indicators for Bulgarian GPs is the coverage rate for annual preventive examinations among the adult population. The national standard stipulates that at least **33% of eligible adults** on the GP's register must undergo a preventive check-up within the calendar year. This threshold reflects a recognition that universal coverage, while ideal, is not achievable in practice — but that a GP who examines fewer than one in three eligible adults is failing to deliver adequate preventive care.
+
+### The Practice
+
+Dr Ivanov works in an individual GP practice in Plovdiv with **1,200 enrolled adult patients** (aged over 18) eligible for an annual preventive examination. Over the calendar year, he successfully examines **450 of these adults**. Separately, his practice has **380 registered children** aged 0–18, of whom **310** received all scheduled preventive check-ups under the "Child Healthcare" programme (target: ≥ 83%).
+
+### Your Tasks
+
+**Task 2.1 — Calculate the adult preventive examination coverage rate and determine whether it meets the national standard.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.1"}
+Divide the number of examined adults by the total number of eligible adults, multiply by 100, and compare the result to the 33% threshold.
+:::
+
+**Task 2.2 — Calculate the child healthcare programme coverage rate and determine whether it meets the national standard.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.2"}
+Use the same percentage calculation for children (310 out of 380) and compare it against the 83% target.
+:::
+
+**Task 2.3 — Dr Ivanov's colleague, Dr Dimitrova, practises in a rural municipality. She has 650 eligible adults and examines 190 during the year. Calculate her coverage rate and compare it with Dr Ivanov's.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.3"}
+Calculate Dr Dimitrova's rate (190 out of 650). Reflect on the difference between her rural practice's metric and the urban one.
+:::
+
+### Discussion Questions
+
+**Q1.** The 33% minimum for adults is considerably lower than the 83% target for child healthcare. Why might the regulatory authorities have set such different thresholds for these two populations?
+
+::: {.callout-tip collapse="true" title="Hint — Q1"}
+Consider the roles of parents in paediatric care, mandatory immunisation schedules, and differences in health-seeking behaviours between asymptomatic adults and children.
+:::
+
+**Q2.** Dr Dimitrova's rural practice falls below the 33% threshold. What structural factors — beyond individual GP effort — might explain lower coverage in rural settings?
+
+::: {.callout-tip collapse="true" title="Hint — Q2"}
+Think about geographic barriers, transportation, patient demographics (e.g., age and mobility), and health literacy in rural versus urban areas.
+:::
+
+**Q3.** If Dr Ivanov wanted to raise his adult coverage from 37.5% to 50%, how many additional patients would he need to examine, and what strategies might he employ?
+
+::: {.callout-tip collapse="true" title="Hint — Q3"}
+First find out what 50% of his total eligible adult list is, then subtract the number he has already done. For strategies, think of reminders, combining visits, and alternative hours.
+:::
+
+---
+
+## Scenario 3 — Dispensary Observation Effectiveness
+
+### Context
+
+Dispensary observation (dispensarisation) is the systematic, longitudinal monitoring of patients with specified chronic diseases. It represents a defining feature of the Bulgarian primary care system, inherited from the Semashko tradition but adapted to the current insurance-based framework. For patients with cardiovascular or cerebrovascular disease, the national quality standard requires that dispensary observation be maintained for the full calendar year, with a minimum of **six months of continuous care**. The systematic observation percentage measures the proportion of registered dispensary patients who actually complete the required surveillance protocols.
+
+### The Practice
+
+Dr Georgieva's practice in Burgas has **150 patients registered for dispensary observation** for hypertension and ischaemic heart disease. By 31 December, **120 of these patients** have completed the required surveillance protocols (a minimum of six months of continuous monitoring with scheduled follow-up visits). The remaining 30 patients were either lost to follow-up (12 patients), dropped out after fewer than six months (10 patients), or relocated to another region (8 patients).
+
+### Your Tasks
+
+**Task 3.1 — Calculate the systematic observation rate.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.1"}
+Divide the number of patients completing the protocol by the total enrolled for dispensarisation, and convert to a percentage.
+:::
+
+**Task 3.2 — Consider the 30 non-adherent patients. If you exclude the 8 who relocated (and presumably transferred their dispensary records to a new GP), what is the adjusted observation rate among patients who remained in Dr Georgieva's catchment area?**
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.2"}
+Subtract the 8 relocated patients from the initial denominator (150) before calculating the new percentage.
+:::
+
+**Task 3.3 — Dr Georgieva also monitors 80 patients with non-insulin-dependent diabetes under a separate dispensary protocol. Of these, 58 completed at least six months of continuous observation. Calculate the diabetes-specific systematic observation rate.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.3"}
+Calculate the percentage of patients completing continuous observation specifically for the diabetes group.
+:::
+
+### Discussion Questions
+
+**Q1.** The quality indicator measures whether observation was maintained for at least six months, not whether clinical outcomes (blood pressure control, HbA1c levels) actually improved. What are the strengths and limitations of using a process-based continuity measure rather than a clinical outcome measure?
+
+::: {.callout-tip collapse="true" title="Hint — Q1"}
+Consider how easy it is to verify continuous visits (administrative data) versus extracting specific lab results, but also whether attending a visit guarantees good care.
+:::
+
+**Q2.** Twelve patients were "lost to follow-up." What might explain this category, and what proactive steps could the GP take to reduce losses?
+
+::: {.callout-tip collapse="true" title="Hint — Q2"}
+Think about reasons patients stop attending (dissatisfaction, practical barriers, feeling well) and how GPs can use technology and staff to reconnect with them.
+:::
+
+---
+
+## Scenario 4 — Population-to-Provider Ratio
+
+### Context
+
+To maintain meaningful therapeutic relationships and ensure adequate access, Bulgarian policy recognises graduated population limits for GP practices based on settlement size: up to 1,500 patients per GP in rural areas and small towns, up to 1,800 in medium-sized cities (50,000–150,000 population), and up to 2,000 in large metropolitan centres (over 150,000 population). These are guideline ratios rather than hard regulatory ceilings, since GP practices are private entities.
+
+### The District
+
+A district in a large Bulgarian city (population exceeding 150,000) has **22,000 residents** and **10 active GPs**. A neighbouring rural municipality in the same region has **4,800 residents** served by **2 active GPs**.
+
+### Your Tasks
+
+**Task 4.1 — Calculate the average population-to-provider ratio for the urban district and determine whether it falls within the recommended range.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.1"}
+Divide the population by the number of GPs. Compare it against the 2,000 ceiling.
+:::
+
+**Task 4.2 — Calculate the ratio for the rural municipality.**
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.2"}
+Divide the rural population by the number of GPs. Compare it against the 1,500 ceiling.
+:::
+
+**Task 4.3 — If one of the two rural GPs retires and is not replaced, what becomes the ratio? What would this mean in practical terms for the remaining GP and the population?**
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.3"}
+Recalculate the ratio with just 1 GP. Consider what tripling the recommended capacity means for waiting times, consultation lengths, and emergency care usage.
+:::
+
+### Discussion Questions
+
+**Q1.** The urban district exceeds the recommended ratio by 10% (2,200 vs. 2,000), while the rural municipality exceeds it by 60% (2,400 vs. 1,500). Which situation is more concerning from a public health perspective, and why?
+
+::: {.callout-tip collapse="true" title="Hint — Q1"}
+Think about the absolute difference in numbers, alternative sources of care, patient age/morbidity profiles, and workforce stability.
+:::
+
+**Q2.** Bulgarian GP practices are private entities that can in principle accept any number of registrations, and the population-to-provider ratios are guideline figures rather than legal caps. What are the consequences of this regulatory gap?
+
+::: {.callout-tip collapse="true" title="Hint — Q2"}
+Reflect on the maldistribution of GPs driven by financial incentives and individual choice, and possible policy solutions.
+:::
+
+**Q3.** How many additional GPs would need to be recruited to bring the urban district to the 2,000 ceiling and the rural municipality to the 1,500 ceiling?
+
+::: {.callout-tip collapse="true" title="Hint — Q3"}
+Divide the respective populations by the target ratio ceilings to find the total number of GPs needed, then subtract the GPs currently working there.
+:::
+
+---
+
+## Synthesis: Connecting the Scenarios
+
+After completing all four scenarios, consider the following cross-cutting questions as a group. These are intended for class-wide discussion and do not have single correct answers.
+
+**Cross-cutting question 1.** The capitation model (Scenario 1) pays a GP a fixed amount per registered patient. The quality indicators (Scenarios 2 and 3) reward process compliance and care continuity. The population-to-provider ratio (Scenario 4) is unregulated. How do these three elements interact? Could a GP maximise revenue by registering many patients (high capitation) while under-delivering on quality indicators — and if so, what systemic safeguards prevent this?
+::: {.callout-tip collapse="true" title="Hint — Cross-cutting Q1"}
+Consider how registering too many patients affects the time available to meet the preventive and continuous observation targets, and how performance bonuses balance the capitation incentive.
+:::
+
+**Cross-cutting question 2.** Bulgaria's 2025 NHIF budget allocates nearly 47% of expenditure to inpatient care and only about 7% to primary outpatient care. In light of your calculations — where a GP practice with 1,500 patients generates roughly €5,500–€5,900 per month from the NHIF — what would need to change for primary care to genuinely function as the foundation of the system rather than its least-funded tier?
+::: {.callout-tip collapse="true" title="Hint — Cross-cutting Q2"}
+Consider budget reallocation, expanding reimbursable primary care services, adjusting limits on referrals or prescribing, and strengthening primary care facilities.
+:::
+
+**Cross-cutting question 3.** Suppose you are advising the Ministry of Health on a package of reforms to strengthen Bulgarian primary care. Drawing on all four scenarios, propose three concrete measures — one financial, one regulatory, and one workforce-related — and explain how each addresses a specific problem revealed by your calculations.
+::: {.callout-tip collapse="true" title="Hint — Cross-cutting Q3"}
+Draw from the discussion about increasing payments or altering the capitation/FFS mix (financial), capping registration limits (regulatory), and incentivising rural practice (workforce).
+:::

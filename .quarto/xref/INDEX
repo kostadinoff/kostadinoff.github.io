@@ -181,7 +181,15 @@
   "learning-tasks/burden-of-disease.qmd": {
     "burden-of-disease.html": "eec273d3"
   },
+<<<<<<< Updated upstream
   "epinews-posts/2026-W10-en.qmd": {
     "2026-W10-en.html": "47a07553"
+=======
+  "15-minute-learning/primary-health-care.qmd": {
+    "primary-health-care.html": "258fc926"
+  },
+  "learning-tasks/primary-health-care-indicators.qmd": {
+    "primary-health-care-indicators.html": "e26a1aed"
+>>>>>>> Stashed changes
   }
 }
