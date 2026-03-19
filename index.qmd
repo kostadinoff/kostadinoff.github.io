@@ -1,5 +1,5 @@
 ---
-image: "color social epidemology logo.png"
+image: "portrait-with-logo.png"
 about: 
   template: jolla
   image-shape: rectangle
