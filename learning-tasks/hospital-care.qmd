@@ -1,6 +1,5 @@
 ---
 title: "Hospital Care — Problem-Based Group Tasks"
-subtitle: "Practical Class 7 · Academic Year 2025/2026"
 author: "Kostadin Kostadinov"
 date: today
 categories: [hospital care, social medicine, public health]
@@ -11,7 +10,22 @@ format:
     smooth-scroll: true
 ---
 
-> **Instructions.** Each group receives one scenario. Work through the tasks in sequence — each calculation feeds into the next. Show all working. For discussion questions, prepare a brief answer (3–5 sentences) that the group will present to the class. The synthesis task at the end is completed jointly across all groups.
+# Practical Class Instructions:
+
+This document contains six problem-based group scenarios designed for interactive work in social medicine and public health workshops. Each group will analyze a specific case study focusing on hospital capacity planning, quality of care, healthcare financing, and hospital organization within the Bulgarian healthcare system.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Hospital Care in Bulgaria: Functions, Structure, Hospitalization, and Quality](../15-minute-learning/hospital-care.qmd). All problem solving, indicator calculations, and organizational structures must align with the concepts established in this text.*
+
+### General Instructions for Students
+
+Each group will independently solve a distinct hospital-care problem. Your task is to:
+
+1.  **Work through the Scenario**: Read your assigned scenario carefully. 
+2.  **Perform the Required Tasks**: Complete the calculations or answer the specific regulatory/organizational questions in sequence. Show all working for calculations. 
+3.  **Prepare the Discussion Question**: Prepare a brief answer (3–5 sentences) for the final discussion question attached to your scenario, which you will present to the class. 
+4.  **Synthesis Task**: At the end of the class, all groups will jointly complete the final synthesis task based on insights drawn from all six scenarios.
 
 ---
 

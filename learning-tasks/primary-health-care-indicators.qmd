@@ -1,6 +1,5 @@
 ---
 title: "Primary Health Care Indicators in Bulgaria"
-subtitle: "Scenario-Based Group Tasks — Practical Class 6"
 author: "Kostadin Kostadinov"
 date: 2026-03-15
 description: "Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system."
