@@ -11,7 +11,7 @@ categories:
   - "Assignment"
 ---
 
-# Practical Class Instructions:
+# Instructions:
 
 This document contains four interactive scenarios designed for group work in epidemiology and public health workshops. Each group will analyze a specific case study to calculate burden of disease indicators, evaluate health-related quality of life, and debate the social and ethical implications of health resource allocation.
 

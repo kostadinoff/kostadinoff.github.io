@@ -10,7 +10,7 @@ categories:
   - "Assignment"
 ---
 
-# Practical Class Instructions:
+# Instructions:
 
 This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. The instructor will choose a scenario for each group (or pair of groups) to solve using the principles of sociological research methods.
 

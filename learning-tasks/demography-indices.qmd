@@ -10,7 +10,7 @@ categories:
   - "Assignment"
 ---
 
-# Practical Class Instructions:
+# Instructions:
 
 This document contains a series of interactive scenarios designed for group work in social medicine and public health workshops. Each group will work through a specific case study to calculate demographic indices, interpret population trends, and navigate the legal requirements for civil status registration.
 

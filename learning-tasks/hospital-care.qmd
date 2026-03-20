@@ -15,7 +15,7 @@ format:
     smooth-scroll: true
 ---
 
-# Practical Class Instructions:
+# Instructions:
 
 This document contains six problem-based group scenarios designed for interactive work in social medicine and public health workshops. Each group will analyze a specific case study focusing on hospital capacity planning, quality of care, healthcare financing, and hospital organization within the Bulgarian healthcare system.
 

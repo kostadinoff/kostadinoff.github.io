@@ -2,7 +2,7 @@
 title: "Risk Factors, Causality, and Morbidity Measurement"
 author: "Kostadin Kostadinov"
 date: 2026-03-01
-description: "Reading material for Practical Class 4: Risk Factors and Causality. Measurement of Diseases and Exposure. Morbidity Data Sources. Case Finding and Case Reporting."
+description: "Reading material on Risk Factors and Causality. Measurement of Diseases and Exposure. Morbidity Data Sources. Case Finding and Case Reporting."
 categories: 
   - "English"
   - "Epidemiology"
