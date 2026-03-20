@@ -2,6 +2,7 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/hospital-care.html",
       "/learning-tasks/primary-health-care-indicators.html",
       "/learning-tasks/burden-of-disease.html",
       "/learning-tasks/epidemiology-surveillance.html",
@@ -12,6 +13,7 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/hospital-care.html",
       "/15-minute-learning/primary-health-care.html",
       "/15-minute-learning/burden-of-disease.html",
       "/15-minute-learning/risk-factors-causality.html",
@@ -20,7 +22,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W11-en.html",
       "/epinews-posts/2026-W10-en.html",
@@ -46,7 +48,7 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W11-en.html",
       "/epinews-posts/2026-W10-en.html",

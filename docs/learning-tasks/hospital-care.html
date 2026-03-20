@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-03-20">
+
+<title>Hospital Care — Problem-Based Group Tasks – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Hospital Care — Problem-Based Group Tasks – Kostadin Kostadinov">
+<meta name="twitter:description" content="Practical Class 7 · Academic Year 2025/2026">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../learning.html"> 
+<span class="menu-text">15-minute learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tasks.html"> 
+<span class="menu-text">Learning tasks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../study-guide.html"> 
+<span class="menu-text">Social medicine study guide</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Hospital Care — Problem-Based Group Tasks</h1>
+            <p class="subtitle lead">Practical Class 7 · Academic Year 2025/2026</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">hospital care</div>
+                <div class="quarto-category">social medicine</div>
+                <div class="quarto-category">public health</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 20, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#scenario-1-the-struggling-municipal-hospital" id="toc-scenario-1-the-struggling-municipal-hospital" class="nav-link active" data-scroll-target="#scenario-1-the-struggling-municipal-hospital">Scenario 1 — The Struggling Municipal Hospital</a></li>
+  <li><a href="#scenario-2-the-emergency-boarding-crisis" id="toc-scenario-2-the-emergency-boarding-crisis" class="nav-link" data-scroll-target="#scenario-2-the-emergency-boarding-crisis">Scenario 2 — The Emergency Boarding Crisis</a></li>
+  <li><a href="#scenario-3-the-social-admission-dilemma" id="toc-scenario-3-the-social-admission-dilemma" class="nav-link" data-scroll-target="#scenario-3-the-social-admission-dilemma">Scenario 3 — The Social Admission Dilemma</a></li>
+  <li><a href="#scenario-4-the-quality-audit" id="toc-scenario-4-the-quality-audit" class="nav-link" data-scroll-target="#scenario-4-the-quality-audit">Scenario 4 — The Quality Audit</a></li>
+  <li><a href="#scenario-5-the-true-cost-of-free-healthcare" id="toc-scenario-5-the-true-cost-of-free-healthcare" class="nav-link" data-scroll-target="#scenario-5-the-true-cost-of-free-healthcare">Scenario 5 — The True Cost of “Free” Healthcare</a></li>
+  <li><a href="#scenario-6-building-a-new-hospital" id="toc-scenario-6-building-a-new-hospital" class="nav-link" data-scroll-target="#scenario-6-building-a-new-hospital">Scenario 6 — Building a New Hospital</a></li>
+  <li><a href="#synthesis-task-cross-group-discussion" id="toc-synthesis-task-cross-group-discussion" class="nav-link" data-scroll-target="#synthesis-task-cross-group-discussion">Synthesis Task — Cross-Group Discussion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Instructions.</strong> Each group receives one scenario. Work through the tasks in sequence — each calculation feeds into the next. Show all working. For discussion questions, prepare a brief answer (3–5 sentences) that the group will present to the class. The synthesis task at the end is completed jointly across all groups.</p>
+</blockquote>
+<hr>
+<section id="scenario-1-the-struggling-municipal-hospital" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-1-the-struggling-municipal-hospital">Scenario 1 — The Struggling Municipal Hospital</h2>
+<section id="capacity-planning-and-efficiency-at-mhat-dr.-petar-bonev-vidin" class="level3">
+<h3 class="anchored" data-anchor-id="capacity-planning-and-efficiency-at-mhat-dr.-petar-bonev-vidin">Capacity Planning and Efficiency at MHAT “Dr.&nbsp;Petar Bonev,” Vidin</h3>
+<p><strong>The scenario.</strong> MHAT “Dr.&nbsp;Petar Bonev” is a municipal multiprofile hospital for active treatment in Vidin, a town in north-western Bulgaria with a rapidly ageing and shrinking population. The municipality’s population has declined from 63,000 in 2015 to 48,500 in 2025. The hospital operates 280 beds across six departments: internal medicine (70 beds), surgery (55 beds), obstetrics-gynaecology (30 beds), paediatrics (25 beds), neurology (50 beds), and an intensive care unit (20 beds with continuous monitoring). In 2025, the hospital recorded 8,960 admissions and 128,100 occupied bed-days. The internal medicine department alone recorded 2,870 admissions and 40,180 bed-days, while the obstetrics-gynaecology department recorded 640 admissions and 5,760 bed-days. The hospital also recorded 395 inpatient deaths, of which 52 occurred within the first 24 hours of admission. Following discharge, 312 patients were readmitted to the hospital within 30 days.</p>
+<p><strong>Task 1.1.</strong> Calculate the overall bed provision rate for Vidin municipality (beds per 1,000 population). Classify it as low, medium, high, or very high.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 1.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Bed provision rate = 280 / 48,500 × 1,000 = 5.77 beds per 1,000 population.</em></p>
+<p><em>This falls in the <strong>medium</strong> category (4–7 per 1,000). However, given the ageing population and declining denominator, the rate has been rising mechanically without any increase in actual beds, which creates an illusion of adequate supply.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.2.</strong> Calculate the overall bed occupancy rate, the average length of stay, and the bed turnover for the hospital as a whole.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 1.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Bed occupancy rate = 128,100 / (280 × 365) × 100 = 128,100 / 102,200 × 100 = <strong>125.3%</strong>.</em></p>
+<p><em>This figure exceeds 100%, which is technically possible when temporary (extra) beds or corridor beds are used, or when patient-days are counted beyond nominal bed capacity. It signals severe overcrowding.</em></p>
+<p><em>Average length of stay = 128,100 / 8,960 = <strong>14.3 days</strong>.</em></p>
+<p><em>Bed turnover = 8,960 / 280 = <strong>32 patients per bed per year</strong>.</em></p>
+<p><em>Compared to the national average of 4.9 days ALOS and 45 patients per bed turnover (2024), this hospital has substantially longer stays and lower turnover, suggesting inefficiency or a case mix dominated by chronic and complex patients.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.3.</strong> Calculate the same three indicators for the internal medicine department and the obstetrics-gynaecology department separately. Compare the two departments.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 1.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Internal medicine: occupancy = 40,180 / (70 × 365) × 100 = 40,180 / 25,550 × 100 = <strong>157.3%</strong>; ALOS = 40,180 / 2,870 = <strong>14.0 days</strong>; turnover = 2,870 / 70 = <strong>41.0 patients/bed</strong>.</em></p>
+<p><em>Obstetrics-gynaecology: occupancy = 5,760 / (30 × 365) × 100 = 5,760 / 10,950 × 100 = <strong>52.6%</strong>; ALOS = 5,760 / 640 = <strong>9.0 days</strong>; turnover = 640 / 30 = <strong>21.3 patients/bed</strong>.</em></p>
+<p><em>Internal medicine is catastrophically overcrowded (&gt;150% occupancy) while obstetrics-gynaecology is substantially underutilised (&lt;53%). This reflects the ageing population driving medical admissions upward while the declining birth rate reduces obstetric demand. The ALOS in obstetrics-gynaecology (9.0 days) is also notably high — the national average for maternity-related pathways is considerably shorter.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.4.</strong> Calculate the overall inpatient mortality rate and the 24-hour mortality rate as a percentage of all deaths.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.4">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 1.4
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Inpatient mortality rate = 395 / 8,960 × 100 = <strong>4.4%</strong>.</em></p>
+<p><em>24-hour mortality as a proportion of all deaths = 52 / 395 × 100 = <strong>13.2%</strong>.</em></p>
+<p><em>The overall mortality rate (4.4%) is substantially above the national average and may reflect the hospital’s case mix (ageing population, late presentations, limited referral options in north-western Bulgaria) or delayed access to care. The 24-hour mortality proportion (13.2%) may indicate patients arriving in very advanced disease states or with delayed emergency care.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 1.5.</strong> Calculate the 30-day readmission rate.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.5">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 1.5
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Readmission rate = 312 / (8,960 − 395) × 100 = 312 / 8,565 × 100 = <strong>3.6%</strong>.</em></p>
+<p><em>The denominator uses total discharges (admissions minus deaths). A 3.6% readmission rate is relatively low, but interpretation requires caution: in a region with limited healthcare access, patients who should be readmitted may not return to the hospital due to distance, transport barriers, or resignation.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> The hospital director proposes closing the obstetrics-gynaecology department and reallocating its 30 beds to internal medicine to address overcrowding. As a public health adviser, what factors would you consider before supporting or opposing this proposal?</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Factors to consider include: (a) whether closing obstetrics-gynaecology would force pregnant women to travel to the nearest alternative hospital and what distance/risk this entails; (b) the minimum clinical pathway requirements for obstetric care in the region under the National Health Map; (c) the demographic projections — if birth numbers will continue declining, maintaining 30 beds is unsustainable, but eliminating obstetric services entirely creates a coverage gap; (d) whether a compromise such as reducing obstetric beds (e.g., from 30 to 12) and reallocating the remainder could maintain essential maternity care while relieving internal medicine pressure; (e) implications for university hospital designation and specialist training; (f) the social dimension — for a rural municipality, closing maternity services carries significant symbolic and practical consequences for young families considering whether to remain.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-2-the-emergency-boarding-crisis" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-2-the-emergency-boarding-crisis">Scenario 2 — The Emergency Boarding Crisis</h2>
+<section id="analysing-emergency-department-dysfunction-at-umhat-st.-marina-varna" class="level3">
+<h3 class="anchored" data-anchor-id="analysing-emergency-department-dysfunction-at-umhat-st.-marina-varna">Analysing Emergency Department Dysfunction at UMHAT “St.&nbsp;Marina,” Varna</h3>
+<p><strong>The scenario.</strong> Dr.&nbsp;Elena Stoyanova is a newly appointed quality manager at UMHAT “St.&nbsp;Marina,” a large university multiprofile hospital in Varna. Over the past year, the emergency department has experienced growing boarding times — patients admitted from the emergency department wait for inpatient beds while remaining physically in the emergency department. During October 2025, the emergency department registered 4,250 visits. Of these, 680 resulted in a decision to hospitalise. Among hospitalised patients, 238 waited more than 4 hours for an inpatient bed, and 41 waited more than 24 hours. The hospital has 620 active treatment beds, of which on average 558 were occupied on any given day during October. Only 38 beds were designated for emergency admissions (against the regulatory minimum of 10%). During the same month, 14 patients left the emergency department without being seen (LWBS) and 6 filed formal complaints about waiting times.</p>
+<p><strong>Task 2.1.</strong> Calculate the hospitalisation rate from emergency department visits in October.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 2.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Hospitalisation rate = 680 / 4,250 × 100 = <strong>16.0%</strong>.</em></p>
+<p><em>This is somewhat above the international average of approximately 10.6% for emergency department visits resulting in hospitalisation. The higher rate may reflect the hospital’s role as a tertiary referral centre receiving more complex cases, or potentially excessive admission thresholds for lower-acuity conditions.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 2.2.</strong> What percentage of admitted patients experienced boarding of more than 4 hours? More than 24 hours?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 2.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Boarding &gt; 4 hours: 238 / 680 × 100 = <strong>35.0%</strong>.</em></p>
+<p><em>Boarding &gt; 24 hours: 41 / 680 × 100 = <strong>6.0%</strong>.</em></p>
+<p><em>Both figures indicate serious capacity strain. For comparison, national US data showed that by 2024 approximately 25% of admitted patients boarded for over 4 hours during non-peak months and nearly 5% for over 24 hours. This hospital’s rates exceed even those benchmarks.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 2.3.</strong> Calculate the overall bed occupancy rate for October. Does the hospital meet the 10% emergency bed reservation requirement?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 2.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Bed occupancy = (558 × 31) / (620 × 31) × 100 = 558 / 620 × 100 = <strong>90.0%</strong>.</em></p>
+<p><em>Emergency bed reservation: 10% of 620 = 62 beds required. Only 38 beds are designated, which is <strong>61.3% of the legal requirement</strong>. The hospital is in regulatory non-compliance.</em></p>
+<p><em>A 90% occupancy rate is at the upper boundary of the optimal range (80–90%). Combined with insufficient emergency bed reserves, this creates the boarding problem: when occupancy exceeds 85–90%, the probability of finding a bed for an incoming emergency admission drops sharply.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 2.4.</strong> The hospital’s average length of stay in October was 6.2 days. If discharge planning improvements could reduce ALOS by 1 day, how many additional bed-days would be freed monthly, and how many additional patients could theoretically be admitted?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.4">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 2.4
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Current total admissions in October are not fully specified, but using the 680 emergency admissions plus planned admissions — let us approximate from the occupancy data. Total occupied bed-days = 558 × 31 = 17,298. At ALOS = 6.2 days, total admissions ≈ 17,298 / 6.2 = <strong>2,790 admissions</strong>.</em></p>
+<p><em>If ALOS decreases by 1 day to 5.2 days: freed bed-days = 2,790 × 1 = <strong>2,790 bed-days per month</strong>.</em></p>
+<p><em>Additional patients at new ALOS of 5.2 days: 2,790 / 5.2 ≈ <strong>536 additional patients per month</strong>.</em></p>
+<p><em>This demonstrates the powerful efficiency gains from even modest reductions in length of stay. A 1-day reduction could potentially eliminate the boarding problem entirely by creating sufficient bed availability.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> Dr.&nbsp;Stoyanova must present an action plan to the hospital board. What combination of short-term and long-term measures would you recommend to address the boarding crisis?</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Short-term measures: (a) immediately increase emergency-designated beds to at least 62 to meet the 10% regulatory requirement; (b) implement daily bed management huddles to identify discharge-ready patients early; (c) introduce a discharge planning protocol starting at admission rather than the day before discharge; (d) establish clear criteria for “discharge by noon” for suitable patients. Long-term measures: (e) introduce a structured discharge planning framework such as IDEAL; (f) develop ambulatory care pathways for conditions currently requiring admission (e.g., short-stay observation units for chest pain, cellulitis); (g) negotiate with the regional health inspectorate to establish post-acute care capacity (community nursing, home care) to enable earlier safe discharge; (h) implement real-time bed tracking visible to ED staff. The quality manager should also conduct root-cause analysis of the 41 patients who boarded &gt;24 hours to determine whether specific specialties or bed types are bottlenecks.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-3-the-social-admission-dilemma" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-3-the-social-admission-dilemma">Scenario 3 — The Social Admission Dilemma</h2>
+<section id="hospitalization-indications-and-patient-rights-at-mhat-dr.-atanas-dafovski-kardzhali" class="level3">
+<h3 class="anchored" data-anchor-id="hospitalization-indications-and-patient-rights-at-mhat-dr.-atanas-dafovski-kardzhali">Hospitalization Indications and Patient Rights at MHAT “Dr.&nbsp;Atanas Dafovski,” Kardzhali</h3>
+<p><strong>The scenario.</strong> Dr.&nbsp;Nikolay Dimitrov is a young internist at a municipal hospital in Kardzhali, a town in the eastern Rhodope mountains with a significant elderly population living in remote villages. He faces three patients in one morning, each presenting a different combination of medical and social indications for hospitalisation.</p>
+<p><strong>Patient A:</strong> Mrs.&nbsp;Fatme Mehmedova, 78, lives alone in a village 35 km from Kardzhali, without public transport connections. She presents with community-acquired pneumonia (temperature 38.9°C, respiratory rate 24/min, oxygen saturation 93% on room air). Her CURB-65 score is 2 (confusion absent, urea elevated, respiratory rate elevated, blood pressure normal, age ≥65). She has no family in Bulgaria; her children emigrated to Germany five years ago. She cannot afford the antibiotics prescribed for outpatient treatment and has no means to reach a pharmacy or return for follow-up. She wants to be hospitalised.</p>
+<p><strong>Patient B:</strong> Mr.&nbsp;Georgi Kolev, 55, a self-employed carpenter, presents with a stable, uncomplicated lower back pain episode. His pain is moderate (VAS 5/10), neurological examination is normal, and outpatient management with analgesics and physiotherapy would be clinically appropriate. However, Mr.&nbsp;Kolev insists on hospitalisation because he believes hospital care is “more serious” and he has heard that workers who are hospitalised receive higher sick leave benefits. He refuses to leave the emergency department. His health insurance is current.</p>
+<p><strong>Patient C:</strong> Ms.&nbsp;Radka Petrova, 42, presents after a domestic violence incident. She has facial bruising, a suspected nasal fracture, and acute anxiety. The nasal fracture, if confirmed, requires only outpatient management (reduction under local anaesthesia). However, she states that she is afraid to return home and has nowhere else to go. She does not know about social services and has no family support.</p>
+<p><strong>Task 3.1.</strong> For each patient, classify the hospitalisation indication as medical, social, or medico-social. Justify each classification in 2–3 sentences.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 3.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Patient A — <strong>Medico-social (mixed)</strong>: the pneumonia with a CURB-65 score of 2 represents a borderline medical indication for hospitalisation (some guidelines recommend hospitalisation at CURB-65 ≥ 2). However, the decisive factors are inseparably intertwined: even if her pneumonia could technically be managed at home, the absence of a caregiver, inability to afford medications, lack of transport, and remote location make outpatient treatment impossible. The medical and social factors cannot be meaningfully separated.</em></p>
+<p><em>Patient B — <strong>Neither medical nor social</strong>: uncomplicated lower back pain with normal neurological examination has no medical indication for hospitalisation. The patient’s desire for hospitalisation is based on incorrect beliefs about sick leave benefits and a cultural preference for hospital care, neither of which constitutes a legitimate social indication (social indications require that the patient’s condition makes home care impossible, not merely that the patient prefers hospitalisation). The physician should explain this clearly.</em></p>
+<p><em>Patient C — <strong>Social indication (with minor medical needs)</strong>: the suspected nasal fracture does not require hospitalisation for medical management. However, the domestic violence context, fear of returning home, lack of social support, and acute psychological distress constitute a genuine social indication. The hospital’s social function includes identifying social determinants contributing to illness and connecting patients with social services.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 3.2.</strong> For Patient A, Dr.&nbsp;Dimitrov decides to admit her under Clinical Pathway X for community-acquired pneumonia. The pathway requires a minimum stay of 48 hours. What documentation must accompany the admission, and what happens when Mrs.&nbsp;Mehmedova is ready for discharge but still has no family support?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 3.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Documentation: a hospitalization referral (valid for 30 days) from the admitting physician or the consultative-diagnostic block; an outpatient examination record documenting medical history, objective findings, diagnostic activities, and justification that therapeutic goals cannot be achieved in outpatient care; laboratory tests performed within the previous 7 days; any relevant imaging within 30 days.</em></p>
+<p><em>At discharge: the hospital must issue a discharge epicrisis in three copies (patient, outpatient provider, hospital archive) containing passport data, admission date, final ICD diagnosis, clinical pathway number, therapeutic scheme, medications, and follow-up recommendations. Mrs.&nbsp;Mehmedova is entitled to two free follow-up examinations within 30 days.</em></p>
+<p><em>If family support is absent: under Bulgarian law, when a hospitalized patient requires accompaniment for discharge and family members are unavailable or unwilling, the hospital must inform the Social Assistance Directorate to arrange appropriate social service placement. Dr.&nbsp;Dimitrov must initiate this referral before discharge.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 3.3.</strong> For Patient B, what are the patient’s rights regarding refusal of the physician’s recommendation for outpatient treatment? What documentation is required if the patient insists on refusing to leave?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 3.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Patient B has the right to accept or reject proposed treatment. However, the right to reject treatment does not automatically create a right to demand hospitalisation when medical indications are absent. Under the clinical pathway system, hospitalisation can only occur when clinical presentations satisfy defined pathway indications with specific ICD codes and severity thresholds.</em></p>
+<p><em>If Mr.&nbsp;Kolev refuses the recommended outpatient plan and demands hospitalisation, Dr.&nbsp;Dimitrov should: (a) explain that no medical indication exists; (b) document the patient’s refusal of the recommended outpatient treatment in the medical records, with the patient’s signature; (c) if the patient is actively negative and refuses to leave, involve the senior on-duty physician; (d) avoid admitting the patient solely to avoid conflict, as this would constitute inappropriate utilisation of NHIF resources and could trigger sanctions during audit.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> Patient C’s situation involves domestic violence. Beyond the immediate medical treatment of the nasal fracture, what obligations does the hospital have, and what services should Dr.&nbsp;Dimitrov activate?</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The hospital’s social function requires identifying social determinants contributing to illness and supporting psychosocial adaptation. For Patient C, Dr.&nbsp;Dimitrov should: (a) provide immediate medical treatment for the nasal fracture and document all injuries meticulously as potential forensic evidence; (b) offer access to psychological support (psychotherapist services are a patient right during hospitalisation); (c) inform the Social Assistance Directorate, which can connect Ms.&nbsp;Petrova with crisis centres for domestic violence victims and temporary shelter; (d) inform her about her right to file a police complaint and seek a protection order under the Protection Against Domestic Violence Act; (e) if a short-term admission is justified for observation and safety while social services are mobilised, this constitutes a legitimate social indication. The case illustrates how hospital social functions extend beyond purely medical care into coordinating community responses to social determinants of health.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-4-the-quality-audit" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-4-the-quality-audit">Scenario 4 — The Quality Audit</h2>
+<section id="performance-indicators-and-discharge-planning-at-a-private-hospital-in-sofia" class="level3">
+<h3 class="anchored" data-anchor-id="performance-indicators-and-discharge-planning-at-a-private-hospital-in-sofia">Performance Indicators and Discharge Planning at a Private Hospital in Sofia</h3>
+<p><strong>The scenario.</strong> “Vita” Private Hospital in Sofia is a specialised hospital for active treatment in orthopaedic surgery. The hospital has 85 beds and contracts with the NHIF for 12 clinical pathways covering joint replacement, fracture fixation, arthroscopic procedures, and spinal surgery. In 2025, the hospital reported the following data: 5,100 admissions, 19,380 occupied bed-days, 15 inpatient deaths, 204 postoperative complications (78 wound infections, 56 deep vein thromboses, 42 reoperations, 28 other), and 382 unplanned readmissions within 30 days. The hospital offers physician choice at €200 and team choice at €400. During an inspection, the Executive Agency “Medical Supervision” found that 23 patients had been charged €350 for physician choice and that the hospital’s price list did not display the regulatory maximum limits.</p>
+<p><strong>Task 4.1.</strong> Calculate the average length of stay, bed occupancy rate, and bed turnover for the hospital.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 4.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>ALOS = 19,380 / 5,100 = <strong>3.8 days</strong>.</em></p>
+<p><em>Bed occupancy = 19,380 / (85 × 365) × 100 = 19,380 / 31,025 × 100 = <strong>62.5%</strong>.</em></p>
+<p><em>Bed turnover = 5,100 / 85 = <strong>60.0 patients per bed per year</strong>.</em></p>
+<p><em>The ALOS of 3.8 days is below the national average (4.9 days), consistent with the focused surgical profile and contemporary enhanced recovery after surgery (ERAS) protocols. Bed turnover of 60 is well above the national average (45) — reflecting the high throughput of a specialised surgical unit. However, bed occupancy of 62.5% is below the optimal 80–90% range, suggesting the hospital may have excess bed capacity relative to its current patient volume.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 4.2.</strong> Calculate the overall postoperative complication rate, the hospital-acquired infection rate (wound infections only), and the reoperation rate.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 4.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Postoperative complication rate = 204 / 5,100 × 100 = <strong>4.0%</strong>.</em></p>
+<p><em>Wound infection rate = 78 / 5,100 × 100 = <strong>1.5%</strong>.</em></p>
+<p><em>Reoperation rate = 42 / 5,100 × 100 = <strong>0.8%</strong>.</em></p>
+<p><em>The overall complication rate (4.0%) is substantially above the national average (0.5%), but direct comparison is misleading: the national figure includes all hospital types, while this is a pure surgical facility where every patient undergoes an operative procedure. Orthopaedic surgery, particularly joint replacement, carries inherent complication risks. However, the wound infection rate of 1.5% warrants attention — benchmark rates for primary joint replacement surgical site infections are typically 1–2%, placing this hospital at the upper boundary. The DVT rate (56/5,100 = 1.1%) also suggests potential for improvement in thromboprophylaxis protocols.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 4.3.</strong> Calculate the 30-day readmission rate. What are three possible explanations for the figure you obtain?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 4.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Readmission rate = 382 / (5,100 − 15) × 100 = 382 / 5,085 × 100 = <strong>7.5%</strong>.</em></p>
+<p><em>Possible explanations: (a) premature discharge — with an ALOS of 3.8 days and financial incentives to minimise length of stay, some patients may be discharged before achieving adequate stability for home management; (b) inadequate discharge planning — insufficient patient education about wound care, medication management (especially anticoagulants for DVT prophylaxis), warning signs requiring medical attention, and activity restrictions; (c) complications manifesting after discharge — wound infections and DVTs may develop days to weeks after surgery and generate readmissions that were not preventable through longer initial stays but may have been mitigated through better follow-up arrangements. Approximately 27% of 30-day readmissions are potentially preventable through improved discharge processes.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 4.4.</strong> Regarding the physician choice fee violations: what specific regulations has the hospital breached, and what are the correct regulatory maximums in EUR?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.4">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 4.4
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The hospital has breached two regulations: (a) charging €350 for physician choice exceeds the legal maximum of <strong>€256</strong> (500 BGN); (b) failing to display the regulatory maximum limits on the price list violates transparency requirements. Under Bulgarian law, the hospital’s price list must clearly state the maximum regulatory caps. Additionally, differential pricing based on procedure complexity or physician characteristics (rank, academic degree, experience) is prohibited — prices must be uniform regardless of these variables. The 23 patients who were overcharged are entitled to refunds of the excess amount (€350 − €256 = €94 each). The Executive Agency “Medical Supervision” may impose administrative penalties and issue mandatory prescriptions for corrective action.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> The hospital’s readmission rate (7.5%) is considerably higher than the municipal hospital in Scenario 1 (3.6%). Does this necessarily mean the private hospital provides worse quality care? What contextual factors should be considered before drawing conclusions?</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Direct comparison is inappropriate without adjusting for case mix, specialty profile, and measurement differences. The private hospital is a specialised surgical facility where all patients undergo operative procedures carrying inherent complication and readmission risks, while the municipal hospital treats a broader mix including many medical (non-surgical) patients with lower readmission profiles. Additionally, the private hospital’s very short ALOS (3.8 vs.&nbsp;14.3 days) may shift complications from the inpatient to the post-discharge period, making them visible as readmissions rather than being managed during the initial stay. Geographic access also matters: patients discharged from a hospital in Sofia have ready access to emergency care for re-presentation, whereas patients in Vidin may not return due to distance. Finally, the private hospital may have more complete data capture (documenting all returns), while the municipal hospital may undercount readmissions if patients present elsewhere. Valid quality comparison requires risk-adjusted metrics accounting for surgical volume, procedure complexity, patient comorbidities, and age.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-5-the-true-cost-of-free-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-5-the-true-cost-of-free-healthcare">Scenario 5 — The True Cost of “Free” Healthcare</h2>
+<section id="hospital-funding-clinical-pathways-and-out-of-pocket-payments" class="level3">
+<h3 class="anchored" data-anchor-id="hospital-funding-clinical-pathways-and-out-of-pocket-payments">Hospital Funding, Clinical Pathways, and Out-of-Pocket Payments</h3>
+<p><strong>The scenario.</strong> Mr.&nbsp;Ivan Petrov, 45, is admitted to UMHAT “St.&nbsp;Ivan Rilski” in Sofia for a planned orthopaedic surgery (joint replacement). He is fully insured under the National Health Insurance Fund (NHIF). The NHIF reimburses the hospital prospectively for this specific clinical pathway. Mr.&nbsp;Petrov’s inpatient stay lasts 7 days. During the admission process, the patient voluntarily requests the following additional non-medical services: to be operated on by a specific, highly requested surgical team, and a private room with enhanced amenities, priced by the hospital at €20 per day. Additionally, the implantable medical device required for the surgery costs €1,200, which is not covered by the standard NHIF benefits package.</p>
+<p><strong>Task 5.1.</strong> Calculate the statutory daily user fee for Mr.&nbsp;Petrov’s 7-day hospital stay according to Bulgarian regulations. What is the annual limit?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 5.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The daily user fee for hospital treatment in Bulgaria is €0.51. For a 7-day stay, the fee is 7 × €0.51 = <strong>€3.57</strong>.</em></p>
+<p><em>The annual limit for user fees is capped at 10 days per calendar year. Therefore, even if Mr.&nbsp;Petrov requires another hospitalization later this year, he will only pay for up to 3 more days.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 5.2.</strong> Assuming the hospital charges the legal maximum for the choice of medical team, what is this fee in EUR?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 5.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The legal maximum allowed for the choice of an entire medical team during hospitalization is <strong>€460</strong>.</em></p>
+<p><em>(Note: The maximum for a single physician choice is €256, but since he chose a team, the €460 limit applies).</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 5.3.</strong> Calculate the total Out-of-Pocket (OOP) payment for Mr.&nbsp;Petrov, assuming all his requests are met and the hospital charges the legal maximum for the team choice.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 5.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Total Out-of-Pocket (OOP) calculation:</em> <em>1. Statutory user fee: €3.57</em> <em>2. Choice of team (legal maximum): €460.00</em> <em>3. Private room (7 days × €20/day): €140.00</em> <em>4. Implantable medical device (not covered by NHIF): €1,200.00</em></p>
+<p><em>Total OOP = €3.57 + €460.00 + €140.00 + €1,200.00 = <strong>€1,803.57</strong>.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> Discuss the equity of the Bulgarian healthcare financing model based on this scenario. While the NHIF officially covers the clinical pathway (the algorithm, staff work, and basic medications), the patient’s out-of-pocket expenses are substantial. How do the legal caps on physician and team choice protect patients from financial exploitation, and what are the implications of expensive medical devices falling outside the pathway reimbursement?</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>This scenario highlights the mixed financing nature of the Bulgarian system and the heavy reliance on out-of-pocket payments, which can be catastrophic for lower-income patients. While the clinical work is “free” at the point of care (covered by social insurance), the full pathway cannot be executed without the expensive medical device, essentially creating a financial barrier to essential care. The legal caps on team choice (€460) and physician choice (€256) were introduced explicitly to regulate informal payments (“under-the-table” money) and prevent hospitals from financially exploiting vulnerable patients with exorbitant fees based on the prestige of the surgeon. However, these caps do not solve the equity problem created when basic health insurance is insufficient to cover the physical materials required for treatment.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="scenario-6-building-a-new-hospital" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-6-building-a-new-hospital">Scenario 6 — Building a New Hospital</h2>
+<section id="hospital-organization-structural-blocks-and-regulatory-approval" class="level3">
+<h3 class="anchored" data-anchor-id="hospital-organization-structural-blocks-and-regulatory-approval">Hospital Organization, Structural Blocks, and Regulatory Approval</h3>
+<p><strong>The scenario.</strong> A private healthcare investment group, “MedInvest,” wishes to open a new Specialized Hospital for Oncology in Burgas. They recognize a regional deficit in comprehensive cancer care and have secured private funding to construct a state-of-the-art facility. Their business model relies on immediately establishing an inpatient block with 100 active treatment beds, advanced radiotherapy bunkers, and a large outpatient clinic. To ensure financial sustainability, they plan to contract with the National Health Insurance Fund (NHIF) from day one. They have appointed an experienced oncologist as the planned hospital director, though she lacks formal management qualifications.</p>
+<p><strong>Task 6.1.</strong> According to the Medical Establishments Act, every hospital must be organized into three mandatory functional structural blocks. Identify these three blocks and provide one example of a unit within each block that would be appropriate for this planned oncology hospital.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.1">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 6.1
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-25" class="callout-25-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>1. <strong>Consultative-diagnostic block</strong>: The primary patient interface. Examples include the outpatient registration area, consultative oncology cabinets, medical-diagnostic laboratories, or the imaging department (CT/PET-CT).</em> <em>2. <strong>Inpatient block</strong>: The core operational area for hospitalized patients. Examples include the medical oncology clinic with the 100 active treatment beds, the surgical oncology department, or an intensive care unit.</em> <em>3. <strong>Administrative-economic block</strong>: The supporting infrastructure. Examples include the hospital pharmacy (critical for handling oncology medications), central sterilization, laundry, food services, or hospital administration.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 6.2.</strong> Evaluate the planned appointment of the hospital director. Does the proposed candidate meet the legal requirements to lead the institution?</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 6.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-26" class="callout-26-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The proposed candidate does <strong>not</strong> meet the full legal requirements. While she holds a medical degree (as an experienced oncologist), the law explicitly requires the director of a hospital to also hold a formal qualification in <strong>health management</strong> (or to hold a master’s degree in economics and management combined with health management training). She must acquire this qualification before formally assuming the director role.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Task 6.3.</strong> Outline the legal and organizational steps the hospital must take before it can officially open the 100 beds and receive funding from the NHIF.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.3">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Model Answer 6.3
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-27" class="callout-27-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>The hospital cannot simply construct the building and begin billing the NHIF. It must undergo a rigorous regulatory process:</em> <em>1. Obtain approval from the <strong>Council of Ministers</strong>, based on a detailed assessment by the Executive Agency “Medical Supervision.”</em> <em>2. Acquire an operating permit from the Ministry of Health detailing the specific medical specialties and competence levels it may practice.</em> <em>3. To receive NHIF funding, the new beds and specific clinical pathways must align with the regional needs and capacity limits outlined in the <strong>National Health Map</strong>. If the Health Map indicates that Burgas region already has sufficient active treatment beds, the NHIF can legally refuse to sign a contract for the new beds.</em></p>
+</div>
+</div>
+</div>
+<p><strong>Discussion question.</strong> Why does the state heavily regulate the opening of new hospital beds and NHIF contracting through instruments like the National Health Map? Discuss how an unregulated over-supply of hospital beds might lead to inefficiencies, and conversely, the risks of artificial under-supply.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Discussion — Model Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-28" class="callout-28-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>State regulation through the National Health Map is designed to ensure equitable geographic distribution of healthcare resources and to control public expenditure. Unregulated over-supply of hospital beds often leads to “supplier-induced demand,” where hospitals lower admission thresholds to fill empty beds and generate NHIF revenue, draining public funds on unnecessary hospitalizations instead of cheaper outpatient care. Conversely, artificial under-supply (too few beds relative to population need) results in long waiting lists, delayed interventions, worsened clinical outcomes, and the very boarding crises observed in Scenario 2. The Health Map attempts to balance these extremes by linking public funding to objectively measured regional demographic and epidemiological needs.</em></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="synthesis-task-cross-group-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="synthesis-task-cross-group-discussion">Synthesis Task — Cross-Group Discussion</h2>
+<p>After all groups have presented their scenarios, discuss as a class:</p>
+<p><strong>1.</strong> Across all six scenarios, which performance indicator proved most useful for identifying quality problems, and which was most misleading when interpreted without context?</p>
+<p><strong>2.</strong> How do the regulatory mechanisms (clinical pathways, prospective payment, National Health Map) create incentives that can either improve or undermine hospital care quality and efficiency? Use specific examples from the scenarios.</p>
+<p><strong>3.</strong> The hospitals in these scenarios serve different populations, have different ownership structures (municipal, state university, private), and operate at different scales. How should a national health system account for these differences when setting performance benchmarks and allocating resources?</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
