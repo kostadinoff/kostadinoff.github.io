@@ -6,7 +6,7 @@ description: "Problem-based learning tasks on outbreak investigation, vaccine su
 categories: 
   - "Epidemiology"
   - "Surveillance"
-  - "Public Health"
+  - "Public health"
   - "Assignment"
 ---
 

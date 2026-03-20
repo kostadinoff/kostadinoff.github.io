@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-03-15
 description: "Four realistic scenarios requiring students to calculate and interpret GP financing, quality, and capacity indicators within the Bulgarian primary care system."
 categories: 
-  - "Primary Health Care"
-  - "Health System Organisation"
-  - "Quality Indicators"
+  - "Primary health care"
+  - "Health system organisation"
+  - "Quality indicators"
   - "Assignment"
 ---
 

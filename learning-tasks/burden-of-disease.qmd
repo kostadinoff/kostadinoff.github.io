@@ -5,9 +5,9 @@ date: 2026-03-07
 description: "Interactive class tasks for epidemiology students focusing on calculating and interpreting YLL, YLD, DALY, and QALY metrics within a public health framework."
 categories: 
   - "Epidemiology"
-  - "Public Health"
-  - "Daly"
-  - "Qaly"
+  - "Public health"
+  - "DALY"
+  - "QALY"
   - "Assignment"
 ---
 

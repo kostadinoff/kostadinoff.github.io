@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-02-15
 description: "A comprehensive library of public health scenarios and methodological challenges for students to design, defend, and critique research protocols in sociological research methods."
 categories: 
-  - "Medical Sociology"
-  - "Research Methods"
-  - "Public Health"
+  - "Medical sociology"
+  - "Research methods"
+  - "Public health"
   - "Assignment"
 ---
 

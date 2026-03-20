@@ -6,7 +6,7 @@ description: "Interactive case studies and problem-based learning tasks on demog
 categories: 
   - "Demography"
   - "Registration"
-  - "Public Health"
+  - "Public health"
   - "Assignment"
 ---
 

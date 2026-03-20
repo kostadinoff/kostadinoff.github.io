@@ -3,7 +3,11 @@ title: "Hospital Care"
 author: "Kostadin Kostadinov"
 date: today
 description: "Six problem-based group scenarios focusing on hospital capacity planning, quality of care, healthcare financing, and hospital organization within the Bulgarian healthcare system."
-categories: [hospital care, social medicine, public health]
+categories:
+  - "Hospital care"
+  - "Social medicine"
+  - "Public health"
+  - "Assignment"
 format:
   html:
     toc: true
