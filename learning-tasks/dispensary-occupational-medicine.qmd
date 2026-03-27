@@ -1,0 +1,198 @@
+---
+title: "Dispensary Care and Occupational Medicine: Scenarios and Tasks"
+author: "Kostadin Kostadinov"
+date: 2026-03-27
+description: "Realistic case studies on patient stratification, organizational coordination, and occupational risk management within the Bulgarian health system."
+categories: 
+  - "Dispensary Care"
+  - "Occupational Medicine"
+  - "Social Medicine"
+  - "Assignment"
+---
+
+## Instructions
+
+This assignment explores the practical application of the dispensary method and occupational health principles in Bulgaria. Working in your assigned groups, analyze each scenario to determine the correct clinical, organizational, and regulatory responses.
+
+Focus on the rationale behind each decision — ensure your answers are grounded in the specific requirements of Bulgarian health legislation (such as Regulation No. 3 and the Medical Establishments Act) rather than general clinical assumptions.
+
+**Reference materials:**
+- [The Dispensary Method in Preventive Medicine](../15-minute-learning/dispensary-care.qmd)
+- [Occupational Medicine and Workplace Health](../15-minute-learning/occupational-medicine.qmd)
+
+---
+
+## Scenario 1 — Enrolling and Stratifying Patients
+
+### Context
+
+Dispensarization relies on a proactive classification of patients into five health groups to determine the intensity of monitoring. Correct stratification is the foundation for an effective surveillance plan.
+
+### Case Data: Georgi Tanev
+
+Georgi Tanev, 52 years old, from Plovdiv, attends his GP for an annual preventive examination. He considers himself healthy. Findings:
+- Blood pressure: 156/94 mm Hg (twice during visit).
+- Fasting glucose: 6.2 mmol/l.
+- BMI: 31.2 kg/m².
+- 25-pack-year smoking history.
+- Family history: Father died of MI at age 58.
+- No previous diagnosis of hypertension or diabetes.
+
+### Your Tasks
+
+**Task 1.1 — Initial Stratification.** To which dispensarization group should Georgi be assigned at this stage, and why?
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.1"}
+Consider that a single visit cannot confirm a chronic diagnosis (like hypertension), but identifies significant "elevated risk." Look at the criteria for Group II.
+:::
+
+**Task 1.2 — Comparative Stratification.** Using the dispensary classification system (Groups I-V), classify the following additional patients:
+
+- **Patient A**: A 6-year-old child with no health complaints and normal development.
+- **Patient B**: A 45-year-old man who had a chronic respiratory issue 3 years ago, now in stable remission and feeling well.
+- **Patient C**: A 60-year-old woman with well-controlled hypertension on medication, working full-time with no limitations.
+- **Patient D**: A 55-year-old man with insulin-dependent diabetes and severe ischemic heart disease, frequent exacerbations, and significant functional impairment.
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.2"}
+Recall the definitions for compensated (Group III), subcompensated (Group IV), and decompensated (Group V) disease. High-risk but "practically healthy" individuals (like Patient B in remission) have a specific placement.
+:::
+
+**Task 1.3 — Procedural Requirements.** What steps must the GP complete before formally enrolling Georgi in dispensarization, and what is the minimum required duration for this encounter?
+
+::: {.callout-tip collapse="true" title="Hint — Task 1.3"}
+Think about the legal requirement for informed consent and the "floor" for examination time set in the regulatory framework.
+:::
+
+### Discussion Questions
+
+**Q1.** If Georgi is later diagnosed with Stage 1 hypertension, how does his health group change?
+**Q2.** Discuss the role of the GP as the "integrated responsibility" holder for adult patients compared to specialists.
+
+---
+
+## Scenario 2 — Specialized Dispensarization and Oncology
+
+### Context
+
+Certain conditions, particularly malignant diseases and mental health disorders, require specialized settings for dispensarization to integrate multidisciplinary expertise with long-term registry functions.
+
+### Case Data: Mariya Stoyanova
+
+Mariya Stoyanova, 43 years old, from Varna, was diagnosed with invasive ductal carcinoma (Stage IIB) following a screening mammogram. She has completed surgery and is beginning chemotherapy at a Complex Oncology Center.
+
+### Your Tasks
+
+**Task 2.1 — Responsibility and Coordination.** Who is responsible for Mariya's oncological dispensarization? Can her GP enrol her for the same condition to provide "extra" support?
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.1"}
+Check the regulatory principle regarding "dual enrolment" for the same condition at multiple facilities.
+:::
+
+**Task 2.2 — Identifying Center Functions.** The Oncology Center provides clinical assessments, tumour marker monitoring, registry entry, and psychological support. Map these activities to the four defined functions of Complex Oncology Centers.
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.2"}
+Functions include periodic observation/follow-up, registration/dispensarization, treatment implementation, and promotional/supportive activities.
+:::
+
+**Task 2.3 — Surveillance Indicators.** A regional center reports that its "systematic observation rate" for oncology follow-up has dropped to 65%. Why is this concerning?
+
+::: {.callout-tip collapse="true" title="Hint — Task 2.3"}
+This indicator measures the proportion of enrolled patients who complete their FULL scheduled surveillance. Consider how low adherence affects early detection of recurrence.
+:::
+
+### Discussion Questions
+
+**Q1.** What organizational barriers might reduce the systematic observation rate in a large city versus a remote village?
+**Q2.** How does the national cancer registry function as "epidemiological intelligence"?
+
+---
+
+## Scenario 3 — Occupational Medicine: Risk and Controls
+
+### Context
+
+Occupational medicine prioritizes the "Hierarchy of Controls," where the goal is to fight risk at its source rather than relying solely on worker behavior or protective equipment.
+
+### Case Data: Furniture Manufacturing Facility
+
+Plamen Georgiev, 37, operates a belt sander.
+
+- Noise level: 89 dB(A) (sustained).
+- Wood dust (hardwood): airborne concentrations "near" the permissible limit.
+- PPE: Employer provides earplugs and dust masks.
+
+### Your Tasks
+
+**Task 3.1 — Risk Assessment Stages.** Apply the five-stage risk assessment process to Plamen's workstation.
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.1"}
+Stages: (1) Work categorization, (2) Hazard identification, (3) Risk evaluation, (4) Risk control plan, (5) Review. Ensure you address both noise and dust.
+:::
+
+**Task 3.2 — Hierarchy of Controls.** Suppose the employer argues that PPE (earplugs and masks) is sufficient because the dust is "below the limit." Propose three progressive measures that follow the hierarchy of controls (Elimination, Engineering, Administrative) to prioritize over PPE.
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.2"}
+Consider acoustic enclosures, local exhaust ventilation (LEV), and job rotation.
+:::
+
+**Task 3.3 — Legal Composition of OHS.** An OHS team consists of a GP with no specialty, an engineer with 1 year of experience, and a technical executor with a high school diploma. Does this meet the minimum legal requirements of Bulgarian law?
+
+::: {.callout-tip collapse="true" title="Hint — Task 3.3"}
+Check the specific requirements for the physician's specialty and the engineer's years of experience in occupational safety.
+:::
+
+### Discussion Questions
+
+**Q1.** Why does the Law on Health and Safety at Work prioritize collective protection over individual protection?
+**Q2.** Discuss the "ALARA" principle (Lowest Reasonably Achievable Level) in the context of carcinogenic wood dust.
+
+---
+
+## Scenario 4 — Medical Surveillance and Performance
+
+### Context
+
+Performance indicators allow the National Health Insurance Fund (NHIF) and the Medical Supervision Agency to evaluate the efficiency and quality of dispensary and preventive programmes.
+
+### Implementation Data: Small Town Practice
+
+Data for a practice with 1,850 adults:
+
+- New diagnoses warranting dispensarization: 84.
+- Enrolled in dispensarization within 30 days: 61.
+- Total enrolled in dispensary program: 340.
+- Completed all scheduled visits: 238.
+- Adults receiving at least one annual preventive exam: 712.
+- Group III patients: 180 (of which 12 progressed to Group IV).
+
+### Your Tasks
+
+**Task 4.1 — Indicator Calculation.** Calculate the following indicators:
+
+1. **Timeliness of dispensarization** (%)
+2. **Systematic observation rate** (%)
+3. **Deterioration rate** (%) (for Group III)
+4. **Preventive examination coverage rate** (%)
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.1"}
+- Timeliness: (Enrolled within 30 days / New diagnoses) * 100.
+- Systematic Observation: (Completed all visits / Total enrolled) * 100.
+- Deterioration: (Progressed to Group IV / Group III total) * 100.
+- Coverage: (Examined adults / Total adults) * 100.
+:::
+
+**Task 4.2 — Evaluation Against Standards.** The national benchmark for annual preventive examination coverage is **45%**. Does this practice meet the standard?
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.2"}
+Compare your calculated coverage rate (from Task 4.1) against the 45% target.
+:::
+
+**Task 4.3 — Occupational Reassignment.** A miner is found to have silicosis and has used 190 days of continuous sick leave. Which medical authority must he be referred to, and what is the difference between an "occupational disease" and an "occupational accident"?
+
+::: {.callout-tip collapse="true" title="Hint — Task 4.3"}
+Recall the 180-day threshold for TEMK referral and the definition of a "sudden health impairment" (accident) versus "cumulative impact" (disease).
+:::
+
+### Discussion Questions
+**Q1.** What does a high "deterioration rate" suggest about the quality of clinical management in a practice?
+**Q2.** Propose two interventions to improve the preventive examination coverage rate.

@@ -2,6 +2,7 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/dispensary-occupational-medicine.html",
       "/learning-tasks/hospital-care.html",
       "/learning-tasks/primary-health-care-indicators.html",
       "/learning-tasks/burden-of-disease.html",
@@ -13,6 +14,8 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/dispensary-care.html",
+      "/15-minute-learning/occupational-medicine.html",
       "/15-minute-learning/hospital-care.html",
       "/15-minute-learning/primary-health-care.html",
       "/15-minute-learning/burden-of-disease.html",
@@ -22,7 +25,7 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W12-en.html",
       "/epinews-posts/2026-W11-en.html",
@@ -49,7 +52,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W12-en.html",
       "/epinews-posts/2026-W11-en.html",
