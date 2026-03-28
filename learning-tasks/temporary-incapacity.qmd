@@ -1,0 +1,268 @@
+---
+title: "Expert Evaluation of Temporary Incapacity for Work"
+author: "Kostadin Kostadinov"
+date: 2026-03-28
+description: "Interactive class tasks and scenarios focusing on the medical assessment of work capacity, temporary incapacity indicators, and social protection."
+categories: 
+  - "Social Medicine"
+  - "Public Health"
+  - "Occupational Health"
+  - "Assignment"
+---
+
+## Instructions
+
+Work in your assigned group. Read each scenario carefully, perform any required calculations, and discuss the questions. Be prepared to present your group's findings and reasoning to the class. The final discussion question requires synthesis across all groups.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Expert Evaluation of Temporary Incapacity for Work — Indicators and Analysis](../15-minute-learning/temporary-incapacity.qmd). All answers and justifications must reference the concepts and limits established in this text.*
+
+---
+
+## Group 1 — Varna Regional Hospital: Analysing Incapacity Indicators
+
+The occupational health team at **MBAL Sv. Marina — Varna** (a large state-owned university hospital on the Black Sea coast) is reviewing the annual incapacity data for its 1 840 employees. Over the preceding calendar year, the following data were recorded:
+
+- Total temporary incapacity episodes: **412**
+- Total days of temporary incapacity: **6 130**
+- Number of employees who experienced **no** temporary incapacity episode: **1 248**
+- Number of employees with **more than 3 episodes**: **47**
+- Number of employees whose cumulative incapacity **exceeded 30 days**: **33**
+
+**Tasks:**
+
+1. Calculate the **frequency**, **severity**, and **average duration** of temporary incapacity for this workforce.
+2. Calculate the **health index**, the proportion of **frequently ill** employees, and the proportion of **long-term ill** employees.
+3. The hospital director notes that the average duration is substantially higher than the national sector benchmark of 12.4 days per episode. Discuss at least three plausible explanations for this discrepancy, distinguishing between clinical, organisational, and demographic factors.
+4. Which indicator — frequency or severity — would you prioritise when planning a workplace health intervention, and why?
+
+::: {.callout-note title="Model answer" collapse="true"}
+
+**Calculations:**
+
+$$\text{Frequency} = \frac{412}{1840} = 0.224 \text{ episodes per insured person per year}$$
+
+$$\text{Severity} = \frac{6130}{1840} = 3.33 \text{ days per insured person per year}$$
+
+$$\text{Average Duration} = \frac{6130}{412} = 14.9 \text{ days per episode}$$
+
+$$\text{Health Index} = \frac{1248}{1840} = 0.678 \text{ (67.8\% without any episode)}$$
+
+$$\text{Frequently Ill} = \frac{47}{1840} = 0.026 \text{ (2.6\%)}$$
+
+$$\text{Long-term Ill} = \frac{33}{1840} = 0.018 \text{ (1.8\%)}$$
+
+**Discussion:** Average duration of 14.9 days exceeds the benchmark. Plausible explanations include: (i) a higher proportion of nursing and clinical staff with physically demanding work and musculoskeletal conditions; (ii) more complex or older patients requiring longer recovery; (iii) administrative delays in MCC referral prolonging individual episodes; (iv) an older workforce with higher comorbidity burden. Frequency drives planning of prevention (reduce new episodes); severity — including long-term ill proportion — drives clinical management and rehabilitation planning. Both dimensions are necessary for a complete picture.
+
+:::
+
+---
+
+## Group 2 — Plovdiv Outpatient Practice: Assessment Authority and Referral Pathway
+
+Dr. Ivanova works as a general practitioner in a **group outpatient practice** in **Plovdiv** (a medical centre with four general practitioners and five specialists). She is seeing three patients on the same day:
+
+**Patient A:** A 44-year-old accountant with an acute exacerbation of lumbar disc disease. Dr Ivanova has already issued him sickness certificates for 14 consecutive days in the current episode, and he is no better.
+
+**Patient B:** A 61-year-old retired municipal employee who has been on consecutive sickness leave, without interruption, for 7 months due to ischaemic stroke with residual hemiparesis. He shows some, but incomplete, recovery.
+
+**Patient C:** A 29-year-old warehouse worker who presents requesting a sickness certificate. She reports that she injured her back two days ago when lifting a load at work. She worked through the day of injury; by the time she sees Dr Ivanova it is already the following working day.
+
+**Tasks:**
+
+1. For each patient, identify the *correct next step* in the assessment pathway, citing the specific legal authority and its limits.
+2. Patient B has now exceeded 180 calendar days of consecutive incapacity. What are the two possible outcomes at this stage, and what body has authority over each?
+3. Patient C asks whether her condition will be classified as an occupational accident or general illness. How should the certificate be marked, and which body has the authority to confirm occupational accident status?
+4. What is the maximum total period of temporary incapacity that can be authorised for a single continuous episode before the person must either return to work or be assessed for permanent disability?
+
+::: {.callout-note title="Model answer" collapse="true"}
+
+**Patient A:** The attending physician has reached the 14-day limit for independent certification. Patient A must be referred to the **MCC**, which can extend for up to 30 days per extension and up to 180 calendar days total.
+
+**Patient B:** After 6 months of continuous incapacity, TEMC involvement is required for a control review (every 2 months). Total continuous incapacity without TEMC authorisation cannot exceed 6 months. TEMC has authorised extensions up to 3 × 2 months (6 additional months via TEMC within one calendar year). At 7 months the case should be reviewed by TEMC. If work capacity is not expected to recover in the next 6 months, the two outcomes are: (a) return to work if recovery occurs; (b) TEMC determines the percentage of permanently reduced work capacity and issues an expert decision.
+
+**Patient C:** The attending physician notes in the sickness certificate the hour, place, and circumstances of the accident, and marks it: **"For verification with an order of the territorial branch of the NSSI"** (НОИ). The accident's occupational nature must be established by a formal NSSI order; until then it is treated as suspected. A certificate is issued from the next calendar day after the day of injury (since she worked on the day of injury).
+
+**Maximum total period:** 6 months via MCC (180 calendar days) + up to 6 additional months via TEMC authorisation (3 × 2-month decisions) = maximum 18 months. Continuous incapacity beyond 18 months is not permitted; the Ordinance specifies this as the absolute upper limit.
+
+:::
+
+---
+
+## Group 3 — Sofia TEMC: Permanently Reduced Work Capacity Assessment
+
+The TEMC at **UMBAL Aleksandrovska — Sofia** (one of the largest university hospitals in the country, state-owned) is reviewing four cases in its morning session:
+
+**Case 1:** A 53-year-old man with: (a) status following comprehensive surgical and adjuvant treatment for colorectal carcinoma with no evidence of recurrence — assessed at 70%; (b) hypertensive heart disease with preserved ejection fraction and one hospitalisation in the past year — assessed at 40%. No permanent conditions.
+
+**Case 2:** A 47-year-old woman with: (a) relapsing-remitting multiple sclerosis with moderate disability — assessed at 60%; (b) insulin-dependent diabetes mellitus with two complications — assessed at 60%. Both are non-definitive.
+
+**Case 3:** A 71-year-old retired professor with bilateral severe sensorineural hearing loss, surgically confirmed and stable — the only disability, assessed at 55%. He receives an old-age pension and recently began part-time work as a consultant.
+
+**Case 4:** A 38-year-old man with severe ankylosing spondylitis with complete spinal fusion (confirmed on imaging) — assessed at 75%. Condition is irreversible.
+
+**Tasks:**
+
+1. Calculate the combined disability percentage for Cases 1 and 2 using the standard methodology.
+2. For Cases 3 and 4, determine the appropriate disability group and the appropriate duration of the disability decision (including whether a lifelong determination is warranted), justifying your answer.
+3. For Case 1, discuss whether the standard duration of 1–3 years is appropriate, or whether a different determination should be considered.
+4. Case 2's patient asks whether both conditions must be re-assessed at the same time at re-certification. How should TEMC respond?
+
+::: {.callout-note title="Model answer" collapse="true"}
+
+**Case 1 combined calculation:**
+Leading disability: 70% (colorectal carcinoma post-treatment).
+Accompanying disability: 40% (hypertensive heart disease).
+$$70\% + 20\% \times 40\% = 70\% + 8\% = 78\%$$
+**Group II disability (71–90%).**
+
+**Case 2 combined calculation:**
+Both conditions are assessed at 60%; neither is designated as clearly "leading" but by convention the first (MS) is taken as the base.
+$$60\% + 20\% \times 60\% = 60\% + 12\% = 72\%$$
+**Group II disability (71–90%).** Standard duration of 1–3 years; neither condition is definitively irreversible at this stage.
+
+**Case 3:** Bilateral severe sensorineural hearing loss at 55% → **Group III disability (50–70%)**. The patient has reached retirement age and holds an old-age pension; a **lifelong** disability duration is warranted. Contraindicated conditions should specify environments with high occupational noise exposure; no work adjustment is required unless he seeks to re-enter regulated employment.
+
+**Case 4:** Ankylosing spondylitis with complete spinal fusion at 75% → **Group II disability (71–90%)**. The condition is explicitly *definitive* (complete bony fusion is irreversible). A **lifelong** determination is warranted, with re-assessment possible only at the patient's request or at the request of oversight bodies.
+
+**Case 3 / 1 — duration:** The malignancy post-treatment at 70% with no recurrence is not definitively irreversible (recurrence or dissemination could occur; recovery to lower disability levels is possible). A standard period of 2–3 years is appropriate, consistent with standard oncology surveillance intervals.
+
+**Case 2 re-certification:** The Ordinance permits, where multiple disabilities are present and some are definitively irreversible, for the patient to request assessment of the definitive conditions only. In this case neither condition is definitively irreversible, so both must be re-assessed together at re-certification.
+
+:::
+
+---
+
+## Group 4 — Stara Zagora: Cash Compensation and Social Protection
+
+The HR department of **МБАЛ Проф. д-р Стоян Киркович — Stara Zagora** (a state-owned regional hospital) is dealing with three queries about cash compensation and disability pensions.
+
+**Employee A:** A 34-year-old nurse who was hospitalised for 6 days following an occupational needle-stick injury. She then required 10 days of home treatment after discharge. Her average daily gross salary in the preceding month was EUR 58.50. She has been insured for 3 years.
+
+**Employee B:** A 52-year-old technician who reported to work visibly intoxicated and sustained a hand injury. He claims temporary incapacity for 5 working days. The incident was confirmed as occurring under the influence of alcohol by his supervisor and documented by the occupational health physician.
+
+**Employee C:** A 67-year-old retired radiologist who continues to work part-time at the hospital and was recently certified by TEMC with Group II disability (78%) due to cumulative radiation-related cataract and mild renal impairment. The minimum pension for insurance contributions and age in 2026 is EUR 322.37/month.
+
+**Tasks:**
+
+1. Calculate the total cash compensation payable to Employee A for the entire period of incapacity (hospital + home treatment), showing each component separately.
+2. Is Employee B entitled to cash compensation? Provide a legal justification and identify which authority has the power to confirm the circumstances.
+3. For Employee C, calculate the minimum monthly disability pension she is entitled to, and identify which additional social assistance benefits she is entitled to as a person with Group II disability.
+4. Employee C asks whether her disability pension will be affected if she stops working. What is the correct answer, and what would happen if she failed to comply with contraindicated conditions of work?
+
+::: {.callout-note title="Model answer" collapse="true"}
+
+**Employee A:**
+
+The incapacity arose from an occupational accident. Rate = 90% for all days (occupational basis). The employer pays 70% for the first two *working* days.
+
+Days 1–2 (working days, employer): $2 \times EUR 58.50 \times 70\% = EUR 81.90$
+
+Days 3–16 (remaining 14 days: 6 hospital days + 10 home treatment minus the 2 employer days already paid, = 14 days): $14 \times EUR 58.50 \times 90\% = EUR 736.50$
+
+*Total:* EUR 81.90 + EUR 736.50 = **EUR 818.40**
+
+Note: Occupational accident rate of 90% applies from the outset; the employer is only responsible for the first 2 working days; thereafter NSSI pays.
+
+**Employee B:** Employee B is *not entitled* to cash compensation. The Ordinance explicitly excludes compensation where incapacity arose due to alcohol use or actions performed under the influence of such substances, established by the appropriate procedure. The attending physician must mark the certificate "For investigation"; the occupational health physician's documentation and the supervisor's statement constitute the confirming record. The administrative court or NSSI may conduct further review.
+
+**Employee C — minimum pension (Group II, 71–90%):**
+$EUR 322.37 \times 105\% = EUR 338.49/month$
+
+**Social assistance (Group II — 71–90%):**
+- Monthly transport supplement
+- Annual return rail travel on BDZ
+- Free motorway vignette
+- Monthly cash supplement of 15% of poverty line
+
+She is not entitled to the balneotherapy supplement, targeted assistance for home adaptation, or targeted vehicle purchase assistance (those are restricted to the >90% group).
+
+**Effect of ceasing work:** The disability pension is not affected by stopping employment — it is based on the certified degree of disability, not current employment status. However, if she fails to comply with the contraindicated conditions of work identified in the TEMC decision, the disability pension may be *suspended* for the period of non-compliance.
+
+:::
+
+---
+
+## Cross-Group Synthesis Discussion
+
+After each group has presented its findings, consider the following question together:
+
+The six key indicators of temporary incapacity — frequency, severity, average duration, health index, proportion of frequently ill, and proportion of long-term ill — describe different dimensions of the same phenomenon. Drawing on the scenarios from all four groups, discuss how an occupational health physician would use this indicator set to: (a) identify the point in the referral chain where a problem is arising (for example, late MCC referral, delayed TEMC assessment, high proportion of pregnancy-related episodes); (b) distinguish between a workforce health problem that requires clinical intervention versus one that requires organisational or administrative reform; and (c) justify a budget allocation to the hospital director for expanding MCC capacity.
+
+---
+
+## Additional Scenarios for Practice
+
+### Scenario 1: Boundaries of Temporary Incapacity (GP vs. MCC)
+
+**Focus:** Limits of primary care certification and routing to higher medical commissions.
+
+**Background Data:** A patient visits their General Practitioner (GP) with a severe acute respiratory infection. The GP initially issues a sick leave certificate (болничен лист) for 10 continuous days. The patient returns on the 10th day, still unwell, and the clinical assessment indicates they need at least 10 more days of rest.
+
+**Group Task:**
+
+1. Can the GP issue the second sick leave certificate independently to cover the next 10 days? Explain why or why not based on legal limits.
+2. If the GP cannot issue it, which body must evaluate the patient, and what is the maximum duration this body can issue at once?
+
+::: {.callout-note title="Answer for Checking" collapse="true"}
+1. **No.** A GP (attending physician) can only issue sick leave for up to **14 continuous days** for one or more illnesses, and no more than **40 days with interruptions** in a single calendar year. Since 10 + 10 = 20 days, the GP's legal limit is exceeded.
+2. The GP must refer the patient to a **Medical Consultative Commission (MCC)**. The MCC has the authority to issue sick leave for up to **30 days at a time**, up to a maximum of 180 continuous days.
+:::
+
+---
+
+### Scenario 2: Transition from Temporary to Permanent Incapacity
+
+**Focus:** Long-term sick leave, continuous incapacity limits, and the role of TELK.
+
+**Background Data:** A construction worker suffered a complex traumatic injury and has been on continuous sick leave for exactly **180 days**, authorized in 30-day increments by the hospital's MCC. The patient's recovery is progressing well, but the surgeon expects it will take another 3 to 4 months before the worker can safely return to heavy lifting.
+
+**Group Task:**
+
+1. What mandatory administrative action must the MCC take now that the 180-day mark has been reached?
+2. Since recovery is clinically expected, what action can the new assessing body take regarding the patient's sick leave, and what is the absolute maximum legal limit for continuous temporary incapacity?
+
+::: {.callout-note title="Answer for Checking" collapse="true"}
+1. After 180 days of continuous temporary incapacity, the MCC is legally obligated to stop issuing sick leave and **must refer the patient to a Territorial Expert Medical Commission (TELK)**.
+2. For severe conditions like traumatic injuries where recovery is clearly expected, TELK can authorize the extension of the temporary incapacity for **up to 2 months at a time**. However, the absolute maximum duration allowed for continuous temporary incapacity is **18 months**.
+:::
+
+---
+
+### Scenario 3: Calculating Permanent Functional Limitation (TELK)
+
+**Focus:** Multiple impairments, calculation methodology, and disability grouping.
+
+**Background Data:** A 58-year-old patient is evaluated by TELK for a permanent reduction in working capacity. The commission identifies two distinct impairments based on the medical documentation: 
+- The **leading impairment** (e.g., advanced cardiovascular disease) warrants a **60% reduction** according to the reference criteria. 
+- A secondary, **accompanying impairment** (e.g., an orthopedic defect) warrants a **30% reduction**.
+
+**Group Task:**
+
+1. Calculate the overall percentage of permanently reduced working capacity using the official methodology.
+2. Determine which disability group (Group I, II, or III) the patient falls into based on the calculated percentage.
+
+::: {.callout-note title="Answer for Checking" collapse="true"}
+1. The calculation adds 20% of the sum of the accompanying impairments to the leading impairment: *Overall Impairment = $P_{leading} + (0.20 \times \Sigma P_{accompanying})$*. 
+   *Calculation:* 60% + (0.20 × 30%) = 60% + 6% = **66%**.
+2. A 66% reduction in working capacity places the individual in **Group III**, which covers impairments ranging from **50% to 70.99%**.
+:::
+
+---
+
+### Scenario 4: Work Reassignment and Appeals
+
+**Focus:** Occupational rehabilitation (трудоустрояване) and the dispute resolution process.
+
+**Background Data:** A worker is evaluated by the MCC due to early signs of an occupational disease caused by chemical exposure. The MCC determines that the worker's health requires them to work under eased conditions. The MCC issues a prescription for **work reassignment (трудоустрояване)** to an administrative role for a duration of **4 months**. The employer disagrees with this decision, claiming it disrupts production.
+
+**Group Task:**
+
+1. Is the MCC authorized to issue a 4-month reassignment, and what are its maximum limits for this action?
+2. What is the deadline for the employer to appeal the MCC's decision, and to which medical expertise body must the appeal be directed?
+
+::: {.callout-note title="Answer for Checking" collapse="true"}
+1. **Yes.** The MCC is authorized to issue work reassignment for up to **2 years**, provided it is done for no more than **6 months at a time** (requiring a control examination every 6 months). A 4-month period is well within this limit.
+2. The employer must file the appeal within **14 days** of receiving the MCC's decision. Appeals against decisions made by the MCC are directed to the **Territorial Expert Medical Commission (TEMC)**.
+:::

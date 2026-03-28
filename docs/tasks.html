@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c4c4011f5b892ce9b4a6911cb10ad1e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -145,8 +144,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
@@ -232,7 +229,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QXNzaWdubWVudA==">Assignment <span class="quarto-category-count">(7)</span></div><div class="category" data-category="REFMWQ==">DALY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVtb2dyYXBoeQ==">Demography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlzcGVuc2FyeSUyMENhcmU=">Dispensary Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXBpZGVtaW9sb2d5">Epidemiology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGVhbHRoJTIwc3lzdGVtJTIwb3JnYW5pc2F0aW9u">Health system organisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SG9zcGl0YWwlMjBjYXJl">Hospital care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVkaWNhbCUyMHNvY2lvbG9neQ==">Medical sociology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2NjdXBhdGlvbmFsJTIwTWVkaWNpbmU=">Occupational Medicine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJpbWFyeSUyMGhlYWx0aCUyMGNhcmU=">Primary health care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwaGVhbHRo">Public health <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UUFMWQ==">QALY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbGl0eSUyMGluZGljYXRvcnM=">Quality indicators <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVnaXN0cmF0aW9u">Registration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBtZXRob2Rz">Research methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwTWVkaWNpbmU=">Social Medicine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwbWVkaWNpbmU=">Social medicine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3VydmVpbGxhbmNl">Surveillance <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QXNzaWdubWVudA==">Assignment <span class="quarto-category-count">(8)</span></div><div class="category" data-category="REFMWQ==">DALY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVtb2dyYXBoeQ==">Demography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlzcGVuc2FyeSUyMENhcmU=">Dispensary Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXBpZGVtaW9sb2d5">Epidemiology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGVhbHRoJTIwc3lzdGVtJTIwb3JnYW5pc2F0aW9u">Health system organisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SG9zcGl0YWwlMjBjYXJl">Hospital care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVkaWNhbCUyMHNvY2lvbG9neQ==">Medical sociology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2NjdXBhdGlvbmFsJTIwSGVhbHRo">Occupational Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2NjdXBhdGlvbmFsJTIwTWVkaWNpbmU=">Occupational Medicine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJpbWFyeSUyMGhlYWx0aCUyMGNhcmU=">Primary health care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwaGVhbHRo">Public health <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UUFMWQ==">QALY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhbGl0eSUyMGluZGljYXRvcnM=">Quality indicators <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVnaXN0cmF0aW9u">Registration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBtZXRob2Rz">Research methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwbWVkaWNpbmU=">Social medicine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaWFsJTIwTWVkaWNpbmU=">Social Medicine <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3VydmVpbGxhbmNl">Surveillance <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -288,7 +285,39 @@ Categories
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="RGlzcGVuc2FyeSUyMENhcmUlMkNPY2N1cGF0aW9uYWwlMjBNZWRpY2luZSUyQ1NvY2lhbCUyME1lZGljaW5lJTJDQXNzaWdubWVudA==" data-listing-date-sort="1774562400000" data-listing-file-modified-sort="1774635476466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1213" data-listing-title-sort="Dispensary Care and Occupational Medicine: Scenarios and Tasks" data-listing-filename-sort="dispensary-occupational-medicine.qmd">
+<tr data-index="0" data-categories="SG9zcGl0YWwlMjBjYXJlJTJDU29jaWFsJTIwbWVkaWNpbmUlMkNQdWJsaWMlMjBoZWFsdGglMkNBc3NpZ25tZW50" data-listing-date-sort="1774648800000" data-listing-file-modified-sort="1774685798789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="25" data-listing-word-count-sort="4961" data-listing-title-sort="Hospital Care" data-listing-filename-sort="hospital-care.qmd">
+<td>
+<a href="./learning-tasks/hospital-care.html" class="title listing-title">Hospital Care</a>
+</td>
+<td>
+<span class="listing-date">Mar 28, 2026</span>
+</td>
+<td>
+<span class="listing-description">Six problem-based group scenarios focusing on hospital capacity planning, quality of care, healthcare financing, and hospital organization within the Bulgarian healthcare system.</span>
+</td>
+<td>
+<span class="listing-categories">Hospital care, Social medicine, Public health, Assignment</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="U29jaWFsJTIwTWVkaWNpbmUlMkNQdWJsaWMlMjBIZWFsdGglMkNPY2N1cGF0aW9uYWwlMjBIZWFsdGglMkNBc3NpZ25tZW50" data-listing-date-sort="1774648800000" data-listing-file-modified-sort="1774686656903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2882" data-listing-title-sort="Expert Evaluation of Temporary Incapacity for Work" data-listing-filename-sort="temporary-incapacity.qmd">
+<td>
+<a href="./learning-tasks/temporary-incapacity.html" class="title listing-title">Expert Evaluation of Temporary Incapacity for Work</a>
+</td>
+<td>
+<span class="listing-date">Mar 28, 2026</span>
+</td>
+<td>
+<span class="listing-description">Interactive class tasks and scenarios focusing on the medical assessment of work capacity, temporary incapacity indicators, and social protection.</span>
+</td>
+<td>
+<span class="listing-categories">Social Medicine, Public Health, Occupational Health, Assignment</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="RGlzcGVuc2FyeSUyMENhcmUlMkNPY2N1cGF0aW9uYWwlMjBNZWRpY2luZSUyQ1NvY2lhbCUyME1lZGljaW5lJTJDQXNzaWdubWVudA==" data-listing-date-sort="1774562400000" data-listing-file-modified-sort="1774685798785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1213" data-listing-title-sort="Dispensary Care and Occupational Medicine: Scenarios and Tasks" data-listing-filename-sort="dispensary-occupational-medicine.qmd">
 <td>
 <a href="./learning-tasks/dispensary-occupational-medicine.html" class="title listing-title">Dispensary Care and Occupational Medicine: Scenarios and Tasks</a>
 </td>
@@ -304,23 +333,7 @@ Categories
 
 </tr>
 
-<tr data-index="1" data-categories="SG9zcGl0YWwlMjBjYXJlJTJDU29jaWFsJTIwbWVkaWNpbmUlMkNQdWJsaWMlMjBoZWFsdGglMkNBc3NpZ25tZW50" data-listing-date-sort="1774562400000" data-listing-file-modified-sort="1774634510546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="25" data-listing-word-count-sort="4961" data-listing-title-sort="Hospital Care" data-listing-filename-sort="hospital-care.qmd">
-<td>
-<a href="./learning-tasks/hospital-care.html" class="title listing-title">Hospital Care</a>
-</td>
-<td>
-<span class="listing-date">Mar 27, 2026</span>
-</td>
-<td>
-<span class="listing-description">Six problem-based group scenarios focusing on hospital capacity planning, quality of care, healthcare financing, and hospital organization within the Bulgarian healthcare system.</span>
-</td>
-<td>
-<span class="listing-categories">Hospital care, Social medicine, Public health, Assignment</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="UHJpbWFyeSUyMGhlYWx0aCUyMGNhcmUlMkNIZWFsdGglMjBzeXN0ZW0lMjBvcmdhbmlzYXRpb24lMkNRdWFsaXR5JTIwaW5kaWNhdG9ycyUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1773525600000" data-listing-file-modified-sort="1774634510547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2302" data-listing-title-sort="Primary Health Care Indicators in Bulgaria" data-listing-filename-sort="primary-health-care-indicators.qmd">
+<tr data-index="3" data-categories="UHJpbWFyeSUyMGhlYWx0aCUyMGNhcmUlMkNIZWFsdGglMjBzeXN0ZW0lMjBvcmdhbmlzYXRpb24lMkNRdWFsaXR5JTIwaW5kaWNhdG9ycyUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1773525600000" data-listing-file-modified-sort="1774685798792" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2302" data-listing-title-sort="Primary Health Care Indicators in Bulgaria" data-listing-filename-sort="primary-health-care-indicators.qmd">
 <td>
 <a href="./learning-tasks/primary-health-care-indicators.html" class="title listing-title">Primary Health Care Indicators in Bulgaria</a>
 </td>
@@ -336,7 +349,7 @@ Categories
 
 </tr>
 
-<tr data-index="3" data-categories="RXBpZGVtaW9sb2d5JTJDUHVibGljJTIwaGVhbHRoJTJDREFMWSUyQ1FBTFklMkNBc3NpZ25tZW50" data-listing-date-sort="1772834400000" data-listing-file-modified-sort="1774634510545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1148" data-listing-title-sort="Measuring the Burden of Disease" data-listing-filename-sort="burden-of-disease.qmd">
+<tr data-index="4" data-categories="RXBpZGVtaW9sb2d5JTJDUHVibGljJTIwaGVhbHRoJTJDREFMWSUyQ1FBTFklMkNBc3NpZ25tZW50" data-listing-date-sort="1772834400000" data-listing-file-modified-sort="1774685798782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1148" data-listing-title-sort="Measuring the Burden of Disease" data-listing-filename-sort="burden-of-disease.qmd">
 <td>
 <a href="./learning-tasks/burden-of-disease.html" class="title listing-title">Measuring the Burden of Disease</a>
 </td>
@@ -352,7 +365,7 @@ Categories
 
 </tr>
 
-<tr data-index="4" data-categories="RXBpZGVtaW9sb2d5JTJDU3VydmVpbGxhbmNlJTJDUHVibGljJTIwaGVhbHRoJTJDQXNzaWdubWVudA==" data-listing-date-sort="1772316000000" data-listing-file-modified-sort="1774634510545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1041" data-listing-title-sort="Epidemiology and Disease Surveillance" data-listing-filename-sort="epidemiology-surveillance.qmd">
+<tr data-index="5" data-categories="RXBpZGVtaW9sb2d5JTJDU3VydmVpbGxhbmNlJTJDUHVibGljJTIwaGVhbHRoJTJDQXNzaWdubWVudA==" data-listing-date-sort="1772316000000" data-listing-file-modified-sort="1774685798786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1041" data-listing-title-sort="Epidemiology and Disease Surveillance" data-listing-filename-sort="epidemiology-surveillance.qmd">
 <td>
 <a href="./learning-tasks/epidemiology-surveillance.html" class="title listing-title">Epidemiology and Disease Surveillance</a>
 </td>
@@ -368,7 +381,7 @@ Categories
 
 </tr>
 
-<tr data-index="5" data-categories="RGVtb2dyYXBoeSUyQ1JlZ2lzdHJhdGlvbiUyQ1B1YmxpYyUyMGhlYWx0aCUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1771711200000" data-listing-file-modified-sort="1774634510545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="855" data-listing-title-sort="Demography and Population Health" data-listing-filename-sort="demography-indices.qmd">
+<tr data-index="6" data-categories="RGVtb2dyYXBoeSUyQ1JlZ2lzdHJhdGlvbiUyQ1B1YmxpYyUyMGhlYWx0aCUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1771711200000" data-listing-file-modified-sort="1774685798783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="855" data-listing-title-sort="Demography and Population Health" data-listing-filename-sort="demography-indices.qmd">
 <td>
 <a href="./learning-tasks/demography-indices.html" class="title listing-title">Demography and Population Health</a>
 </td>
@@ -384,7 +397,7 @@ Categories
 
 </tr>
 
-<tr data-index="6" data-categories="TWVkaWNhbCUyMHNvY2lvbG9neSUyQ1Jlc2VhcmNoJTIwbWV0aG9kcyUyQ1B1YmxpYyUyMGhlYWx0aCUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1774634510547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1707" data-listing-title-sort="Sociological Research Methods" data-listing-filename-sort="sociological-research-methods.qmd">
+<tr data-index="7" data-categories="TWVkaWNhbCUyMHNvY2lvbG9neSUyQ1Jlc2VhcmNoJTIwbWV0aG9kcyUyQ1B1YmxpYyUyMGhlYWx0aCUyQ0Fzc2lnbm1lbnQ=" data-listing-date-sort="1771106400000" data-listing-file-modified-sort="1774685798794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1707" data-listing-title-sort="Sociological Research Methods" data-listing-filename-sort="sociological-research-methods.qmd">
 <td>
 <a href="./learning-tasks/sociological-research-methods.html" class="title listing-title">Sociological Research Methods</a>
 </td>
@@ -460,14 +473,13 @@ Categories
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
