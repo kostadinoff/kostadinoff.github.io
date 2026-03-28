@@ -1,5 +1,5 @@
 ---
-title: "Expert Evaluation of Temporary Incapacity for Work"
+title: "Expert Evaluation of Temporary and Permanent Incapacity for Work"
 author: "Kostadin Kostadinov"
 date: 2026-03-28
 description: "Interactive class tasks and scenarios focusing on the medical assessment of work capacity, temporary incapacity indicators, and social protection."
@@ -214,7 +214,7 @@ The six key indicators of temporary incapacity — frequency, severity, average 
 
 ### Scenario 2: Transition from Temporary to Permanent Incapacity
 
-**Focus:** Long-term sick leave, continuous incapacity limits, and the role of TELK.
+**Focus:** Long-term sick leave, continuous incapacity limits, and the role of TEMC.
 
 **Background Data:** A construction worker suffered a complex traumatic injury and has been on continuous sick leave for exactly **180 days**, authorized in 30-day increments by the hospital's MCC. The patient's recovery is progressing well, but the surgeon expects it will take another 3 to 4 months before the worker can safely return to heavy lifting.
 
@@ -224,17 +224,17 @@ The six key indicators of temporary incapacity — frequency, severity, average 
 2. Since recovery is clinically expected, what action can the new assessing body take regarding the patient's sick leave, and what is the absolute maximum legal limit for continuous temporary incapacity?
 
 ::: {.callout-note title="Answer for Checking" collapse="true"}
-1. After 180 days of continuous temporary incapacity, the MCC is legally obligated to stop issuing sick leave and **must refer the patient to a Territorial Expert Medical Commission (TELK)**.
-2. For severe conditions like traumatic injuries where recovery is clearly expected, TELK can authorize the extension of the temporary incapacity for **up to 2 months at a time**. However, the absolute maximum duration allowed for continuous temporary incapacity is **18 months**.
+1. After 180 days of continuous temporary incapacity, the MCC is legally obligated to stop issuing sick leave and **must refer the patient to a Territorial Expert Medical Commission (TEMC)**.
+2. For severe conditions like traumatic injuries where recovery is clearly expected, TEMC can authorize the extension of the temporary incapacity for **up to 2 months at a time**. However, the absolute maximum duration allowed for continuous temporary incapacity is **18 months**.
 :::
 
 ---
 
-### Scenario 3: Calculating Permanent Functional Limitation (TELK)
+### Scenario 3: Calculating Permanent Functional Limitation (TEMC)
 
 **Focus:** Multiple impairments, calculation methodology, and disability grouping.
 
-**Background Data:** A 58-year-old patient is evaluated by TELK for a permanent reduction in working capacity. The commission identifies two distinct impairments based on the medical documentation: 
+**Background Data:** A 58-year-old patient is evaluated by TEMC for a permanent reduction in working capacity. The commission identifies two distinct impairments based on the medical documentation: 
 - The **leading impairment** (e.g., advanced cardiovascular disease) warrants a **60% reduction** according to the reference criteria. 
 - A secondary, **accompanying impairment** (e.g., an orthopedic defect) warrants a **30% reduction**.
 
