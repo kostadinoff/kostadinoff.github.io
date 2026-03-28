@@ -129,15 +129,3 @@ Eleven confirmed COVID-19 cases were registered in Week 12—a four-case increas
 #### HIV
 
 Seven confirmed HIV cases were registered in Week 12—a three-case increase from Week 11 (+75% week-over-week). The year-to-date total of 54 cases is 23% below the 70 cases registered in the same period of 2025, continuing the modest year-over-year decline trend observed in earlier weeks of 2026.
-
----
-
-## Recommendations
-
-- Clinicians across the EU/EEA should include recent travel to England—particularly to Canterbury or the broader Kent area—in the differential assessment of any suspected invasive meningococcal disease presentation; confirmed cases in returning travellers should be immediately notified to national authorities, and isolates referred for molecular typing. Close contacts of confirmed cases should receive prophylactic antibiotics and be monitored for symptoms for at least ten days from last possible exposure.
-- The detection of eleven measles cases concentrated in Gabrovo district in Week 12 constitutes a probable localised outbreak and requires urgent public health investigation including rapid identification of the source, vaccination status of cases and exposed contacts, and deployment of reactive vaccination in any identified susceptible populations.
-- The sustained 88% year-over-year excess in acute viral hepatitis ABCDEN through Week 12—confirmed across twelve consecutive weeks—demands expedited serotype-specific investigation; structural surveillance improvement through disaggregation of the ABCDEN aggregate into individual hepatitis serotypes should be treated as a public health priority.
-- The 64% week-over-week rise in campylobacteriosis and the 180% year-to-date excess over 2025 in Bulgaria warrant coordinated food safety investigation, with source-attribution analysis focusing on poultry supply chains, water quality, and any changes in laboratory ascertainment.
-- Healthcare providers and travel medicine services in Bulgaria and across the EU/EEA should counsel travellers to the Maldives about the currently elevated dengue risk and recommend both personal protective measures (insect repellent, appropriate clothing, accommodation with mosquito netting) and clinical vigilance for dengue in returning febrile travellers.
-- Pre-travel vaccination counselling for chikungunya with Ixchiq should be updated to incorporate the PRAC-recommended labelling revision; the possibility of serious neurological adverse events including aseptic meningitis is no longer confined to older or immunocompromised individuals, and benefit–risk evaluation must be conducted individually regardless of age or health status.
-- The 263% year-over-year excess in gonorrhea and the 134% excess in chlamydial infection through Week 12 reinforce the need for expanded STI screening, enhanced sexual health outreach, and systematic antimicrobial susceptibility surveillance for *Neisseria gonorrhoeae* within Bulgarian reference laboratory capacity.
