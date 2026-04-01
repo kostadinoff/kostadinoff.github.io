@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,6 +12,9 @@
 
 <title>Epidemiological News: Week 12, 2026 – Kostadin Kostadinov</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-067f8ab80d092ae3595f7402c2c9b667.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c4c4011f5b892ce9b4a6911cb10ad1e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-cc4be5a28da13f0c3ab719a367ca5a8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -220,7 +223,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contact-and-sexual-transmission" id="toc-contact-and-sexual-transmission" class="nav-link" data-scroll-target="#contact-and-sexual-transmission">Contact and Sexual Transmission</a></li>
   <li><a href="#miscellaneous-notable-signals" id="toc-miscellaneous-notable-signals" class="nav-link" data-scroll-target="#miscellaneous-notable-signals">Miscellaneous Notable Signals</a></li>
   </ul></li>
-  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">Recommendations</a></li>
   </ul>
 </nav>
     </div>
@@ -356,23 +358,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="hiv" class="level4">
 <h4 class="anchored" data-anchor-id="hiv">HIV</h4>
 <p>Seven confirmed HIV cases were registered in Week 12—a three-case increase from Week 11 (+75% week-over-week). The year-to-date total of 54 cases is 23% below the 70 cases registered in the same period of 2025, continuing the modest year-over-year decline trend observed in earlier weeks of 2026.</p>
-<hr>
-</section>
-</section>
-</section>
-<section id="recommendations" class="level2">
-<h2 class="anchored" data-anchor-id="recommendations">Recommendations</h2>
-<ul>
-<li>Clinicians across the EU/EEA should include recent travel to England—particularly to Canterbury or the broader Kent area—in the differential assessment of any suspected invasive meningococcal disease presentation; confirmed cases in returning travellers should be immediately notified to national authorities, and isolates referred for molecular typing. Close contacts of confirmed cases should receive prophylactic antibiotics and be monitored for symptoms for at least ten days from last possible exposure.</li>
-<li>The detection of eleven measles cases concentrated in Gabrovo district in Week 12 constitutes a probable localised outbreak and requires urgent public health investigation including rapid identification of the source, vaccination status of cases and exposed contacts, and deployment of reactive vaccination in any identified susceptible populations.</li>
-<li>The sustained 88% year-over-year excess in acute viral hepatitis ABCDEN through Week 12—confirmed across twelve consecutive weeks—demands expedited serotype-specific investigation; structural surveillance improvement through disaggregation of the ABCDEN aggregate into individual hepatitis serotypes should be treated as a public health priority.</li>
-<li>The 64% week-over-week rise in campylobacteriosis and the 180% year-to-date excess over 2025 in Bulgaria warrant coordinated food safety investigation, with source-attribution analysis focusing on poultry supply chains, water quality, and any changes in laboratory ascertainment.</li>
-<li>Healthcare providers and travel medicine services in Bulgaria and across the EU/EEA should counsel travellers to the Maldives about the currently elevated dengue risk and recommend both personal protective measures (insect repellent, appropriate clothing, accommodation with mosquito netting) and clinical vigilance for dengue in returning febrile travellers.</li>
-<li>Pre-travel vaccination counselling for chikungunya with Ixchiq should be updated to incorporate the PRAC-recommended labelling revision; the possibility of serious neurological adverse events including aseptic meningitis is no longer confined to older or immunocompromised individuals, and benefit–risk evaluation must be conducted individually regardless of age or health status.</li>
-<li>The 263% year-over-year excess in gonorrhea and the 134% excess in chlamydial infection through Week 12 reinforce the need for expanded STI screening, enhanced sexual health outreach, and systematic antimicrobial susceptibility surveillance for <em>Neisseria gonorrhoeae</em> within Bulgarian reference laboratory capacity.</li>
-</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -427,13 +416,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
