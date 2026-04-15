@@ -1,0 +1,125 @@
+---
+title: "Physician's Liability and the Social History of the Patient"
+author: "Kostadin Kostadinov"
+date: 2026-04-15
+description: "A 15-minute reading covering the four forms of physician liability under Bulgarian law and the structured framework for social history taking and medical-social planning."
+categories:
+  - "English"
+  - "Public Health"
+  - "Social Medicine"
+  - "Bulgaria"
+---
+
+## Part I — Physician's Liability
+
+### Prerequisites for Lawful Medical Practice
+
+Medical practice in Bulgaria is subject to a set of foundational legal prerequisites whose satisfaction is required before any clinical activity may lawfully commence. The first of these is the taking of an oath: upon receiving their diplomas, all physicians and dentists recite the Hippocratic Oath, the text of which is formally determined by the Higher Medical Council. This act simultaneously affirms personal ethical commitment and marks entry into a regulated profession. The second requirement is the possession of appropriate educational credentials — a diploma of higher education in Medicine, Dental Medicine, Pharmacy, or a designated Healthcare specialty. Credentials of this kind attest not merely to acquired knowledge but to completion of supervised clinical training sufficient to establish competence.
+
+Practitioners must also integrate into the organised structures of their professions through mandatory membership in professional organisations. Physicians join the Bulgarian Medical Union, dentists the Bulgarian Dental Union, nurses and associated medical specialists the Bulgarian Association of Healthcare Professionals, and master pharmacists the Bulgarian Pharmaceutical Union. These organisations exercise peer oversight, set practice standards, and serve as referral bodies for disciplinary matters that fall outside the jurisdiction of general health inspectorates.
+
+A fourth prerequisite concerns health status. Practitioners must not suffer from diseases that endanger the health or lives of patients, as specified on a list approved by the Minister of Health. Where such a condition is identified after a specialist has already commenced practice, the Minister holds statutory authority to remove that individual from the register. Three ongoing obligations govern active practice: maintenance of mandatory civil liability insurance, freedom of professional action within the bounds of qualifications, medical standards, and ethics, and abstention from commercial advertising of medical services.
+
+### Civil Liability
+
+Civil liability arises when a physician's act or omission causes harm to a patient and creates an obligation of compensation. Whether this liability is contractual or tortious depends on the nature of the relationship between physician and patient at the moment the harm occurred.
+
+**Contractual liability** presupposes a medical service contract, which Bulgarian law treats as ordinarily concluded in oral form. Contract formation occurs when a patient is accepted by a physician in the consulting room, when treatment actions begin during office hours, when the physician confirms a home visit, or when advice is given by telephone. The informality of these modes of formation reflects the practical reality of clinical work, where urgency and custom preclude written agreements. Once the contract exists, physicians — unlike most contracting parties — cannot freely decline to perform; in emergency situations, the duty to provide care is legally non-deferrable. Failure to fulfil contractual obligations or their negligent performance renders the physician liable under Articles 79 and 82 of the Obligations and Contracts Act for material damages.
+
+**Tort liability** applies where no prior contractual relationship exists, as is typically the case in emergency or compulsory treatment. When a practitioner's conduct toward a patient is incompatible with regulatory obligations and accepted medical practice, and harm results, the patient has a right to compensation under Articles 45 through 49 of the Obligations and Contracts Act. Tort liability extends to both material and non-material damages — the latter encompassing pain and suffering, emotional distress, and violations of dignity — whereas contractual liability ordinarily reaches only material loss.
+
+### Administrative Liability
+
+Administrative liability addresses violations of the regulatory order governing health sector activity. Its procedural basis in matters of patients' rights is Article 93 of the Health Act. A patient, or their legal representative, may lodge a complaint with the regional health inspection alleging breach of rights or dispute regarding medical services. Within seven days, the inspection conducts an official check. Where a violation is confirmed, an act establishing the violation is drawn up and the director of the regional health inspection issues a penalty decree under the Administrative Violations and Penalties Act. The patient is informed of the outcome within three days of the inspection's completion.
+
+Where violations fall under the Law on Professional Organisations or the Health Insurance Act, the regional health inspection refers the matter to the district boards of the Bulgarian Medical Association or the Bulgarian Dental Association and to the district health insurance fund. Penalties for individuals take the form of fines; for legal entities such as hospitals or clinics, property sanctions apply. In serious cases, deprivation of the right to practise may be imposed for a period of between three and twelve months:
+
+$$D_{\text{disqualification}} \in [3,\, 12] \text{ months}$$
+
+Enforcement authority is distributed among the Minister of Health, the director of the regional health inspection, the Executive Director of the Medical Audit Executive Agency, the Executive Director of the National Health Insurance Fund, and customs authorities, reflecting the sectoral complexity of health regulation.
+
+### Disciplinary Liability
+
+Disciplinary liability governs the relationship between a medical professional and their employer, addressing violations of work discipline rather than harm to patients or the public. Its purpose is primarily preventive: to discourage future failures to meet occupational obligations. The framework operates through a graduated series of sanctions established in Articles 186 through 199 of the Labor Code — written warning, dismissal warning, and dismissal — each applied by the employer or a legally authorised authority. The prerequisites are an act constituting failure to fulfil labor obligations, unlawfulness, and fault.
+
+A single act may attract disciplinary, administrative, civil, and criminal liability simultaneously, each proceeding on its own legal pathway and serving its own social purpose. A physician who fails to attend a critically ill patient, for instance, may face dismissal by the hospital employer, an administrative penalty from the regional health inspection, a civil claim for damages from the patient's family, and criminal prosecution — all arising from the same omission.
+
+### Criminal Liability
+
+Criminal liability represents the most severe form of professional accountability and is reserved for conduct that rises to the level of a crime: a socially dangerous act, committed with guilt, and declared punishable by the Criminal Code (Article 9, paragraph 1). The three constitutive elements — social danger, culpability, and statutory prohibition — must each be established. **Intent** requires that the practitioner was aware of the act's dangerous character, foresaw its harmful consequences, and sought or consciously permitted them. **Negligence** arises where the practitioner failed to foresee consequences they were legally obliged and objectively able to anticipate, or foresaw them yet mistakenly assumed they could be avoided.
+
+The Criminal Code recognises three circumstances that exclude criminality and are particularly relevant in clinical contexts. Under Article 13, **extreme necessity** protects an act taken to preserve life or a significant interest from immediate unavoidable danger, provided the harm caused is less significant than that averted. Article 13a establishes **justified professional risk** as an exclusion where an act is performed to achieve a substantial benefit or prevent significant harm, is consistent with contemporary scientific standards and regulatory requirements, and was preceded by all reasonable prophylactic measures. Article 15 concerns the **accidental act**: a practitioner was not legally bound to foresee, or was objectively incapable of foreseeing, the harmful consequences.
+
+The principal criminal provisions directly affecting medical practice are as follows. Article 123, paragraph 1 of the Criminal Code concerns causing death through professional negligence or ignorance in an activity of increased risk — a category that unambiguously encompasses medical practice — and carries imprisonment of up to five years. Article 126, paragraph 1 penalises illegal termination of pregnancy, defined as one performed outside an accredited facility or in violation of established medical standards, with the same maximum sentence. Article 141, paragraph 1 addresses failure by a practitioner of a medical profession to provide assistance when called upon, without respectful reason, and is punishable by probation or a fine of 500 to 1,500 EUR; paragraph 3 extends an analogous obligation to any person legally required to assist a sick individual, with a maximum probation period of six months or a fine in the same range.
+
+$$F_{\text{fine}} \in [500,\, 1500] \text{ EUR}$$
+
+In the pre-trial phase, the injured patient participates with the limited standing of a victim. In the judicial phase, the patient may constitute themselves as a **civil plaintiff** — claiming compensation within the criminal proceedings without court fees — or as a **private prosecutor**, independently supporting the prosecution regardless of the Prosecutor's Office position. Proceedings under Article 141 are initiated only upon complaint by the injured party.
+
+Criminal liability serves three distinct social purposes: the reform and re-education of the convicted person; individual deterrence, preventing further criminal conduct; and general deterrence, conveying to society at large the necessity of respecting legal and ethical standards.
+
+::: {.callout-note title="The Four Forms of Liability — Comparative Overview"}
+
+| Type | Legal basis | Primary purpose | Sanctions |
+|------|-------------|-----------------|-----------|
+| Civil (contractual) | Arts. 79, 82 OCA | Compensation of material damages | Financial compensation |
+| Civil (tort) | Arts. 45–49 OCA | Compensation of all damages | Financial compensation |
+| Administrative | Art. 93 Health Act | Regulatory order and deterrence | Fines, property sanctions, disqualification 3–12 months |
+| Disciplinary | Arts. 186–199 LC | Prevention of work discipline violations | Warning, dismissal warning, dismissal |
+| Criminal | Arts. 9–16 CC | Reform, individual and general deterrence | Fines, probation, imprisonment, professional disqualification |
+
+:::
+
+---
+
+## Part II — Social History of the Patient and Family Anamnesis
+
+### Rationale and Conceptual Foundation
+
+The clinical encounter generates two parallel streams of information: biological data concerning the pathophysiology of disease, and contextual data concerning the patient as a person embedded in social, occupational, and environmental circumstances. The latter constitutes the domain of social history taking. Its theoretical foundation is the biopsychosocial model, initially formulated by George Engel in 1977, which holds that health and illness arise from the interaction of biological, psychological, and social factors rather than from biological processes alone:
+
+$$H_{\text{total}} = f(B, P, S)$$
+
+Social history assessment serves three interconnected clinical functions. First, it enables the treating physician to determine how social factors are influencing *this particular patient's* health status and illness experience — not through generic sociological inference but through specific interrogation of the individual's circumstances. Second, it identifies unmet social-medical needs across material, relational, and informational domains. Third, it generates the evidence base for constructing a medical-social plan that coordinates responses across healthcare, social services, and community resources. A fourth function — implementing that plan — requires sustained collaboration across professional and institutional boundaries.
+
+Social vulnerability can be quantified through composite indices that aggregate weighted risk factors across multiple domains:
+
+$$\text{SVI} = \sum_{i=1}^{n} w_i \cdot \text{Risk\_Factor}_i$$
+
+Standard validated screening instruments assess housing security and utility access, food sufficiency, transportation, employment and financial stability, educational attainment and health literacy, and personal safety. The identification of unmet social needs is clinically significant given the strong empirical relationship between social vulnerability and adverse health outcomes, including elevated risk of rehospitalisation.
+
+### Structure of the Social History
+
+Comprehensive social history assessment is organised across five domains. Each domain contains multiple elements, and the framework is intended to ensure systematic coverage while remaining flexible enough to pursue issues a particular patient identifies as most pressing.
+
+**Domain 1: Personal Characteristics.** Standard identification data — name, gender, age, educational attainment, marital status, place of birth, and current residence — establish administrative and demographic parameters. Beyond these, the social history explores psycho-biological qualities including temperament, character, significant life goals, and psycho-traumatic experiences, all of which shape how a patient interprets symptoms, engages with healthcare, and mobilises coping resources. **Health culture** — the constellation of beliefs, attitudes, and practices regarding prevention, symptom interpretation, and treatment-seeking — varies substantially across individuals and populations, and must be understood before patient education or behaviour change counselling can be effective. The priority a patient assigns to health relative to competing values, and the presence of health-risk behaviours including smoking, excessive alcohol consumption, substance misuse, and disordered eating, are also part of this domain. Such behaviours commonly serve complex social and psychological functions, and their assessment requires non-judgmental inquiry attentive to underlying needs.
+
+**Domain 2: Family and Household Environment.** The clinical question here is not merely the formal structure of the family but who constitutes the patient's actual support network, what roles different members play in health-related decisions and caregiving, and what dynamics within the family system facilitate or impede illness management. Material conditions — housing adequacy, financial stability, food security — determine health through environmental exposures, medication affordability, and chronic stress from economic insecurity. Personal characteristics of individual family members are relevant when those individuals substantially influence the patient through caregiving, conflict, or competing demands. Family stressors including bereavement, divorce, serious illness in a member, or substance misuse create cascading effects across the family system and may present in the index patient as somatic symptoms, behavioural change, or treatment non-adherence.
+
+**Domain 3: Occupational Environment.** Work determines health through economic security, social identity, occupational exposures, and time structure. The assessment documents profession, position, workplace, and compensation — elements that jointly determine income, benefits, and social status. The physical or mental nature of work, shift arrangements, and workplace hygiene conditions establish occupational risk profiles. The socio-psychological climate within the work collective — particularly the quality of relationships with supervisors and colleagues — substantially affects stress and wellbeing independently of other exposures. Professional satisfaction and career ambitions, and disruptions to these through illness, require assessment of rehabilitation potential or retraining needs.
+
+$$\text{Stress} \propto \frac{\text{Responsibility} \times \text{Time Constraints}}{\text{Autonomy}}$$
+
+**Domain 4: Social and Domestic Environment.** Beyond family and workplace, patients are situated within broader ecological, civic, and social contexts. Environmental exposures near the residence — physical, chemical, and biological — may require attention that extends beyond the consulting room. Transportation access is among the most commonly identified unmet social needs, with consequences reaching medication access, nutrition, continuity of care, and social connection. Digital infrastructure — internet access and digital literacy — is increasingly relevant as telehealth and patient portals become standard. Relationships with public authorities, including exposure to benefit systems, housing enforcement, or immigration processes, may necessitate social work or legal services integrated with clinical care.
+
+**Domain 5: Healthcare Service Needs.** This domain examines access to appropriate hospitalisation without financial barriers, continuity through dispensary observation and specialist care, rehabilitation needs (physical, occupational, speech, and psychological), home care, and social care placement where home-based care is infeasible. Socio-legal assistance — in circumstances involving childbirth outside marriage, adoption, or support for mothers of multiple children — represents a further dimension where healthcare and legal-social service systems intersect.
+
+### Family Anamnesis
+
+Family anamnesis extends the social history to document health patterns across generations, serving both clinical and epidemiological purposes. Its primary functions are the identification of hereditary predispositions — monogenic conditions, polygenic risk traits, and familial aggregation of chronic disease; detection of shared environmental exposures including household toxins, dietary patterns, and behavioural norms transmitted across generations; and mapping of family dynamics that shape individual illness, including caregiving burden, patterns of communication, unresolved conflict, and bereavement. A three-generation pedigree covering the proband, parents, grandparents, siblings, and offspring constitutes the standard minimum. Where a hereditary condition is under active investigation, the pedigree is extended to include cousins and collateral relatives.
+
+### The Medical-Social Plan
+
+The medical-social plan translates assessment findings into coordinated, individualised action. Effective plans are specific in their prescriptions, realistic given available resources, time-bounded in their goals, and coordinated across multiple service providers. They are also iterative: periodic reassessment and adjustment as circumstances change is not a feature of incomplete planning but an inherent requirement of responding to social circumstances that are themselves dynamic.
+
+Patient-level interventions include health education calibrated to literacy and cultural context, strengths-based support building on existing capacities rather than cataloguing deficits, and the cultivation of adaptive coping models for managing health risks, illness episodes, and their consequences. Motivational interviewing techniques — exploring ambivalence, eliciting personal reasons for change, and supporting self-efficacy through achievable incremental goals — inform behaviour change components.
+
+Family-level interventions address caregiver training and support, parental and marital function under conditions of illness, housing hygiene, nutrition, provision of social support, and access to equipment enabling independent function. Occupational interventions encompass workplace accommodation, assessment of work capacity, certification of disability periods, and where necessary, vocational retraining. Community and environmental interventions may involve ecological advocacy, benefit navigation, and facilitation of transport or digital access. Healthcare service needs are addressed through hospitalisation when required, dispensary observation, rehabilitation, home care, and social care placement as clinically indicated.
+
+Comprehensive social history assessment, followed by systematic medical-social planning, is not supplementary to biomedical care but constitutive of it. Unmet social needs undermine the effectiveness of clinical treatment, drive preventable complications, and perpetuate the social determinants that generate excess morbidity in the first place.
+
+::: {.callout-note title="Interprofessional Responsibilities in Social Assessment"}
+
+While the physician carries ultimate clinical responsibility for integrating social findings into diagnosis and care planning, comprehensive social history taking is characteristically a team function. Nurses conduct frontline social screening at intake and during ongoing monitoring. Social workers contribute specialised assessment of family dynamics and navigation of social service systems. Community health workers provide culturally concordant support, particularly for populations experiencing barriers related to language, cultural difference, or marginalisation. Case managers coordinate care across institutional sectors and ensure longitudinal follow-through.
+
+:::

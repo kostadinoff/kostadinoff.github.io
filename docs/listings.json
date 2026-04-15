@@ -3,6 +3,8 @@
     "listing": "/tasks.html",
     "items": [
       "/learning-tasks/hospital-care.html",
+      "/learning-tasks/liability-social-history.html",
+      "/learning-tasks/reproductive-family-adolescent-health.html",
       "/learning-tasks/temporary-incapacity.html",
       "/learning-tasks/dispensary-occupational-medicine.html",
       "/learning-tasks/primary-health-care-indicators.html",
@@ -15,6 +17,8 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/liability-social-history.html",
+      "/15-minute-learning/reproductive-family-adolescent-health.html",
       "/15-minute-learning/temporary-incapacity.html",
       "/15-minute-learning/dispensary-care.html",
       "/15-minute-learning/occupational-medicine.html",

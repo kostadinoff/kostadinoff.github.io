@@ -1,0 +1,202 @@
+---
+title: "Physician's Liability and the Social History of the Patient"
+author: "Kostadin Kostadinov"
+date: 2026-04-15
+description: "Interactive class tasks covering the four forms of physician liability under Bulgarian law and the structured framework for social history taking and medical-social planning."
+categories:
+  - "Social Medicine"
+  - "Public Health"
+  - "Medical Law"
+  - "Assignment"
+---
+
+## Instructions
+
+Work in your assigned groups. Each group completes **both parts** of the session. For Part I, you will need access to a real patient currently admitted to the ward — your supervisor will assign one. For Part II, you will work from the case summaries provided below.
+
+Allocate approximately **25 minutes to Part I** and **15 minutes to Part II**. A cross-group synthesis question closes the session.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Physician's Liability and the Social History of the Patient](../15-minute-learning/liability-social-history.qmd). All answers and justifications must reference the concepts and legal bases established in this text.*
+
+---
+
+# Part I — Social History and Medical-Social Plan
+
+## Task
+
+Your group is assigned a **real patient currently admitted to the surgical or internal medicine ward**. Using the five-domain framework covered in the reading, conduct a structured social history interview and produce a written medical-social plan.
+
+You may divide the interview between group members, but the plan must reflect a synthesis of all domains.
+
+### Step 1 — Social History Interview
+
+Systematically explore each of the five domains. Record your findings in note form before drafting the plan.
+
+**Domain 1 — Personal Characteristics**
+
+- Standard identification data (age, sex, educational attainment, marital status, place of birth and residence)
+- Psycho-biological qualities: temperament, significant life goals, history of psycho-traumatic experiences or major crises
+- Health culture: beliefs and attitudes about illness, prevention, and treatment-seeking
+- Health as a value: how the patient prioritises health relative to work, family, and other obligations
+- Health-risk behaviours: smoking, alcohol, dietary patterns, physical activity; explore without judgement
+
+**Domain 2 — Family and Household Environment**
+
+- Who comprises the patient's actual support network (not merely formal family structure)?
+- Material conditions: housing adequacy, financial stability, food security, medication affordability
+- Relevant characteristics of key family members (caregiving capacity, own health status)
+- Active family stressors: bereavement, conflict, illness in another member, substance misuse
+
+**Domain 3 — Occupational Environment**
+
+- Current employment status; profession, position, and workplace
+- Nature of work (physical/mental), shift arrangements, workplace hazard profile
+- Socio-psychological climate: relationships with supervisors and colleagues, job satisfaction
+- Impact of the current illness on occupational functioning and income
+
+**Domain 4 — Social and Domestic Environment**
+
+- Environmental exposures near the residence
+- Transportation access and its effect on healthcare utilisation
+- Social network and community participation
+- Relationships with public authorities, benefit systems, or legal processes (if applicable)
+- Digital access and literacy
+
+**Domain 5 — Healthcare Service Needs**
+
+- Current and anticipated needs: hospitalisation, dispensary observation, specialist follow-up
+- Rehabilitation needs (physical, occupational, psychological)
+- Home care requirements after discharge
+- Socio-legal assistance needs
+
+---
+
+### Step 2 — Medical-Social Plan
+
+Based on your interview findings, produce a written **medical-social plan** for this patient. The plan must be:
+
+- **Specific** — name concrete actions, not general intentions
+- **Realistic** — calibrated to what is actually available and feasible
+- **Coordinated** — indicate which professional or service is responsible for each action
+- **Iterative** — note which elements require reassessment and at what interval
+
+Structure your plan under the following headings, addressing only those domains in which you identified unmet needs:
+
+1. Needs related to the patient's personality and individual health behaviours
+2. Needs related to the family and household environment
+3. Needs related to the occupational environment
+4. Needs related to the social and domestic environment
+5. Needs related to healthcare services (post-discharge)
+
+For each need identified, specify: **the problem → the proposed action → the responsible professional or service → the timeframe**.
+
+::: {.callout-note title="Reminder: Interprofessional Roles"}
+
+Physicians hold ultimate responsibility for integrating social findings into care planning, but the delivery of social interventions typically involves nurses, social workers, community health workers, and case managers. Your plan should reflect this distribution realistically.
+
+:::
+
+---
+
+### Step 3 — Group Presentation (5 minutes)
+
+Prepare to present your patient's most significant social determinants and the two or three highest-priority actions from your plan. Do not present personal identifying information — describe the patient by age group, sex, and presenting condition only.
+
+---
+
+# Part II — Physician's Liability: Case Analysis
+
+Three cases from Bulgarian and district court practice are summarised below. For each case, your group must **identify and justify the applicable form(s) of legal liability**, referencing the specific legal basis where possible.
+
+---
+
+## Case A — Death of a Child Following Inpatient Treatment
+
+*(Based on: VKS Decision No. 649, Sofia, 01.11.2024)*
+
+A two-year-old child with cystic fibrosis and an undiagnosed neurological condition was admitted to a hospital paediatric unit at approximately 23:00 with severe gastroenteritis and dehydration. Over the following eight hours, no laboratory investigations were performed. Intravenous rehydration was commenced without baseline electrolyte values; after the initial sodium chloride infusion, glucose 5% without sodium was administered without any laboratory guidance. Vital signs — blood pressure, saturation, capillary refill, and urine output — were not systematically measured or documented; the nursing records from 03:00 and 06:00 were assessed by expert witnesses as uninformative. The hospital's paediatric unit held second-level accreditation, which required the capacity for clinical laboratory testing and blood-gas analysis on site — a requirement the hospital could not meet during night hours. At approximately 08:40 the child experienced a first convulsion, followed by two further convulsions. The child was transferred to the resuscitation unit but died. Autopsy confirmed bilateral cardiac failure associated with a pulmonary process, perivascular and perivasal cerebral oedema, and hypoxaemia. The child's parents each claimed 140,000 BGN in non-material damages.
+
+**Discussion questions for your group:**
+
+1. Which form(s) of liability are applicable to the hospital and to the treating physician individually? Identify the legal basis for each.
+2. The hospital argues that the child's pre-existing conditions (cystic fibrosis, neurological impairment) were the real cause of death. Does the existence of a contributing pre-existing condition exclude the causal link between the treatment failures and the fatal outcome? Justify your answer with reference to the applicable legal standard.
+3. Three independent expert panels reached partially conflicting conclusions regarding the immediate cause of death. The appellate court credited the third panel; the Supreme Court of Cassation found this reasoning procedurally deficient. What does this case establish about the court's obligation in relation to competing expert opinions?
+4. The hospital did not maintain a laboratory capable of blood-gas analysis during night hours, as required by the Medical Standard for Paediatrics (Ordinance No. 19/2010). Does an institutional failure of this kind constitute a separate ground of liability, or does it only reinforce the individual physician's liability?
+
+::: {.callout-tip title="Model Answer — Question 1" collapse="true"}
+
+The hospital bears **civil liability under Art. 49 ZZD** (liability of the principal for harm caused by agents in the execution of assigned work), as the employer of the treating physicians. The underlying conduct — failure to order laboratory investigations for over eight hours, failure to monitor vital signs, administration of intravenous fluids "blind" in a child with a known condition predisposing to electrolyte loss, and the hospital's structural failure to provide night-time laboratory capacity — constitutes a departure from the Medical Standard for Paediatrics applicable at the time. The treating physician may bear **civil tort liability under Arts. 45–49 ZZD** individually, and potentially **disciplinary liability under Arts. 186–199 of the Labour Code** through the employment relationship. Whether **criminal liability under Art. 123 CC** (causing death by negligence in an activity of increased risk) applies depends on whether the prosecution characterises the conduct as negligent in the sense of Art. 11 CC — i.e., failure to foresee consequences the physician was legally obliged and objectively able to anticipate.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 2" collapse="true"}
+
+Under Bulgarian tort law and the established practice of the VKS, a pre-existing condition does not exclude causal connection if the wrongful treatment independently contributed to the fatal outcome and the outcome would not have occurred — or would have occurred later or less severely — in the absence of the treatment failures. Pre-existing conditions that reduce the organism's reserves and accelerate the progression of a complication are recognised as **contributing factors** but not as causes that break the causal chain. The VKS in this decision expressly held that the cystic fibrosis and neurological impairment were additional factors that did not exclude the causal connection between the treatment deficiencies and the death.
+
+:::
+
+---
+
+## Case B — Hospital-Acquired Infection Following Cataract Surgery
+
+*(Based on: Plovdiv District Court Decision No. 452, 24.10.2024)*
+
+A 76-year-old patient underwent elective cataract surgery (phacoemulsification) at a university hospital ophthalmology clinic. The operation lasted 15 minutes and the patient was discharged the same day. Two days later she was readmitted with acute pain, redness, and sharply deteriorated vision in the operated eye; she was diagnosed with purulent endophthalmitis caused by *Pseudomonas aeruginosa*. Five patients operated in the same theatre on the same day by the same surgical team developed the identical organism. Regional health authorities confirmed an epidemic outbreak of hospital-acquired infection (HAI). Investigation established that the theatre had no recorded protocol for the disinfection solution in use on the day, that the implicated instrument-disinfection solution was replaced with a different product after the outbreak, and that the HAI cases had not been registered in the mandatory HAI register or reported to the Regional Health Inspectorate. The patient ultimately lost most of the functional vision in the operated eye, sustained a retinal detachment requiring further surgery at another facility (cost: 900 EUR), lost the implanted lens (cost: 1,050 EUR), and suffered a vertebral fracture from a fall attributable to monocular vision impairment. She claimed 40,000 EUR in non-material damages and 1,950 EUR in material damages.
+
+**Discussion questions for your group:**
+
+1. The hospital argues it cannot be held liable because the exact mechanism of contamination was never definitively established. Evaluate this argument in light of the principle of adequate expectations and the burden of proof applicable to HAI cases under Art. 49 ZZD.
+2. Identify all forms of liability potentially engaged in this case. For each, specify the legal basis and the responsible party (hospital as institution, head of clinic, operating surgeon, infection control personnel).
+3. The informed consent documents signed by the patient contained no specific reference to the risk of HAI or endophthalmitis. What is the legal significance of a defective informed consent, and does it constitute an independent ground of claim separate from the HAI itself?
+4. The administrative penalty notice issued to the head of the ophthalmology clinic was subsequently overturned by the district court — not because there was no HAI outbreak, but because she held the rank of *началник на клиника* rather than *началник на отделение*. What does this procedural outcome tell you about the relationship between administrative liability and civil liability in medical harm cases?
+
+::: {.callout-tip title="Model Answer — Question 1" collapse="true"}
+
+The argument fails. Under established VKS practice on Art. 49 ZZD claims involving HAI, the hospital bears a **reverse burden**: once the patient establishes that an infection meeting the criteria of a HAI arose during hospitalisation and caused harm, the hospital must demonstrate that all required preventive measures were taken. The court in this case applied the principle that the **fact of infection itself is indicative of a breach of hygiene norms** — the patient is not expected to identify the precise vector. The hospital's failure to preserve the implicated disinfection solution for analysis, failure to retain bacterial isolates, and failure to send samples to the reference laboratory (NCIPD) for typing made it impossible to exonerate the hospital from the inference that instrument disinfection was inadequate.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 3" collapse="true"}
+
+Defective informed consent constitutes an **independent** ground of claim. The obligation under Arts. 88–89 of the Health Act requires the treating physician to inform the patient of potential risks — including infection and the possibility of vision loss — before a surgical procedure. The patient's testimony that she was handed documents to sign without explanation, and that no physician identified themselves as the informing clinician, was accepted by the court. The absence of the physician's signature on the consent document was specifically identified as a serious deficiency. However, the court in this case folded the informed consent violation into the overall non-material damages award rather than treating it as a separately quantified head of claim. Under Art. 8 ECHR (right to private life, including bodily integrity), failure to obtain genuine informed consent before a surgical intervention with foreseeable serious risks can also engage state responsibility in its positive-obligation dimension.
+
+:::
+
+---
+
+## Case C — Dentist Sues Patient
+
+*(Based on: Targovishte District Court, civil case 1301/2013)*
+
+A dentist treated a patient over several months, fitting both upper and lower dental bridges for a total fee of approximately 1,737 EUR. The patient subsequently complained of discomfort, returned repeatedly, and — despite the dentist's clinical assessment that the bridges were correctly fitted with no objective pathological findings — demanded reimbursement in increasingly confrontational terms, including verbal abuse directed at the dentist in the presence of other patients. Under sustained pressure, the dentist returned the full payment. The patient nonetheless continued attending the practice and repeating the same behaviour. The dentist subsequently filed a civil claim seeking 1,000 EUR in non-material damages for the psychological harm caused by the patient's conduct, citing stress, insomnia, professional reputation damage, and deterioration in clinical performance that led him to seek psychiatric referral from his general practitioner.
+
+**Discussion questions for your group:**
+
+1. This case reverses the usual direction of a medical liability claim. Identify the legal basis on which the dentist's claim is grounded. Is Art. 49 ZZD applicable here, or does the claim rest on a different provision?
+2. Liability for non-material damages in Bulgarian law requires: an act, unlawfulness, harm, causation, and fault. Map each of these elements onto the facts of this case.
+3. The patient's position was presumably that she experienced genuine discomfort and was merely asserting her rights as a consumer of medical services. At what point does a patient's complaints and demands cross the threshold from legitimate exercise of rights to actionable wrongful conduct?
+4. The court awarded the full 1,000 EUR claimed. Consider whether this outcome is consistent with the principle of **справедливост** (fairness/equity) under Art. 52 ZZD, given the asymmetry of power ordinarily assumed between physician and patient.
+
+::: {.callout-tip title="Model Answer — Question 1" collapse="true"}
+
+The dentist's claim is grounded in **Art. 45 ZZD** (the general tort provision) — not Art. 49, which applies to liability of principals for the acts of their agents. The patient is not a principal; she is an individual acting in her own right. The dentist must establish all five elements of the delict under Art. 45 independently, including fault — there is no presumption of fault in the patient's favour as there would be in a standard medical negligence claim. The **presumption of fault under Art. 45 para. 2 ZZD** applies to the defendant (the patient), meaning she bears the burden of rebutting fault once the other elements are established.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 3" collapse="true"}
+
+The threshold lies where conduct moves from legitimate assertion of dissatisfaction into conduct that is objectively harmful and unlawful. Complaining, returning for assessment, and demanding refund are all within the ambit of a patient's rights. Verbal abuse in front of other patients — with the foreseeable consequence of damaging the physician's professional reputation — is not protected conduct. The court's finding turned on the combination of: repeated public insults, the foreseeable harm to professional standing, and the documented psychological sequelae requiring medical attention. A single complaint, however forcefully expressed, would not have reached this threshold.
+
+:::
+
+---
+
+# Cross-Group Synthesis
+
+After all groups have presented, discuss the following question together:
+
+> In Cases A and B, the harm arose from institutional failures (absent laboratory capacity, inadequate instrument disinfection protocols, failure to register HAI) rather than solely from individual clinical decisions. In Case C, the harm arose from a patient's conduct rather than from the healthcare system.
+>
+> What do these three cases, taken together, suggest about the **scope of the legal concept of "medical delinquency"** in Bulgarian law — and about who bears responsibility when harm occurs in a clinical context?
