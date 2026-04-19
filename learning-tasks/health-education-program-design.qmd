@@ -1,0 +1,401 @@
+---
+title: "Health Education Program Design"
+author: "Kostadin Kostadinov"
+date: 2026-04-19
+description: "Group assignment: design a real-world health education program for one of four Bulgarian scenarios — sexual and reproductive health, substance abuse prevention, workplace wellness, or digital health literacy. Applies the COM-B framework, motivational typology, educational models, and five-step development process."
+categories:
+  - "Social Medicine"
+  - "Public Health"
+  - "Health Education"
+  - "Assignment"
+---
+
+## Instructions
+
+Each group will design a **health education program** for a real-world Bulgarian setting. Your program must be structured around five components: **aims**, **objectives**, **methods and forms**, **funding**, and **expected outcomes with evaluation criteria**. Refer to the concepts from the reading assignment and presentation — educational models (authoritarian, collaborative, promotional), classical and modern methods, the COM-B framework, and the five-step development process.
+
+Prepare a concise oral presentation for the class (5–7 minutes). Be ready to justify your choice of educational model and methods in relation to your target population.
+
+A cross-group synthesis question appears at the end of this document. All groups contribute to it.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Health Culture, Health Behavior, and Health Education](../15-minute-learning/health-culture.qmd). All answers and justifications must reference the concepts and frameworks established in this text.*
+
+---
+
+## Group 1 — Sexual and Reproductive Health Education
+
+### Scenario
+
+The Regional Health Inspectorate of Sofia-City has commissioned a one-year sexual and reproductive health education program targeting students in two public secondary schools (gymnasium) in Sofia, ages 14–18, total enrolled population of **840 students**. Current data indicate that **23%** of students in this age group report their first sexual intercourse before age 16, and only **38%** report consistent contraceptive use. The HPV vaccination uptake among eligible girls (12–13 years) in Sofia-City stands at **41%** — well below the national target of 70%. The program must be delivered within school premises and must comply with the Bulgarian Health Act and the Ministry of Education health promotion guidelines.
+
+### Your task
+
+Design a comprehensive health education program addressing this scenario. Your program plan must include all five components listed below.
+
+**1. Program aims**
+State 1–2 broad aims describing the overall health improvement goal of the program.
+
+**2. SMART objectives**
+Formulate at least **three** specific, measurable, achievable, relevant, and time-bound objectives. Each objective must specify: the target population segment, the desired change (knowledge, attitude, behavior, or health outcome), the magnitude of change, and the timeframe.
+
+**3. Methods and forms of health education**
+Select and justify the educational model (authoritarian, collaborative, or promotional) and at least **three** specific methods or forms. For each method, explain why it is appropriate for this population and setting. Consider which stage of the educational development process (educational, attitudinal, habit formation, comprehensive behavior change) each method is designed to address.
+
+**4. Funding sources**
+Identify realistic funding sources for a program of this scale. Consider: the Ministry of Health national health programs, NHIF preventive activities, Municipal Health Fund, European Social Fund operational programs, WHO country office grants, and pharmaceutical industry partnerships under conflict-of-interest management frameworks. Estimate a realistic total budget range (in EUR) for a one-year school-based program reaching 840 students.
+
+**5. Expected outcomes and evaluation design**
+Define at least **three** measurable outcomes and describe how you would evaluate them. Specify: data collection instruments, timing of measurements (baseline, midpoint, endline), and whether you would use a comparison group.
+
+### Calculation
+
+Of the 840 enrolled students, **62%** participate in the program's interactive group sessions. Of those who participate, a post-program survey shows that the proportion reporting consistent contraceptive use increases from 38% to **54%**.
+
+(a) How many students participated in the group sessions?
+
+(b) How many additional students report consistent contraceptive use after the program (compared to baseline, among participants only)?
+
+(c) If the cost of delivering the program to all participants is EUR 18 500, calculate the cost per participant and the cost per additional student adopting consistent contraceptive use.
+
+::: {.callout-tip title="Model Answer — Calculation" collapse="true"}
+
+**(a) Participants in group sessions**
+
+$$n_{\text{participants}} = 840 \times 0.62 = 521 \text{ students}$$
+
+**(b) Additional students reporting consistent contraceptive use**
+
+Baseline proportion: 38%; post-program: 54%.
+
+$$\Delta n = 521 \times (0.54 - 0.38) = 521 \times 0.16 = 83 \text{ students}$$
+
+**(c) Cost-effectiveness**
+
+$$\text{Cost per participant} = \frac{18\,500}{521} \approx \text{EUR } 35.50$$
+
+$$\text{Cost per additional adopter} = \frac{18\,500}{83} \approx \text{EUR } 223$$
+
+Interpretation: At EUR 35.50 per participant, this is well within the range of cost-effective school-based health education interventions documented in the European literature (typically EUR 20–80 per student per year). The cost per additional behavioral outcome (EUR 223) should be compared against the downstream costs of unintended pregnancy and STI treatment to establish full economic value.
+
+:::
+
+::: {.callout-tip title="Model Answer — Program Design" collapse="true"}
+
+**Aims**
+
+To improve sexual and reproductive health knowledge, attitudes, and protective behaviors among secondary school students in Sofia-City, and to increase uptake of HPV vaccination among eligible cohorts.
+
+**SMART objectives (examples)**
+
+- By month 12, the proportion of sexually active students (14–18 years) in participating schools reporting consistent contraceptive use will increase from 38% to at least 55%, as measured by anonymous self-administered questionnaire.
+- By month 6, at least 75% of students will be able to correctly identify three effective contraceptive methods and two common STIs and their routes of transmission, as measured by pre-post knowledge test.
+- By month 12, HPV vaccination uptake among newly eligible 12–13-year-old girls will reach 60% in the two participating schools, as recorded by school health records in collaboration with the Regional Health Inspectorate.
+
+**Educational model and methods**
+
+The **promotional model** is most appropriate: it engages students as co-producers of health knowledge, facilitates peer exchange, and addresses the social norm environment in which adolescent sexual behavior occurs. The authoritarian model should be reserved for narrow factual content delivery (e.g., vaccine schedules); the collaborative model applies to individual counseling by the school psychologist or GP.
+
+Methods:
+
+- **Social learning** — peer educators (trained older students) lead small-group discussions; peer credibility is consistently higher than adult authority for adolescent audiences on this topic.
+- **Combined method** — interactive multimedia presentations with video case studies and guided discussion; superior retention compared to lecture alone.
+- **Social immunization** — preemptive counter-argument training against peer pressure to engage in unprotected sex; students practice assertive refusal scripts.
+- **Individual counseling** (collaborative approach) — school psychologist available for confidential one-on-one sessions.
+
+**Funding**
+
+National Program for Improvement of Mother and Child Health (Ministry of Health); European Social Fund — Human Resources Development Operational Program; Municipal Health Fund Sofia; Bulgarian Red Cross Youth Emergency Team (in-kind contribution of peer educators).
+
+Estimated budget: EUR 15 000–25 000 for one year, 840 students.
+
+**Outcomes and evaluation**
+
+Outcomes: knowledge score (pre-post test), self-reported contraceptive use (anonymous questionnaire), HPV vaccination rate (registry data). Evaluation: repeated cross-sectional design with baseline (month 0), midpoint (month 6), and endline (month 12). A comparison school (matched for size and socioeconomic profile) would strengthen causal inference but may not be feasible within the commissioned program scope.
+
+:::
+
+---
+
+## Group 2 — Drug and Alcohol Abuse Prevention
+
+### Scenario
+
+The Municipality of Varna has partnered with the Medical University of Varna to design a substance abuse prevention program targeting first- and second-year university students (ages 18–23) across three faculties — Medicine, Pharmacy, and Health Care. The enrolled population across these faculties is **1 240 students**. A recent anonymous survey conducted by the Student Health Center found that **34%** of respondents reported hazardous alcohol use (AUDIT-C score ≥ 4 for women, ≥ 5 for men) and **18%** reported cannabis use at least once in the preceding month. The program has a **24-month** duration and must address both primary prevention (non-users) and secondary prevention (early harmful use), while remaining sensitive to the specific pressures of the medical education environment.
+
+### Your task
+
+Design a comprehensive health education program addressing this scenario. Apply the same five-component structure: aims, SMART objectives, methods and forms, funding, and outcomes with evaluation.
+
+**Additional requirement:** Explicitly identify which COM-B component (capability, opportunity, or motivation) each of your chosen methods primarily targets. Justify your choices using the Marks (2020) critique — how does your program address the *wanting* dimension that the standard COM-B model underweights?
+
+### Calculation
+
+The program delivers two components: (A) a mass media digital campaign reaching all 1 240 students, and (B) small-group motivational interviewing sessions available to students screening positive on AUDIT-C or cannabis use items. Of the 1 240 students, **52%** (646) screen positive on at least one criterion and are invited to group sessions; **71%** of those invited attend at least one session.
+
+(a) How many students attend at least one group motivational interviewing session?
+
+(b) If post-program AUDIT-C hazardous use prevalence falls to **24%** among session attendees, how many session attendees have moved out of the hazardous use category (assume baseline 34% also applies to this subgroup)?
+
+(c) The total program budget is EUR 42 000. Component A accounts for 30% of costs; component B for 70%. Calculate the cost per session attendee for component B.
+
+::: {.callout-tip title="Model Answer — Calculation" collapse="true"}
+
+**(a) Session attendees**
+
+$$n_{\text{invited}} = 1\,240 \times 0.52 = 645 \approx 646$$
+
+$$n_{\text{attendees}} = 646 \times 0.71 \approx 459 \text{ students}$$
+
+**(b) Students moving out of hazardous use category**
+
+$$\Delta n = 459 \times (0.34 - 0.24) = 459 \times 0.10 \approx 46 \text{ students}$$
+
+**(c) Cost per session attendee — Component B**
+
+$$\text{Cost}_B = 42\,000 \times 0.70 = \text{EUR } 29\,400$$
+
+$$\text{Cost per attendee} = \frac{29\,400}{459} \approx \text{EUR } 64$$
+
+Interpretation: EUR 64 per at-risk student receiving individualized group intervention is consistent with the cost ranges reported for university-based brief intervention programs in the European literature. The mass media component (EUR 12 600 for 1 240 students = EUR ~10/student) achieves wide reach at low unit cost, which is appropriate for primary prevention in a relatively healthy population.
+
+:::
+
+::: {.callout-tip title="Model Answer — Program Design" collapse="true"}
+
+**Aims**
+
+To reduce hazardous alcohol use and cannabis experimentation among university students in health profession faculties in Varna, and to build the capacity of the student health system to identify and support students with early harmful use patterns.
+
+**SMART objectives (examples)**
+
+- By month 24, the proportion of enrolled students with AUDIT-C scores indicative of hazardous use will decrease from 34% to no more than 25%, as measured by anonymous repeat survey.
+- By month 12, at least 80% of students who attend motivational interviewing sessions will report at least one specific behavioral change strategy adopted to reduce substance use, as measured by post-session structured self-report.
+- By month 6, a peer educator network of at least 20 trained student volunteers will be operational and will have delivered at least 8 group information sessions to incoming first-year students.
+
+**Educational model, methods, and COM-B mapping**
+
+| Method | COM-B target | Addresses *wanting*? |
+|---|---|---|
+| Digital campaign (social norms messaging) | Motivation (habitual/normative) | Partially — corrects misperceived norms, shifting what peers are believed to want |
+| Motivational interviewing sessions | Motivation (analytical) + Capability | Directly — MI explicitly elicits and reinforces the client's own *wanting* for change |
+| Peer educator program | Opportunity (social) + Motivation | Yes — peer educators model the identity of health-conscious medical students |
+| Social immunization workshops | Capability (psychological) | Partially — builds resistance to social pressure, but wanting must already be present |
+
+The Marks (2020) critique is most directly addressed by motivational interviewing, which is specifically designed to explore and strengthen intrinsic motivation — the student's own *wanting* for change — rather than assuming it exists and proceeding to capability and opportunity strategies.
+
+**Funding**
+
+National Drug Addiction Prevention Program (Ministry of Health); National Youth Program (Ministry of Youth and Sports); Erasmus+ health promotion grants; Medical University of Varna Student Health Fund; Bulgarian Anti-Drugs Union (NGO partner).
+
+**Outcomes and evaluation**
+
+Primary outcome: AUDIT-C hazardous use prevalence (anonymous survey, cohort panel design). Secondary outcomes: cannabis use frequency, perceived peer norms regarding alcohol, self-efficacy for refusal. Evaluation: baseline (month 0), 12-month, and 24-month repeat surveys; process evaluation tracking session attendance and peer educator activity.
+
+:::
+
+---
+
+## Group 3 — Diet and Active Lifestyle in the Workplace
+
+### Scenario
+
+A large pharmaceutical manufacturing enterprise in Plovdiv employs **1 850 workers** across production, quality control, and administrative functions. The enterprise occupational health physician has flagged the following data from the most recent mandatory workplace health examinations: **BMI ≥ 25 in 61%** of employees; **BMI ≥ 30 in 29%**; **self-reported physical inactivity (< 150 min moderate activity per week) in 58%**; **hypertension in 34%**. The enterprise director has agreed to co-fund a 24-month workplace health promotion program in cooperation with the Regional Health Inspectorate of Plovdiv. The program must be deliverable within working hours (maximum 2 hours per month per employee without production disruption) and must include both individual and group components.
+
+### Your task
+
+Design a comprehensive workplace health promotion program addressing diet and physical activity. Apply the five-component structure. Additionally, for each of the six types of health behavior motivation (health-rational, psycho-physiological, aesthetic, socio-psychological, moral, economic), identify at least one program element that engages that motivational pathway.
+
+### Calculation
+
+At program outset, **29%** (536 employees) have BMI ≥ 30. At month 24 evaluation, among employees who participated in at least 75% of program activities (**n = 410**), BMI ≥ 30 prevalence has fallen to **21%**.
+
+(a) How many of the 410 high-adherence participants have moved out of the obese category?
+
+(b) Assuming the average cost of a hypertension-related sick leave event is EUR 380 (direct costs only), and that hypertension prevalence in high-adherence participants fell from 34% to 26%, estimate the annual savings in sick leave costs attributable to the program among high-adherence participants. Assume each employee with newly normalized blood pressure avoids on average 0.6 sick leave events per year.
+
+(c) The enterprise contribution to the program was EUR 95 000 over 24 months. Calculate the cost per high-adherence participant and comment on whether this exceeds or falls below typical European workplace health promotion benchmarks (EUR 150–400 per employee per year).
+
+::: {.callout-tip title="Model Answer — Calculation" collapse="true"}
+
+**(a) Participants moving out of BMI ≥ 30 category**
+
+Baseline proportion obese among 410 high-adherence participants: 29% = 119.  
+Post-program proportion: 21% = 86.
+
+$$\Delta n = 119 - 86 = 33 \text{ participants}$$
+
+**(b) Savings from hypertension reduction**
+
+Baseline hypertension: 34% × 410 = 139 participants.  
+Post-program: 26% × 410 = 107 participants.  
+Newly normalized: 139 − 107 = 32 participants.
+
+$$\text{Sick leave events avoided} = 32 \times 0.6 = 19.2 \text{ events/year}$$
+
+$$\text{Annual savings} = 19.2 \times 380 = \text{EUR } 7\,296/\text{year}$$
+
+Over two years: EUR 14 592 in avoided direct sick leave costs (conservative estimate excluding productivity gains and employer insurance premium effects).
+
+**(c) Cost per high-adherence participant**
+
+$$\text{Cost per participant} = \frac{95\,000}{410} \approx \text{EUR } 232$$
+
+This is EUR 116 per participant per year, which falls within the lower half of the European benchmark range of EUR 150–400 per employee per year for comprehensive workplace health programs. Given that the program achieved measurable BMI and blood pressure reductions, this represents acceptable cost-effectiveness. The savings from hypertension management alone (EUR 7 296/year) partially offset program costs.
+
+:::
+
+::: {.callout-tip title="Model Answer — Program Design" collapse="true"}
+
+**Aims**
+
+To reduce the prevalence of overweight, obesity, and physical inactivity among enterprise employees in Plovdiv, and to create a sustained workplace culture in which healthy eating and regular physical activity are supported by the physical and social environment.
+
+**SMART objectives (examples)**
+
+- By month 24, mean BMI among program participants will decrease by at least 0.8 kg/m² from baseline, as measured by occupational health physician records.
+- By month 12, at least 50% of employees who were physically inactive at baseline will report meeting WHO recommended activity levels (≥150 min/week moderate intensity), as measured by validated self-report (IPAQ short form).
+- By month 6, the enterprise will have introduced at least two permanent structural changes supporting healthy diet (e.g., canteen menu reform, elimination of sugar-sweetened beverages from vending machines).
+
+**Motivational pathways**
+
+| Motivational category | Program element |
+|---|---|
+| Health-rational | Occupational physician-delivered individual risk counseling using personalized cardiovascular risk scores (Framingham or SCORE2) |
+| Psycho-physiological | Guided group exercise sessions with trained fitness coordinator — positive physical experience motivates continuation |
+| Aesthetic | Body composition feedback (not weight alone) framed constructively to support positive body image without triggering disordered eating |
+| Socio-psychological | Departmental step-count competitions with visible leaderboards — social norm shift and peer accountability |
+| Moral | Family-inclusive wellness events on weekends — framing healthy lifestyle as responsibility to family, not only to self |
+| Economic | Employer subsidy for gym membership or healthy meal options; sickness absence reduction framed as mutual benefit to employee and enterprise |
+
+**Educational model and methods**
+
+**Promotional model** as the primary framework — bidirectional exchange, peer group dynamics, and environmental modification operating simultaneously. Supplemented by **collaborative model** for individual occupational physician counseling.
+
+Methods: combined multimedia presentations (monthly); printed materials (recipe cards, activity guides, posted in canteen and changing rooms); diffusion of innovations (identifying health-motivated "wellness champions" in each department); group exercise and cooking classes (skill building).
+
+**Funding**
+
+Employer contribution (primary funder); National Healthy Workplace Program — National Center of Public Health and Analyses; European Social Fund; occupational health insurance fund savings reinvestment.
+
+**Outcomes and evaluation**
+
+Primary: BMI, waist circumference, blood pressure (objective measurement by occupational physician at 0, 12, 24 months). Secondary: IPAQ physical activity score, 24-hour dietary recall subsample, employee satisfaction and program engagement. Evaluation design: pre-post with high vs. low adherence comparison within the program cohort.
+
+:::
+
+---
+
+## Group 4 — Health Misinformation Prevention and Digital Media Literacy
+
+### Scenario
+
+The Regional Health Inspectorate of Stara Zagora, in partnership with the Bulgarian Red Cross Stara Zagora Regional Organization, has commissioned a program targeting adults aged 40–65 in three semi-urban municipalities (Kazanlak, Chirpan, and Radnevo), total target population **4 200 adults**. A regional survey found that **67%** of respondents reported obtaining health information primarily from social media; **44%** reported making at least one health decision in the preceding year based on information they later discovered to be false or misleading (e.g., delaying vaccination, self-prescribing supplements, discontinuing prescribed medication based on online content). The program has an 18-month duration and must operate through community centers, municipal libraries, and the Red Cross local network of volunteers. No individual clinical contact is planned — this is a pure community education program.
+
+### Your task
+
+Design a comprehensive health education program to improve digital health literacy and resistance to health misinformation. Apply the five-component structure. Your program design must explicitly incorporate **social immunization (inoculation theory)** as a core methodological element, and must explain how the **diffusion of innovations** model will guide your dissemination strategy. Address the role of the Bulgarian Red Cross volunteer network as an organizational resource.
+
+### Calculation
+
+The program trains **85 volunteer health communicators** (Red Cross volunteers and community library staff) in a two-day workshop. Each trained communicator is expected to reach **30 community members** through organized sessions over 18 months. Additionally, a regional social media campaign is estimated to reach **12 000 unique users** in the three municipalities, of whom **22%** engage meaningfully with the content (share, comment, or complete an embedded health literacy quiz).
+
+(a) What is the total estimated reach of the community session component?
+
+(b) How many users engage meaningfully with the social media campaign?
+
+(c) If the program budget is EUR 31 500 and community sessions account for 55% of costs, calculate the cost per community member reached through the session component. Compare this to the cost per engaged user through the social media component (45% of budget).
+
+::: {.callout-tip title="Model Answer — Calculation" collapse="true"}
+
+**(a) Total reach — community sessions**
+
+$$n_{\text{reach}} = 85 \times 30 = 2\,550 \text{ community members}$$
+
+This represents 61% of the 4 200-person target population — a high penetration rate for a volunteer-delivered community program.
+
+**(b) Meaningful social media engagement**
+
+$$n_{\text{engaged}} = 12\,000 \times 0.22 = 2\,640 \text{ users}$$
+
+**(c) Cost comparison**
+
+Community session component:
+
+$$\text{Cost}_{\text{sessions}} = 31\,500 \times 0.55 = \text{EUR } 17\,325$$
+
+$$\text{Cost per community member reached} = \frac{17\,325}{2\,550} \approx \text{EUR } 6.80$$
+
+Social media component:
+
+$$\text{Cost}_{\text{media}} = 31\,500 \times 0.45 = \text{EUR } 14\,175$$
+
+$$\text{Cost per engaged user} = \frac{14\,175}{2\,640} \approx \text{EUR } 5.37$$
+
+Interpretation: Both channels are highly cost-efficient. The social media component achieves lower cost per engaged user but engagement depth is shallower than face-to-face community sessions. A combined strategy leveraging both channels reflects best practice: mass reach through digital media, depth of learning through community sessions. The low cost per beneficiary reflects the volunteer delivery model — the Bulgarian Red Cross network dramatically reduces personnel costs.
+
+:::
+
+::: {.callout-tip title="Model Answer — Program Design" collapse="true"}
+
+**Aims**
+
+To strengthen digital health literacy among middle-aged and older adults in Stara Zagora Region, and to build community-level resistance to health misinformation through the application of inoculation theory and peer-based communication strategies.
+
+**SMART objectives (examples)**
+
+- By month 18, the proportion of program participants who can correctly apply a three-step source verification process to a health claim encountered online will increase from a baseline of 15% (estimated) to at least 55%, as measured by pre-post practical assessment in community sessions.
+- By month 12, at least 70% of session participants will report increased confidence in identifying false health content on social media, as measured by validated digital health literacy scale (adapted eHEALS).
+- By month 18, the proportion of participants reporting health decisions influenced by unverified online content will decrease by at least 20 percentage points from baseline, as measured by follow-up survey.
+
+**Social immunization as core method**
+
+Community sessions employ the inoculation protocol in three phases: (1) *forewarning* — participants are told that common manipulation techniques used in health misinformation will be presented; (2) *exposure to weakened misinformation* — trainer presents real examples of vaccine hesitancy claims, miracle supplement advertising, and anti-medication content used on Bulgarian social media; (3) *counter-argument generation* — participants actively produce rebuttals, practice fact-checking, and share strategies. This sequence builds psychological resistance that persists after the session, functioning analogously to immunological priming.
+
+$$R_{\text{persuasion}} = f(\text{Exposure}_{\text{weak args}},\; \text{Generation}_{\text{counter args}})$$
+
+**Diffusion of innovations for dissemination**
+
+The 85 trained volunteer communicators function as **early adopters** within their communities — trusted, visible, socially connected individuals whose adoption of critical health media literacy practices signals its value to their networks. Community library staff occupy institutional positions that confer authority. Red Cross volunteers bring established trust from prior humanitarian work. Together they form the dissemination core from which adoption is expected to spread to the early majority through interpersonal contact and social modeling.
+
+**Role of Bulgarian Red Cross**
+
+The Red Cross volunteer network provides: (a) an existing trusted entry point into communities, bypassing the institutional skepticism that may impede government health authority messaging; (b) trained personnel for workshop delivery following a two-day train-the-trainer format; (c) logistical infrastructure for event organization; (d) Youth Emergency Team members for the social media campaign design and moderation.
+
+**Funding**
+
+European Regional Development Fund — Digital Cohesion Action; National Health Information and Communication Fund (Ministry of Health); Bulgarian Red Cross (in-kind volunteer hours); Municipal Cultural Centers (venue provision in-kind); WHO Bulgaria Country Office.
+
+**Outcomes and evaluation**
+
+Primary: digital health literacy score (eHEALS adapted version), source verification competency test. Secondary: self-reported behavior change (vaccination decision-making, medication adherence). Process: number of sessions delivered, attendance records, volunteer activity logs, social media analytics. Evaluation: pre-post design with 6-month follow-up survey to assess knowledge and attitude retention.
+
+:::
+
+---
+
+## Cross-Group Synthesis Question
+
+*All groups contribute to this question. Discuss as a full class after individual group presentations.*
+
+Each group designed a program for a different population, setting, and health issue, but all programs must navigate the same fundamental challenge: **the gap between knowing what is healthy and actually wanting to do it**.
+
+Drawing on the COM-B model, the Marks (2020) critique, and the motivational typology from the reading, address the following:
+
+> **Which of the six motivational categories (health-rational, psycho-physiological, aesthetic, socio-psychological, moral, economic) proved most central to your program design, and why? Did any program successfully address the** ***wanting*** **dimension directly — or did all four programs ultimately rely on the assumption that capability and opportunity, once provided, will be sufficient?**
+
+Consider also: if you were to run your program again with twice the budget, which single component would you expand and why? Would that expansion address *wanting*, or only capability and opportunity?
+
+::: {.callout-tip title="Facilitator Notes" collapse="true"}
+
+There is no single correct answer. The productive outcome is recognition that:
+
+- Most health education programs implicitly assume that if information is provided and barriers are removed, behavior will follow. The Marks (2020) critique challenges this assumption.
+- The motivational interviewing component in Group 2 is the only method among the four programs explicitly designed to elicit and strengthen *wanting* — it is the method most directly addressing the intention-behavior gap.
+- Social immunization (Group 4) partially addresses *wanting* by building a sense of identity as a critical thinker, making resistance to misinformation a desired self-concept — but this is indirect.
+- Groups 1 and 3 rely most heavily on capability and opportunity modifications (skills, peer norms, environment), with *wanting* largely assumed rather than cultivated.
+
+This discussion should close with the recognition that future program design must include explicit strategies for motivational elicitation — not only information provision and barrier removal — and that this remains the least well-developed component of community health education in practice.
+
+:::
