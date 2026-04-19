@@ -1,0 +1,151 @@
+---
+title: "Planning, Economics, and Marketing in Healthcare"
+author: "Kostadin Kostadinov"
+date: 2026-04-19
+description: "A 15-minute reading covering strategic management and health planning, the foundations of health economics including opportunity cost, demand elasticity, and economic evaluation methods (CEA, CUA, CBA, ICER), and marketing in healthcare including the marketing mix, states of demand, and social marketing."
+categories:
+  - "English"
+  - "Public Health"
+  - "Social Medicine"
+  - "Health Management"
+  - "Health Economics"
+---
+
+## Planning in Healthcare
+
+The word *strategy* enters healthcare management from Greek military thought, where it denoted the work of the general — the capacity to orient forces, assign resources, and pursue a defined objective across time and uncertainty. Contemporary usage retains this sense of purposeful governance under constraint. **Strategic management** in healthcare represents a comprehensive approach to organisational direction that synthesises environmental analysis, resource deployment, and outcome evaluation into a continuous, self-correcting process. It is neither a single plan nor a fixed protocol, but a sustained intellectual commitment to aligning an organisation's activities with the needs of the population it serves.
+
+Duncan and colleagues identified five critical areas of knowledge that underpin the quality of strategic management. The first is generalised evidence — systematic, hypothesis-driven knowledge that controls for contextual variability and permits comparisons across settings. The second concerns specific contexts, meaning the particular social, physical, and cultural characteristics of each healthcare institution, including its established habits, ongoing processes, and organisational traditions. These two areas stand in productive tension: general evidence tells us what has worked elsewhere; contextual knowledge tells us what is feasible here. The third area involves the measurement of system functioning — the evaluation of change effects through rigorous research methods, enabling managers to distinguish genuine improvement from statistical noise. The fourth and fifth areas address the change plan itself and the implementation process, respectively: how evidence is linked to context, and how the necessary strategic, operational, and human resources are secured and deployed.
+
+**Strategic thinking** is the cognitive foundation on which the entire edifice rests. It manifests in orientation within the external environment, systematic data analysis, open discussion of assumptions, and the generation of ideas that challenge established practice. **Strategic planning** builds upon this by constructing algorithmic sequences of action designed to realise the organisation's mission. The output is not merely a document but a developed strategy, accompanied by situational analysis, examination of external and internal conditions, and detailed action plans covering adaptive, market, and competitive dimensions. The **implementation phase** then translates strategic intent into consecutive managerial actions — evaluating progress, launching new initiatives, and revising course as circumstances demand.
+
+::: {.callout-note title="Definition"}
+
+**Health planning** is the continuous process of assessing community health problems, identifying unmet needs and available resources, establishing priority objectives, and designing administrative strategies to reach those goals.
+
+:::
+
+The planning cycle proceeds through recognisable phases: identification and prioritisation of health problems, formulation of specific objectives, mobilisation of human and material resources, operational programming, implementation, continuous monitoring, and eventual replanning based on outcome evaluation. Two distinct approaches inform the prioritisation step. The **epidemiological approach** directs resources toward conditions generating the greatest burden in terms of mortality, morbidity, and disability, using quantitative measures to rank the relative weight of different health problems. The **social and economic relevance approach** extends this analysis by incorporating the broader societal consequences of health activity — effects on economic productivity, social cohesion, and educational attainment — recognising that the public health rationale for an intervention may extend well beyond clinical outcomes. In practice, robust planning systems draw on both approaches rather than treating them as mutually exclusive alternatives.
+
+Planning methodology also distinguishes between two temporal orientations. **Forward planning** begins from existing conditions — the current configuration of interests, resources, institutional capacities, and political constraints — and projects which policies can realistically emerge from that starting point. It excels at feasibility and is well adapted to environments where the distance between aspiration and reality is large. **Backward planning**, or normative backcasting, inverts this sequence: it defines a desired future state first — an optimal health system configuration, for example — and works retrospectively to identify the interventions, intermediate milestones, and enabling conditions required to reach it. Backward planning prioritises vision over constraint and is particularly suited to long-horizon goals where incremental forward projection would systematically underestimate what is achievable.
+
+Swain and Duncan identified three questions that strategic management must ultimately answer: whether the organisation will continue providing its current health activities in the future, what new activities will be required to meet emerging demands, and which currently provided activities will become obsolete as health needs evolve. These questions are not rhetorical. They require sustained empirical investigation of epidemiological trends, technological change, and population preferences, and their answers directly shape the allocation of the organisation's most constrained resources — money, personnel, and institutional attention.
+
+---
+
+## Health Economics
+
+**Economics** is the social science of choice under scarcity: the study of how individuals, organisations, and societies allocate limited resources to satisfy competing needs. **Health economics** applies the conceptual tools of economics to problems specifically arising in health and healthcare, and the public health system — as an organised entity — confronts the economic challenge of using its resources to generate the greatest possible improvement in population health.
+
+The field divides into two branches distinguished by their unit of analysis. **Microeconomic health science** examines the operational behaviour, sustainability, and financial performance of individual healthcare providers, both public and private. The same economic logic applicable to any service-producing enterprise — cost structure, revenue generation, incentive design — applies here, though modified by the distinctive regulatory and ethical environment of healthcare. **Macroeconomic health science** addresses healthcare's economic problems at the national level: what kind of healthcare system a nation requires, how it should be financed and subsidised, how it should be structured by specialty and geography, and what the relationship between national economic development and population health actually looks like. At this scale, health economists evaluate the aggregate consequences of financing models, assess the efficiency of system structures, and seek evidence to inform healthcare policy.
+
+::: {.callout-note title="Definition"}
+
+**Opportunity cost** — the value of the best alternative foregone when a particular choice is made.
+
+$$Cost_{opportunity} = Value_{next\,best\,alternative}$$
+
+:::
+
+Every resource allocated to one intervention is unavailable for another. This principle, elementary in economics, has profound implications in healthcare, where the stakes of allocation decisions are measured in mortality and quality of life. The explicit acknowledgement of opportunity cost is a prerequisite for rational planning: a decision-maker who does not ask what is being sacrificed cannot claim to be allocating resources efficiently.
+
+Health economics exhibits several distinctive features that differentiate healthcare markets from conventional commodity markets. The first is the **high degree of differentiation of health products**. Healthcare services are inherently heterogeneous — the same diagnosis may generate substantially different treatment pathways across providers, institutions, and patient preferences. Patients differ not only in clinical presentation but in their preferences for treatment type, duration, location, and the personal qualities of their physician. This heterogeneity reinforces the market positions of providers who best satisfy diverse patient preferences while simultaneously eroding the positions of those who do not.
+
+The low level of substitutability between providers generates market power that resembles monopolistic conditions, producing characteristically low **demand elasticity** for health products. The hospital sector, in particular, exhibits **oligopolistic supply**: relatively few providers operate consistently at high quality levels over time, enabling them to exert significant influence over prices within their markets. Economic theory offers limited general guidance for antitrust policy in settings of pronounced product differentiation, and strong state regulation of prices — while addressing some market failures — may generate its own inefficiencies.
+
+The second distinctive feature is **asymmetric information and moral hazard**. The physician possesses knowledge about the patient's condition that the patient, by definition, cannot fully share. This disparity is not a failure of the system but a structural feature of the clinical relationship: expertise is precisely why the patient seeks care. It raises fundamental questions, however, about the extent to which the physician acts as a genuine agent for the patient's interests, and about how accurate diagnosis and appropriate treatment selection can be verified from outside the clinical encounter. Asymmetric information also operates between insured individuals and financing institutions. Patients who are insulated from the financial consequences of their healthcare choices — because a third party bears most of the cost — may lack sufficient motivation to act prudently in their health maintenance and prevention behaviour. This is the economic definition of moral hazard: taking actions one would not take if fully exposed to their costs.
+
+::: {.callout-caution title="Moral Hazard in Healthcare"}
+
+**Moral hazard** arises when one party engages in higher-risk behaviour because it is protected from the financial consequences — while another party bears the cost. In healthcare, third-party payment structures (insurance, state funding) systematically reduce the patient's incentive to economise on utilisation, increasing total demand without a corresponding increase in health output.
+
+:::
+
+The third distinctive feature is **enhanced state regulation**. The market imperfections described above — differentiation, asymmetric information, moral hazard, and the social value attached to equitable access — collectively justify mandatory state intervention across every healthcare subsector. Regulation takes multiple forms: licensing of providers and facilities, clinical standards, price controls, and mandated coverage requirements. The appropriate scope and design of regulation is itself a substantive economic question, and one that distinguishes healthcare policy from general competition policy.
+
+### Economic Evaluation of Health Technologies
+
+The assessment of economic decisions in healthcare is formalised in **Health Technology Assessment (HTA)**, a multidisciplinary activity that systematically evaluates the technical characteristics, safety, clinical effectiveness, costs, and organisational, social, legal, and ethical consequences of applying health technologies. HTA is always comparative: it evaluates a technology not in isolation but relative to the existing standard of care or the best available alternative. Its purpose is to provide policymakers and payers with the comprehensive information required to make rational coverage and reimbursement decisions.
+
+**Cost-Effectiveness Analysis (CEA)** measures the ratio between incremental costs and incremental health outcomes expressed in natural clinical units — life years gained, cases averted, hospitalisations prevented:
+
+$$Value = \frac{Health\,Benefits}{Costs}$$
+
+**Cost-Utility Analysis (CUA)** extends this framework by incorporating health-related quality of life into the outcome measure. It uses **Quality-Adjusted Life Years (QALYs)** as the summary metric:
+
+$$QALY = \sum (Years \times Quality\,Weight)$$
+
+A year lived in perfect health contributes one full QALY; a year lived with a disability or chronic condition contributes a fraction. The primary result of a CUA is the cost per QALY gained, which enables comparison of interventions across entirely different disease areas on a common scale.
+
+**Cost-Benefit Analysis (CBA)** requires that all outcomes — including health gains — be expressed in monetary terms, permitting direct comparison of incrementally increasing costs and benefits within a single accounting framework. For comparing two alternative interventions, the **Incremental Cost-Effectiveness Ratio (ICER)** provides the standard decision metric:
+
+$$ICER = \frac{Cost_A - Cost_B}{Effect_A - Effect_B}$$
+
+When the ICER falls below a pre-defined cost-effectiveness threshold, the new intervention is considered to represent acceptable value; when it exceeds that threshold, resources are better allocated to the comparator. The ICER framework is the standard instrument for health technology reimbursement decisions across European health systems.
+
+---
+
+## Marketing in Healthcare
+
+**Marketing** is, at its core, a managerial process for identifying, predicting, and satisfying the needs of defined populations within market conditions. In healthcare, this process is oriented not toward profit maximisation but toward the creation, offering, and delivery of greater **health value** — the ratio of health benefits achieved to the costs incurred:
+
+$$Value = \frac{Health\,Benefits}{Costs}$$
+
+Managing marketing in healthcare requires integrating three categories of activity. **Strategic activities** include market research, segmentation of the patient population by disease and demographic characteristics, and positioning decisions. **Tactical activities** cover product development, pricing, promotion, and distribution. **Administrative activities** encompass monitoring, evaluation of results, and continuous improvement of marketing strategies based on performance data.
+
+Healthcare marketing rests on several key conceptual foundations. The notion of **target markets and segments** acknowledges that no health product can address the needs of all patients simultaneously; the primary criterion for segmentation in healthcare is disease type and demographic characteristics. **Health needs and demand** constitute the starting point of any marketing cycle, and healthcare presents a distinctive feature: because a third-party payer typically absorbs much of the cost, total demand for health products is considered solvent regardless of the individual patient's immediate financial capacity — a structural departure from conventional market economics.
+
+The **transaction concept** captures the exchange structure at the centre of healthcare marketing: consumers receive health and pay contributions; payers receive contributions and pay for health products; providers receive payment and deliver health products. Successful marketing aims to move beyond individual transactions toward **relationship marketing** — the establishment of long-term, mutually beneficial connections between healthcare facilities and patients, staff, suppliers, and other stakeholders. These relationships, when sustained, develop into **marketing networks** capable of generating substantial public benefit through improved prevention, quality, and access.
+
+### The Marketing Mix
+
+The traditional marketing mix consists of four instruments — **Product**, **Price**, **Place**, and **Promotion** — each of which requires specific adaptation to the healthcare context. The healthcare product has a dual character: an intermediate product (the specific procedures and services performed) and a final product (the actual change in the patient's health status). Because healthcare services can only be purchased directly from the provider and cannot be transferred among potential recipients, product design must account for the inherently personal nature of the therapeutic relationship.
+
+Given the heavily regulated character of healthcare, contemporary frameworks extend the marketing mix by two additional parameters: **Politics** and **Public opinion**. Political decisions — licensing regimes, clinical standards, delegated budgets — shape what can be marketed and how. Public opinion determines the institutional prestige and societal trust without which patient engagement cannot be sustained.
+
+**Marketing channels** connect healthcare facilities with their target populations through two primary routes. The communication channel conveys messages to patients and referring physicians while receiving feedback. The sales channel facilitates the completion of healthcare transactions. Together, these channels constitute the infrastructure through which health value is delivered to its intended recipients.
+
+### States of Demand
+
+Healthcare marketing must actively manage a wide range of demand states, each requiring a distinct strategic response.
+
+::: {.callout-note title="Summary: States of Demand and Strategic Responses"}
+
+| Demand State | Characteristic Situation | Marketing Task |
+|---|---|---|
+| **Negative** | Services actively avoided (e.g., vaccination, psychiatric care) | Understand resistance; redesign quality, access, or communication |
+| **Absent** | Indifference or unawareness | Connect services to existing human needs; build awareness |
+| **Latent** | Unmet need for services not yet available or accessible | Develop offerings to meet needs as they become addressable |
+| **Decreasing** | Falling utilisation as disease burden or preferences shift | Remarketing; explore new markets, improved quality, or expanded offerings |
+| **Unregulated** | Severe seasonal or hourly fluctuations | Flexible pricing, access modification, targeted communication |
+| **Full** | Capacity and utilisation aligned | Maintenance; monitor satisfaction; prepare for preference shifts |
+| **Excessive** | Demand exceeds service capacity | Demarketing: price increases, reduced advertising, restricted access |
+| **Unhealthy** | Demand for health-damaging products or behaviours | Antimarketing: counter-advertising, emotional appeals, coordinated campaigns |
+
+:::
+
+**Negative demand** arises when a majority of potential users disapprove of or avoid offered services — vaccination programmes, psychiatric services, and dental preventive care are characteristic examples. The marketing task is to understand why resistance exists and whether changes in quality, access, pricing, or communication can alter beliefs and reduce avoidance behaviour.
+
+**Absent demand** describes the situation in which target populations are indifferent or unaware: they have no objection to the service but no motivation to seek it. Here the task is to establish a connection between offered services and existing human needs and interests, creating awareness where none currently exists.
+
+**Latent demand** represents perhaps the most clinically significant challenge. Large populations experience needs — for cancer treatment, cardiovascular care, disability management, or geriatric services — that they do not fully act upon, either because effective treatment is absent, because access is inadequate, or because stigma or fear suppresses help-seeking. The marketing task is to develop services capable of meeting these needs as they become technically addressable.
+
+**Decreasing demand** affects every organisation eventually. Utilisation of certain services may fall as effective treatments eliminate the underlying disease burden, or as shifting care preferences redirect patients to home care and outpatient settings. The strategic response — **remarketing** — involves identifying whether demand can be stimulated through new target markets, improved service quality, expanded offerings, or more effective communication. Where restoration proves impossible, responsible resource management may require the cessation of services or the closure of facilities.
+
+**Unregulated demand** manifests as severe fluctuations in utilisation across seasons, days, or hours, producing alternating episodes of overload and underutilisation. Emergency medical centres experience higher demand in evenings and at weekends; paediatric services face surges at the opening and closing of school years; hospital paraclinical departments see peak utilisation on weekdays with relative underuse at weekends. Flexible pricing, access modifications, and targeted communication are the instruments available to smooth these fluctuations.
+
+**Full demand** — the state in which capacity and utilisation are precisely aligned — represents the operational ideal, but it is inherently unstable. The marketing task is maintenance: sustaining current quality levels, continuously monitoring patient satisfaction, and preparing for shifts in preference or competitive intensity.
+
+**Excessive demand**, in which utilisation exceeds service capacity, calls for **demarketing** — deliberate strategies to reduce demand to manageable levels. Price increases, reduced advertising, and restricted access are the primary instruments. The goal is not to eliminate demand but to bring it into alignment with institutional capacity without permanent damage to the patient relationship.
+
+**Unhealthy demand** — demand for products demonstrably harmful to health — requires the most distinctive form of marketing intervention. Tobacco, alcohol, and illicit substances attract consumption from segments of the population whose behaviour generates substantial health burden. **Antimarketing**, or demarketing directed against harmful products, deploys counter-advertising, emotional communication that makes health risks salient, and coordinated campaigns to reduce consumption. The mechanisms are structurally identical to conventional marketing — targeted messages, defined audiences, optimal channels — but the objective is the inverse: reduction rather than promotion of consumption.
+
+### Social Marketing
+
+A critical distinction separates **commercial marketing**, which pursues financial profit, from **social marketing**, which aims to improve personal welfare and population health. Social marketing applies the technologies of commercial marketing — segmentation, targeting, message design, channel selection — to influence voluntary health behaviours: promoting smoking cessation, condom use, physical activity, or oral rehydration therapy. It addresses the complexity of health behaviour by recognising that generic information campaigns rarely produce change in defined subgroups, and that effectiveness requires the same degree of audience specificity and message calibration that underpins successful product marketing.
+
+### Critical Success Factors
+
+The effectiveness of healthcare marketing strategies ultimately depends on factors that precede any specific campaign or product decision. Continuous interpersonal relationships with patients, grounded in trust and professional ethics, form the foundation. The clinical competence and established reputation of physicians significantly influence patient choice and satisfaction — these cannot be manufactured by marketing but they can be protected and communicated. Easy, low-bureaucracy access to services matters disproportionately in healthcare because users are almost invariably under some degree of stress when seeking care; administrative friction amplifies that stress. The selection and training of healthcare personnel in standardised behavioural patterns — emphasising tolerance, empathy, communicativeness, discretion, and self-discipline — ensures consistency across the full range of patient encounters. Continuous monitoring of patient satisfaction provides the feedback necessary for improvement. Finally, coherent, long-term policies for staff recognition and material incentives sustain the motivation required for high-quality service delivery over time.
+
+The healthcare market is not, and should not be treated as, an end in itself. It is a means to the more effective use of resources and fairer remuneration for medical work. Market mechanisms find legitimate application in both private and public healthcare sectors, but their implementation requires persistent attention to the distinctive characteristics of healthcare — the vulnerability of patients, the information asymmetries that structure clinical relationships, and the social value attached to equitable access — that distinguish health services from ordinary consumer goods.

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-04-19">
+<meta name="description" content="A 15-minute reading covering strategic management and health planning, the foundations of health economics including opportunity cost, demand elasticity, and economic evaluation methods (CEA, CUA, CBA, ICER), and marketing in healthcare including the marketing mix, states of demand, and social marketing.">
+
+<title>Planning, Economics, and Marketing in Healthcare – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Planning, Economics, and Marketing in Healthcare – Kostadin Kostadinov">
+<meta name="twitter:description" content="A 15-minute reading covering strategic management and health planning, the foundations of health economics including opportunity cost, demand elasticity, and economic evaluation methods (CEA, CUA, CBA, ICER), and marketing in healthcare including the marketing mix, states of demand, and social marketing.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../learning.html"> 
+<span class="menu-text">15-minute learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tasks.html"> 
+<span class="menu-text">Learning tasks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../study-guide.html"> 
+<span class="menu-text">Social medicine study guide</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Planning, Economics, and Marketing in Healthcare</h1>
+                  <div>
+        <div class="description">
+          A 15-minute reading covering strategic management and health planning, the foundations of health economics including opportunity cost, demand elasticity, and economic evaluation methods (CEA, CUA, CBA, ICER), and marketing in healthcare including the marketing mix, states of demand, and social marketing.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">English</div>
+                <div class="quarto-category">Public Health</div>
+                <div class="quarto-category">Social Medicine</div>
+                <div class="quarto-category">Health Management</div>
+                <div class="quarto-category">Health Economics</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 19, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#planning-in-healthcare" id="toc-planning-in-healthcare" class="nav-link active" data-scroll-target="#planning-in-healthcare">Planning in Healthcare</a></li>
+  <li><a href="#health-economics" id="toc-health-economics" class="nav-link" data-scroll-target="#health-economics">Health Economics</a>
+  <ul class="collapse">
+  <li><a href="#economic-evaluation-of-health-technologies" id="toc-economic-evaluation-of-health-technologies" class="nav-link" data-scroll-target="#economic-evaluation-of-health-technologies">Economic Evaluation of Health Technologies</a></li>
+  </ul></li>
+  <li><a href="#marketing-in-healthcare" id="toc-marketing-in-healthcare" class="nav-link" data-scroll-target="#marketing-in-healthcare">Marketing in Healthcare</a>
+  <ul class="collapse">
+  <li><a href="#the-marketing-mix" id="toc-the-marketing-mix" class="nav-link" data-scroll-target="#the-marketing-mix">The Marketing Mix</a></li>
+  <li><a href="#states-of-demand" id="toc-states-of-demand" class="nav-link" data-scroll-target="#states-of-demand">States of Demand</a></li>
+  <li><a href="#social-marketing" id="toc-social-marketing" class="nav-link" data-scroll-target="#social-marketing">Social Marketing</a></li>
+  <li><a href="#critical-success-factors" id="toc-critical-success-factors" class="nav-link" data-scroll-target="#critical-success-factors">Critical Success Factors</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="planning-in-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="planning-in-healthcare">Planning in Healthcare</h2>
+<p>The word <em>strategy</em> enters healthcare management from Greek military thought, where it denoted the work of the general — the capacity to orient forces, assign resources, and pursue a defined objective across time and uncertainty. Contemporary usage retains this sense of purposeful governance under constraint. <strong>Strategic management</strong> in healthcare represents a comprehensive approach to organisational direction that synthesises environmental analysis, resource deployment, and outcome evaluation into a continuous, self-correcting process. It is neither a single plan nor a fixed protocol, but a sustained intellectual commitment to aligning an organisation’s activities with the needs of the population it serves.</p>
+<p>Duncan and colleagues identified five critical areas of knowledge that underpin the quality of strategic management. The first is generalised evidence — systematic, hypothesis-driven knowledge that controls for contextual variability and permits comparisons across settings. The second concerns specific contexts, meaning the particular social, physical, and cultural characteristics of each healthcare institution, including its established habits, ongoing processes, and organisational traditions. These two areas stand in productive tension: general evidence tells us what has worked elsewhere; contextual knowledge tells us what is feasible here. The third area involves the measurement of system functioning — the evaluation of change effects through rigorous research methods, enabling managers to distinguish genuine improvement from statistical noise. The fourth and fifth areas address the change plan itself and the implementation process, respectively: how evidence is linked to context, and how the necessary strategic, operational, and human resources are secured and deployed.</p>
+<p><strong>Strategic thinking</strong> is the cognitive foundation on which the entire edifice rests. It manifests in orientation within the external environment, systematic data analysis, open discussion of assumptions, and the generation of ideas that challenge established practice. <strong>Strategic planning</strong> builds upon this by constructing algorithmic sequences of action designed to realise the organisation’s mission. The output is not merely a document but a developed strategy, accompanied by situational analysis, examination of external and internal conditions, and detailed action plans covering adaptive, market, and competitive dimensions. The <strong>implementation phase</strong> then translates strategic intent into consecutive managerial actions — evaluating progress, launching new initiatives, and revising course as circumstances demand.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Definition">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Health planning</strong> is the continuous process of assessing community health problems, identifying unmet needs and available resources, establishing priority objectives, and designing administrative strategies to reach those goals.</p>
+</div>
+</div>
+<p>The planning cycle proceeds through recognisable phases: identification and prioritisation of health problems, formulation of specific objectives, mobilisation of human and material resources, operational programming, implementation, continuous monitoring, and eventual replanning based on outcome evaluation. Two distinct approaches inform the prioritisation step. The <strong>epidemiological approach</strong> directs resources toward conditions generating the greatest burden in terms of mortality, morbidity, and disability, using quantitative measures to rank the relative weight of different health problems. The <strong>social and economic relevance approach</strong> extends this analysis by incorporating the broader societal consequences of health activity — effects on economic productivity, social cohesion, and educational attainment — recognising that the public health rationale for an intervention may extend well beyond clinical outcomes. In practice, robust planning systems draw on both approaches rather than treating them as mutually exclusive alternatives.</p>
+<p>Planning methodology also distinguishes between two temporal orientations. <strong>Forward planning</strong> begins from existing conditions — the current configuration of interests, resources, institutional capacities, and political constraints — and projects which policies can realistically emerge from that starting point. It excels at feasibility and is well adapted to environments where the distance between aspiration and reality is large. <strong>Backward planning</strong>, or normative backcasting, inverts this sequence: it defines a desired future state first — an optimal health system configuration, for example — and works retrospectively to identify the interventions, intermediate milestones, and enabling conditions required to reach it. Backward planning prioritises vision over constraint and is particularly suited to long-horizon goals where incremental forward projection would systematically underestimate what is achievable.</p>
+<p>Swain and Duncan identified three questions that strategic management must ultimately answer: whether the organisation will continue providing its current health activities in the future, what new activities will be required to meet emerging demands, and which currently provided activities will become obsolete as health needs evolve. These questions are not rhetorical. They require sustained empirical investigation of epidemiological trends, technological change, and population preferences, and their answers directly shape the allocation of the organisation’s most constrained resources — money, personnel, and institutional attention.</p>
+<hr>
+</section>
+<section id="health-economics" class="level2">
+<h2 class="anchored" data-anchor-id="health-economics">Health Economics</h2>
+<p><strong>Economics</strong> is the social science of choice under scarcity: the study of how individuals, organisations, and societies allocate limited resources to satisfy competing needs. <strong>Health economics</strong> applies the conceptual tools of economics to problems specifically arising in health and healthcare, and the public health system — as an organised entity — confronts the economic challenge of using its resources to generate the greatest possible improvement in population health.</p>
+<p>The field divides into two branches distinguished by their unit of analysis. <strong>Microeconomic health science</strong> examines the operational behaviour, sustainability, and financial performance of individual healthcare providers, both public and private. The same economic logic applicable to any service-producing enterprise — cost structure, revenue generation, incentive design — applies here, though modified by the distinctive regulatory and ethical environment of healthcare. <strong>Macroeconomic health science</strong> addresses healthcare’s economic problems at the national level: what kind of healthcare system a nation requires, how it should be financed and subsidised, how it should be structured by specialty and geography, and what the relationship between national economic development and population health actually looks like. At this scale, health economists evaluate the aggregate consequences of financing models, assess the efficiency of system structures, and seek evidence to inform healthcare policy.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Definition">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Opportunity cost</strong> — the value of the best alternative foregone when a particular choice is made.</p>
+<p><span class="math display">\[Cost_{opportunity} = Value_{next\,best\,alternative}\]</span></p>
+</div>
+</div>
+<p>Every resource allocated to one intervention is unavailable for another. This principle, elementary in economics, has profound implications in healthcare, where the stakes of allocation decisions are measured in mortality and quality of life. The explicit acknowledgement of opportunity cost is a prerequisite for rational planning: a decision-maker who does not ask what is being sacrificed cannot claim to be allocating resources efficiently.</p>
+<p>Health economics exhibits several distinctive features that differentiate healthcare markets from conventional commodity markets. The first is the <strong>high degree of differentiation of health products</strong>. Healthcare services are inherently heterogeneous — the same diagnosis may generate substantially different treatment pathways across providers, institutions, and patient preferences. Patients differ not only in clinical presentation but in their preferences for treatment type, duration, location, and the personal qualities of their physician. This heterogeneity reinforces the market positions of providers who best satisfy diverse patient preferences while simultaneously eroding the positions of those who do not.</p>
+<p>The low level of substitutability between providers generates market power that resembles monopolistic conditions, producing characteristically low <strong>demand elasticity</strong> for health products. The hospital sector, in particular, exhibits <strong>oligopolistic supply</strong>: relatively few providers operate consistently at high quality levels over time, enabling them to exert significant influence over prices within their markets. Economic theory offers limited general guidance for antitrust policy in settings of pronounced product differentiation, and strong state regulation of prices — while addressing some market failures — may generate its own inefficiencies.</p>
+<p>The second distinctive feature is <strong>asymmetric information and moral hazard</strong>. The physician possesses knowledge about the patient’s condition that the patient, by definition, cannot fully share. This disparity is not a failure of the system but a structural feature of the clinical relationship: expertise is precisely why the patient seeks care. It raises fundamental questions, however, about the extent to which the physician acts as a genuine agent for the patient’s interests, and about how accurate diagnosis and appropriate treatment selection can be verified from outside the clinical encounter. Asymmetric information also operates between insured individuals and financing institutions. Patients who are insulated from the financial consequences of their healthcare choices — because a third party bears most of the cost — may lack sufficient motivation to act prudently in their health maintenance and prevention behaviour. This is the economic definition of moral hazard: taking actions one would not take if fully exposed to their costs.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Moral Hazard in Healthcare">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Moral Hazard in Healthcare
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Moral hazard</strong> arises when one party engages in higher-risk behaviour because it is protected from the financial consequences — while another party bears the cost. In healthcare, third-party payment structures (insurance, state funding) systematically reduce the patient’s incentive to economise on utilisation, increasing total demand without a corresponding increase in health output.</p>
+</div>
+</div>
+<p>The third distinctive feature is <strong>enhanced state regulation</strong>. The market imperfections described above — differentiation, asymmetric information, moral hazard, and the social value attached to equitable access — collectively justify mandatory state intervention across every healthcare subsector. Regulation takes multiple forms: licensing of providers and facilities, clinical standards, price controls, and mandated coverage requirements. The appropriate scope and design of regulation is itself a substantive economic question, and one that distinguishes healthcare policy from general competition policy.</p>
+<section id="economic-evaluation-of-health-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="economic-evaluation-of-health-technologies">Economic Evaluation of Health Technologies</h3>
+<p>The assessment of economic decisions in healthcare is formalised in <strong>Health Technology Assessment (HTA)</strong>, a multidisciplinary activity that systematically evaluates the technical characteristics, safety, clinical effectiveness, costs, and organisational, social, legal, and ethical consequences of applying health technologies. HTA is always comparative: it evaluates a technology not in isolation but relative to the existing standard of care or the best available alternative. Its purpose is to provide policymakers and payers with the comprehensive information required to make rational coverage and reimbursement decisions.</p>
+<p><strong>Cost-Effectiveness Analysis (CEA)</strong> measures the ratio between incremental costs and incremental health outcomes expressed in natural clinical units — life years gained, cases averted, hospitalisations prevented:</p>
+<p><span class="math display">\[Value = \frac{Health\,Benefits}{Costs}\]</span></p>
+<p><strong>Cost-Utility Analysis (CUA)</strong> extends this framework by incorporating health-related quality of life into the outcome measure. It uses <strong>Quality-Adjusted Life Years (QALYs)</strong> as the summary metric:</p>
+<p><span class="math display">\[QALY = \sum (Years \times Quality\,Weight)\]</span></p>
+<p>A year lived in perfect health contributes one full QALY; a year lived with a disability or chronic condition contributes a fraction. The primary result of a CUA is the cost per QALY gained, which enables comparison of interventions across entirely different disease areas on a common scale.</p>
+<p><strong>Cost-Benefit Analysis (CBA)</strong> requires that all outcomes — including health gains — be expressed in monetary terms, permitting direct comparison of incrementally increasing costs and benefits within a single accounting framework. For comparing two alternative interventions, the <strong>Incremental Cost-Effectiveness Ratio (ICER)</strong> provides the standard decision metric:</p>
+<p><span class="math display">\[ICER = \frac{Cost_A - Cost_B}{Effect_A - Effect_B}\]</span></p>
+<p>When the ICER falls below a pre-defined cost-effectiveness threshold, the new intervention is considered to represent acceptable value; when it exceeds that threshold, resources are better allocated to the comparator. The ICER framework is the standard instrument for health technology reimbursement decisions across European health systems.</p>
+<hr>
+</section>
+</section>
+<section id="marketing-in-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="marketing-in-healthcare">Marketing in Healthcare</h2>
+<p><strong>Marketing</strong> is, at its core, a managerial process for identifying, predicting, and satisfying the needs of defined populations within market conditions. In healthcare, this process is oriented not toward profit maximisation but toward the creation, offering, and delivery of greater <strong>health value</strong> — the ratio of health benefits achieved to the costs incurred:</p>
+<p><span class="math display">\[Value = \frac{Health\,Benefits}{Costs}\]</span></p>
+<p>Managing marketing in healthcare requires integrating three categories of activity. <strong>Strategic activities</strong> include market research, segmentation of the patient population by disease and demographic characteristics, and positioning decisions. <strong>Tactical activities</strong> cover product development, pricing, promotion, and distribution. <strong>Administrative activities</strong> encompass monitoring, evaluation of results, and continuous improvement of marketing strategies based on performance data.</p>
+<p>Healthcare marketing rests on several key conceptual foundations. The notion of <strong>target markets and segments</strong> acknowledges that no health product can address the needs of all patients simultaneously; the primary criterion for segmentation in healthcare is disease type and demographic characteristics. <strong>Health needs and demand</strong> constitute the starting point of any marketing cycle, and healthcare presents a distinctive feature: because a third-party payer typically absorbs much of the cost, total demand for health products is considered solvent regardless of the individual patient’s immediate financial capacity — a structural departure from conventional market economics.</p>
+<p>The <strong>transaction concept</strong> captures the exchange structure at the centre of healthcare marketing: consumers receive health and pay contributions; payers receive contributions and pay for health products; providers receive payment and deliver health products. Successful marketing aims to move beyond individual transactions toward <strong>relationship marketing</strong> — the establishment of long-term, mutually beneficial connections between healthcare facilities and patients, staff, suppliers, and other stakeholders. These relationships, when sustained, develop into <strong>marketing networks</strong> capable of generating substantial public benefit through improved prevention, quality, and access.</p>
+<section id="the-marketing-mix" class="level3">
+<h3 class="anchored" data-anchor-id="the-marketing-mix">The Marketing Mix</h3>
+<p>The traditional marketing mix consists of four instruments — <strong>Product</strong>, <strong>Price</strong>, <strong>Place</strong>, and <strong>Promotion</strong> — each of which requires specific adaptation to the healthcare context. The healthcare product has a dual character: an intermediate product (the specific procedures and services performed) and a final product (the actual change in the patient’s health status). Because healthcare services can only be purchased directly from the provider and cannot be transferred among potential recipients, product design must account for the inherently personal nature of the therapeutic relationship.</p>
+<p>Given the heavily regulated character of healthcare, contemporary frameworks extend the marketing mix by two additional parameters: <strong>Politics</strong> and <strong>Public opinion</strong>. Political decisions — licensing regimes, clinical standards, delegated budgets — shape what can be marketed and how. Public opinion determines the institutional prestige and societal trust without which patient engagement cannot be sustained.</p>
+<p><strong>Marketing channels</strong> connect healthcare facilities with their target populations through two primary routes. The communication channel conveys messages to patients and referring physicians while receiving feedback. The sales channel facilitates the completion of healthcare transactions. Together, these channels constitute the infrastructure through which health value is delivered to its intended recipients.</p>
+</section>
+<section id="states-of-demand" class="level3">
+<h3 class="anchored" data-anchor-id="states-of-demand">States of Demand</h3>
+<p>Healthcare marketing must actively manage a wide range of demand states, each requiring a distinct strategic response.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Summary: States of Demand and Strategic Responses">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Summary: States of Demand and Strategic Responses
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Demand State</th>
+<th>Characteristic Situation</th>
+<th>Marketing Task</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Negative</strong></td>
+<td>Services actively avoided (e.g., vaccination, psychiatric care)</td>
+<td>Understand resistance; redesign quality, access, or communication</td>
+</tr>
+<tr class="even">
+<td><strong>Absent</strong></td>
+<td>Indifference or unawareness</td>
+<td>Connect services to existing human needs; build awareness</td>
+</tr>
+<tr class="odd">
+<td><strong>Latent</strong></td>
+<td>Unmet need for services not yet available or accessible</td>
+<td>Develop offerings to meet needs as they become addressable</td>
+</tr>
+<tr class="even">
+<td><strong>Decreasing</strong></td>
+<td>Falling utilisation as disease burden or preferences shift</td>
+<td>Remarketing; explore new markets, improved quality, or expanded offerings</td>
+</tr>
+<tr class="odd">
+<td><strong>Unregulated</strong></td>
+<td>Severe seasonal or hourly fluctuations</td>
+<td>Flexible pricing, access modification, targeted communication</td>
+</tr>
+<tr class="even">
+<td><strong>Full</strong></td>
+<td>Capacity and utilisation aligned</td>
+<td>Maintenance; monitor satisfaction; prepare for preference shifts</td>
+</tr>
+<tr class="odd">
+<td><strong>Excessive</strong></td>
+<td>Demand exceeds service capacity</td>
+<td>Demarketing: price increases, reduced advertising, restricted access</td>
+</tr>
+<tr class="even">
+<td><strong>Unhealthy</strong></td>
+<td>Demand for health-damaging products or behaviours</td>
+<td>Antimarketing: counter-advertising, emotional appeals, coordinated campaigns</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong>Negative demand</strong> arises when a majority of potential users disapprove of or avoid offered services — vaccination programmes, psychiatric services, and dental preventive care are characteristic examples. The marketing task is to understand why resistance exists and whether changes in quality, access, pricing, or communication can alter beliefs and reduce avoidance behaviour.</p>
+<p><strong>Absent demand</strong> describes the situation in which target populations are indifferent or unaware: they have no objection to the service but no motivation to seek it. Here the task is to establish a connection between offered services and existing human needs and interests, creating awareness where none currently exists.</p>
+<p><strong>Latent demand</strong> represents perhaps the most clinically significant challenge. Large populations experience needs — for cancer treatment, cardiovascular care, disability management, or geriatric services — that they do not fully act upon, either because effective treatment is absent, because access is inadequate, or because stigma or fear suppresses help-seeking. The marketing task is to develop services capable of meeting these needs as they become technically addressable.</p>
+<p><strong>Decreasing demand</strong> affects every organisation eventually. Utilisation of certain services may fall as effective treatments eliminate the underlying disease burden, or as shifting care preferences redirect patients to home care and outpatient settings. The strategic response — <strong>remarketing</strong> — involves identifying whether demand can be stimulated through new target markets, improved service quality, expanded offerings, or more effective communication. Where restoration proves impossible, responsible resource management may require the cessation of services or the closure of facilities.</p>
+<p><strong>Unregulated demand</strong> manifests as severe fluctuations in utilisation across seasons, days, or hours, producing alternating episodes of overload and underutilisation. Emergency medical centres experience higher demand in evenings and at weekends; paediatric services face surges at the opening and closing of school years; hospital paraclinical departments see peak utilisation on weekdays with relative underuse at weekends. Flexible pricing, access modifications, and targeted communication are the instruments available to smooth these fluctuations.</p>
+<p><strong>Full demand</strong> — the state in which capacity and utilisation are precisely aligned — represents the operational ideal, but it is inherently unstable. The marketing task is maintenance: sustaining current quality levels, continuously monitoring patient satisfaction, and preparing for shifts in preference or competitive intensity.</p>
+<p><strong>Excessive demand</strong>, in which utilisation exceeds service capacity, calls for <strong>demarketing</strong> — deliberate strategies to reduce demand to manageable levels. Price increases, reduced advertising, and restricted access are the primary instruments. The goal is not to eliminate demand but to bring it into alignment with institutional capacity without permanent damage to the patient relationship.</p>
+<p><strong>Unhealthy demand</strong> — demand for products demonstrably harmful to health — requires the most distinctive form of marketing intervention. Tobacco, alcohol, and illicit substances attract consumption from segments of the population whose behaviour generates substantial health burden. <strong>Antimarketing</strong>, or demarketing directed against harmful products, deploys counter-advertising, emotional communication that makes health risks salient, and coordinated campaigns to reduce consumption. The mechanisms are structurally identical to conventional marketing — targeted messages, defined audiences, optimal channels — but the objective is the inverse: reduction rather than promotion of consumption.</p>
+</section>
+<section id="social-marketing" class="level3">
+<h3 class="anchored" data-anchor-id="social-marketing">Social Marketing</h3>
+<p>A critical distinction separates <strong>commercial marketing</strong>, which pursues financial profit, from <strong>social marketing</strong>, which aims to improve personal welfare and population health. Social marketing applies the technologies of commercial marketing — segmentation, targeting, message design, channel selection — to influence voluntary health behaviours: promoting smoking cessation, condom use, physical activity, or oral rehydration therapy. It addresses the complexity of health behaviour by recognising that generic information campaigns rarely produce change in defined subgroups, and that effectiveness requires the same degree of audience specificity and message calibration that underpins successful product marketing.</p>
+</section>
+<section id="critical-success-factors" class="level3">
+<h3 class="anchored" data-anchor-id="critical-success-factors">Critical Success Factors</h3>
+<p>The effectiveness of healthcare marketing strategies ultimately depends on factors that precede any specific campaign or product decision. Continuous interpersonal relationships with patients, grounded in trust and professional ethics, form the foundation. The clinical competence and established reputation of physicians significantly influence patient choice and satisfaction — these cannot be manufactured by marketing but they can be protected and communicated. Easy, low-bureaucracy access to services matters disproportionately in healthcare because users are almost invariably under some degree of stress when seeking care; administrative friction amplifies that stress. The selection and training of healthcare personnel in standardised behavioural patterns — emphasising tolerance, empathy, communicativeness, discretion, and self-discipline — ensures consistency across the full range of patient encounters. Continuous monitoring of patient satisfaction provides the feedback necessary for improvement. Finally, coherent, long-term policies for staff recognition and material incentives sustain the motivation required for high-quality service delivery over time.</p>
+<p>The healthcare market is not, and should not be treated as, an end in itself. It is a means to the more effective use of resources and fairer remuneration for medical work. Market mechanisms find legitimate application in both private and public healthcare sectors, but their implementation requires persistent attention to the distinctive characteristics of healthcare — the vulnerability of patients, the information asymmetries that structure clinical relationships, and the social value attached to equitable access — that distinguish health services from ordinary consumer goods.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -20,6 +20,7 @@
     "listing": "/learning.html",
     "items": [
       "/15-minute-learning/health-culture.html",
+      "/15-minute-learning/planning-economics-marketing.html",
       "/15-minute-learning/liability-social-history.html",
       "/15-minute-learning/reproductive-family-adolescent-health.html",
       "/15-minute-learning/temporary-incapacity.html",
@@ -34,7 +35,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W15-en.html",
       "/epinews-posts/2026-W14-en.html",
@@ -64,7 +65,7 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W15-en.html",
       "/epinews-posts/2026-W14-en.html",
