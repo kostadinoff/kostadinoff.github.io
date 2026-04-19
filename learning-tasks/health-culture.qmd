@@ -1,0 +1,189 @@
+---
+title: "Health Culture, Health Behavior, and Health Education"
+author: "Kostadin Kostadinov"
+date: 2026-04-19
+description: "Interactive class tasks on health culture components, the COM-B model and its critique, motivations of health behavior, the Bulgarian Red Cross, and health education methods and models."
+categories:
+  - "Social Medicine"
+  - "Public Health"
+  - "Health Education"
+  - "Assignment"
+---
+
+## Instructions
+
+Work in your assigned groups. Each group completes **both parts** of the session. Part I focuses on applied analysis of health behavior and education in a real-world context; Part II works through structured conceptual exercises on the session's theoretical content.
+
+Allocate approximately **20 minutes to Part I** and **20 minutes to Part II**. A cross-group synthesis question closes the session.
+
+### Reference Material
+
+*This assignment is based on the reading material: [Health Culture, Health Behavior, and Health Education](../15-minute-learning/health-culture.qmd). All answers and justifications must reference the concepts and frameworks established in this text.*
+
+---
+
+# Part I — Applied Analysis: Health Culture in Practice
+
+## Task
+
+Your group is assigned a **specific health behavior challenge** from the list below (your supervisor will allocate one per group). Using the frameworks from the reading, analyse the challenge and develop a structured intervention proposal.
+
+**Behavior challenges:**
+
+1. Low uptake of colorectal cancer screening among adults aged 50–70 in a rural municipality
+2. High prevalence of tobacco use among male construction workers aged 25–45
+3. Resistance to childhood vaccination among parents in a peri-urban community
+4. Insufficient voluntary blood donation participation among university students
+5. Physical inactivity and obesity in secondary school adolescents
+
+### Step 1 — Diagnose the Behavior Using COM-B
+
+Apply the COM-B framework to your assigned behavior challenge. For each component, identify the specific barriers and enablers operating in your scenario.
+
+**Capability barriers and enablers**
+
+- What knowledge or skills does the target population lack or possess?
+- Are there literacy, language, or cognitive factors relevant to this population?
+
+**Opportunity barriers and enablers**
+
+- What environmental or structural factors facilitate or obstruct the behavior?
+- Consider physical access, cost, institutional support, and social norms.
+
+**Motivation barriers and enablers**
+
+- Which motivational categories from the reading are most relevant? (Health-rational, psycho-physiological, aesthetic, socio-psychological, moral, economic?)
+- Is there evidence of the *wanting* gap described in Marks' critique? How would you address it?
+
+---
+
+### Step 2 — Identify the Dominant Habit Formation Mechanism
+
+From the three mechanisms of habit formation (repetition, imitation, conscious understanding), identify which should be the **primary lever** for your intervention and explain why.
+
+---
+
+### Step 3 — Design an Intervention
+
+Design a brief intervention proposal (one A4 page equivalent) that addresses the barriers you identified. Your proposal must specify:
+
+- **Target population** — be specific about demographic and contextual characteristics
+- **Intervention goal** — what behavior change is sought, and by what measure?
+- **Educational model** — authoritarian, collaborative, or promotional? Justify your choice
+- **Primary method** — from the classical or modern methods in the reading; justify the match to your population
+- **Role of the Bulgarian Red Cross or similar NGO** — could any of the specialized divisions contribute?
+- **Evaluation approach** — how will you know the intervention worked?
+
+---
+
+### Step 4 — Group Presentation (5 minutes)
+
+Present your behavior challenge, your COM-B diagnosis, and the two highest-priority elements of your intervention proposal. Be prepared to justify method selection against the criteria in the Method Selection Framework from the reading.
+
+---
+
+# Part II — Conceptual Exercises
+
+## Exercise 1 — Knowledge–Behavior Gap
+
+::: {.callout-note}
+A 52-year-old male general practitioner — non-smoker, normal BMI — has never attended a preventive cardiology screening despite recommending it annually to his own patients. He is aware of his own family history of myocardial infarction. He describes himself as "too busy" and believes that as a physician he would notice warning signs himself.
+
+:::
+
+**Discussion questions:**
+
+1. The physician possesses extensive health knowledge and belongs to an educated profession. According to the definition of health culture in the reading, does this make him a person of high health culture? Justify your answer with reference to the knowledge → belief → attitude → habit sequence.
+
+2. Apply the COM-B model. Is the barrier here one of capability, opportunity, or motivation? Which element of Marks' critique is most relevant?
+
+3. What specific motivational category or categories (from the six described in the reading) appear to be *absent or suppressed* in this case? What category is driving his inaction?
+
+4. Your group has been asked to design a brief intervention for this physician. Which educational model would you select, and why does the authoritarian model seem particularly poorly suited here?
+
+::: {.callout-tip title="Model Answer — Question 1" collapse="true"}
+
+The physician does not exemplify high health culture despite his knowledge. The reading defines health culture not as knowledge alone but as the **comprehensive integration of knowledge, beliefs, skills, habits, and behaviors** directed at health preservation. The knowledge → belief → attitude → habit transformation has stalled here at the transition from knowledge to belief-as-action: the physician knows the recommendation but has not internalized its personal applicability — his belief that "he would notice warning signs himself" reflects a form of professional exceptionalism that disrupts the attitudinal stage. High subjective health culture requires alignment between internalized values and actual behavioral patterns regarding one's own health, which is absent.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 2" collapse="true"}
+
+The COM-B diagnosis points primarily to **motivation** rather than capability (he has full knowledge and skills) or opportunity (he has access to cardiology services). The "too busy" explanation is a rationalisation masking a motivational deficit — health screening is not a competing priority. Marks' critique is precisely relevant here: the physician has capability, faces no meaningful external barrier, yet does not act. The missing element is **wanting** — he does not want to attend screening enough to displace competing priorities. A COM-B analysis would mislocate the barrier in opportunity or motivation-as-habit; a COMW-B lens correctly identifies the absence of active wanting as the intervention target.
+
+:::
+
+---
+
+## Exercise 2 — Health Education Method Selection
+
+::: {.callout-note}
+A district health authority commissions a 6-month campaign to increase voluntary blood donation participation among residents aged 18–30. Available resources include: a campaign coordinator, a graphic designer, access to local social media accounts (combined reach: 42,000 followers), one partnership with the Bulgarian Red Cross district organization, and a budget of 8,000 BGN. Three radio spots are included. No interactive sessions are funded.
+
+:::
+
+**Discussion questions:**
+
+1. Map the available resources to the classical and modern methods described in the reading. Which methods are feasible? Which are excluded by resource constraints?
+
+2. The health authority proposes a poster campaign with the slogan: *"Every drop counts. Don't be afraid."* Evaluate this design choice against the principles of effective health education — in particular, the emotionality and optimism principle. Does the fear-reduction frame support or undermine anticipated behavior change?
+
+3. The Bulgarian Red Cross district organization offers to deploy its **Youth Emergency Team** for peer-led sessions at three universities. Which method category does this represent, and what is its theoretical mechanism of action? What is the predicted advantage over the poster campaign alone?
+
+4. The campaign coordinator argues for a **social immunization** component: a short video pre-emptively countering common myths about blood donation side-effects (dizziness, weakness, subsequent health impact). Explain the mechanism of social immunization as described in the reading and evaluate whether this is an appropriate strategy for this population and goal.
+
+::: {.callout-tip title="Model Answer — Question 3" collapse="true"}
+
+The Youth Emergency Team deployment represents **social learning** (a modern method) grounded in observational learning mechanisms from social cognitive theory. Its mechanism of action is the modeling of healthy behavior by valued, proximate, and similar peers — the team members are themselves young, associated with the Red Cross's humanitarian prestige, and operate in the same institutional context (universities) as the target population. The predicted advantage over poster campaigns is twofold: first, the interpersonal channel produces substantially greater attitude change than mass media alone, particularly for behaviors requiring the overcoming of social anxiety (needles, physical side-effects); second, peer educators can respond to specific objections and personalize the motivational appeal in ways that static media cannot. The reading identifies imitation as a primary mechanism of habit formation — the peer-led session activates this mechanism directly.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 4" collapse="true"}
+
+Social immunization (inoculation theory) works by **preemptively exposing** the target audience to weakened versions of the arguments or emotional appeals likely to deter the behavior — accompanied by refutation — before those arguments are encountered in the environment. This builds cognitive and emotional "antibodies": when the full deterrent message (e.g., "I heard someone fainted after donating") is encountered later, the individual has already processed a counter-argument and is more resistant to its persuasive force. For this population (18–30, social media users, blood donation hesitant), a short video addressing the three or four most prevalent myths is highly appropriate: the mechanism matches the barrier type (belief-based reluctance rather than access or awareness), the format matches the channel (video, social media), and the content addresses the psycho-physiological motivational category specifically (fear of physical discomfort). It functions as primary prevention of attitude deterioration rather than knowledge transfer — a genuinely different and complementary mechanism to the poster and peer-educator components.
+
+:::
+
+---
+
+## Exercise 3 — Health Culture at the Objective Level
+
+::: {.callout-note}
+
+A national survey finds that 68% of adults in Bulgaria report washing hands with soap after using the toilet, but observed hand-washing rates in hospital restrooms — measured by covert observation — are 23% for patients and visitors and 41% for clinical staff.
+
+:::
+
+**Discussion questions:**
+
+1. The reading distinguishes between **objective** and **subjective** health culture. How does this data illustrate tension between the two levels?
+
+2. Using the six dimensions of health culture in social relations, identify which specific dimensions each actor group (patients/visitors, clinical staff) is failing to actualize.
+
+3. The hospital administration proposes mandatory hand-hygiene training for all staff as the primary response. From the perspective of the five steps of health culture development, at which step does this intervention commence, and what steps have been skipped? What risks does this create?
+
+4. The same data is used to argue for the **authoritarian model** of health education — standardized mandatory instruction — because infection control is a domain where "standardized behavioral response is scientifically mandated." Evaluate this argument using the reading's own characterization of when the authoritarian model retains utility.
+
+::: {.callout-tip title="Model Answer — Question 1" collapse="true"}
+
+The data illustrates a structural gap between **subjective health culture** (self-reported beliefs and attitudes, which 68% report as favorable) and the **behavioral expression** of those attitudes (observed compliance of 23–41%). This discrepancy is precisely the knowledge → behavior gap that the definition of health culture addresses: subjective health culture is not merely what individuals report believing but what is actualized in their consistent behavioral patterns. The reported 68% figure captures stated attitudes; the observation data captures behavioral reality. The observation also reveals that objective health culture — institutional norms, environmental prompts, peer visibility of the behavior — is insufficiently structured to bridge this gap, particularly for the non-clinical population.
+
+:::
+
+::: {.callout-tip title="Model Answer — Question 3" collapse="true"}
+
+Mandatory training commences at Step 4 (implementation and capacity building) without completing Steps 1–3. Step 1 (assessment of cultural context) would reveal why the gap exists — is it competing priorities, inadequate infrastructure (sink number, soap availability, placement), professional identity, absence of social accountability, or genuine knowledge deficit? Step 2 (community engagement) would involve ward staff in diagnosing the problem and co-designing solutions, generating ownership of the norm rather than compliance under surveillance. Step 3 (culturally grounded intervention) would address deep structural adaptation — the socio-psychological climate among clinical staff — rather than only the surface behavior. Skipping these steps risks producing compliance during observed periods with rapid reversion when oversight is absent, and fosters resentment that undermines the broader culture-building goal.
+
+:::
+
+---
+
+# Cross-Group Synthesis
+
+After all groups have presented, discuss the following question together:
+
+> The reading presents two definitions — health culture and health education — which are mutually reinforcing: health education is the instrument by which health culture is developed, and health culture is the outcome health education seeks to produce.
+>
+> However, the COM-B critique and the knowledge–behavior gap evidence suggest that even well-designed educational interventions frequently fail to change behavior. The five steps of health culture development recognize that change is "incremental rather than transformative at a single point in time."
+>
+> **What does this imply for how we should evaluate health education programs?** Should behavior change be the primary metric, or are there intermediate outcomes — in attitudes, norms, institutional practices, or health literacy — that better reflect whether an intervention has succeeded at the level of *culture* rather than merely *compliance*?
