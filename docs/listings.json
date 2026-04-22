@@ -2,9 +2,9 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/hospital-care.html",
       "/learning-tasks/health-culture.html",
       "/learning-tasks/health-education-program-design.html",
-      "/learning-tasks/hospital-care.html",
       "/learning-tasks/liability-social-history.html",
       "/learning-tasks/reproductive-family-adolescent-health.html",
       "/learning-tasks/temporary-incapacity.html",
@@ -37,6 +37,7 @@
   {
     "listing": "/epinews.html",
     "items": [
+      "/epinews-posts/2026-W16-en.html",
       "/epinews-posts/2026-W15-en.html",
       "/epinews-posts/2026-W14-en.html",
       "/epinews-posts/2026-W13-en.html",
@@ -67,6 +68,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/epinews-posts/2026-W16-en.html",
       "/epinews-posts/2026-W15-en.html",
       "/epinews-posts/2026-W14-en.html",
       "/epinews-posts/2026-W13-en.html",
