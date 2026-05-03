@@ -4,6 +4,7 @@ project:
   resources:
     - SOCIAL_SEMESTER_BOOK_EN.pdf
     - .nojekyll
+    - 2025-2026-classes/
 
 website:
   site-url: "https://kostadinoff.github.io"

@@ -12,6 +12,26 @@ Explore the AI-generated study materials (NotebookLM) for the following subjects
 * [Epidemiology](https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536)
 * [Hygiene](https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd)
 
+## Practical Class Slides (2025-2026)
+
+Access the slides for the practical classes below:
+
+* [Practical Class 01](2025-2026-classes/practical-class-01.pdf)
+* [Practical Class 02](2025-2026-classes/practical-class-02.pdf)
+* [Practical Class 03](2025-2026-classes/practical-class-03.pdf)
+* [Practical Class 04](2025-2026-classes/practical-class-04.pdf)
+* [Practical Class 05](2025-2026-classes/practical-class-05.pdf)
+* [Practical Class 06](2025-2026-classes/practical-class-06.pdf)
+* [Practical Class 07](2025-2026-classes/practical-class-07.pdf)
+* [Practical Class 08](2025-2026-classes/practical-class-08.pdf)
+* [Practical Class 09](2025-2026-classes/practical-class-09.pdf)
+* [Practical Class 10](2025-2026-classes/practical-class-10.pdf)
+* [Practical Class 11](2025-2026-classes/practical-class-11.pdf)
+* [Practical Class 12](2025-2026-classes/practical-class-12.pdf)
+* [Practical Class 13](2025-2026-classes/practical-class-13.pdf)
+* [Practical Class 14](2025-2026-classes/practical-class-14.pdf)
+* [Practical Class 15](2025-2026-classes/practical-class-15.pdf)
+
 ## Study Guide PDF
 
 ```{=html}
