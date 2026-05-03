@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Social medicine study guide – Kostadin Kostadinov</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc4be5a28da13f0c3ab719a367ca5a8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c4c4011f5b892ce9b4a6911cb10ad1e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Social medicine study guide – Kostadin Kostadinov">
+<meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
 <meta name="twitter:card" content="summary">
 </head>
@@ -169,8 +167,15 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#notebooklm-resources" id="toc-notebooklm-resources" class="nav-link active" data-scroll-target="#notebooklm-resources">NotebookLM Resources</a></li>
+  <li><a href="#study-guide-pdf" id="toc-study-guide-pdf" class="nav-link" data-scroll-target="#study-guide-pdf">Study Guide PDF</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -179,12 +184,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="notebooklm-resources" class="level2">
+<h2 class="anchored" data-anchor-id="notebooklm-resources">NotebookLM Resources</h2>
+<p>Explore the AI-generated study materials (NotebookLM) for the following subjects:</p>
+<ul>
+<li><a href="https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2">Social Medicine</a></li>
+<li><a href="https://notebooklm.google.com/notebook/4a653e2e-14e0-4ffe-8ac7-942fa7b0c100">Biostatistics</a></li>
+<li><a href="https://notebooklm.google.com/notebook/5344e475-f3d5-407f-b276-e349afcadb89">Bioethics</a></li>
+<li><a href="https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536">Epidemiology</a></li>
+<li><a href="https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd">Hygiene</a></li>
+</ul>
+</section>
+<section id="study-guide-pdf" class="level2">
+<h2 class="anchored" data-anchor-id="study-guide-pdf">Study Guide PDF</h2>
 <div class="pdf-container">
     <p>If the PDF does not appear, you can <a href="SOCIAL_SEMESTER_BOOK_EN.pdf" target="_blank">download it here</a>.</p>
     <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;"></iframe>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -238,14 +257,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
