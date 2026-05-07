@@ -9,7 +9,7 @@
 <link>https://kostadinoff.github.io/learning.html</link>
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
-<generator>quarto-1.7.31</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Sat, 18 Apr 2026 21:00:00 GMT</lastBuildDate>
 <item>
   <title>Health Culture, Health Behavior, and Health Education</title>
@@ -32,7 +32,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Definition
+<span class="screen-reader-only">Note</span>Definition
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -73,7 +73,7 @@ Definition
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-COM-B System
+<span class="screen-reader-only">Note</span>COM-B System
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -110,7 +110,7 @@ COM-B System
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Fundamental Principles of the Red Cross Movement
+<span class="screen-reader-only">Note</span>Fundamental Principles of the Red Cross Movement
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -138,7 +138,7 @@ Fundamental Principles of the Red Cross Movement
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Definition
+<span class="screen-reader-only">Note</span>Definition
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -171,7 +171,7 @@ Definition
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Summary: Method Selection Framework
+<span class="screen-reader-only">Note</span>Summary: Method Selection Framework
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -250,7 +250,7 @@ Summary: Method Selection Framework
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Definition
+<span class="screen-reader-only">Note</span>Definition
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -272,7 +272,7 @@ Definition
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Definition
+<span class="screen-reader-only">Note</span>Definition
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -290,7 +290,7 @@ Definition
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Moral Hazard in Healthcare
+<span class="screen-reader-only">Caution</span>Moral Hazard in Healthcare
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -334,7 +334,7 @@ Moral Hazard in Healthcare
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Summary: States of Demand and Strategic Responses
+<span class="screen-reader-only">Note</span>Summary: States of Demand and Strategic Responses
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -477,7 +477,7 @@ Summary: States of Demand and Strategic Responses
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The Four Forms of Liability — Comparative Overview
+<span class="screen-reader-only">Note</span>The Four Forms of Liability — Comparative Overview
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -571,7 +571,7 @@ The Four Forms of Liability — Comparative Overview
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Interprofessional Responsibilities in Social Assessment
+<span class="screen-reader-only">Note</span>Interprofessional Responsibilities in Social Assessment
 </div>
 </div>
 <div class="callout-body-container callout-body">
