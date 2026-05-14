@@ -9,8 +9,163 @@
 <link>https://kostadinoff.github.io/epinews.html</link>
 <atom:link href="https://kostadinoff.github.io/epinews.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 06 May 2026 21:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.3</generator>
+<lastBuildDate>Wed, 13 May 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Epidemiological News: Week 19, 2026</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/epinews-posts/2026-W19-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="non-communicable-disease-and-healthcare-system-developments" class="level2">
+<h2 class="anchored" data-anchor-id="non-communicable-disease-and-healthcare-system-developments">Non-Communicable Disease and Healthcare System Developments</h2>
+<section id="ema-pharmacovigilance-risk-assessment-committee-may-2026-meeting" class="level3">
+<h3 class="anchored" data-anchor-id="ema-pharmacovigilance-risk-assessment-committee-may-2026-meeting">EMA Pharmacovigilance Risk Assessment Committee: May 2026 Meeting</h3>
+<p>The EMA Pharmacovigilance Risk Assessment Committee (PRAC) convened from 4 to 7 May 2026, with a substantively dense agenda encompassing new safety signals, extensions of indication, post-authorisation safety study submissions, and marketing authorisation renewals.</p>
+<p>Seven new safety signals were identified for regulatory assessment. The most significant from a public health standpoint is a class-wide signal for <strong>benzodiazepines</strong>: across 48 products—including alprazolam, diazepam, lorazepam, clonazepam, midazolam, and numerous fixed-dose combinations—a signal of miscarriage associated with in utero exposure has been identified, with 17 European member states designated as leads and the evaluation proceeding under EPITT 20272. Given the frequency of benzodiazepine prescribing in reproductive-age women for anxiety, insomnia, and epilepsy management, this signal has immediate clinical implications and warrants communication to prescribers and patients before any formal regulatory conclusion is reached. A second signal, of encephalopathy associated with amoxicillin and amoxicillin-clavulanic acid, has been identified (EPITT 20264, leads Austria and Germany); this neurotoxic complication, while uncommon, has been sporadically reported in the literature particularly in patients with renal impairment, and its formal evaluation reinforces the need for prescriber vigilance in this population.</p>
+<p>Two distinct signals for GLP-1 receptor agonists and related agents merit attention given the rapid and widespread expansion of this drug class in clinical practice. First, a signal of peripheral neuropathies has been identified for exenatide (Bydureon, Byetta) and the semaglutide family (Ozempic, Rybelsus, Wegovy, Kayshild), along with the insulin icodec/semaglutide combination Kyinsu (EPITT 20270, lead Sweden). Second, a separate signal of gastrointestinal volvulus has been identified specifically for semaglutide products (EPITT 20260, lead Sweden). Gastrointestinal dysmotility has become an increasingly recognised adverse effect profile associated with GLP-1 receptor agonists, and this signal—if confirmed—would represent a serious, potentially life-threatening complication. Additional new signals this cycle include lichen sclerosus associated with dapagliflozin (EPITT 20259, lead Sweden), Behçet’s syndrome associated with ixekizumab (Taltz; EPITT 20269, lead Germany), and cutaneous vasculitis associated with tocilizumab products (EPITT 20261, lead Germany).</p>
+<p>Among the procedural extensions of clinical note, tirzepatide (Mounjaro) is under assessment for an extension of indication to reduce the risk of major adverse cardiovascular events—cardiovascular death, myocardial infarction, and stroke—in adults with type 2 diabetes and established cardiovascular disease, based on final results from the SURPASS-CVOT study; this extension, if approved, would meaningfully expand tirzepatide’s clinical role beyond glycaemic management. Secukinumab (Cosentyx) is under assessment for inclusion of polymyalgia rheumatica in its indication, based on primary analysis from the CAIN457C22301 Phase 3 trial—a development of significance given the current limited therapeutic repertoire for this condition beyond glucocorticoids. Obinutuzumab (Gazyvaro) is similarly under assessment for systemic lupus erythematosus, based on the Phase III ALLEGORY study. Glecaprevir/pibrentasvir (Maviret) is under assessment for an extension covering acute hepatitis C infection, based on the final results from the M20-350 study, which would provide a formally approved option for the early treatment phase of HCV infection. Upadacitinib (Rinvoq) is under assessment for two additional indications—severe alopecia areata and non-segmental vitiligo in adults and adolescents aged 12 and older—while inclisiran (Leqvio) is under assessment for extension to paediatric patients aged 12 to 18 years with heterozygous and homozygous familial hypercholesterolaemia, based on the ORION-16 and ORION-13 trials respectively.</p>
+</section>
+<section id="recent-research-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="recent-research-highlights">Recent Research Highlights</h3>
+<p>Three publications in high-impact journals this week are relevant for clinical and public health practice. A prospective Dutch study published in JAMA (Ravensberg et al., 2026) enrolled 370 community-dwelling adults aged 60 years and above on stable levothyroxine doses (≤150 µg/day) and subjected them to protocol-driven stepwise dose reduction. After one year, 25.7% (95% CI: 21.5–30.4%) successfully discontinued levothyroxine while maintaining TSH below 10 mIU/L and free thyroxine within the reference range. The success rate was substantially higher among the subgroup receiving 50 µg/day or less, where 63.6% successfully discontinued treatment. Given the very large number of older adults who receive levothyroxine—frequently initiated for subclinical hypothyroidism and continued indefinitely—these findings provide a clinically actionable basis for considering structured deprescribing trials, particularly in patients on lower doses. Quality of life showed no significant deterioration among those who successfully discontinued.</p>
+<p>A systematic review published in the BMJ (Doyon-Plourde et al., 2026) evaluated human evidence on potential health effects of aluminium-adjuvanted vaccines across 59 studies. High-certainty evidence from randomised controlled trials and large cohort studies consistently demonstrated no association between aluminium-adjuvanted vaccines and serious or long-term health outcomes, including asthma, autism spectrum disorders, and other chronic conditions. Studies on macrophagic myofasciitis were methodologically limited and insufficient to establish causality. The most consistently documented adverse effect was persistent nodules or granulomas following diphtheria-tetanus-pertussis vaccination—uncommon, localised, self-limited, and classified as delayed-type hypersensitivity reactions. These findings provide high-quality reassurance regarding the safety profile of one of the most widely used adjuvant systems in vaccination programmes globally.</p>
+<p>Finally, the 13-year follow-up of the multinational colonoscopy screening randomised controlled trial (Kaminski et al., The Lancet, 2026) reported that a single colonoscopy reduced colorectal cancer incidence by 19% (RR 0.81; 95% CI 0.71–0.90) in intention-to-screen analysis and by 45% in per-protocol analysis (RR 0.55; 95% CI 0.33–0.81). The benefit was substantially larger for distal than proximal colorectal cancer. Colorectal cancer mortality remained non-significantly reduced (intention-to-screen RR 0.88; 95% CI 0.68–1.08), with the important observation that background mortality in the no-screening group was substantially lower than anticipated at trial design (0.47% observed vs 0.82% projected), likely reflecting improvements in treatment over the study period. These findings reinforce the incidence-reducing benefit of colonoscopy screening while highlighting that mortality benefits may require longer follow-up to fully manifest.</p>
+<hr>
+</section>
+</section>
+<section id="infectious-diseases-global-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-global-perspective">Infectious Diseases: Global Perspective</h2>
+<section id="respiratory-and-contact-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="respiratory-and-contact-transmission">Respiratory and Contact Transmission</h3>
+<section id="andes-hantavirus-outbreak-mv-hondius-cruise-ship-south-atlantic" class="level4">
+<h4 class="anchored" data-anchor-id="andes-hantavirus-outbreak-mv-hondius-cruise-ship-south-atlantic">Andes Hantavirus Outbreak (MV Hondius Cruise Ship, South Atlantic)</h4>
+<p>The most significant global infectious disease event of Week 19 is a novel Andes hantavirus cluster associated with passengers and crew aboard the Dutch-flagged cruise ship MV Hondius, reported to WHO on 2 May 2026. As of 8 May, eight cases have been reported—six confirmed, two probable—with three deaths, yielding a case fatality ratio of 38%, consistent with the historically documented upper range for hantavirus cardiopulmonary syndrome (HCPS) caused by Andes virus (ANDV). All six laboratory-confirmed cases have been identified as ANDV by RT-PCR or sequencing, with no alternative hantavirus species identified. Four patients remain hospitalised across three countries: one in intensive care in Johannesburg, South Africa, two in hospitals in the Netherlands, and one in Zurich, Switzerland.</p>
+<p>Hantavirus cardiopulmonary syndrome is caused by viruses of the genus <em>Orthohantavirus</em> (family Hantaviridae). Andes virus, transmitted by the long-tailed pygmy rice rat (<em>Oligoryzomys longicaudatus</em>), is the predominant cause of HCPS in South America and is uniquely distinguished among hantaviruses by documented, albeit limited, human-to-human transmission. The natural reservoir is sylvatic and restricted to the Andes and Patagonian regions of southern South America. Human infection typically results from contact with infected rodent excreta or contaminated surfaces; incubation ranges from one to eight weeks. The clinical course of ANDV HCPS is biphasic, beginning with a prodrome of fever, myalgia, and gastrointestinal symptoms followed by abrupt-onset respiratory distress and haemodynamic compromise. Case fatality rates for ANDV HCPS range from 30% to 50% in the Americas, substantially higher than European and Asian hantavirus infections (which cause haemorrhagic fever with renal syndrome and carry case fatality rates typically below 15%).</p>
+<p>The working hypothesis, based on the epidemiological timeline, is that the index case (Case 1)—an adult male who had spent more than three months travelling in Argentina, Chile, and Uruguay—most likely acquired ANDV through environmental exposure prior to boarding the ship in Ushuaia on 1 April 2026. Subsequent cases demonstrate epidemiological links to Case 1 during his illness period and symptom onset dates consistent with documented ANDV incubation periods, supporting the hypothesis of limited onboard human-to-human transmission. This mode of transmission, while unusual, has been documented in community settings involving close and prolonged contact with early-phase patients. The ship—which departed Ushuaia with 114 passengers, with six additional passengers boarding at Tristan da Cunha—has nationalities from 23 countries, including multiple EU/EEA member states. As of 8 May, the MV Hondius was sailing toward the port of Grandilla, Tenerife, with expected arrival on 10 May; disembarkation is planned under coordinated health screening and infection control procedures.</p>
+</section>
+</section>
+<section id="zoonotic-and-animal-disease-events" class="level3">
+<h3 class="anchored" data-anchor-id="zoonotic-and-animal-disease-events">Zoonotic and Animal Disease Events</h3>
+<section id="highly-pathogenic-avian-influenza-h5n1-global" class="level4">
+<h4 class="anchored" data-anchor-id="highly-pathogenic-avian-influenza-h5n1-global">Highly Pathogenic Avian Influenza H5N1 (Global)</h4>
+<p>WOAH follow-up reports published this week document ongoing H5N1 highly pathogenic avian influenza (HPAI) activity across multiple continents. In North America, the United States continues to report ongoing H5N1 activity in both wild birds and poultry (FUR_218 in operation since December 2021), and Canada has reported H5N1 in poultry (FUR_100) dating to September 2023. In South America, Chile reports H5N1 in poultry as of March 2026, Brazil reports H5N1 in non-poultry wildlife, and Peru has detected H5N1 (H5, N-untyped) in non-poultry wildlife. In Europe, Poland remains the most heavily affected country, with numerous concurrent follow-up reports documenting H5N1 in wild birds across multiple foci. The United Kingdom, Spain, the Czech Republic, Denmark, Austria, Iceland, and Switzerland also have active H5N1 events in wild birds. Japan reports continued H5N1 in poultry since October 2025, and Montenegro reports its first occurrence in poultry. While the current HPAI situation does not involve documented human cases in these follow-up reports, the geographic breadth of wild bird involvement creates sustained spillover risk for poultry holdings and is a standing precondition for the rare occurrence of human infection, justifying continued epidemiological vigilance.</p>
+</section>
+<section id="new-world-screwworm-in-mexico" class="level4">
+<h4 class="anchored" data-anchor-id="new-world-screwworm-in-mexico">New World Screwworm in Mexico</h4>
+<p>Multiple follow-up reports from Mexico document the ongoing spread of <em>Cochliomyia hominivorax</em> (New World screwworm), an obligate parasite causing myiasis in warm-blooded animals. Reports from March, April, and late April 2026 document first occurrences in multiple zones and compartments, indicating progressive geographic expansion. While this is primarily a veterinary and agricultural concern—screwworm infestations cause severe tissue destruction in livestock and, rarely, in humans—the extension toward the North American border has raised concern at the US regulatory level. Continued spread could have significant implications for livestock trade.</p>
+</section>
+<section id="foot-and-mouth-disease-in-greece" class="level4">
+<h4 class="anchored" data-anchor-id="foot-and-mouth-disease-in-greece">Foot-and-Mouth Disease in Greece</h4>
+<p>Of particular regional relevance, Greece reported foot-and-mouth disease (FMD) serotype SAT 1 (FUR_6) in March 2026, constituting a recurrence of an eradicated disease in an EU member state. FMD SAT 1 is a serotype historically associated with sub-Saharan Africa and sporadically with the Middle East and North Africa; its detection in Greece is epidemiologically unusual and represents a significant animal health event. It is reinforced by concurrent follow-up reports of sheep pox and goat pox in Greece (FUR_28) and Romania (FUR_3). FMD is not a zoonotic disease and does not directly threaten human health; however, it poses substantial threats to livestock populations, trade, and agricultural economies. Bulgaria shares a land border with Greece, and the detection of FMD SAT 1 in a neighbouring EU member state has direct implications for Bulgarian veterinary surveillance and livestock movement controls.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="infectious-diseases-european-union-european-economic-area" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-european-union-european-economic-area">Infectious Diseases: European Union / European Economic Area</h2>
+<section id="respiratory-virus-epidemiology" class="level3">
+<h3 class="anchored" data-anchor-id="respiratory-virus-epidemiology">Respiratory Virus Epidemiology</h3>
+<p>The EU/EEA is in a late-season to inter-seasonal respiratory virus period. In Week 18, consultation rates for acute respiratory illness (ARI) in primary care were reported by 15 countries at medium electronic monitoring levels (MEM) with 9 countries at baseline, and ILI consultation rates in 17 countries similarly showed 16 at baseline. Influenza test positivity in primary care was 0.9% (pooled median; IQR 0–3%) in Week 18—a figure consistent with inter-seasonal background levels. Influenza intensity was classified as low in four countries and baseline in 16 of 20 reporting countries, with geographic spread predominantly sporadic (11 countries) or no activity (five countries). RSV remains the primary contributor to respiratory virus activity, though circulation is low and declining; RSV test positivity in hospitals was 5.8% (IQR 7.4–5.7–12%), with the pace of decline slightly slowing compared with recent weeks, suggesting the tail of the RSV season is prolonged. SARS-CoV-2 activity shows early signals of sustained primary care transmission in some countries, with pooled primary care test positivity of 2.1% (IQR 1.1–0–3.3%) and hospital test positivity of 0.8% (IQR 0.3–0–0.9%), both remaining at very low levels across all age groups. The variant landscape is stable, with BA.3.2 (variant under monitoring) accounting for all detected SARS-CoV-2 variants in the most recent two-week reporting window.</p>
+</section>
+<section id="fecal-oral-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="fecal-oral-transmission">Fecal-Oral Transmission</h3>
+<section id="salmonella-stanley-st2045-multi-country-cluster" class="level4">
+<h4 class="anchored" data-anchor-id="salmonella-stanley-st2045-multi-country-cluster">Salmonella Stanley ST2045 Multi-Country Cluster</h4>
+<p>ECDC is coordinating a multi-country investigation of a <em>Salmonella</em> Stanley ST2045 cluster that has now accumulated 62 cases reported between January and 6 May 2026 from ten countries: Austria, Czechia, Denmark, Estonia, France, Germany, Lithuania, the Netherlands, the United Kingdom, and the United States. The cluster was first identified following notification by Denmark through EpiPulse. Children and young adults are disproportionately represented among cases, and hospitalisations have been reported. Whole-genome sequencing of available isolates demonstrates a tight genetic cluster—exclusively human isolates so far—consistent with a likely common source of exposure, though no food vehicle or environmental source has been identified despite ongoing parallel investigations. The temporal distribution spans four months, which is atypical for a point-source outbreak and may suggest ongoing exposure through a persistently contaminated source or intermittent distribution of a contaminated product. The predominance of younger age groups raises the possibility of a food item with a demographic exposure pattern skewed toward children and young adults—consistent with categories such as packaged snacks, confectionery, or school-distributed foods—though this remains speculative pending case interviews and exposure assessments.</p>
+</section>
+</section>
+<section id="contact-and-sexual-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="contact-and-sexual-transmission">Contact and Sexual Transmission</h3>
+<section id="mpox-eueea" class="level4">
+<h4 class="anchored" data-anchor-id="mpox-eueea">Mpox (EU/EEA)</h4>
+<p>In March 2026, 80 mpox clade I cases were reported by ten EU/EEA countries, with Spain contributing the largest share (23 cases) followed by Germany (19 cases). This follows 89 cases in January and 78 cases in February, indicating relatively stable clade I transmission at low but persistent levels. Clade II activity was lower: 22 cases from seven countries in March (Spain 11, Germany 4, Netherlands 3), following 63 cases in February and 98 in January. Over the past twelve months, 15 countries reported 336 clade I cases and 17 countries reported 1,016 clade II cases. The epidemiological profile is consistent across both clades: 95% of clade I and 92% of clade II cases with complete data were reported among men who have sex with men (MSM); hospitalisation rates remain low (14% for clade I, 7% for clade II); and vaccination uptake remains insufficient—72% of clade I cases and 77% of clade II cases were unvaccinated. One death in a clade II case was reported in the past twelve months; no clade I deaths have been reported in the EU/EEA. Denmark and Slovakia have notified their first clade I cases through event-based surveillance, indicating ongoing spread to previously unaffected countries. With the approach of spring and summer, and the associated increase in travel and attendance at mass gathering events including Pride celebrations, ECDC anticipates elevated risk for further spread; ECDC maintains its October 2025 risk assessment of moderate risk for MSM and low risk for the general EU/EEA population for clade Ib, with very low for clade IIb in the general population.</p>
+</section>
+</section>
+<section id="vector-borne-and-zoonotic-disease" class="level3">
+<h3 class="anchored" data-anchor-id="vector-borne-and-zoonotic-disease">Vector-Borne and Zoonotic Disease</h3>
+<section id="hantavirus-cruise-ship-eueea-risk-assessment" class="level4">
+<h4 class="anchored" data-anchor-id="hantavirus-cruise-ship-eueea-risk-assessment">Hantavirus Cruise Ship — EU/EEA Risk Assessment</h4>
+<p>The ANDV cruise ship cluster (described in the global section) carries direct EU/EEA relevance given the multinational composition of the MV Hondius passenger and crew manifest, which includes individuals from Belgium, France, Germany, Greece, Ireland, the Netherlands, Poland, Portugal, and Spain, among others. ECDC has published a Threat Assessment Brief (6 May 2026) and is supporting response operations through the EU Health Task Force (EUHTF), coordinating with member states, WHO, and the European Commission. Contacts from the ship have been identified in the United Kingdom (7), Canada (3), Chile (2), Singapore (2), and other countries, and health monitoring is ongoing. ECDC’s assessment explicitly notes that the ANDV reservoir (<em>Oligoryzomys</em> rodent species) is not present in Europe, so introduction into the European rodent population and subsequent sylvatic transmission cycles are not anticipated. Even if transmission from disembarking passengers were to occur, the documented requirement for close and prolonged contact for ANDV human-to-human spread makes widespread community transmission unlikely. The risk from this outbreak for the EU/EEA general population is assessed as very low.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="infectious-diseases-bulgaria" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-bulgaria">Infectious Diseases: Bulgaria</h2>
+<section id="respiratory-and-droplet-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="respiratory-and-droplet-transmission">Respiratory and Droplet Transmission</h3>
+<section id="varicella" class="level4">
+<h4 class="anchored" data-anchor-id="varicella">Varicella</h4>
+<p>Week 19 recorded 709 varicella cases—an increase of 277 cases over Week 18 (+64% week-over-week)—the largest single-week rise of the 2026 surveillance year to date. The year-to-date cumulative total reaches 11,650 cases, a modest 1.4% excess over the 11,494 cases recorded in the same period of 2025, indicating that the 2026 season’s overall trajectory remains broadly comparable to the prior year, but is clearly in an accelerating late-spring phase. Regional distribution from the ZRZ Week 19 data is highly dispersed: Sofia-grad (208 cases) contributes nearly 30% of the national total, followed by Plovdiv (35), Varna (28), Haskovo (48), Shumen (8), Kyustendil (33), and Gabrovo (25), with cases documented in virtually all districts. The geographic universality of the distribution is consistent with varicella’s high transmissibility (R₀ estimated at 10–12 in susceptible populations) and reflects the ongoing accumulation of susceptible cohorts in a country that has not implemented universal childhood varicella vaccination. Varicella (<em>Varicella-zoster virus</em>) is transmitted via respiratory droplets and direct contact with lesions, with an incubation period of 10–21 days; complications—including secondary bacterial superinfection, varicella pneumonia, and cerebellar ataxia—occur most frequently in adults and immunocompromised individuals and are preventable by vaccination.</p>
+</section>
+<section id="measles" class="level4">
+<h4 class="anchored" data-anchor-id="measles">Measles</h4>
+<p>The ZRZ regional distribution data for Week 19 documents 33 measles cases distributed across four districts: Pleven (16 cases), Vracha (11 cases), Lovech (3 cases), and Kyustendil (3 cases). This represents the first substantial measles signal in Bulgarian national surveillance during the 2026 year and is epidemiologically notable for two reasons. First, the geographic concentration in Pleven and Vracha—two adjacent districts in north-central Bulgaria—suggests active chains of transmission within a defined sub-regional area rather than independent importations, raising the possibility of an ongoing outbreak. Second, measles virus (<em>Morbillivirus hominis</em>), transmitted exclusively via the respiratory route and airborne spread with one of the highest known basic reproduction numbers of any pathogen (R₀ of 12–18), requires population immunity above 95% to prevent sustained transmission—a threshold that Bulgarian routine immunisation has historically approached but not uniformly maintained across all districts and age cohorts. Complications of measles include pneumonia (the leading cause of measles deaths), encephalitis (occurring in approximately 1 in 1,000 cases), and subacute sclerosing panencephalitis (a fatal late neurological complication occurring years after acute infection). In populations with vitamin A deficiency or HIV co-infection, case fatality can reach 10–15%. No prior measles cases have been reported in the NCIPD national operational analysis for the preceding weeks of 2026, making this Week 19 signal the year’s inaugural indication of potential local measles transmission. Rapid investigation of the Pleven-Vracha-Lovech cluster—including case-based investigation, vaccination status ascertainment, and genotyping of available specimens—is warranted.</p>
+</section>
+<section id="scarlet-fever" class="level4">
+<h4 class="anchored" data-anchor-id="scarlet-fever">Scarlet Fever</h4>
+<p>Week 19 registered 57 scarlet fever cases, a five-case decline from Week 18 (−8% week-over-week). The year-to-date total of 1,337 cases is 28% below the 1,867 cases recorded in the same period of 2025, suggesting that the 2026 scarlet fever season is tracking substantially below the prior year’s burden. The mild week-over-week decrease combined with the ongoing downward trend supports the interpretation that scarlet fever activity, caused by Group A <em>Streptococcus pyogenes</em> via the respiratory route, is in a seasonal waning phase as the school calendar approaches its late-spring conclusion. The ZRZ data documents cases in 16 districts, with Sofia-grad (16), Plovdiv (12), and Varna (4) contributing the largest shares.</p>
+</section>
+</section>
+<section id="fecal-oral-transmission-1" class="level3">
+<h3 class="anchored" data-anchor-id="fecal-oral-transmission-1">Fecal-Oral Transmission</h3>
+<section id="gastroenteritis-and-enterocolitis" class="level4">
+<h4 class="anchored" data-anchor-id="gastroenteritis-and-enterocolitis">Gastroenteritis and Enterocolitis</h4>
+<p>The most prominent fecal-oral signal in Week 19 is a 34% week-over-week rise in acute gastroenteritis and enterocolitis to 185 cases (from 138 in Week 18), with cases comprising 70 possible, 110 probable, and five confirmed. The year-to-date total of 2,815 cases modestly exceeds the 2,727 cases reported through the corresponding period of 2025 (+3.2%), suggesting a slight but not dramatic increase in the annual baseline. The week-over-week increase of 47 cases exceeds the 20% inclusion threshold and warrants monitoring: May corresponds to the beginning of the period during which food-borne and water-borne transmission pathways intensify due to rising ambient temperatures. The ZRZ regional breakdown attributes the largest concentrations to Varna (29 cases), Plovdiv (37), Stara Zagora (27), Sofia-grad (27), and Kyustendil (9). Cases are broadly distributed, suggesting multiple independent transmission chains rather than a single focal outbreak.</p>
+</section>
+<section id="campylobacteriosis" class="level4">
+<h4 class="anchored" data-anchor-id="campylobacteriosis">Campylobacteriosis</h4>
+<p>Campylobacteriosis registered 13 confirmed cases in Week 19, a four-case increase over Week 18 (+44% week-over-week). The year-to-date cumulative total of 202 cases is 127% above the 89 cases recorded in the same period of 2025—the largest proportional year-over-year excess among all enteric pathogens currently monitored in Bulgaria. This excess has been sustained without interruption since the beginning of 2026 and has been documented consistently across the preceding weeks of this report series. <em>Campylobacter jejuni</em> and <em>C. coli</em> are primarily acquired through consumption of undercooked poultry, contaminated water, or direct contact with animal reservoirs; the resulting illness manifests as self-limited enteritis with fever, abdominal cramps, and diarrhoea, though bacteraemia, reactive arthritis, and Guillain-Barré syndrome complicate a minority of cases. The persistence and magnitude of the year-over-year excess continue to suggest a systemic change in either exposure patterns, laboratory ascertainment, or reporting completeness that has not yet been elucidated through formal epidemiological investigation.</p>
+</section>
+<section id="acute-viral-hepatitis-abcden" class="level4">
+<h4 class="anchored" data-anchor-id="acute-viral-hepatitis-abcden">Acute Viral Hepatitis (ABCDEN)</h4>
+<p>A total of 31 cases of acute viral hepatitis ABCDEN were registered in Week 19, four fewer than in Week 18 (−11% week-over-week). The year-to-date cumulative total of 681 cases is 61% above the 423 cases reported in the same nineteen-week period of 2025. The ZRZ regional breakdown shows cases in Blagoevgrad (3), Burdgas (1), Vidin (1), Vracha (1), Gabrovo (1), Kyustendil (3), Plovdiv (4—including possible cases), Ruse (1), Silsistra (3), Sofia-oblast (2), and Haskovo (1), with additional cases in other districts. As documented in preceding weeks, the aggregate ABCDEN reporting category precludes serotype attribution from routine surveillance data, limiting the ability to mount targeted public health responses. The sustained 61% year-over-year excess across 19 weeks constitutes a standing surveillance signal that warrants expedited formal epidemiological review and, at minimum, disaggregation of available confirmed case data by hepatitis type.</p>
+</section>
+</section>
+<section id="vector-borne-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="vector-borne-transmission">Vector-Borne Transmission</h3>
+<section id="lyme-borreliosis" class="level4">
+<h4 class="anchored" data-anchor-id="lyme-borreliosis">Lyme Borreliosis</h4>
+<p>Six confirmed cases of Lyme borreliosis were registered in Week 19, a three-case increase from Week 18 (+100% week-over-week). The year-to-date total of 60 cases is 14% below the 70 cases reported in the same period of 2025. The doubling of weekly case counts from three to six is consistent with the expected onset of peak tick activity in Bulgaria during May, when <em>Ixodes ricinus</em> populations reach their highest questing density. Cases this week were distributed across Gabrovo (2), Lovech (3), and Shumen (1), districts with significant mixed deciduous forest coverage and known tick exposure risk. Lyme borreliosis—caused by <em>Borrelia burgdorferi sensu lato</em> and transmitted by <em>Ixodes</em> spp. ticks—manifests initially as erythema migrans in 70–80% of cases, with disseminated infection involving the nervous system, heart, and joints occurring in untreated patients. Surveillance data in May and June will be the key indicator of the 2026 tick season’s intensity relative to prior years.</p>
+</section>
+<section id="marseille-fever" class="level4">
+<h4 class="anchored" data-anchor-id="marseille-fever">Marseille Fever</h4>
+<p>One confirmed case of Mediterranean spotted fever (Marseille fever), caused by <em>Rickettsia conorii</em> and transmitted by the brown dog tick (<em>Rhipicephalus sanguineus</em>), was registered in Week 19, consistent with the previous week. The year-to-date total of three cases is substantially below the ten cases recorded through the same period of 2025. Activity is expected to increase progressively through summer as tick populations expand.</p>
+</section>
+</section>
+<section id="contact-and-sexual-transmission-1" class="level3">
+<h3 class="anchored" data-anchor-id="contact-and-sexual-transmission-1">Contact and Sexual Transmission</h3>
+<section id="syphilis" class="level4">
+<h4 class="anchored" data-anchor-id="syphilis">Syphilis</h4>
+<p>Week 19 recorded 14 confirmed syphilis cases, a nine-case increase from Week 18—a 180% week-over-week surge that represents the most dramatic single-week increase in this category during the 2026 surveillance year. The year-to-date total of 138 cases is 9% above the 127 cases registered in the same period of 2025, a modest but consistent excess. Congenital syphilis, reported separately, has accumulated 14 cases year-to-date versus 12 in the same period of 2025, representing a 17% year-over-year increase and a continued burden of preventable vertical transmission. Single-week fluctuations in syphilis notifications are common given the variable lag between diagnosis, confirmation, and reporting; however, a surge of this magnitude warrants monitoring over the following two to three weeks to determine whether it reflects a reporting consolidation artefact or an underlying acceleration in local transmission.</p>
+</section>
+<section id="gonorrhea" class="level4">
+<h4 class="anchored" data-anchor-id="gonorrhea">Gonorrhea</h4>
+<p>Four confirmed cases of gonorrhea were registered in Week 19, one more than Week 18 (+33% week-over-week). The year-to-date total of 89 cases represents a 218% excess over the 28 cases registered in the same period of 2025. This is the most pronounced sustained year-over-year increase among tracked infections in Bulgaria for 2026 and has been documented without interruption since Week 1. As previously noted in this report series, Bulgarian routine surveillance does not report antimicrobial susceptibility data alongside gonorrhea case notifications, representing a structurally significant gap given the global emergence of extensively drug-resistant <em>Neisseria gonorrhoeae</em> strains and the clinical implications of treatment failure.</p>
+</section>
+<section id="urogenital-chlamydial-infection" class="level4">
+<h4 class="anchored" data-anchor-id="urogenital-chlamydial-infection">Urogenital Chlamydial Infection</h4>
+<p>Two confirmed cases of urogenital chlamydial infection were registered in Week 19, two fewer than in Week 18 (−50% week-over-week). Despite this single-week decline, the year-to-date total of 117 cases is 149% above the 47 cases registered in the same period of 2025. <em>Chlamydia trachomatis</em> infection, the most commonly reported sexually transmitted infection in EU/EEA countries, is frequently asymptomatic—particularly in women—leading to systematic under-ascertainment. The sustained year-over-year excess may reflect genuine increases in transmission, expanded testing availability, or improved reporting completeness, and likely represents some combination of all three.</p>
+</section>
+<section id="hiv" class="level4">
+<h4 class="anchored" data-anchor-id="hiv">HIV</h4>
+<p>Five confirmed HIV cases were registered in Week 19, unchanged from Week 18. The year-to-date total of 86 cases is 24% below the 113 cases recorded in the same period of 2025. While this apparent decline may partially reflect improvements in earlier diagnosis (which could reduce the pool of newly detectable late-stage infections), or reporting delays, Bulgaria’s HIV surveillance context is characterised by late diagnosis in a substantial proportion of cases, which limits the interpretation of week-to-week and year-over-year notifications as a direct indicator of incidence.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <guid>https://kostadinoff.github.io/epinews-posts/2026-W19-en.html</guid>
+  <pubDate>Wed, 13 May 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Epidemiological News: Week 18, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
@@ -2573,194 +2728,6 @@
   <category>English</category>
   <guid>https://kostadinoff.github.io/epinews-posts/2025-W49-en.html</guid>
   <pubDate>Sun, 07 Dec 2025 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Епидемиологични новини: седмица 48, 2025 г.</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/epinews-posts/2025-W48-bg.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="инфекциозни-заболявания-глобална-перспектива" class="level1">
-<h1>Инфекциозни заболявания: глобална перспектива</h1>
-<section id="въздушно-капкови" class="level2">
-<h2 class="anchored" data-anchor-id="въздушно-капкови">Въздушно-капкови</h2>
-<section id="птичи-грип-ah5n5-първи-човешки-случай-съединени-щати" class="level3">
-<h3 class="anchored" data-anchor-id="птичи-грип-ah5n5-първи-човешки-случай-съединени-щати">Птичи грип A(H5N5) – първи човешки случай (Съединени щати)</h3>
-<p>Потвърждаването на първата в света човешка инфекция с птичи грип A(H5N5) представлява сигнално събитие в надзора на зоонозните грипни вируси. Пациентът – възрастен човек със съпътстващи заболявания от окръг Грейс Харбър, щата Вашингтон – развива симптоми през 43-та седмица, е хоспитализиран през 45-та седмица и умира на 21 ноември 2025 г. Екологични проби от двора на пациента, където се отглеждат домашни птици, дават положителни резултати за птичи грип, което установява като най-вероятен източник на експозиция домашни птици, които са били в контакт с диви птици.</p>
-<p>Високопатогенните вируси на птичи грип A(H5) причиняват тежко системно заболяване при птиците с леталитет, достигащ почти 100%, а човешките инфекции, макар и редки, могат да доведат до тежко респираторно заболяване с висок коефициент на леталитет. Инкубационният период обикновено варира между 2 и 8 дни. Най-висок риск от инфекция имат лица, които имат директен контакт със заразени птици, техните секрети или контаминирани повърхности в околната среда.</p>
-<p>Секвенираният изолат (A/Washington/2148/2025) принадлежи към клада 2.3.4.4b, генотип A6, която е установена при птици и бозайници в Северна Америка и е означена като EA-2021-I при европейските изолати. Критично важно е, че не са идентифицирани мутации, асоциирани с адаптация към бозайници, и не е установено предаване от човек на човек сред контактните лица на пациента. Този генетичен профил е в съответствие с щамовете, циркулиращи при диви птици в Северна Европа през текущата епидемиологична година, където седем страни от ЕС/ЕИП съобщават за детекции. Допълнително A(H5N5) е идентифициран и при диви бозайници, включително арктическа лисица, рис и американска норка в Исландия и Норвегия от началото на 2024 г.</p>
-<p>CDC на САЩ оценява риска за общото население като нисък, и тази оценка се пренася и за населението на ЕС/ЕИП. Въпреки това глобалната значимост на този първи човешки случай с A(H5N5) налага засилен надзор, особено за лица с професионална или рекреационна експозиция на домашни птици и диви птици.</p>
-</section>
-<section id="птичи-грип-ah5n2-потвърден-втори-човешки-случай-мексико" class="level3">
-<h3 class="anchored" data-anchor-id="птичи-грип-ah5n2-потвърден-втори-човешки-случай-мексико">Птичи грип A(H5N2) – потвърден втори човешки случай (Мексико)</h3>
-<p>На 24 ноември 2025 г. СЗО потвърждава втори глобален човешки случай на инфекция с птичи грип A(H5N2), регистриран при млада жена без съпътстващи заболявания в Мексико Сити. Пациентката е била експонирана на птици и куче, което дава положителен резултат за A(H5) в района, където живее. За разлика от първия човешки случай, съобщен през април 2024 г. (причинен от нископатогенен птичи грип), настоящият щам демонстрира високопатогенен профил в сегмента на хемаглутинина, но не носи мутации, известни като повишаващи зоонозния потенциал. Не е установено предаване от човек на човек, а рискът за населението на ЕС/ЕИП остава нисък.</p>
-</section>
-</section>
-<section id="трансмисивни" class="level2">
-<h2 class="anchored" data-anchor-id="трансмисивни">Трансмисивни</h2>
-<section id="марбург-етиопия" class="level3">
-<h3 class="anchored" data-anchor-id="марбург-етиопия">Марбург – Етиопия</h3>
-<p>Етиопия преживява първото си в историята огнище на болест, причинена от вируса Марбург, потвърдено на 14 ноември 2025 г. след установяване на подозрителни случаи в град Джинка в региона на Южните нации, националности и народи. Към 27 ноември са съобщени 15 случая (12 лабораторно потвърдени и 3 вероятни) и 11 смъртни изхода, което съответства на коефициент на леталитет 66,7%.</p>
-<p>Вирусът Марбург причинява тежка хеморагична треска с исторически регистрирани коефициенти на леталитет до 88% при някои огнища. Вирусът се предава чрез директен контакт с кръвта и други телесни течности на заразени хора или животни, като инкубационният период обичайно е 5–10 дни (диапазон 3–21 дни). Плодоядните прилепи от семейство <em>Pteropodidae</em> служат като естествен резервоар. Клиничната картина се характеризира с внезапно начало на фебрилитет, силно главоболие, мускулни болки и изразена умора, последвани от гастроинтестинални симптоми, а в по-късните стадии – от необясними кръвоизливи. Медицинските специалисти са изложени на особено висок професионален риск, като вече са съобщени два смъртни изхода сред здравни работници.</p>
-<p>Тревожен аспект на текущото огнище е географското разширяване към град Хаваса в регион Сидама след завръщане на пътувал от Джинка, което показва потенциал за по-широка дисеминация. При проследяване на контактните лица са идентифицирани 349 души, като 119 от тях вече са завършили 21-дневния период на наблюдение. Цялогеномното секвениране установява сходство с по-рано идентифицирани източноафрикански щамове. СЗО и здравните власти на Етиопия координират мерки за отговор, включително засилен надзор, проследяване на контактните лица и ангажиране на общностите.</p>
-<p>ECDC оценява риска за гражданите на ЕС/ЕИП, които посещават или живеят в Етиопия, като нисък, а вероятността от внос и вторична трансмисия в ЕС/ЕИП – като много ниска. Джинка е туристически център за региона, но остава относително отдалечен от Адис Абеба.</p>
-</section>
-</section>
-<section id="фекално-орален-механизъм" class="level2">
-<h2 class="anchored" data-anchor-id="фекално-орален-механизъм">Фекално-орален механизъм</h2>
-<section id="холера-глобална-актуализация" class="level3">
-<h3 class="anchored" data-anchor-id="холера-глобална-актуализация">Холера – глобална актуализация</h3>
-<p>Глобалната трансмисия на холера продължава да се поддържа на повишени нива, с 577 843 случая и 7 395 смъртни изхода, съобщени от 1 януари 2025 г. насам – увеличение с 17% на случаите в сравнение със същия период на 2024 г. В последния отчетен период (29 октомври – 25 ноември) са регистрирани 15 394 нови случая и 194 смъртни изхода, като най-голям принос имат Афганистан (10 781 случая), Ангола (2 493), Судан (1 117), Бурунди (567) и Етиопия (413).</p>
-<p>Судан представлява най-сериозен проблем по отношение на смъртността, с 114 съобщени смъртни случая за този период – 59% от всички смъртни случаи от холера в света, което отразява комбинирания ефект от въоръжени конфликти, разселване на населението и колапс на здравната система. Южният Судан съобщава 78 034 кумулативни случая на холера през 2025 г. в сравнение само със 114 през същия период на 2024 г., което представлява катастрофален скок. В Ангола и Чад се наблюдава продължаваща трансмисия, а огнища персистират в множество региони в Азия (Афганистан, Мианмар, Непал) и Източна Африка (Бурунди, Етиопия, Кения, Мозамбик).</p>
-<p>Рискът от инфекция с холера за пътуващи от ЕС/ЕИП остава нисък, макар че спорадичен внос е възможен. Ваксинацията следва да се разглежда като опция за служители в спешни и хуманитарни мисии, командировани в засегнатите региони.</p>
-</section>
-<section id="болест-причинена-от-вируса-ебола-демократична-република-конго" class="level3">
-<h3 class="anchored" data-anchor-id="болест-причинена-от-вируса-ебола-демократична-република-конго">Болест, причинена от вируса Ебола – Демократична република Конго</h3>
-<p>Огнището на Ебола в провинция Касаи, ДР Конго, изглежда е в затихваща фаза, като 42-дневният период за обявяване на официален край на огнището започна на 19 октомври 2025 г. след изписването на последния пациент. От момента на обявяване на огнището на 4 септември са регистрирани общо 64 случая (53 потвърдени и 11 вероятни) и 45 смъртни изхода (коефициент на леталитет 70,3%), всички от здравния район Булапе. Не са съобщени нови случаи след 26 септември и няма контактни лица под активно наблюдение. Общо 44 453 души са ваксинирани. Това е шестнадесетото огнище на Ебола в ДР Конго от 1976 г. насам и осмото от 2018 г. насам.</p>
-</section>
-</section>
-<section id="инфекциозни-заболявания-европейски-съюз-европейско-икономическо-пространство" class="level2">
-<h2 class="anchored" data-anchor-id="инфекциозни-заболявания-европейски-съюз-европейско-икономическо-пространство">Инфекциозни заболявания: Европейски съюз / Европейско икономическо пространство</h2>
-</section>
-<section id="въздушно-капкови-1" class="level2">
-<h2 class="anchored" data-anchor-id="въздушно-капкови-1">Въздушно-капкови</h2>
-<section id="сезонна-активност-на-респираторните-вируси-ранен-старт-на-грипния-сезон" class="level3">
-<h3 class="anchored" data-anchor-id="сезонна-активност-на-респираторните-вируси-ранен-старт-на-грипния-сезон">Сезонна активност на респираторните вируси – ранен старт на грипния сезон</h3>
-<p>Грипният сезон 2025–2026 г. е започнал с 3–4 седмици по-рано в сравнение с предходните две години, като повече от половината страни от ЕС/ЕИП вече съобщават за активност над базовото ниво. Грип A доминира циркулацията (99% от типираните проби), като подкладецът A(H3N2) 2a.3a.1(K) представлява 85% от генетично охарактеризираните A(H3) проби и движи текущата нарастваща тенденция. Най-високи нива на циркулация се наблюдават при децата на възраст 5–14 години, докато ранното увеличение на хоспитализациите се концентрира предимно сред възрастните над 65 години.</p>
-<p>През седмица 48, чрез първичния доболничен сентинелен надзор са открити 256 грипни проби със съвкупна позитивност 16% (медиана 4,6%; IQR 2,9–8,3%), докато чрез болничния надзор на тежки остри респираторни инфекции (SARI) са установени 139 грипни проби с 14% съвкупна позитивност. Осем страни съобщават за базово ниво на активност, осем – за ниска интензивност и две – за средна интензивност. Географското разпространение варира от спорадично (5 страни) до широко (5 страни).</p>
-<p>ECDC публикува Съкратена оценка на заплахата на 20 ноември 2025 г., оценяваща риска, свързан с увеличаващата се циркулация на подкладеца A(H3N2) K. Активността на респираторния синцитиален вирус (RSV) се увеличава бавно от ниски нива – приблизително с една седмица по-късно в сравнение с предходния сезон – и засяга предимно деца под 5-годишна възраст. SARS-CoV-2 продължава да циркулира, но активността намалява във всички възрастови групи.</p>
-</section>
-<section id="коклюш-надзор-в-постепидемичен-контекст" class="level3">
-<h3 class="anchored" data-anchor-id="коклюш-надзор-в-постепидемичен-контекст">Коклюш – надзор в постепидемичен контекст</h3>
-<p>Коклюшната епидемия от 2024 г., която обхвана Европа, значително е затихнала. Макар това да не се отразява директно в седмица 48 в съвкупните данни за ЕС/ЕИП, българският надзор ясно илюстрира динамиката: случаите за 2025 г. до момента (88) представляват намаление с 96,8% в сравнение с 2024 г. (2 709). Този модел вероятно отразява сходни тенденции в други държави – членки на ЕС/ЕИП, където коклюшът рязко се е увеличил през 2024 г. след пандемичните нарушения в програмите за детска ваксинация.</p>
-</section>
-</section>
-<section id="фекално-орален-механизъм-1" class="level2">
-<h2 class="anchored" data-anchor-id="фекално-орален-механизъм-1">Фекално-орален механизъм</h2>
-<section id="хепатит-a" class="level3">
-<h3 class="anchored" data-anchor-id="хепатит-a">Хепатит A</h3>
-<p>Продължаващото огнище на хепатит A, засягащо Австрия, Чехия, Унгария и Словакия, вече е надхвърлило 6 000 кумулативни случая през 2025 г. с 39 смъртни изхода, което го превръща в едно от най-големите огнища на HAV в историята на ЕС/ЕИП. Секвенирането установява два близкородствени клъстера на HAV подгенотип IB, различаващи се само по една нуклеотидна замяна. Клъстер А включва случаи от Австрия, Германия, Унгария и Швеция, а Клъстер B – случаи от Австрия, Чехия, Словакия, Швеция и Обединеното кралство.</p>
-<p>Вирусът на хепатит A се предава лесно по фекално-орален път, с инкубационен период средно около 4 седмици (диапазон 2–6 седмици). Вирусът демонстрира забележителна устойчивост в околната среда, като издържа на кисела среда и замразяване. При децата инфекцията често протича леко или асимптомно, докато при възрастни – особено при лица с подлежащи чернодробни заболявания или злоупотреба с алкохол – може да протече като тежък остър хепатит с потенциал за фулминантна чернодробна недостатъчност.</p>
-<p>Епидемиологичният профил се различава значително по държави: в Чехия са съобщени <strong>2 310 случая и 27 смъртни изхода</strong>, като 16% от случаите са свързани с идентифицирани огнища, а 17% – с рискови фактори като венозна употреба на наркотици (178 случая), бездомност (188) или лишаване от свобода (27). Словакия съобщава 2 482 случая с продължаваща трансмисия сред ромски общности и хора, живеещи при лоши санитарни условия. В Унгария са съобщени 1 548 случая с най-високи нива на заболяемост сред деца на 3–9 години и в североизточните окръзи. Австрия регистрира 216 случая със значително представяне на хора, живеещи в бездомност, и хора, употребяващи наркотици, като Виена е епицентър на огнището.</p>
-<p>Не е идентифициран хранителен източник; човек-на-човек трансмисията сред групи с ограничен достъп до адекватни санитарни условия остава основният двигател на огнището. ECDC оценява риска като умерен до висок за засегнатите групи и нисък до умерен за общото население с достъп до санитарни и здравни услуги. В засегнатите страни се провеждат целенасочени ваксинационни кампании, но наличността на ваксини остава предизвикателство.</p>
-</section>
-</section>
-<section id="трансмисивни-1" class="level2">
-<h2 class="anchored" data-anchor-id="трансмисивни-1">Трансмисивни</h2>
-<section id="чикунгуня-локално-придобити-случаи" class="level3">
-<h3 class="anchored" data-anchor-id="чикунгуня-локално-придобити-случаи">Чикунгуня – локално придобити случаи</h3>
-<p>Локалната трансмисия на вируса Чикунгуня продължава във Франция и Италия през сезон 2025 г., като към 26 ноември са съобщени съответно 795 и 385 местно придобити случая. Франция съобщава за 15 нови местно придобити случая през седмица 48, разпределени в 79 клъстера, от които 9 са все още активни. Италия не съобщава нови случаи през тази седмица.</p>
-<p>Вирусът Чикунгуня се предава основно чрез комари <em>Aedes albopictus</em> в Европа. Заболяването протича с остро начало на висока температура и силна артралгия, обикновено 4–7 дни след експозиция. Макар смъртността да е ниска, инвалидизиращите ставни болки могат да персистират месеци до години, особено при възрастни хора. Персистирането на активни клъстери въпреки настъпващи неблагоприятни за векторите сезонни условия подсказва потенциал за късносезонна трансмисия и изисква бдителност за забавени диагнози в следващите седмици.</p>
-</section>
-<section id="вирус-на-западен-нил-сезонно-обобщение" class="level3">
-<h3 class="anchored" data-anchor-id="вирус-на-западен-нил-сезонно-обобщение">Вирус на Западен Нил – сезонно обобщение</h3>
-<p>Четиринадесет държави съобщават за човешки случаи на инфекция с вируса на Западен Нил през 2025 г., включително България (сред страните от ЕС/ЕИП са още: Хърватия, Франция, Германия, Гърция, Унгария, Италия, Румъния, Испания) и съседни държави (Албания, Косово, Северна Македония, Сърбия, Турция). Идентифицирани са общо 157 засегнати географски района. Векторният сезон е към своя край, но забавеното докладване на случаи може да продължи още няколко седмици.</p>
-</section>
-</section>
-</section>
-<section id="инфекциозни-заболявания-българия" class="level1">
-<h1>Инфекциозни заболявания: България</h1>
-<section id="въздушно-капкови-2" class="level2">
-<h2 class="anchored" data-anchor-id="въздушно-капкови-2">Въздушно-капкови</h2>
-<section id="covid-19" class="level3">
-<h3 class="anchored" data-anchor-id="covid-19">COVID-19</h3>
-<p>В България са регистрирани 69 случая на COVID-19 през седмица 48, което представлява намаление с 40,5% спрямо предходната седмица (116 случая) и продължава низходящата тенденция, наблюдавана през есента на 2025 г. Случаите от началото на годината (2 959) са с 80,3% по-малко в сравнение с 2024 г. (15 052), което отразява прехода към ендемичен модел на циркулация и намалена интензивност на тестване. Най-много случаи са съобщени в София-град (13), следвана от Бургас (10) и Варна (4). Всички случаи са лабораторно потвърдени.</p>
-</section>
-<section id="коклюш-магарешка-кашлица" class="level3">
-<h3 class="anchored" data-anchor-id="коклюш-магарешка-кашлица">Коклюш (магарешка кашлица)</h3>
-<p>През седмица 48 са потвърдени три случая на коклюш, увеличение с два случая спрямо предходната седмица. Случаите са съобщени от Пловдив (1), София-град (1) и Стара Загора (1). Случаите от началото на годината са общо 88 в сравнение с 2 709 за същия период на 2024 г., което представлява спад от 96,8% и отразява отшумяването на епидемичната вълна от 2024 г.</p>
-<p>Коклюшът, причинен от <em>Bordetella pertussis</em>, се предава по въздушно-капков път, с инкубационен период 7–10 дни. Класическата клинична картина включва пароксизмална кашлица, инспираторен „магарешки“ шум и повръщане след пристъпи на кашлица, макар че проявите значително варират според възрастта и ваксиналния статус. Кърмачетата, които са твърде малки, за да бъдат обхванати от имунизация, са с най-висок риск от усложнения, включително пневмония, гърчове, енцефалопатия и смърт. Европейската епидемия от 2024 г. подчерта значението на поддържането на високо ваксинално покритие и прилагането на стратегии за имунизация на бременни.</p>
-</section>
-<section id="легионерска-болест" class="level3">
-<h3 class="anchored" data-anchor-id="легионерска-болест">Легионерска болест</h3>
-<p>През седмица 48 са потвърдени два случая на легионерска болест, което представлява удвояване спрямо предходната седмица. Случаите от началото на годината (15) надвишават тези за 2024 г. (10) с 50%, което налага засилен екологичен надзор върху водните системи.</p>
-<p><em>Legionella pneumophila</em>, причинителят на заболяването, колонизира изкуствени водни системи и се предава чрез инхалиране на аерозоли, съдържащи бактерията, от източници като охладителни кули, системи за топла вода и спа басейни. Заболяването протича като тежка пневмония с инкубационен период 2–10 дни, като най-засегнати са възрастни хора, имунокомпрометирани лица и пациенти с хронични белодробни заболявания. Леталитетът може да надхвърли 10% при отсъствие на своевременно и адекватно антибиотично лечение.</p>
-</section>
-</section>
-</section>
-<section id="фекално-орални" class="level1">
-<h1>Фекално-орални</h1>
-<section id="вирусни-хепатити-типове-a-b-c-d-e" class="level2">
-<h2 class="anchored" data-anchor-id="вирусни-хепатити-типове-a-b-c-d-e">Вирусни хепатити (типове A, B, C, D, E)</h2>
-<p>През седмица 48 са съобщени 44 случаи на остър вирусен хепатит, което представлява намаление с 48,8% спрямо предходната седмица (86 случая). От тях 40 са лабораторно потвърдени, 1 – вероятен, и 3 – възможни случаи. Географското разпределение показва случаи в множество региони, включително Пловдив (40), София-град (4), Хасково (7) и Шумен (7), наред с други.</p>
-<p>Въпреки седмичното намаление, случаите от началото на годината (1 447) са със 123% повече в сравнение с 2024 г. (648). Този съществен ръст е в съзвучие с по-широкото европейско огнище на хепатит A, засягащо съседни страни, макар че специфичният принос на отделните типове хепатит в България изисква допълнителна характеристика. С оглед на продължаващото многострано огнище на HAV, засягащо население в Централна Европа с ограничен достъп до санитарни условия, са необходими засилен надзор и целенасочени превантивни мерки.</p>
-</section>
-<section id="гастроентерити-и-ентероколити" class="level2">
-<h2 class="anchored" data-anchor-id="гастроентерити-и-ентероколити">Гастроентерити и ентероколити</h2>
-<p>Общо 169 случая на гастроентерит и ентероколит са регистрирани през седмица 48, което представлява умерено намаление с 4 случая спрямо предходната седмица. Класификацията включва 76 възможни, 88 вероятни и 5 потвърдени случая. Най-високи са стойностите в Пловдив (40), София-град (23) и Бургас (22). Случаите от началото на годината (8 848) са с 6% по-малко в сравнение с 2024 г. (9 408), в съответствие с дългосрочните тенденции в надзора на чревните инфекции.</p>
-</section>
-<section id="салмонелоза" class="level2">
-<h2 class="anchored" data-anchor-id="салмонелоза">Салмонелоза</h2>
-<p>Двадесет и три случая на салмонелоза са потвърдени през седмица 48, което представлява увеличение с 43,8% спрямо предходната седмица (16 случая). Случаите са географски разпръснати в множество региони, включително София-град (5), Пловдив (1) и Плевен (4). От началото на годината са съобщени 661 случая, което е с 25,7% по-малко в сравнение с 2024 г. (890), въпреки че седмичното нарастване изисква внимание за потенциално клъстериране на случаи.</p>
-<p>Салмонелозата, най-често причинявана от нетифоидни серовари на <em>Salmonella</em>, се предава чрез контаминирани хранителни продукти, особено птиче месо, яйца и непастьоризирани млечни продукти. Инкубационният период е 6–72 часа, а клиничната картина варира от самоограничаващ се гастроентерит до инвазивно заболяване при уязвими групи. Антимикробната резистентност сред изолатите на <em>Salmonella</em> остава ключов приоритет за общественото здраве и надзора.</p>
-<section id="кампилобактериоза" class="level3">
-<h3 class="anchored" data-anchor-id="кампилобактериоза">Кампилобактериоза</h3>
-<p>Деветнадесет случая на кампилобактериоза са потвърдени през седмица 48, което представлява увеличение с 3 случая спрямо предходната седмица. Най-много случаи са регистрирани в София-град (9), следвана от Варна (5). Важно е да се отбележи, че случаите от началото на годината (456) надвишават тези за 2024 г. (316) с 44,3%, което представлява устойчиво нарастване през 2025 г. и налага оценка на потенциалните източници и рискови фактори.</p>
-<p>Видовете <em>Campylobacter</em>, предимно <em>C. jejuni</em> и <em>C. coli</em>, са водеща бактериална причина за гастроентерит в индустриализираните страни. Заразяването става най-често чрез консумация на недостатъчно термично обработено птиче месо, непастьоризирано мляко и контаминирана вода, с инкубационен период 1–10 дни. Постинфекциозни усложнения като синдром на Гилен–Баре и реактивен артрит възникват при малък процент от случаите.</p>
-</section>
-<section id="ротавирусни-гастроентерити" class="level3">
-<h3 class="anchored" data-anchor-id="ротавирусни-гастроентерити">Ротавирусни гастроентерити</h3>
-<p>Десет случая на ротавирусен гастроентерит са потвърдени през седмица 48, което представлява намаление с 3 случая спрямо предходната седмица. Случаите са разпределени в София-град (4), Плевен (2) и няколко други региона. Случаите от началото на годината (691) са с 12,4% по-малко в сравнение с 2024 г. (789), което вероятно отразява продължаващата полза от програмите за детска ваксинация срещу ротавирус.</p>
-</section>
-</section>
-<section id="трансмисивни-2" class="level2">
-<h2 class="anchored" data-anchor-id="трансмисивни-2">Трансмисивни</h2>
-<section id="лаймска-борелиоза" class="level3">
-<h3 class="anchored" data-anchor-id="лаймска-борелиоза">Лаймска борелиоза</h3>
-<p>Три случая на лаймска борелиоза са потвърдени през седмица 48, което представлява намаление с 2 случая спрямо предходната седмица. Случаите са съобщени от Добрич (1), Плевен (1) и Хасково (1). Случаите от началото на годината (376) остават практически непроменени в сравнение с 2024 г. (377). Намаляващата сезонна активност е очаквана с оглед редуцираната активност на кърлежите през зимните месеци.</p>
-</section>
-</section>
-<section id="контактно-и-сексуално-предаване" class="level2">
-<h2 class="anchored" data-anchor-id="контактно-и-сексуално-предаване">Контактно и сексуално предаване</h2>
-<section id="полово-предавани-инфекции" class="level3">
-<h3 class="anchored" data-anchor-id="полово-предавани-инфекции">Полово предавани инфекции</h3>
-<p>Полово предаваните инфекции в България показват тревожна възходяща тенденция през 2025 г. за няколко патогена.</p>
-<p><strong>Сифилис</strong> – регистрирани са 10 случая през седмица 48, леко увеличение спрямо предходната седмица (9 случая). Случаите от началото на годината (342) представляват увеличение с 11,4% в сравнение с 2024 г. (307). Особено обезпокоително е, че случаите на вроден сифилис достигат 34 от началото на годината в сравнение с 14 през 2024 г. – ръст от 143%, което сигнализира за потенциални пропуски в програмите за скрининг и лечение по време на бременност.</p>
-<p><strong>Гонорея</strong> – регистрирани са 5 потвърдени случая през седмица 48, увеличение с 3 случая спрямо предходната седмица. Случаите от началото на годината (114) представляват ръст от 28,1% в сравнение с 2024 г. (89).</p>
-<p><strong>Урогенитална хламидийна инфекция</strong> – през седмица 48 са съобщени 5 случая, съществено увеличение спрямо предходната седмица (1 случай). Случаите от началото на годината (175) представляват най-изразения ръст сред бактериалните ППИ – увеличение от 69,9% в сравнение с 2024 г. (103).</p>
-<p><strong>HIV</strong> – през седмица 48 са съобщени 3 нови случая, един повече от предходната седмица. Случаите от началото на годината (277) представляват увеличение от 7,4% в сравнение с 2024 г. (258).</p>
-<p>Последователните възходящи трендове във всички категории ППИ предполагат влияние на системни фактори, включително възможно намаляване на обхвата на профилактичните услуги, промени в сексуалното поведение или подобрено откриване и докладване. Драматичното увеличение на случаите на вроден сифилис – от 14 на 34 от началото на годината – е особено спешен проблем за общественото здраве, изискващ незабавно внимание към качеството и обхвата на пренаталните грижи.</p>
-</section>
-</section>
-<section id="детски-и-ваксинопредотвратими-заболявания" class="level2">
-<h2 class="anchored" data-anchor-id="детски-и-ваксинопредотвратими-заболявания">Детски и ваксинопредотвратими заболявания</h2>
-<section id="варицела-лещенка" class="level3">
-<h3 class="anchored" data-anchor-id="варицела-лещенка">Варицела (лещенка)</h3>
-<p>Варицелата демонстрира най-същественото седмично увеличение сред заразните заболявания в България, със 526 случая през седмица 48, което представлява нарастване със 84 случая (19,0%) спрямо предходната седмица (442 случая). Класификацията на случаите включва 47 възможни, 411 вероятни и 68 потвърдени случая. Най-високи стойности са регистрирани в София-град (82), Варна (69), Пловдив (36), Велико Търново (31) и Стара Загора (31).</p>
-<p>Случаите от началото на годината (19 506) са с 20,4% по-малко в сравнение с 2024 г. (24 496), но текущите седмични стойности показват сезонно ускоряване, в съответствие с очакваните зимни модели на трансмисия. Ваксината срещу варицела не е включена в рутинния Имунизационен календар на България, което води до продължаваща ендемична циркулация с изразени зимно-пролетни пикове.</p>
-</section>
-<section id="скарлатина" class="level3">
-<h3 class="anchored" data-anchor-id="скарлатина">Скарлатина</h3>
-<p>Деветдесет и девет случая на скарлатина са съобщени през седмица 48, увеличение с 9 случая спрямо предходната седмица. Класификацията включва 23 възможни, 43 вероятни и 33 потвърдени случая. Най-високи стойности са регистрирани в Пловдив (26), София-град (17) и Варна (14). Въпреки седмичното увеличение, случаите от началото на годината (3 249) остават с 59,7% по-малко от тези през 2024 г. (8 071), което отразява отшумяването на вълната от инфекции с <em>Streptococcus pyogenes</em> (група A), паралелна на коклюшната епидемия през 2024 г.</p>
-</section>
-</section>
-<section id="заболявания-под-засилен-надзор" class="level2">
-<h2 class="anchored" data-anchor-id="заболявания-под-засилен-надзор">Заболявания под засилен надзор</h2>
-<section id="инвазивна-менингококова-болест" class="level3">
-<h3 class="anchored" data-anchor-id="инвазивна-менингококова-болест">Инвазивна менингококова болест</h3>
-<p>През седмица 48 не са съобщени случаи на инвазивна менингококова болест. Случаите от началото на годината (14) представляват съществено увеличение в сравнение с 2024 г. (6), което оправдава поддържането на засилен надзор въпреки липсата на нови случаи през текущата седмица.</p>
-</section>
-<section id="кримска-конго-хеморагична-треска" class="level3">
-<h3 class="anchored" data-anchor-id="кримска-конго-хеморагична-треска">Кримска-конго хеморагична треска</h3>
-<p>През седмица 48 не са съобщени случаи на Кримска-конго хеморагична треска. От началото на годината е регистриран един случай, без промяна спрямо 2024 г. България остава ендемична за CCHF поради наличието на кърлежи от род <em>Hyalomma</em>, макар че човешките случаи са значително намалели в сравнение с историческите нива.</p>
-</section>
-<section id="патогени-с-висок-епидемичен-и-пандемичен-потенциал-отрицателни-резултати" class="level3">
-<h3 class="anchored" data-anchor-id="патогени-с-висок-епидемичен-и-пандемичен-потенциал-отрицателни-резултати">Патогени с висок епидемичен и пандемичен потенциал – отрицателни резултати</h3>
-<p>През седмица 48 не са съобщени случаи на: антракс, морбили, рубеола, вродена рубеола, дифтерия, полиомиелит, коремен тиф, холера, туляремия, бруцелоза или болест на Кройцфелд–Якоб. България е съобщила 2 случая на mpox от началото на годината (в сравнение с 1 през 2024 г.) и 5 внесени случая на денга (в сравнение с 6 през 2024 г.). ```</p>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>Български</category>
-  <guid>https://kostadinoff.github.io/epinews-posts/2025-W48-bg.html</guid>
-  <pubDate>Sun, 30 Nov 2025 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
