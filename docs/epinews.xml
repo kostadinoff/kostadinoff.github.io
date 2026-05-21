@@ -10,7 +10,179 @@
 <atom:link href="https://kostadinoff.github.io/epinews.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.10.3</generator>
-<lastBuildDate>Wed, 13 May 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Epidemiological News: Week 20, 2026</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/epinews-posts/2026-W20-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="non-communicable-disease-and-healthcare-system-developments" class="level2">
+<h2 class="anchored" data-anchor-id="non-communicable-disease-and-healthcare-system-developments">Non-Communicable Disease and Healthcare System Developments</h2>
+<section id="clinical-research-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="clinical-research-highlights">Clinical Research Highlights</h3>
+<p>Three publications in high-impact journals this week carry direct relevance for clinical and public health practice.</p>
+<section id="telitacicept-for-iga-nephropathy-nejm-phase-3-interim-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="telitacicept-for-iga-nephropathy-nejm-phase-3-interim-analysis">Telitacicept for IgA Nephropathy (NEJM, Phase 3 Interim Analysis)</h4>
+<p>A prespecified interim analysis of the TELIGAN phase 3 trial, published in the <em>New England Journal of Medicine</em>, provides the first randomised evidence of clinically meaningful efficacy for telitacicept in IgA nephropathy. Telitacicept is a recombinant fusion protein that simultaneously neutralises both B-cell activating factor (BAFF) and a proliferation-inducing ligand (APRIL), two cytokines central to the pathogenic cascade driving aberrant IgA1 glycosylation and subsequent mesangial deposition. The trial enrolled 318 adults with biopsy-proven disease and persistent proteinuria (≥1.0 g/day) despite maximum supportive care, randomised 1:1 to subcutaneous once-weekly telitacicept 240 mg or placebo.</p>
+<p>At the primary endpoint of 39 weeks, the percentage change in 24-hour urinary protein-to-creatinine ratio was −58.9% in the telitacicept group versus −8.8% with placebo, corresponding to a relative difference of −55.0% (95% CI: −61.3 to −47.6; p&lt;0.001). Equally important from a long-term nephroprotective standpoint, the percentage change in estimated glomerular filtration rate was −1.0% with telitacicept compared with −7.7% with placebo—a difference suggesting meaningful attenuation of ongoing renal functional deterioration over the 39-week observation window. Adverse events were more frequent in the active treatment arm (89.3% vs 78.6%), though serious adverse events were markedly less common (2.5% vs 8.2%), with no unexpected safety findings identified. IgA nephropathy is the most common primary glomerulonephritis globally and a leading cause of end-stage renal disease among young adults; effective disease-modifying therapy targeting the upstream immunological pathway rather than proteinuria alone represents a substantive advance in the management of this condition.</p>
+</section>
+<section id="weight-loss-and-atrial-fibrillation-in-older-adults-the-lose-af-trial-jama" class="level4">
+<h4 class="anchored" data-anchor-id="weight-loss-and-atrial-fibrillation-in-older-adults-the-lose-af-trial-jama">Weight Loss and Atrial Fibrillation in Older Adults: The LOSE-AF Trial (JAMA)</h4>
+<p>The LOSE-AF randomised clinical trial, published in <em>JAMA</em>, provides an important qualification to the prevailing clinical guideline recommendation that all patients with obesity and atrial fibrillation (AF) should undergo weight loss intervention. The trial enrolled 118 adults aged 60 to 85 years (mean age 68; 33% female) with overweight (BMI ≥27) and persistent AF undergoing electrical cardioversion at two UK centres. Participants were randomised to an 8-month low-calorie dietary and behavioural support programme (n=59) or usual care (n=59).</p>
+<p>The intervention achieved its proximal goal: mean weight at 8 months was 92.6 kg in the intervention group versus 99.4 kg in controls (estimated difference −6.9 kg; 95% CI: −9.2 to −4.5; p&lt;0.001), corresponding to a 9.7% weight reduction versus 3.1%. However, this clinically significant weight loss conferred no benefit on the primary outcome of AF symptom severity as measured by the Atrial Fibrillation Severity Scale (baseline-adjusted mean scores: 7.9 vs 8.9; between-group difference −0.9; 95% CI: −3.3 to 1.4; p=0.43). No significant treatment effects were observed on physical performance, AF burden, cardiac imaging parameters, blood pressure, lipid profile, or the need for repeat cardioversion or ablation. No serious adverse events related to trial participation occurred in either group. The trial’s principal public health significance lies in its demonstration that prior evidence supporting weight loss for AF—predominantly derived from younger patient populations—does not straightforwardly extend to older adults, among whom weight reduction programmes may carry the additional risk of precipitating or accelerating frailty. These findings highlight the importance of age-stratified evidence in clinical guideline development and should prompt re-evaluation of the strength of weight loss recommendations in this demographic.</p>
+</section>
+<section id="procalcitonin-guided-antibiotic-duration-in-neonatal-late-onset-sepsis-the-proabis-trial-bmj" class="level4">
+<h4 class="anchored" data-anchor-id="procalcitonin-guided-antibiotic-duration-in-neonatal-late-onset-sepsis-the-proabis-trial-bmj">Procalcitonin-Guided Antibiotic Duration in Neonatal Late-Onset Sepsis: The ProABIS Trial (BMJ)</h4>
+<p>The ProABIS multicentre randomised open-label trial, conducted across 33 neonatology departments in France and published in the <em>BMJ</em>, addressed whether procalcitonin (PCT)-guided decision-making can safely shorten antibiotic treatment duration in neonatal late-onset sepsis (LOS)—a common and potentially life-threatening complication of preterm birth and prolonged neonatal care. The trial enrolled 504 newborns (gestation ≥24 weeks, postnatal age &gt;4 days) with suspected or proven LOS requiring antibiotics beyond 48 hours, randomised to PCT-guided management (n=248) or standard local protocols (n=256). In the PCT-guided arm, PCT concentrations were measured at randomisation and every two days; a non-binding recommendation to discontinue antibiotics was issued when PCT reached ≤0.5 µg/L.</p>
+<p>The median duration of antibiotic treatment was 8 days in the PCT-guided group versus 10 days in the usual-care group (absolute difference −2.0 days; IQR: −3.8 to −1.0; p&lt;0.001). Critically, non-inferiority for 28-day mortality was demonstrated: 2.4% versus 3.9% (absolute difference −1.5%; 95% CI: −5.0 to 1.8). Infection recurrence rates were also comparable (2.8% vs 3.9%). From a stewardship perspective, a two-day reduction in antibiotic exposure per sepsis episode, applied across the many thousands of LOS cases managed annually in European neonatal intensive care units, represents a meaningful reduction in cumulative antimicrobial pressure, with corresponding benefits for reducing the selection of resistant organisms in a setting where antimicrobial resistance constitutes a particularly severe threat.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="infectious-diseases-global-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-global-perspective">Infectious Diseases: Global Perspective</h2>
+<section id="respiratory-and-droplet-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="respiratory-and-droplet-transmission">Respiratory and Droplet Transmission</h3>
+<section id="avian-influenza-ah5n6-fatal-human-case-china" class="level4">
+<h4 class="anchored" data-anchor-id="avian-influenza-ah5n6-fatal-human-case-china">Avian Influenza A(H5N6) — Fatal Human Case, China</h4>
+<p>On 8 May 2026, WHO reported a further laboratory-confirmed human case of avian influenza A(H5N6) infection, bringing the cumulative total since 2014 to 94 cases with 58 deaths—a case fatality ratio of 62.4%. The case was a woman in her fifties from Chongqing Municipality, China, who developed symptoms on 16 April following direct exposure to live poultry that she had purchased, slaughtered, and consumed. She was hospitalised on 23 April with severe pneumonia and died on 3 May. Environmental sampling of her cutting board returned positive for influenza A(H5); none of her close contacts developed symptoms or tested positive for influenza virus.</p>
+<p>The A(H5N6) subtype has been responsible for sporadic human infections almost exclusively in China (93 of 94 cases), with one additional case reported from Laos. The exposure pattern is consistent with the established epidemiology: more than 90% of cases report exposure to domestic poultry. No sustained human-to-human transmission has been documented to date, and ECDC’s assessment of the risk to the general public in EU/EEA countries remains very low. However, the consistently high case fatality ratio underscores the severity of disease in individuals who do acquire zoonotic infection, reinforcing the importance of personal protective measures for those with occupational or market-related poultry exposure.</p>
+</section>
+<section id="swine-influenza-ah1n2-variant-sporadic-case-united-states" class="level4">
+<h4 class="anchored" data-anchor-id="swine-influenza-ah1n2-variant-sporadic-case-united-states">Swine Influenza A(H1N2) Variant — Sporadic Case, United States</h4>
+<p>A single human infection with influenza A(H1N2) variant virus of swine origin was reported in Nebraska, United States, in the week ending 4 April 2026—the first A(H1N2)v case in the US for the 2026 calendar year and the second of the 2025–2026 season. The case, a person under 18 years of age, developed a self-limited respiratory illness requiring no hospitalisation and has since recovered. Epidemiological investigation identified no direct or indirect contact with pigs; a close contact developed concurrent mild respiratory illness, but no further linked cases were identified. Globally, 34 cases of human A(H1N2)v infection have been reported since 2019, including four cases in EU/EEA countries (Austria, Denmark, France, Netherlands). The absence of pig contact in this case is epidemiologically noteworthy, though limited non-sustained human-to-human transmission of swine-origin variant influenza viruses has previously been documented and is considered possible on rare occasions. ECDC continues to monitor variant influenza through epidemic intelligence activities.</p>
+</section>
+</section>
+<section id="contact-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="contact-transmission">Contact Transmission</h3>
+<section id="mpox-global-outbreak-update-pakistan-reclassified-neonatal-cluster" class="level4">
+<h4 class="anchored" data-anchor-id="mpox-global-outbreak-update-pakistan-reclassified-neonatal-cluster">Mpox — Global Outbreak Update: Pakistan Reclassified, Neonatal Cluster</h4>
+<p>The global mpox situation in Week 20 is notable for two developments. First, ECDC formally reclassified Pakistan to the category of countries with <strong>community transmission</strong> of monkeypox virus (MPXV) clade I, effective 13 May 2026, following a cluster of 249 suspected mpox cases—including 29 laboratory-confirmed—and 8 deaths reported across nine districts of Sindh province between 14 March and 20 April 2026. The cases were predominantly neonates, reflecting an unusual transmission context distinct from the predominantly sexual-network-driven clade I epidemiology observed in other affected countries. Clade Ib was identified as the circulating lineage in this cluster, which represents a significant epidemiological development given prior evidence linking clade Ib to enhanced transmissibility in close-contact household settings.</p>
+<p>Second, the broader global epidemiological trajectory of mpox clade I continues its gradual decline. In the six-week period ending 3 May 2026, the five highest-burden African countries for confirmed clade I cases were Madagascar (656 cases), DRC (154 cases), and three others each reporting fewer than 100 cases. A decreasing trend in African clade I transmission—initially observed in May 2025—has continued into March 2026, though week-to-week fluctuations persist. Mpox clade II continues at a low and stable level outside Africa, with cases reported overwhelmingly among men (97%) who have sex with men (89%), predominantly adults. Secondary household transmission of clade I has been documented in Germany, Belgium, Ireland, and several non-EU/EEA countries, with cluster sizes ranging from 1 to 6 secondary cases. ECDC maintains its assessment that the risk of clade Ib infection is moderate for men who have sex with men and low for the general population in the EU/EEA.</p>
+</section>
+</section>
+<section id="zoonotic-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="zoonotic-transmission">Zoonotic Transmission</h3>
+<section id="andes-hantavirus-mv-hondius-cruise-ship-outbreak-epidemiological-resolution" class="level4">
+<h4 class="anchored" data-anchor-id="andes-hantavirus-mv-hondius-cruise-ship-outbreak-epidemiological-resolution">Andes Hantavirus — MV Hondius Cruise Ship Outbreak: Epidemiological Resolution</h4>
+<p>The Andes hantavirus outbreak aboard the Dutch-flagged cruise ship MV Hondius, first reported in Week 19, reached operational resolution this week following the completion of passenger and crew repatriation from Tenerife, Spain. As of 13 May 2026, the total case count stands at 11 (8 confirmed, 2 probable, 1 inconclusive) with 3 deaths, yielding a case fatality ratio of 27% among confirmed and probable cases. No new cases or deaths have been reported since the Week 19 update. The ship departed Tenerife on 11 May and is en route to the Netherlands.</p>
+<p>Preliminary genomic sequencing of isolates from confirmed cases revealed a high degree of genetic similarity consistent with derivation from a common source, supporting the hypothesis of an initial zoonotic spillover event—most likely during the ship’s stop in Argentina, where Andes virus is endemic in wild rodents—followed by limited human-to-human transmission onboard. Person-to-person transmission of Andes virus (<em>Hantavirus Andes orthohantavirus</em>) is biologically unusual among hantaviruses; most other hantaviruses are transmitted exclusively via rodent excreta, and the documented capacity for direct human-to-human spread is a characteristic unique to the Andes genotype. The natural reservoir of Andes virus is the long-tailed pygmy rice rat (<em>Oligoryzomys longicaudatus</em>), which is absent from Europe, precluding any risk of rodent-to-human secondary transmission among repatriated passengers. ECDC assesses the risk to the general EU/EEA population as very low.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="infectious-diseases-european-union-european-economic-area" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-european-union-european-economic-area">Infectious Diseases: European Union / European Economic Area</h2>
+<section id="contact-and-sexual-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="contact-and-sexual-transmission">Contact and Sexual Transmission</h3>
+<section id="mpox-in-the-eueea-clade-i-autochthonous-transmission-continuing" class="level4">
+<h4 class="anchored" data-anchor-id="mpox-in-the-eueea-clade-i-autochthonous-transmission-continuing">Mpox in the EU/EEA — Clade I Autochthonous Transmission Continuing</h4>
+<p>Within the EU/EEA, the epidemiological pattern of mpox clade I established since October 2025 persists into Week 20 without major change. Multiple EU/EEA countries continue to report clade I cases among men who have sex with men, the majority without recent travel history to Africa, indicating sustained autochthonous sexual-network transmission. Confirmed limited secondary household transmission has been documented in Germany, Belgium, and Ireland. ECDC’s Threat Assessment Brief of October 2025 remains current, with a moderate risk assessment for men who have sex with men and a low risk assessment for the general population. Current guidance emphasises pre-exposure vaccination strategies prioritising gay, bisexual, and transgender people and men who have sex with men, accessible testing, active contact tracing and partner notification, and continued community engagement. The mpox clade II situation in the EU/EEA—predominantly sexually transmitted at low and stable levels among men who have sex with men—is unchanged from prior weeks.</p>
+</section>
+</section>
+<section id="zoonotic-and-vector-borne-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="zoonotic-and-vector-borne-transmission">Zoonotic and Vector-Borne Transmission</h3>
+<section id="high-pathogenicity-avian-influenza-h5n1-ongoing-european-poultry-and-wild-bird-detections" class="level4">
+<h4 class="anchored" data-anchor-id="high-pathogenicity-avian-influenza-h5n1-ongoing-european-poultry-and-wild-bird-detections">High Pathogenicity Avian Influenza H5N1 — Ongoing European Poultry and Wild Bird Detections</h4>
+<p>WOAH surveillance data updated through mid-May 2026 document continued HPAI H5N1 detections in European poultry and wild bird populations. The Netherlands has ongoing reports in both poultry (FUR_32, recurrence since October 2025) and wild birds; Poland continues to report multiple active African swine fever and HPAI foci, with a new H5N1 poultry detection in April 2026 (FUR_6); France reported a new poultry focus (FUR_1) with a start date of 25 April 2026; Hungary has reported five poultry foci since January 2026; and the United Kingdom maintains multiple concurrent wild bird detections involving both H5N1 and H5N5 subtypes. These ongoing European HPAI H5N1 detections, while primarily of veterinary and agricultural significance, maintain the background zoonotic transmission risk for individuals with occupational poultry exposure. Romania reported a new Bluetongue virus serotype 3 detection on 3 May 2026, adding to the continued spread of this arboviral sheep disease across southeastern Europe.</p>
+</section>
+<section id="foot-and-mouth-disease-sat-1-greece" class="level4">
+<h4 class="anchored" data-anchor-id="foot-and-mouth-disease-sat-1-greece">Foot-and-Mouth Disease SAT 1 — Greece</h4>
+<p>As noted in the Week 19 report, Greece continues to record FMD SAT 1 foci (FUR_7, recurrence since 15 March 2026), and Cyprus confirmed a new SAT 1 strain on 19 February 2026 (FUR_16). SAT 1 is not a serotype historically endemic to Europe; its circulation in the eastern Mediterranean warrants continued heightened surveillance given the potential for spread to livestock populations in neighbouring Balkan and southeastern European countries, including Bulgaria.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="infectious-diseases-bulgaria" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-diseases-bulgaria">Infectious Diseases: Bulgaria</h2>
+<section id="respiratory-and-droplet-transmission-1" class="level3">
+<h3 class="anchored" data-anchor-id="respiratory-and-droplet-transmission-1">Respiratory and Droplet Transmission</h3>
+<section id="varicella" class="level4">
+<h4 class="anchored" data-anchor-id="varicella">Varicella</h4>
+<p>Varicella registered 576 cases in Week 20, a decline of 133 cases from Week 19’s 709 (−18.8% week-over-week). The year-to-date cumulative total of 12,226 cases is essentially level with the 12,209 cases recorded in the same 20-week period of 2025 (+0.1%), confirming that the 2026 season is tracking closely to the prior year’s trajectory overall. The regional distribution in the ZRZ breakdown shows continued broad geographic dispersal, with the largest district contributions from Sofia-grad (125 cases), Varna (65), Blagoevgrad (56), Plovdiv (29), Haskovo (59), and Sliven (33)—a pattern consistent with school-age transmission across all major urban centres. The modest week-over-week decline likely reflects the approach of the late-spring school closure period, which characteristically attenuates varicella transmission. The incidence trajectory through Weeks 21–22 will indicate whether this represents the definitive beginning of the seasonal downslope or a transient fluctuation.</p>
+</section>
+<section id="measles-continued-geographic-expansion" class="level4">
+<h4 class="anchored" data-anchor-id="measles-continued-geographic-expansion">Measles — Continued Geographic Expansion</h4>
+<p>Twenty-five measles cases were reported via the ZRZ regional breakdown for Week 20, compared with 33 cases in Week 19—a decrease of 8 cases (−24% week-over-week). However, this apparent quantitative improvement is epidemiologically offset by the observation of geographic expansion: while the Week 19 outbreak was concentrated in Vracha, Pleven, Lovech, and Kyustendil, Week 20 introduces active transmission in two new districts—Montana (2 cases) and Sofia-grad (1 case)—in addition to continued substantial activity in Vracha (9 cases) and Pleven (9 cases), with Kyustendil contributing 4 cases. The emergence of cases in Sofia-grad is of particular surveillance concern given the city’s population density, transit connectivity, and the potential for rapid amplification within susceptible sub-populations.</p>
+<p>Measles, caused by <em>Morbillivirus hominis</em> and transmitted via respiratory droplet and airborne routes with a secondary attack rate approaching 90% in susceptible contacts, remains the most infectious agent in routine surveillance. The disease’s characteristic 10–12-day incubation period and the 2–4-day prodromal infectious period preceding rash onset facilitate efficient forward transmission in settings with incomplete vaccination coverage. The ongoing multi-district outbreak—now spanning five districts across multiple epidemiological weeks—constitutes an active vaccine-preventable disease event requiring coordinated emergency vaccination response and enhanced case ascertainment.</p>
+</section>
+<section id="scarlet-fever" class="level4">
+<h4 class="anchored" data-anchor-id="scarlet-fever">Scarlet Fever</h4>
+<p>Scarlet fever notifications declined to 37 cases in Week 20, a reduction of 20 cases from Week 19’s inferred 57 (−35% week-over-week). The year-to-date total of 1,374 cases is 30.2% below the 1,969 cases registered in the same period of 2025, confirming a substantially less active <em>Streptococcus pyogenes</em> season in 2026 compared with the prior year. The geographic distribution in the ZRZ breakdown shows Sofia-grad (7), Plovdiv (6), and Ruse (5) as the principal contributing districts. The week-over-week decline is consistent with seasonal spring attenuation of streptococcal respiratory disease as school terms approach their end. No signals of unusually severe disease or complications have been reported in the national surveillance data.</p>
+</section>
+</section>
+<section id="fecal-oral-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="fecal-oral-transmission">Fecal-Oral Transmission</h3>
+<section id="acute-viral-hepatitis-abcden-significant-weekly-surge" class="level4">
+<h4 class="anchored" data-anchor-id="acute-viral-hepatitis-abcden-significant-weekly-surge">Acute Viral Hepatitis ABCDEN — Significant Weekly Surge</h4>
+<p>Fifty-three cases of acute viral hepatitis ABCDEN were registered in Week 20, representing a 22-case increase from the 31 cases registered in Week 19—a 71% week-over-week surge that constitutes the most pronounced single-week escalation of this indicator since the beginning of the 2026 surveillance year. Of the 53 cases, 49 were laboratory-confirmed, 3 probable, and 1 possible. The year-to-date cumulative total has reached 734 cases, which is 60.6% above the 457 cases registered in the same twenty-week period of 2025—a sustained excess that has been documented without interruption since early 2026.</p>
+<p>The ZRZ regional breakdown reveals geographically distributed activity: notable contributions come from Shumen (6), Kardzhali (4), Lovech (3), Montana (3), Stara Zagora (3), Blagoevgrad (2), Plovdiv (2), Dobrich (2), Haskovo (2), and Vidin (1), alongside scattered cases in multiple other districts. This wide geographic distribution argues against a single discrete point-source outbreak and is more consistent with diffuse endemic transmission elevation or a combination of ongoing outbreak foci in multiple districts. As previously documented in this report series, the composite ABCDEN surveillance category aggregates hepatitis A through E under a single reporting code, precluding serotype attribution from routine national data. The sustained 61% year-over-year excess over 20 weeks, combined with the acute 71% single-week surge, elevates this from a background surveillance signal to an urgent analytical priority. Formal case series disaggregation by hepatitis type—particularly distinguishing hepatitis A (enteric, fecal-oral) from hepatitis B and C (bloodborne, parenteral/sexual) and hepatitis E (zoonotic/enteric)—is prerequisite for directing any targeted public health response.</p>
+</section>
+<section id="campylobacteriosis" class="level4">
+<h4 class="anchored" data-anchor-id="campylobacteriosis">Campylobacteriosis</h4>
+<p>Campylobacteriosis registered 13 confirmed cases in Week 20, unchanged from Week 19. The year-to-date total of 215 cases is 107% above the 104 cases registered through the same period of 2025—a sustained doubling of reported campylobacteriosis incidence that has persisted across all 20 weeks of the 2026 surveillance year. The stable week-over-week count is consistent with continued plateau-level activity. Campylobacter jejuni and coli, the principal enteric bacterial pathogens in this category, are transmitted primarily via contaminated poultry and unpasteurised dairy products, with seasonal peaks typically emerging in late spring through summer in temperate climates. The 107% year-over-year excess warrants source attribution investigation, particularly in relation to poultry supply chain hygiene standards.</p>
+</section>
+<section id="gastroenteritis-and-enterocolitis" class="level4">
+<h4 class="anchored" data-anchor-id="gastroenteritis-and-enterocolitis">Gastroenteritis and Enterocolitis</h4>
+<p>A total of 194 cases of gastroenteritis and enterocolitis were registered in Week 20, a modest increase of 9 from Week 19 (+4.9% week-over-week). The year-to-date cumulative total of 3,009 cases is 4.0% above the 2,893 cases registered in the same period of 2025. Of the Week 20 cases, 79 were classified as possible, 107 as probable, and only 8 as confirmed—a case classification distribution reflecting the non-specific clinical case definition applied to this category. The ZRZ breakdown shows Plovdiv (39), Varna (23), V. Tarnovo (8), Lovech (14), and multiple other districts contributing in single figures. The year-over-year excess is minor and below the 20% inclusion threshold; the indicator is noted here for context given the concurrent hepatitis ABCDEN surge and the approaching warm season, during which enteric disease activity typically intensifies.</p>
+</section>
+<section id="rotavirus-gastroenteritis" class="level4">
+<h4 class="anchored" data-anchor-id="rotavirus-gastroenteritis">Rotavirus Gastroenteritis</h4>
+<p>Twenty-one confirmed cases of rotavirus gastroenteritis were registered in Week 20, a 4-case increase from the 17 cases in Week 19 (+24% week-over-week). The year-to-date total of 323 cases is 10.8% below the 362 cases recorded in the same period of 2025. The modest week-over-week increase is consistent with the characteristic late-spring tail of the rotavirus season in Bulgaria, which typically peaks between February and April. The geographic distribution in the ZRZ shows cases in Stara Zagora (5), Burdgas (2), Varna (4), Kardzhali (1), Kyustendil (1), and Plovdiv (3), among others.</p>
+</section>
+</section>
+<section id="vector-borne-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="vector-borne-transmission">Vector-Borne Transmission</h3>
+<section id="marseille-fever-seasonal-onset-confirmed" class="level4">
+<h4 class="anchored" data-anchor-id="marseille-fever-seasonal-onset-confirmed">Marseille Fever — Seasonal Onset Confirmed</h4>
+<p>Four cases of Mediterranean spotted fever (Marseille fever) were registered in Week 20, a three-case increase from the single case recorded in Week 19 (+300% week-over-week). The year-to-date total of 7 cases is 50% below the 14 cases registered in the same period of 2025. The ZRZ breakdown attributes 2 cases to Burgas district. Marseille fever, caused by <em>Rickettsia conorii</em> and transmitted primarily by the brown dog tick (<em>Rhipicephalus sanguineus</em>), characteristically begins its seasonal emergence in Bulgaria from May onward as rising temperatures activate tick populations. The threefold week-over-week increase represents the definitive onset of the 2026 Marseille fever season; activity is expected to escalate progressively through June, July, and August. Clinicians in tick-endemic areas should maintain heightened suspicion for the classic triad of fever, eschar, and maculopapular rash, particularly in patients with recent tick exposure or outdoor activity history.</p>
+</section>
+<section id="q-fever" class="level4">
+<h4 class="anchored" data-anchor-id="q-fever">Q Fever</h4>
+<p>Two confirmed cases of Q fever were registered in Week 20, compared with zero in Week 19. The year-to-date total of 24 cases is 50% above the 16 cases registered in the same period of 2025, and both Week 20 cases were identified in Burgas district—the same district contributing the Marseille fever cluster above, suggesting active tick-borne and zoonotic disease pressure in this southeastern coastal region. Q fever, caused by <em>Coxiella burnetii</em>, is a zoonotic infection transmitted primarily via inhalation of aerosols from contaminated animal products (particularly birth materials from infected sheep and goats), with tick transmission playing a secondary role. The incubation period ranges from 2 to 4 weeks; clinical presentation ranges from self-limited febrile illness to pneumonia, hepatitis, and—in a minority of cases—chronic endocarditis, which carries significant morbidity.</p>
+</section>
+<section id="lyme-borreliosis" class="level4">
+<h4 class="anchored" data-anchor-id="lyme-borreliosis">Lyme Borreliosis</h4>
+<p>Four confirmed cases of Lyme borreliosis were registered in Week 20, a decrease of 2 from the 6 cases in Week 19 (−33% week-over-week). The year-to-date total of 64 cases is 14.7% below the 75 cases recorded in the same period of 2025. The week-over-week decline follows the doubling documented in Week 19 and likely reflects normal variability within the early tick season rather than a substantive downward trend; sustained surveillance through May and June will be the key indicator of the 2026 tick season’s overall intensity. Cases this week were distributed across Pernik (1), Sofia-oblast (1), and Targovishte (1), with one additional case elsewhere.</p>
+</section>
+</section>
+<section id="contact-and-sexual-transmission-1" class="level3">
+<h3 class="anchored" data-anchor-id="contact-and-sexual-transmission-1">Contact and Sexual Transmission</h3>
+<section id="urogenital-chlamydial-infection-acute-weekly-surge" class="level4">
+<h4 class="anchored" data-anchor-id="urogenital-chlamydial-infection-acute-weekly-surge">Urogenital Chlamydial Infection — Acute Weekly Surge</h4>
+<p>Thirteen confirmed cases of urogenital chlamydial infection were registered in Week 20, an increase of 11 from the 2 cases registered in Week 19—a 550% week-over-week increase representing the most dramatic single-week proportional change observed in the sexually transmitted infection surveillance data for 2026. The year-to-date cumulative total of 130 cases is 165% above the 49 cases registered in the same period of 2025. While the low absolute weekly baseline in prior weeks means that the 550% figure reflects both genuine signal and the statistical amplification of small numbers, the concurrent year-to-date excess of 165% over 20 weeks is too consistent and sustained to be attributed to reporting artefact alone. <em>Chlamydia trachomatis</em> infection, typically asymptomatic in a substantial proportion of infected individuals—particularly women—is likely substantially under-ascertained in routine surveillance. The sustained year-over-year excess may reflect genuine increases in transmission incidence, improvements in testing access, or enhanced reporting completeness, but the week-over-week surge warrants monitoring over the subsequent two to three weeks to characterise its trajectory.</p>
+</section>
+<section id="gonorrhea" class="level4">
+<h4 class="anchored" data-anchor-id="gonorrhea">Gonorrhea</h4>
+<p>Three confirmed cases of gonorrhea were registered in Week 20, one fewer than Week 19 (−25% week-over-week). The year-to-date cumulative total of 92 cases represents a 229% excess over the 28 cases registered in the same period of 2025. This sustained year-over-year excess—documented consistently since Week 1 of 2026—remains the most pronounced sustained relative increase among all tracked infections in Bulgarian national surveillance for the current year. The absence of antimicrobial susceptibility data in routine Bulgarian gonorrhea surveillance notifications, in the context of global emergence and geographic spread of extensively drug-resistant <em>Neisseria gonorrhoeae</em>, continues to represent a structurally significant gap that limits the assessment of treatment failure risk and clinical management guidance.</p>
+</section>
+<section id="syphilis" class="level4">
+<h4 class="anchored" data-anchor-id="syphilis">Syphilis</h4>
+<p>Four confirmed syphilis cases were registered in Week 20, a 10-case decrease from the 14 cases in Week 19 (−71% week-over-week). The year-to-date total of 142 cases is 9.2% above the 130 cases in the same period of 2025. The sharp decline from Week 19’s surge likely reflects the resolution of a reporting consolidation artefact rather than a true rapid reduction in transmission. Congenital syphilis recorded 2 confirmed cases in Week 20, compared with zero in Week 19; the year-to-date total of 16 cases is 33% above the 12 cases registered in the same period of 2025, representing continued preventable vertical transmission burden.</p>
+</section>
+<section id="mpox-first-confirmed-case-of-2026-in-bulgaria" class="level4">
+<h4 class="anchored" data-anchor-id="mpox-first-confirmed-case-of-2026-in-bulgaria">Mpox — First Confirmed Case of 2026 in Bulgaria</h4>
+<p>One confirmed case of mpox was registered in Week 20, the first confirmed mpox case in Bulgaria in the 2026 surveillance year. The year-to-date total stands at 1 case, compared with 2 cases registered through the same period of 2025. The case is consistent with the ongoing global mpox clade I epidemiological context described above, in which sporadic cases continue to be detected across EU/EEA countries including among men who have sex with men without recent travel history. Full epidemiological characterisation of this case—including clade identification, contact history, and exposure classification—will be important for determining whether this represents a travel-associated importation or autochthonous transmission.</p>
+</section>
+<section id="hiv" class="level4">
+<h4 class="anchored" data-anchor-id="hiv">HIV</h4>
+<p>Four confirmed HIV cases were registered in Week 20, one fewer than in Week 19 (−20% week-over-week). The year-to-date total of 90 cases is 24.4% below the 119 cases registered in the same period of 2025. The year-over-year decline, while potentially indicating a genuine reduction in newly diagnosed infections, should be interpreted with caution given Bulgaria’s well-documented pattern of late HIV diagnosis and the possibility of pandemic-period and post-pandemic testing backlog effects confounding year-over-year comparisons.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <guid>https://kostadinoff.github.io/epinews-posts/2026-W20-en.html</guid>
+  <pubDate>Wed, 20 May 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Epidemiological News: Week 19, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
@@ -2559,175 +2731,6 @@
   <category>English</category>
   <guid>https://kostadinoff.github.io/epinews-posts/2025-W50-en.html</guid>
   <pubDate>Sun, 14 Dec 2025 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Epidemiological News: Week 49, 2025</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/epinews-posts/2025-W49-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="veterinary-medicines-regulatory-developments" class="level1">
-<h1>Veterinary Medicines Regulatory Developments</h1>
-<p>The European Medicines Agency’s Committee for Veterinary Medicinal Products (CVMP) convened 2–4 December 2025 and adopted several notable opinions. Positive marketing authorisation opinions were issued for Varenzin (molidustat) for managing non-regenerative anaemia in cats with chronic kidney disease, Firocoxib CP-Pharma for pain and inflammation in dogs, and—under exceptional circumstances—an epizootic haemorrhagic disease vaccine (serotype 8) for cattle from Laboratorios Syva. The Committee also adopted a positive opinion for Dexdomitor’s new indication as a constant rate infusion during inhalation anaesthesia in dogs and cats.</p>
-<p>Of particular relevance to antimicrobial stewardship, the CVMP concluded its review of <strong>Phenoxypen WSP (phenoxymethylpenicillin) for chickens</strong> following a European Commission request for clarification, determining by majority that the benefit-risk balance is positive with specified amendments. The Committee also adopted the second European Sales and Use of Antimicrobials for veterinary medicine (ESUAvet) report for 2024, scheduled for publication on 9 December 2025. Additionally, a modified maximum residue limit opinion for lidocaine in porcine species was adopted, permitting scrotal/testicular injection in piglets up to 7 days of age—relevant to animal welfare improvements in castration procedures. The Committee adopted work plans for 2026 across all working parties, including the Antimicrobials Working Party.</p>
-</section>
-<section id="infectious-diseases---global-perspective" class="level1">
-<h1>Infectious Diseases - Global perspective</h1>
-<section id="middle-east-respiratory-syndrome-coronavirus-mers-cov-imported-cases-in-france" class="level2">
-<h2 class="anchored" data-anchor-id="middle-east-respiratory-syndrome-coronavirus-mers-cov-imported-cases-in-france">Middle East Respiratory Syndrome Coronavirus (MERS-CoV) – Imported Cases in France</h2>
-<p>On 3 December 2025, the French Ministry of Health reported <strong>two imported MERS-CoV cases in individuals with recent travel history to the Arabian Peninsula</strong>, marking the first MERS cases detected in the EU/EEA since 2014 and in Europe since 2018. Both cases were part of the same group trip. Contact tracing and monitoring are ongoing, with laboratory testing of symptomatic and paucisymptomatic contacts in progress. No secondary cases have been identified to date.</p>
-<p>MERS-CoV is a betacoronavirus first identified in Saudi Arabia in 2012. The virus is transmitted primarily through close contact with infected dromedary camels or their products (particularly raw milk), with limited human-to-human transmission occurring mainly in healthcare settings. The incubation period ranges from 2–14 days, with illness typically presenting as severe acute respiratory infection, though asymptomatic and mild cases occur. <strong>Case fatality rates historically exceed 30%, with higher mortality among individuals with underlying conditions</strong>. The Arabian Peninsula remains the epicenter, with 12 cases including 3 deaths reported in Saudi Arabia during 2025. Since 2012, a cumulative 2,640 cases and 958 deaths have been documented globally.</p>
-<p>The probability of sustained human-to-human transmission in Europe remains very low, and the overall risk to the EU/EEA population is assessed as low. However, these cases serve as a reminder that sporadic importation of MERS-CoV can occur and European surveillance systems must maintain vigilance for travel-associated respiratory illness.</p>
-</section>
-<section id="avian-influenza-ah5n2-genetic-analysis-update" class="level2">
-<h2 class="anchored" data-anchor-id="avian-influenza-ah5n2-genetic-analysis-update">Avian Influenza A(H5N2) – Genetic Analysis Update</h2>
-<p>Additional genetic analysis has been completed for the second human case of avian influenza A(H5N2) in Mexico, confirmed on 24 November 2025. The sequenced strain (A/Mexico City/INER INF1427/2025) belongs to clade 2.3.4.4b and, unlike the first case from 2024 which involved low pathogenic avian influenza, demonstrates a highly pathogenic avian influenza signature in the hemagglutinin segment.</p>
-<p>Notably, the strain appears to result from a reassortment event between an enzootic low pathogenic A(H5N2) virus ancestor from 2024 and A(H5N1) clade 2.3.4.4b genotype B3.2 viruses, with a new genotype designation (B3.14) proposed. While no mutations known to increase zoonotic potential were identified in the consensus sequence, deeper analysis of sequencing reads revealed minor variants of K526R and E627K in PB2—markers associated with enhanced replication in mammalian cells. No human-to-human transmission has been detected. The risk of zoonotic influenza transmission to EU/EEA populations remains low.</p>
-</section>
-<section id="vector-borne-contact-and-sexual-transmission" class="level2">
-<h2 class="anchored" data-anchor-id="vector-borne-contact-and-sexual-transmission">Vector-Borne, Contact and Sexual Transmission</h2>
-<section id="marburg-virus-disease-ethiopia-update" class="level3">
-<h3 class="anchored" data-anchor-id="marburg-virus-disease-ethiopia-update">Marburg Virus Disease – Ethiopia (Update)</h3>
-<p>The Marburg virus disease outbreak in Ethiopia continues to evolve, with one additional confirmed case reported since 28 November 2025. As of 4 December, cumulative figures stand at 16 cases (13 laboratory-confirmed, 3 probable) with 11 deaths (8 confirmed, 3 probable), yielding a case fatality rate of 61.5% among confirmed cases—slightly lower than the 66.7% reported in week 48, likely reflecting improved supportive care and earlier case detection.</p>
-<p>Geographic expansion continues to be a concern. Cases have now been confirmed in two regions: Jinka city in Omo Zone, South Ethiopia Regional State (the outbreak epicenter), and Hawassa City in Sidama Region. The Hawassa case was confirmed in an individual who had returned from Jinka City, demonstrating inter-regional spread through population movement. Contact tracing has identified 349 individuals, with 119 (34.1%) having completed their 21-day monitoring period. Four cases have recovered and one patient remains under treatment.</p>
-<p>The virus strain shows genetic similarities to previously identified East African Marburg variants. Response efforts continue under Ministry of Health leadership with WHO and international partner support, focusing on community-level monitoring, contact tracing, and house-to-house case finding. ECDC maintains its assessment of low overall risk for EU/EEA citizens visiting or living in Ethiopia, with very low likelihood of importation and secondary transmission.</p>
-</section>
-<section id="ebola-virus-disease-democratic-republic-of-the-congo-outbreak-concluded" class="level3">
-<h3 class="anchored" data-anchor-id="ebola-virus-disease-democratic-republic-of-the-congo-outbreak-concluded">Ebola Virus Disease – Democratic Republic of the Congo (Outbreak Concluded)</h3>
-<p>On 1 December 2025, WHO officially declared the end of the Ebola virus disease outbreak in Kasai Province, DRC, following 42 days without new cases since the last patient’s discharge on 19 October 2025. This was the sixteenth Ebola outbreak recorded in DRC since 1976 and the eighth since 2018.</p>
-<p>The final outbreak tally includes 64 cases (53 confirmed, 11 probable) and 45 deaths (34 confirmed, 11 probable), with an overall case fatality rate of 70.3%. All cases were confined to six health areas within Bulape health zone. A total of 19 patients recovered (29.7%), and all 1,735 contacts who were followed completed their monitoring. Vaccination efforts reached approximately 48,000 individuals, and 31 patients received monoclonal antibody therapy (mAb114).</p>
-<p>Genomic sequencing confirmed this outbreak represented a new zoonotic spillover event unrelated to previous outbreaks. The initial transmission was characterized by nosocomial spread and a superspreading event linked to the presumptive index case’s funeral. The DRC now enters a 90-day period of enhanced disease surveillance.</p>
-</section>
-</section>
-<section id="fecal-oral-transmission" class="level2">
-<h2 class="anchored" data-anchor-id="fecal-oral-transmission">Fecal-Oral Transmission</h2>
-<section id="shigellosis-multi-country-outbreak-in-cape-verde-travelers-resurgence" class="level3">
-<h3 class="anchored" data-anchor-id="shigellosis-multi-country-outbreak-in-cape-verde-travelers-resurgence">Shigellosis – Multi-Country Outbreak in Cape Verde Travelers (Resurgence)</h3>
-<p>A recurrent multi-country outbreak of shigellosis among travelers returning from Cape Verde has resurged dramatically, with at least 193 cases reported across five EU/EEA countries and the United Kingdom during 2025. This outbreak, which first emerged in September 2022, continues to demonstrate persistent transmission of the same <em>Shigella sonnei</em> strain, suggesting a common source or ongoing transmission route at specific tourist locations.</p>
-<p><em>Shigella sonnei</em> causes bacillary dysentery through fecal-oral transmission, with an incubation period of 1–3 days. Clinical presentation includes bloody diarrhea, fever, and abdominal cramps. Transmission occurs through contaminated food or water or person-to-person spread. While typically self-limiting in healthy adults, severe disease can occur, particularly with antimicrobial-resistant strains. The outbreak strain demonstrates limited genetic antimicrobial resistance markers, though most isolates harbor dfrA1 predicting trimethoprim resistance.</p>
-<p>Country-specific data reveal the outbreak’s scope: the UK has reported 137 confirmed cases since 1 October 2025, with 94% of those reporting travel indicating Cape Verde as their destination. Among cases with hotel information (n=75), 71 stayed at hotels in the Santa Maria and Boa Vista areas. Sweden reported 26 cases in 2025 (23 since late October), with co-infections of salmonellosis (4) and campylobacteriosis (1) also noted among returning travelers. France reported 21 cases (up from 5–6 annually in 2023–2024), the Netherlands reported 8 cases in September-October, and Ireland reported 1 case.</p>
-<p>Available case interviews consistently implicate a specific hotel/resort chain in the Santa Maria region of Sal island and on Boa Vista island—the same locations identified during the 2022 outbreak. The persistence of the same genomic strain over multiple years strongly suggests ongoing environmental contamination or systematic food safety failures at implicated accommodations. ECDC assesses the risk for EU/EEA citizens traveling to Cape Verde of contracting shigellosis as moderate.</p>
-</section>
-</section>
-</section>
-<section id="european-unioneuropean-economic-area" class="level1">
-<h1>European Union/European Economic Area</h1>
-<section id="respiratory-and-droplet-transmission" class="level2">
-<h2 class="anchored" data-anchor-id="respiratory-and-droplet-transmission">Respiratory and Droplet Transmission</h2>
-<section id="seasonal-respiratory-virus-activity-accelerating-influenza-season" class="level3">
-<h3 class="anchored" data-anchor-id="seasonal-respiratory-virus-activity-accelerating-influenza-season">Seasonal Respiratory Virus Activity – Accelerating Influenza Season</h3>
-<p>The 2025–26 influenza season continues to accelerate across the EU/EEA, with approximately half of reporting countries now showing respiratory illness consultation rates above baseline. This represents significant ongoing respiratory virus circulation as winter progresses.</p>
-<p>Influenza virus detection continues to increase, with most countries reporting widespread activity at low-to-medium intensity—a notable escalation from the previous week’s assessment. Influenza A remains dominant (99% of typed specimens), with A(H3N2) subclade 2a.3a.1(K) accounting for 88% of genetically characterized A(H3) specimens and driving the current increasing trend. In week 48, primary care sentinel surveillance detected 591 influenza specimens with 21% pooled positivity (median 13%; IQR 8.1–24%), while hospital SARI surveillance identified 305 influenza specimens with 19% pooled positivity. The week-on-week increase from 16% to 21% pooled positivity in primary care demonstrates the season’s rapid progression.</p>
-<p>Geographic spread has expanded considerably: 11 countries now report widespread activity (up from 5 the previous week), 3 report regional spread, 1 local, 5 sporadic, and only 1 reports no activity. Five countries report baseline intensity, 12 report low intensity, and 5 report medium intensity. Children aged 5–14 years continue to show the highest circulation rates, while hospitalization increases are primarily affecting adults aged 65 years and above.</p>
-<p>Respiratory syncytial virus (RSV) circulation is slowly increasing from low levels but remains below what was observed at this time in the past four seasons. Hospital data show rising RSV-related admissions in a few countries, primarily among children under five years. SARS-CoV-2 continues to circulate but is decreasing across all age groups, with limited impact on hospitalizations.</p>
-<p>ECDC’s Threat Assessment Brief published 20 November 2025, assessing the risk of influenza for the EU/EEA in the context of increasing A(H3N2) subclade K circulation, remains relevant as the season intensifies.</p>
-</section>
-</section>
-<section id="vector-borne-transmission" class="level2">
-<h2 class="anchored" data-anchor-id="vector-borne-transmission">Vector-Borne Transmission</h2>
-<section id="chikungunya-virus-disease-2025-season-conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="chikungunya-virus-disease-2025-season-conclusion">Chikungunya Virus Disease – 2025 Season Conclusion</h3>
-<p>ECDC has concluded its weekly reporting for the 2025 chikungunya season as unfavorable seasonal weather conditions make further locally acquired cases unlikely. No new cases were reported in week 49, and eight previously reported cases were eliminated following epidemiological review.</p>
-<p>Final 2025 season figures stand at 1,172 locally acquired cases across France (788) and Italy (384), distributed among 84 clusters. France’s cases occurred across 78 clusters (largest in Antibes), while Italy’s cases were distributed across 6 clusters (largest in the Emilia-Romagna region towns of Carpi, San Prospero, Soliera, and others). Three clusters in France and two in Italy remain technically active based on reporting windows, though transmission has likely ceased. The 2025 season represents significant local transmission, underscoring the importance of vector control and surveillance during favorable transmission periods.</p>
-</section>
-<section id="west-nile-virus-season-update" class="level3">
-<h3 class="anchored" data-anchor-id="west-nile-virus-season-update">West Nile Virus – Season Update</h3>
-<p>Since the beginning of 2025 and as of 3 December, 14 European countries have reported human West Nile virus cases, with 157 affected areas identified. Bulgaria is among the reporting countries, along with Albania, Croatia, France, Germany, Greece, Hungary, Italy, Kosovo, North Macedonia, Romania, Serbia, Spain, and Türkiye. The vector transmission season has effectively concluded.</p>
-</section>
-</section>
-<section id="fecal-oral-transmission-1" class="level2">
-<h2 class="anchored" data-anchor-id="fecal-oral-transmission-1">Fecal-Oral Transmission</h2>
-<section id="hepatitis-a-multi-country-outbreak-continued-monitoring" class="level3">
-<h3 class="anchored" data-anchor-id="hepatitis-a-multi-country-outbreak-continued-monitoring">Hepatitis A – Multi-Country Outbreak (Continued Monitoring)</h3>
-<p>The multi-country hepatitis A outbreak affecting Austria, Czechia, Hungary, and Slovakia continues, though no new updates were provided in the week 49 ECDC report. The outbreak, exceeding 6,000 cumulative cases and 39 deaths in 2025, remains driven by person-to-person transmission among populations with limited access to sanitation. ECDC’s recommendations from the June 2025 Rapid Risk Assessment remain valid, emphasizing enhanced surveillance, vaccination for high-risk populations, and community engagement.</p>
-</section>
-</section>
-<section id="hivaids-surveillance-2024-annual-data" class="level2">
-<h2 class="anchored" data-anchor-id="hivaids-surveillance-2024-annual-data">HIV/AIDS Surveillance – 2024 Annual Data</h2>
-<p>ECDC released 2024 HIV/AIDS surveillance data, revealing continued challenges in the EU/EEA despite declining trends. In 2024, 24,164 HIV diagnoses were reported across 30 EU/EEA countries (rate: 5.3 per 100,000), representing a 14.5% decrease from the 2015 rate of 6.2 per 100,000. However, this decline should be interpreted cautiously as standard reporting-delay adjustments were not applied.</p>
-<p>The epidemic remains predominantly sexually transmitted (96%), with sex between men accounting for 48.3% (53.2% of known transmission routes) and heterosexual contact for 33.6% (45.7% of known routes). Migrants comprised 47.2% of all diagnoses; when excluding unknown origins, this proportion rises to 55.7%—a 45.4% increase from 2015’s 33.1%. Late diagnosis (CD4 &lt;350 cells/mm³) remains problematically high at 48.0%, indicating persistent gaps in testing access and awareness.</p>
-<p>AIDS diagnoses totaled 2,215 across 25 countries (rate: 0.7 per 100,000), with <em>Pneumocystis jirovecii</em> pneumonia (22.4%) and tuberculosis (11.7%) representing the most frequent AIDS-defining illnesses. These data underscore the continued need for expanded HIV testing, rapid linkage to care, pre-exposure prophylaxis programs, and harm reduction services.</p>
-</section>
-</section>
-<section id="infectious-diseases-bulgaria" class="level1">
-<h1>Infectious Diseases: Bulgaria</h1>
-<section id="respiratory-and-droplet-transmission-1" class="level2">
-<h2 class="anchored" data-anchor-id="respiratory-and-droplet-transmission-1">Respiratory and Droplet Transmission</h2>
-<section id="covid-19" class="level3">
-<h3 class="anchored" data-anchor-id="covid-19">COVID-19</h3>
-<p>Bulgaria recorded 71 COVID-19 cases during week 49, essentially unchanged from the previous week (69 cases, +2.9%). Year-to-date cases (3,030) represent an 80.0% reduction compared to 2024 (15,135), consistent with endemic circulation patterns and reduced surveillance intensity. All reported cases were laboratory confirmed.</p>
-<section id="pertussis-whooping-cough" class="level4">
-<h4 class="anchored" data-anchor-id="pertussis-whooping-cough">Pertussis (Whooping Cough)</h4>
-<p>No pertussis cases were registered during week 49, representing a decrease of 3 cases from the previous week. Year-to-date cases (88) remain dramatically lower than 2024 (2,718), confirming the post-epidemic normalization following the 2024 surge that affected Bulgaria and much of Europe. The 96.8% year-to-date decrease demonstrates the cyclical nature of pertussis epidemiology following the disruption of childhood vaccination programs during the COVID-19 pandemic.</p>
-</section>
-<section id="legionnaires-disease" class="level4">
-<h4 class="anchored" data-anchor-id="legionnaires-disease">Legionnaires’ Disease</h4>
-<p>One case of Legionnaires’ disease was confirmed during week 49, a decrease of 1 from the previous week. Year-to-date cases (16) exceed 2024 totals (11) by 45.5%, warranting continued environmental surveillance of water systems, particularly in healthcare facilities and hotels during the winter months when building water systems may be more susceptible to <em>Legionella</em> colonization.</p>
-</section>
-<section id="pneumococcal-bacterial-meningitis-and-meningoencephalitis" class="level4">
-<h4 class="anchored" data-anchor-id="pneumococcal-bacterial-meningitis-and-meningoencephalitis">Pneumococcal Bacterial Meningitis and Meningoencephalitis</h4>
-<p>One case of pneumococcal bacterial meningitis/meningoencephalitis was confirmed during week 49, following zero cases the previous week. Year-to-date cases (22) are unchanged from 2024 (22). Invasive pneumococcal disease remains an important cause of severe bacterial infection, particularly in young children and elderly adults.</p>
-</section>
-</section>
-<section id="fecal-oral-transmission-2" class="level3">
-<h3 class="anchored" data-anchor-id="fecal-oral-transmission-2">Fecal-Oral Transmission</h3>
-<p>Sixty-three acute viral hepatitis cases were reported during week 49, representing a significant 43.2% increase from the previous week (44 cases). Of these, 57 were laboratory confirmed, 2 probable, and 4 possible. This week-to-week increase reverses the 48.8% decrease observed between weeks 47 and 48, demonstrating continued volatility in hepatitis transmission.</p>
-<p>Year-to-date cases (1,510) represent a 129.8% increase compared to 2024 (657), making viral hepatitis the most dramatically elevated disease category in Bulgarian surveillance this year. This substantial increase likely reflects the broader Central European hepatitis A outbreak affecting neighboring countries, though Bulgaria’s specific contribution by hepatitis type requires characterization. Given Bulgaria’s geographic proximity to heavily affected Hungary and Romania, enhanced surveillance for HAV among high-risk populations remains warranted.</p>
-<p>A total of 149 cases of gastroenteritis and enterocolitis were recorded during week 49, a decrease of 20 cases (11.8%) from the previous week. Case classification included 62 possible, 84 probable, and 3 confirmed. Year-to-date cases (8,997) represent a 6.1% decrease compared to 2024 (9,577), consistent with secular trends.</p>
-<p>Eleven salmonellosis cases were confirmed during week 49, representing a substantial 52.2% decrease from the previous week (23 cases). All cases were laboratory confirmed. Year-to-date cases (672) are 25.1% lower than 2024 (897). The marked week-to-week decrease suggests the previous week’s uptick may have represented a transient cluster rather than sustained transmission.</p>
-<p>Six campylobacteriosis cases were confirmed during week 49, a dramatic 68.4% decrease from the previous week (19 cases). Despite this weekly decrease, year-to-date cases (462) continue to exceed 2024 totals (322) by 43.5%. The persistent year-to-date increase throughout 2025 warrants continued investigation into potential sources and risk factors, even as weekly case counts fluctuate.</p>
-<p>Six escherichiosis cases were confirmed during week 49, a 200% increase from the previous week (2 cases). All cases were laboratory confirmed. Year-to-date cases (301) remain 14.2% below 2024 (351). The week-to-week variation likely reflects sporadic rather than outbreak-related transmission.</p>
-<p>Ten rotavirus gastroenteritis cases were confirmed during week 49, unchanged from the previous week. Year-to-date cases (701) are 15.7% lower than 2024 (832), likely reflecting continued benefits of childhood rotavirus vaccination programs.</p>
-<p>One confirmed shigellosis case was reported during week 49, unchanged from the previous week. Year-to-date cases (55) are 28.6% lower than 2024 (77). Given the multi-country <em>S. sonnei</em> outbreak affecting Cape Verde travelers, clinicians should maintain awareness of travel history in patients presenting with bloody diarrhea.</p>
-</section>
-</section>
-<section id="vector-borne-transmission-1" class="level2">
-<h2 class="anchored" data-anchor-id="vector-borne-transmission-1">Vector-Borne Transmission</h2>
-<section id="lyme-borreliosis" class="level3">
-<h3 class="anchored" data-anchor-id="lyme-borreliosis">Lyme Borreliosis</h3>
-<p>Five Lyme borreliosis cases were confirmed during week 49, an increase of 2 cases from the previous week. Year-to-date cases (381) are virtually unchanged from 2024 (383). The detection of cases in December is unusual given reduced tick activity during winter months and may represent delayed diagnosis of infections acquired during the transmission season.</p>
-</section>
-<section id="viral-meningitis-and-meningoencephalitis" class="level3">
-<h3 class="anchored" data-anchor-id="viral-meningitis-and-meningoencephalitis">Viral Meningitis and Meningoencephalitis</h3>
-<p>Two cases of viral meningitis and meningoencephalitis were confirmed during week 49, following zero cases the previous week. Year-to-date cases (85) modestly exceed 2024 (78) by 9.0%.</p>
-</section>
-<section id="contact-and-sexual-transmission" class="level3">
-<h3 class="anchored" data-anchor-id="contact-and-sexual-transmission">Contact and Sexual Transmission</h3>
-<section id="sexually-transmitted-infections" class="level4">
-<h4 class="anchored" data-anchor-id="sexually-transmitted-infections">Sexually Transmitted Infections</h4>
-<p>Sexually transmitted infections in Bulgaria continue to demonstrate concerning upward trends across multiple pathogens.</p>
-<p><strong>HIV</strong> recorded 7 cases during week 49, a notable 133% increase from the previous week (3 cases). Year-to-date cases (284) represent a 5.6% increase compared to 2024 (269). The week-to-week fluctuation likely reflects reporting variation rather than acute transmission changes, though the overall upward trend merits attention.</p>
-<p><strong>Syphilis</strong> recorded 6 cases during week 49, a decrease of 4 from the previous week (10 cases). Year-to-date cases (348) represent a 10.5% increase compared to 2024 (315).</p>
-<p><strong>Congenital syphilis</strong> recorded 1 additional case during week 49, bringing year-to-date totals to 35 cases compared to 16 in 2024—a 118.8% increase. This represents one of the most significant public health signals in Bulgarian surveillance, indicating systematic failures in prenatal syphilis screening and treatment programs. Each congenital syphilis case represents a preventable pediatric outcome requiring urgent programmatic attention.</p>
-<p><strong>Urogenital chlamydia infection</strong> recorded 7 cases during week 49, an increase of 2 from the previous week (5 cases). Year-to-date cases (182) demonstrate a 75.0% increase compared to 2024 (104), the most pronounced increase among bacterial STIs.</p>
-<p><strong>Gonorrhea</strong> recorded 2 cases during week 49, a decrease of 3 from the previous week (5 cases). Year-to-date cases (116) represent a 28.9% increase compared to 2024 (90).</p>
-<p>The consistent upward trends across all STI categories suggest systemic factors potentially including reduced prevention services, changing sexual behaviors, improved case detection, or some combination thereof.</p>
-</section>
-</section>
-</section>
-<section id="childhood-and-vaccine-preventable-diseases" class="level2">
-<h2 class="anchored" data-anchor-id="childhood-and-vaccine-preventable-diseases">Childhood and Vaccine-Preventable Diseases</h2>
-<section id="varicella-chickenpox" class="level3">
-<h3 class="anchored" data-anchor-id="varicella-chickenpox">Varicella (Chickenpox)</h3>
-<p>Varicella recorded 494 cases during week 49, a modest 6.1% decrease from the previous week (526 cases). Case classification included 55 possible, 393 probable, and 46 confirmed. Year-to-date cases (20,000) are 20.5% lower than 2024 (25,156). Current weekly counts remain consistent with expected seasonal winter transmission patterns in the absence of routine childhood varicella vaccination in Bulgaria.</p>
-</section>
-<section id="scarlet-fever" class="level3">
-<h3 class="anchored" data-anchor-id="scarlet-fever">Scarlet Fever</h3>
-<p>Seventy-four scarlet fever cases were reported during week 49, representing a 25.3% decrease from the previous week (99 cases). Case classification included 18 possible, 36 probable, and 20 confirmed. Year-to-date cases (3,323) remain 59.7% below 2024 totals (8,237), reflecting continued resolution of the 2024 Group A <em>Streptococcus</em> surge that paralleled the pertussis epidemic.</p>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>English</category>
-  <guid>https://kostadinoff.github.io/epinews-posts/2025-W49-en.html</guid>
-  <pubDate>Sun, 07 Dec 2025 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
