@@ -5,6 +5,25 @@ about:
   template: trestles
   image-shape: rounded
   image-width: 17em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/kostadinoff
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en
+    - icon: person-vcard
+      text: ORCID
+      href: https://orcid.org/0000-0003-1414-8738
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kostadinovmd/
+    - icon: fingerprint
+      text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=57542360900
+    - icon: diagram-3-fill
+      text: Web of Science
+      href: https://www.webofscience.com/wos/author/record/AEE-9300-2022
 listing:
   contents: epinews-posts
   sort: "date desc"
@@ -15,17 +34,6 @@ listing:
   filter-ui: false
   fields: [title, date, description]
 ---
-
-```{=html}
-<div class="social-grid">
-  <a href="https://github.com/kostadinoff" target="_blank" class="social-btn" title="GitHub"><i class="bi bi-github"></i><span>GitHub</span></a>
-  <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en" target="_blank" class="social-btn" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i><span>Scholar</span></a>
-  <a href="https://orcid.org/0000-0003-1414-8738" target="_blank" class="social-btn" title="ORCID"><i class="bi bi-person-vcard"></i><span>ORCID</span></a>
-  <a href="https://www.linkedin.com/in/kostadinovmd/" target="_blank" class="social-btn" title="LinkedIn"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=57542360900" target="_blank" class="social-btn" title="Scopus Author ID"><i class="bi bi-fingerprint"></i><span>Scopus</span></a>
-  <a href="https://www.webofscience.com/wos/author/record/AEE-9300-2022" target="_blank" class="social-btn" title="Web of Science ResearcherID"><i class="bi bi-diagram-3-fill"></i><span>Web of Science</span></a>
-</div>
-```
 
 I’m Dr. Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.
 
