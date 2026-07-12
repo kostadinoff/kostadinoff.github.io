@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Slides, seminar handouts, and exercises I prepare for the practical classes and seminars I teach, organized by discipline.">
+
+<title>Teaching Materials – Kostadin Kostadinov</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b311067de9bb61c87081b7a4fd9bc435.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a50bbf15ce5a20a76da124f542f3f538.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b311067de9bb61c87081b7a4fd9bc435.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5976a29247cc9617c27d3aa6a672a4cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-faca3cf38e4bf75a83a81d611dfb107b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5976a29247cc9617c27d3aa6a672a4cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="Teaching Materials – Kostadin Kostadinov">
+<meta name="twitter:description" content="Slides, seminar handouts, and exercises I prepare for the practical classes and seminars I teach, organized by discipline.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study-guide.html">
+ <span class="dropdown-text">Social medicine study guide</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Teaching Materials</h1>
+                  <div>
+        <div class="description">
+          Slides, seminar handouts, and exercises I prepare for the practical classes and seminars I teach, organized by discipline.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<p>These are the materials I prepare for the practical classes and seminars I teach as an assistant professor in the Department of Social Medicine and Public Health, MU–Plovdiv. They accompany the courses I assist in, are developed together with my colleagues in the department, and are free for my students and anyone else to use for study. Materials are in English (EN) or Bulgarian (BG) as indicated. If you find an error, please <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">email me</a>.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Epidemiology (EN)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Social Medicine (EN)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Социална медицина (BG)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Клинични изпитвания (BG)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Medical Ethics (EN)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Медицинска етика (BG)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Биостатистика (BG)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Materials for the Applied Epidemiology course. This section is growing — more slides and seminars will be added as the course develops.</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/epidemiology-en/applied-epidemiology-lecture.pdf" target="_blank"><strong>Lecture</strong> · Applied Epidemiology — full course lecture (2025/2026)</a></li>
+</ul>
+</div>
+<p>The clinical-trials and non-interventional study seminars (in Bulgarian) are under the <strong>Клинични изпитвания (BG)</strong> tab.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Practical class slides for third-year medical students, academic year 2025/2026.</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="2025-2026-classes/practical-class-01.pdf" target="_blank"><strong>Class 1</strong> · Social Medicine — Definition and Scope</a></li>
+<li><a href="2025-2026-classes/practical-class-02.pdf" target="_blank"><strong>Class 2</strong> · Methods for Sociological Research in Medicine</a></li>
+<li><a href="2025-2026-classes/practical-class-03.pdf" target="_blank"><strong>Class 3</strong> · Demography Indices</a></li>
+<li><a href="2025-2026-classes/practical-class-04.pdf" target="_blank"><strong>Class 4</strong> · Risk Factors and Causality. Measurement of Diseases and Exposure</a></li>
+<li><a href="2025-2026-classes/practical-class-05.pdf" target="_blank"><strong>Class 5</strong> · Burden of Disease — Medico-Social Aspects</a></li>
+<li><a href="2025-2026-classes/practical-class-06.pdf" target="_blank"><strong>Class 6</strong> · Primary Health Care. Outpatient Care. GP Functions</a></li>
+<li><a href="2025-2026-classes/practical-class-07.pdf" target="_blank"><strong>Class 7</strong> · Hospital Care — Functions, Structure, Organization, Quality</a></li>
+<li><a href="2025-2026-classes/practical-class-08.pdf" target="_blank"><strong>Class 8</strong> · Dispensary Method. Occupational Medicine</a></li>
+<li><a href="2025-2026-classes/practical-class-09.pdf" target="_blank"><strong>Class 9</strong> · Expert Evaluation of Temporary Incapacity for Work</a></li>
+<li><a href="2025-2026-classes/practical-class-10.pdf" target="_blank"><strong>Class 10</strong> · Physician’s Liability. Social History of the Patient</a></li>
+<li><a href="2025-2026-classes/practical-class-11.pdf" target="_blank"><strong>Class 11</strong> · Colloquium — Protocol and Assessment Guidelines</a></li>
+<li><a href="2025-2026-classes/practical-class-12.pdf" target="_blank"><strong>Class 12</strong> · Maternal and Child Health. Family Planning</a></li>
+<li><a href="2025-2026-classes/practical-class-13.pdf" target="_blank"><strong>Class 13</strong> · Health Culture and Health Behavior. Health Education</a></li>
+<li><a href="2025-2026-classes/practical-class-14.pdf" target="_blank"><strong>Class 14</strong> · Public Health Planning, Economy, and Marketing</a></li>
+<li><a href="2025-2026-classes/practical-class-15.pdf" target="_blank"><strong>Class 15</strong> · Seminar Review — Social Medicine with Medical Ethics</a></li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Материали за практически занятия по социална медицина (на български език).</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/social-medicine-bg/practical-class-01.pdf" target="_blank"><strong>Занятие 1</strong> · Социалната медицина като наука</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-02.pdf" target="_blank"><strong>Занятие 2</strong> · Социологични методи</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-03.pdf" target="_blank"><strong>Занятие 3</strong> · Медицинска демография</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-04.pdf" target="_blank"><strong>Занятие 4</strong> · Приложна епидемиология — I част</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-05.pdf" target="_blank"><strong>Занятие 5</strong> · Приложна епидемиология — II част</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-06.pdf" target="_blank"><strong>Занятие 6</strong> · Здравно законодателство. Първична медицинска помощ</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-07.pdf" target="_blank"><strong>Занятие 7</strong> · Болнична медицинска помощ</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-08.pdf" target="_blank"><strong>Занятие 8</strong> · Превантивна медицина. Диспансерен метод</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-09.pdf" target="_blank"><strong>Занятие 9</strong> · Експертиза на неработоспособността. Трудова медицина</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-10.pdf" target="_blank"><strong>Занятие 10</strong> · Правна отговорност на лекаря</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-12.pdf" target="_blank"><strong>Занятие 12</strong> · Семейство и здраве</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-13.pdf" target="_blank"><strong>Занятие 13</strong> · Здравно поведение, възпитание и просвета</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-14.pdf" target="_blank"><strong>Занятие 14</strong> · Здравен мениджмънт, маркетинг и икономика</a></li>
+<li><a href="slides/social-medicine-bg/practical-class-15.pdf" target="_blank"><strong>Занятие 15</strong> · Майчино и детско здравеопазване</a></li>
+<li><a href="slides/social-medicine-bg/social-anamnesis.pdf" target="_blank"><strong>Социална анамнеза</strong> · Указания за снемане</a></li>
+<li><a href="slides/social-medicine-bg/colloquium.pdf" target="_blank"><strong>Колоквиум</strong> · Въпроси и формат</a></li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Семинари по дизайн на клиничните изпитвания и неинтервенционалните проучвания.</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/trials-bg/seminar-01.pdf" target="_blank"><strong>Семинар 1</strong> · Описателна епидемиология. Метаанализи</a></li>
+<li><a href="slides/trials-bg/seminar-02.pdf" target="_blank"><strong>Семинар 2</strong> · Дизайн на клиничните изпитвания и неинтервенционалните проучвания</a></li>
+<li><a href="slides/trials-bg/seminar-03.pdf" target="_blank"><strong>Семинар 3</strong> · Дизайн на клиничните изпитвания и неинтервенционалните проучвания</a></li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>Practical class handouts and case discussions in medical ethics.</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/ethics-en/01-principles.pdf" target="_blank"><strong>Practical 1</strong> · Ethics — Definition and Principles</a></li>
+<li><a href="slides/ethics-en/02-informed-consent.pdf" target="_blank"><strong>Practical 2</strong> · Informed Consent</a></li>
+<li><a href="slides/ethics-en/02-cases.pdf" target="_blank"><strong>Practical 2</strong> · Informed Consent — Cases</a></li>
+<li><a href="slides/ethics-en/03-confidentiality.pdf" target="_blank"><strong>Practical 3</strong> · Confidentiality</a></li>
+<li><a href="slides/ethics-en/03-cases.pdf" target="_blank"><strong>Practical 3</strong> · Confidentiality — Cases</a></li>
+<li><a href="slides/ethics-en/04-physician-patient.pdf" target="_blank"><strong>Practical 4</strong> · Patient–Physician Relationship</a></li>
+<li><a href="slides/ethics-en/04-cases.pdf" target="_blank"><strong>Practical 4</strong> · Patient–Physician Relationship — Cases</a></li>
+<li><a href="slides/ethics-en/05-end-of-life.pdf" target="_blank"><strong>Practical 5</strong> · End-of-Life Issues. Euthanasia and Assisted Suicide</a></li>
+<li><a href="slides/ethics-en/05-cases.pdf" target="_blank"><strong>Practical 5</strong> · End-of-Life Issues — Cases</a></li>
+<li><a href="slides/ethics-en/06-transplantation-reproduction.pdf" target="_blank"><strong>Practicals 6–7</strong> · Organ Transplantation. Reproductive Ethics</a></li>
+<li><a href="slides/ethics-en/06-cases.pdf" target="_blank"><strong>Practicals 6–7</strong> · Transplantation and Reproduction — Cases</a></li>
+<li><a href="slides/ethics-en/07-reproduction.pdf" target="_blank"><strong>Lecture</strong> · Ethical Aspects of Human Reproduction</a></li>
+<li><a href="slides/ethics-en/07-seminar-test.pdf" target="_blank"><strong>Seminar Test</strong> · Sample test</a></li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<p>Материали за упражнения и казуси по медицинска етика (на български език).</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/ethics-bg/01-intro.pdf" target="_blank"><strong>Лекция</strong> · Въведение в медицинската етика (2025/2026)</a></li>
+<li><a href="slides/ethics-bg/01-principles.pdf" target="_blank"><strong>Упражнение 1</strong> · Информирано съгласие. Медицинска тайна</a></li>
+<li><a href="slides/ethics-bg/01-cases.pdf" target="_blank"><strong>Казуси 1</strong> · Информирано съгласие</a></li>
+<li><a href="slides/ethics-bg/02-patient-physician.pdf" target="_blank"><strong>Упражнение 2</strong> · Взаимоотношения лекар–пациент</a></li>
+<li><a href="slides/ethics-bg/02-cases.pdf" target="_blank"><strong>Казуси 2</strong> · Взаимоотношения лекар–пациент</a></li>
+<li><a href="slides/ethics-bg/03-chronic-disease.pdf" target="_blank"><strong>Упражнения 3–4</strong> · Хронично болни и терминални пациенти</a></li>
+<li><a href="slides/ethics-bg/03-cases.pdf" target="_blank"><strong>Казуси 3–4</strong> · Клинични казуси</a></li>
+<li><a href="slides/ethics-bg/05-transplantation.pdf" target="_blank"><strong>Упражнения 5–6</strong> · Трансплантация. Експериментална медицина</a></li>
+<li><a href="slides/ethics-bg/05-cases.pdf" target="_blank"><strong>Казуси 5–6</strong> · Трансплантация и експериментална медицина</a></li>
+<li><a href="slides/ethics-bg/06-science-ethics.pdf" target="_blank"><strong>Материал</strong> · Наука и етика — експериментална медицина</a></li>
+<li><a href="slides/ethics-bg/06-cases.pdf" target="_blank"><strong>Казуси</strong> · Експериментална медицина</a></li>
+<li><a href="slides/ethics-bg/06-reproduction.pdf" target="_blank"><strong>Упражнение 7</strong> · Репродуктивна етика</a></li>
+<li><a href="slides/ethics-bg/07-seminar-test.pdf" target="_blank"><strong>Пробен тест</strong> · СММЕ — I част (Медицинска етика)</a></li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<p>Упражнения, формули и домашни работи по медицинска статистика.</p>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/statistics-bg/01-terminology-standardization.pdf" target="_blank"><strong>Упражнение 1</strong> · Основна терминология. Стандартизация (2025/2026)</a></li>
+<li><a href="slides/statistics-bg/02-descriptive.pdf" target="_blank"><strong>Упражнение 2</strong> · Дескриптивна и инферентна статистика (2025/2026)</a></li>
+<li><a href="slides/statistics-bg/03-t-test.pdf" target="_blank"><strong>Упражнение 3</strong> · Тест на хипотези. T-тест</a></li>
+<li><a href="slides/statistics-bg/04-05-association-correlation.pdf" target="_blank"><strong>Упражнения 4–5</strong> · Изследване на връзки. Корелация. Асоциация</a></li>
+<li><a href="slides/statistics-bg/05-rule-of-3-sigma.pdf" target="_blank"><strong>Материал</strong> · Правило на трите сигми</a></li>
+<li><a href="slides/statistics-bg/06-regression.pdf" target="_blank"><strong>Упражнение 6</strong> · Регресионен анализ. Линейна регресия</a></li>
+<li><a href="slides/statistics-bg/formulas-2025.pdf" target="_blank"><strong>Формули</strong> · Основни формули по медицинска статистика (2025)</a></li>
+<li><a href="slides/statistics-bg/exercises-workbook.pdf" target="_blank"><strong>Сборник</strong> · Упражнения по статистика (пълен комплект)</a></li>
+<li><a href="slides/statistics-bg/colloquium-solved.pdf" target="_blank"><strong>Колоквиум</strong> · Решен примерен вариант</a></li>
+</ul>
+</div>
+<section id="домашни-работи" class="level3">
+<h3 class="anchored" data-anchor-id="домашни-работи">Домашни работи</h3>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/statistics-bg/homework-01.pdf" target="_blank"><strong>Домашна 1</strong> · Стандартизация</a></li>
+<li><a href="slides/statistics-bg/homework-02.pdf" target="_blank"><strong>Домашна 2</strong> · Дескриптивна статистика</a></li>
+<li><a href="slides/statistics-bg/homework-03.pdf" target="_blank"><strong>Домашна 3</strong> · Тест на хипотези (2025/2026)</a></li>
+<li><a href="slides/statistics-bg/homework-04-05.pdf" target="_blank"><strong>Домашна 4–5</strong> · Корелация и асоциация</a></li>
+<li><a href="slides/statistics-bg/homework-06.pdf" target="_blank"><strong>Домашна 6</strong> · Регресионен анализ</a></li>
+<li><a href="slides/statistics-bg/homework-solutions.pdf" target="_blank"><strong>Решения</strong> · Решения на домашните работи</a></li>
+</ul>
+</div>
+</section>
+<section id="in-english" class="level3">
+<h3 class="anchored" data-anchor-id="in-english">In English</h3>
+<div class="pdf-grid">
+<ul>
+<li><a href="slides/statistics-bg/chi-square-cramers-v.pdf" target="_blank"><strong>Practical</strong> · The Chi-Square Test of Independence and Cramér’s V</a></li>
+<li><a href="slides/statistics-bg/correlation-regression.pdf" target="_blank"><strong>Practicals 6–7</strong> · Correlation and Regression Analysis</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,109 @@
+---
+title: ""
+description: "Social Epidemiology Lab — independent research and analytics in epidemiology, health economics, and policy."
+toc: false
+page-layout: full
+---
+
+```{=html}
+<section class="lab-hero">
+  <img class="lab-logo lab-logo-light" src="assets/lab-logo-color.png" alt="Social Epidemiology Lab logo">
+  <img class="lab-logo lab-logo-dark"  src="assets/lab-logo-white.png" alt="Social Epidemiology Lab logo">
+  <p class="lab-tagline">
+    Turning health data into evidence that stands up in a manuscript, a boardroom, and a ministry.
+  </p>
+  <p class="lab-intro">
+    The <strong>Social Epidemiology Lab</strong> is an independent research and analytics practice.
+    We help universities, clinicians, NGOs, and public institutions design studies, analyse data
+    rigorously, and translate the results into decisions — from a single 2×2 table to a national
+    impact assessment. Every engagement is led personally by
+    <a href="index.qmd">Dr. Kostadin Kostadinov</a>, MD, PhD, MPH.
+  </p>
+  <div class="lab-hero-cta">
+    <a class="btn btn-secondary btn-lg" href="mailto:drkostadinkostadinov@gmail.com?subject=Social%20Epidemiology%20Lab%20enquiry" role="button">Request a consultation</a>
+  </div>
+</section>
+```
+
+## What we do
+
+Six services, one standard: methodologically defensible, transparently documented, and reproducible.
+
+::: {.grid .lab-services}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Epidemiological analysis
+Measures of association, standardization, survival, and surveillance analytics — cohort, case–control, and cross-sectional designs handled end to end, with the right effect measure and the right confidence interval every time.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Technical & statistical analysis
+Study-grade biostatistics: regression modelling, diagnostic accuracy, agreement and reliability, and publication-ready tables and figures — powered by our own open-source R toolkit, [kkstatfun](kkstatfun.qmd).
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Study design & data collection
+Protocols, sample-size and power calculations, sampling strategies, questionnaire design, and reproducible data-collection pipelines — so the analysis is sound before the first record is gathered.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Health economics & HTA
+Cost-of-illness, cost-effectiveness and cost-utility modelling, budget-impact and health-technology-assessment support — Markov models, ICERs, and probabilistic sensitivity analysis built to CHEERS standards.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Policy analysis & documents
+Policy briefs, position papers, and evidence syntheses that translate findings into actionable recommendations — grounded in formal training in Impact Assessment & Policy Appraisal and ongoing study of law.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.lab-service}
+### Impact assessment
+Regulatory, health, and social impact assessments — ex-ante and ex-post — using structured intervention logic, multi-criteria analysis, and distributional analysis aligned with Better Regulation practice.
+:::
+:::
+
+:::
+
+## Why work with us
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Academic rigour
+Every method is one we teach and publish. Analyses are defensible under peer review, not black boxes.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Fully reproducible
+Code, data dictionaries, and versioned outputs come with the deliverable — your results can be re-run and audited.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Decision-focused
+We don't stop at a p-value. Findings arrive framed for the manuscript, the committee, or the regulator who needs them.
+:::
+
+:::
+
+## Selected expertise
+
+The Lab draws on active academic work in infectious-disease surveillance, air-quality and environmental epidemiology, socio-economic burden-of-disease studies, and health-technology assessment — with results presented at ISPOR, EPH, and ECDC forums and published in peer-reviewed journals. See the full record on the [CV](CV.qmd).
+
+```{=html}
+<section class="lab-cta">
+  <h2>Have a project in mind?</h2>
+  <p>Tell us the question — we'll tell you the cleanest way to answer it.</p>
+  <a class="btn btn-secondary btn-lg" href="mailto:drkostadinkostadinov@gmail.com?subject=Social%20Epidemiology%20Lab%20enquiry" role="button">Get in touch</a>
+</section>
+```

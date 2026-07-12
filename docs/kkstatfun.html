@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A tidyverse-friendly R package bringing 100+ analysis functions — from 2×2 tables to causal inference, survival, HTA, and outbreak detection — into a single consistent workflow.">
 
-<title>kkstatfun R package – Kostadin Kostadinov</title>
+<title>kkstatfun – Kostadin Kostadinov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,10 +74,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b311067de9bb61c87081b7a4fd9bc435.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a50bbf15ce5a20a76da124f542f3f538.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b311067de9bb61c87081b7a4fd9bc435.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ea6e8447f10504b771eebebd14206c43.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5976a29247cc9617c27d3aa6a672a4cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-faca3cf38e4bf75a83a81d611dfb107b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5976a29247cc9617c27d3aa6a672a4cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,44 +110,186 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="kkstatfun R package – Kostadin Kostadinov">
-<meta name="twitter:description" content="R Statistical Analysis Toolkit for Medicine and Epidemiology">
+<meta name="twitter:title" content="kkstatfun – Kostadin Kostadinov">
+<meta name="twitter:description" content="A tidyverse-friendly R package bringing 100+ analysis functions — from 2×2 tables to causal inference, survival, HTA, and outbreak detection — into a single consistent workflow.">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -169,25 +316,40 @@ window.Quarto = {
     <a class="nav-link" href="./CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./kkstatfun.html" aria-current="page"> 
-<span class="menu-text">kkstatfun R package</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./learning.html"> 
-<span class="menu-text">15-minute learning</span></a>
+        <li>
+    <a class="dropdown-item" href="./learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tasks.html"> 
-<span class="menu-text">Learning tasks</span></a>
+        <li>
+    <a class="dropdown-item" href="./tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./study-guide.html">
+ <span class="dropdown-text">Social medicine study guide</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./epinews.html"> 
 <span class="menu-text">Epi News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./study-guide.html"> 
-<span class="menu-text">Social medicine study guide</span></a>
+    <a class="nav-link active" href="./kkstatfun.html" aria-current="page"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lab.html"> 
+<span class="menu-text">Lab</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -214,6 +376,7 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -222,9 +385,14 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">kkstatfun R package</h1>
-            <p class="subtitle lead">R Statistical Analysis Toolkit for Medicine and Epidemiology</p>
-                      </div>
+      <h1 class="title">kkstatfun</h1>
+            <p class="subtitle lead">An R toolkit for medical statistics, epidemiology, and health economics</p>
+                  <div>
+        <div class="description">
+          A tidyverse-friendly R package bringing 100+ analysis functions — from 2×2 tables to causal inference, survival, HTA, and outbreak detection — into a single consistent workflow.
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -241,15 +409,15 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Function families</h2>
    
-  <ul>
-  <li><a href="#kkstatfun" id="toc-kkstatfun" class="nav-link active" data-scroll-target="#kkstatfun"><code>kkstatfun</code></a>
   <ul class="collapse">
+  <li><a href="#why-it-exists" id="toc-why-it-exists" class="nav-link active" data-scroll-target="#why-it-exists">Why it exists</a></li>
   <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#function-reference-clinical-examples" id="toc-function-reference-clinical-examples" class="nav-link" data-scroll-target="#function-reference-clinical-examples">Function Reference &amp; Clinical Examples</a></li>
-  <li><a href="#technical-details" id="toc-technical-details" class="nav-link" data-scroll-target="#technical-details">Technical Details</a></li>
-  </ul></li>
+  <li><a href="#a-60-second-tour" id="toc-a-60-second-tour" class="nav-link" data-scroll-target="#a-60-second-tour">A 60-second tour</a></li>
+  <li><a href="#function-reference" id="toc-function-reference" class="nav-link" data-scroll-target="#function-reference">Function reference</a></li>
+  <li><a href="#technical-notes" id="toc-technical-notes" class="nav-link" data-scroll-target="#technical-notes">Technical notes</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
@@ -260,39 +428,135 @@ window.Quarto = {
 
 
 
-<section id="kkstatfun" class="level1">
-<h1><code>kkstatfun</code></h1>
-<p><a href="https://doi.org/10.5281/zenodo.21203936"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg" class="img-fluid" alt="DOI"></a> <a href="https://github.com/kostadinoff/kkstatfun"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-blue?logo=github.png" class="img-fluid" alt="GitHub Repository"></a></p>
-<p>A comprehensive R package designed for medical statistics, epidemiology, and general clinical data analysis. It provides a suite of tidyverse-friendly tools with full support for piping (<code>%&gt;%</code> / <code>|&gt;</code>) and grouping (<code>group_by()</code>).</p>
-<hr>
+
+<div class="kk-hero">
+  <div class="kk-hero-body">
+    <h2 class="kk-hero-title anchored">One package, from bedside 2×2 tables to targeted causal inference</h2>
+    <p class="kk-hero-lead">
+      <code>kkstatfun</code> is the R engine behind my research and teaching. It wraps the
+      messy, error-prone parts of medical statistics — measures of association, standardization,
+      diagnostic accuracy, survival, regression, health-technology assessment, and infectious-disease
+      modelling — into <strong>100+ tidy, pipe-friendly functions</strong> that all speak the same
+      grammar: tidy data in, tidy data out.
+    </p>
+    <div class="kk-badges">
+      <a href="https://doi.org/10.5281/zenodo.21203936" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg" alt="DOI"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
+      <img src="https://img.shields.io/badge/functions-100%2B-8A5A24" alt="100+ functions">
+      <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
+    </div>
+  </div>
+</div>
+<section id="why-it-exists" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-exists">Why it exists</h2>
+<p>Most applied medical analyses reach for a different package at every step — <code>epitools</code> for a 2×2 table, <code>survival</code> for Kaplan–Meier, <code>pROC</code> for an ROC curve, <code>gtsummary</code> for Table 1, something else for standardization — each with its own conventions, output shapes, and quirks. <code>kkstatfun</code> is my answer to that fragmentation: a <strong>single, opinionated layer</strong> on top of the best of those engines so that a whole analysis reads as one coherent story.</p>
+<div class="grid">
+<section id="consistent" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="consistent">Consistent</h3>
+<p>Every function follows <em>tidy data in, tidy data out</em>. Results come back as tibbles you can pipe, filter, join, and plot — never a print-only object you have to scrape.</p>
+</section>
+<section id="pipe-group-aware" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="pipe-group-aware">Pipe &amp; group aware</h3>
+<p>Full support for <code>%&gt;%</code> / <code>|&gt;</code> and <code>dplyr::group_by()</code>. Run a diagnostic or an odds ratio across strata without a single loop.</p>
+</section>
+<section id="publication-ready" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="publication-ready">Publication-ready</h3>
+<p>Confidence intervals, effect sizes, and correct tests by default — plus themed plots — so output drops straight into a manuscript or a lecture.</p>
+</section>
+</div>
+</section>
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<p>You can install the package directly from GitHub:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install devtools if not already installed</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install devtools if you don't have it</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"devtools"</span>)) <span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Install kkstatfun from GitHub</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"kostadinoff/kkstatfun"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<hr>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"kostadinoff/kkstatfun"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kkstatfun)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="function-reference-clinical-examples" class="level2">
-<h2 class="anchored" data-anchor-id="function-reference-clinical-examples">Function Reference &amp; Clinical Examples</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Epidemiology &amp; Association</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Diagnostics &amp; Agreement</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Tests &amp; Comparisons</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Registry &amp; Other Tools</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<section id="kk_twobytwodata-exposure-outcome" class="level4">
-<h4 class="anchored" data-anchor-id="kk_twobytwodata-exposure-outcome"><code>kk_twobytwo(data, exposure, outcome)</code></h4>
-<p>Computes classic measures of association from <span class="math inline">\(2 \times 2\)</span> contingency tables: Odds Ratio (OR), Relative Risk (RR), Risk Difference (RD), Attributable Fraction (AF), Population Attributable Fraction (PAF), and Preventable Fraction (PF) with 95% confidence intervals.</p>
-<p><strong>Clinical Example</strong>: Assessing the risk of lung cancer among smokers vs.&nbsp;non-smokers.</p>
+<section id="a-60-second-tour" class="level2">
+<h2 class="anchored" data-anchor-id="a-60-second-tour">A 60-second tour</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kkstatfun)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">smoking =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">80</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">120</span>)),</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">lung_cancer =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">30</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">50</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">10</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">110</span>))</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">kk_twobytwo</span>(smoking, lung_cancer)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Measure of association from a 2x2 table</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>smoking_cancer <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">smoking     =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">80</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">120</span>)),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">lung_cancer =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">30</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">50</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">10</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">110</span>))</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>smoking_cancer <span class="sc">%&gt;%</span> <span class="fu">kk_twobytwo</span>(smoking, lung_cancer)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Odds Ratio 6.6 (3.0-14.5), Relative Risk 4.5 (2.3-8.7), plus RD, AF, PAF...</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Publication-ready Table 1, stratified by treatment arm</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_table1</span>(cohort, <span class="at">by =</span> <span class="st">"arm"</span>, <span class="at">variables =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"bmi"</span>, <span class="st">"sex"</span>, <span class="st">"smoker"</span>))</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. A diagnostic work-up across every site at once</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>cohort <span class="sc">%&gt;%</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(site) <span class="sc">%&gt;%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kk_diagnostic</span>(gold_standard, rapid_test)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Everything below is organized by the question you’re trying to answer.</p>
+<hr>
+</section>
+<section id="function-reference" class="level2">
+<h2 class="anchored" data-anchor-id="function-reference">Function reference</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Association &amp; risk</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Diagnostics &amp; agreement</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Regression &amp; modelling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Survival &amp; time-to-event</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Tables &amp; group comparison</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Causal inference</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Health economics &amp; HTA</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Infectious disease</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false" href="">Plotting &amp; utilities</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>The core epidemiology toolkit: turn exposures and outcomes into interpretable, confidence-bounded effect measures.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_twobytwo()</code></td>
+<td>Full 2×2 work-up: OR, RR, risk difference, attributable and preventable fractions (AF/PAF/PF), phi, Yule’s Q — all with 95% CIs.</td>
+</tr>
+<tr class="even">
+<td><code>kk_epi_stats()</code> / <code>odds_ratio()</code> / <code>risk_ratio()</code></td>
+<td>Lightweight OR and RR when you just need the point estimate and CI.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_stratified_2x2()</code></td>
+<td>Stratified analysis with Cochran–Mantel–Haenszel pooled OR and the Breslow–Day test for effect-modification/confounding.</td>
+</tr>
+<tr class="even">
+<td><code>kk_reri()</code></td>
+<td>Relative Excess Risk due to Interaction (RERI), attributable proportion, and Synergy Index for additive interaction.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_nnt()</code></td>
+<td>Number Needed to Treat / Harm with confidence intervals.</td>
+</tr>
+<tr class="even">
+<td><code>kk_incidence_rate()</code></td>
+<td>Incidence rates and rate ratios from person-time with exact CIs.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_std_rates()</code></td>
+<td>Direct age-standardization against a reference population (crude + standardized rates with CIs).</td>
+</tr>
+<tr class="even">
+<td><code>kk_smr()</code></td>
+<td>Indirect standardization → Standardized Mortality/Morbidity Ratio with an exact Poisson CI.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — a classic 2×2 exposure–outcome analysis:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">smoking     =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">80</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">120</span>)),</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">lung_cancer =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">30</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">50</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">10</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">110</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">kk_twobytwo</span>(smoking, lung_cancer)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -303,141 +567,441 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Interpretation</strong>: If the relative risk (RR) is 4.5, it indicates that exposed individuals have 4.5 times the risk of the outcome compared to unexposed individuals. Because odds ratios (OR) tend to overstate risk ratios when the outcome is common, the RR is generally preferred in cohort studies.</p>
+<p><strong>Interpretation.</strong> A relative risk of 4.5 means exposed individuals have 4.5× the risk of the outcome versus unexposed. Because odds ratios overstate the risk ratio when the outcome is common, RR is generally preferred in cohort studies — <code>kk_twobytwo()</code> gives you both so you can report the right one.</p>
 </div>
 </div>
-</section>
-<section id="kk_stratified_2x2data-exposure-outcome-stratum" class="level4">
-<h4 class="anchored" data-anchor-id="kk_stratified_2x2data-exposure-outcome-stratum"><code>kk_stratified_2x2(data, exposure, outcome, stratum)</code></h4>
-<p>Performs stratified analysis on <span class="math inline">\(2 \times 2\)</span> tables, calculating stratum-specific ORs, the Cochran-Mantel-Haenszel (CMH) pooled Odds Ratio, and the Breslow-Day test for homogeneity to detect confounding and effect modification.</p>
-<p><strong>Clinical Example</strong>: Association between coffee consumption and coronary heart disease, stratified by smoking status to control for confounding.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df_strat <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">coffee =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">50</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">50</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">40</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">60</span>)),</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">chd =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">15</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">35</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">45</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">10</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">30</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">12</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">48</span>)),</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">smoking =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">"Smoker"</span>, <span class="dv">100</span>), <span class="fu">rep</span>(<span class="st">"Non-Smoker"</span>, <span class="dv">100</span>))</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>df_strat <span class="sc">%&gt;%</span> <span class="fu">kk_stratified_2x2</span>(coffee, chd, smoking)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_reridata-exp1-exp2-outcome" class="level4">
-<h4 class="anchored" data-anchor-id="kk_reridata-exp1-exp2-outcome"><code>kk_reri(data, exp1, exp2, outcome)</code></h4>
-<p>Calculates the Relative Excess Risk due to Interaction (RERI), Attributable Proportion due to Interaction (AP), and Synergy Index (S) to evaluate additive interactions.</p>
-</section>
-<section id="kk_std_ratesdata-count-pop-std_pop" class="level4">
-<h4 class="anchored" data-anchor-id="kk_std_ratesdata-count-pop-std_pop"><code>kk_std_rates(data, count, pop, std_pop)</code></h4>
-<p>Performs direct age-standardization of rates against a reference (standard) population, returning crude and standardized rates with confidence intervals to compare regions fairly.</p>
-</section>
-<section id="kk_smrdata-observed-pop-ref_rate" class="level4">
-<h4 class="anchored" data-anchor-id="kk_smrdata-observed-pop-ref_rate"><code>kk_smr(data, observed, pop, ref_rate)</code></h4>
-<p>Performs indirect standardization, comparing observed events with those expected under a reference population’s stratum-specific rates to yield the Standardized Mortality/Morbidity Ratio (SMR) with an exact Poisson CI.</p>
-</section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<section id="kk_diagnosticdata-truth-prediction" class="level4">
-<h4 class="anchored" data-anchor-id="kk_diagnosticdata-truth-prediction"><code>kk_diagnostic(data, truth, prediction)</code></h4>
-<p>Computes key diagnostic test performance parameters: Sensitivity, Specificity, Positive/Negative Predictive Value (PPV/NPV), and Likelihood Ratios (LR+/LR-) with Wilson score confidence intervals.</p>
-<p><strong>Clinical Example</strong>: Evaluating the diagnostic accuracy of a rapid PCR test against the gold standard viral culture.</p>
+<p>Everything you need to validate a test, a marker, or a rater.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_diagnostic()</code></td>
+<td>Sensitivity, specificity, PPV/NPV, likelihood ratios — with Wilson-score CIs.</td>
+</tr>
+<tr class="even">
+<td><code>kk_diagnostic_lrt()</code></td>
+<td>Bedside Bayesian update: pre-test probability + Se/Sp → post-test probability after a positive or negative result.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_roc()</code></td>
+<td>ROC curve for a continuous marker: AUC with DeLong CI and the Youden-optimal cutoff.</td>
+</tr>
+<tr class="even">
+<td><code>kk_compare_roc()</code></td>
+<td>Compare two markers’ AUCs on the same subjects (DeLong’s test).</td>
+</tr>
+<tr class="odd">
+<td><code>kk_calibration()</code></td>
+<td>Calibration of a risk model (calibration plot, slope/intercept, Brier score).</td>
+</tr>
+<tr class="even">
+<td><code>kk_decision_curve()</code></td>
+<td>Decision-curve analysis — net clinical benefit across threshold probabilities.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_kappa()</code> / <code>kk_agreement()</code></td>
+<td>Cohen’s κ, weighted κ (linear/quadratic), and PABAK for categorical agreement.</td>
+</tr>
+<tr class="even">
+<td><code>kk_icc()</code></td>
+<td>Intraclass correlation in all six Shrout–Fleiss forms (continuous agreement).</td>
+</tr>
+<tr class="odd">
+<td><code>kk_bland_altman()</code></td>
+<td>Bland–Altman limits-of-agreement analysis and plot.</td>
+</tr>
+<tr class="even">
+<td><code>kk_mcnemar()</code></td>
+<td>McNemar’s test for matched-pair (paired binary) data.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_reliability()</code></td>
+<td>Cronbach’s α (raw + standardized) with alpha-if-item-dropped for scale validation.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — validate a rapid test against a gold standard:</strong></p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_test <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">gold_standard =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">100</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">900</span>)),</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">pcr_test =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">95</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">20</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">880</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">pcr_test      =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">95</span>),  <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">20</span>), <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">880</span>))</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>df_test <span class="sc">%&gt;%</span> <span class="fu">kk_diagnostic</span>(gold_standard, pcr_test)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_diagnostic_lrtpre_test_prob-sensitivity-specificity" class="level4">
-<h4 class="anchored" data-anchor-id="kk_diagnostic_lrtpre_test_prob-sensitivity-specificity"><code>kk_diagnostic_lrt(pre_test_prob, sensitivity, specificity)</code></h4>
-<p>Translates sensitivity/specificity into a bedside Bayesian update, computing positive and negative likelihood ratios and the post-test probability of disease after a positive or negative result, given a pre-test probability.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Patient with 20% pre-test probability of PE undergoing a D-dimer test</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_diagnostic_lrt</span>(<span class="at">pre_test_prob =</span> <span class="fl">0.20</span>, <span class="at">sensitivity =</span> <span class="fl">0.95</span>, <span class="at">specificity =</span> <span class="fl">0.60</span>,</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>                  <span class="at">n_diseased =</span> <span class="dv">100</span>, <span class="at">n_healthy =</span> <span class="dv">400</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_rocdata-truth-predictor-kk_compare_roc" class="level4">
-<h4 class="anchored" data-anchor-id="kk_rocdata-truth-predictor-kk_compare_roc"><code>kk_roc(data, truth, predictor)</code> &amp; <code>kk_compare_roc()</code></h4>
-<p>Builds an ROC curve for a continuous marker, returning the AUC with a DeLong confidence interval and the Youden-optimal cutoff. <code>kk_compare_roc</code> compares the AUCs of two markers measured on the same subjects using DeLong’s test.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_marker <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">disease =</span> <span class="fu">rbinom</span>(<span class="dv">300</span>, <span class="dv">1</span>, <span class="fl">0.4</span>))</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df_marker<span class="sc">$</span>biomarker <span class="ot">&lt;-</span> df_marker<span class="sc">$</span>disease <span class="sc">*</span> <span class="fl">0.8</span> <span class="sc">+</span> <span class="fu">rnorm</span>(<span class="dv">300</span>)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df_marker <span class="sc">%&gt;%</span> <span class="fu">kk_roc</span>(disease, biomarker)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_kappadata-rater1-rater2-kk_agreement" class="level4">
-<h4 class="anchored" data-anchor-id="kk_kappadata-rater1-rater2-kk_agreement"><code>kk_kappa(data, rater1, rater2)</code> &amp; <code>kk_agreement()</code></h4>
-<p>Computes Cohen’s Kappa coefficient (<span class="math inline">\(\kappa\)</span>), weighted Kappa (linear/quadratic), and PABAK (Prevalence and Bias Adjusted Kappa) for inter-rater agreement studies.</p>
-</section>
-<section id="kk_iccdata-raters" class="level4">
-<h4 class="anchored" data-anchor-id="kk_iccdata-raters"><code>kk_icc(data, raters)</code></h4>
-<p>Computes the Intraclass Correlation Coefficient (ICC) in all six Shrout-Fleiss forms (single and average rater) for continuous measurement agreement (the continuous counterpart to Kappa).</p>
-</section>
-<section id="kk_reliabilitydata-items" class="level4">
-<h4 class="anchored" data-anchor-id="kk_reliabilitydata-items"><code>kk_reliability(data, items)</code></h4>
-<p>Computes Cronbach’s alpha (raw and standardized) with per-item statistics (such as alpha-if-item-dropped) for validating scales and questionnaires.</p>
-</section>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>df_test <span class="sc">%&gt;%</span> <span class="fu">kk_diagnostic</span>(gold_standard, pcr_test)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Turn Se/Sp into a bedside post-test probability</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_diagnostic_lrt</span>(<span class="at">pre_test_prob =</span> <span class="fl">0.20</span>, <span class="at">sensitivity =</span> <span class="fl">0.95</span>, <span class="at">specificity =</span> <span class="fl">0.60</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>                  <span class="at">n_diseased =</span> <span class="dv">100</span>, <span class="at">n_healthy =</span> <span class="dv">400</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<section id="kk_table1data-by-variables" class="level4">
-<h4 class="anchored" data-anchor-id="kk_table1data-by-variables"><code>kk_table1(data, by, variables)</code></h4>
-<p>Builds a standard, publication-ready “Table 1” summarizing baseline demographics and clinical variables across groups, automatically performing parametric or non-parametric tests depending on variable characteristics.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary table stratified by treatment arm</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_table1</span>(cohort, <span class="at">by =</span> <span class="st">"arm"</span>, <span class="at">variables =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"bmi"</span>, <span class="st">"sex"</span>, <span class="st">"smoker"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_compare_groups_tabledata-group-variables" class="level4">
-<h4 class="anchored" data-anchor-id="kk_compare_groups_tabledata-group-variables"><code>kk_compare_groups_table(data, group, variables)</code></h4>
-<p>Produces a detailed comparison table with per-group summaries, differences, confidence intervals, effect sizes, and p-values. Fully tidyselect- and <code>group_by()</code>-aware.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>cohort <span class="sc">%&gt;%</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sex) <span class="sc">%&gt;%</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kk_compare_groups_table</span>(arm, <span class="fu">c</span>(sbp))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_regdata-outcome-predictors" class="level4">
-<h4 class="anchored" data-anchor-id="kk_regdata-outcome-predictors"><code>kk_reg(data, outcome, predictors)</code></h4>
-<p>A unified modeling wrapper that automatically detects binary outcomes (triggering Logistic Regression with odds ratios and ROC diagnostics) or continuous outcomes (triggering Linear Regression with check plots).</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fits multivariable logistic regression and returns tidy ORs and fit statistics</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">regression_analysis</span>(cohort, <span class="at">outcome =</span> <span class="st">"event"</span>, <span class="at">predictors =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"smoker"</span>, <span class="st">"arm"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_firthdata-outcome-predictors" class="level4">
-<h4 class="anchored" data-anchor-id="kk_firthdata-outcome-predictors"><code>kk_firth(data, outcome, predictors)</code></h4>
-<p>Fits Firth-penalized logistic regression, yielding finite, bias-reduced odds ratios under complete or quasi-complete separation (rare events or a zero cell) where ordinary logistic regression fails.</p>
-</section>
-<section id="kk_survival_plotdata-time-status-group" class="level4">
-<h4 class="anchored" data-anchor-id="kk_survival_plotdata-time-status-group"><code>kk_survival_plot(data, time, status, group)</code></h4>
-<p>Kaplan-Meier survival curves with publication-quality formatting, confidence bands, and risk tables.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(survival)</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_survival_plot</span>(lung, time, status, sex)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_rmstdata-time-status-group-tau" class="level4">
-<h4 class="anchored" data-anchor-id="kk_rmstdata-time-status-group-tau"><code>kk_rmst(data, time, status, group, tau)</code></h4>
-<p>Computes the Restricted Mean Survival Time (area under the KM curve up to a horizon <code>tau</code>) for each group, plus the difference and ratio with confidence intervals — a robust alternative when Cox proportional hazards assumptions are violated.</p>
-</section>
+<p>One consistent interface across the models applied research actually uses.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_reg()</code></td>
+<td>Unified wrapper: auto-detects binary outcomes (logistic, with ORs + ROC) vs.&nbsp;continuous (linear, with diagnostic plots).</td>
+</tr>
+<tr class="even">
+<td><code>kk_firth()</code></td>
+<td>Firth-penalized logistic regression — finite, bias-reduced ORs under separation / rare events where ordinary logistic fails.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_rr_reg()</code></td>
+<td>Adjusted <strong>risk-ratio</strong> regression (modified Poisson with robust SEs) — RRs instead of ORs for common binary outcomes.</td>
+</tr>
+<tr class="even">
+<td><code>kk_rate_reg()</code></td>
+<td>Poisson / negative-binomial rate regression for count and person-time data.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_poisson()</code></td>
+<td>Poisson modelling of counts and rates.</td>
+</tr>
+<tr class="even">
+<td><code>kk_apc()</code></td>
+<td>Age–Period–Cohort analysis for trends in rates over time.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — logistic regression returning tidy odds ratios:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_reg</span>(cohort, <span class="at">outcome =</span> <span class="st">"event"</span>, <span class="at">predictors =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"smoker"</span>, <span class="st">"arm"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<section id="bulgarian-egn-utilities-extract_egn_info" class="level4">
-<h4 class="anchored" data-anchor-id="bulgarian-egn-utilities-extract_egn_info">Bulgarian EGN Utilities: <code>extract_egn_info()</code></h4>
-<p>Parses, validates, and extracts demographic profiles (Date of Birth, Gender, Age, and Birth Region) from Bulgarian Personal Identification Numbers (EGN).</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>egn_sample <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"9201014321"</span>, <span class="st">"8812128765"</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">extract_egn_info</span>(egn_sample)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="kk_time_seriesdata-value_col-date_col" class="level4">
-<h4 class="anchored" data-anchor-id="kk_time_seriesdata-value_col-date_col"><code>kk_time_series(data, value_col, date_col)</code></h4>
-<p>Analyzes a time series end-to-end: decomposition, stationarity tests (ADF/KPSS), autocorrelation, and automatic ARIMA modeling.</p>
-</section>
-<section id="kk_summarydata-col" class="level4">
-<h4 class="anchored" data-anchor-id="kk_summarydata-col"><code>kk_summary(data, col)</code></h4>
-<p>Computes an extensive numeric summary for a variable — central tendency, dispersion, robust estimators (Huber M), skewness/kurtosis, and normality tests — with full <code>group_by()</code> support.</p>
-</section>
+<p>From Kaplan–Meier to competing risks and RMST.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_survival_plot()</code></td>
+<td>Publication-quality Kaplan–Meier curves with CIs and a risk table.</td>
+</tr>
+<tr class="even">
+<td><code>kk_coxph()</code></td>
+<td>Cox proportional-hazards model with tidy hazard ratios and PH diagnostics.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_logrank()</code></td>
+<td>Log-rank and related survival tests between groups.</td>
+</tr>
+<tr class="even">
+<td><code>kk_rmst()</code></td>
+<td>Restricted Mean Survival Time (area under the KM curve to a horizon τ) with group differences — robust when proportional hazards fails.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_cuminc()</code></td>
+<td>Competing-risks cumulative incidence functions.</td>
+</tr>
+<tr class="even">
+<td><code>kk_partsa()</code></td>
+<td>Partitioned survival analysis (oncology cost-effectiveness modelling).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(survival)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_survival_plot</span>(lung, time, status, sex)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_rmst</span>(lung, time, status, sex, <span class="at">tau =</span> <span class="dv">365</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>The descriptive backbone of every paper.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_table1()</code></td>
+<td>The standard “Table 1” of baseline characteristics by group, with correct parametric/non-parametric tests chosen automatically.</td>
+</tr>
+<tr class="even">
+<td><code>kk_compare_groups_table()</code></td>
+<td>Detailed comparison: per-group summaries, differences, CIs, effect sizes, p-values — fully tidyselect and <code>group_by()</code> aware.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_summary()</code></td>
+<td>Extensive numeric summary — central tendency, dispersion, robust (Huber-M) estimators, skewness/kurtosis, normality tests.</td>
+</tr>
+<tr class="even">
+<td><code>kk_chisq_test()</code></td>
+<td>Chi-square test for r×c contingency tables with effect sizes.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_trend_test()</code></td>
+<td>Cochran–Armitage test for trend in proportions.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_table1</span>(cohort, <span class="at">by =</span> <span class="st">"arm"</span>, <span class="at">variables =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"bmi"</span>, <span class="st">"sex"</span>, <span class="st">"smoker"</span>))</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>cohort <span class="sc">%&gt;%</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sex) <span class="sc">%&gt;%</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kk_compare_groups_table</span>(arm, <span class="fu">c</span>(sbp, dbp, ldl))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<p>Modern tools for estimating treatment effects from observational data.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_iptw()</code></td>
+<td>Inverse-probability-of-treatment weighting (ATE/ATT) with stabilized weights.</td>
+</tr>
+<tr class="even">
+<td><code>kk_tmle()</code></td>
+<td>Targeted maximum likelihood estimation of the ATE — double-robust, with efficient-influence-curve inference.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_smd()</code> / <code>kk_balance_table()</code></td>
+<td>Standardized mean differences and a covariate-balance table to check weighting/matching.</td>
+</tr>
+<tr class="even">
+<td><code>kk_causal_mediation()</code></td>
+<td>Causal mediation analysis: natural direct and indirect effects.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_simex()</code></td>
+<td>SIMEX correction for classical measurement error in a continuous covariate.</td>
+</tr>
+<tr class="even">
+<td><code>kk_butler_ks()</code></td>
+<td>Butler’s symmetry-based KS randomization test of the sharp null in matched/stratified experiments.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — double-robust average treatment effect:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_tmle</span>(cohort,</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>        <span class="at">outcome    =</span> <span class="st">"death"</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">treatment  =</span> <span class="st">"new_drug"</span>,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">covariates =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"sex"</span>, <span class="st">"comorbidity"</span>, <span class="st">"severity"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<p>A full health-technology-assessment workflow, from ICERs to value of information.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_icer()</code></td>
+<td>Incremental cost-effectiveness analysis over strategies: ranks by effect, flags (extended) dominance, traces the efficiency frontier.</td>
+</tr>
+<tr class="even">
+<td><code>kk_nmb()</code></td>
+<td>Net monetary and net health benefit at one or more willingness-to-pay thresholds, flagging the optimal strategy.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_ceac()</code></td>
+<td>Cost-effectiveness acceptability curve from PSA draws.</td>
+</tr>
+<tr class="even">
+<td><code>kk_markov()</code></td>
+<td>Markov cohort model for cost-utility analysis (time-varying transitions, discounting, half-cycle correction).</td>
+</tr>
+<tr class="odd">
+<td><code>kk_partsa()</code></td>
+<td>Partitioned survival model for oncology CEA.</td>
+</tr>
+<tr class="even">
+<td><code>kk_evpi()</code></td>
+<td>Expected Value of Perfect Information from PSA.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_discount()</code></td>
+<td>Discounting of future costs/effects.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — rank strategies and find the frontier:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_icer</span>(cost, qaly, strategy)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_nmb</span>(cost, qaly, <span class="at">wtp =</span> <span class="dv">25000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<p>Compartmental models, R₀, and outbreak detection.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_seir()</code></td>
+<td>Simulate SIR / SEIR dynamics with optional vital dynamics and vaccination; returns compartments, incidence, and implied R₀.</td>
+</tr>
+<tr class="even">
+<td><code>kk_r0()</code></td>
+<td>Estimate the basic reproduction number from transmission parameters, early growth rate, or final attack rate.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_final_size()</code></td>
+<td>Final epidemic size from R₀.</td>
+</tr>
+<tr class="even">
+<td><code>kk_sero_incidence()</code></td>
+<td>Incidence / force of infection from seroprevalence survey data.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_nb_scan()</code></td>
+<td>Negative-binomial space–time scan statistic for detecting localized disease clusters under overdispersion.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — simulate an outbreak and read off R₀:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> <span class="fu">kk_seir</span>(<span class="at">beta =</span> <span class="fl">0.4</span>, <span class="at">gamma =</span> <span class="fl">0.2</span>, <span class="at">sigma =</span> <span class="fl">0.25</span>,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">S0 =</span> <span class="fl">1e6</span>, <span class="at">I0 =</span> <span class="dv">10</span>, <span class="at">times =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">180</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(out, <span class="st">"R0"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-9" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-9-tab">
+<p>The theming layer and the Bulgarian-registry helpers.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kkplot()</code> / <code>set_plot_font()</code> / <code>set_plot_colors()</code></td>
+<td>The house ggplot2 theme and font/colour setup used across my figures.</td>
+</tr>
+<tr class="even">
+<td><code>scale_color_kk()</code> / <code>scale_fill_kk()</code> (+ <code>_c</code> continuous)</td>
+<td>Discrete and continuous colour/fill scales in the kkstatfun palette.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_pal()</code></td>
+<td>The raw palette for custom use.</td>
+</tr>
+<tr class="even">
+<td><code>univariate_plot()</code></td>
+<td>Quick distribution plot for a single variable (auto categorical/continuous).</td>
+</tr>
+<tr class="odd">
+<td><code>kkonehot()</code> / <code>one_hot_encode()</code></td>
+<td>One-hot encoding of categorical columns.</td>
+</tr>
+<tr class="even">
+<td><code>extract_egn_info()</code> / <code>extract_age_from_egn()</code></td>
+<td>Parse Bulgarian EGN identifiers → date of birth, sex, age, birth region.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_time_series()</code></td>
+<td>End-to-end time-series analysis: decomposition, ADF/KPSS stationarity, autocorrelation, auto-ARIMA.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — parse Bulgarian personal identifiers:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extract_egn_info</span>(<span class="fu">c</span>(<span class="st">"9201014321"</span>, <span class="st">"8812128765"</span>))</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Date of birth, sex, age, and birth region for each EGN</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
 <hr>
 </section>
-<section id="technical-details" class="level2">
-<h2 class="anchored" data-anchor-id="technical-details">Technical Details</h2>
+<section id="technical-notes" class="level2">
+<h2 class="anchored" data-anchor-id="technical-notes">Technical notes</h2>
 <ul>
-<li><strong>Philosophy</strong>: Tidy data in, tidy data out. Full integration with <code>dplyr</code> verbs.</li>
-<li><strong>Dependencies</strong>: Tightly built on core R modeling engines and packages like <code>survival</code>, <code>gtsummary</code>, <code>broom</code>, <code>rstatix</code>, and <code>easystats</code> for clean, publication-ready results.</li>
+<li><strong>Philosophy</strong> — tidy data in, tidy data out; full integration with <code>dplyr</code> verbs and <code>group_by()</code>.</li>
+<li><strong>Built on</strong> — the best-in-class engines under a single interface: <code>survival</code>, <code>gtsummary</code>, <code>broom</code>, <code>rstatix</code>, <code>pROC</code>, <code>epiR</code>/<code>epitools</code>, <code>easystats</code>, <code>marginaleffects</code>, <code>sandwich</code>, and more.</li>
+<li><strong>Reproducible</strong> — versioned and archived on Zenodo with a citable DOI.</li>
 </ul>
-
-
 </section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>If <code>kkstatfun</code> supports your work, please cite it:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">@Software{kkstatfun,</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">  title   = {kkstatfun: R Statistical Analysis Toolkit for Medical</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co">             Statistics and Epidemiology},</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co">  author  = {Kostadinov, Kostadin},</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co">  year    = {2026},</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co">  url     = {https://github.com/kostadinoff/kkstatfun},</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co">  doi     = {10.5281/zenodo.21203936},</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="co">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="kk-cta">
+<p><a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a> <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.21203936" target="_blank" role="button">Archived release (Zenodo)</a></p>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -846,8 +1410,8 @@ Note
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
   </div>
 </footer>
 

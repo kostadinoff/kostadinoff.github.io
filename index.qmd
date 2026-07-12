@@ -1,9 +1,23 @@
 ---
 image: "art-face.png"
-about: 
-  template: jolla
-  image-shape: rectangle
-  image-width: 21.5em
+toc: false
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 17em
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/kostadinoffMD
+    - icon: github
+      text: Github
+      href: https://github.com/kostadinoff
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0003-1414-8738
 listing:
   contents: epinews-posts
   sort: "date desc"
@@ -15,12 +29,6 @@ listing:
   fields: [title, date, description]
 ---
 
-::: {.btn-group role="group" aria-label="Social Links"}
-[{{< fa brands twitter >}}<br>Twitter](https://x.com/kostadinoffMD){.btn .btn-secondary .btn role="button" data-toggle="data" title="twitter"} [{{< fa brands github >}}<br>Github](https://github.com/kostadinoff){.btn .btn-secondary .btn role="button" data-toggle="data" title="github"} [{{< fa graduation-cap >}}<br>Scholar](https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en){.btn .btn-secondary .btn role="button" data-toggle="data" title="scholar"} [{{< fa id-badge >}}<br>ORCID](https://orcid.org/0000-0003-1414-8738){.btn .btn-secondary .btn role="button" data-toggle="data" title="ORCID"}
-:::
-
-<br>
-
 I’m Dr. Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.
 
 I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance and a Master's in Impact Assessment and Policy Appraisal from Sofia University, and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Starting October 2026, I am also pursuing a Master’s degree in Law at Burgas Free University.
@@ -29,7 +37,7 @@ I am the founder of the Social Epidemiology Lab, a private research company dedi
 
 My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.
 
-This website serves as a space to share my research projects, my R packages (like [kkstatfun](kkstatfun.qmd)), 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology.
+This website serves as a space to share my research projects, my R packages (like [kkstatfun](kkstatfun.qmd)), [teaching materials](slides.qmd), 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology.
 All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
 
 All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.

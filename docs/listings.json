@@ -17,24 +17,6 @@
     ]
   },
   {
-    "listing": "/learning.html",
-    "items": [
-      "/15-minute-learning/health-culture.html",
-      "/15-minute-learning/planning-economics-marketing.html",
-      "/15-minute-learning/liability-social-history.html",
-      "/15-minute-learning/reproductive-family-adolescent-health.html",
-      "/15-minute-learning/temporary-incapacity.html",
-      "/15-minute-learning/dispensary-care.html",
-      "/15-minute-learning/occupational-medicine.html",
-      "/15-minute-learning/hospital-care.html",
-      "/15-minute-learning/primary-health-care.html",
-      "/15-minute-learning/burden-of-disease.html",
-      "/15-minute-learning/risk-factors-causality.html",
-      "/15-minute-learning/demography-indices.html",
-      "/15-minute-learning/sociological-research-methods.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/epinews-posts/2026-W27-en.html",
@@ -114,6 +96,24 @@
       "/epinews-posts/2025-W45-en.html",
       "/epinews-posts/2025-W44-bg.html",
       "/epinews-posts/2025-W44-en.html"
+    ]
+  },
+  {
+    "listing": "/learning.html",
+    "items": [
+      "/15-minute-learning/health-culture.html",
+      "/15-minute-learning/planning-economics-marketing.html",
+      "/15-minute-learning/liability-social-history.html",
+      "/15-minute-learning/reproductive-family-adolescent-health.html",
+      "/15-minute-learning/temporary-incapacity.html",
+      "/15-minute-learning/dispensary-care.html",
+      "/15-minute-learning/occupational-medicine.html",
+      "/15-minute-learning/hospital-care.html",
+      "/15-minute-learning/primary-health-care.html",
+      "/15-minute-learning/burden-of-disease.html",
+      "/15-minute-learning/risk-factors-causality.html",
+      "/15-minute-learning/demography-indices.html",
+      "/15-minute-learning/sociological-research-methods.html"
     ]
   }
 ]

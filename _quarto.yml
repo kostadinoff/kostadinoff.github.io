@@ -5,6 +5,8 @@ project:
     - SOCIAL_SEMESTER_BOOK_EN.pdf
     - .nojekyll
     - 2025-2026-classes/
+    - slides/
+    - assets/
 
 website:
   site-url: "https://kostadinoff.github.io"
@@ -12,6 +14,7 @@ website:
 
   page-footer:
     left: "Email me at <a href='mailto:kostadinr.kostadinov@mu-plovdiv.bg'>kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href='https://tinyurl.com/whentomeetme' target='_blank'>meeting</a>"
+    right: "Built with <a href='https://quarto.org' target='_blank'>Quarto</a>"
   title: "Kostadin Kostadinov"
   favicon: favicon.png
 
@@ -34,24 +37,34 @@ website:
         text: Home
       - href: CV.qmd
         text: CV
-      - href: kkstatfun.qmd
-        text: kkstatfun R package
-      - href: learning.qmd
-        text: 15-minute learning
-      - href: tasks.qmd
-        text: Learning tasks
+      - text: Teaching
+        menu:
+          - href: slides.qmd
+            text: Teaching materials
+          - href: learning.qmd
+            text: 15-minute learning
+          - href: tasks.qmd
+            text: Learning tasks
+          - href: study-guide.qmd
+            text: Social medicine study guide
       - href: epinews.qmd
         text: Epi News
-      - href: study-guide.qmd
-        text: Social medicine study guide
+      - href: kkstatfun.qmd
+        text: kkstatfun
+      - href: lab.qmd
+        text: Lab
 
 format:
   html:
     theme:
-      - darkly
-      - barbie.scss
+      light:
+        - cosmo
+        - theme-light.scss
+      dark:
+        - cosmo
+        - theme-dark.scss
+    respect-user-color-scheme: true
     css: styles.css
     toc: true
-    sharing: [twitter, linkedin, facebook]
     title-block-banner: true
 editor: source

@@ -1,6 +1,6 @@
 ---
-title: "Curriculum Vitae"
-author: "Kostadin Rangelov Kostadinov, MD, PhD, MPH, MSc"
+title: "Kostadin Rangelov Kostadinov"
+subtitle: "MD, PhD, MPH, MSc · Senior Assistant Professor, Medical University of Plovdiv"
 bibliography: referencelist.bib
 csl: "american-chemical-society.csl"
 nocite: |
@@ -8,17 +8,48 @@ nocite: |
 format:
   html:
     toc: true
+    toc-location: left
+    title-block-banner: true
   pdf:
-    # mainfont: Roboto Condensed
-    # monofont: Roboto Condensed 
-    # sansfont: Roboto Condensed 
-    fontsize: 12pt
-    geometry:  margin=0.8in
+    fontsize: 11pt
+    linestretch: 1.05
+    geometry: margin=0.85in
+    colorlinks: true
     keep-tex: true
+    include-in-header:
+      text: |
+        \usepackage{xcolor}
+        \definecolor{cvink}{HTML}{1E2A33}
+        \definecolor{cvslate}{HTML}{35506A}
+        \definecolor{cvbronze}{HTML}{8A5A24}
+        \usepackage{titlesec}
+        \titleformat{\section}{\Large\bfseries\color{cvslate}}{}{0em}{}[{\color{cvslate}\titlerule[1.1pt]}]
+        \titleformat{\subsection}{\large\bfseries\color{cvink}}{}{0em}{}
+        \titlespacing*{\section}{0pt}{16pt}{6pt}
+        \titlespacing*{\subsection}{0pt}{10pt}{3pt}
+        \usepackage{enumitem}
+        \setlist[itemize]{leftmargin=1.25em, itemsep=1.5pt, topsep=2pt}
+        \let\oldtexttt\texttt
+        \renewcommand{\texttt}[1]{{\color{cvbronze}\small\oldtexttt{#1}}}
+        \AtBeginDocument{\hypersetup{urlcolor=cvbronze, linkcolor=cvbronze}}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \renewcommand{\headrulewidth}{0pt}
+        \fancyfoot[L]{\small\color{cvslate}Kostadin Kostadinov — Curriculum Vitae}
+        \fancyfoot[R]{\small\color{cvslate}\thepage}
 format-links: [pdf]
 ---
 
-[drkostadinkostadinov\@gmail](https://drkostadinkostadinov@gmail.com) \| [GitHub](https://github.com/kostadinoff) \| [Twitter](https://twitter.com/kostadinoffMD) \| [Linkedin](https://linkedin.com/in/kostadinovmd) \| [ORCID](https://orcid.org/0000-0003-1414-8738)
+::: {.content-visible when-format="html"}
+::: {.cv-contact}
+{{< fa envelope >}} [drkostadinkostadinov@gmail.com](mailto:drkostadinkostadinov@gmail.com) &nbsp;·&nbsp; {{< fa brands github >}} [GitHub](https://github.com/kostadinoff) &nbsp;·&nbsp; {{< fa brands twitter >}} [Twitter](https://twitter.com/kostadinoffMD) &nbsp;·&nbsp; {{< fa brands linkedin >}} [LinkedIn](https://linkedin.com/in/kostadinovmd) &nbsp;·&nbsp; {{< fa brands orcid >}} [ORCID](https://orcid.org/0000-0003-1414-8738)
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+drkostadinkostadinov@gmail.com  |  [GitHub](https://github.com/kostadinoff)  |  [Twitter](https://twitter.com/kostadinoffMD)  |  [LinkedIn](https://linkedin.com/in/kostadinovmd)  |  [ORCID](https://orcid.org/0000-0003-1414-8738)
+:::
 
 # Personal data
 
@@ -27,7 +58,6 @@ format-links: [pdf]
 -   1992-04-01
 -   Plovdiv, Bulgaria
 
----
 
 # Education
 
@@ -67,9 +97,6 @@ format-links: [pdf]
 
 - Master’s in Medicine | Faculty of Medicine | Medical University of Plovdiv
 
---- 
-
-# Work experience
 
 # Professional Experience
 
@@ -111,7 +138,6 @@ format-links: [pdf]
 
 - Student Council | President 20212 | Chair of the General Assembly 2013-2015
 
----
 
 # Personal skills and competences
 
@@ -204,7 +230,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `Since 2026` TEPHIConnect | Member
 
-------------------------------------------------------------------------
 
 # Publications
 
@@ -212,7 +237,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 \nocite{*}
 :::
 
-------------------------------------------------------------------------
 
 # Project activity
 
@@ -294,7 +318,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - "Combined Effects of Exposure to Natural and Built Environment – Informing Healthy and Sustainable Urban Development" | National Science Program with EU funding (RRP)
 
----
 
 # Congresses presentations and poster sessions
 
@@ -454,7 +477,6 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
 
----
 
 # Postgraduate courses and training
 

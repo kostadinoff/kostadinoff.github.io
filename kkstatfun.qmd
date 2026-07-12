@@ -1,188 +1,332 @@
 ---
-title: "kkstatfun R package"
-subtitle: "R Statistical Analysis Toolkit for Medicine and Epidemiology"
-format:
-  html:
-    toc: true
-    toc-depth: 3
+title: "kkstatfun"
+subtitle: "An R toolkit for medical statistics, epidemiology, and health economics"
+description: "A tidyverse-friendly R package bringing 100+ analysis functions — from 2×2 tables to causal inference, survival, HTA, and outbreak detection — into a single consistent workflow."
+toc: true
+toc-depth: 2
+toc-title: "Function families"
 ---
 
-# `kkstatfun`
+```{=html}
+<div class="kk-hero">
+  <div class="kk-hero-body">
+    <h2 class="kk-hero-title">One package, from bedside 2×2 tables to targeted causal inference</h2>
+    <p class="kk-hero-lead">
+      <code>kkstatfun</code> is the R engine behind my research and teaching. It wraps the
+      messy, error-prone parts of medical statistics — measures of association, standardization,
+      diagnostic accuracy, survival, regression, health-technology assessment, and infectious-disease
+      modelling — into <strong>100+ tidy, pipe-friendly functions</strong> that all speak the same
+      grammar: tidy data in, tidy data out.
+    </p>
+    <div class="kk-badges">
+      <a href="https://doi.org/10.5281/zenodo.21203936" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg" alt="DOI"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
+      <img src="https://img.shields.io/badge/functions-100%2B-8A5A24" alt="100+ functions">
+      <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
+    </div>
+  </div>
+</div>
+```
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg)](https://doi.org/10.5281/zenodo.21203936)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-blue?logo=github)](https://github.com/kostadinoff/kkstatfun)
+## Why it exists
 
-A comprehensive R package designed for medical statistics, epidemiology, and general clinical data analysis. It provides a suite of tidyverse-friendly tools with full support for piping (`%>%` / `|>`) and grouping (`group_by()`).
+Most applied medical analyses reach for a different package at every step — `epitools` for a 2×2 table, `survival` for Kaplan–Meier, `pROC` for an ROC curve, `gtsummary` for Table 1, something else for standardization — each with its own conventions, output shapes, and quirks. `kkstatfun` is my answer to that fragmentation: a **single, opinionated layer** on top of the best of those engines so that a whole analysis reads as one coherent story.
 
----
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Consistent
+Every function follows *tidy data in, tidy data out*. Results come back as tibbles you can pipe, filter, join, and plot — never a print-only object you have to scrape.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Pipe & group aware
+Full support for `%>%` / `|>` and `dplyr::group_by()`. Run a diagnostic or an odds ratio across strata without a single loop.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Publication-ready
+Confidence intervals, effect sizes, and correct tests by default — plus themed plots — so output drops straight into a manuscript or a lecture.
+:::
+
+:::
 
 ## Installation
 
-You can install the package directly from GitHub:
-
 ```r
-# Install devtools if not already installed
+# Install devtools if you don't have it
 if (!require("devtools")) install.packages("devtools")
 
 # Install kkstatfun from GitHub
 devtools::install_github("kostadinoff/kkstatfun")
+
+library(kkstatfun)
 ```
 
----
-
-## Function Reference & Clinical Examples
-
-::: {.panel-tabset}
-
-### Epidemiology & Association
-
-#### `kk_twobytwo(data, exposure, outcome)`
-Computes classic measures of association from $2 \times 2$ contingency tables: Odds Ratio (OR), Relative Risk (RR), Risk Difference (RD), Attributable Fraction (AF), Population Attributable Fraction (PAF), and Preventable Fraction (PF) with 95% confidence intervals.
-
-**Clinical Example**: Assessing the risk of lung cancer among smokers vs. non-smokers.
+## A 60-second tour
 
 ```r
 library(kkstatfun)
 library(dplyr)
 
+# 1. Measure of association from a 2x2 table
+smoking_cancer <- data.frame(
+  smoking     = c(rep(1, 80), rep(0, 120)),
+  lung_cancer = c(rep(1, 30), rep(0, 50), rep(1, 10), rep(0, 110))
+)
+smoking_cancer %>% kk_twobytwo(smoking, lung_cancer)
+#> Odds Ratio 6.6 (3.0-14.5), Relative Risk 4.5 (2.3-8.7), plus RD, AF, PAF...
+
+# 2. Publication-ready Table 1, stratified by treatment arm
+kk_table1(cohort, by = "arm", variables = c("age", "bmi", "sex", "smoker"))
+
+# 3. A diagnostic work-up across every site at once
+cohort %>%
+  group_by(site) %>%
+  kk_diagnostic(gold_standard, rapid_test)
+```
+
+Everything below is organized by the question you're trying to answer.
+
+---
+
+## Function reference
+
+::: {.panel-tabset}
+
+### Association & risk
+
+The core epidemiology toolkit: turn exposures and outcomes into interpretable, confidence-bounded effect measures.
+
+| Function | What it does |
+|---|---|
+| `kk_twobytwo()` | Full 2×2 work-up: OR, RR, risk difference, attributable and preventable fractions (AF/PAF/PF), phi, Yule's Q — all with 95% CIs. |
+| `kk_epi_stats()` / `odds_ratio()` / `risk_ratio()` | Lightweight OR and RR when you just need the point estimate and CI. |
+| `kk_stratified_2x2()` | Stratified analysis with Cochran–Mantel–Haenszel pooled OR and the Breslow–Day test for effect-modification/confounding. |
+| `kk_reri()` | Relative Excess Risk due to Interaction (RERI), attributable proportion, and Synergy Index for additive interaction. |
+| `kk_nnt()` | Number Needed to Treat / Harm with confidence intervals. |
+| `kk_incidence_rate()` | Incidence rates and rate ratios from person-time with exact CIs. |
+| `kk_std_rates()` | Direct age-standardization against a reference population (crude + standardized rates with CIs). |
+| `kk_smr()` | Indirect standardization → Standardized Mortality/Morbidity Ratio with an exact Poisson CI. |
+
+**Example — a classic 2×2 exposure–outcome analysis:**
+
+```r
 df <- data.frame(
-  smoking = c(rep(1, 80), rep(0, 120)),
+  smoking     = c(rep(1, 80), rep(0, 120)),
   lung_cancer = c(rep(1, 30), rep(0, 50), rep(1, 10), rep(0, 110))
 )
 df %>% kk_twobytwo(smoking, lung_cancer)
 ```
 
 ::: {.callout-note}
-**Interpretation**: If the relative risk (RR) is 4.5, it indicates that exposed individuals have 4.5 times the risk of the outcome compared to unexposed individuals. Because odds ratios (OR) tend to overstate risk ratios when the outcome is common, the RR is generally preferred in cohort studies.
+**Interpretation.** A relative risk of 4.5 means exposed individuals have 4.5× the risk of the outcome versus unexposed. Because odds ratios overstate the risk ratio when the outcome is common, RR is generally preferred in cohort studies — `kk_twobytwo()` gives you both so you can report the right one.
 :::
 
-#### `kk_stratified_2x2(data, exposure, outcome, stratum)`
-Performs stratified analysis on $2 \times 2$ tables, calculating stratum-specific ORs, the Cochran-Mantel-Haenszel (CMH) pooled Odds Ratio, and the Breslow-Day test for homogeneity to detect confounding and effect modification.
+### Diagnostics & agreement
 
-**Clinical Example**: Association between coffee consumption and coronary heart disease, stratified by smoking status to control for confounding.
+Everything you need to validate a test, a marker, or a rater.
 
-```r
-df_strat <- data.frame(
-  coffee = c(rep(1, 50), rep(0, 50), rep(1, 40), rep(0, 60)),
-  chd = c(rep(1, 15), rep(0, 35), rep(1, 5), rep(0, 45), rep(1, 10), rep(0, 30), rep(1, 12), rep(0, 48)),
-  smoking = c(rep("Smoker", 100), rep("Non-Smoker", 100))
-)
-df_strat %>% kk_stratified_2x2(coffee, chd, smoking)
-```
+| Function | What it does |
+|---|---|
+| `kk_diagnostic()` | Sensitivity, specificity, PPV/NPV, likelihood ratios — with Wilson-score CIs. |
+| `kk_diagnostic_lrt()` | Bedside Bayesian update: pre-test probability + Se/Sp → post-test probability after a positive or negative result. |
+| `kk_roc()` | ROC curve for a continuous marker: AUC with DeLong CI and the Youden-optimal cutoff. |
+| `kk_compare_roc()` | Compare two markers' AUCs on the same subjects (DeLong's test). |
+| `kk_calibration()` | Calibration of a risk model (calibration plot, slope/intercept, Brier score). |
+| `kk_decision_curve()` | Decision-curve analysis — net clinical benefit across threshold probabilities. |
+| `kk_kappa()` / `kk_agreement()` | Cohen's κ, weighted κ (linear/quadratic), and PABAK for categorical agreement. |
+| `kk_icc()` | Intraclass correlation in all six Shrout–Fleiss forms (continuous agreement). |
+| `kk_bland_altman()` | Bland–Altman limits-of-agreement analysis and plot. |
+| `kk_mcnemar()` | McNemar's test for matched-pair (paired binary) data. |
+| `kk_reliability()` | Cronbach's α (raw + standardized) with alpha-if-item-dropped for scale validation. |
 
-#### `kk_reri(data, exp1, exp2, outcome)`
-Calculates the Relative Excess Risk due to Interaction (RERI), Attributable Proportion due to Interaction (AP), and Synergy Index (S) to evaluate additive interactions.
-
-#### `kk_std_rates(data, count, pop, std_pop)`
-Performs direct age-standardization of rates against a reference (standard) population, returning crude and standardized rates with confidence intervals to compare regions fairly.
-
-#### `kk_smr(data, observed, pop, ref_rate)`
-Performs indirect standardization, comparing observed events with those expected under a reference population's stratum-specific rates to yield the Standardized Mortality/Morbidity Ratio (SMR) with an exact Poisson CI.
-
-### Diagnostics & Agreement
-
-#### `kk_diagnostic(data, truth, prediction)`
-Computes key diagnostic test performance parameters: Sensitivity, Specificity, Positive/Negative Predictive Value (PPV/NPV), and Likelihood Ratios (LR+/LR-) with Wilson score confidence intervals.
-
-**Clinical Example**: Evaluating the diagnostic accuracy of a rapid PCR test against the gold standard viral culture.
+**Example — validate a rapid test against a gold standard:**
 
 ```r
 df_test <- data.frame(
   gold_standard = c(rep(1, 100), rep(0, 900)),
-  pcr_test = c(rep(1, 95), rep(0, 5), rep(1, 20), rep(0, 880))
+  pcr_test      = c(rep(1, 95),  rep(0, 5), rep(1, 20), rep(0, 880))
 )
 df_test %>% kk_diagnostic(gold_standard, pcr_test)
-```
 
-#### `kk_diagnostic_lrt(pre_test_prob, sensitivity, specificity)`
-Translates sensitivity/specificity into a bedside Bayesian update, computing positive and negative likelihood ratios and the post-test probability of disease after a positive or negative result, given a pre-test probability.
-
-```r
-# Patient with 20% pre-test probability of PE undergoing a D-dimer test
+# Turn Se/Sp into a bedside post-test probability
 kk_diagnostic_lrt(pre_test_prob = 0.20, sensitivity = 0.95, specificity = 0.60,
                   n_diseased = 100, n_healthy = 400)
 ```
 
-#### `kk_roc(data, truth, predictor)` & `kk_compare_roc()`
-Builds an ROC curve for a continuous marker, returning the AUC with a DeLong confidence interval and the Youden-optimal cutoff. `kk_compare_roc` compares the AUCs of two markers measured on the same subjects using DeLong's test.
+### Regression & modelling
+
+One consistent interface across the models applied research actually uses.
+
+| Function | What it does |
+|---|---|
+| `kk_reg()` | Unified wrapper: auto-detects binary outcomes (logistic, with ORs + ROC) vs. continuous (linear, with diagnostic plots). |
+| `kk_firth()` | Firth-penalized logistic regression — finite, bias-reduced ORs under separation / rare events where ordinary logistic fails. |
+| `kk_rr_reg()` | Adjusted **risk-ratio** regression (modified Poisson with robust SEs) — RRs instead of ORs for common binary outcomes. |
+| `kk_rate_reg()` | Poisson / negative-binomial rate regression for count and person-time data. |
+| `kk_poisson()` | Poisson modelling of counts and rates. |
+| `kk_apc()` | Age–Period–Cohort analysis for trends in rates over time. |
+
+**Example — logistic regression returning tidy odds ratios:**
 
 ```r
-df_marker <- data.frame(disease = rbinom(300, 1, 0.4))
-df_marker$biomarker <- df_marker$disease * 0.8 + rnorm(300)
-df_marker %>% kk_roc(disease, biomarker)
+kk_reg(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
 ```
 
-#### `kk_kappa(data, rater1, rater2)` & `kk_agreement()`
-Computes Cohen's Kappa coefficient ($\kappa$), weighted Kappa (linear/quadratic), and PABAK (Prevalence and Bias Adjusted Kappa) for inter-rater agreement studies.
+### Survival & time-to-event
 
-#### `kk_icc(data, raters)`
-Computes the Intraclass Correlation Coefficient (ICC) in all six Shrout-Fleiss forms (single and average rater) for continuous measurement agreement (the continuous counterpart to Kappa).
+From Kaplan–Meier to competing risks and RMST.
 
-#### `kk_reliability(data, items)`
-Computes Cronbach's alpha (raw and standardized) with per-item statistics (such as alpha-if-item-dropped) for validating scales and questionnaires.
+| Function | What it does |
+|---|---|
+| `kk_survival_plot()` | Publication-quality Kaplan–Meier curves with CIs and a risk table. |
+| `kk_coxph()` | Cox proportional-hazards model with tidy hazard ratios and PH diagnostics. |
+| `kk_logrank()` | Log-rank and related survival tests between groups. |
+| `kk_rmst()` | Restricted Mean Survival Time (area under the KM curve to a horizon τ) with group differences — robust when proportional hazards fails. |
+| `kk_cuminc()` | Competing-risks cumulative incidence functions. |
+| `kk_partsa()` | Partitioned survival analysis (oncology cost-effectiveness modelling). |
 
-### Tests & Comparisons
-
-#### `kk_table1(data, by, variables)`
-Builds a standard, publication-ready "Table 1" summarizing baseline demographics and clinical variables across groups, automatically performing parametric or non-parametric tests depending on variable characteristics.
-
-```r
-# Summary table stratified by treatment arm
-kk_table1(cohort, by = "arm", variables = c("age", "bmi", "sex", "smoker"))
-```
-
-#### `kk_compare_groups_table(data, group, variables)`
-Produces a detailed comparison table with per-group summaries, differences, confidence intervals, effect sizes, and p-values. Fully tidyselect- and `group_by()`-aware.
-
-```r
-cohort %>%
-  group_by(sex) %>%
-  kk_compare_groups_table(arm, c(sbp))
-```
-
-#### `kk_reg(data, outcome, predictors)`
-A unified modeling wrapper that automatically detects binary outcomes (triggering Logistic Regression with odds ratios and ROC diagnostics) or continuous outcomes (triggering Linear Regression with check plots).
-
-```r
-# Fits multivariable logistic regression and returns tidy ORs and fit statistics
-regression_analysis(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
-```
-
-#### `kk_firth(data, outcome, predictors)`
-Fits Firth-penalized logistic regression, yielding finite, bias-reduced odds ratios under complete or quasi-complete separation (rare events or a zero cell) where ordinary logistic regression fails.
-
-#### `kk_survival_plot(data, time, status, group)`
-Kaplan-Meier survival curves with publication-quality formatting, confidence bands, and risk tables.
+**Example:**
 
 ```r
 library(survival)
 kk_survival_plot(lung, time, status, sex)
+kk_rmst(lung, time, status, sex, tau = 365)
 ```
 
-#### `kk_rmst(data, time, status, group, tau)`
-Computes the Restricted Mean Survival Time (area under the KM curve up to a horizon `tau`) for each group, plus the difference and ratio with confidence intervals — a robust alternative when Cox proportional hazards assumptions are violated.
+### Tables & group comparison
 
-### Registry & Other Tools
+The descriptive backbone of every paper.
 
-#### Bulgarian EGN Utilities: `extract_egn_info()`
-Parses, validates, and extracts demographic profiles (Date of Birth, Gender, Age, and Birth Region) from Bulgarian Personal Identification Numbers (EGN).
+| Function | What it does |
+|---|---|
+| `kk_table1()` | The standard "Table 1" of baseline characteristics by group, with correct parametric/non-parametric tests chosen automatically. |
+| `kk_compare_groups_table()` | Detailed comparison: per-group summaries, differences, CIs, effect sizes, p-values — fully tidyselect and `group_by()` aware. |
+| `kk_summary()` | Extensive numeric summary — central tendency, dispersion, robust (Huber-M) estimators, skewness/kurtosis, normality tests. |
+| `kk_chisq_test()` | Chi-square test for r×c contingency tables with effect sizes. |
+| `kk_trend_test()` | Cochran–Armitage test for trend in proportions. |
+
+**Example:**
 
 ```r
-egn_sample <- c("9201014321", "8812128765")
-extract_egn_info(egn_sample)
+kk_table1(cohort, by = "arm", variables = c("age", "bmi", "sex", "smoker"))
+
+cohort %>%
+  group_by(sex) %>%
+  kk_compare_groups_table(arm, c(sbp, dbp, ldl))
 ```
 
-#### `kk_time_series(data, value_col, date_col)`
-Analyzes a time series end-to-end: decomposition, stationarity tests (ADF/KPSS), autocorrelation, and automatic ARIMA modeling.
+### Causal inference
 
-#### `kk_summary(data, col)`
-Computes an extensive numeric summary for a variable — central tendency, dispersion, robust estimators (Huber M), skewness/kurtosis, and normality tests — with full `group_by()` support.
+Modern tools for estimating treatment effects from observational data.
+
+| Function | What it does |
+|---|---|
+| `kk_iptw()` | Inverse-probability-of-treatment weighting (ATE/ATT) with stabilized weights. |
+| `kk_tmle()` | Targeted maximum likelihood estimation of the ATE — double-robust, with efficient-influence-curve inference. |
+| `kk_smd()` / `kk_balance_table()` | Standardized mean differences and a covariate-balance table to check weighting/matching. |
+| `kk_causal_mediation()` | Causal mediation analysis: natural direct and indirect effects. |
+| `kk_simex()` | SIMEX correction for classical measurement error in a continuous covariate. |
+| `kk_butler_ks()` | Butler's symmetry-based KS randomization test of the sharp null in matched/stratified experiments. |
+
+**Example — double-robust average treatment effect:**
+
+```r
+kk_tmle(cohort,
+        outcome    = "death",
+        treatment  = "new_drug",
+        covariates = c("age", "sex", "comorbidity", "severity"))
+```
+
+### Health economics & HTA
+
+A full health-technology-assessment workflow, from ICERs to value of information.
+
+| Function | What it does |
+|---|---|
+| `kk_icer()` | Incremental cost-effectiveness analysis over strategies: ranks by effect, flags (extended) dominance, traces the efficiency frontier. |
+| `kk_nmb()` | Net monetary and net health benefit at one or more willingness-to-pay thresholds, flagging the optimal strategy. |
+| `kk_ceac()` | Cost-effectiveness acceptability curve from PSA draws. |
+| `kk_markov()` | Markov cohort model for cost-utility analysis (time-varying transitions, discounting, half-cycle correction). |
+| `kk_partsa()` | Partitioned survival model for oncology CEA. |
+| `kk_evpi()` | Expected Value of Perfect Information from PSA. |
+| `kk_discount()` | Discounting of future costs/effects. |
+
+**Example — rank strategies and find the frontier:**
+
+```r
+strategies %>% kk_icer(cost, qaly, strategy)
+strategies %>% kk_nmb(cost, qaly, wtp = 25000)
+```
+
+### Infectious disease
+
+Compartmental models, R₀, and outbreak detection.
+
+| Function | What it does |
+|---|---|
+| `kk_seir()` | Simulate SIR / SEIR dynamics with optional vital dynamics and vaccination; returns compartments, incidence, and implied R₀. |
+| `kk_r0()` | Estimate the basic reproduction number from transmission parameters, early growth rate, or final attack rate. |
+| `kk_final_size()` | Final epidemic size from R₀. |
+| `kk_sero_incidence()` | Incidence / force of infection from seroprevalence survey data. |
+| `kk_nb_scan()` | Negative-binomial space–time scan statistic for detecting localized disease clusters under overdispersion. |
+
+**Example — simulate an outbreak and read off R₀:**
+
+```r
+out <- kk_seir(beta = 0.4, gamma = 0.2, sigma = 0.25,
+               S0 = 1e6, I0 = 10, times = 0:180)
+attr(out, "R0")
+```
+
+### Plotting & utilities
+
+The theming layer and the Bulgarian-registry helpers.
+
+| Function | What it does |
+|---|---|
+| `kkplot()` / `set_plot_font()` / `set_plot_colors()` | The house ggplot2 theme and font/colour setup used across my figures. |
+| `scale_color_kk()` / `scale_fill_kk()` (+ `_c` continuous) | Discrete and continuous colour/fill scales in the kkstatfun palette. |
+| `kk_pal()` | The raw palette for custom use. |
+| `univariate_plot()` | Quick distribution plot for a single variable (auto categorical/continuous). |
+| `kkonehot()` / `one_hot_encode()` | One-hot encoding of categorical columns. |
+| `extract_egn_info()` / `extract_age_from_egn()` | Parse Bulgarian EGN identifiers → date of birth, sex, age, birth region. |
+| `kk_time_series()` | End-to-end time-series analysis: decomposition, ADF/KPSS stationarity, autocorrelation, auto-ARIMA. |
+
+**Example — parse Bulgarian personal identifiers:**
+
+```r
+extract_egn_info(c("9201014321", "8812128765"))
+#> Date of birth, sex, age, and birth region for each EGN
+```
 
 :::
 
 ---
 
-## Technical Details
+## Technical notes
 
-- **Philosophy**: Tidy data in, tidy data out. Full integration with `dplyr` verbs.
-- **Dependencies**: Tightly built on core R modeling engines and packages like `survival`, `gtsummary`, `broom`, `rstatix`, and `easystats` for clean, publication-ready results.
+- **Philosophy** — tidy data in, tidy data out; full integration with `dplyr` verbs and `group_by()`.
+- **Built on** — the best-in-class engines under a single interface: `survival`, `gtsummary`, `broom`, `rstatix`, `pROC`, `epiR`/`epitools`, `easystats`, `marginaleffects`, `sandwich`, and more.
+- **Reproducible** — versioned and archived on Zenodo with a citable DOI.
+
+## Citation
+
+If `kkstatfun` supports your work, please cite it:
+
+```bibtex
+@Software{kkstatfun,
+  title   = {kkstatfun: R Statistical Analysis Toolkit for Medical
+             Statistics and Epidemiology},
+  author  = {Kostadinov, Kostadin},
+  year    = {2026},
+  url     = {https://github.com/kostadinoff/kkstatfun},
+  doi     = {10.5281/zenodo.21203936},
+}
+```
+
+<div class="kk-cta">
+  <a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a>
+  <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.21203936" target="_blank" role="button">Archived release (Zenodo)</a>
+</div>

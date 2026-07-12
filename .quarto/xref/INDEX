@@ -203,5 +203,11 @@
   },
   "tasks.qmd": {
     "tasks.html": "ac781a86"
+  },
+  "slides.qmd": {
+    "slides.html": "0c0f889b"
+  },
+  "lab.qmd": {
+    "lab.html": "055b4ef9"
   }
 }

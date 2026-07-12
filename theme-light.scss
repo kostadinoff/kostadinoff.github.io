@@ -1,0 +1,184 @@
+/*-- scss:defaults --*/
+
+// Brand palette — ink, slate, and bronze
+$ink:        #1E2A33;  // near-black blue, headings & navbar
+$slate:      #35506A;  // deep slate blue, primary
+$slate-dark: #263C50;
+$bronze:     #8A5A24;  // cognac/bronze, links & accents
+$bronze-dark:#6E4419;
+$paper:      #FBFAF8;  // warm paper white
+
+$primary:   $slate;
+$secondary: $bronze;
+$success:   $slate;
+
+$body-bg:    $paper;
+$body-color: #2F353B;
+
+$link-color: $bronze;
+$link-decoration: none;
+
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$headings-color: $ink;
+$font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+$code-color: $bronze-dark;
+$code-bg: #F3EFE9;
+
+$navbar-bg: $ink;
+$navbar-fg: #ffffff;
+
+$nav-tabs-link-active-color: $ink;
+
+$border-radius: 0.5rem;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;600&display=swap');
+
+// ---- Links -----------------------------------------------------------
+a {
+  color: $bronze;
+  &:hover {
+    color: $slate;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+// ---- Navbar ----------------------------------------------------------
+.navbar {
+  background: linear-gradient(100deg, #162028 0%, $ink 55%, #26343F 100%);
+  box-shadow: 0 2px 10px rgba(15, 22, 28, 0.35);
+
+  .navbar-brand {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-link {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85) !important;
+    border-radius: 0.4rem;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+    &:hover {
+      color: #ffffff !important;
+      background-color: rgba(255, 255, 255, 0.10);
+    }
+  }
+
+  .nav-link.active {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+}
+
+// ---- Title banner ----------------------------------------------------
+.quarto-title-block .quarto-title-banner {
+  background: linear-gradient(135deg, rgba(53, 80, 106, 0.10), rgba(138, 90, 36, 0.07));
+  border-bottom: 3px solid $slate;
+  color: $body-color;
+  padding-top: 2rem;
+  padding-bottom: 1.6rem;
+
+  .description,
+  .quarto-title-meta {
+    color: $body-color;
+  }
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-family: $headings-font-family;
+  font-size: 2.6em;
+  font-weight: 700;
+  color: $ink;
+}
+
+// ---- Buttons ---------------------------------------------------------
+.btn-secondary {
+  color: #fff;
+  background-color: $slate;
+  border-color: $slate;
+  border-radius: 0.6rem;
+
+  &:hover {
+    background-color: $slate-dark;
+    border-color: $slate-dark;
+  }
+}
+
+.btn-outline-primary {
+  border-radius: 0.6rem;
+}
+
+// ---- Listing cards (Epi News grid) ------------------------------------
+.quarto-grid-item {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(53, 80, 106, 0.22);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(30, 42, 51, 0.14);
+    border-color: $slate;
+  }
+
+  .listing-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+  }
+}
+
+div.quarto-post .listing-categories .listing-category,
+.quarto-grid-item .listing-categories .listing-category {
+  color: $slate;
+  border: solid 1px $slate;
+  border-radius: 0.25rem;
+}
+
+// ---- Code ------------------------------------------------------------
+p code:not(.sourceCode),
+li code:not(.sourceCode),
+td code:not(.sourceCode) {
+  background-color: $code-bg;
+  color: $bronze-dark;
+  padding: 0.15em 0.35em;
+  border-radius: 0.3rem;
+}
+
+div.sourceCode,
+div.sourceCode pre.sourceCode {
+  background-color: #F5F2EC;
+  border: 1px solid rgba(53, 80, 106, 0.18);
+  border-left: 3px solid $slate;
+  border-radius: 0.5rem;
+}
+
+// ---- Misc ------------------------------------------------------------
+span.theorem-title {
+  background-color: rgba(53, 80, 106, 0.12);
+  padding: 3pt;
+  color: $slate-dark;
+  border-radius: 3pt;
+}
+
+.blockquote {
+  border-left: 3px solid $bronze;
+  padding-left: 1rem;
+  color: #5B6167;
+}
+
+.nav-footer {
+  border-top: 1px solid rgba(30, 42, 51, 0.2);
+  background: #F4F1EC;
+
+  .nav-footer-left {
+    font-size: 0.85em;
+    color: #666666;
+  }
+}
