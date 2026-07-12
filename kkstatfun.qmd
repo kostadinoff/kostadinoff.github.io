@@ -1,0 +1,188 @@
+---
+title: "kkstatfun R package"
+subtitle: "R Statistical Analysis Toolkit for Medicine and Epidemiology"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# `kkstatfun`
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg)](https://doi.org/10.5281/zenodo.21203936)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-blue?logo=github)](https://github.com/kostadinoff/kkstatfun)
+
+A comprehensive R package designed for medical statistics, epidemiology, and general clinical data analysis. It provides a suite of tidyverse-friendly tools with full support for piping (`%>%` / `|>`) and grouping (`group_by()`).
+
+---
+
+## Installation
+
+You can install the package directly from GitHub:
+
+```r
+# Install devtools if not already installed
+if (!require("devtools")) install.packages("devtools")
+
+# Install kkstatfun from GitHub
+devtools::install_github("kostadinoff/kkstatfun")
+```
+
+---
+
+## Function Reference & Clinical Examples
+
+::: {.panel-tabset}
+
+### Epidemiology & Association
+
+#### `kk_twobytwo(data, exposure, outcome)`
+Computes classic measures of association from $2 \times 2$ contingency tables: Odds Ratio (OR), Relative Risk (RR), Risk Difference (RD), Attributable Fraction (AF), Population Attributable Fraction (PAF), and Preventable Fraction (PF) with 95% confidence intervals.
+
+**Clinical Example**: Assessing the risk of lung cancer among smokers vs. non-smokers.
+
+```r
+library(kkstatfun)
+library(dplyr)
+
+df <- data.frame(
+  smoking = c(rep(1, 80), rep(0, 120)),
+  lung_cancer = c(rep(1, 30), rep(0, 50), rep(1, 10), rep(0, 110))
+)
+df %>% kk_twobytwo(smoking, lung_cancer)
+```
+
+::: {.callout-note}
+**Interpretation**: If the relative risk (RR) is 4.5, it indicates that exposed individuals have 4.5 times the risk of the outcome compared to unexposed individuals. Because odds ratios (OR) tend to overstate risk ratios when the outcome is common, the RR is generally preferred in cohort studies.
+:::
+
+#### `kk_stratified_2x2(data, exposure, outcome, stratum)`
+Performs stratified analysis on $2 \times 2$ tables, calculating stratum-specific ORs, the Cochran-Mantel-Haenszel (CMH) pooled Odds Ratio, and the Breslow-Day test for homogeneity to detect confounding and effect modification.
+
+**Clinical Example**: Association between coffee consumption and coronary heart disease, stratified by smoking status to control for confounding.
+
+```r
+df_strat <- data.frame(
+  coffee = c(rep(1, 50), rep(0, 50), rep(1, 40), rep(0, 60)),
+  chd = c(rep(1, 15), rep(0, 35), rep(1, 5), rep(0, 45), rep(1, 10), rep(0, 30), rep(1, 12), rep(0, 48)),
+  smoking = c(rep("Smoker", 100), rep("Non-Smoker", 100))
+)
+df_strat %>% kk_stratified_2x2(coffee, chd, smoking)
+```
+
+#### `kk_reri(data, exp1, exp2, outcome)`
+Calculates the Relative Excess Risk due to Interaction (RERI), Attributable Proportion due to Interaction (AP), and Synergy Index (S) to evaluate additive interactions.
+
+#### `kk_std_rates(data, count, pop, std_pop)`
+Performs direct age-standardization of rates against a reference (standard) population, returning crude and standardized rates with confidence intervals to compare regions fairly.
+
+#### `kk_smr(data, observed, pop, ref_rate)`
+Performs indirect standardization, comparing observed events with those expected under a reference population's stratum-specific rates to yield the Standardized Mortality/Morbidity Ratio (SMR) with an exact Poisson CI.
+
+### Diagnostics & Agreement
+
+#### `kk_diagnostic(data, truth, prediction)`
+Computes key diagnostic test performance parameters: Sensitivity, Specificity, Positive/Negative Predictive Value (PPV/NPV), and Likelihood Ratios (LR+/LR-) with Wilson score confidence intervals.
+
+**Clinical Example**: Evaluating the diagnostic accuracy of a rapid PCR test against the gold standard viral culture.
+
+```r
+df_test <- data.frame(
+  gold_standard = c(rep(1, 100), rep(0, 900)),
+  pcr_test = c(rep(1, 95), rep(0, 5), rep(1, 20), rep(0, 880))
+)
+df_test %>% kk_diagnostic(gold_standard, pcr_test)
+```
+
+#### `kk_diagnostic_lrt(pre_test_prob, sensitivity, specificity)`
+Translates sensitivity/specificity into a bedside Bayesian update, computing positive and negative likelihood ratios and the post-test probability of disease after a positive or negative result, given a pre-test probability.
+
+```r
+# Patient with 20% pre-test probability of PE undergoing a D-dimer test
+kk_diagnostic_lrt(pre_test_prob = 0.20, sensitivity = 0.95, specificity = 0.60,
+                  n_diseased = 100, n_healthy = 400)
+```
+
+#### `kk_roc(data, truth, predictor)` & `kk_compare_roc()`
+Builds an ROC curve for a continuous marker, returning the AUC with a DeLong confidence interval and the Youden-optimal cutoff. `kk_compare_roc` compares the AUCs of two markers measured on the same subjects using DeLong's test.
+
+```r
+df_marker <- data.frame(disease = rbinom(300, 1, 0.4))
+df_marker$biomarker <- df_marker$disease * 0.8 + rnorm(300)
+df_marker %>% kk_roc(disease, biomarker)
+```
+
+#### `kk_kappa(data, rater1, rater2)` & `kk_agreement()`
+Computes Cohen's Kappa coefficient ($\kappa$), weighted Kappa (linear/quadratic), and PABAK (Prevalence and Bias Adjusted Kappa) for inter-rater agreement studies.
+
+#### `kk_icc(data, raters)`
+Computes the Intraclass Correlation Coefficient (ICC) in all six Shrout-Fleiss forms (single and average rater) for continuous measurement agreement (the continuous counterpart to Kappa).
+
+#### `kk_reliability(data, items)`
+Computes Cronbach's alpha (raw and standardized) with per-item statistics (such as alpha-if-item-dropped) for validating scales and questionnaires.
+
+### Tests & Comparisons
+
+#### `kk_table1(data, by, variables)`
+Builds a standard, publication-ready "Table 1" summarizing baseline demographics and clinical variables across groups, automatically performing parametric or non-parametric tests depending on variable characteristics.
+
+```r
+# Summary table stratified by treatment arm
+kk_table1(cohort, by = "arm", variables = c("age", "bmi", "sex", "smoker"))
+```
+
+#### `kk_compare_groups_table(data, group, variables)`
+Produces a detailed comparison table with per-group summaries, differences, confidence intervals, effect sizes, and p-values. Fully tidyselect- and `group_by()`-aware.
+
+```r
+cohort %>%
+  group_by(sex) %>%
+  kk_compare_groups_table(arm, c(sbp))
+```
+
+#### `kk_reg(data, outcome, predictors)`
+A unified modeling wrapper that automatically detects binary outcomes (triggering Logistic Regression with odds ratios and ROC diagnostics) or continuous outcomes (triggering Linear Regression with check plots).
+
+```r
+# Fits multivariable logistic regression and returns tidy ORs and fit statistics
+regression_analysis(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
+```
+
+#### `kk_firth(data, outcome, predictors)`
+Fits Firth-penalized logistic regression, yielding finite, bias-reduced odds ratios under complete or quasi-complete separation (rare events or a zero cell) where ordinary logistic regression fails.
+
+#### `kk_survival_plot(data, time, status, group)`
+Kaplan-Meier survival curves with publication-quality formatting, confidence bands, and risk tables.
+
+```r
+library(survival)
+kk_survival_plot(lung, time, status, sex)
+```
+
+#### `kk_rmst(data, time, status, group, tau)`
+Computes the Restricted Mean Survival Time (area under the KM curve up to a horizon `tau`) for each group, plus the difference and ratio with confidence intervals — a robust alternative when Cox proportional hazards assumptions are violated.
+
+### Registry & Other Tools
+
+#### Bulgarian EGN Utilities: `extract_egn_info()`
+Parses, validates, and extracts demographic profiles (Date of Birth, Gender, Age, and Birth Region) from Bulgarian Personal Identification Numbers (EGN).
+
+```r
+egn_sample <- c("9201014321", "8812128765")
+extract_egn_info(egn_sample)
+```
+
+#### `kk_time_series(data, value_col, date_col)`
+Analyzes a time series end-to-end: decomposition, stationarity tests (ADF/KPSS), autocorrelation, and automatic ARIMA modeling.
+
+#### `kk_summary(data, col)`
+Computes an extensive numeric summary for a variable — central tendency, dispersion, robust estimators (Huber M), skewness/kurtosis, and normality tests — with full `group_by()` support.
+
+:::
+
+---
+
+## Technical Details
+
+- **Philosophy**: Tidy data in, tidy data out. Full integration with `dplyr` verbs.
+- **Dependencies**: Tightly built on core R modeling engines and packages like `survival`, `gtsummary`, `broom`, `rstatix`, and `easystats` for clean, publication-ready results.

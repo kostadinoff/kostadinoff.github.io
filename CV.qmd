@@ -31,11 +31,15 @@ format-links: [pdf]
 
 # Education
 
+`October 2026 - Present`
+
+- Master’s in Law | Burgas Free University
+
 `November 2025 - Present`
 
 - Resident Physician in Infectious Disease Epidemiology | Department of Epidemiology and Disaster Medicine | MU-Plovdiv
 
-`October 2025 - Present`
+`October 2025 - July 2026`
 
 - Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
 
@@ -94,6 +98,10 @@ format-links: [pdf]
 `2021 - Present`
 
 - "Air for Health" Physician Network
+
+`2024 - 2025`
+
+- OpenAQ Community Ambassador | OpenAQ | Advocating for air quality data transparency, open data utilization, and air pollution monitoring in local communities
 
 `2012 - 2017`
 
@@ -432,7 +440,13 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - 18th European Public Health Conference 2025 | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
 
+`July 13-15, 2026`
+
+- Air Quality Reporter Briefing | London, UK | Invited Speaker | Breathe Cities
+
 `2026`
+
+- Работна среща на МЗ, МЗХ, БАБХ, РЗИ и „Информационно обслужване“ АД | *„Подобряване на надзора на грип и други вирусни респираторни патогени чрез интегриране на всички съществуващи системи за надзор и използване на единен подход в сферата на здравеопазването на хората и здравеопазването на животните. Работа по регионални и специфични за страната въпроси: свързани с грипа в Югоизточна Европа“* | Лектор
 
 - ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
 
@@ -589,6 +603,11 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 - AURORAE Webinar | Serology of seasonal influenza | ECDC/AURORAE | Online | 12 March 2026 | Certificate of Completion
 
 - GenEpi-BioTrain - Virtual training 24 | Antigen Surveillance: from evolution to immune escape | ECDC | Online | 23 and 25 March 2026 | Certificate of Completion
+
+`July 2026`
+
+- E-learning course | Community engagement and socially vulnerable populations | ECDC | Online | 4 July 2026 | Certificate of Completion (Unique code: V2swzV62FB, 2 APHEA credits)
+
 
 
 

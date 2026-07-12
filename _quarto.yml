@@ -34,6 +34,8 @@ website:
         text: Home
       - href: CV.qmd
         text: CV
+      - href: kkstatfun.qmd
+        text: kkstatfun R package
       - href: learning.qmd
         text: 15-minute learning
       - href: tasks.qmd

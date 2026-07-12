@@ -35,8 +35,9 @@
     ]
   },
   {
-    "listing": "/epinews.html",
+    "listing": "/index.html",
     "items": [
+      "/epinews-posts/2026-W27-en.html",
       "/epinews-posts/2026-W26-en.html",
       "/epinews-posts/2026-W25-en.html",
       "/epinews-posts/2026-W23-24-en.html",
@@ -75,8 +76,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/epinews.html",
     "items": [
+      "/epinews-posts/2026-W27-en.html",
       "/epinews-posts/2026-W26-en.html",
       "/epinews-posts/2026-W25-en.html",
       "/epinews-posts/2026-W23-24-en.html",
