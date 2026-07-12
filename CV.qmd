@@ -282,7 +282,7 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 `December 2025 - June 2026`
 
-- Academic Mentor | Project BG05SFPR001-3.002-0001 "From Higher Education to Employment" ("ОТ ВИСШЕ ОБРАЗОВАНИЕ КЪМ ЗАЕТОСТ") | Goal: Achieving a dynamic match between higher education supply and labor market demand by improving practical skills, promoting dual education, and strengthening university-employer partnerships
+- Academic Mentor | Project BG05SFPR001-3.002-0001 "From Higher Education to Employment" | Goal: Achieving a dynamic match between higher education supply and labor market demand by improving practical skills, promoting dual education, and strengthening university-employer partnerships
 
 `November 2025 - Present`
 
@@ -456,8 +456,8 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 `September 28-30, 2025`
 
 - ISPOR Real-World Evidence Summit 2025 | Tokyo, Japan
-   1. *"RWD235 THE SOCIO-ECONOMIC BURDEN OF TERMINAL CANCER: REAL-WORLD EVIDENCE FROM BULGARIA"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
-   2. *"RWD73 THE SOCIO-ECONOMIC BURDEN OF END-STAGE KIDNEY DISEASE: REAL-WORLD EVIDENCE FROM BULGARIA"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
+   1. *"RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
+   2. *"RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
 
 `October 27, 2025`
 
@@ -467,13 +467,15 @@ Engaging in academic and instructional endeavors within a diverse setting encomp
 
 - 18th European Public Health Conference 2025 | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
 
+`July 10, 2026`
+
+- Working meeting of the Ministry of Health, Ministry of Agriculture and Food, Bulgarian Food Safety Agency, Regional Health Inspectorates, and Information Services JSC | *"Improving the surveillance of influenza and other viral respiratory pathogens by integrating all existing surveillance systems and using a unified approach in the field of human and animal health. Addressing regional and country-specific issues: related to influenza in South-Eastern Europe"* | Lecturer
+
 `July 13-15, 2026`
 
 - Air Quality Reporter Briefing | London, UK | Invited Speaker | Breathe Cities
 
 `2026`
-
-- Работна среща на МЗ, МЗХ, БАБХ, РЗИ и „Информационно обслужване“ АД | *„Подобряване на надзора на грип и други вирусни респираторни патогени чрез интегриране на всички съществуващи системи за надзор и използване на единен подход в сферата на здравеопазването на хората и здравеопазването на животните. Работа по регионални и специфични за страната въпроси: свързани с грипа в Югоизточна Европа“* | Лектор
 
 - ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
 
