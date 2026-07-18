@@ -7,7 +7,7 @@ listing:
   type: table
   contents:
   - "learning-tasks/*.qmd"
-  fields: [title, date, description, categories]
+  fields: [title, description, categories]
   sort: "date desc"
 ---
 

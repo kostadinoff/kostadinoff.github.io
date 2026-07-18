@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-04-15
 description: "Interactive class tasks covering the four forms of physician liability under Bulgarian law and the structured framework for social history taking and medical-social planning."
 categories:
-  - "Social Medicine"
-  - "Public Health"
-  - "Medical Law"
+  - "Social medicine"
+  - "Public health"
+  - "Medical law"
   - "Assignment"
 ---
 

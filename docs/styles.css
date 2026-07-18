@@ -1,7 +1,8 @@
 /* Shared structural styles (theme-independent; colors via Bootstrap CSS vars) */
 
 /* ---- PDF card grid on the Slides page ---- */
-.pdf-grid ul {
+.pdf-grid ul,
+.notebook-grid ul {
   list-style: none;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -10,11 +11,13 @@
   gap: 0.7rem;
 }
 
-.pdf-grid li {
+.pdf-grid li,
+.notebook-grid li {
   margin: 0;
 }
 
-.pdf-grid a {
+.pdf-grid a,
+.notebook-grid a {
   display: block;
   height: 100%;
   padding: 0.75rem 1rem 0.75rem 3.2rem;
@@ -27,7 +30,8 @@
   transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
 }
 
-.pdf-grid a::before {
+.pdf-grid a::before,
+.notebook-grid a::before {
   content: "PDF";
   position: absolute;
   left: 0.75rem;
@@ -41,7 +45,8 @@
   border-radius: 4px;
 }
 
-.pdf-grid a:hover {
+.pdf-grid a:hover,
+.notebook-grid a:hover {
   transform: translateY(-2px);
   border-color: var(--bs-primary);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
@@ -49,8 +54,37 @@
   color: var(--bs-body-color);
 }
 
-.pdf-grid a strong {
+.pdf-grid a strong,
+.notebook-grid a strong {
   color: var(--bs-primary);
+}
+
+/* Notebook cards: "AI" badge instead of "PDF" */
+.notebook-grid a::before {
+  content: "AI";
+  background-color: var(--bs-teal, #20c997);
+}
+
+/* ---- Learning-tasks listing table on phones ---- */
+/* The categories column forces horizontal overflow on narrow screens;
+   categories remain reachable via the filter box and category links. */
+@media (max-width: 767.98px) {
+  #listing-tasks-listing th:last-child,
+  #listing-tasks-listing td:last-child {
+    display: none;
+  }
+}
+
+/* ---- Listing cards (Epi News, 15-minute learning, homepage) ---- */
+.quarto-grid-item.card {
+  border-radius: 0.7rem;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.quarto-grid-item.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--bs-primary);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
 }
 
 /* ---- Tabset polish (Slides page) ---- */

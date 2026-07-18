@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-03-28
 description: "Interactive class tasks and scenarios focusing on the medical assessment of work capacity, temporary incapacity indicators, and social protection."
 categories: 
-  - "Social Medicine"
-  - "Public Health"
-  - "Occupational Health"
+  - "Social medicine"
+  - "Public health"
+  - "Occupational health"
   - "Assignment"
 ---
 
@@ -126,7 +126,7 @@ $$60\% + 20\% \times 60\% = 60\% + 12\% = 72\%$$
 
 **Case 4:** Ankylosing spondylitis with complete spinal fusion at 75% → **Group II disability (71–90%)**. The condition is explicitly *definitive* (complete bony fusion is irreversible). A **lifelong** determination is warranted, with re-assessment possible only at the patient's request or at the request of oversight bodies.
 
-**Case 3 / 1 — duration:** The malignancy post-treatment at 70% with no recurrence is not definitively irreversible (recurrence or dissemination could occur; recovery to lower disability levels is possible). A standard period of 2–3 years is appropriate, consistent with standard oncology surveillance intervals.
+**Case 1 — duration (Task 3):** The malignancy post-treatment at 70% with no recurrence is not definitively irreversible (recurrence or dissemination could occur; recovery to lower disability levels is possible). A standard period of 2–3 years is appropriate, consistent with standard oncology surveillance intervals.
 
 **Case 2 re-certification:** The Ordinance permits, where multiple disabilities are present and some are definitively irreversible, for the patient to request assessment of the definitive conditions only. In this case neither condition is definitively irreversible, so both must be re-assessed together at re-certification.
 
@@ -159,9 +159,9 @@ The incapacity arose from an occupational accident. Rate = 90% for all days (occ
 
 Days 1–2 (working days, employer): $2 \times EUR 58.50 \times 70\% = EUR 81.90$
 
-Days 3–16 (remaining 14 days: 6 hospital days + 10 home treatment minus the 2 employer days already paid, = 14 days): $14 \times EUR 58.50 \times 90\% = EUR 736.50$
+Days 3–16 (remaining 14 days: 6 hospital days + 10 home treatment minus the 2 employer days already paid, = 14 days): $14 \times EUR 58.50 \times 90\% = EUR 737.10$
 
-*Total:* EUR 81.90 + EUR 736.50 = **EUR 818.40**
+*Total:* EUR 81.90 + EUR 737.10 = **EUR 819.00**
 
 Note: Occupational accident rate of 90% applies from the outset; the employer is only responsible for the first 2 working days; thereafter NSSI pays.
 

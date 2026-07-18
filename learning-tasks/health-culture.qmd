@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-04-19
 description: "Interactive class tasks on health culture components, the COM-B model and its critique, motivations of health behavior, the Bulgarian Red Cross, and health education methods and models."
 categories:
-  - "Social Medicine"
-  - "Public Health"
-  - "Health Education"
+  - "Social medicine"
+  - "Public health"
+  - "Health education"
   - "Assignment"
 ---
 

@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-04-15
 description: "Interactive class tasks and scenarios covering abortion indicators, family health assessment, adolescent substance use and acceleration, and neonatal and prenatal screening."
 categories:
-  - "Social Medicine"
-  - "Public Health"
-  - "Reproductive Health"
+  - "Social medicine"
+  - "Public health"
+  - "Reproductive health"
   - "Assignment"
 ---
 

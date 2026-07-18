@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-03-27
 description: "Realistic case studies on patient stratification, organizational coordination, and occupational risk management within the Bulgarian health system."
 categories: 
-  - "Dispensary Care"
-  - "Occupational Medicine"
-  - "Social Medicine"
+  - "Dispensary care"
+  - "Occupational medicine"
+  - "Social medicine"
   - "Assignment"
 ---
 

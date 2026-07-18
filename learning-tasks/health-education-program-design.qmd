@@ -4,9 +4,9 @@ author: "Kostadin Kostadinov"
 date: 2026-04-19
 description: "Group assignment: design a real-world health education program for one of four Bulgarian scenarios — sexual and reproductive health, substance abuse prevention, workplace wellness, or digital health literacy. Applies the COM-B framework, motivational typology, educational models, and five-step development process."
 categories:
-  - "Social Medicine"
-  - "Public Health"
-  - "Health Education"
+  - "Social medicine"
+  - "Public health"
+  - "Health education"
   - "Assignment"
 ---
 
@@ -132,7 +132,7 @@ Design a comprehensive health education program addressing this scenario. Apply 
 
 ### Calculation
 
-The program delivers two components: (A) a mass media digital campaign reaching all 1 240 students, and (B) small-group motivational interviewing sessions available to students screening positive on AUDIT-C or cannabis use items. Of the 1 240 students, **52%** (646) screen positive on at least one criterion and are invited to group sessions; **71%** of those invited attend at least one session.
+The program delivers two components: (A) a mass media digital campaign reaching all 1 240 students, and (B) small-group motivational interviewing sessions available to students screening positive on AUDIT-C or cannabis use items. Of the 1 240 on at least one criterion and are invited to group sessions; **71%** of those invited attend at least one session.
 
 (a) How many students attend at least one group motivational interviewing session?
 

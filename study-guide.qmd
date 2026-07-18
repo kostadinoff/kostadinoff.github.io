@@ -6,15 +6,13 @@ title: "Social medicine study guide"
 
 Explore the AI-generated study materials (NotebookLM) for the following subjects:
 
-* [Social Medicine](https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2)
-* [Biostatistics](https://notebooklm.google.com/notebook/4a653e2e-14e0-4ffe-8ac7-942fa7b0c100)
-* [Bioethics](https://notebooklm.google.com/notebook/5344e475-f3d5-407f-b276-e349afcadb89)
-* [Epidemiology](https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536)
-* [Hygiene](https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd)
-
-## Practical Class Slides (2025-2026)
-
-The slides for all practical classes — together with materials for medical ethics, biostatistics, and clinical trials — have moved to the [Teaching Materials](slides.qmd) page.
+::: {.notebook-grid}
+- [**Social Medicine** · NotebookLM study notebook](https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2){target="_blank"}
+- [**Biostatistics** · NotebookLM study notebook](https://notebooklm.google.com/notebook/4a653e2e-14e0-4ffe-8ac7-942fa7b0c100){target="_blank"}
+- [**Bioethics** · NotebookLM study notebook](https://notebooklm.google.com/notebook/5344e475-f3d5-407f-b276-e349afcadb89){target="_blank"}
+- [**Epidemiology** · NotebookLM study notebook](https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536){target="_blank"}
+- [**Hygiene** · NotebookLM study notebook](https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd){target="_blank"}
+:::
 
 ## Study Guide PDF
 

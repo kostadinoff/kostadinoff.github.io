@@ -15,10 +15,10 @@ listing:
   image-height: "12em"
 ---
 
-Welcome to Epidemiology Weekly — a regularly updated section featuring key news, insights, and trends from the world of epidemiology, public health, and health policy. Each week, I share highlights and analyses from global, European, and Bulgarian sources — bringing together the most relevant developments shaping population health.
+Welcome to Epi News — a regularly updated section featuring key news, insights, and trends from the world of epidemiology, public health, and health policy. Twice a month, I share highlights and analyses from global, European, and Bulgarian sources — bringing together the most relevant developments shaping population health.
 
 You can filter the posts by category, date, or topic to easily find what interests you most.
-It’s my commitment to keep this section updated every week — a small promise to make epidemiology more accessible, timely, and connected to real-world change.
+It’s my commitment to keep this section regularly updated — a small promise to make epidemiology more accessible, timely, and connected to real-world change.
 
 ::: {#blog-listing}
 :::
