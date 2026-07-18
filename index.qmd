@@ -1,5 +1,5 @@
 ---
-image: "art-face.png"
+image: "face_new.jpg"
 toc: false
 about:
   template: trestles
