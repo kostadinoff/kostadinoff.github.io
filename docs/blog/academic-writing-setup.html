@@ -601,8 +601,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="my-data-analysis-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="my-data-analysis-workflow">5. My data-analysis workflow</h2>
 <p>Almost everything I do analytically happens in R, and the shape of that workflow owes more to books than to software.</p>
-<p>Edward Tufte’s work on the display of quantitative information is the reason my figures have almost no chrome: no gridline that is not needed, no colour that does not encode something, no legend where a direct label would do. The principle I keep returning to is the ratio of ink to information. It sounds like an aesthetic preference and it is actually an argument about honesty — decoration is where misleading figures hide.</p>
-<p>The epidemiological and statistical books shaped something different: not what I compute, but <em>how I compute it</em>. A Handbook of Epidemiology and Modern Epidemiology gave me the conceptual structure — how measures relate to each other, when standardisation is appropriate, what confounding actually is. Modern Infectious Disease Epidemiology gave me the dynamic side: transmission, reproduction numbers, the reasoning behind outbreak investigation. Basic Epidemiology is the one I still hand to students. Zar’s Biostatistical Analysis and the Handbook of Parametric and Nonparametric Statistical Procedures are my reference works for the procedural details: assumptions, small-sample behaviour, and what to do when the assumptions fail.</p>
+<p>Edward Tufte’s <em>The Visual Display of Quantitative Information</em> is the reason my figures have almost no chrome: no gridline that is not needed, no colour that does not encode something, no legend where a direct label would do. The principle I keep returning to is his ratio of ink to information. It sounds like an aesthetic preference and it is actually an argument about honesty — decoration is where misleading figures hide.</p>
+<p>The epidemiological and statistical books shaped something different: not what I compute, but <em>how I compute it</em>. Ahrens and Pigeot’s <em>Handbook of Epidemiology</em> and Rothman and colleagues’ <em>Modern Epidemiology</em> gave me the conceptual structure — how measures relate to each other, when standardisation is appropriate, what confounding actually is. Giesecke’s <em>Modern Infectious Disease Epidemiology</em> gave me the dynamic side: transmission, reproduction numbers, the reasoning behind outbreak investigation. <em>Basic Epidemiology</em>, by Bonita, Beaglehole and Kjellström for the WHO, is the one I still hand to students, and it is free, which matters more than it should have to. Zar’s <em>Biostatistical Analysis</em> and Sheskin’s <em>Handbook of Parametric and Nonparametric Statistical Procedures</em> are my reference works for the procedural details: assumptions, small-sample behaviour, and what to do when the assumptions fail.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The books, in full
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Tufte, E.R. <em>The Visual Display of Quantitative Information</em>. Graphics Press.</li>
+<li>Ahrens, W. &amp; Pigeot, I. (eds). <em>Handbook of Epidemiology</em>. Springer.</li>
+<li>Lash, T.L., VanderWeele, T.J., Haneuse, S. &amp; Rothman, K.J. <em>Modern Epidemiology</em>, 4th ed.&nbsp;Wolters Kluwer, 2021. Earlier editions are the familiar Rothman, Greenland &amp; Lash.</li>
+<li>Giesecke, J. <em>Modern Infectious Disease Epidemiology</em>, 3rd ed.&nbsp;CRC Press, 2017.</li>
+<li>Bonita, R., Beaglehole, R. &amp; Kjellström, T. <em>Basic Epidemiology</em>. World Health Organization — freely available as a PDF from WHO.</li>
+<li>Zar, J.H. <em>Biostatistical Analysis</em>. Pearson.</li>
+<li>Sheskin, D.J. <em>Handbook of Parametric and Nonparametric Statistical Procedures</em>. Chapman &amp; Hall/CRC.</li>
+</ul>
+</div>
+</div>
+</div>
 <p>Here is the important part. I did not use those books as a source of analyses to copy. I used them as a specification for <strong>functions to write</strong>. When I found myself computing a Mantel–Haenszel adjusted odds ratio for the fourth time, the right response was not a fourth pasted block of code — it was a function, written once, tested against the worked examples in the books, and then reused forever. That is where the <code>kkstatfun</code> package came from: an accumulation of epidemiological helpers that each encode a procedure I had to get right once and never wanted to get wrong again.</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kkstatfun)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>

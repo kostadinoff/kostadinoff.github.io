@@ -172,9 +172,21 @@ None of this is an argument for outsourcing your thinking. The failure mode I se
 
 Almost everything I do analytically happens in R, and the shape of that workflow owes more to books than to software.
 
-Edward Tufte's work on the display of quantitative information is the reason my figures have almost no chrome: no gridline that is not needed, no colour that does not encode something, no legend where a direct label would do. The principle I keep returning to is the ratio of ink to information. It sounds like an aesthetic preference and it is actually an argument about honesty — decoration is where misleading figures hide.
+Edward Tufte's *The Visual Display of Quantitative Information* is the reason my figures have almost no chrome: no gridline that is not needed, no colour that does not encode something, no legend where a direct label would do. The principle I keep returning to is his ratio of ink to information. It sounds like an aesthetic preference and it is actually an argument about honesty — decoration is where misleading figures hide.
 
-The epidemiological and statistical books shaped something different: not what I compute, but *how I compute it*. A Handbook of Epidemiology and Modern Epidemiology gave me the conceptual structure — how measures relate to each other, when standardisation is appropriate, what confounding actually is. Modern Infectious Disease Epidemiology gave me the dynamic side: transmission, reproduction numbers, the reasoning behind outbreak investigation. Basic Epidemiology is the one I still hand to students. Zar's Biostatistical Analysis and the Handbook of Parametric and Nonparametric Statistical Procedures are my reference works for the procedural details: assumptions, small-sample behaviour, and what to do when the assumptions fail.
+The epidemiological and statistical books shaped something different: not what I compute, but *how I compute it*. Ahrens and Pigeot's *Handbook of Epidemiology* and Rothman and colleagues' *Modern Epidemiology* gave me the conceptual structure — how measures relate to each other, when standardisation is appropriate, what confounding actually is. Giesecke's *Modern Infectious Disease Epidemiology* gave me the dynamic side: transmission, reproduction numbers, the reasoning behind outbreak investigation. *Basic Epidemiology*, by Bonita, Beaglehole and Kjellström for the WHO, is the one I still hand to students, and it is free, which matters more than it should have to. Zar's *Biostatistical Analysis* and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures* are my reference works for the procedural details: assumptions, small-sample behaviour, and what to do when the assumptions fail.
+
+::: {.callout-note collapse="true"}
+## The books, in full
+
+- Tufte, E.R. *The Visual Display of Quantitative Information*. Graphics Press.
+- Ahrens, W. & Pigeot, I. (eds). *Handbook of Epidemiology*. Springer.
+- Lash, T.L., VanderWeele, T.J., Haneuse, S. & Rothman, K.J. *Modern Epidemiology*, 4th ed. Wolters Kluwer, 2021. Earlier editions are the familiar Rothman, Greenland & Lash.
+- Giesecke, J. *Modern Infectious Disease Epidemiology*, 3rd ed. CRC Press, 2017.
+- Bonita, R., Beaglehole, R. & Kjellström, T. *Basic Epidemiology*. World Health Organization — freely available as a PDF from WHO.
+- Zar, J.H. *Biostatistical Analysis*. Pearson.
+- Sheskin, D.J. *Handbook of Parametric and Nonparametric Statistical Procedures*. Chapman & Hall/CRC.
+:::
 
 Here is the important part. I did not use those books as a source of analyses to copy. I used them as a specification for **functions to write**. When I found myself computing a Mantel–Haenszel adjusted odds ratio for the fourth time, the right response was not a fourth pasted block of code — it was a function, written once, tested against the worked examples in the books, and then reused forever. That is where the `kkstatfun` package came from: an accumulation of epidemiological helpers that each encode a procedure I had to get right once and never wanted to get wrong again.
 
