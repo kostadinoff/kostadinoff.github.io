@@ -384,6 +384,115 @@
   font-weight: 400;
 }
 
+/* ----------------------------------------------------------- list view */
+
+/* The list is the default: a numbered syllabus of 13–16 items reads far
+   faster as dense rows than as a card grid four-at-a-time. */
+.tm-list {
+  display: block;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.tm-list .tm-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.5rem 0.6rem;
+  border: 0;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0;
+  background: none;
+}
+
+.tm-list .tm-card:hover {
+  transform: none;
+  box-shadow: none;
+  background: color-mix(in srgb, var(--bs-primary) 6%, transparent);
+}
+
+.tm-rowlabel {
+  flex: 0 0 auto;
+  width: 8.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--bs-primary);
+}
+
+.tm-group-handouts .tm-rowlabel {
+  color: var(--bs-secondary);
+}
+
+.tm-list .tm-card-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.7rem;
+  min-width: 0;
+}
+
+.tm-rowtitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.tm-rowmeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: color-mix(in srgb, var(--bs-body-color) 60%, transparent);
+}
+
+.tm-rowmeta .tm-tag {
+  font-size: 0.68rem;
+  padding: 0.05rem 0.35rem;
+}
+
+.tm-list .tm-actions {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.tm-list .tm-file,
+.tm-list .tm-link {
+  padding: 0.22rem 0.5rem;
+  font-size: 0.76rem;
+}
+
+/* View toggle: two buttons welded into one control */
+.tm-view {
+  display: flex;
+}
+
+.tm-view .tm-viewbtn:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tm-view .tm-viewbtn:last-child {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 575.98px) {
+  .tm-list .tm-card {
+    flex-wrap: wrap;
+    gap: 0.35rem 0.7rem;
+  }
+  .tm-rowlabel {
+    width: auto;
+  }
+  .tm-list .tm-actions {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 /* ------------------------------------------------------------ reordering */
 
 .tm-card-reorder {

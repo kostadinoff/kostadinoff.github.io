@@ -22,6 +22,7 @@
   ];
 
   var ORDER_STORE = "kk-teaching-order-v1";
+  var VIEW_STORE = "kk-teaching-view-v1";
   var ALL_YEARS = "__all__";
 
   /* The block a file sits in *is* its academic year, so stamp each item with
@@ -47,8 +48,16 @@
     query: "",
     tags: [], // active tag filters
     sort: "curated", // curated | newest | title
+    view: "list", // list | cards — resolved from storage below
     reorder: false
   };
+
+  try {
+    var savedView = localStorage.getItem(VIEW_STORE);
+    if (savedView === "cards" || savedView === "list") state.view = savedView;
+  } catch (e) {
+    /* storage unavailable — fall back to the default view */
+  }
 
   var order = readOrder();
 
@@ -222,9 +231,17 @@
 
   /* -------------------------------------------------------------- render */
 
-  function itemCard(item, opts) {
-    opts = opts || {};
-    var files = (item.files || [])
+  /* Titles are written as "<label> · <rest>" — "Class 3 · Demography indices",
+     "Домашна 4–5 · Корелация". The list view splits them so the label can sit
+     in its own column; anything without a separator keeps its whole title. */
+  function splitTitle(title) {
+    var i = String(title).indexOf(" · ");
+    if (i === -1) return { label: "", rest: title };
+    return { label: title.slice(0, i), rest: title.slice(i + 3) };
+  }
+
+  function filesHtml(item) {
+    return (item.files || [])
       .map(function (f) {
         return (
           '<a class="tm-file" href="' + esc(f.href) + '" target="_blank" rel="noopener">' +
@@ -234,8 +251,10 @@
         );
       })
       .join("");
+  }
 
-    var links = (item.links || [])
+  function linksHtml(item) {
+    return (item.links || [])
       .map(function (l) {
         return (
           '<a class="tm-link" href="' + esc(l.href) + '" target="_blank" rel="noopener">' +
@@ -243,24 +262,65 @@
         );
       })
       .join("");
+  }
 
-    var tags = (item.tags || [])
+  function tagsHtml(item) {
+    return (item.tags || [])
       .map(function (t) {
         return '<button type="button" class="tm-tag" data-tag="' + esc(t) + '">' + esc(t) + "</button>";
       })
       .join("");
+  }
 
-    var breadcrumb = opts.breadcrumb
-      ? '<p class="tm-breadcrumb">' + esc(opts.breadcrumb) + "</p>"
-      : "";
-
-    var handle = state.reorder
+  function handleHtml() {
+    return state.reorder
       ? '<div class="tm-handle" aria-hidden="true">⠿</div>' +
         '<div class="tm-move">' +
         '<button type="button" class="tm-move-btn" data-move="up" aria-label="Move up">↑</button>' +
         '<button type="button" class="tm-move-btn" data-move="down" aria-label="Move down">↓</button>' +
         "</div>"
       : "";
+  }
+
+  /* Compact row for the list view: label column, title with its tags, and the
+     download on the right. Same classes as a card where the JS hooks need
+     them (.tm-card, data-id) so reordering works identically in both views. */
+  function itemRow(item) {
+    var parts = splitTitle(item.title);
+
+    return (
+      '<article class="tm-card tm-row' + (state.reorder ? " tm-card-reorder" : "") + '"' +
+      ' data-id="' + esc(itemId(item)) + '"' +
+      (state.reorder ? ' draggable="true"' : "") +
+      ">" +
+      handleHtml() +
+      (parts.label ? '<span class="tm-rowlabel">' + esc(parts.label) + "</span>" : "") +
+      '<div class="tm-card-body">' +
+      '<span class="tm-rowtitle" title="' + esc(item.description || "") + '">' +
+      esc(parts.rest) + "</span>" +
+      '<span class="tm-rowmeta">' +
+      (item.tags || []).map(function (t) {
+        return '<button type="button" class="tm-tag" data-tag="' + esc(t) + '">' + esc(t) + "</button>";
+      }).join("") +
+      (item.date ? '<span class="tm-date">' + esc(formatDate(item.date)) + "</span>" : "") +
+      "</span>" +
+      "</div>" +
+      '<div class="tm-actions">' + filesHtml(item) + linksHtml(item) + "</div>" +
+      "</article>"
+    );
+  }
+
+  function itemCard(item, opts) {
+    opts = opts || {};
+    var files = filesHtml(item);
+    var links = linksHtml(item);
+    var tags = tagsHtml(item);
+
+    var breadcrumb = opts.breadcrumb
+      ? '<p class="tm-breadcrumb">' + esc(opts.breadcrumb) + "</p>"
+      : "";
+
+    var handle = handleHtml();
 
     return (
       '<article class="tm-card' + (state.reorder ? " tm-card-reorder" : "") + '"' +
@@ -352,6 +412,12 @@
       '<option value="title"' + (state.sort === "title" ? " selected" : "") + ">Title (A–Z)</option>" +
       "</select>" +
       "</div>" +
+      '<div class="tm-view" role="group" aria-label="View">' +
+      '<button type="button" class="tm-btn tm-viewbtn' + (state.view === "list" ? " is-active" : "") +
+      '" data-view="list" aria-pressed="' + (state.view === "list") + '">List</button>' +
+      '<button type="button" class="tm-btn tm-viewbtn' + (state.view === "cards" ? " is-active" : "") +
+      '" data-view="cards" aria-pressed="' + (state.view === "cards") + '">Cards</button>' +
+      "</div>" +
       '<button type="button" id="tm-reorder" class="tm-btn' + (state.reorder ? " is-active" : "") + '"' +
       (state.sort !== "curated" ? " disabled" : "") +
       ' title="Drag cards to arrange them in your own order (saved in this browser)">' +
@@ -416,9 +482,10 @@
         var groups = GROUPS.map(function (g) {
           var key = collectionKey(disc.id, lang.code, year.id, g.key);
           var items = sortItems(key, (year[g.key] || []).filter(inYear));
+          var list = state.view === "list";
           var body = items.length
-            ? '<div class="tm-grid" data-collection="' + esc(key) + '">' +
-              items.map(function (i) { return itemCard(i); }).join("") +
+            ? '<div class="tm-grid' + (list ? " tm-list" : "") + '" data-collection="' + esc(key) + '">' +
+              items.map(function (i) { return list ? itemRow(i) : itemCard(i); }).join("") +
               "</div>"
             : '<p class="tm-empty tm-empty-small">Nothing here yet.</p>';
 
@@ -474,8 +541,14 @@
   /* --------------------------------------------------------------- events */
 
   root.addEventListener("click", function (e) {
-    var t = e.target.closest("[data-discipline], [data-language], .tm-chip, .tm-tag, #tm-reorder, #tm-reset, .tm-move-btn");
+    var t = e.target.closest("[data-discipline], [data-language], [data-view], .tm-chip, .tm-tag, #tm-reorder, #tm-reset, .tm-move-btn");
     if (!t) return;
+
+    if (t.dataset.view) {
+      state.view = t.dataset.view;
+      try { localStorage.setItem(VIEW_STORE, state.view); } catch (err) {}
+      return render();
+    }
 
     if (t.dataset.discipline) {
       state.discipline = t.dataset.discipline;
