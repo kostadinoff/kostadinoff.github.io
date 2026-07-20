@@ -1,10 +1,28 @@
 ---
-title: "Social medicine study guide"
+title: "Study guides"
+description: "Semester study guides and AI study notebooks for the subjects I teach."
 ---
 
-## NotebookLM Resources
+Semester study guides for the subjects I teach, together with the AI study notebooks built from the course materials. More guides are on the way — a medical ethics guide is currently in preparation.
 
-Explore the AI-generated study materials (NotebookLM) for the following subjects:
+## Social medicine
+
+The full semester study guide for the social medicine course (English programme).
+
+```{=html}
+<div class="pdf-container">
+    <p>If the PDF does not appear, you can <a href="SOCIAL_SEMESTER_BOOK_EN.pdf" target="_blank">download it here</a>.</p>
+    <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;"></iframe>
+</div>
+```
+
+## Medical ethics
+
+In preparation — coming in the 2026/2027 academic year.
+
+## NotebookLM notebooks
+
+Interactive NotebookLM notebooks built from the course materials — ask questions, generate quizzes, and listen to audio overviews for each subject.
 
 ::: {.notebook-grid}
 - [**Social Medicine** · NotebookLM study notebook](https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2){target="_blank"}
@@ -13,12 +31,3 @@ Explore the AI-generated study materials (NotebookLM) for the following subjects
 - [**Epidemiology** · NotebookLM study notebook](https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536){target="_blank"}
 - [**Hygiene** · NotebookLM study notebook](https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd){target="_blank"}
 :::
-
-## Study Guide PDF
-
-```{=html}
-<div class="pdf-container">
-    <p>If the PDF does not appear, you can <a href="SOCIAL_SEMESTER_BOOK_EN.pdf" target="_blank">download it here</a>.</p>
-    <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;"></iframe>
-</div>
-```

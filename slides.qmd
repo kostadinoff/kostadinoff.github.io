@@ -1,162 +1,21 @@
 ---
 title: "Teaching Materials"
-description: "Slides, seminar handouts, and exercises I prepare for the practical classes and seminars I teach, organized by discipline."
+description: "Lecture slides and student handouts for the courses I teach, organised by discipline, language, and year."
 toc: false
+page-layout: full
 ---
 
-These are the materials I prepare for the practical classes and seminars I teach as an assistant professor in the Department of Social Medicine and Public Health, MU–Plovdiv. They accompany the courses I assist in, are developed together with my colleagues in the department, and are free for my students and anyone else to use for study. Materials are in English (EN) or Bulgarian (BG) as indicated. If you find an error, please [email me](mailto:kostadinr.kostadinov@mu-plovdiv.bg).
+These are the materials I prepare for the practical classes and seminars I teach as an assistant professor in the Department of Social Medicine and Public Health, MU–Plovdiv. They accompany the courses I assist in, are developed together with my colleagues in the department, and are free for my students and anyone else to use for study.
 
-::: {.panel-tabset}
+Pick a **discipline**, then a **language**, and each year is split into two separate collections — *lecture slides* and *student handouts*. The academic-year selector opens on the most recent materials; earlier cohorts stay available as an archive rather than being overwritten. Use the search box to look across everything at once, or click a tag to narrow things down. If you find an error, please [email me](mailto:kostadinr.kostadinov@mu-plovdiv.bg).
 
-## Epidemiology (EN)
-
-Materials for the Applied Epidemiology course. This section is growing — more slides and seminars will be added as the course develops.
-
-::: {.pdf-grid}
-- [**Lecture** · Applied Epidemiology — full course lecture (2025/2026)](slides/epidemiology-en/applied-epidemiology-lecture.pdf){target="_blank"}
+::: {#teaching-app}
+Loading teaching materials…
 :::
 
-The clinical-trials and non-interventional study seminars (in Bulgarian) are under the **Клинични изпитвания (BG)** tab.
+Looking for the AI study notebooks? They now live on the [Study guides](study-guide.qmd) page.
 
-## Social Medicine (EN)
-
-Practical class slides for third-year medical students, academic year 2025/2026.
-
-::: {.pdf-grid}
-- [**Class 1** · Social Medicine — Definition and Scope](2025-2026-classes/practical-class-01.pdf){target="_blank"}
-- [**Class 2** · Methods for Sociological Research in Medicine](2025-2026-classes/practical-class-02.pdf){target="_blank"}
-- [**Class 3** · Demography Indices](2025-2026-classes/practical-class-03.pdf){target="_blank"}
-- [**Class 4** · Risk Factors and Causality. Measurement of Diseases and Exposure](2025-2026-classes/practical-class-04.pdf){target="_blank"}
-- [**Class 5** · Burden of Disease — Medico-Social Aspects](2025-2026-classes/practical-class-05.pdf){target="_blank"}
-- [**Class 6** · Primary Health Care. Outpatient Care. GP Functions](2025-2026-classes/practical-class-06.pdf){target="_blank"}
-- [**Class 7** · Hospital Care — Functions, Structure, Organization, Quality](2025-2026-classes/practical-class-07.pdf){target="_blank"}
-- [**Class 8** · Dispensary Method. Occupational Medicine](2025-2026-classes/practical-class-08.pdf){target="_blank"}
-- [**Class 9** · Expert Evaluation of Temporary Incapacity for Work](2025-2026-classes/practical-class-09.pdf){target="_blank"}
-- [**Class 10** · Physician's Liability. Social History of the Patient](2025-2026-classes/practical-class-10.pdf){target="_blank"}
-- [**Class 11** · Colloquium — Protocol and Assessment Guidelines](2025-2026-classes/practical-class-11.pdf){target="_blank"}
-- [**Class 12** · Maternal and Child Health. Family Planning](2025-2026-classes/practical-class-12.pdf){target="_blank"}
-- [**Class 13** · Health Culture and Health Behavior. Health Education](2025-2026-classes/practical-class-13.pdf){target="_blank"}
-- [**Class 14** · Public Health Planning, Economy, and Marketing](2025-2026-classes/practical-class-14.pdf){target="_blank"}
-- [**Class 15** · Seminar Review — Social Medicine with Medical Ethics](2025-2026-classes/practical-class-15.pdf){target="_blank"}
-:::
-
-## Социална медицина (BG)
-
-Материали за практически занятия по социална медицина (на български език).
-
-::: {.pdf-grid}
-- [**Занятие 1** · Социалната медицина като наука](slides/social-medicine-bg/practical-class-01.pdf){target="_blank"}
-- [**Занятие 2** · Социологични методи](slides/social-medicine-bg/practical-class-02.pdf){target="_blank"}
-- [**Занятие 3** · Медицинска демография](slides/social-medicine-bg/practical-class-03.pdf){target="_blank"}
-- [**Занятие 4** · Приложна епидемиология — I част](slides/social-medicine-bg/practical-class-04.pdf){target="_blank"}
-- [**Занятие 5** · Приложна епидемиология — II част](slides/social-medicine-bg/practical-class-05.pdf){target="_blank"}
-- [**Занятие 6** · Здравно законодателство. Първична медицинска помощ](slides/social-medicine-bg/practical-class-06.pdf){target="_blank"}
-- [**Занятие 7** · Болнична медицинска помощ](slides/social-medicine-bg/practical-class-07.pdf){target="_blank"}
-- [**Занятие 8** · Превантивна медицина. Диспансерен метод](slides/social-medicine-bg/practical-class-08.pdf){target="_blank"}
-- [**Занятие 9** · Експертиза на неработоспособността. Трудова медицина](slides/social-medicine-bg/practical-class-09.pdf){target="_blank"}
-- [**Занятие 10** · Правна отговорност на лекаря](slides/social-medicine-bg/practical-class-10.pdf){target="_blank"}
-- [**Занятие 12** · Семейство и здраве](slides/social-medicine-bg/practical-class-12.pdf){target="_blank"}
-- [**Занятие 13** · Здравно поведение, възпитание и просвета](slides/social-medicine-bg/practical-class-13.pdf){target="_blank"}
-- [**Занятие 14** · Здравен мениджмънт, маркетинг и икономика](slides/social-medicine-bg/practical-class-14.pdf){target="_blank"}
-- [**Занятие 15** · Майчино и детско здравеопазване](slides/social-medicine-bg/practical-class-15.pdf){target="_blank"}
-- [**Социална анамнеза** · Указания за снемане](slides/social-medicine-bg/social-anamnesis.pdf){target="_blank"}
-- [**Колоквиум** · Въпроси и формат](slides/social-medicine-bg/colloquium.pdf){target="_blank"}
-:::
-
-## Клинични изпитвания (BG)
-
-Семинари по дизайн на клиничните изпитвания и неинтервенционалните проучвания.
-
-::: {.pdf-grid}
-- [**Семинар 1** · Описателна епидемиология. Метаанализи](slides/trials-bg/seminar-01.pdf){target="_blank"}
-- [**Семинар 2** · Дизайн на клиничните изпитвания и неинтервенционалните проучвания](slides/trials-bg/seminar-02.pdf){target="_blank"}
-- [**Семинар 3** · Дизайн на клиничните изпитвания и неинтервенционалните проучвания](slides/trials-bg/seminar-03.pdf){target="_blank"}
-:::
-
-## Medical Ethics (EN)
-
-Practical class handouts and case discussions in medical ethics.
-
-::: {.pdf-grid}
-- [**Practical 1** · Ethics — Definition and Principles](slides/ethics-en/01-principles.pdf){target="_blank"}
-- [**Practical 2** · Informed Consent](slides/ethics-en/02-informed-consent.pdf){target="_blank"}
-- [**Practical 2** · Informed Consent — Cases](slides/ethics-en/02-cases.pdf){target="_blank"}
-- [**Practical 3** · Confidentiality](slides/ethics-en/03-confidentiality.pdf){target="_blank"}
-- [**Practical 3** · Confidentiality — Cases](slides/ethics-en/03-cases.pdf){target="_blank"}
-- [**Practical 4** · Patient–Physician Relationship](slides/ethics-en/04-physician-patient.pdf){target="_blank"}
-- [**Practical 4** · Patient–Physician Relationship — Cases](slides/ethics-en/04-cases.pdf){target="_blank"}
-- [**Practical 5** · End-of-Life Issues. Euthanasia and Assisted Suicide](slides/ethics-en/05-end-of-life.pdf){target="_blank"}
-- [**Practical 5** · End-of-Life Issues — Cases](slides/ethics-en/05-cases.pdf){target="_blank"}
-- [**Practicals 6–7** · Organ Transplantation. Reproductive Ethics](slides/ethics-en/06-transplantation-reproduction.pdf){target="_blank"}
-- [**Practicals 6–7** · Transplantation and Reproduction — Cases](slides/ethics-en/06-cases.pdf){target="_blank"}
-- [**Lecture** · Ethical Aspects of Human Reproduction](slides/ethics-en/07-reproduction.pdf){target="_blank"}
-- [**Seminar Test** · Sample test](slides/ethics-en/07-seminar-test.pdf){target="_blank"}
-:::
-
-## Медицинска етика (BG)
-
-Материали за упражнения и казуси по медицинска етика (на български език).
-
-::: {.pdf-grid}
-- [**Лекция** · Въведение в медицинската етика (2025/2026)](slides/ethics-bg/01-intro.pdf){target="_blank"}
-- [**Упражнение 1** · Информирано съгласие. Медицинска тайна](slides/ethics-bg/01-principles.pdf){target="_blank"}
-- [**Казуси 1** · Информирано съгласие](slides/ethics-bg/01-cases.pdf){target="_blank"}
-- [**Упражнение 2** · Взаимоотношения лекар–пациент](slides/ethics-bg/02-patient-physician.pdf){target="_blank"}
-- [**Казуси 2** · Взаимоотношения лекар–пациент](slides/ethics-bg/02-cases.pdf){target="_blank"}
-- [**Упражнения 3–4** · Хронично болни и терминални пациенти](slides/ethics-bg/03-chronic-disease.pdf){target="_blank"}
-- [**Казуси 3–4** · Клинични казуси](slides/ethics-bg/03-cases.pdf){target="_blank"}
-- [**Упражнения 5–6** · Трансплантация. Експериментална медицина](slides/ethics-bg/05-transplantation.pdf){target="_blank"}
-- [**Казуси 5–6** · Трансплантация и експериментална медицина](slides/ethics-bg/05-cases.pdf){target="_blank"}
-- [**Материал** · Наука и етика — експериментална медицина](slides/ethics-bg/06-science-ethics.pdf){target="_blank"}
-- [**Казуси** · Експериментална медицина](slides/ethics-bg/06-cases.pdf){target="_blank"}
-- [**Упражнение 7** · Репродуктивна етика](slides/ethics-bg/06-reproduction.pdf){target="_blank"}
-- [**Пробен тест** · СММЕ — I част (Медицинска етика)](slides/ethics-bg/07-seminar-test.pdf){target="_blank"}
-:::
-
-## Биостатистика (BG)
-
-Упражнения, формули и домашни работи по медицинска статистика.
-
-::: {.pdf-grid}
-- [**Упражнение 1** · Основна терминология. Стандартизация (2025/2026)](slides/statistics-bg/01-terminology-standardization.pdf){target="_blank"}
-- [**Упражнение 2** · Дескриптивна и инферентна статистика (2025/2026)](slides/statistics-bg/02-descriptive.pdf){target="_blank"}
-- [**Упражнение 3** · Тест на хипотези. T-тест](slides/statistics-bg/03-t-test.pdf){target="_blank"}
-- [**Упражнения 4–5** · Изследване на връзки. Корелация. Асоциация](slides/statistics-bg/04-05-association-correlation.pdf){target="_blank"}
-- [**Материал** · Правило на трите сигми](slides/statistics-bg/05-rule-of-3-sigma.pdf){target="_blank"}
-- [**Упражнение 6** · Регресионен анализ. Линейна регресия](slides/statistics-bg/06-regression.pdf){target="_blank"}
-- [**Формули** · Основни формули по медицинска статистика (2025)](slides/statistics-bg/formulas-2025.pdf){target="_blank"}
-- [**Сборник** · Упражнения по статистика (пълен комплект)](slides/statistics-bg/exercises-workbook.pdf){target="_blank"}
-- [**Колоквиум** · Решен примерен вариант](slides/statistics-bg/colloquium-solved.pdf){target="_blank"}
-:::
-
-### Домашни работи
-
-::: {.pdf-grid}
-- [**Домашна 1** · Стандартизация](slides/statistics-bg/homework-01.pdf){target="_blank"}
-- [**Домашна 2** · Дескриптивна статистика](slides/statistics-bg/homework-02.pdf){target="_blank"}
-- [**Домашна 3** · Тест на хипотези (2025/2026)](slides/statistics-bg/homework-03.pdf){target="_blank"}
-- [**Домашна 4–5** · Корелация и асоциация](slides/statistics-bg/homework-04-05.pdf){target="_blank"}
-- [**Домашна 6** · Регресионен анализ](slides/statistics-bg/homework-06.pdf){target="_blank"}
-- [**Решения** · Решения на домашните работи](slides/statistics-bg/homework-solutions.pdf){target="_blank"}
-:::
-
-### In English
-
-::: {.pdf-grid}
-- [**Practical** · The Chi-Square Test of Independence and Cramér's V](slides/statistics-bg/chi-square-cramers-v.pdf){target="_blank"}
-- [**Practicals 6–7** · Correlation and Regression Analysis](slides/statistics-bg/correlation-regression.pdf){target="_blank"}
-:::
-
-:::
-
-## AI study notebooks
-
-Interactive NotebookLM notebooks built from the course materials — ask questions, generate quizzes, and listen to audio overviews for each subject.
-
-::: {.notebook-grid}
-- [**Social Medicine** · NotebookLM study notebook](https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2){target="_blank"}
-- [**Biostatistics** · NotebookLM study notebook](https://notebooklm.google.com/notebook/4a653e2e-14e0-4ffe-8ac7-942fa7b0c100){target="_blank"}
-- [**Bioethics** · NotebookLM study notebook](https://notebooklm.google.com/notebook/5344e475-f3d5-407f-b276-e349afcadb89){target="_blank"}
-- [**Epidemiology** · NotebookLM study notebook](https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536){target="_blank"}
-- [**Hygiene** · NotebookLM study notebook](https://notebooklm.google.com/notebook/00a56955-d080-48d3-bdd9-899ea473a7fd){target="_blank"}
-:::
+```{=html}
+<script src="assets/teaching-data.js"></script>
+<script src="assets/teaching.js"></script>
+```

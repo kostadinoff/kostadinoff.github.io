@@ -209,5 +209,11 @@
   },
   "lab.qmd": {
     "lab.html": "055b4ef9"
+  },
+  "blog.qmd": {
+    "blog.html": "29350345"
+  },
+  "blog/academic-writing-setup.qmd": {
+    "academic-writing-setup.html": "8faa83fe"
   }
 }

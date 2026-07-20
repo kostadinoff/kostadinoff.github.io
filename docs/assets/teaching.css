@@ -1,0 +1,642 @@
+/* ============================================================================
+   Teaching materials browser + blog typography
+   Theme-independent structure; all colour comes from Bootstrap CSS variables
+   so the light and dark themes both work without duplication.
+   ========================================================================== */
+
+/* ---------------------------------------------------------------- layout */
+
+#teaching-app {
+  margin-top: 1.5rem;
+}
+
+.tm-controls {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 0.6rem 0 0.7rem;
+  background: var(--bs-body-bg);
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+/* ------------------------------------------------------ discipline tabs */
+
+.tm-disciplines,
+.tm-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tm-disciplines {
+  margin-bottom: 0.8rem;
+}
+
+.tm-languages {
+  margin-top: 0.7rem;
+}
+
+.tm-disc,
+.tm-lang,
+.tm-chip,
+.tm-btn {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  background: transparent;
+  color: var(--bs-body-color);
+  border-radius: 0.5rem;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.tm-disc {
+  padding: 0.45rem 0.85rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.tm-lang {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.86rem;
+  border-radius: 2rem;
+}
+
+.tm-disc:hover,
+.tm-lang:hover,
+.tm-chip:hover,
+.tm-btn:hover {
+  border-color: var(--bs-primary);
+  background: color-mix(in srgb, var(--bs-primary) 8%, transparent);
+}
+
+.tm-disc.is-active,
+.tm-lang.is-active {
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.tm-count {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0 0.35rem;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1.6;
+  border-radius: 0.7rem;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+}
+
+/* ------------------------------------------------------------- toolbar */
+
+.tm-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tm-search {
+  flex: 1 1 18rem;
+}
+
+.tm-search input,
+.tm-sort select,
+.tm-year-filter select {
+  width: 100%;
+  font: inherit;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.5rem;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.tm-year-filter select {
+  font-weight: 600;
+}
+
+.tm-search input:focus,
+.tm-sort select:focus,
+.tm-year-filter select:focus {
+  outline: 2px solid color-mix(in srgb, var(--bs-primary) 55%, transparent);
+  outline-offset: 1px;
+  border-color: var(--bs-primary);
+}
+
+.tm-btn {
+  padding: 0.45rem 0.85rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tm-btn.is-active {
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.tm-btn[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.tm-btn-quiet {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------------------ tag chips */
+
+.tm-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.7rem;
+  max-height: 5.6rem;
+  overflow-y: auto;
+}
+
+.tm-chip {
+  padding: 0.18rem 0.55rem;
+  font-size: 0.78rem;
+  border-radius: 2rem;
+}
+
+.tm-chip.is-active {
+  background: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+  color: #fff;
+}
+
+/* -------------------------------------------------------------- results */
+
+.tm-blurb {
+  margin: 1.4rem 0 0.5rem;
+  font-size: 1.02rem;
+  max-width: 66ch;
+  color: color-mix(in srgb, var(--bs-body-color) 85%, transparent);
+}
+
+.tm-year {
+  margin-top: 2.2rem;
+}
+
+.tm-year-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  margin: 0 0 0.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid color-mix(in srgb, var(--bs-primary) 35%, transparent);
+}
+
+.tm-year-note {
+  margin: 0.4rem 0 0;
+  font-size: 0.94rem;
+  max-width: 68ch;
+  color: color-mix(in srgb, var(--bs-body-color) 75%, transparent);
+}
+
+.tm-group {
+  margin-top: 1.6rem;
+}
+
+.tm-group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0 0 0.7rem;
+  color: color-mix(in srgb, var(--bs-body-color) 70%, transparent);
+}
+
+.tm-group-lectures .tm-group-title::before,
+.tm-group-handouts .tm-group-title::before {
+  content: "";
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.5rem;
+  border-radius: 2px;
+  background: var(--bs-primary);
+}
+
+.tm-group-handouts .tm-group-title::before {
+  background: var(--bs-secondary);
+}
+
+.tm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 0.8rem;
+}
+
+/* ---------------------------------------------------------------- cards */
+
+.tm-card {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.95rem 1.05rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-left: 3px solid color-mix(in srgb, var(--bs-primary) 45%, transparent);
+  border-radius: 0.6rem;
+  background: var(--bs-body-bg);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.tm-group-handouts .tm-card {
+  border-left-color: color-mix(in srgb, var(--bs-secondary) 55%, transparent);
+}
+
+.tm-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--bs-primary);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+}
+
+.tm-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.tm-breadcrumb {
+  margin: 0 0 0.35rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--bs-body-color) 60%, transparent);
+}
+
+.tm-title {
+  font-size: 1.03rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 0.35rem;
+}
+
+.tm-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--bs-body-color) 80%, transparent);
+}
+
+.tm-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  color: color-mix(in srgb, var(--bs-body-color) 62%, transparent);
+}
+
+/* Separator between meta items, never before the first one. */
+.tm-meta > span + span::before {
+  content: "·";
+  margin-right: 0.5rem;
+}
+
+.tm-ay {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--bs-secondary);
+}
+
+/* Archive notice shown when browsing a past academic year. */
+.tm-archive {
+  margin: 0.9rem 0 0;
+  padding: 0.7rem 0.95rem;
+  max-width: 68ch;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  border-left: 3px solid var(--bs-secondary);
+  background: color-mix(in srgb, var(--bs-secondary) 8%, transparent);
+}
+
+.tm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.tm-tag {
+  font: inherit;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.45rem;
+  cursor: pointer;
+  border: 1px solid color-mix(in srgb, var(--bs-body-color) 22%, transparent);
+  border-radius: 0.35rem;
+  background: transparent;
+  color: color-mix(in srgb, var(--bs-body-color) 72%, transparent);
+}
+
+.tm-tag:hover {
+  border-color: var(--bs-secondary);
+  color: var(--bs-secondary);
+}
+
+.tm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tm-file,
+.tm-link,
+.tm-notebook {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.45rem;
+  color: var(--bs-body-color);
+}
+
+.tm-file:hover,
+.tm-link:hover,
+.tm-notebook:hover {
+  border-color: var(--bs-primary);
+  background: color-mix(in srgb, var(--bs-primary) 8%, transparent);
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+.tm-file-kind {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #fff;
+  background: var(--bs-primary);
+}
+
+.tm-link {
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------ reordering */
+
+.tm-card-reorder {
+  cursor: grab;
+  border-style: dashed;
+}
+
+.tm-card-reorder.is-dragging {
+  opacity: 0.45;
+  cursor: grabbing;
+}
+
+.tm-handle {
+  font-size: 1.2rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--bs-body-color) 45%, transparent);
+  user-select: none;
+}
+
+.tm-move {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  order: 2;
+}
+
+.tm-move-btn {
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.2rem 0.35rem;
+  cursor: pointer;
+  background: transparent;
+  color: var(--bs-body-color);
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.3rem;
+}
+
+.tm-move-btn:hover {
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+/* ---------------------------------------------------------------- empty */
+
+.tm-empty {
+  margin: 2rem 0;
+  font-size: 0.98rem;
+  color: color-mix(in srgb, var(--bs-body-color) 70%, transparent);
+}
+
+.tm-empty-small {
+  margin: 0.2rem 0 0;
+  font-size: 0.88rem;
+  font-style: italic;
+}
+
+/* ------------------------------------------------------------ notebooks */
+
+#teaching-notebooks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.tm-notebook .tm-file-kind {
+  background: var(--bs-secondary);
+}
+
+/* ------------------------------------------------------------ responsive */
+
+@media (max-width: 575.98px) {
+  .tm-controls {
+    position: static;
+  }
+  .tm-grid {
+    grid-template-columns: 1fr;
+  }
+  .tm-disc {
+    font-size: 0.88rem;
+    padding: 0.38rem 0.65rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tm-card,
+  .tm-disc,
+  .tm-lang,
+  .tm-chip,
+  .tm-btn {
+    transition: none;
+  }
+  .tm-card:hover {
+    transform: none;
+  }
+}
+
+/* ============================================================================
+   Blog — Tufte-inflected reading typography
+   ========================================================================== */
+
+/* Listing */
+.blog-listing .quarto-post {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.blog-listing .quarto-post .listing-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.blog-listing .quarto-post .listing-description {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--bs-body-color) 82%, transparent);
+}
+
+.blog-listing .listing-reading-time,
+.blog-listing .listing-date {
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--bs-body-color) 62%, transparent);
+}
+
+/* Article body: a comfortable measure and generous vertical rhythm. */
+body.blog-post main#quarto-document-content > p,
+body.blog-post main#quarto-document-content > ul,
+body.blog-post main#quarto-document-content > ol,
+body.blog-post main#quarto-document-content > blockquote,
+body.blog-post main#quarto-document-content > h2,
+body.blog-post main#quarto-document-content > h3,
+body.blog-post main#quarto-document-content > h4 {
+  max-width: 34em;
+}
+
+body.blog-post main#quarto-document-content > p {
+  font-size: 1.06rem;
+  line-height: 1.72;
+  margin-bottom: 1.25rem;
+}
+
+body.blog-post main#quarto-document-content h2 {
+  font-size: 1.6rem;
+  margin-top: 2.8rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--bs-primary) 30%, transparent);
+}
+
+body.blog-post main#quarto-document-content h3 {
+  font-size: 1.22rem;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+body.blog-post main#quarto-document-content blockquote {
+  font-style: italic;
+  color: color-mix(in srgb, var(--bs-body-color) 78%, transparent);
+}
+
+/* Lead paragraph */
+.blog-lead {
+  font-size: 1.18rem !important;
+  line-height: 1.6 !important;
+  color: color-mix(in srgb, var(--bs-body-color) 88%, transparent);
+}
+
+/* Post meta line under the title */
+.blog-meta {
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--bs-body-color) 62%, transparent);
+  margin-bottom: 1.6rem;
+}
+
+/* Code blocks inside posts get a little more room to breathe. */
+body.blog-post div.sourceCode {
+  margin: 1.4rem 0;
+  font-size: 0.86rem;
+}
+
+/* Plain fenced blocks with no language (directory trees, shell output) get no
+   highlighting from Quarto, which leaves them nearly invisible on the dark
+   theme. Give them the same panel treatment as highlighted code. */
+body.blog-post pre:not(.sourceCode) {
+  margin: 1.4rem 0;
+  padding: 0.9rem 1rem;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  background-color: color-mix(in srgb, var(--bs-body-color) 6%, var(--bs-body-bg));
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-left: 3px solid var(--bs-primary);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+body.blog-post pre:not(.sourceCode) code {
+  color: inherit;
+  background: none;
+  padding: 0;
+}
+
+/* Mermaid figures centred and never wider than the page. */
+body.blog-post .cell-output-display svg,
+body.blog-post figure svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables in posts */
+body.blog-post main#quarto-document-content table {
+  font-size: 0.92rem;
+}
+
+/* Callouts, retinted to the site palette instead of Bootstrap's stock
+   blue / green / orange / crimson, which clash with ink–slate–bronze.
+   Informational callouts take the slate primary; advisory ones take bronze. */
+body.blog-post .callout {
+  max-width: 34em;
+  border-radius: 0.5rem;
+}
+
+/* Quarto sets these with !important, so match its weight and then some. */
+html body.blog-post div.callout.callout-style-default > .callout-header {
+  background-color: color-mix(in srgb, var(--bs-primary) 12%, transparent) !important;
+}
+
+html body.blog-post div.callout.callout-note,
+html body.blog-post div.callout.callout-tip {
+  border-left-color: var(--bs-primary) !important;
+}
+
+html body.blog-post div.callout.callout-important,
+html body.blog-post div.callout.callout-warning,
+html body.blog-post div.callout.callout-caution {
+  border-left-color: var(--bs-secondary) !important;
+}
+
+html body.blog-post div.callout.callout-important.callout-style-default > .callout-header,
+html body.blog-post div.callout.callout-warning.callout-style-default > .callout-header,
+html body.blog-post div.callout.callout-caution.callout-style-default > .callout-header {
+  background-color: color-mix(in srgb, var(--bs-secondary) 14%, transparent) !important;
+}
+
+/* The stock icons are tinted to the old palette; drop them and let the
+   coloured rule carry the meaning. */
+html body.blog-post div.callout .callout-icon-container {
+  display: none;
+}
+
+body.blog-post .callout .callout-title-container {
+  font-weight: 600;
+}

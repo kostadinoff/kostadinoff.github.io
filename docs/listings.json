@@ -58,6 +58,12 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/academic-writing-setup.html"
+    ]
+  },
+  {
     "listing": "/epinews.html",
     "items": [
       "/epinews-posts/2026-W27-en.html",

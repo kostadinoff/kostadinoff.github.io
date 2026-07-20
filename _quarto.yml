@@ -46,7 +46,9 @@ website:
           - href: tasks.qmd
             text: Learning tasks
           - href: study-guide.qmd
-            text: Social medicine study guide
+            text: Study guides
+      - href: blog.qmd
+        text: Blog
       - href: epinews.qmd
         text: Epi News
       - href: kkstatfun.qmd
@@ -64,7 +66,9 @@ format:
         - cosmo
         - theme-dark.scss
     respect-user-color-scheme: true
-    css: styles.css
+    css:
+      - styles.css
+      - assets/teaching.css
     toc: true
     title-block-banner: true
 editor: source

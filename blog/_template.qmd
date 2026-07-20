@@ -1,0 +1,59 @@
+---
+# ---------------------------------------------------------------------------
+# Copy this file to blog/<slug>.qmd and edit. Files beginning with an
+# underscore are ignored by Quarto, so this template is never published.
+#
+# Drafts: set `draft: true` and the post disappears from the listing and the
+# RSS feed while still rendering locally. Remove the line to publish.
+# ---------------------------------------------------------------------------
+title: "Post title"
+description: "One or two sentences shown in the listing and the RSS feed."
+author: "Kostadin Kostadinov"
+date: 2026-01-01
+date-modified: last-modified
+categories: [workflow, methods]
+draft: true
+toc: true
+toc-depth: 3
+body-classes: blog-post
+---
+
+Opening paragraph. Give the reader the argument in the first few lines.
+
+::: {.callout-note}
+## Callout boxes
+
+`note`, `tip`, `warning`, `important` and `caution` are all available, and can
+be made collapsible with `collapse="true"`.
+:::
+
+## A section
+
+Mathematics is written inline as $\text{RR} = \frac{a/(a+b)}{c/(c+d)}$, or
+displayed:
+
+$$
+\text{OR} = \frac{a \cdot d}{b \cdot c}
+$$
+
+Code is highlighted automatically:
+
+```r
+library(kkstatfun)
+kk_or(data, exposure, outcome)
+```
+
+Diagrams use Mermaid:
+
+```{mermaid}
+flowchart LR
+  A[Raw data] --> B[Cleaning]
+  B --> C[Analysis]
+  C --> D[Manuscript]
+```
+
+Images sit in `blog/images/` and are referenced relatively:
+
+```markdown
+![Caption](images/example.png){fig-alt="Describe the image for screen readers."}
+```

@@ -1,0 +1,27 @@
+---
+title: "Blog"
+description: "Longer, slower writing about research workflows, epidemiological methods, tools, and the craft of doing science."
+listing:
+  id: blog-posts
+  contents:
+    - "blog/*.qmd"
+  type: default
+  sort: "date desc"
+  sort-ui: [date, title, reading-time]
+  filter-ui: true
+  categories: true
+  date-format: "D MMMM YYYY"
+  fields: [date, title, reading-time, description, categories]
+  feed:
+    title: "Kostadin Kostadinov — Blog"
+    description: "Essays on research workflows, epidemiological methods, and scientific tooling."
+    type: full
+toc: false
+---
+
+This is where I write at length. Where [Epi News](epinews.qmd) is a regular surveillance digest, the blog is slower and more personal: how I organise projects, which methods I trust and why, the tools that survive contact with real work, and the occasional argument about how research should be done.
+
+Posts are written in Quarto, so code, equations and figures are part of the text rather than screenshots of it. You can subscribe to the [RSS feed](blog.xml), filter by category, or search the archive below.
+
+::: {#blog-posts .blog-listing}
+:::

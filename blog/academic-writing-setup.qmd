@@ -1,0 +1,310 @@
+---
+title: "My Academic Writing Setup: Why Writing Has Already Changed"
+description: "Academic writing is not about to change — it changed while we were arguing about whether it would. Here is how I organise projects, references, analyses and tools now that producing clean prose is no longer the bottleneck."
+author: "Kostadin Kostadinov"
+date: 2026-07-20
+categories: [workflow, reproducibility, R, open science, writing]
+toc: true
+toc-depth: 3
+body-classes: blog-post
+---
+
+Every few months another editorial asks whether artificial intelligence is going to change academic writing. It is the wrong tense. The change is not coming — it arrived, quietly, somewhere in the last three years, while journals were still drafting policies about it and departments were still holding seminars asking whether it would happen at all.
+
+Here is the uncomfortable part. The skill most of us spent a decade acquiring — turning a half-formed thought into a grammatical, publishable English sentence — is now cheap. Not free, not automatic, not always good, but cheap. And for those of us who write in a second language it was never merely a skill: it was a tax, levied on our ideas for reasons that had nothing to do with their quality. That tax has largely been abolished, and remarkably few people in my field have said out loud what follows from it.
+
+What follows is this. When one input to a process becomes cheap, the value moves elsewhere. It always does. So the question worth asking is not whether to use these tools, which is by now a settled and rather boring argument. The question — the reason I finally sat down to write this — is *where the value went*.
+
+My answer, after a couple of years of rebuilding how I work, is that it moved into everything that surrounds the sentence. Reading. Study design. The quality of the question. Whether the analysis is defensible. Whether anybody else can reproduce it. Whether the figure shows what you claim it shows.
+
+And it moved, more than I expected, towards philosophy. I mean that literally, not as a flourish. What counts as a cause. What a probability *is*. Where the line runs between description and explanation. What we owe a patient whose data we hold. Which questions are worth a decade of somebody's life. These used to look like decorative questions that serious empirical researchers could safely leave to others; they now look like the load-bearing ones, because they are precisely the questions no model can settle for you and no dataset answers on its own. An educated philosophical position — about evidence, about causation, about the ethics of what you are doing — has become one of the most valuable things a researcher can hold, and one of the few that cannot be generated on demand.
+
+This is a description of my own setup — project structure, references, analysis, tools — but the setup is downstream of the argument. I would not organise my work this way if I still believed that the scarce resource was prose.
+
+::: {.callout-note}
+## The short version
+
+Writing is becoming a smaller component of the research workflow. Critical thinking and methodological rigour are becoming a larger one. Optimise accordingly: spend your saved hours on reading, design, and analysis, not on polishing a paragraph that was already fine.
+:::
+
+## 1. Why academic writing has already changed
+
+Let me be precise about what changed, because "AI changed writing" is too vague to act on.
+
+What changed is **drafting and editing**. The blank page is no longer expensive. Neither is the third revision of a Methods paragraph, nor translating your own Bulgarian-shaped English into something a Cambridge copy-editor would not flinch at. For a non-native speaker in particular — and most of the world's researchers are non-native speakers — this is not a small convenience. It is the removal of a tax that was levied on ideas for reasons that had nothing to do with their quality.
+
+What did *not* change is everything the sentence is about. A model can smooth the prose in which you report a confounded estimate. It cannot tell you that you have a confounded estimate, and it will report it with exactly the same fluency as an unconfounded one. That asymmetry is the whole story.
+
+The practical consequence is that fluency has stopped being a signal. For a long time, well-written papers were, on average, better papers — not because good prose causes good science, but because the same care and the same seniority produced both. That correlation is now broken. When everyone's Introduction reads well, a well-read Introduction tells you nothing about the study behind it.
+
+So what will distinguish researchers over the next decade? I think it is a fairly short list, and none of it is about sentences:
+
+- **Curiosity** — noticing the thing in the data or the clinic that does not fit, and caring enough to chase it.
+- **Methodological knowledge** — knowing which design can answer your question, and, more importantly, which cannot.
+- **Critical appraisal** — reading a paper and locating the joint where it breaks, rather than summarising its abstract back to yourself.
+- **Interpretation** — saying what an estimate means, in this population, under these assumptions, with these limitations, without overclaiming and without the false modesty that makes a paper useless.
+- **Originality** — asking a question that somebody has not already answered twice.
+- **Domain expertise** — knowing that a Bulgarian NHIF reimbursement dataset undercounts what it undercounts, and why, before you model it.
+
+Notice that every item on that list is *slow*. None of them can be accelerated by faster typing. They are acquired by reading, by doing analyses badly and then better, and by being corrected — by data, by reviewers, and by colleagues who are willing to tell you that your design cannot support your conclusion.
+
+::: {.callout-important}
+## The uncomfortable corollary
+
+If your competitive advantage was that you write well in English, that advantage has largely evaporated. If your competitive advantage is that you understand causal structure, survival analysis, or the administrative quirks of your national health data, it has just become considerably more valuable — because the fluent papers around you are no longer distinguishable except on those grounds.
+:::
+
+There is a second, subtler consequence. Because drafting is cheap, the *volume* of plausible-looking manuscripts is rising. That puts pressure on the entire evaluative apparatus: peer review, editorial screening, hiring committees. The response, I suspect, will be a shift towards things that are expensive to fake — shared data, shared code, preregistration, reproducible pipelines, and a track record of work that other people successfully built on. Which is another way of saying that the habits I describe below are not just personally convenient. They are becoming the credential.
+
+## 2. My project structure
+
+Everything I do lives in a study folder with the same shape. I scaffold it with a small shell helper so I never have to think about it, and after a few dozen projects the uniformity itself has become the main benefit: I can open a study from eighteen months ago and know where everything is within about four seconds.
+
+```
+2026-nhif-antineoplastic-costs/
+├── README.md              # what this is, who asked, status
+├── data/
+│   ├── raw/               # never edited, read-only
+│   ├── interim/           # safe to delete
+│   └── processed/         # analysis-ready, script output
+├── scripts/
+│   ├── 01_data_prep.R
+│   ├── 02_analysis.R
+│   ├── 03_figures.R
+│   └── 04_tables.R
+├── output/
+│   ├── figures/           # PNG at publication resolution
+│   └── tables/            # CSV, formatted downstream
+├── manuscript/
+│   ├── manuscript.qmd
+│   ├── references.bib
+│   └── supplementary.qmd
+├── docs/                  # protocol, ethics approval
+└── renv.lock              # exact package versions
+```
+
+Three rules make this work, and all three are rules about what you are *not* allowed to do.
+
+**`data/raw/` is immutable.** Nothing writes to it. If the source file has a typo, the typo is fixed in `01_data_prep.R`, with a comment explaining what was wrong. This is the single most valuable convention I have, because it means the pipeline can always be re-run from the true origin, and because it makes "what exactly did you change?" a question with an answer.
+
+**Scripts are numbered and run in order.** `02_analysis.R` may assume that `01_data_prep.R` has run; it may not assume anything else. Each script begins by loading what it needs from disk and ends by writing what it produces to disk. No script depends on objects left in the environment by a previous one, because that dependency is invisible and it always breaks eventually.
+
+**`output/` is disposable.** Every figure and every table in the manuscript is produced by a script. If I cannot delete the whole `output/` directory and regenerate it with one command, something is wrong. In practice this rule is what turns "reproducible" from an aspiration into a property I can test, and I do test it, usually the week before submission.
+
+```r
+# scripts/00_run_all.R — the reproducibility test
+source("scripts/01_data_prep.R")
+source("scripts/02_analysis.R")
+source("scripts/03_figures.R")
+source("scripts/04_tables.R")
+```
+
+Version control sits underneath all of it. Git is not optional and it is not only for software. Its value in research is not really "collaboration" — most of my studies have two or three authors and no merge conflicts. Its value is that it gives you a *history of your reasoning*. Six months later, when a reviewer asks why the model adjusts for hospital type, the commit that added it has a message explaining why, and a diff showing exactly what changed in the estimates.
+
+Large data files stay out of Git — either in the institutional store or, where licensing allows, deposited in Zenodo with a DOI. What Git tracks is the code, the manuscript, and the metadata: everything a reader would need to check my work if they had the data.
+
+::: {.callout-tip}
+## If you adopt one thing from this post
+
+Make `data/raw/` read-only. On Linux or WSL, one command:
+
+```bash
+chmod -R a-w data/raw
+```
+
+It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.
+:::
+
+## 3. My reference workflow
+
+References are where a lot of otherwise well-run projects quietly rot: a Word document with hand-typed citations, three slightly different versions of the same reference, and a bibliography that nobody can rebuild.
+
+My approach is deliberately boring, and its guiding principle is *consistency*, in the specific sense that the same input always produces the same output.
+
+The bibliography is a plain `.bib` file, per project, kept next to the manuscript in the same repository. It is text, so Git tracks it, diffs it, and merges it. Entries are fetched by DOI or PMID rather than typed, using a small helper that queries Crossref and PubMed and appends properly formatted BibTeX:
+
+```bash
+getbib 10.1016/S0140-6736(20)30183-5 33301246
+```
+
+Citation keys follow one rule, applied without exception: `firstauthorYYYYkeyword`. Not because that scheme is better than any other, but because deviating from *any* scheme is what produces two entries for the same paper.
+
+The part that took me longest to adopt, and that I now consider essential: **each entry stores the abstract or a short statement of the source's actual findings**. This turns the `.bib` file from a formatting artefact into something I read. When I am drafting and need support for a claim, I search my bibliography, and what comes back is not just a title but what the paper actually found. It makes it dramatically harder to cite something for a claim it does not support — which, if we are honest, is one of the more common failures in our literature, and one that fluent drafting makes easier rather than harder.
+
+Rendering is handled by Quarto with a CSL style for the target journal. Switching from Vancouver to APA is a one-line change in the YAML header, so I no longer have any reason to think about reference formatting at all, which is the point:
+
+```yaml
+bibliography: references.bib
+csl: ../styles/vancouver.csl
+```
+
+I keep one long-lived personal library as well, but strictly for things I have actually read and taken notes on. It is a reading log, not a dumping ground. Project bibliographies are separate and self-contained, so a project folder stays complete on its own — which matters when you deposit it, hand it to a student, or come back to it in three years.
+
+## 4. Skills that matter now
+
+If drafting is no longer where the effort goes, where should a research trainee put it? Here is my honest ranking, in roughly the order I would learn them.
+
+**Epidemiology.** The core concepts — incidence and prevalence, person-time, standardisation, the difference between a rate and a risk — are the grammar of population health. They are not hard, and misunderstanding them silently invalidates entire papers.
+
+**Statistics, properly.** Not a catalogue of tests. Estimation, uncertainty, what a confidence interval does and does not tell you, why a *p*-value is not a measure of effect size, and what your model assumes about the process that generated the data.
+
+**Causal inference.** The single highest-leverage thing I have learned in the last decade. Drawing a DAG before you choose your covariates changes what you adjust for, and therefore what your estimate means. Learning that adjusting for a mediator or a collider actively introduces bias — rather than being merely conservative — reorganises how you read every observational paper.
+
+**Programming.** R or Python, one of them, well. The threshold you are aiming for is not elegance; it is the point where writing a script is *easier* than doing the thing by hand, because that is when your analyses become reproducible as a side effect of your own laziness.
+
+**Visualisation.** Most researchers substantially underrate this. A figure is an argument. If it is badly made, the argument is weaker regardless of how strong the underlying evidence is.
+
+**Study design.** The stage where papers are actually won or lost. No analysis rescues a design that cannot answer the question. Time spent on design has a better return than time spent anywhere else in the pipeline, and it is the least fungible skill on this list.
+
+**Critical appraisal.** Read papers to find the load-bearing assumption and test it. Journal clubs are good for this if they are run adversarially rather than as summary sessions.
+
+**Reproducible research.** Not a virtue; an efficiency. The main beneficiary of a reproducible pipeline is you, six months later, when a reviewer asks for a subgroup analysis and you can produce it in an hour instead of a fortnight.
+
+**Communication.** Which — and I want to be careful here — is not the same as writing. It is knowing what your audience needs, what the actual finding is, and what should be left out. A model can produce the paragraph. It cannot decide that the paragraph should not exist.
+
+::: {.callout-warning}
+## A caveat about outsourcing
+
+None of this is an argument for outsourcing your thinking. The failure mode I see most often in students is using a model to produce text about an analysis they do not understand, and then defending that text in a viva. The text will be fluent. The defence will not be. Use the tools for the parts you *could* do but do not need to do slowly — and never for the parts you cannot do at all.
+:::
+
+## 5. My data-analysis workflow
+
+Almost everything I do analytically happens in R, and the shape of that workflow owes more to books than to software.
+
+Edward Tufte's work on the display of quantitative information is the reason my figures have almost no chrome: no gridline that is not needed, no colour that does not encode something, no legend where a direct label would do. The principle I keep returning to is the ratio of ink to information. It sounds like an aesthetic preference and it is actually an argument about honesty — decoration is where misleading figures hide.
+
+The epidemiological and statistical books shaped something different: not what I compute, but *how I compute it*. A Handbook of Epidemiology and Modern Epidemiology gave me the conceptual structure — how measures relate to each other, when standardisation is appropriate, what confounding actually is. Modern Infectious Disease Epidemiology gave me the dynamic side: transmission, reproduction numbers, the reasoning behind outbreak investigation. Basic Epidemiology is the one I still hand to students. Zar's Biostatistical Analysis and the Handbook of Parametric and Nonparametric Statistical Procedures are my reference works for the procedural details: assumptions, small-sample behaviour, and what to do when the assumptions fail.
+
+Here is the important part. I did not use those books as a source of analyses to copy. I used them as a specification for **functions to write**. When I found myself computing a Mantel–Haenszel adjusted odds ratio for the fourth time, the right response was not a fourth pasted block of code — it was a function, written once, tested against the worked examples in the books, and then reused forever. That is where the `kkstatfun` package came from: an accumulation of epidemiological helpers that each encode a procedure I had to get right once and never wanted to get wrong again.
+
+```r
+library(kkstatfun)
+library(tidyverse)
+
+hospitalisations |>
+  filter(year >= 2019) |>
+  kk_incidence_rate(
+    events    = n_cases,
+    person_time = population_years,
+    by        = c(region, age_group)
+  ) |>
+  kk_standardise(reference = european_standard_population)
+```
+
+The difference between that and a hand-rolled equivalent is not brevity. It is that the confidence interval method is decided once, documented once, and applied identically in every study I run — so my 2023 paper and my 2026 paper are comparable, and a reviewer asking "which method?" gets one answer rather than an archaeology project.
+
+The pipeline that results has five properties I care about:
+
+**Reproducible.** One command regenerates every number in the manuscript from the raw data. Package versions are pinned with `renv`.
+
+**Reusable.** Anything done twice becomes a function; anything done across projects moves into the package.
+
+**Publication-quality by default.** Figures are written to PNG through Cairo at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.
+
+**Automatically reported.** Numbers reach the manuscript by inline code, not by transcription. `Median age was 62.4 years` is not typed; it is computed. Typing numbers into prose is a step that has no upside and a well-documented failure rate.
+
+**Transparent.** Every decision that could have gone another way is a comment in the script or a line in the README: why these exclusions, why this reference population, why this cut-point.
+
+```{mermaid}
+flowchart TD
+  A["data/raw/<br/>(immutable)"] --> B["01_data_prep.R"]
+  B --> C["data/processed/"]
+  C --> D["02_analysis.R"]
+  D --> E["model objects"]
+  E --> F["03_figures.R"]
+  E --> G["04_tables.R"]
+  F --> H["output/figures/"]
+  G --> I["output/tables/"]
+  H --> J["manuscript.qmd"]
+  I --> J
+  E --> J
+  J --> K["PDF / HTML / journal submission"]
+```
+
+The manuscript sits at the end of that graph as a *consumer* of the analysis, never as a parallel document that has to be manually kept in sync. When a reviewer asks for a change, I change the script and re-render. The paper cannot drift from the analysis, because the paper does not contain any numbers of its own.
+
+## 6. Tools I use every day
+
+A caveat before the list: tools are the least important thing in this post. They are also the thing people most want to read about, and the thing most likely to be copied without the reasoning behind it. Take these as illustrations of principles, not prescriptions.
+
+**A Lenovo ThinkPad.** Unglamorous, and chosen for exactly two things: battery and compute. A machine that runs a long bootstrap or a simulation without complaining, and that survives a full day of teaching and meetings without hunting for a socket, quietly removes a whole category of friction. The keyboard is a real bonus — I type for hours a day and that is not a trivial consideration.
+
+**VS Code.** My editor for essentially everything: R, Python, Stata do-files, Quarto manuscripts, YAML, this post. One editor with one set of keybindings across every language is worth more to me than a marginally better environment for each one. The integrated terminal and Git panel mean I rarely need to leave the window.
+
+**R, with Stata and Python alongside.** R is home — it is where `kkstatfun` lives and where nearly all of my analysis and figures are produced. Stata comes out where it is genuinely stronger, particularly survey and panel estimators, and because a great deal of the health-economics literature ships Stata code you may want to reproduce. Python handles what R does badly: scraping, heavier text processing, gluing systems together. Knowing which of the three to reach for is more useful than being maximally fluent in one.
+
+**The terminal.** Data work involves an enormous amount of "look at this file, convert that file, count these rows." On the command line those are one-line operations instead of applications you have to open and wait for. It is also where Git lives, and where the whole pipeline runs with a single command.
+
+**DBeaver.** Administrative health data arrives as databases, not spreadsheets, and NHIF extracts in particular are far too large to open casually. DBeaver lets me inspect schemas, sanity-check a join, and profile a table before writing a line of analysis code. Checking your assumptions about the data *before* modelling it is the cheapest error prevention available.
+
+**Obsidian.** Plain Markdown files in a folder I own, with links between them: reading notes, half-formed study ideas, lecture material, meeting notes. I settled on it after trying most of the alternatives, for a boring and decisive reason — the notes are text files on my own disk, so no company's change of business model can take them away from me.
+
+**Vivaldi.** My browser, and the one piece of software I have genuinely customised rather than merely installed. Tab stacks and workspaces stop a literature search, a teaching session and an administrative errand from collapsing into one undifferentiated wall of tabs. I have stripped the interface back to a single muted colour and set my own fonts, so nothing shifts hue under me as I move between sites. I spend hours in the browser; it ought to be quiet.
+
+**MEGA.** Sync and backup. Projects, teaching materials, the shared bibliography and the CSL styles all live there, which is what lets the same workflow follow me between machines. It is also why a lost laptop would be an inconvenience rather than a catastrophe.
+
+**A VPN — mostly for OpenEvidence.** Some of the most useful clinical evidence tools are geographically restricted, and OpenEvidence is one of them; a VPN is what makes it reachable from Bulgaria. Worth saying plainly, because it is rarely said: a meaningful part of "access to the literature" is still a question of where you happen to be sitting.
+
+**AI assistants — Claude and Gemini.** For drafting, for arguing with, for rubber-ducking a piece of code, for turning a pile of my own lecture notes into something a student can revise from. NotebookLM has particularly earned its place because it works on *my* sources rather than the open internet, which makes its answers checkable against documents I chose. That is the whole distinction, and it is the one I would insist on: these tools are for the work I could do slowly, never for the work I could not do at all.
+
+**YouTube.** The best free lecture hall that has ever existed. Statistics explained by people who genuinely understand it, software walkthroughs, whole conference sessions. It is the one algorithmic feed I kept, and I keep it deliberately.
+
+**The feeds I dropped.** Facebook, Instagram and TikTok are gone, and this was the single largest improvement to my working life in recent years. The problem was never really the time. It is the recommendation model: it is optimised to find the next thing that will hold your attention, which in practice means a rabbit hole, and it is extremely good at its job. Ending a day having read three serious papers is a different day from ending it having been shown four hundred things.
+
+**News, deliberately chosen.** For Bulgaria, [Mediapool](https://www.mediapool.bg) — long, researched pieces rather than the churn. For Europe, [Politico Europe](https://www.politico.eu) for the policy machinery, with Euronews and the BBC for the wider picture. Four sources that I chose beat an infinite feed that chooses for me.
+
+**Small tools that earn their place.** [delphi.tools](https://delphi.tools) is a set of small browser-based utilities — colour, typography, image and format conversions — that run locally with no account and no upload, which matters when the file is not yours to hand over. [tools.pdf24.org](https://tools.pdf24.org) handles the endless merging, splitting and compressing that academic administration demands. [Tally](https://tally.so) is what I build surveys in: quick to make, clean to fill in, and the responses come out in a shape you can actually analyse.
+
+**The public consultations portal.** Not a tool exactly, but a fixture of my week. Bulgaria's Council of Ministers publishes draft legislation for public comment on [strategy.bg](https://www.strategy.bg), and I take part regularly. If you work in public health and find yourself complaining about health policy — and all of us do — this is the place where you can say something *before* it is decided rather than afterwards. It takes an hour and it is the most direct line between academic expertise and what actually happens.
+
+## 7. Suggestions for others
+
+If you are early in your research career, this is what I would tell you, in order of how much I think it matters.
+
+**Build reusable workflows.** The second time you do something, write it down. The third time, write a function. The compounding return on this is larger than on almost anything else you can do, because it converts one-off effort into permanent capacity.
+
+**Automate the repetitive parts.** Not because automation is elegant, but because manual steps are where errors enter. Every number transcribed by hand is a chance to transcribe it wrong, and nobody ever catches it.
+
+**Learn R or Python.** One of them, to the point of fluency. Which one matters far less than the fact that you commit. Fluency in one language beats familiarity with two, and the concepts transfer anyway.
+
+**Read more books.** Not only papers. Papers teach you what is currently being argued; books teach you the structure of a field. Most of what I use daily came from a small number of textbooks read slowly, not from the several thousand abstracts I have skimmed.
+
+**Share your code.** Even when it is untidy. Especially when it is untidy — the alternative to imperfect shared code is not perfect shared code, it is no shared code. And knowing that a script will be public improves it, in the same way that knowing a room will have guests improves the room.
+
+**Share data whenever you can.** Within ethics and law, which in health research are real and non-negotiable constraints. Where full sharing is impossible, share what you can: aggregate tables, synthetic data with the same structure, the codebook, the extraction protocol. Partial transparency is not a failure to be fully transparent; it is a substantial improvement on none.
+
+**Collaborate openly.** Bring people in earlier than feels comfortable, particularly statisticians and methodologists, and particularly *before* the data are collected. A methodologist consulted after data collection can usually only tell you what you can no longer conclude.
+
+**Aim for continuous improvement, not perfection.** Every project should be slightly better organised than the last. Not perfectly organised — slightly better. Over five years that is a transformation, and unlike a redesign, you actually finish it.
+
+::: {.callout-tip}
+## A useful test
+
+Ask yourself: if a colleague emailed tomorrow asking for the code and data behind my last paper, how long would it take me to send something they could actually run? If the answer is more than an hour, that is the highest-value thing to fix in your workflow — ahead of any tool on the list above.
+:::
+
+## 8. Personalising your own workflow
+
+I want to close by undercutting the whole post slightly, because I think the failure mode of writing like this is that people copy the surface.
+
+There is no optimal setup. The setup I have described is well adapted to *my* work — administrative health data, epidemiological analysis in R, manuscripts in Quarto, teaching in two languages, a Windows institution and a Linux preference. Change any of those and the right answer changes. A qualitative researcher's ideal workflow looks almost nothing like mine and is not worse for it. A lab scientist whose bottleneck is the bench rather than the analysis should optimise something else entirely.
+
+So treat the specifics as evidence that a deliberate setup is possible, not as a specification to implement. And then experiment, one variable at a time:
+
+- **Editors.** RStudio, VS Code, Positron, Neovim, Emacs. Try another one for a fortnight. You will either return with a reason or not return.
+- **Operating systems.** Windows, macOS, Linux, WSL. The right answer is the one whose friction you notice least.
+- **Keyboards and physical setup.** Genuinely personal, genuinely worth attention if you type for a living, genuinely not worth the amount of internet discourse devoted to it.
+- **Note-taking.** Zettelkasten, plain folders of Markdown, one enormous file. The best system is the one you still use in March.
+- **Reference managers.** Zotero, JabRef, a hand-maintained `.bib`. Any of them works. Switching between them repeatedly does not.
+- **Project structures.** Steal mine, use one of the published conventions, or invent your own. What matters is that it is the *same* one every time.
+
+Change one thing, live with it for a month, keep it if it helped. The compounding matters more than the starting point: a mediocre workflow improved every quarter beats an excellent workflow adopted wholesale and abandoned in six weeks because it never fitted how you actually work.
+
+And keep coming back to the argument underneath all of it. The sentences are no longer the hard part. What is hard — what was always hard, and is now unmistakably where the value sits — is knowing what to study, designing something that can answer it, analysing it in a way that survives scrutiny, and being honest about what you found. That is the job. The writing was never really the job; it was just the part that used to be visible.
+
+::: {.callout-note}
+## Colophon
+
+This post was written in Quarto in VS Code, rendered as part of a Git-tracked website, and drafted on a ThinkPad with rather too many Vivaldi tabs open. If you want to talk about any of it — or tell me where I am wrong — [email me](mailto:kostadinr.kostadinov@mu-plovdiv.bg).
+:::
