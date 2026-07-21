@@ -68,6 +68,7 @@ Everything I do lives in a study folder with the same shape. I scaffold it with 
 │   ├── interim/           # safe to delete
 │   └── processed/         # analysis-ready, script output
 ├── scripts/
+│   ├── 00_run_all.R       # runs 01–04 in order: the reproducibility test
 │   ├── 01_data_prep.R
 │   ├── 02_analysis.R
 │   ├── 03_figures.R
@@ -76,9 +77,11 @@ Everything I do lives in a study folder with the same shape. I scaffold it with 
 │   ├── figures/           # PNG at publication resolution
 │   └── tables/            # CSV, formatted downstream
 ├── manuscript/
-│   ├── manuscript.qmd
+│   ├── manuscript.md      # prose + generated output, no code
 │   ├── references.bib
-│   └── supplementary.qmd
+│   └── supplementary.md
+├── presentation/
+│   └── presentation.typ   # Typst talk — communication counts too
 ├── docs/                  # protocol, ethics approval
 └── renv.lock              # exact package versions
 ```
@@ -99,6 +102,8 @@ source("scripts/03_figures.R")
 source("scripts/04_tables.R")
 ```
 
+Two choices in that tree are deliberate and easy to miss. The manuscript is plain Markdown, not a computational notebook: the analysis lives in the numbered scripts, and the manuscript only *consumes* their output — tables and figures pasted or included, never code executed at render time. Quarto renders it exactly the same, and keeping computation out of the prose file means the paper can never quietly disagree with the analysis. The second is the `presentation/` folder, present from the first day, holding a [Typst](https://typst.app) talk. A finding that never leaves the paper has done half its job; building the slides in the same repository, against the same figures, keeps the talk faithful to the analysis and makes communication a first-class output rather than a scramble the night before a conference.
+
 Version control sits underneath all of it. Git is not optional and it is not only for software. Its value in research is not really "collaboration" — most of my studies have two or three authors and no merge conflicts. Its value is that it gives you a *history of your reasoning*. Six months later, when a reviewer asks why the model adjusts for hospital type, the commit that added it has a message explaining why, and a diff showing exactly what changed in the estimates.
 
 Large data files stay out of Git — either in the institutional store or, where licensing allows, deposited in Zenodo with a DOI. What Git tracks is the code, the manuscript, and the metadata: everything a reader would need to check my work if they had the data.
@@ -106,13 +111,13 @@ Large data files stay out of Git — either in the institutional store or, where
 ::: {.callout-tip}
 ## If you adopt one thing from this post
 
-Make `data/raw/` read-only. On Linux or WSL, one command:
+Make `data/raw/` read-only. On a real Linux filesystem — including WSL's own ext4 home — one command does it:
 
 ```bash
 chmod -R a-w data/raw
 ```
 
-It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.
+(One caveat worth knowing: on a Windows-mounted path under `/mnt/c`, or an exFAT or cloud-synced drive, that permission bit silently does not stick — there the read-only rule is a discipline, not a lock, so keep such data off those drives or set it read-only from the host.) It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.
 :::
 
 ## 3. My reference workflow
@@ -212,9 +217,9 @@ The pipeline that results has five properties I care about:
 
 **Reusable.** Anything done twice becomes a function; anything done across projects moves into the package.
 
-**Publication-quality by default.** Figures are written to PNG through Cairo at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.
+**Publication-quality by default.** Figures are written to PNG through the AGG device (`ragg`) at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.
 
-**Automatically reported.** Numbers reach the manuscript by inline code, not by transcription. `Median age was 62.4 years` is not typed; it is computed. Typing numbers into prose is a step that has no upside and a [well-documented failure rate](https://doi.org/10.3758/s13428-015-0664-2) — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.
+**Automatically reported.** Numbers reach the manuscript as generated output, not by transcription. `Median age was 62.4 years` is not typed; it is computed by a script and carried in. Typing numbers into prose is a step that has no upside and a [well-documented failure rate](https://doi.org/10.3758/s13428-015-0664-2) — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.
 
 **Transparent.** Every decision that could have gone another way is a comment in the script or a line in the README: why these exclusions, why this reference population, why this cut-point.
 
@@ -228,7 +233,7 @@ flowchart TD
   E --> G["04_tables.R"]
   F --> H["output/figures/"]
   G --> I["output/tables/"]
-  H --> J["manuscript.qmd"]
+  H --> J["manuscript.md"]
   I --> J
   E --> J
   J --> K["PDF / HTML / journal submission"]

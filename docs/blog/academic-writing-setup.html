@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.3">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -78,9 +78,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7e2e57d103d44ae5aead2667f421e62a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-de7fbac482944b914e917b0ba0247267.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7e2e57d103d44ae5aead2667f421e62a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-993615bec231d6057790b9e3465a04b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8f3d97f8e51a6dae54ce054eebf10868.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-993615bec231d6057790b9e3465a04b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-bdd62bf60ee9af6da7d6f01dc1eb4b72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -519,6 +519,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 │   ├── interim/           # safe to delete
 │   └── processed/         # analysis-ready, script output
 ├── scripts/
+│   ├── 00_run_all.R       # runs 01–04 in order: the reproducibility test
 │   ├── 01_data_prep.R
 │   ├── 02_analysis.R
 │   ├── 03_figures.R
@@ -527,9 +528,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 │   ├── figures/           # PNG at publication resolution
 │   └── tables/            # CSV, formatted downstream
 ├── manuscript/
-│   ├── manuscript.qmd
+│   ├── manuscript.md      # prose + generated output, no code
 │   ├── references.bib
-│   └── supplementary.qmd
+│   └── supplementary.md
+├── presentation/
+│   └── presentation.typ   # Typst talk — communication counts too
 ├── docs/                  # protocol, ethics approval
 └── renv.lock              # exact package versions</code></pre>
 <p>Three rules make this work, and all three are rules about what you are <em>not</em> allowed to do.</p>
@@ -541,6 +544,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"scripts/02_analysis.R"</span>)</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"scripts/03_figures.R"</span>)</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"scripts/04_tables.R"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Two choices in that tree are deliberate and easy to miss. The manuscript is plain Markdown, not a computational notebook: the analysis lives in the numbered scripts, and the manuscript only <em>consumes</em> their output — tables and figures pasted or included, never code executed at render time. Quarto renders it exactly the same, and keeping computation out of the prose file means the paper can never quietly disagree with the analysis. The second is the <code>presentation/</code> folder, present from the first day, holding a <a href="https://typst.app">Typst</a> talk. A finding that never leaves the paper has done half its job; building the slides in the same repository, against the same figures, keeps the talk faithful to the analysis and makes communication a first-class output rather than a scramble the night before a conference.</p>
 <p>Version control sits underneath all of it. Git is not optional and it is not only for software. Its value in research is not really “collaboration” — most of my studies have two or three authors and no merge conflicts. Its value is that it gives you a <em>history of your reasoning</em>. Six months later, when a reviewer asks why the model adjusts for hospital type, the commit that added it has a message explaining why, and a diff showing exactly what changed in the estimates.</p>
 <p>Large data files stay out of Git — either in the institutional store or, where licensing allows, deposited in Zenodo with a DOI. What Git tracks is the code, the manuscript, and the metadata: everything a reader would need to check my work if they had the data.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -553,9 +557,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Make <code>data/raw/</code> read-only. On Linux or WSL, one command:</p>
+<p>Make <code>data/raw/</code> read-only. On a real Linux filesystem — including WSL’s own ext4 home — one command does it:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> <span class="at">-R</span> a-w data/raw</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.</p>
+<p>(One caveat worth knowing: on a Windows-mounted path under <code>/mnt/c</code>, or an exFAT or cloud-synced drive, that permission bit silently does not stick — there the read-only rule is a discipline, not a lock, so keep such data off those drives or set it read-only from the host.) It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.</p>
 </div>
 </div>
 </section>
@@ -643,8 +647,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The pipeline that results has five properties I care about:</p>
 <p><strong>Reproducible.</strong> One command regenerates every number in the manuscript from the raw data. Package versions are pinned with <code>renv</code>.</p>
 <p><strong>Reusable.</strong> Anything done twice becomes a function; anything done across projects moves into the package.</p>
-<p><strong>Publication-quality by default.</strong> Figures are written to PNG through Cairo at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.</p>
-<p><strong>Automatically reported.</strong> Numbers reach the manuscript by inline code, not by transcription. <code>Median age was 62.4 years</code> is not typed; it is computed. Typing numbers into prose is a step that has no upside and a <a href="https://doi.org/10.3758/s13428-015-0664-2">well-documented failure rate</a> — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.</p>
+<p><strong>Publication-quality by default.</strong> Figures are written to PNG through the AGG device (<code>ragg</code>) at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.</p>
+<p><strong>Automatically reported.</strong> Numbers reach the manuscript as generated output, not by transcription. <code>Median age was 62.4 years</code> is not typed; it is computed by a script and carried in. Typing numbers into prose is a step that has no upside and a <a href="https://doi.org/10.3758/s13428-015-0664-2">well-documented failure rate</a> — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.</p>
 <p><strong>Transparent.</strong> Every decision that could have gone another way is a comment in the script or a line in the README: why these exclusions, why this reference population, why this cut-point.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -660,7 +664,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   E --&gt; G["04_tables.R"]
   F --&gt; H["output/figures/"]
   G --&gt; I["output/tables/"]
-  H --&gt; J["manuscript.qmd"]
+  H --&gt; J["manuscript.md"]
   I --&gt; J
   E --&gt; J
   J --&gt; K["PDF / HTML / journal submission"]
