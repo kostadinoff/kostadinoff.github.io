@@ -58,7 +58,7 @@ There is a second, subtler consequence. Because drafting is cheap, the *volume* 
 
 ## 2. My project structure
 
-Everything I do lives in a study folder with the same shape. I scaffold it with a small shell helper so I never have to think about it, and after a few dozen projects the uniformity itself has become the main benefit: I can open a study from eighteen months ago and know where everything is within about four seconds.
+Everything I do lives in a study folder with the same shape. I scaffold it with a small shell helper so I never have to think about it, and after a few dozen projects the uniformity itself has become the main benefit: I can open a study from eighteen months ago and know where everything is within about four seconds. That helper, and the reference-fetcher I describe below, are in a small [MIT-licensed repository](https://github.com/kostadinoff/research-scaffold) if they are useful to you.
 
 ```
 2026-nhif-antineoplastic-costs/
