@@ -145,6 +145,44 @@ div.quarto-about-trestles .about-links {
   text-decoration: none;
 }
 
+/* ---- Homepage "What I do" cards ---- */
+.home-area {
+  height: 100%;
+  padding: 1.25rem 1.3rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.7rem;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.home-area:hover {
+  transform: translateY(-2px);
+  border-color: var(--bs-primary);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+}
+
+.home-area i {
+  font-size: 1.5rem;
+  color: var(--bs-primary);
+}
+
+.home-area h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.15rem;
+}
+
+.home-area p {
+  font-size: 0.93rem;
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+.home-area .home-area-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
 /* ---- PDF iframe container (study guide) ---- */
 .pdf-container iframe {
   border-radius: 0.6rem;

@@ -9,7 +9,7 @@ toc-depth: 3
 body-classes: blog-post
 ---
 
-Every few months another editorial asks whether artificial intelligence is going to change academic writing. It is the wrong tense. The change is not coming — it arrived, quietly, somewhere in the last three years, while journals were still drafting policies about it and departments were still holding seminars asking whether it would happen at all.
+Every few months another editorial asks whether artificial intelligence is going to change academic writing. It is the wrong tense. The change is not coming — it arrived, quietly, somewhere in the last three years, while journals were still [drafting policies about it](https://doi.org/10.1038/d41586-023-00191-1) and departments were still holding seminars asking whether it would happen at all.
 
 Here is the uncomfortable part. The skill most of us spent a decade acquiring — turning a half-formed thought into a grammatical, publishable English sentence — is now cheap. Not free, not automatic, not always good, but cheap. And for those of us who write in a second language it was never merely a skill: it was a tax, levied on our ideas for reasons that had nothing to do with their quality. That tax has largely been abolished, and remarkably few people in my field have said out loud what follows from it.
 
@@ -31,11 +31,11 @@ Writing is becoming a smaller component of the research workflow. Critical think
 
 Let me be precise about what changed, because "AI changed writing" is too vague to act on.
 
-What changed is **drafting and editing**. The blank page is no longer expensive. Neither is the third revision of a Methods paragraph, nor translating your own Bulgarian-shaped English into something a Cambridge copy-editor would not flinch at. For a non-native speaker in particular — and most of the world's researchers are non-native speakers — this is not a small convenience. It is the removal of a tax that was levied on ideas for reasons that had nothing to do with their quality.
+What changed is **drafting and editing**. The blank page is no longer expensive. Neither is the third revision of a Methods paragraph, nor translating your own Bulgarian-shaped English into something a Cambridge copy-editor would not flinch at. For a non-native speaker in particular — and most of the world's researchers are non-native speakers — this is not a small convenience. The costs of doing science in a second language are real and [measurable](https://doi.org/10.1371/journal.pbio.3002184): more time per paper, more rejections on language grounds, more rounds of revision, none of them related to the quality of the ideas. What has been lifted is the tax I described at the outset.
 
 What did *not* change is everything the sentence is about. A model can smooth the prose in which you report a confounded estimate. It cannot tell you that you have a confounded estimate, and it will report it with exactly the same fluency as an unconfounded one. That asymmetry is the whole story.
 
-The practical consequence is that fluency has stopped being a signal. For a long time, well-written papers were, on average, better papers — not because good prose causes good science, but because the same care and the same seniority produced both. That correlation is now broken. When everyone's Introduction reads well, a well-read Introduction tells you nothing about the study behind it.
+The practical consequence is that fluency has stopped being a signal. For a long time, well-written papers were, on average, better papers — not because good prose causes good science, but because the same care and the same seniority produced both. That correlation is now broken. When everyone's Introduction reads well, polished prose tells you nothing about the study behind it.
 
 So what will distinguish researchers over the next decade? I think it is a fairly short list, and none of it is about sentences:
 
@@ -158,7 +158,7 @@ If drafting is no longer where the effort goes, where should a research trainee 
 
 **Critical appraisal.** Read papers to find the load-bearing assumption and test it. Journal clubs are good for this if they are run adversarially rather than as summary sessions.
 
-**Reproducible research.** Not a virtue; an efficiency. The main beneficiary of a reproducible pipeline is you, six months later, when a reviewer asks for a subgroup analysis and you can produce it in an hour instead of a fortnight.
+**Reproducible research.** Not a virtue; an efficiency. The main beneficiary of a reproducible pipeline is you, at revision time, when a request for a subgroup analysis costs an hour instead of a fortnight.
 
 **Communication.** Which — and I want to be careful here — is not the same as writing. It is knowing what your audience needs, what the actual finding is, and what should be left out. A model can produce the paragraph. It cannot decide that the paragraph should not exist.
 
@@ -214,7 +214,7 @@ The pipeline that results has five properties I care about:
 
 **Publication-quality by default.** Figures are written to PNG through Cairo at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.
 
-**Automatically reported.** Numbers reach the manuscript by inline code, not by transcription. `Median age was 62.4 years` is not typed; it is computed. Typing numbers into prose is a step that has no upside and a well-documented failure rate.
+**Automatically reported.** Numbers reach the manuscript by inline code, not by transcription. `Median age was 62.4 years` is not typed; it is computed. Typing numbers into prose is a step that has no upside and a [well-documented failure rate](https://doi.org/10.3758/s13428-015-0664-2) — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.
 
 **Transparent.** Every decision that could have gone another way is a comment in the script or a line in the README: why these exclusions, why this reference population, why this cut-point.
 

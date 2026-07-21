@@ -1,6 +1,6 @@
 ---
 title: "Kostadin Rangelov Kostadinov"
-subtitle: "MD, PhD, MPH, MSc · Senior Assistant Professor, Medical University of Plovdiv"
+subtitle: "MD, PhD, MPH, MSc · Chief Assistant Professor, Medical University of Plovdiv"
 bibliography: referencelist.bib
 csl: "american-chemical-society.csl"
 nocite: |
@@ -62,7 +62,7 @@ drkostadinkostadinov@gmail.com  |  [GitHub](https://github.com/kostadinoff)  |  
 
 # Education
 
-`October 2026 - Present`
+`Starting October 2026`
 
 - Master’s in Law | Burgas Free University
 

@@ -25,7 +25,12 @@ about:
       text: Web of Science
       href: https://www.webofscience.com/wos/author/record/AEE-9300-2022
 listing:
-  contents: epinews-posts
+  id: recent-posts
+  contents:
+    - epinews-posts
+    - "blog/*.qmd"
+    - "15-minute-learning/*.qmd"
+    - "learning-tasks/*.qmd"
   sort: "date desc"
   type: grid
   max-items: 3
@@ -35,13 +40,15 @@ listing:
   fields: [title, date, description]
 ---
 
-I’m Dr. Kostadin Kostadinov, a medical doctor, Senior Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.
+I'm Dr. Kostadin Kostadinov, a medical doctor, Chief Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.
 
-I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance and a Master's in Impact Assessment and Policy Appraisal from Sofia University, and an MBA in Statistics from the D. A. Tsenov Academy of Economics in Svishtov. Starting October 2026, I am also pursuing a Master’s degree in Law at Burgas Free University.
+I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance and a Master's in Impact Assessment and Policy Appraisal from Sofia University, and a Master's in Statistical Business Consulting from the D. A. Tsenov Academy of Economics in Svishtov. I am currently pursuing a Master's degree in Law at Burgas Free University.
 
-I am the founder of the Social Epidemiology Lab, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.
+Alongside my academic work, I am training as a resident physician in Infectious Disease Epidemiology at MU–Plovdiv and serve as an Associate Editor of the Journal of Medical Internet Research (JMIR).
 
-My academic and professional interests focus on data science, epidemiology, policy evaluation, and health services research.
+I am the founder of the [Social Epidemiology Lab](lab.qmd), a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.
+
+My academic and professional interests focus on **data science**, **epidemiology**, **policy evaluation**, and **health services research**.
 
 This website serves as a space to share my research projects, my R packages (like [kkstatfun](kkstatfun.qmd)), [teaching materials](slides.qmd), 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology.
 All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.
@@ -50,9 +57,67 @@ All opinions expressed here are my own and do not necessarily represent the view
 
 ---
 
-## Recent Epidemiological News
+## What I do
+
+::: {.home-areas .grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.home-area}
+<i class="bi bi-journal-medical"></i>
+
+### Research
+
+Research in epidemiology, health economics, and policy evaluation — published in peer-reviewed journals with reproducible code and open data.
+
+[Explore my CV →](CV.qmd){.home-area-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.home-area}
+<i class="bi bi-easel"></i>
+
+### Teaching
+
+Lecture slides, handouts, 15-minute guides, and interactive notebooks for public health students.
+
+[Browse materials →](slides.qmd){.home-area-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.home-area}
+<i class="bi bi-code-square"></i>
+
+### kkstatfun
+
+An R toolkit for medical statistics — from 2×2 tables to causal inference, survival, and HTA.
+
+[View the package →](kkstatfun.qmd){.home-area-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.home-area}
+<i class="bi bi-building"></i>
+
+### Social Epi Lab
+
+Independent analytics for universities, clinicians, NGOs, and public institutions.
+
+[Learn more →](lab.qmd){.home-area-link}
+:::
+:::
+
+:::
+
+---
+
+## Recent posts
 
 ::: {#recent-posts}
 :::
 
-[View all Epi News →](epinews.qmd){.btn .btn-outline-primary .btn role="button"}
+[Epi News →](epinews.qmd){.btn .btn-outline-primary role="button"}
+[Blog →](blog.qmd){.btn .btn-outline-primary role="button"}
+[15-minute learning →](learning.qmd){.btn .btn-outline-primary role="button"}
