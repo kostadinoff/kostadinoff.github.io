@@ -1,0 +1,55 @@
+<svg viewBox="0 0 880 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Expanding-brain meme in four stages: rerunning a closed SPSS analysis, pasting SPSS tables into Word, writing an R script, and a 00_run_all.R script that regenerates every number from raw data">
+  <defs>
+    <g id="brain" stroke-linecap="round">
+      <ellipse cx="0" cy="0" rx="50" ry="39"/>
+      <ellipse cx="28" cy="24" rx="19" ry="13"/>
+      <path d="M-35,-12 Q-20,-30 0,-18" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="4"/>
+      <path d="M-8,-24 Q10,-32 26,-14" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="4"/>
+      <path d="M-32,8 Q-8,0 8,10 Q20,16 32,4" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="4"/>
+    </g>
+    <radialGradient id="gSlate"><stop offset="0%" stop-color="#35506A" stop-opacity="0.28"/><stop offset="100%" stop-color="#35506A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gBronze"><stop offset="0%" stop-color="#8A5A24" stop-opacity="0.30"/><stop offset="100%" stop-color="#8A5A24" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gGold"><stop offset="0%" stop-color="#C9922C" stop-opacity="0.40"/><stop offset="100%" stop-color="#C9922C" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="877" height="647" rx="14" fill="#FBFAF8" stroke="#B9C2C9" stroke-width="1.5"/>
+
+  <text x="36" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#1E2A33">The four stages of reproducibility enlightenment</text>
+  <line x1="16" y1="64" x2="864" y2="64" stroke="#E4E1DB"/>
+  <line x1="16" y1="208" x2="864" y2="208" stroke="#E4E1DB"/>
+  <line x1="16" y1="352" x2="864" y2="352" stroke="#E4E1DB"/>
+  <line x1="16" y1="496" x2="864" y2="496" stroke="#E4E1DB"/>
+
+  <!-- stage 1 -->
+  <text x="36" y="128" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" fill="#6B747C">Running the whole analysis again</text>
+  <text x="36" y="154" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" fill="#6B747C">because the output window was closed</text>
+  <use href="#brain" transform="translate(720,136) scale(0.52)" fill="#A7AFB6"/>
+
+  <!-- stage 2 -->
+  <text x="36" y="272" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" fill="#2F353B">Pasting SPSS tables into Word,</text>
+  <text x="36" y="298" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" fill="#2F353B">one screenshot at a time</text>
+  <circle cx="720" cy="280" r="52" fill="url(#gSlate)"/>
+  <use href="#brain" transform="translate(720,280) scale(0.64)" fill="#35506A"/>
+
+  <!-- stage 3 -->
+  <text x="36" y="416" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" font-weight="600" fill="#2F353B">Writing an R script that saves</text>
+  <text x="36" y="442" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" font-weight="600" fill="#2F353B">its own figures and tables</text>
+  <circle cx="720" cy="424" r="66" fill="url(#gBronze)"/>
+  <use href="#brain" transform="translate(720,424) scale(0.76)" fill="#8A5A24"/>
+
+  <!-- stage 4 -->
+  <text x="36" y="560" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#1E2A33"><tspan font-family="'JetBrains Mono', Consolas, monospace">00_run_all.R</tspan> regenerates every number,</text>
+  <text x="36" y="586" font-family="'Segoe UI', system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#1E2A33">table and figure from the raw data</text>
+  <circle cx="720" cy="568" r="76" fill="url(#gGold)"/>
+  <g stroke="#C9922C" stroke-width="3.5" stroke-linecap="round">
+    <line x1="778" y1="568" x2="796" y2="568"/>
+    <line x1="761" y1="527" x2="774" y2="514"/>
+    <line x1="720" y1="510" x2="720" y2="492"/>
+    <line x1="679" y1="527" x2="666" y2="514"/>
+    <line x1="662" y1="568" x2="644" y2="568"/>
+    <line x1="679" y1="609" x2="666" y2="622"/>
+    <line x1="720" y1="626" x2="720" y2="644"/>
+    <line x1="761" y1="609" x2="774" y2="622"/>
+  </g>
+  <use href="#brain" transform="translate(720,568) scale(0.92)" fill="#C9922C"/>
+</svg>

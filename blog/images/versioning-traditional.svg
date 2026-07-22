@@ -1,0 +1,62 @@
+<svg viewBox="0 0 880 556" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mock file-explorer window with eight versions of Dissertation_final.docx; the status bar reads: version control: none detected">
+  <!-- window -->
+  <rect x="1.5" y="1.5" width="877" height="553" rx="12" fill="#FFFFFF" stroke="#B9C2C9" stroke-width="1.5"/>
+  <!-- title bar -->
+  <path d="M1.5 13.5 a12 12 0 0 1 12 -12 h853 a12 12 0 0 1 12 12 v32 h-877 z" fill="#1E2A33"/>
+  <circle cx="26" cy="23.5" r="6" fill="#D96C5F"/>
+  <circle cx="46" cy="23.5" r="6" fill="#E3B54E"/>
+  <circle cx="66" cy="23.5" r="6" fill="#6FAE6B"/>
+  <text x="440" y="28.5" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.92">THESIS — File Explorer</text>
+
+  <!-- address bar -->
+  <rect x="16" y="58" width="846" height="30" rx="6" fill="#F3EFE9" stroke="#E2DCD2"/>
+  <text x="28" y="78" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#5B6167">C:\Users\phd\Desktop\THESIS</text>
+
+  <!-- column headers -->
+  <text x="56" y="116" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#8A939B">Name</text>
+  <text x="584" y="116" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#8A939B">Date modified</text>
+  <text x="772" y="116" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#8A939B">Size</text>
+  <line x1="16" y1="126" x2="862" y2="126" stroke="#E4E1DB"/>
+
+  <!-- rows -->
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#2F353B">
+    <!-- selection highlight for the last row -->
+    <rect x="12" y="436" width="854" height="42" rx="6" fill="#35506A" fill-opacity="0.12"/>
+
+    <g font-family="'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="13.5" fill="#FFFFFF">
+      <rect x="22" y="141" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="161" text-anchor="middle">W</text>
+      <rect x="22" y="184" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="204" text-anchor="middle">W</text>
+      <rect x="22" y="227" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="247" text-anchor="middle">W</text>
+      <rect x="22" y="270" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="290" text-anchor="middle">W</text>
+      <rect x="22" y="313" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="333" text-anchor="middle">W</text>
+      <rect x="22" y="356" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="376" text-anchor="middle">W</text>
+      <rect x="22" y="399" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="419" text-anchor="middle">W</text>
+      <rect x="22" y="442" width="25" height="29" rx="4" fill="#2B579A"/><text x="34.5" y="462" text-anchor="middle">W</text>
+    </g>
+
+    <text x="56" y="161">Dissertation.docx</text>
+    <text x="56" y="204">Dissertation_final.docx</text>
+    <text x="56" y="247">Dissertation_final2.docx</text>
+    <text x="56" y="290">Dissertation_final2_supervisor.docx</text>
+    <text x="56" y="333">Dissertation_final_REAL.docx</text>
+    <text x="56" y="376">Dissertation_final_REAL(1).docx</text>
+    <text x="56" y="419">Dissertation_final_REAL_submitted.docx</text>
+    <text x="56" y="462" font-weight="700">Dissertation_final_REAL_submitted_v3_THIS_ONE.docx</text>
+  </g>
+
+  <g font-family="'Segoe UI', system-ui, sans-serif" font-size="13" fill="#5B6167">
+    <text x="584" y="161">12.03.2025 09:14</text><text x="772" y="161">4.2 MB</text>
+    <text x="584" y="204">28.04.2025 16:02</text><text x="772" y="204">4.9 MB</text>
+    <text x="584" y="247">06.05.2025 11:37</text><text x="772" y="247">5.1 MB</text>
+    <text x="584" y="290">19.05.2025 08:45</text><text x="772" y="290">5.0 MB</text>
+    <text x="584" y="333">02.06.2025 21:19</text><text x="772" y="333">5.2 MB</text>
+    <text x="584" y="376">02.06.2025 21:20</text><text x="772" y="376">5.2 MB</text>
+    <text x="584" y="419">11.06.2025 17:58</text><text x="772" y="419">5.3 MB</text>
+    <text x="584" y="462">30.06.2025 23:47</text><text x="772" y="462">5.4 MB</text>
+  </g>
+
+  <!-- status bar -->
+  <line x1="16" y1="492" x2="862" y2="492" stroke="#E4E1DB"/>
+  <text x="20" y="520" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" fill="#5B6167">8 items&#160;&#160;&#183;&#160;&#160;1 item selected&#160;&#160;&#183;&#160;&#160;5.4 MB</text>
+  <text x="858" y="520" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-style="italic" font-weight="600" fill="#8A5A24">version control: none detected</text>
+</svg>

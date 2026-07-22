@@ -9,8 +9,556 @@
 <link>https://kostadinoff.github.io/blog.html</link>
 <atom:link href="https://kostadinoff.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on research workflows, epidemiological methods, and scientific tooling.</description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Sun, 19 Jul 2026 21:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.3</generator>
+<lastBuildDate>Tue, 21 Jul 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>The PhD Curriculum Is Preparing Researchers for Yesterday</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/blog/phd-curriculum.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>In the <a href="../blog/academic-writing-setup.html">previous post</a> I argued that academic writing has already changed — that producing clean prose is no longer the bottleneck, and that the value has moved into design, analysis, reproducibility and judgement. This post is the natural sequel, and the less comfortable one: if research has changed, what about the way we train researchers?</p>
+<p>Let me start where I intend to finish, because this is not a hostile post. Our doctoral school is run by people I know and respect. The programme covers real and necessary ground — research ethics, publication practice, study methodology, academic language — taught by colleagues who show up and care. Several of its lectures are on exactly the right topics: there is a session on causal modelling, one on qualitative methods, one on survey design, and — genuinely ahead of many programmes — one on the principles of transparent and reproducible scientific data. The foundations are not wrong.</p>
+<p>The proportions are. Research practice has transformed more in the last five years than in the previous twenty-five, and the curriculum has, as far as I can tell, transformed hardly at all. I recently sat down with the current group study plan and a calculator, and this post is what the calculator said.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The short version
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The doctoral curriculum spends 40 hours teaching one statistics package, 60 hours teaching languages, and 3 hours teaching epidemiology. It contains no R, no Python, no version control, no terminal, no data management, and no mention of artificial intelligence — the single largest change to research practice in a generation. None of the existing content needs to be abolished. It needs to be <em>rebalanced</em>, and the curriculum’s own facultative track already provides the mechanism.</p>
+</div>
+</div>
+<section id="the-curriculum-by-the-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="the-curriculum-by-the-numbers">1. The curriculum, by the numbers</h2>
+<p>The plan totals 156 compulsory hours, of which a doctoral student needs 120 hours and 30 points to be admitted to defence. Here is how those hours are distributed:</p>
+<table class="caption-top table">
+<caption>The compulsory doctoral-school timetable, grouped. Software and language instruction together account for 100 of 156 hours — just under two-thirds of the programme.</caption>
+<colgroup>
+<col style="width: 84%">
+<col style="width: 4%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Block</th>
+<th style="text-align: right;">Hours</th>
+<th style="text-align: right;">Share</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SPSS course</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">26 %</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bulgarian for academic purposes</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">19 %</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Foreign language (English, German or French)</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">19 %</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">All research-methods lectures combined — epidemiology, statistics, systematic reviews, causal modelling, reproducible data, qualitative methods, surveys, experimental methods</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">13 %</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Everything else — ethics, publishing, pedagogy, administration, funding, law, and assorted topics</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">23 %</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>of which: epidemiology, specifically</em></td>
+<td style="text-align: right;"><em>3</em></td>
+<td style="text-align: right;"><em>2 %</em></td>
+</tr>
+</tbody>
+</table>
+<p>The points arithmetic is even more striking than the hours. The SPSS course carries 10 points; the two language courses carry 7.5 each. A doctoral student can therefore earn 25 of the 30 points required for admission to defence — 83 per cent — from software clicking and grammar, without encountering a single research method.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kostadinoff.github.io/blog/images/curriculum-hours.svg" class="img-fluid figure-img" alt="Horizontal bar chart of compulsory doctoral-school hours: SPSS 40, ethics/publishing/administration 36, academic Bulgarian 30, foreign language 30, all research-methods lectures 20, of which epidemiology 3, drawn in bronze. A footnote lists what receives zero hours: R, Python, git, the terminal, data management, and AI."></p>
+<figcaption>The same table, drawn honestly. The bronze bar is the discipline the entire dissertation rests on.</figcaption>
+</figure>
+</div>
+<p>And within the remaining lecture programme, the allocation has a certain accidental poetry. Causal inference and phytotherapy receive equal time. So do chromatographic methods and the principles of reproducible science. Epidemiology — the discipline that underpins essentially every clinical dissertation the university produces — receives one lecture: three hours, two per cent of the timetable.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>What this post is not
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is not an argument that any current lecture is worthless, and it is emphatically not a criticism of the lecturers, some of whom are working well ahead of the structure they teach within. Every topic in the plan is defensible on its own. The argument is about <em>allocation</em>: what occupies two-thirds of the timetable versus what occupies none of it. Curricula are budgets, and budgets reveal priorities whether or not anyone intended them to.</p>
+</div>
+</div>
+</section>
+<section id="the-typewriter-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-typewriter-problem">2. The typewriter problem</h2>
+<p>Imagine a modern course on transportation that opens with a full semester on the care and maintenance of the horse-drawn carriage. Nobody would defend it by pointing out that carriages genuinely existed and genuinely worked — both true — because the objection was never that carriages are <em>wrong</em>. The objection is that they no longer deserve the first semester.</p>
+<p>Teaching only SPSS to a doctoral student in 2026 is drifting into the same territory: teaching the mechanical typewriter, thoroughly and with genuine expertise, to someone who will spend their career at a laptop. SPSS is not wrong. Menu-driven analysis produced decades of legitimate science, and knowing it still has value — the same way knowing how to read a paper map still has value. But we now teach it as though GPS had not been invented, and the timetable is the tell: forty hours for the software, four for the statistical reasoning it is supposed to serve. We spend ten times longer teaching where to click than teaching what the clicking means.</p>
+<p>The same pattern repeats in literature searching. Students learn Boolean operators in careful detail — <code>AND</code>, <code>OR</code>, the placement of brackets, field tags — and this is <em>still genuinely necessary</em>, because a systematic review requires a reproducible search string and PRISMA will ask for it. But it is taught as the whole of the skill, in a world where AI tools draft a competent search strategy in seconds and <a href="https://doi.org/10.1038/s42256-020-00287-7">machine-learning screeners</a> can triage a thousand abstracts before lunch. The scarce skill has moved: it is no longer constructing the query but <em>verifying</em> what comes back. We teach the 1995 half of the workflow and are silent about the 2026 half.</p>
+<p>Meanwhile many of our students can produce a <code>.sav</code> file but not a reusable research project. They learn where to click, but not how a research pipeline fits together. That is the gap this post is about.</p>
+</section>
+<section id="what-is-missing" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-missing">3. What is missing</h2>
+<p>Six things, in the order I would teach them. Each comes with a hands-on taste of what the teaching would look like, because the argument for these tools is best made by showing how small they are.</p>
+<section id="plain-text-markdown-pandoc-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="plain-text-markdown-pandoc-quarto">3.1 Plain text: Markdown, Pandoc, Quarto</h3>
+<p>The single highest-leverage change to a research-writing workflow is also the simplest: write in plain text. <a href="https://www.markdownguide.org/">Markdown</a> takes roughly fifteen minutes to learn in its entirety:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">## Results</span></span>
+<span id="cb1-2"></span>
+<span id="cb1-3">A total of **1,284 patients** were included. Median age was 62 years</span>
+<span id="cb1-4">(IQR 54–71); 47 % were female.</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">- </span>Crude mortality: 8.2 %</span>
+<span id="cb1-7"><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">- </span>Adjusted OR for the exposed group: 1.94 (95 % CI 1.31–2.87)</span>
+<span id="cb1-8"></span>
+<span id="cb1-9">As shown in @fig-survival, the curves separate after day 10.</span>
+<span id="cb1-10">The effect is consistent with earlier reports <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">@petrov2024sepsis</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span>.</span></code></pre></div></div>
+<p>That is the entire skill. And yet it unlocks the whole modern publishing chain: <a href="https://pandoc.org">Pandoc</a> converts it to anything, and <a href="https://quarto.org">Quarto</a> turns it into a complete academic manuscript system — numbered figures and tables, cross-references, and citations pulled automatically from a <a href="https://www.bibtex.org/">BibTeX</a> file managed with <a href="https://www.zotero.org">Zotero</a> and <a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX</a>. A minimal manuscript header:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Antibiotic prescribing in Bulgarian primary care, 2019–2025"</span></span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">author</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"K. Kostadinov"</span></span>
+<span id="cb2-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">bibliography</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> references.bib</span></span>
+<span id="cb2-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">csl</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> vancouver.csl</span></span>
+<span id="cb2-6"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div></div>
+<p>And then one file renders to every format anyone will ever demand of you:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> render paper.qmd <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--to</span> pdf    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># for the preprint</span></span>
+<span id="cb3-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> render paper.qmd <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--to</span> html   <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># for the website</span></span>
+<span id="cb3-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> render paper.qmd <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--to</span> docx   <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># for the co-author who insists</span></span></code></pre></div></div>
+<p>Change the journal, change one <code>csl:</code> line, and every citation reformats itself. Students still learn Boolean operators in detail, yet many have never written a Markdown document — and of the two skills, this is the one they will use every working day for the rest of their careers.</p>
+</section>
+<section id="the-terminal" class="level3">
+<h3 class="anchored" data-anchor-id="the-terminal">3.2 The terminal</h3>
+<p>The command line looks like the <em>most</em> old-fashioned item on this list, which is the joke hiding inside the whole argument: the “typewriter” here is the point-and-click interface, and the terminal is the modern tool. It is the highest-ROI computing skill a researcher can acquire, because it turns entire categories of tedious manual work into single lines:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Which of these 300 exported files actually contains the variable "egn"?</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">grep</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-l</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"egn"</span> exports/<span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">*</span>.csv</span>
+<span id="cb4-3"></span>
+<span id="cb4-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># How many records are in each district's export?</span></span>
+<span id="cb4-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">wc</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-l</span> data/districts/<span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">*</span>.csv</span>
+<span id="cb4-6"></span>
+<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Convert every SPSS file in a folder to CSV — the bridge out of .sav world</span></span>
+<span id="cb4-8"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> f <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">*</span>.sav<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">;</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">do</span></span>
+<span id="cb4-9">  <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">Rscript</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-e</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"haven::read_sav('</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$f</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">') |&gt; readr::write_csv('</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">${f</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span>.sav<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">.csv')"</span></span>
+<span id="cb4-10"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">done</span></span></code></pre></div></div>
+<p>Each of those replaces an afternoon of opening files one by one. A two-hour introduction — navigation, wildcards, loops, <code>grep</code>, and the discipline of doing things in a way that can be repeated — pays for itself within the month. It is also the doorway to everything else on this list: git lives there, Quarto renders there, and every server the student will ever touch speaks nothing else.</p>
+</section>
+<section id="version-control" class="level3">
+<h3 class="anchored" data-anchor-id="version-control">3.3 Version control</h3>
+<p>Every research group has seen this folder, and most have produced it:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kostadinoff.github.io/blog/images/versioning-traditional.svg" class="img-fluid figure-img" alt="A mock file-explorer window titled THESIS showing eight files: Dissertation.docx, Dissertation_final.docx, Dissertation_final2.docx, Dissertation_final2_supervisor.docx, Dissertation_final_REAL.docx, Dissertation_final_REAL(1).docx, Dissertation_final_REAL_submitted.docx and Dissertation_final_REAL_submitted_v3_THIS_ONE.docx, the last one saved at 23:47. The status bar reads: version control: none detected."></p>
+<figcaption>A field recording from the wild. Note the timestamps on rows five and six — two REAL versions, one minute apart.</figcaption>
+</figure>
+</div>
+<p>This is version control, implemented badly, by hand, under stress. <a href="https://git-scm.com">Git</a> is the same instinct implemented properly, and the working core of it is four commands:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> init</span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add analysis.R manuscript.qmd</span>
+<span id="cb5-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Add baseline model: unadjusted OR 2.1 (1.5-2.9)"</span></span>
+<span id="cb5-4"></span>
+<span id="cb5-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># six months later, when a reviewer asks what changed and why:</span></span>
+<span id="cb5-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> log <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--oneline</span></span></code></pre></div></div>
+<p>As I argued in the previous post, git’s value in research is not really collaboration — it is a <em>history of your reasoning</em>, which for a doctoral student is close to a dissertation-defence superpower: every analytical decision, dated, explained, and reversible. Add <a href="https://github.com">GitHub</a> and the project survives a stolen laptop, which at least one student per cohort will discover the hard way. There is no version-control anywhere in our current 156 hours.</p>
+</section>
+<section id="data-management" class="level3">
+<h3 class="anchored" data-anchor-id="data-management">3.4 Data management</h3>
+<p>The data equivalent of the <code>final_REAL.docx</code> folder is <code>data_new_final2.xlsx</code>, and it is not funny when it happens to three years of patient records. What a doctoral student needs is a small set of unglamorous conventions — the literature politely calls them <a href="https://doi.org/10.1371/journal.pcbi.1005510">“good enough practices”</a>, which is exactly the right ambition for year one:</p>
+<p><strong>Tidy structure.</strong> One row per observation, one column per variable, one value per cell — no merged cells, no colour-as-information, no three tables sharing a worksheet. This is <a href="https://doi.org/10.18637/jss.v059.i10">“tidy data”</a>, and it is the difference between a dataset an analysis can read and a decorated screenshot.</p>
+<p><strong>Open formats.</strong> CSV outlives everything. A <code>.sav</code> file assumes the reader owns a licence for one company’s product; a CSV assumes the reader owns a computer. Spreadsheets, meanwhile, edit your data when you are not looking: a systematic audit found Excel had <a href="https://doi.org/10.1186/s13059-016-1044-7">silently converted gene names into dates</a> in roughly a fifth of published genomics supplements — an error class so durable that the genetics community eventually surrendered and renamed the genes. For data that outgrow spreadsheets, <a href="https://sqlite.org">SQLite</a> and <a href="https://duckdb.org">DuckDB</a> are free, single-file databases that a student can learn in an afternoon.</p>
+<p><strong>A data dictionary.</strong> Every dataset ships with a table describing itself — because in two years, nobody, including the author, will remember whether <code>sex = 1</code> meant male or female:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 39%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">units / values</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">pseudonymised patient id</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">age</td>
+<td style="text-align: left;">integer</td>
+<td style="text-align: left;">years</td>
+<td style="text-align: left;">age at admission</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">m / f</td>
+<td style="text-align: left;">sex as recorded at admission</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bmi</td>
+<td style="text-align: left;">numeric</td>
+<td style="text-align: left;">kg/m²</td>
+<td style="text-align: left;">measured at admission</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">outcome</td>
+<td style="text-align: left;">factor</td>
+<td style="text-align: left;">discharged / died / transferred</td>
+<td style="text-align: left;">status at 30 days</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Immutable raw data.</strong> The original export is read-only, forever; every correction happens in a script that documents what was wrong.</p>
+<p>None of this is difficult. All of it is absent from the curriculum — at the exact moment when the <a href="https://doi.org/10.1038/sdata.2016.18">FAIR principles</a> have moved from aspiration to funding condition, and Horizon Europe will not sign off a grant without a data-management plan. We are not teaching the paperwork our own students’ future funding requires.</p>
+</section>
+<section id="programming" class="level3">
+<h3 class="anchored" data-anchor-id="programming">3.5 Programming</h3>
+<p>Not to make software engineers — to cross one specific threshold: the point where writing a script becomes <em>easier</em> than doing the task by hand, because past that point reproducibility happens as a side effect of laziness. Compare the same analysis in our current curriculum and in one line of <a href="https://www.r-project.org">R</a>:</p>
+<blockquote class="blockquote">
+<p><em>Analyze ▸ Compare Means ▸ Independent-Samples T Test ▸ drag <code>bmi</code> to Test Variables ▸ drag <code>sex</code> to Grouping Variable ▸ Define Groups… ▸ OK</em></p>
+</blockquote>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">t.test</span>(bmi <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> sex, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> patients)</span></code></pre></div></div>
+<p>The difference is not speed, though the script wins. The difference is that one of these can be saved, shared, diffed, cited, reviewed and rerun unchanged in a year — and the other is a memory. A click path <em>is</em> an analysis; it is just an analysis that evaporates on completion. When the reviewer asks for the same model excluding one hospital, the script user changes one line; the click user starts over and hopes to click identically.</p>
+<p>R or <a href="https://www.python.org">Python</a>, one of them, <a href="https://doi.org/10.1371/journal.pbio.1001745">taught for research rather than for computer science</a> — data in, cleaning, model, figure, table out. Twenty hours gets a motivated student to self-sufficiency, and free curricula already exist to be borrowed from wholesale: <a href="https://software-carpentry.org">Software Carpentry</a>, <a href="https://r4ds.hadley.nz/">R for Data Science</a>, <a href="https://book.the-turing-way.org">The Turing Way</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kostadinoff.github.io/blog/images/expanding-brain.svg" class="img-fluid figure-img" alt="A four-stage expanding-brain-style illustration: a small dim brain for rerunning the whole analysis because the SPSS output window was closed; a brighter brain for pasting SPSS tables into Word one screenshot at a time; a glowing brain for writing an R script that saves its own figures and tables; and a radiant brain with rays for a 00_run_all.R script that regenerates every number, table and figure from the raw data."></p>
+<figcaption>The path is well documented. Most of us met stage one personally.</figcaption>
+</figure>
+</div>
+</section>
+<section id="ai-literacy" class="level3">
+<h3 class="anchored" data-anchor-id="ai-literacy">3.6 AI literacy</h3>
+<p>The largest change in research practice in a generation appears in our doctoral curriculum exactly zero times. Not as a tool, not as a policy, not even as a warning.</p>
+<p>The students, of course, have not waited. <a href="https://doi.org/10.1038/d41586-023-02980-0">Surveys of researchers</a> already show these tools embedded across the workflow, and doctoral students are the heaviest adopters — for translation, for drafting, for literature triage, for code — unguided, undisclosed and untaught, which is precisely the worst available combination. A doctoral school cannot ban its way out of this, and silence is not neutrality; silence just outsources the teaching to TikTok. The choice is not whether doctoral students will use AI. It is whether the first serious conversation about verification and disclosure happens in a classroom or in a misconduct hearing.</p>
+<p>What should actually be taught is not “use ChatGPT.” It is a set of professional skills:</p>
+<ul>
+<li><strong>Prompting as specification</strong> — describing a task precisely enough to get useful work back, which is itself excellent training in thinking clearly about the task.</li>
+<li><strong>Verification as the core discipline</strong> — every factual claim checked, every reference resolved to a real paper <em>and read</em>, because <a href="https://doi.org/10.1038/s41598-023-41032-x">models fabricate citations fluently</a> and a fabricated citation in a dissertation is a career-level event.</li>
+<li><strong>Literature work with grounded tools</strong> — <a href="https://elicit.com">Elicit</a> and <a href="https://www.perplexity.ai">Perplexity</a> for citation-linked search, <a href="https://notebooklm.google.com">NotebookLM</a> for interrogating a corpus of papers <em>you selected</em>, alongside — not instead of — the reproducible Boolean search the library already teaches.</li>
+<li><strong>Coding assistants</strong> — <a href="https://claude.ai">Claude</a>, <a href="https://chatgpt.com">ChatGPT</a>, <a href="https://gemini.google.com">Gemini</a> as accelerators for analysis code the student can already read, never as oracles for code they cannot.</li>
+<li><strong>Disclosure and ethics</strong> — what <a href="https://doi.org/10.1038/d41586-023-00191-1">journal policies</a> actually require, what patient data must never be pasted into a chat window, and where responsibility sits: always with the author, because <a href="https://doi.org/10.1126/science.adg7879">a model is a tool, not a co-author</a>.</li>
+</ul>
+<p>The boundary rule I gave in the previous post applies with double force to trainees: these tools are for work you <em>could</em> do slowly, never for work you could not do at all. Teaching students to hold that line is exactly what a doctoral school is for.</p>
+</section>
+<section id="epidemiology-and-statistics-in-adult-doses" class="level3">
+<h3 class="anchored" data-anchor-id="epidemiology-and-statistics-in-adult-doses">3.7 Epidemiology and statistics, in adult doses</h3>
+<p>Finally, the two subjects the school already teaches — at homeopathic dilution.</p>
+<p>Three hours of epidemiology, in a medical university, is not a syllabus; it is a trailer. Every clinical dissertation the institution produces is, at bottom, an exercise in epidemiological reasoning — and bias, confounding, study design, validity and the hierarchy of evidence cannot be installed in a single afternoon. These are also precisely the skills that AI makes <em>more</em> valuable, not less: a model will happily and fluently describe a confounded estimate, and only a trained reader will notice. The reporting guidelines every journal now enforces — <a href="https://www.strobe-statement.org/">STROBE</a>, <a href="https://www.consort-statement.org/">CONSORT</a>, <a href="https://www.prisma-statement.org/">PRISMA</a> — are epidemiological reasoning in checklist form; students should meet them before their first submission, not during it.</p>
+<p>Statistics has the inverse problem: the hours exist, but they are spent on the container rather than the content. Forty hours of SPSS against four hours of statistical methodology means a student learns to <em>run</em> a t-test long before, and possibly instead of, learning what one assumes. The existing two-hour session on causal modelling shows the school knows what direction to face — regression as a general tool, mixed models for the clustered data every clinical student actually has, causal thinking, uncertainty, visualisation as argument. It simply needs more than two hours to face it in.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>A starter syllabus, entirely free of charge
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Everything in this section can be taught from materials that cost nothing — which will matter again in a moment:</p>
+<ul>
+<li><a href="https://book.the-turing-way.org">The Turing Way</a> — a community handbook of reproducible, ethical data science; the closest thing to a ready-made curriculum for exactly the gap described here.</li>
+<li><a href="https://software-carpentry.org">Software Carpentry</a> and <a href="https://datacarpentry.org">Data Carpentry</a> — battle-tested two-day workshop curricula (Unix shell, git, R, Python, spreadsheets, SQL), openly licensed and designed to be taught by local instructors.</li>
+<li><a href="https://r4ds.hadley.nz/">R for Data Science</a> — the standard free textbook for modern R.</li>
+<li><a href="https://happygitwithr.com">Happy Git and GitHub for the useR</a> — version control specifically for researchers who have never seen it.</li>
+<li><a href="https://quarto.org/docs/get-started/">Quarto’s Get Started guide</a> — from zero to a rendered manuscript in an hour.</li>
+<li><a href="https://doi.org/10.1371/journal.pcbi.1005510">“Good enough practices in scientific computing”</a> — the single paper I would set as required reading before a student touches their first dataset.</li>
+<li>The <a href="https://doi.org/10.1038/sdata.2016.18">FAIR principles</a> and a <a href="https://doi.org/10.1038/s42256-020-00287-7">machine-learning screening framework</a> for systematic reviews — the two papers that explain what funders and evidence synthesis now expect.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="a-modest-reallocation" class="level2">
+<h2 class="anchored" data-anchor-id="a-modest-reallocation">4. A modest reallocation</h2>
+<p>Here is the constructive version of the complaint — the same 156 hours, redistributed. Nothing is abolished; the languages and SPSS survive; only the proportions move.</p>
+<table class="caption-top table">
+<caption>One possible rebalancing. The exact numbers are an opening bid, not a demand — the point is the shape: methods and computation grow from 30 % of the timetable to roughly 55 %, and no topic disappears.</caption>
+<colgroup>
+<col style="width: 67%">
+<col style="width: 13%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Component</th>
+<th style="text-align: right;">Hours now</th>
+<th style="text-align: right;">Hours proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SPSS (as one tool among several, not the default)</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">R or Python for research</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Git, reproducible workflows, project structure</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Data management, tidy data, documentation, FAIR</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AI literacy for research</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Epidemiology</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Statistical reasoning beyond the basics</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Academic Bulgarian and foreign language</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ethics, publishing, administration, everything else</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: right;"><strong>156</strong></td>
+<td style="text-align: right;"><strong>156</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The language reduction deserves one honest sentence, because 60 hours is the second-largest block in the plan: as I argued <a href="../blog/academic-writing-setup.html">in the previous post</a>, producing grammatical academic English is now the <em>most</em> automatable task in the entire research workflow. The <a href="https://doi.org/10.1371/journal.pbio.3002184">well-measured tax on second-language researchers</a> — more time per paper, more rejections on language grounds — has largely been abolished. Spending a fifth of the doctoral timetable paying an abolished tax is exactly the kind of allocation that made me reach for the calculator.</p>
+</section>
+<section id="the-mechanism-already-exists" class="level2">
+<h2 class="anchored" data-anchor-id="the-mechanism-already-exists">5. The mechanism already exists</h2>
+<p>The most encouraging thing I found in the study plan is procedural. Alongside the compulsory programme, the plan provides for <em>facultative disciplines and guest lectures</em>, updated with each revision of the plan — which happens twice per academic year, with the resulting points counting on top of the compulsory minimum.</p>
+<p>That is a pilot mechanism, already approved, already in the document. No committee needs to abolish anything, and nobody’s existing course needs to shrink on day one. A single facultative module — <em>Modern research workflows: R, git, Quarto and AI for doctoral students</em>, twenty hours, hands-on, laptops open — could be proposed at the next semi-annual update. If the demand is what I think it is, the enrolment numbers will make the argument for rebalancing the compulsory core far more persuasively than this post can. If I am wrong, the experiment was cheap.</p>
+<p>I am, for the record, volunteering.</p>
+</section>
+<section id="why-this-matters-the-leading-institution-argument" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-the-leading-institution-argument">6. Why this matters: the leading-institution argument</h2>
+<p>The argument that actually moves institutions is not about tools; it is about position — and it has five parts.</p>
+<p><strong>The ground has already shifted, publicly.</strong> A decade ago, <a href="https://doi.org/10.1038/533452a">Nature surveyed 1,576 scientists</a> and found that most had failed to reproduce another researcher’s experiment — and half had failed to reproduce their own. The response of the leading institutions was not embarrassment but infrastructure: the <a href="https://doi.org/10.1038/s41562-016-0021">manifesto for reproducible science</a> that followed put <em>training</em> first on its list of remedies, ahead of incentives and ahead of policy. Reproducibility moved from a private virtue to a public criterion by which institutions are judged. A doctoral school that does not teach it is not staying neutral; it is visibly on the wrong side of a line the field has already drawn.</p>
+<p><strong>The rules of the game are now written down.</strong> <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949">UNESCO’s Recommendation on Open Science</a> — adopted unanimously by 193 countries, Bulgaria included — commits member states to exactly the practices this post describes. <a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en">Horizon Europe</a> does not merely encourage open science; it <em>scores</em> it in proposal evaluation and requires a data-management plan as a contractual deliverable. Journals increasingly require code and data availability; systematic reviews increasingly assume machine-assisted screening. <a href="https://www.leru.org/publications/open-science-and-its-role-in-universities-a-roadmap-for-cultural-change">LERU, the league of Europe’s research universities</a>, calls the transition a “cultural change” that universities must <em>manage</em>, not await. These are the rules our students are entering the game under — and none of them are covered in the 156 hours we require. Meanwhile the doctoral schools we benchmark against, the ones aligned with <a href="https://orpheus-med.org/">ORPHEUS standards</a> for biomedical PhD training, have made transferable research-skills training a criterion of programme quality, and initiatives like <a href="https://carpentries.org">the Carpentries</a> have taught reproducible computing to tens of thousands of researchers worldwide. Our graduates will compete with theirs — for the same grants, the same journals, the same positions.</p>
+<p><strong>Leading is cheaper than lagging.</strong> Here is the budget line that makes this proposal unusual: there isn’t one. R, Python, git, Quarto, Pandoc, SQLite, DuckDB and every item on the starter syllabus above are free, in both senses. The one statistical product we currently organise a forty-hour course around is the one that bills the university annually, per seat. A curriculum built on open tooling is not an expensive modernisation to be scheduled for some richer future year — it is a <em>cost reduction</em> with better outcomes attached. Institutions rarely get offered that trade.</p>
+<p><strong>First movers collect the students.</strong> Doctoral candidates in Bulgaria are a shrinking and increasingly mobile pool, and the strong ones choose programmes the way strong programmes choose them: by asking what they will actually learn. No Bulgarian medical university currently teaches AI-era, reproducible, computational research practice as part of its doctoral core. The first one to do it acquires something rankings cannot buy — the reputation, spread student-to-student, of being the place where doctoral training matches the decade you graduate into. That reputation compounds: methodologically fluent graduates win grants, grants fund groups, groups attract the next cohort, and international consortia — who select partners partly on data competence — start calling rather than being called. Leadership in research training is one of the few forms of institutional leadership that a medium-sized university in a medium-sized country can simply <em>decide</em> to take.</p>
+<p><strong>The hidden curriculum is running anyway.</strong> The students who need these skills are learning them now — from YouTube, from each other, from trial and error at midnight. The curriculum’s silence does not prevent the learning; it just guarantees the learning is unsystematic, unexamined and unequal, favouring the students with the confidence and connections to self-teach. A doctoral school exists precisely so that this kind of learning is not left to luck.</p>
+<p>A researcher who understands epidemiology, statistics, reproducible workflows and the honest use of AI will not merely publish more. They will produce science that is more transparent, more checkable, and more likely to be <em>right</em> — and they will train the next cohort in turn. That compounding is how institutions actually rise; preserving yesterday’s workflows, however dedicatedly, is how they quietly stop rising.</p>
+</section>
+<section id="what-i-am-actually-asking-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-am-actually-asking-for">7. What I am actually asking for</h2>
+<p>Not the abolition of anything. SPSS earned its decades; Boolean search strings are still how a systematic review documents itself; academic language skills still matter, even with the tax abolished. The goal is not to delete the old curriculum but to place it inside a modern one — where SPSS is one tool among several, the Boolean search sits beside AI-assisted screening with human verification, and the writing courses share the timetable with the computational skills that now surround the writing.</p>
+<p>We should teach doctoral students how to think — that part of the mission is eternal. But we should also teach them how to build research systems: pipelines that run, data that documents itself, analyses that survive scrutiny, histories that explain themselves. Our doctoral programmes should produce researchers, not expert button-clickers — and the encouraging truth hiding in the study plan is that the people and the mechanisms needed to get there already exist. What is missing is only the decision.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Colophon
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This post was written in Markdown, in Quarto, in a git repository — which is to say, using nothing that our doctoral curriculum teaches. The study-plan figures are from the current group study plan of my university’s doctoral school; the arithmetic is mine, and I would genuinely welcome corrections. If you teach in a doctoral programme and disagree — especially then — <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">email me</a>.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>teaching</category>
+  <category>doctoral education</category>
+  <category>reproducibility</category>
+  <category>workflow</category>
+  <category>opinion</category>
+  <guid>https://kostadinoff.github.io/blog/phd-curriculum.html</guid>
+  <pubDate>Tue, 21 Jul 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>My Academic Writing Setup: Why Writing Has Already Changed</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
@@ -22,7 +570,7 @@
 
 
 
-<p>Every few months another editorial asks whether artificial intelligence is going to change academic writing. It is the wrong tense. The change is not coming — it arrived, quietly, somewhere in the last three years, while journals were still drafting policies about it and departments were still holding seminars asking whether it would happen at all.</p>
+<p>Every few months another editorial asks whether artificial intelligence is going to change academic writing. It is the wrong tense. The change is not coming — it arrived, quietly, somewhere in the last three years, while journals were still <a href="https://doi.org/10.1038/d41586-023-00191-1">drafting policies about it</a> and departments were still holding seminars asking whether it would happen at all.</p>
 <p>Here is the uncomfortable part. The skill most of us spent a decade acquiring — turning a half-formed thought into a grammatical, publishable English sentence — is now cheap. Not free, not automatic, not always good, but cheap. And for those of us who write in a second language it was never merely a skill: it was a tax, levied on our ideas for reasons that had nothing to do with their quality. That tax has largely been abolished, and remarkably few people in my field have said out loud what follows from it.</p>
 <p>What follows is this. When one input to a process becomes cheap, the value moves elsewhere. It always does. So the question worth asking is not whether to use these tools, which is by now a settled and rather boring argument. The question — the reason I finally sat down to write this — is <em>where the value went</em>.</p>
 <p>My answer, after a couple of years of rebuilding how I work, is that it moved into everything that surrounds the sentence. Reading. Study design. The quality of the question. Whether the analysis is defensible. Whether anybody else can reproduce it. Whether the figure shows what you claim it shows.</p>
@@ -44,9 +592,9 @@
 <section id="why-academic-writing-has-already-changed" class="level2">
 <h2 class="anchored" data-anchor-id="why-academic-writing-has-already-changed">1. Why academic writing has already changed</h2>
 <p>Let me be precise about what changed, because “AI changed writing” is too vague to act on.</p>
-<p>What changed is <strong>drafting and editing</strong>. The blank page is no longer expensive. Neither is the third revision of a Methods paragraph, nor translating your own Bulgarian-shaped English into something a Cambridge copy-editor would not flinch at. For a non-native speaker in particular — and most of the world’s researchers are non-native speakers — this is not a small convenience. It is the removal of a tax that was levied on ideas for reasons that had nothing to do with their quality.</p>
+<p>What changed is <strong>drafting and editing</strong>. The blank page is no longer expensive. Neither is the third revision of a Methods paragraph, nor translating your own Bulgarian-shaped English into something a Cambridge copy-editor would not flinch at. For a non-native speaker in particular — and most of the world’s researchers are non-native speakers — this is not a small convenience. The costs of doing science in a second language are real and <a href="https://doi.org/10.1371/journal.pbio.3002184">measurable</a>: more time per paper, more rejections on language grounds, more rounds of revision, none of them related to the quality of the ideas. What has been lifted is the tax I described at the outset.</p>
 <p>What did <em>not</em> change is everything the sentence is about. A model can smooth the prose in which you report a confounded estimate. It cannot tell you that you have a confounded estimate, and it will report it with exactly the same fluency as an unconfounded one. That asymmetry is the whole story.</p>
-<p>The practical consequence is that fluency has stopped being a signal. For a long time, well-written papers were, on average, better papers — not because good prose causes good science, but because the same care and the same seniority produced both. That correlation is now broken. When everyone’s Introduction reads well, a well-read Introduction tells you nothing about the study behind it.</p>
+<p>The practical consequence is that fluency has stopped being a signal. For a long time, well-written papers were, on average, better papers — not because good prose causes good science, but because the same care and the same seniority produced both. That correlation is now broken. When everyone’s Introduction reads well, polished prose tells you nothing about the study behind it.</p>
 <p>So what will distinguish researchers over the next decade? I think it is a fairly short list, and none of it is about sentences:</p>
 <ul>
 <li><strong>Curiosity</strong> — noticing the thing in the data or the clinic that does not fit, and caring enough to chase it.</li>
@@ -74,7 +622,7 @@
 </section>
 <section id="my-project-structure" class="level2">
 <h2 class="anchored" data-anchor-id="my-project-structure">2. My project structure</h2>
-<p>Everything I do lives in a study folder with the same shape. I scaffold it with a small shell helper so I never have to think about it, and after a few dozen projects the uniformity itself has become the main benefit: I can open a study from eighteen months ago and know where everything is within about four seconds.</p>
+<p>Everything I do lives in a study folder with the same shape. I scaffold it with a small shell helper so I never have to think about it, and after a few dozen projects the uniformity itself has become the main benefit: I can open a study from eighteen months ago and know where everything is within about four seconds. That helper, and the reference-fetcher I describe below, are in a small <a href="https://github.com/kostadinoff/research-scaffold">MIT-licensed repository</a> if they are useful to you.</p>
 <pre><code>2026-nhif-antineoplastic-costs/
 ├── README.md              # what this is, who asked, status
 ├── data/
@@ -82,6 +630,7 @@
 │   ├── interim/           # safe to delete
 │   └── processed/         # analysis-ready, script output
 ├── scripts/
+│   ├── 00_run_all.R       # runs 01–04 in order: the reproducibility test
 │   ├── 01_data_prep.R
 │   ├── 02_analysis.R
 │   ├── 03_figures.R
@@ -90,9 +639,11 @@
 │   ├── figures/           # PNG at publication resolution
 │   └── tables/            # CSV, formatted downstream
 ├── manuscript/
-│   ├── manuscript.qmd
+│   ├── manuscript.md      # prose + generated output, no code
 │   ├── references.bib
-│   └── supplementary.qmd
+│   └── supplementary.md
+├── presentation/
+│   └── presentation.typ   # Typst talk — communication counts too
 ├── docs/                  # protocol, ethics approval
 └── renv.lock              # exact package versions</code></pre>
 <p>Three rules make this work, and all three are rules about what you are <em>not</em> allowed to do.</p>
@@ -122,6 +673,7 @@ background-color: null;
 font-style: inherit;">source</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"scripts/04_tables.R"</span>)</span></code></pre></div></div>
+<p>Two choices in that tree are deliberate and easy to miss. The manuscript is plain Markdown, not a computational notebook: the analysis lives in the numbered scripts, and the manuscript only <em>consumes</em> their output — tables and figures pasted or included, never code executed at render time. Quarto renders it exactly the same, and keeping computation out of the prose file means the paper can never quietly disagree with the analysis. The second is the <code>presentation/</code> folder, present from the first day, holding a <a href="https://typst.app">Typst</a> talk. A finding that never leaves the paper has done half its job; building the slides in the same repository, against the same figures, keeps the talk faithful to the analysis and makes communication a first-class output rather than a scramble the night before a conference.</p>
 <p>Version control sits underneath all of it. Git is not optional and it is not only for software. Its value in research is not really “collaboration” — most of my studies have two or three authors and no merge conflicts. Its value is that it gives you a <em>history of your reasoning</em>. Six months later, when a reviewer asks why the model adjusts for hospital type, the commit that added it has a message explaining why, and a diff showing exactly what changed in the estimates.</p>
 <p>Large data files stay out of Git — either in the institutional store or, where licensing allows, deposited in Zenodo with a DOI. What Git tracks is the code, the manuscript, and the metadata: everything a reader would need to check my work if they had the data.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -134,13 +686,13 @@ font-style: inherit;">"scripts/04_tables.R"</span>)</span></code></pre></div></d
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Make <code>data/raw/</code> read-only. On Linux or WSL, one command:</p>
+<p>Make <code>data/raw/</code> read-only. On a real Linux filesystem — including WSL’s own ext4 home — one command does it:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">chmod</span> <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">-R</span> a-w data/raw</span></code></pre></div></div>
-<p>It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.</p>
+<p>(One caveat worth knowing: on a Windows-mounted path under <code>/mnt/c</code>, or an exFAT or cloud-synced drive, that permission bit silently does not stick — there the read-only rule is a discipline, not a lock, so keep such data off those drives or set it read-only from the host.) It costs nothing and it prevents the single most common irrecoverable mistake in applied research — silently overwriting the source data with a partially cleaned version.</p>
 </div>
 </div>
 </section>
@@ -192,7 +744,7 @@ font-style: inherit;"> ../styles/vancouver.csl</span></span></code></pre></div><
 <p><strong>Visualisation.</strong> Most researchers substantially underrate this. A figure is an argument. If it is badly made, the argument is weaker regardless of how strong the underlying evidence is.</p>
 <p><strong>Study design.</strong> The stage where papers are actually won or lost. No analysis rescues a design that cannot answer the question. Time spent on design has a better return than time spent anywhere else in the pipeline, and it is the least fungible skill on this list.</p>
 <p><strong>Critical appraisal.</strong> Read papers to find the load-bearing assumption and test it. Journal clubs are good for this if they are run adversarially rather than as summary sessions.</p>
-<p><strong>Reproducible research.</strong> Not a virtue; an efficiency. The main beneficiary of a reproducible pipeline is you, six months later, when a reviewer asks for a subgroup analysis and you can produce it in an hour instead of a fortnight.</p>
+<p><strong>Reproducible research.</strong> Not a virtue; an efficiency. The main beneficiary of a reproducible pipeline is you, at revision time, when a request for a subgroup analysis costs an hour instead of a fortnight.</p>
 <p><strong>Communication.</strong> Which — and I want to be careful here — is not the same as writing. It is knowing what your audience needs, what the actual finding is, and what should be left out. A model can produce the paragraph. It cannot decide that the paragraph should not exist.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -283,8 +835,8 @@ font-style: inherit;">reference =</span> european_standard_population)</span></c
 <p>The pipeline that results has five properties I care about:</p>
 <p><strong>Reproducible.</strong> One command regenerates every number in the manuscript from the raw data. Package versions are pinned with <code>renv</code>.</p>
 <p><strong>Reusable.</strong> Anything done twice becomes a function; anything done across projects moves into the package.</p>
-<p><strong>Publication-quality by default.</strong> Figures are written to PNG through Cairo at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.</p>
-<p><strong>Automatically reported.</strong> Numbers reach the manuscript by inline code, not by transcription. <code>Median age was 62.4 years</code> is not typed; it is computed. Typing numbers into prose is a step that has no upside and a well-documented failure rate.</p>
+<p><strong>Publication-quality by default.</strong> Figures are written to PNG through the AGG device (<code>ragg</code>) at print resolution with a consistent theme, so the figure I look at while exploring is the figure that goes into the paper. No last-minute re-export at 2 a.m.</p>
+<p><strong>Automatically reported.</strong> Numbers reach the manuscript as generated output, not by transcription. <code>Median age was 62.4 years</code> is not typed; it is computed by a script and carried in. Typing numbers into prose is a step that has no upside and a <a href="https://doi.org/10.3758/s13428-015-0664-2">well-documented failure rate</a> — in psychology, where this has been checked at scale, roughly half of published papers contain at least one inconsistent statistic.</p>
 <p><strong>Transparent.</strong> Every decision that could have gone another way is a comment in the script or a line in the README: why these exclusions, why this reference population, why this cut-point.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -300,7 +852,7 @@ font-style: inherit;">reference =</span> european_standard_population)</span></c
   E --&gt; G["04_tables.R"]
   F --&gt; H["output/figures/"]
   G --&gt; I["output/tables/"]
-  H --&gt; J["manuscript.qmd"]
+  H --&gt; J["manuscript.md"]
   I --&gt; J
   E --&gt; J
   J --&gt; K["PDF / HTML / journal submission"]

@@ -19,6 +19,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/phd-curriculum.html",
       "/blog/academic-writing-setup.html",
       "/epinews-posts/2026-W27-en.html",
       "/epinews-posts/2026-W26-en.html",
@@ -86,6 +87,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/phd-curriculum.html",
       "/blog/academic-writing-setup.html"
     ]
   },

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of compulsory doctoral-school hours, showing 40 hours of SPSS against 3 hours of epidemiology">
+  <rect x="1.5" y="1.5" width="897" height="517" rx="14" fill="#FBFAF8" stroke="#B9C2C9" stroke-width="1.5"/>
+
+  <text x="36" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" fill="#1E2A33">The doctoral timetable, drawn to scale</text>
+  <text x="36" y="76" font-family="'Segoe UI', system-ui, sans-serif" font-size="14.5" fill="#5B6167">Compulsory hours in the current group study plan — 156 hours in total</text>
+
+  <!-- SPSS: 40 h -->
+  <text x="238" y="134" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">SPSS course</text>
+  <rect x="252" y="112" width="620" height="34" rx="5" fill="#35506A"/>
+  <rect x="252" y="112" width="10" height="34" fill="#35506A"/>
+  <text x="858" y="134" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#FBFAF8">40 h</text>
+
+  <!-- Ethics, publishing & admin: 36 h -->
+  <text x="238" y="196" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">Ethics, publishing &amp; admin</text>
+  <rect x="252" y="174" width="558" height="34" rx="5" fill="#35506A"/>
+  <rect x="252" y="174" width="10" height="34" fill="#35506A"/>
+  <text x="822" y="196" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#1E2A33">36 h</text>
+
+  <!-- Academic Bulgarian: 30 h -->
+  <text x="238" y="258" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">Academic Bulgarian</text>
+  <rect x="252" y="236" width="465" height="34" rx="5" fill="#35506A"/>
+  <rect x="252" y="236" width="10" height="34" fill="#35506A"/>
+  <text x="729" y="258" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#1E2A33">30 h</text>
+
+  <!-- Foreign language: 30 h -->
+  <text x="238" y="320" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">Foreign language</text>
+  <rect x="252" y="298" width="465" height="34" rx="5" fill="#35506A"/>
+  <rect x="252" y="298" width="10" height="34" fill="#35506A"/>
+  <text x="729" y="320" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#1E2A33">30 h</text>
+
+  <!-- All research methods: 20 h -->
+  <text x="238" y="382" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">All research methods</text>
+  <rect x="252" y="360" width="310" height="34" rx="5" fill="#35506A"/>
+  <rect x="252" y="360" width="10" height="34" fill="#35506A"/>
+  <text x="574" y="382" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#1E2A33">20 h</text>
+
+  <!-- ...of which epidemiology: 3 h -->
+  <text x="238" y="444" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#2F353B">…of which epidemiology</text>
+  <rect x="252" y="422" width="47" height="34" rx="5" fill="#8A5A24"/>
+  <rect x="252" y="422" width="10" height="34" fill="#8A5A24"/>
+  <text x="311" y="444" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#1E2A33">3 h</text>
+  <text x="356" y="444" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-style="italic" fill="#8A5A24">← underpins every clinical dissertation in the building</text>
+
+  <text x="36" y="496" font-family="'Segoe UI', system-ui, sans-serif" font-size="13.5" font-style="italic" fill="#6E4419">Not pictured (0 h): R &#183; Python &#183; git &#183; the terminal &#183; data management &#183; AI</text>
+</svg>
