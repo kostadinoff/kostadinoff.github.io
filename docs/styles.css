@@ -365,3 +365,11 @@ div.quarto-about-trestles .about-links {
 .cv-dates code {
   color: var(--bs-primary);
 }
+
+/* Make recent posts stack in 1 column on desktop to fit the narrow layout */
+@media (min-width: 992px) {
+  #listing-recent-posts .quarto-listing-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
+
