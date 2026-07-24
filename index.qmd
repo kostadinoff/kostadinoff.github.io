@@ -61,7 +61,7 @@ All opinions expressed here are my own and do not necessarily represent the view
 
 ::: {.home-areas .grid}
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.g-col-12 .g-col-md-6}
 ::: {.home-area}
 <i class="bi bi-journal-medical"></i>
 
@@ -73,7 +73,7 @@ Research in epidemiology, health economics, and policy evaluation — published 
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.g-col-12 .g-col-md-6}
 ::: {.home-area}
 <i class="bi bi-easel"></i>
 
@@ -85,7 +85,7 @@ Lecture slides, handouts, 15-minute guides, and interactive notebooks for public
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.g-col-12 .g-col-md-6}
 ::: {.home-area}
 <i class="bi bi-code-square"></i>
 
@@ -97,7 +97,7 @@ An R toolkit for medical statistics — from 2×2 tables to causal inference, su
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.g-col-12 .g-col-md-6}
 ::: {.home-area}
 <i class="bi bi-building"></i>
 
