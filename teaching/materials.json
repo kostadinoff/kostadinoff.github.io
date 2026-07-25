@@ -1,0 +1,862 @@
+{
+  "schemaVersion": 1,
+  "collections": {
+    "lectures": { "en": "Lecture slides", "bg": "Презентации" },
+    "handouts": { "en": "Student handouts", "bg": "Материали за студенти" }
+  },
+  "disciplines": [
+    {
+      "id": "epidemiology",
+      "name": "Epidemiology",
+      "sections": [
+        {
+          "language": "en",
+          "label": "English",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Academic year 2025–2026",
+              "lectures": [
+                {
+                  "id": "epi-en-lecture-applied",
+                  "title": "Applied Epidemiology — full course lecture",
+                  "description": "Complete lecture set for the Applied Epidemiology course: study designs, measures of frequency and association, bias, confounding, and causal inference.",
+                  "tags": ["epidemiology", "study design", "causality"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v2",
+                  "files": [{ "label": "PDF", "href": "slides/epidemiology-en/applied-epidemiology-lecture.pdf" }],
+                  "links": [{ "label": "AI study notebook", "href": "https://notebooklm.google.com/notebook/6306fd66-2009-4131-84be-79b7201eb536" }]
+                }
+              ],
+              "handouts": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-medicine",
+      "name": "Social Medicine",
+      "sections": [
+        {
+          "language": "en",
+          "label": "English",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Academic year 2025–2026",
+              "lectures": [
+                {
+                  "id": "socmed-en-class-01",
+                  "title": "Class 1 · Social Medicine — Definition and Scope",
+                  "description": "Introductory practical class: what social medicine studies, its methods, and its place among the medical sciences.",
+                  "tags": ["social medicine", "introduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-01.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-02",
+                  "title": "Class 2 · Methods for Sociological Research in Medicine",
+                  "description": "Survey design, interviews, questionnaires, and sampling in medical sociological research.",
+                  "tags": ["social medicine", "research methods"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-02.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-03",
+                  "title": "Class 3 · Demography Indices",
+                  "description": "Static and dynamic demographic indicators: fertility, mortality, natural increase, and population structure.",
+                  "tags": ["social medicine", "demography"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-03.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-04",
+                  "title": "Class 4 · Risk Factors and Causality. Measurement of Diseases and Exposure",
+                  "description": "Morbidity measures, exposure assessment, and the logic of causal inference in population health.",
+                  "tags": ["social medicine", "epidemiology", "causality"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-04.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-05",
+                  "title": "Class 5 · Burden of Disease — Medico-Social Aspects",
+                  "description": "DALYs, YLL, YLD and the medico-social significance of major disease groups.",
+                  "tags": ["social medicine", "burden of disease"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-05.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-06",
+                  "title": "Class 6 · Primary Health Care. Outpatient Care. GP Functions",
+                  "description": "Organisation of primary and outpatient care and the functions of the general practitioner.",
+                  "tags": ["social medicine", "health systems"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-06.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-07",
+                  "title": "Class 7 · Hospital Care — Functions, Structure, Organization, Quality",
+                  "description": "Structure and organisation of hospital care and approaches to measuring its quality.",
+                  "tags": ["social medicine", "health systems", "quality of care"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-07.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-08",
+                  "title": "Class 8 · Dispensary Method. Occupational Medicine",
+                  "description": "The dispensary method of active follow-up and the fundamentals of occupational health.",
+                  "tags": ["social medicine", "occupational health"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-08.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-09",
+                  "title": "Class 9 · Expert Evaluation of Temporary Incapacity for Work",
+                  "description": "Medical expertise of working capacity: legal framework, sick-leave certification, and expert bodies.",
+                  "tags": ["social medicine", "expertise"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-09.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-10",
+                  "title": "Class 10 · Physician's Liability. Social History of the Patient",
+                  "description": "Legal and ethical liability of the physician and taking the patient's social history.",
+                  "tags": ["social medicine", "law", "ethics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-10.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-12",
+                  "title": "Class 12 · Maternal and Child Health. Family Planning",
+                  "description": "Organisation of maternal and child healthcare and family-planning services.",
+                  "tags": ["social medicine", "maternal and child health"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-12.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-13",
+                  "title": "Class 13 · Health Culture and Health Behavior. Health Education",
+                  "description": "Health literacy, behaviour change, and the methods of health education and promotion.",
+                  "tags": ["social medicine", "health promotion"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-13.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-14",
+                  "title": "Class 14 · Public Health Planning, Economy, and Marketing",
+                  "description": "Planning, economics, and marketing applied to public health services.",
+                  "tags": ["social medicine", "health economics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-14.pdf" }]
+                },
+                {
+                  "id": "socmed-en-class-15",
+                  "title": "Class 15 · Seminar Review — Social Medicine with Medical Ethics",
+                  "description": "End-of-semester review session covering the full social medicine and medical ethics syllabus.",
+                  "tags": ["social medicine", "revision"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-15.pdf" }]
+                }
+              ],
+              "handouts": [
+                {
+                  "id": "socmed-en-class-11-colloquium",
+                  "title": "Colloquium — Protocol and Assessment Guidelines",
+                  "description": "Handout for Class 11: colloquium protocol, format, and assessment criteria.",
+                  "tags": ["social medicine", "assessment"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "2025-2026-classes/practical-class-11.pdf" }]
+                },
+                {
+                  "id": "socmed-en-semester-book",
+                  "title": "Social Medicine Semester Book",
+                  "description": "The complete semester workbook for the English-language social medicine course.",
+                  "tags": ["social medicine", "workbook"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "SOCIAL_SEMESTER_BOOK_EN.pdf" }],
+                  "links": [
+                    { "label": "Study guide", "href": "study-guide.html" },
+                    { "label": "AI study notebook", "href": "https://notebooklm.google.com/notebook/8239ce6e-f545-4cca-b3b3-a808487a6ce2" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "language": "bg",
+          "label": "Български",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Учебна година 2025–2026",
+              "lectures": [
+                {
+                  "id": "socmed-bg-class-01",
+                  "title": "Занятие 1 · Социалната медицина като наука",
+                  "description": "Въведение: предмет, методи и място на социалната медицина сред медицинските науки.",
+                  "tags": ["social medicine", "introduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-01.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-02",
+                  "title": "Занятие 2 · Социологични методи",
+                  "description": "Анкетни проучвания, интервюта и извадкови методи в медицинската социология.",
+                  "tags": ["social medicine", "research methods"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-02.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-03",
+                  "title": "Занятие 3 · Медицинска демография",
+                  "description": "Статика и динамика на населението: раждаемост, смъртност, естествен прираст.",
+                  "tags": ["social medicine", "demography"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-03.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-04",
+                  "title": "Занятие 4 · Приложна епидемиология — I част",
+                  "description": "Показатели за заболеваемост и болестност; епидемиологични дизайни — първа част.",
+                  "tags": ["social medicine", "epidemiology"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-04.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-05",
+                  "title": "Занятие 5 · Приложна епидемиология — II част",
+                  "description": "Мерки на асоциация, риск и причинност — втора част на приложната епидемиология.",
+                  "tags": ["social medicine", "epidemiology", "causality"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-05.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-06",
+                  "title": "Занятие 6 · Здравно законодателство. Първична медицинска помощ",
+                  "description": "Нормативна уредба на здравеопазването и организация на първичната помощ.",
+                  "tags": ["social medicine", "health systems", "law"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-06.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-07",
+                  "title": "Занятие 7 · Болнична медицинска помощ",
+                  "description": "Структура, функции и качество на болничната помощ.",
+                  "tags": ["social medicine", "health systems", "quality of care"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-07.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-08",
+                  "title": "Занятие 8 · Превантивна медицина. Диспансерен метод",
+                  "description": "Профилактика и диспансерно наблюдение като метод на активно проследяване.",
+                  "tags": ["social medicine", "prevention"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-08.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-09",
+                  "title": "Занятие 9 · Експертиза на неработоспособността. Трудова медицина",
+                  "description": "Медицинска експертиза на работоспособността и основи на трудовата медицина.",
+                  "tags": ["social medicine", "expertise", "occupational health"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-09.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-10",
+                  "title": "Занятие 10 · Правна отговорност на лекаря",
+                  "description": "Юридическа и деонтологична отговорност на лекаря.",
+                  "tags": ["social medicine", "law", "ethics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-10.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-12",
+                  "title": "Занятие 12 · Семейство и здраве",
+                  "description": "Семейството като социална детерминанта на здравето; семейно планиране.",
+                  "tags": ["social medicine", "maternal and child health"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-12.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-13",
+                  "title": "Занятие 13 · Здравно поведение, възпитание и просвета",
+                  "description": "Здравна култура, промяна на поведението и методи на здравното възпитание.",
+                  "tags": ["social medicine", "health promotion"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-13.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-14",
+                  "title": "Занятие 14 · Здравен мениджмънт, маркетинг и икономика",
+                  "description": "Основи на здравния мениджмънт, маркетинга и икономиката на здравеопазването.",
+                  "tags": ["social medicine", "health economics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-14.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-class-15",
+                  "title": "Занятие 15 · Майчино и детско здравеопазване",
+                  "description": "Организация на майчиното и детското здравеопазване.",
+                  "tags": ["social medicine", "maternal and child health"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/practical-class-15.pdf" }]
+                }
+              ],
+              "handouts": [
+                {
+                  "id": "socmed-bg-anamnesis",
+                  "title": "Социална анамнеза — указания за снемане",
+                  "description": "Практическо ръководство за снемане на социална анамнеза на пациента.",
+                  "tags": ["social medicine", "practice"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/social-anamnesis.pdf" }]
+                },
+                {
+                  "id": "socmed-bg-colloquium",
+                  "title": "Колоквиум — въпроси и формат",
+                  "description": "Въпросник и формат на колоквиума по социална медицина.",
+                  "tags": ["social medicine", "assessment"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/social-medicine-bg/colloquium.pdf" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clinical-trials",
+      "name": "Clinical Trials",
+      "sections": [
+        {
+          "language": "bg",
+          "label": "Български",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Учебна година 2025–2026",
+              "lectures": [
+                {
+                  "id": "trials-bg-seminar-01",
+                  "title": "Семинар 1 · Описателна епидемиология. Метаанализи",
+                  "description": "Описателни дизайни и въведение в систематичните обзори и метаанализите.",
+                  "tags": ["clinical trials", "epidemiology", "meta-analysis"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/trials-bg/seminar-01.pdf" }]
+                },
+                {
+                  "id": "trials-bg-seminar-02",
+                  "title": "Семинар 2 · Дизайн на клиничните изпитвания и неинтервенционалните проучвания",
+                  "description": "Фази на клиничните изпитвания, рандомизация, заслепяване и неинтервенционални дизайни — първа част.",
+                  "tags": ["clinical trials", "study design"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/trials-bg/seminar-02.pdf" }]
+                },
+                {
+                  "id": "trials-bg-seminar-03",
+                  "title": "Семинар 3 · Дизайн на клиничните изпитвания и неинтервенционалните проучвания",
+                  "description": "Продължение: протоколи, крайни точки и регулаторни аспекти на клиничните изпитвания.",
+                  "tags": ["clinical trials", "study design"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/trials-bg/seminar-03.pdf" }]
+                }
+              ],
+              "handouts": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medical-ethics",
+      "name": "Medical Ethics",
+      "sections": [
+        {
+          "language": "en",
+          "label": "English",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Academic year 2025–2026",
+              "lectures": [
+                {
+                  "id": "ethics-en-01",
+                  "title": "Practical 1 · Ethics — Definition and Principles",
+                  "description": "The four principles of biomedical ethics and their application in clinical practice.",
+                  "tags": ["ethics", "principles"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/01-principles.pdf" }]
+                },
+                {
+                  "id": "ethics-en-02",
+                  "title": "Practical 2 · Informed Consent",
+                  "description": "Elements, exceptions, and documentation of informed consent.",
+                  "tags": ["ethics", "informed consent"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/02-informed-consent.pdf" }]
+                },
+                {
+                  "id": "ethics-en-03",
+                  "title": "Practical 3 · Confidentiality",
+                  "description": "Medical confidentiality, its legal basis, and justified breaches.",
+                  "tags": ["ethics", "confidentiality"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/03-confidentiality.pdf" }]
+                },
+                {
+                  "id": "ethics-en-04",
+                  "title": "Practical 4 · Patient–Physician Relationship",
+                  "description": "Models of the patient–physician relationship and shared decision-making.",
+                  "tags": ["ethics", "patient-physician"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/04-physician-patient.pdf" }]
+                },
+                {
+                  "id": "ethics-en-05",
+                  "title": "Practical 5 · End-of-Life Issues. Euthanasia and Assisted Suicide",
+                  "description": "Ethical debates at the end of life: euthanasia, assisted suicide, and palliative care.",
+                  "tags": ["ethics", "end of life"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/05-end-of-life.pdf" }]
+                },
+                {
+                  "id": "ethics-en-06",
+                  "title": "Practicals 6–7 · Organ Transplantation. Reproductive Ethics",
+                  "description": "Ethics of organ donation and transplantation and of assisted reproduction.",
+                  "tags": ["ethics", "transplantation", "reproduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/06-transplantation-reproduction.pdf" }]
+                },
+                {
+                  "id": "ethics-en-07-lecture",
+                  "title": "Lecture · Ethical Aspects of Human Reproduction",
+                  "description": "Lecture on the ethical dimensions of human reproduction and reproductive technologies.",
+                  "tags": ["ethics", "reproduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/07-reproduction.pdf" }]
+                }
+              ],
+              "handouts": [
+                {
+                  "id": "ethics-en-02-cases",
+                  "title": "Informed Consent — Cases",
+                  "description": "Clinical case discussions on informed consent for Practical 2.",
+                  "tags": ["ethics", "informed consent", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/02-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-en-03-cases",
+                  "title": "Confidentiality — Cases",
+                  "description": "Clinical case discussions on confidentiality for Practical 3.",
+                  "tags": ["ethics", "confidentiality", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/03-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-en-04-cases",
+                  "title": "Patient–Physician Relationship — Cases",
+                  "description": "Clinical case discussions on the patient–physician relationship for Practical 4.",
+                  "tags": ["ethics", "patient-physician", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/04-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-en-05-cases",
+                  "title": "End-of-Life Issues — Cases",
+                  "description": "Clinical case discussions on end-of-life care for Practical 5.",
+                  "tags": ["ethics", "end of life", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/05-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-en-06-cases",
+                  "title": "Transplantation and Reproduction — Cases",
+                  "description": "Clinical case discussions on transplantation and reproductive ethics for Practicals 6–7.",
+                  "tags": ["ethics", "transplantation", "reproduction", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/06-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-en-seminar-test",
+                  "title": "Seminar Test — Sample test",
+                  "description": "Sample seminar test for exam preparation.",
+                  "tags": ["ethics", "assessment"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-en/07-seminar-test.pdf" }],
+                  "links": [{ "label": "AI study notebook", "href": "https://notebooklm.google.com/notebook/5344e475-f3d5-407f-b276-e349afcadb89" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "language": "bg",
+          "label": "Български",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Учебна година 2025–2026",
+              "lectures": [
+                {
+                  "id": "ethics-bg-intro",
+                  "title": "Лекция · Въведение в медицинската етика",
+                  "description": "Въвеждаща лекция: предмет и основни принципи на медицинската етика.",
+                  "tags": ["ethics", "introduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v2",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/01-intro.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-01",
+                  "title": "Упражнение 1 · Информирано съгласие. Медицинска тайна",
+                  "description": "Информирано съгласие и медицинска тайна: елементи, изключения, документиране.",
+                  "tags": ["ethics", "informed consent", "confidentiality"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/01-principles.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-02",
+                  "title": "Упражнение 2 · Взаимоотношения лекар–пациент",
+                  "description": "Модели на отношението лекар–пациент и споделено вземане на решения.",
+                  "tags": ["ethics", "patient-physician"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/02-patient-physician.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-03",
+                  "title": "Упражнения 3–4 · Хронично болни и терминални пациенти",
+                  "description": "Етични аспекти на грижата за хронично болни и терминални пациенти.",
+                  "tags": ["ethics", "end of life"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/03-chronic-disease.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-05",
+                  "title": "Упражнения 5–6 · Трансплантация. Експериментална медицина",
+                  "description": "Етика на трансплантацията и на биомедицинските изследвания с хора.",
+                  "tags": ["ethics", "transplantation", "research ethics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/05-transplantation.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-06-science",
+                  "title": "Материал · Наука и етика — експериментална медицина",
+                  "description": "Допълнителен материал за етиката на експерименталната медицина.",
+                  "tags": ["ethics", "research ethics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/06-science-ethics.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-07",
+                  "title": "Упражнение 7 · Репродуктивна етика",
+                  "description": "Етични въпроси на асистираната репродукция.",
+                  "tags": ["ethics", "reproduction"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/06-reproduction.pdf" }]
+                }
+              ],
+              "handouts": [
+                {
+                  "id": "ethics-bg-01-cases",
+                  "title": "Казуси 1 · Информирано съгласие",
+                  "description": "Клинични казуси по информирано съгласие за упражнение 1.",
+                  "tags": ["ethics", "informed consent", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/01-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-02-cases",
+                  "title": "Казуси 2 · Взаимоотношения лекар–пациент",
+                  "description": "Клинични казуси по отношението лекар–пациент за упражнение 2.",
+                  "tags": ["ethics", "patient-physician", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/02-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-03-cases",
+                  "title": "Казуси 3–4 · Клинични казуси",
+                  "description": "Клинични казуси за упражнения 3–4 (хронично болни и терминални пациенти).",
+                  "tags": ["ethics", "end of life", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/03-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-05-cases",
+                  "title": "Казуси 5–6 · Трансплантация и експериментална медицина",
+                  "description": "Клинични казуси по трансплантация и изследователска етика за упражнения 5–6.",
+                  "tags": ["ethics", "transplantation", "research ethics", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/05-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-06-cases",
+                  "title": "Казуси · Експериментална медицина",
+                  "description": "Допълнителни казуси по експериментална медицина.",
+                  "tags": ["ethics", "research ethics", "cases"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/06-cases.pdf" }]
+                },
+                {
+                  "id": "ethics-bg-test",
+                  "title": "Пробен тест · СММЕ — I част (Медицинска етика)",
+                  "description": "Пробен тест за подготовка за изпита по социална медицина и медицинска етика.",
+                  "tags": ["ethics", "assessment"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/ethics-bg/07-seminar-test.pdf" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biostatistics",
+      "name": "Biostatistics",
+      "sections": [
+        {
+          "language": "en",
+          "label": "English",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Academic year 2025–2026",
+              "lectures": [
+                {
+                  "id": "stats-en-chi-square",
+                  "title": "Practical · The Chi-Square Test of Independence and Cramér's V",
+                  "description": "Testing independence in contingency tables and measuring effect size with Cramér's V.",
+                  "tags": ["biostatistics", "hypothesis testing"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/chi-square-cramers-v.pdf" }]
+                },
+                {
+                  "id": "stats-en-correlation",
+                  "title": "Practicals 6–7 · Correlation and Regression Analysis",
+                  "description": "Correlation coefficients and simple linear regression with worked examples.",
+                  "tags": ["biostatistics", "regression", "correlation"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/correlation-regression.pdf" }]
+                }
+              ],
+              "handouts": []
+            }
+          ]
+        },
+        {
+          "language": "bg",
+          "label": "Български",
+          "years": [
+            {
+              "id": "2025-2026",
+              "label": "Учебна година 2025–2026",
+              "lectures": [
+                {
+                  "id": "stats-bg-01",
+                  "title": "Упражнение 1 · Основна терминология. Стандартизация",
+                  "description": "Основни статистически понятия и методи за стандартизация на показатели.",
+                  "tags": ["biostatistics", "standardization"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v2",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/01-terminology-standardization.pdf" }]
+                },
+                {
+                  "id": "stats-bg-02",
+                  "title": "Упражнение 2 · Дескриптивна и инферентна статистика",
+                  "description": "Описателни показатели, разпределения и въведение в статистическия извод.",
+                  "tags": ["biostatistics", "descriptive statistics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v2",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/02-descriptive.pdf" }]
+                },
+                {
+                  "id": "stats-bg-03",
+                  "title": "Упражнение 3 · Тест на хипотези. T-тест",
+                  "description": "Логика на тестването на хипотези и приложение на t-теста.",
+                  "tags": ["biostatistics", "hypothesis testing"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/03-t-test.pdf" }]
+                },
+                {
+                  "id": "stats-bg-04-05",
+                  "title": "Упражнения 4–5 · Изследване на връзки. Корелация. Асоциация",
+                  "description": "Корелационен анализ и мерки на асоциация между променливи.",
+                  "tags": ["biostatistics", "correlation"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/04-05-association-correlation.pdf" }]
+                },
+                {
+                  "id": "stats-bg-06",
+                  "title": "Упражнение 6 · Регресионен анализ. Линейна регресия",
+                  "description": "Линеен регресионен модел: построяване, интерпретация и допускания.",
+                  "tags": ["biostatistics", "regression"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/06-regression.pdf" }]
+                }
+              ],
+              "handouts": [
+                {
+                  "id": "stats-bg-3-sigma",
+                  "title": "Материал · Правило на трите сигми",
+                  "description": "Кратък материал за правилото на трите сигми и нормалното разпределение.",
+                  "tags": ["biostatistics", "descriptive statistics"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/05-rule-of-3-sigma.pdf" }]
+                },
+                {
+                  "id": "stats-bg-formulas",
+                  "title": "Формули · Основни формули по медицинска статистика",
+                  "description": "Справочник с основните формули, използвани в курса.",
+                  "tags": ["biostatistics", "reference"],
+                  "date": "2026-07-12",
+                  "version": "2025 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/formulas-2025.pdf" }]
+                },
+                {
+                  "id": "stats-bg-workbook",
+                  "title": "Сборник · Упражнения по статистика (пълен комплект)",
+                  "description": "Пълен сборник с упражнения за самостоятелна подготовка.",
+                  "tags": ["biostatistics", "workbook"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/exercises-workbook.pdf" }]
+                },
+                {
+                  "id": "stats-bg-colloquium",
+                  "title": "Колоквиум · Решен примерен вариант",
+                  "description": "Примерен вариант на колоквиума с пълни решения.",
+                  "tags": ["biostatistics", "assessment"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/colloquium-solved.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-01",
+                  "title": "Домашна 1 · Стандартизация",
+                  "description": "Домашна работа върху стандартизация на показатели.",
+                  "tags": ["biostatistics", "homework"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-01.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-02",
+                  "title": "Домашна 2 · Дескриптивна статистика",
+                  "description": "Домашна работа върху описателни статистически показатели.",
+                  "tags": ["biostatistics", "homework"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-02.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-03",
+                  "title": "Домашна 3 · Тест на хипотези",
+                  "description": "Домашна работа върху тестване на хипотези.",
+                  "tags": ["biostatistics", "homework"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v2",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-03.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-04-05",
+                  "title": "Домашна 4–5 · Корелация и асоциация",
+                  "description": "Домашна работа върху корелационен анализ и мерки на асоциация.",
+                  "tags": ["biostatistics", "homework"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-04-05.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-06",
+                  "title": "Домашна 6 · Регресионен анализ",
+                  "description": "Домашна работа върху линейна регресия.",
+                  "tags": ["biostatistics", "homework"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-06.pdf" }]
+                },
+                {
+                  "id": "stats-bg-hw-solutions",
+                  "title": "Решения · Решения на домашните работи",
+                  "description": "Пълни решения на всички домашни работи от курса.",
+                  "tags": ["biostatistics", "homework", "solutions"],
+                  "date": "2026-07-12",
+                  "version": "2025/2026 · v1",
+                  "files": [{ "label": "PDF", "href": "slides/statistics-bg/homework-solutions.pdf" }],
+                  "links": [{ "label": "AI study notebook", "href": "https://notebooklm.google.com/notebook/4a653e2e-14e0-4ffe-8ac7-942fa7b0c100" }]
+                }
+              ]
+            }
+          ]
+        }

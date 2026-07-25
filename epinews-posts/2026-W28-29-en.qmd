@@ -1,0 +1,141 @@
+---
+title: "Epidemiological News: Weeks 28–29, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-07-20
+description: "Weeks 28–29 of 2026 (6–19 July) are dominated internationally by continued escalation of the Bundibugyo virus Ebola disease outbreak in the Democratic Republic of the Congo, where cumulative confirmed cases rose from 1,792 with 625 deaths in ECDC Week 28 to 2,124 with 828 deaths in Week 29 (crude case fatality ratio 39.0%), while Uganda reported no new cases after 21 June and risk to the EU/EEA general population remained very low. In clinical and regulatory news, a NEJM randomised trial found that the 4CMenB meningococcal vaccine did not reduce gonorrhoea incidence among high-risk men who have sex with men, while EMA's PRAC issued new safety measures for desogestrel- and etonogestrel-containing contraceptives and strengthened class warnings for ritlecitinib. Across the EU/EEA, respiratory viruses remained at inter-seasonal baseline, West Nile virus areas expanded from 11 to 28, Spain reported a second locally acquired Crimean-Congo haemorrhagic fever case, ECDC published a rapid risk assessment on domestically transmitted ceftriaxone-resistant gonorrhoea, and surveillance highlighted continued mpox transmission, sporadic zoonotic influenza A(H5N1), A(H5) and A(H9N2) infections, one swine-origin A(H3N2)v case, and a large cyclosporiasis outbreak in the United States. WOAH notifications included multiple European avian influenza, African swine fever, peste des petits ruminants, bluetongue, lumpy skin disease and foot-and-mouth disease events, with no Bulgaria entries. In Bulgaria, district-level tables reported 14 measles cases in Week 28 and 17 in Week 29, renewing concern about the ongoing outbreak; acute viral hepatitis remained 44.9% above 2025 year-to-date, campylobacteriosis 47.5% higher, gonorrhoea 168% higher, urogenital chlamydia 124% higher and syphilis 25.7% higher, while gastroenteritis and Lyme borreliosis remained close to last year's cumulative levels. No West Nile virus cases were reported in Bulgaria during the two weeks, but ECDC's forecast flagged 13 Bulgarian Black Sea municipalities as having high environmental suitability for Vibrio spp."
+categories: 
+  - "English"
+title-meta: "Epidemiological News: Weeks 28–29, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-07-20
+---
+
+## Clinical and Regulatory Developments
+
+### 4CMenB Does Not Prevent Gonorrhoea in the GoGoVax Trial
+
+A multicentre, double-blind, randomised, placebo-controlled trial published in the New England Journal of Medicine on 8 July 2026 found that the four-component meningococcal serogroup B vaccine, 4CMenB, did not reduce the incidence of Neisseria gonorrhoeae infection among men who have sex with men at high risk for gonorrhoea. The incidence was 48.1 events per 100 person-years in the vaccine group and 47.8 events per 100 person-years in the placebo group, giving an incidence rate ratio of 1.01 and estimated vaccine efficacy of −0.5% (95% confidence interval −26.2 to 19.9). Efficacy estimates were also consistently null across symptomatic and asymptomatic infection and across urogenital, anorectal and oropharyngeal anatomical sites.
+
+The result is important because observational studies had previously suggested possible cross-protection against gonorrhoea from meningococcal B vaccination. The GoGoVax findings do not support using 4CMenB as a gonorrhoea-prevention intervention. For public health programmes, including Bulgaria's response to its continuing gonorrhoea increase, the result reinforces the need to rely on established measures: accessible testing, condoms, partner management, HIV pre-exposure prophylaxis where indicated, treatment according to current guidelines, and antimicrobial-resistance surveillance.
+
+### EMA Pharmacovigilance Updates
+
+EMA's Pharmacovigilance Risk Assessment Committee agreed new safety information for desogestrel- and etonogestrel-containing contraceptives following evidence of a small increased risk of meningioma with prolonged use. The absolute risk remains very low, with an estimated one additional meningioma for every 67,300 users, but use is now contraindicated in women with a current or previous meningioma. Women using these medicines should be monitored for symptoms such as changes in vision, hearing loss, persistent headache, seizures, memory loss or limb weakness, and treatment should be discontinued if meningioma is diagnosed.
+
+The committee also agreed strengthened warnings for Litfulo (ritlecitinib), used for severe alopecia areata, aligning the product information with warnings applied to other Janus kinase inhibitors. The revised wording addresses potential risks of major cardiovascular events, venous thromboembolism, malignancy and serious infections, with particular caution recommended for older patients, smokers, and people at increased cardiovascular or cancer risk. These are regulatory safety signals rather than communicable-disease events, but they are relevant to public-health communication and clinical counselling.
+
+---
+
+## Infectious Diseases: Global Perspective
+
+### Respiratory and Droplet Transmission
+
+#### Bundibugyo Ebola Virus Disease in the Democratic Republic of the Congo and Uganda
+
+The Bundibugyo virus disease outbreak remained the principal global high-consequence event during Weeks 28–29. In the ECDC Week 28 report, the Democratic Republic of the Congo had recorded 1,792 confirmed cases and 625 related deaths as of 9 July, with 37 of 104 health zones affected across Ituri, North Kivu and South Kivu. Uganda had recorded 20 confirmed cases and two deaths, with no new cases since 21 June.
+
+By the ECDC Week 29 report, the DRC cumulative total had increased to 2,124 confirmed cases and 828 related deaths as of 16 July, with five provinces affected: Ituri, North Kivu, South Kivu, Tshopo and Haut-Uele. The increase between the two ECDC reports was 332 confirmed cases and 203 deaths. The crude confirmed-case fatality ratio rose from 34.9% to 39.0%. Uganda continued to report no new cases after 21 June, indicating sustained containment of its limited Kampala-area transmission, while the DRC outbreak remained geographically and operationally complex.
+
+The outbreak is caused by Bundibugyo virus, an ebolavirus species for which no licensed vaccine or specific antiviral treatment is currently available, unlike Zaire ebolavirus. WHO declared a Public Health Emergency of International Concern on 17 May 2026. A humanitarian worker was medically evacuated from the DRC to Germany on 13 July, demonstrating the continuing need for prepared referral and isolation pathways in Europe without changing the assessment that community transmission in the EU/EEA is very unlikely. ECDC continued to assess the likelihood of infection as low for EU/EEA residents travelling to or living in affected areas and very low for people living in the EU/EEA.
+
+For Bulgaria, the appropriate response remains preparedness rather than alarm. Clinicians should ask about travel to affected provinces and exposure to confirmed cases in patients with compatible febrile illness, while hospitals should maintain clear isolation, laboratory-referral, waste-management and infection-prevention pathways. Exposure assessment and rapid clinical escalation are more useful than indiscriminate entry screening.
+
+#### Zoonotic and Swine-origin Influenza
+
+During ECDC Week 28, one human case of avian influenza A(H9N2) was reported in Guangdong Province, China. The case was a one-year-old girl with symptom onset on 12 June. This brought the number of human A(H9N2) infections reported in China during the preceding six months to 13. Most A(H9N2) infections have been mild, no clusters of sustained human-to-human transmission have been documented, and ECDC assessed the risk to the EU/EEA general population as very low.
+
+Week 29 brought three additional zoonotic influenza signals. Cambodia reported a laboratory-confirmed A(H5N1) infection in a nine-month-old child in Phnom Penh, the country's fifth reported human case in 2026; the child was hospitalised in isolation and receiving intensive care while contact tracing and antiviral prophylaxis were under way. Bangladesh reported a child with laboratory-confirmed influenza A(H5), detected through routine influenza surveillance; the patient recovered fully, and all identified contacts remained asymptomatic and tested negative. Brazil reported a swine-origin influenza A(H3N2)v infection in a child whose grandfather worked at a swine nursery, with no additional cases detected among contacts.
+
+These events do not indicate sustained human-to-human transmission. They nevertheless reinforce the importance of exposure history in patients with compatible respiratory illness, particularly contact with sick or dead poultry, swine or contaminated animal environments. Unsubtypable influenza A viruses should be referred for further characterisation through national influenza centres or reference laboratories.
+
+### Fecal-Oral Transmission
+
+#### Cyclosporiasis in the United States
+
+The United States reported a large cyclosporiasis outbreak linked to shredded iceberg lettuce served by a major fast-food chain. As of 17 July, more than 1,644 cases had been confirmed across 34 states, including 141 hospitalisations (8.57%) and no deaths. An additional 5,100 suspected cases were awaiting analysis. Cases ranged from two to 95 years of age, with a median age of 44 years, and 56% were female. Most outbreak-linked cases were reported from Indiana, Kentucky, Michigan, Ohio and West Virginia.
+
+Cyclosporiasis is acquired through contaminated food or water rather than direct person-to-person transmission, because excreted oocysts require environmental maturation before becoming infectious. ECDC therefore assessed that EU travellers could be exposed in the United States but would pose a low risk of onward domestic transmission after return. The event is a reminder to consider Cyclospora in travellers with prolonged watery diarrhoea following consumption of fresh produce in affected areas.
+
+### Vector-borne and Animal-health Transmission
+
+#### WOAH Animal-disease Notifications
+
+The supplied WOAH-style notification extract for reports dated approximately 6–18 July contained no Bulgaria entries. It nevertheless documented a broad set of animal-health events with regional or One Health relevance. Peste des petits ruminants was reported as a first occurrence in Croatia and as first occurrence or recurrence in Romanian zones. African swine fever events continued in several European countries, including Lithuania, Italy, Hungary and Germany. Highly pathogenic avian influenza H5 events were reported across Europe and globally in poultry and wild birds. Foot-and-mouth disease events included a new SAT 1 strain in Cyprus, while bluetongue and lumpy skin disease events were reported in the United Kingdom, Croatia, Italy and Spain. Zoonotic or potentially zoonotic animal-health reports included rabies in Türkiye and elsewhere, Q fever in Austria, and anthrax in Spain and Italy.
+
+These notifications do not imply a direct Bulgarian human-health signal. They do support continued One Health information exchange, precautions around sick or dead animals, occupational protection for people working with livestock and poultry, and awareness of animal-movement and vector-related risks in neighbouring regions.
+
+---
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Respiratory and Droplet Transmission
+
+ECDC's European respiratory virus surveillance remained at inter-seasonal baseline during the reporting period. SARS-CoV-2 activity was low across age groups in primary and secondary care, while RSV and seasonal influenza activity also remained low. This is consistent with the expected mid-summer trough and with Bulgaria's own very low COVID-19 notification counts for Weeks 28–29.
+
+The same ECDC reporting noted increased pooled all-cause mortality in participating European countries around Week 26, mainly among people older than 45 years. The supplied Week 29 report did not attribute this increase to a specific infectious cause, and the finding should be interpreted separately from the low measured activity of influenza, RSV and SARS-CoV-2.
+
+### Vector-borne Transmission
+
+European West Nile virus surveillance showed clear seasonal expansion. By 8 July, 11 affected areas had been identified in Italy, North Macedonia, Romania, Greece and Spain. By 15 July, the number had increased to 28 areas, including 17 in Italy, five in Greece, two each in North Macedonia, Romania and Spain. ECDC expected further cases as seasonal weather remained favourable for mosquito-borne transmission. The expansion is relevant to Bulgaria because affected areas were reported in neighbouring or nearby countries, although Bulgaria itself reported no West Nile virus cases during Weeks 28–29.
+
+Crimean-Congo haemorrhagic fever surveillance showed a more limited but important development. Spain had reported one locally acquired case by 8 July and a second by 15 July, both consistent with areas where Hyalomma tick vectors and CCHF virus circulation are established. ECDC assessed the general-population risk in affected Spanish areas as low but higher for people with outdoor occupational or recreational tick exposure. Bulgaria reported no CCHF cases in either week, although one case had been recorded nationally earlier in 2026.
+
+ECDC's bathing-season Vibrio forecast again identified high environmental suitability for Vibrio spp. in European coastal waters. The Week 29 forecast covered 134 local administrative units in 41 NUTS3 regions across 11 countries. Bulgaria accounted for 13 municipalities across Varna, Dobrich and Burgas. This is an environmental suitability indicator rather than a report of human vibriosis cases. The relevant precautions are thorough cooking of seafood, avoidance of coastal-water contact with open wounds or recent piercings, and particular attention to people with diabetes, chronic liver disease or immunosuppression.
+
+### Contact and Sexual Transmission
+
+Mpox continued to circulate in the EU/EEA, Western Balkans and Türkiye. In June 2026, nine countries reported 129 clade I cases, with Portugal reporting the largest number at 57, while six countries reported 22 clade II cases, with Germany reporting 10. Over the preceding 12 months, 18 countries had reported 829 clade I cases and 18 had reported 921 clade II cases. Transmission occurred predominantly among men who have sex with men and mostly among unvaccinated individuals. Disease was generally mild, although 14% of clade I and 8% of clade II cases with information were hospitalised.
+
+ECDC assessed clade Ib risk as moderate for men who have sex with men and low for the general population, and clade IIb risk as low for men who have sex with men and very low for the general population. Summer travel and mass gatherings, including World Pride 2026 in Amsterdam, create opportunities for further spread within sexual networks. For Bulgaria, the relevant public-health actions are continued access to vaccination and testing for people at higher risk, community-led prevention, and clinical readiness to test returning travellers with compatible symptoms.
+
+On 16 July, ECDC published a rapid risk assessment on an upsurge of ceftriaxone-resistant Neisseria gonorrhoeae with evidence of domestic transmission in the EU/EEA and the United Kingdom. This is a significant antimicrobial-resistance development because ceftriaxone remains the principal first-line empirical therapy for gonorrhoea in many European settings. It is directly relevant to Bulgaria, where gonorrhoea notifications remain substantially above 2025 levels but routine surveillance does not capture antimicrobial susceptibility.
+
+---
+
+## Infectious Diseases: Bulgaria
+
+### Respiratory and Vaccine-preventable Diseases
+
+#### Measles Returns to the Foreground
+
+The district-level tables reported 14 measles cases in Week 28 and 17 in Week 29, a total of 31 cases across the two weeks. The supplied national operational analyses did not provide year-to-date measles totals, case classification, age distribution, vaccination status, setting, importation status or genotype. Even with those limitations, consecutive weekly reports of a highly transmissible vaccine-preventable disease constitute a priority surveillance signal, particularly after the Week 27 edition noted that no district-level bulletin was available to update the status of Bulgaria's ongoing outbreak.
+
+The new data do not establish whether the 31 reports represent one transmission chain, several introductions, or dispersed cases in under-vaccinated communities. They do, however, warrant rapid review of case classification, epidemiological links, vaccination status, school and healthcare exposure settings, travel history and genotype. Contact tracing, post-exposure vaccination or immunoglobulin where indicated, and targeted review of district-level measles-containing vaccine coverage remain the central control measures.
+
+#### Other Respiratory and Vaccine-preventable Infections
+
+Bulgaria reported no COVID-19 cases in Week 28 and three confirmed cases in Week 29. The year-to-date total stood at 329 cases, compared with 368 in the same period of 2025, consistent with the low inter-seasonal activity reported across the EU/EEA. Scarlet fever remained stable at 17 cases in each week, but the cumulative total of 1,708 cases was 33.8% below the 2,580 cases recorded by the same point in 2025. Pertussis was not reported in either week, and the year-to-date total of 11 cases remained far below the 67 cases recorded in 2025.
+
+Varicella decreased from 144 cases in Week 28 to 107 in Week 29, with the year-to-date total of 15,301 cases remaining close to the 15,550 recorded in the same period of 2025. No invasive meningococcal disease, viral meningitis or meningoencephalitis was reported during the two weeks. Bacterial meningitis and meningoencephalitis notifications remained low, with one streptococcal case in Week 29 and one or two cases per week in the combined other-category group.
+
+### Fecal-Oral Transmission
+
+#### Gastroenteritis and Enterocolitis
+
+Bulgaria reported 238 gastroenteritis and enterocolitis cases in Week 28 and 263 in Week 29. Across the two weeks, 180 cases were classified as possible, 301 as probable and only 20 as laboratory-confirmed. The year-to-date total of 4,713 cases remained essentially unchanged from the 4,744 cases recorded in the same period of 2025. The weekly volume is therefore substantial but does not indicate a national excess relative to last year's seasonal trajectory. Routine cluster review remains appropriate during the summer, particularly for food premises, childcare settings and water-associated exposures.
+
+#### Campylobacteriosis and Other Enteric Infections
+
+Campylobacteriosis remained one of the clearest sustained enteric signals. Bulgaria reported 13 confirmed cases in Week 28 and 12 in Week 29. The year-to-date total reached 323 cases, compared with 219 in the same period of 2025, an excess of 104 cases or 47.5%. This is not a single-week anomaly but a continuing year-long pattern consistent with the signal documented in previous editions. Review of geographic and temporal clustering, isolate typing where available, and renewed poultry-cooking and cross-contamination messages are warranted.
+
+Salmonellosis decreased from 22 cases in Week 28 to nine in Week 29, leaving the year-to-date total only slightly above 2025 at 350 versus 341. Rotavirus gastroenteritis increased from seven to 12 weekly cases but remained below last year's cumulative total, at 413 versus 467. Shigellosis was reported only in Week 29, with two confirmed cases, although the year-to-date total of 18 was above the 12 recorded in 2025. Listeriosis and yersiniosis each contributed one case across the two weeks. No cholera, botulism or STEC/VTEC infections were reported during Weeks 28–29.
+
+#### Acute Viral Hepatitis
+
+Acute viral hepatitis remained the most substantial sustained domestic surveillance signal. Bulgaria reported 34 cases in Week 28 and 29 in Week 29, including 57 confirmed, three probable and three possible cases across the two weeks. The year-to-date total reached 1,016 cases, compared with 701 in the same period of 2025, an increase of 315 cases or 44.9%.
+
+The aggregate national reporting category combines hepatitis types and therefore prevents route-specific interpretation from the supplied data. The increase could reflect faecal-oral hepatitis A/E transmission, blood-borne or sexual transmission of hepatitis B/C, another category, changed testing practices, or a combination. The appropriate next step remains type-specific disaggregation by age, district, risk factor, hospitalisation and outcome. Food, water and household cluster investigation should follow where hepatitis A or E is implicated, while testing and linkage to treatment should be strengthened for hepatitis B and C.
+
+### Vector-borne and Zoonotic Transmission
+
+Lyme borreliosis accounted for 22 confirmed cases in Week 28 and 24 in Week 29. The year-to-date total of 201 cases remained close to the 204 recorded in the same period of 2025, indicating seasonal activity without a cumulative national excess. Mediterranean spotted fever increased from three cases in Week 28 to six in Week 29, but the cumulative total of 44 remained below the 52 reported in 2025. No tick-borne encephalitis cases were reported during the two weeks, although two had been recorded year-to-date versus none in 2025.
+
+Q fever increased from one confirmed case in Week 28 to two in Week 29, bringing the year-to-date total to 33 versus 27 in 2025. Single reports included leptospirosis and brucellosis in Week 28. No anthrax or tularaemia cases were reported in either week. No West Nile virus, dengue or chikungunya cases were reported during Weeks 28–29. Bulgaria's year-to-date totals included four dengue cases, unchanged from 2025, and five chikungunya cases versus none in 2025, although the supplied sources do not state whether these were imported.
+
+### Contact and Sexual Transmission
+
+Bulgarian sexually transmitted infection indicators continued to exceed 2025 levels. Gonorrhoea accounted for five cases in Week 28 and three in Week 29, with the year-to-date total of 134 cases representing a 168% increase over the 50 cases recorded in 2025. Urogenital chlamydial infection accounted for six and seven weekly cases, with the cumulative total of 202 cases representing a 124% increase over 90 cases. Syphilis decreased from 10 cases in Week 28 to four in Week 29, but the year-to-date total of 230 remained 25.7% above the 183 recorded in 2025. No congenital or infant syphilis cases were reported during the two weeks, with 20 cases year-to-date compared with 19 last year.
+
+These increases take on added importance alongside ECDC's new rapid risk assessment on domestically transmitted ceftriaxone-resistant gonorrhoea. Bulgaria's routine notifications do not capture resistance, so the current data cannot determine whether resistant strains are circulating domestically. Strengthened culture and susceptibility testing where feasible, partner management, antenatal syphilis screening, confidential testing and linkage to HIV prevention services remain appropriate responses.
+
+Bulgaria reported 10 confirmed HIV cases in Week 28 and 13 in Week 29, with the year-to-date total of 151 remaining below the 175 recorded in 2025. No mpox cases were reported during the two weeks; the year-to-date total remained one case versus two in 2025. The European mpox situation nevertheless supports continued vaccine access, testing and risk communication for people at higher risk, particularly during summer travel and mass gatherings.
