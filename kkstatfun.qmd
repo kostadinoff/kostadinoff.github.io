@@ -19,7 +19,8 @@ toc-title: "Function families"
       grammar: tidy data in, tidy data out.
     </p>
     <div class="kk-badges">
-      <a href="https://doi.org/10.5281/zenodo.21203936" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21203936.svg" alt="DOI"></a>
+      <a href="https://doi.org/10.5281/zenodo.21599749" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21599749.svg" alt="DOI"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.0.1-blue.svg" alt="Version 1.0.1"></a>
       <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
       <img src="https://img.shields.io/badge/functions-100%2B-8A5A24" alt="100+ functions">
       <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
@@ -40,8 +41,8 @@ Every function follows *tidy data in, tidy data out*. Results come back as tibbl
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Pipe & group aware
-Full support for `%>%` / `|>` and `dplyr::group_by()`. Run a diagnostic or an odds ratio across strata without a single loop.
+### Genuinely stratified
+The analysis functions honour `dplyr::group_by()`: pipe a grouped data frame in and the analysis runs once per group, with the grouping columns prefixed to the result — real stratified estimates, not a pooled number with a loop on top.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -77,10 +78,17 @@ smoking_cancer <- data.frame(
 smoking_cancer %>% kk_twobytwo(smoking, lung_cancer)
 #> Odds Ratio 6.6 (3.0-14.5), Relative Risk 4.5 (2.3-8.7), plus RD, AF, PAF...
 
-# 2. Publication-ready Table 1, stratified by treatment arm
+# 2. The same analysis, stratified — group_by() just works
+cohort %>%
+  group_by(site) %>%
+  kk_twobytwo(exposure, outcome)
+#> One row-set per site: effect modification becomes visible,
+#> where a pooled estimate would hide it.
+
+# 3. Publication-ready Table 1, stratified by treatment arm
 kk_table1(cohort, by = "arm", variables = c("age", "bmi", "sex", "smoker"))
 
-# 3. A diagnostic work-up across every site at once
+# 4. A diagnostic work-up across every site at once
 cohort %>%
   group_by(site) %>%
   kk_diagnostic(gold_standard, rapid_test)
@@ -100,13 +108,20 @@ The core epidemiology toolkit: turn exposures and outcomes into interpretable, c
 
 | Function | What it does |
 |---|---|
-| `kk_twobytwo()` | Full 2×2 work-up: OR, RR, risk difference, attributable and preventable fractions (AF/PAF/PF), phi, Yule's Q — all with 95% CIs. |
+| `kk_twobytwo()` | Full 2×2 work-up: OR, RR, risk difference, attributable and preventable fractions (AF/PAF/PF), phi, Yule's Q, NNH — all with 95% CIs. |
 | `kk_epi_stats()` / `odds_ratio()` / `risk_ratio()` | Lightweight OR and RR when you just need the point estimate and CI. |
-| `kk_stratified_2x2()` | Stratified analysis with Cochran–Mantel–Haenszel pooled OR and the Breslow–Day test for effect-modification/confounding. |
+| `kk_stratified_2x2()` | Stratified analysis with Cochran–Mantel–Haenszel pooled OR/RR and the Breslow–Day test for effect-modification/confounding. |
 | `kk_reri()` | Relative Excess Risk due to Interaction (RERI), attributable proportion, and Synergy Index for additive interaction. |
-| `kk_nnt()` | Number Needed to Treat / Harm with confidence intervals. |
-| `kk_incidence_rate()` | Incidence rates and rate ratios from person-time with exact CIs. |
+| `kk_matched_case_control()` | Conditional logistic regression (`survival::clogit`) for 1:1, 1:m, or variable-ratio matched case-control studies. |
+| `kk_case_crossover()` | Self-controlled case-crossover analysis — hazard vs. control windows within the same patient, controlling all time-invariant confounders. |
+| `kk_paf()` | Crude and model-adjusted Population Attributable Fraction (Bruzzi standardization, Miettinen formula) with bootstrap CIs. |
+| `kk_nnt()` | Number Needed to Treat / Harm with ARR and RRR, with confidence intervals. |
+| `kk_survival_nnt()` | Time-varying ARR and NNT from Kaplan–Meier curves at specified horizons, with Greenwood-based CIs. |
+| `kk_sensitivity_analysis()` | How strong would an unmeasured confounder have to be to explain away an observed OR/RR? |
+| `kk_incidence_rate()` | Incidence rates per person-time with exact Poisson CIs, and rate ratios vs. a reference stratum. |
+| `kk_trend_test()` | Cochran–Armitage test for trend in proportions across ordinal exposure levels. |
 | `kk_std_rates()` | Direct age-standardization against a reference population (crude + standardized rates with CIs). |
+| `kk_std_rates_ci()` | Directly standardized rates with exact Gamma CIs (Tiwari et al. 2006 / Fay–Feuer SEER method) for sparse counts. |
 | `kk_smr()` | Indirect standardization → Standardized Mortality/Morbidity Ratio with an exact Poisson CI. |
 
 **Example — a classic 2×2 exposure–outcome analysis:**
@@ -125,16 +140,18 @@ df %>% kk_twobytwo(smoking, lung_cancer)
 
 ### Diagnostics & agreement
 
-Everything you need to validate a test, a marker, or a rater.
+Everything you need to validate a test, a marker, a model, or a rater.
 
 | Function | What it does |
 |---|---|
-| `kk_diagnostic()` | Sensitivity, specificity, PPV/NPV, likelihood ratios — with Wilson-score CIs. |
+| `kk_diagnostic()` / `confusion_metrics_ci()` | Sensitivity, specificity, PPV/NPV, likelihood ratios — with Wilson-score CIs. |
+| `diagnostic_summary()` / `kk_confusion_matrix()` | Quick confusion-matrix summaries for a truth–test pair. |
 | `kk_diagnostic_lrt()` | Bedside Bayesian update: pre-test probability + Se/Sp → post-test probability after a positive or negative result. |
 | `kk_roc()` | ROC curve for a continuous marker: AUC with DeLong CI and the Youden-optimal cutoff. |
-| `kk_compare_roc()` | Compare two markers' AUCs on the same subjects (DeLong's test). |
-| `kk_calibration()` | Calibration of a risk model (calibration plot, slope/intercept, Brier score). |
-| `kk_decision_curve()` | Decision-curve analysis — net clinical benefit across threshold probabilities. |
+| `kk_compare_roc()` | Compare two markers' AUCs on the same subjects (DeLong's paired test). |
+| `kk_calibration()` | Calibration of a risk model: Brier score, Hosmer–Lemeshow test, decile table of predicted vs. observed. |
+| `kk_reclassification()` | Net Reclassification Improvement (NRI) and Integrated Discrimination Improvement (IDI) when adding a biomarker to a risk model. |
+| `kk_decision_curve()` | Decision-curve analysis — net clinical benefit across threshold probabilities, vs. treat-all and treat-none. |
 | `kk_kappa()` / `kk_agreement()` | Cohen's κ, weighted κ (linear/quadratic), and PABAK for categorical agreement. |
 | `kk_icc()` | Intraclass correlation in all six Shrout–Fleiss forms (continuous agreement). |
 | `kk_bland_altman()` | Bland–Altman limits-of-agreement analysis and plot. |
@@ -163,15 +180,38 @@ One consistent interface across the models applied research actually uses.
 |---|---|
 | `kk_reg()` | Unified wrapper: auto-detects binary outcomes (logistic, with ORs + ROC) vs. continuous (linear, with diagnostic plots). |
 | `kk_firth()` | Firth-penalized logistic regression — finite, bias-reduced ORs under separation / rare events where ordinary logistic fails. |
-| `kk_rr_reg()` | Adjusted **risk-ratio** regression (modified Poisson with robust SEs) — RRs instead of ORs for common binary outcomes. |
-| `kk_rate_reg()` | Poisson / negative-binomial rate regression for count and person-time data. |
-| `kk_poisson()` | Poisson modelling of counts and rates. |
+| `kk_rr_reg()` | Adjusted **risk-ratio** regression (modified Poisson with robust SEs, Zou 2004) — RRs instead of ORs for common binary outcomes. |
+| `kk_rate_reg()` / `kk_poisson()` | Poisson / negative-binomial rate regression with a person-time offset; overdispersion detected and handled automatically. |
+| `kk_trend_nonlinearity()` | Test whether an exposure–outcome dose–response departs from linearity. |
+| `kk_dose_response()` | Estimate dose–response effects relative to a reference exposure value. |
+| `kk_compare_independent_correlations()` / `kk_compare_dependent_correlations()` | Compare two correlation coefficients — across independent samples or within the same sample. |
 | `kk_apc()` | Age–Period–Cohort analysis for trends in rates over time. |
 
 **Example — logistic regression returning tidy odds ratios:**
 
 ```r
 kk_reg(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
+```
+
+### Study design & proportions
+
+Sample size, power, and trial-specific analyses alongside proportion comparisons.
+
+| Function | What it does |
+|---|---|
+| `kk_sample_size_epi()` | Sample-size calculations for common epidemiological designs (given baseline risk, target RR/OR, power, α). |
+| `power_proportions()` | Power analysis for comparing two proportions. |
+| `compare_proportions()` / `compare_proportions_by()` | Compare proportions across groups, optionally stratified. |
+| `pcit()` | Proportion confidence intervals and tests. |
+| `compare_proportions_kk_glm()` | GLM-based proportion comparison for grouped count data. |
+| `plot_proportion_comparisons()` | Ready-made visualization of proportion-comparison results. |
+| `kk_cluster_trial()` | Analysis of cluster-randomized trials, accounting for intra-cluster correlation. |
+| `kk_crossover_trial()` | Analysis of two-period crossover trial data (period and sequence effects). |
+
+**Example — sample size for a cohort study:**
+
+```r
+kk_sample_size_epi(design = "cohort", p0 = 0.10, rr_or = 2.0, power = 0.8, alpha = 0.05)
 ```
 
 ### Survival & time-to-event
@@ -185,6 +225,8 @@ From Kaplan–Meier to competing risks and RMST.
 | `kk_logrank()` | Log-rank and related survival tests between groups. |
 | `kk_rmst()` | Restricted Mean Survival Time (area under the KM curve to a horizon τ) with group differences — robust when proportional hazards fails. |
 | `kk_cuminc()` | Competing-risks cumulative incidence functions. |
+| `kk_finegray()` | Fine–Gray subdistribution hazards model for competing risks. |
+| `kk_survival_nnt()` | Time-varying NNT/ARR from survival curves at chosen follow-up times. |
 | `kk_partsa()` | Partitioned survival analysis (oncology cost-effectiveness modelling). |
 
 **Example:**
@@ -201,11 +243,13 @@ The descriptive backbone of every paper.
 
 | Function | What it does |
 |---|---|
-| `kk_table1()` | The standard "Table 1" of baseline characteristics by group, with correct parametric/non-parametric tests chosen automatically. |
+| `kk_table1()` / `table1_summary()` | The standard "Table 1" of baseline characteristics by group, with correct parametric/non-parametric tests chosen automatically. |
 | `kk_compare_groups_table()` | Detailed comparison: per-group summaries, differences, CIs, effect sizes, p-values — fully tidyselect and `group_by()` aware. |
 | `kk_summary()` | Extensive numeric summary — central tendency, dispersion, robust (Huber-M) estimators, skewness/kurtosis, normality tests. |
 | `kk_chisq_test()` | Chi-square test for r×c contingency tables with effect sizes. |
-| `kk_trend_test()` | Cochran–Armitage test for trend in proportions. |
+| `kk_median_test()` | Median test across two or more groups. |
+| `kk_jonckheere_test()` | Jonckheere–Terpstra trend test for ordered groups. |
+| `kk_vdw_test()` | van der Waerden normal-scores test — a robust non-parametric alternative to one-way ANOVA. |
 
 **Example:**
 
@@ -217,18 +261,29 @@ cohort %>%
   kk_compare_groups_table(arm, c(sbp, dbp, ldl))
 ```
 
+### Randomness & sequences
+
+Tests for serial independence and randomness in ordered sequences.
+
+| Function | What it does |
+|---|---|
+| `kk_runs_test()` / `kk_random_seq()` | Runs test for randomness in a binary or numeric sequence. |
+| `kk_frequency_test()` | Frequency (monobit) test — do the categories occur in expected proportions? |
+| `kk_mssd_test()` | Mean successive squared difference test for serial independence. |
+
 ### Causal inference
 
 Modern tools for estimating treatment effects from observational data.
 
 | Function | What it does |
 |---|---|
-| `kk_iptw()` | Inverse-probability-of-treatment weighting (ATE/ATT) with stabilized weights. |
+| `kk_iptw()` | Inverse-probability-of-treatment weighting (ATE/ATT) with stabilized weights and robust CIs. |
 | `kk_tmle()` | Targeted maximum likelihood estimation of the ATE — double-robust, with efficient-influence-curve inference. |
 | `kk_smd()` / `kk_balance_table()` | Standardized mean differences and a covariate-balance table to check weighting/matching. |
 | `kk_causal_mediation()` | Causal mediation analysis: natural direct and indirect effects. |
 | `kk_simex()` | SIMEX correction for classical measurement error in a continuous covariate. |
 | `kk_butler_ks()` | Butler's symmetry-based KS randomization test of the sharp null in matched/stratified experiments. |
+| `kk_gsf()` | Generalized sensitivity functions — how model output responds to perturbations in parameters over time. |
 
 **Example — double-robust average treatment effect:**
 
@@ -262,14 +317,14 @@ strategies %>% kk_nmb(cost, qaly, wtp = 25000)
 
 ### Infectious disease
 
-Compartmental models, R₀, and outbreak detection.
+Compartmental models, R₀, serological incidence, and outbreak detection.
 
 | Function | What it does |
 |---|---|
 | `kk_seir()` | Simulate SIR / SEIR dynamics with optional vital dynamics and vaccination; returns compartments, incidence, and implied R₀. |
 | `kk_r0()` | Estimate the basic reproduction number from transmission parameters, early growth rate, or final attack rate. |
 | `kk_final_size()` | Final epidemic size from R₀. |
-| `kk_sero_incidence()` | Incidence / force of infection from seroprevalence survey data. |
+| `kk_sero_incidence()` | Force of infection from two or more seroprevalence surveys (birth-cohort catalytic model), or from a single cross-sectional survey. |
 | `kk_nb_scan()` | Negative-binomial space–time scan statistic for detecting localized disease clusters under overdispersion. |
 
 **Example — simulate an outbreak and read off R₀:**
@@ -282,17 +337,22 @@ attr(out, "R0")
 
 ### Plotting & utilities
 
-The theming layer and the Bulgarian-registry helpers.
+The theming layer, quick plots, and the Bulgarian-registry helpers.
 
 | Function | What it does |
 |---|---|
 | `kkplot()` / `set_plot_font()` / `set_plot_colors()` | The house ggplot2 theme and font/colour setup used across my figures. |
 | `scale_color_kk()` / `scale_fill_kk()` (+ `_c` continuous) | Discrete and continuous colour/fill scales in the kkstatfun palette. |
-| `kk_pal()` | The raw palette for custom use. |
+| `kk_pal()` / `kk_gen_palettes()` / `kk_show_palettes()` | The raw palette, palette generation, and an interactive palette gallery. |
+| `kk_risk_plot()` | Forest plot of OR/RR estimates with CIs straight from `kk_twobytwo()` output. |
+| `kk_fullcorplot()` | Full correlation-matrix plot for a data frame. |
 | `univariate_plot()` | Quick distribution plot for a single variable (auto categorical/continuous). |
-| `kkonehot()` / `one_hot_encode()` | One-hot encoding of categorical columns. |
-| `extract_egn_info()` / `extract_age_from_egn()` | Parse Bulgarian EGN identifiers → date of birth, sex, age, birth region. |
 | `kk_time_series()` | End-to-end time-series analysis: decomposition, ADF/KPSS stationarity, autocorrelation, auto-ARIMA. |
+| `kk_time_metrics()` | Summary metrics for a time series. |
+| `kkonehot()` / `one_hot_encode()` | One-hot encoding of categorical columns. |
+| `mutate_round()` / `format_tibble()` | Column-wise rounding and consistent tibble formatting. |
+| `kk_setup()` | Session setup: parallel cores and sane scientific-notation defaults. |
+| `extract_egn_info()` / `extract_age_from_egn()` | Parse Bulgarian EGN identifiers → date of birth, sex, age, birth region. |
 
 **Example — parse Bulgarian personal identifiers:**
 
@@ -307,9 +367,10 @@ extract_egn_info(c("9201014321", "8812128765"))
 
 ## Technical notes
 
-- **Philosophy** — tidy data in, tidy data out; full integration with `dplyr` verbs and `group_by()`.
+- **Philosophy** — tidy data in, tidy data out; full integration with `dplyr` verbs and genuinely stratified `group_by()` analyses.
 - **Built on** — the best-in-class engines under a single interface: `survival`, `gtsummary`, `broom`, `rstatix`, `pROC`, `epiR`/`epitools`, `easystats`, `marginaleffects`, `sandwich`, and more.
-- **Reproducible** — versioned and archived on Zenodo with a citable DOI.
+- **Methods** — implemented according to standard frameworks: Rothman, Greenland & Lash's *Modern Epidemiology* (3rd ed.), Szklo & Nieto's *Epidemiology: Beyond the Basics*, Jewell's *Statistics for Epidemiology*, Zar's *Biostatistical Analysis*, and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures*.
+- **Reproducible** — versioned and archived on Zenodo with a citable concept DOI that always resolves to the latest release.
 
 ## Citation
 
@@ -321,12 +382,15 @@ If `kkstatfun` supports your work, please cite it:
              Statistics and Epidemiology},
   author  = {Kostadinov, Kostadin},
   year    = {2026},
+  version = {1.0.1},
   url     = {https://github.com/kostadinoff/kkstatfun},
-  doi     = {10.5281/zenodo.21203936},
+  doi     = {10.5281/zenodo.21599749},
 }
 ```
 
+The DOI above is the Zenodo *concept* DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from [the Zenodo record](https://doi.org/10.5281/zenodo.21599749), or run `citation("kkstatfun")` in R.
+
 <div class="kk-cta">
   <a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a>
-  <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.21203936" target="_blank" role="button">Archived release (Zenodo)</a>
+  <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.21599749" target="_blank" role="button">Archived release (Zenodo)</a>
 </div>
