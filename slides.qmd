@@ -9,6 +9,12 @@ These are the materials I prepare for the practical classes and seminars I teach
 
 Pick a **discipline**, then a **language**, and each year is split into two separate collections — *lecture slides* and *student handouts*. The academic-year selector opens on the most recent materials; earlier cohorts stay available as an archive rather than being overwritten. Use the search box to look across everything at once, or click a tag to narrow things down. If you find an error, please [email me](mailto:kostadinr.kostadinov@mu-plovdiv.bg).
 
+::: {.callout-note}
+## The official exam companion
+
+The department's official companion for the exam is **[A Concise Compendium](https://socmed.raredis.org/doku.php?id=en:start)** — everything you have to know to pass — which I co-author with my colleagues. It is maintained on the Department's Social Medicine wiki and stays aligned with the current curriculum, so treat it as the definitive reference when preparing.
+:::
+
 ::: {#teaching-app}
 Loading teaching materials…
 :::
