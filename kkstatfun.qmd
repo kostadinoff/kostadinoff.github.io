@@ -19,7 +19,7 @@ toc-title: "Function families"
       grammar: tidy data in, tidy data out.
     </p>
     <div class="kk-badges">
-      <a href="https://doi.org/10.5281/zenodo.21599749" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21599749.svg" alt="DOI"></a>
+      <a href="https://doi.org/10.5281/zenodo.18936019" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18936019.svg" alt="DOI"></a>
       <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.0.1-blue.svg" alt="Version 1.0.1"></a>
       <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
       <img src="https://img.shields.io/badge/functions-100%2B-8A5A24" alt="100+ functions">
@@ -384,13 +384,13 @@ If `kkstatfun` supports your work, please cite it:
   year    = {2026},
   version = {1.0.1},
   url     = {https://github.com/kostadinoff/kkstatfun},
-  doi     = {10.5281/zenodo.21599749},
+  doi     = {10.5281/zenodo.18936019},
 }
 ```
 
-The DOI above is the Zenodo *concept* DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from [the Zenodo record](https://doi.org/10.5281/zenodo.21599749), or run `citation("kkstatfun")` in R.
+The DOI above is the Zenodo *concept* DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from [the Zenodo record](https://doi.org/10.5281/zenodo.18936019), or run `citation("kkstatfun")` in R.
 
 <div class="kk-cta">
   <a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a>
-  <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.21599749" target="_blank" role="button">Archived release (Zenodo)</a>
+  <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.18936019" target="_blank" role="button">Archived release (Zenodo)</a>
 </div>

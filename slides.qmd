@@ -10,9 +10,13 @@ These are the materials I prepare for the practical classes and seminars I teach
 Pick a **discipline**, then a **language**, and each year is split into two separate collections — *lecture slides* and *student handouts*. The academic-year selector opens on the most recent materials; earlier cohorts stay available as an archive rather than being overwritten. Use the search box to look across everything at once, or click a tag to narrow things down. If you find an error, please [email me](mailto:kostadinr.kostadinov@mu-plovdiv.bg).
 
 ::: {.callout-note}
-## The official exam companion
+## The official resources
 
-The department's official companion for the exam is **[A Concise Compendium](https://socmed.raredis.org/doku.php?id=en:start)** — everything you have to know to pass — which I co-author with my colleagues. It is maintained on the Department's Social Medicine wiki and stays aligned with the current curriculum, so treat it as the definitive reference when preparing.
+The department's official study resources are:
+
+- **[A Concise Compendium](https://socmed.raredis.org/doku.php?id=en:start)** — the main exam companion and the definitive reference for preparation.
+- **[Department SharePoint repository](https://muplovdivbg.sharepoint.com/teams/FacultyofPublicHealth/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=LExgmG&fbclid=IwAR2SpPwcopaNurXSVHad93XLYDSO_Kyp1OmLeSVXNp9X5HsZV2McXIjE29M&cid=e2420523-e896-4890-a24e-a322d867164f&FolderCTID=0x012000DAF9907FD71CC142959689FC483FA4AC&id=%2Fteams%2FFacultyofPublicHealth%2FShared%20Documents%2F%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0%20%D0%B8%20%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%20-%20Social%20medicine%20and%20public%20health)**
+- **[Syllabus / examination conspectus, Bulgarian](https://mu-plovdiv.bg/fakulteti/obshtestveno-zdrave/katedri/sotsialna-meditsina-obshtestveno-zdrave/)** and **[English](https://mu-plovdiv.bg/en/faculties/faculty-of-public-health/departments/department-of-social-medicine/)** — the official syllabus pages for the course.
 :::
 
 ::: {#teaching-app}
