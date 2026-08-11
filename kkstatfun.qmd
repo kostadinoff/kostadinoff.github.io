@@ -1,7 +1,7 @@
 ---
 title: "kkstatfun"
 subtitle: "An R toolkit for medical statistics, epidemiology, and health economics"
-description: "A tidyverse-friendly R package bringing 100+ analysis functions — from 2×2 tables to causal inference, survival, HTA, and outbreak detection — into a single consistent workflow."
+description: "A tidyverse-friendly R package bringing 145+ analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, and outbreak detection — into a single consistent workflow."
 toc: true
 toc-depth: 2
 toc-title: "Function families"
@@ -14,15 +14,16 @@ toc-title: "Function families"
     <p class="kk-hero-lead">
       <code>kkstatfun</code> is the R engine behind my research and teaching. It wraps the
       messy, error-prone parts of medical statistics — measures of association, standardization,
-      diagnostic accuracy, survival, regression, health-technology assessment, and infectious-disease
-      modelling — into <strong>100+ tidy, pipe-friendly functions</strong> that all speak the same
+      diagnostic accuracy, survival, regression, causal and quasi-experimental designs,
+      health-technology assessment, and infectious-disease modelling — into
+      <strong>146 tidy, pipe-friendly functions</strong> that all speak the same
       grammar: tidy data in, tidy data out.
     </p>
     <div class="kk-badges">
       <a href="https://doi.org/10.5281/zenodo.18936019" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18936019.svg" alt="DOI"></a>
-      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.0.1-blue.svg" alt="Version 1.0.1"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.3.0-blue.svg" alt="Version 1.3.0"></a>
       <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
-      <img src="https://img.shields.io/badge/functions-100%2B-8A5A24" alt="100+ functions">
+      <img src="https://img.shields.io/badge/functions-146-8A5A24" alt="146 functions">
       <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
     </div>
   </div>
@@ -50,6 +51,10 @@ The analysis functions honour `dplyr::group_by()`: pipe a grouped data frame in 
 Confidence intervals, effect sizes, and correct tests by default — plus themed plots — so output drops straight into a manuscript or a lecture.
 :::
 
+:::
+
+::: {.callout-note appearance="simple"}
+**New in 1.3.0 — quasi-experimental designs.** Difference-in-differences (including staggered adoption), regression discontinuity and kink, interrupted time series, synthetic control, and instrumental variables. These identify a causal effect from *how the intervention was assigned* rather than from adjusting for measured confounders, so they survive confounders nobody measured. [Jump to the reference ↓](#quasi-experimental-designs-tab)
 :::
 
 ## Installation
@@ -149,7 +154,8 @@ Everything you need to validate a test, a marker, a model, or a rater.
 | `kk_diagnostic_lrt()` | Bedside Bayesian update: pre-test probability + Se/Sp → post-test probability after a positive or negative result. |
 | `kk_roc()` | ROC curve for a continuous marker: AUC with DeLong CI and the Youden-optimal cutoff. |
 | `kk_compare_roc()` | Compare two markers' AUCs on the same subjects (DeLong's paired test). |
-| `kk_calibration()` | Calibration of a risk model: Brier score, Hosmer–Lemeshow test, decile table of predicted vs. observed. |
+| `kk_calibration()` | Calibration of a risk model in one row: Hosmer–Lemeshow test, observed/expected ratio, calibration slope and intercept. |
+| `kk_calibration_table()` | The per-group table behind a calibration curve, with the Brier score attached. |
 | `kk_reclassification()` | Net Reclassification Improvement (NRI) and Integrated Discrimination Improvement (IDI) when adding a biomarker to a risk model. |
 | `kk_decision_curve()` | Decision-curve analysis — net clinical benefit across threshold probabilities, vs. treat-all and treat-none. |
 | `kk_kappa()` / `kk_agreement()` | Cohen's κ, weighted κ (linear/quadratic), and PABAK for categorical agreement. |
@@ -186,11 +192,17 @@ One consistent interface across the models applied research actually uses.
 | `kk_dose_response()` | Estimate dose–response effects relative to a reference exposure value. |
 | `kk_compare_independent_correlations()` / `kk_compare_dependent_correlations()` | Compare two correlation coefficients — across independent samples or within the same sample. |
 | `kk_apc()` | Age–Period–Cohort analysis for trends in rates over time. |
+| `kk_model()` / `kk_model_data()` | Retrieve the fitted `lm`/`glm`/`coxph` object (and its data) that a modelling function kept, so nothing has to be refitted by hand to go further. |
+| `kk_emmeans()` | Estimated marginal means and contrasts via `emmeans`, back-transformed to ORs, RRs or probabilities — model-adjusted means for the results table instead of raw group means. |
 
 **Example — logistic regression returning tidy odds ratios:**
 
 ```r
-kk_reg(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
+fit <- kk_reg(cohort, outcome = "event", predictors = c("age", "smoker", "arm"))
+
+# The fitted model is kept, so carry on with it rather than refitting
+kk_emmeans(fit, ~ arm, contrast = "pairwise", type = "response")
+emmeans::joint_tests(kk_model(fit))
 ```
 
 ### Study design & proportions
@@ -294,6 +306,49 @@ kk_tmle(cohort,
         covariates = c("age", "sex", "comorbidity", "severity"))
 ```
 
+::: {.callout-important}
+**Every function on this tab assumes you measured the confounders that matter** — an assumption the data can never verify. When the treatment was switched on by a rule instead of by a clinician, the next tab gets you an effect estimate that does not need it.
+:::
+
+### Quasi-experimental designs {#quasi-experimental-designs-tab}
+
+*New in 1.3.0.* When an intervention was assigned by a **rule** — a policy start date, an eligibility threshold, a staggered rollout, a lottery — that rule can identify the causal effect on its own. No claim about having measured every confounder is required. What each design does require is its own identifying assumption, so every function here returns the diagnostic for it.
+
+| Function | What it does |
+|---|---|
+| `kk_did()` | Difference-in-differences: the change in the treated group net of the change in the control group. Canonical 2×2, or two-way fixed effects with cluster-robust SEs when `unit`/`time` are supplied. Returns the raw 2×2 cell means beside the regression estimate. |
+| `kk_event_study()` | One coefficient per period relative to adoption — **the parallel-trends check a 2×2 design cannot provide**. Flat leads are the evidence; the joint Wald test over them comes attached. |
+| `kk_did_staggered()` | Callaway–Sant'Anna group-time ATT for staggered adoption, where two-way fixed effects uses already-treated units as controls and can flip sign. Bootstrap SEs, simultaneous bands, and dynamic/cohort/calendar aggregations. |
+| `kk_rdd()` | Regression discontinuity, sharp or fuzzy: the jump in the outcome at a threshold, by local polynomial regression with the MSE-optimal Imbens–Kalyanaraman bandwidth and a bandwidth-sensitivity table. |
+| `kk_rkd()` | Regression kink design — the effect read off a **change in slope** at the threshold rather than a jump, as when a benefit formula bends at an income limit. |
+| `kk_rd_density()` | McCrary manipulation test: did units sort themselves across the cutoff? A null result is a precondition for reading an RD estimate causally. |
+| `kk_its()` | Interrupted time series by segmented regression — immediate level change separated from the change in trend, with Newey–West standard errors, seasonality, count models, and a counterfactual series with its cumulative impact. |
+| `kk_synth()` | Synthetic control: builds the comparator for a single treated unit as a non-negative, sum-to-one weighted average of donors fitted to the pre-intervention period, with placebo permutation inference. |
+| `kk_iv()` | Two-stage least squares — the complier effect (LATE), with the first-stage F, Sargan and Wu–Hausman tests, and an Anderson–Rubin interval that stays valid when the instrument is weak. |
+| `kk_ancova()` | Pretest–posttest baseline adjustment; beats both the follow-up-means comparison and the change score, and reports them alongside for contrast. |
+
+**Choosing the design.** Treated and control groups, before and after → `kk_did()`. Units adopting at different times → `kk_did_staggered()`. One series, no control group → `kk_its()`. One treated region, several comparators → `kk_synth()`. Assignment by a threshold → `kk_rdd()`. Non-compliance, or an encouragement or lottery → `kk_iv()`.
+
+**Example — a policy evaluated three ways:**
+
+```r
+# 1. Difference-in-differences, clustered on the panel unit
+kk_did(panel, cases, treated, post, unit = region, time = year)
+
+# 2. Is the parallel-trends assumption credible? Look at the leads.
+es <- kk_event_study(panel, cases, region, year, adoption_year)
+attr(es, "pretrend")     # joint Wald test over all pre-periods
+
+# 3. Staggered rollout: one clean 2x2 per cohort-period, then aggregated
+res <- kk_did_staggered(panel, cases, region, year, adoption_year)
+res$dynamic              # effect by time since adoption
+res$overall              # single summary
+```
+
+::: {.callout-note}
+**Interpretation.** A difference-in-differences estimate is only as good as the parallel-trends assumption behind it, and that assumption is not testable from a 2×2 table — which is why `kk_event_study()` exists and why its pre-period coefficients belong in the paper, not in a drawer. The same discipline applies across the tab: report the bandwidth-sensitivity table with an RD estimate, the manipulation test with the design, the first-stage F with an IV, and the placebo distribution with a synthetic control.
+:::
+
 ### Health economics & HTA
 
 A full health-technology-assessment workflow, from ICERs to value of information.
@@ -361,6 +416,31 @@ extract_egn_info(c("9201014321", "8812128765"))
 #> Date of birth, sex, age, and birth region for each EGN
 ```
 
+### Figure accessibility
+
+*New in 1.2.0.* Roughly one man in twelve has a red–green colour deficiency, journals and university accessibility policies increasingly ask for the check, and a figure still has to survive being photocopied. These audit a palette **before** it reaches a manuscript — no extra dependencies, base `grDevices` only.
+
+| Function | What it does |
+|---|---|
+| `kk_pal_check()` | The one to reach for: for every colour and every vision type, the perceptual distance (OKLab ΔE) to the nearest other colour plus the WCAG contrast against the background. An empty result means the palette passes. |
+| `kk_show_cvd()` | Swatch grid, one row per vision type — categories that collapse into each other become obvious at a glance. |
+| `kk_cvd()` | Simulate deuteranopia, protanopia, tritanopia or achromatopsia (Machado et al. 2009, applied in linear-light RGB), with interpolated severity for the common mild forms. |
+| `kk_pal_safe()` | Build a categorical palette that stays distinguishable under normal, deuteranopic, protanopic *and* tritanopic vision at once — deterministic, so figures stay reproducible, and anchorable on institutional colours. |
+| `kk_contrast()` | WCAG 2.1 contrast ratios with the AA/AAA flags. |
+| `kk_color_convert()` | OKLab / OKLCh coordinates and relative luminance. |
+
+`kk_gen_palettes()` and `set_plot_colors()` also take `space = "oklch"`, which builds palettes in perceptually uniform space: hue rotations hold their apparent lightness instead of lurching between a muddy green and a fluorescent one, and out-of-gamut colours are mapped by reducing chroma rather than clipping RGB, which shifts hue.
+
+**Example — audit a palette before the figures ship:**
+
+```r
+pal <- kk_pal(5)
+kk_pal_check(pal) %>% filter(!distinct | !graphic)   # empty = passes
+
+# Or build one that is safe by construction
+kk_pal_safe(5, seed_colors = "#003049")
+```
+
 :::
 
 ---
@@ -369,7 +449,8 @@ extract_egn_info(c("9201014321", "8812128765"))
 
 - **Philosophy** — tidy data in, tidy data out; full integration with `dplyr` verbs and genuinely stratified `group_by()` analyses.
 - **Built on** — the best-in-class engines under a single interface: `survival`, `gtsummary`, `broom`, `rstatix`, `pROC`, `epiR`/`epitools`, `easystats`, `marginaleffects`, `sandwich`, and more.
-- **Methods** — implemented according to standard frameworks: Rothman, Greenland & Lash's *Modern Epidemiology* (3rd ed.), Szklo & Nieto's *Epidemiology: Beyond the Basics*, Jewell's *Statistics for Epidemiology*, Zar's *Biostatistical Analysis*, and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures*.
+- **Methods** — implemented according to standard frameworks: Rothman, Greenland & Lash's *Modern Epidemiology* (3rd ed.), Szklo & Nieto's *Epidemiology: Beyond the Basics*, Jewell's *Statistics for Epidemiology*, Zar's *Biostatistical Analysis*, and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures*. The quasi-experimental designs follow Angrist & Pischke, Callaway & Sant'Anna (2021), Imbens & Kalyanaraman (2012), McCrary (2008), Abadie et al. (2010) and Bernal et al. (2017).
+- **Tested** — every exported function is covered by the test suite, and the causal estimators are tested against a known simulated effect rather than merely for running. `R CMD check` passes with 0 errors and 0 warnings.
 - **Reproducible** — versioned and archived on Zenodo with a citable concept DOI that always resolves to the latest release.
 
 ## Citation
@@ -382,7 +463,7 @@ If `kkstatfun` supports your work, please cite it:
              Statistics and Epidemiology},
   author  = {Kostadinov, Kostadin},
   year    = {2026},
-  version = {1.0.1},
+  version = {1.3.0},
   url     = {https://github.com/kostadinoff/kkstatfun},
   doi     = {10.5281/zenodo.18936019},
 }
