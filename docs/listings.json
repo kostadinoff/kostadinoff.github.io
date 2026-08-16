@@ -19,6 +19,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/kkstatfun-worked-example.html",
       "/epinews-posts/2026-W30-31-en.html",
       "/blog/phd-curriculum.html",
       "/epinews-posts/2026-W28-29-en.html",
@@ -89,6 +90,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/kkstatfun-worked-example.html",
       "/blog/phd-curriculum.html",
       "/blog/academic-writing-setup.html"
     ]
