@@ -1,6 +1,6 @@
 ---
 title: "A Package That Argues With You: kkstatfun, One Analysis Start to Finish"
-description: "One cohort, one deliberately misleading crude estimate, and a worked tour of kkstatfun — from 2×2 tables and colour-blindness audits to targeted causal inference, interrupted time series and cost-effectiveness curves. Then the public-health workflow it sits inside: requesting NHIF and Ministry of Health data under ЗДОИ, the pipeline that cleans it, where AI actually helps, and how it all reaches a manuscript."
+description: "One cohort, one deliberately misleading crude estimate, and a worked tour of kkstatfun — from 2×2 tables and colour-blindness audits to targeted causal inference, interrupted time series and cost-effectiveness curves. Then the public-health workflow it sits inside: getting NHIS data out of the system under ЗДОИ, the pipeline that cleans it, where AI actually helps, and how it reaches a manuscript."
 author: "Kostadin Kostadinov"
 date: 2026-08-16
 date-modified: last-modified
@@ -23,11 +23,11 @@ knitr:
     out.width: "100%"
 ---
 
-Every applied statistics package makes a claim about what analysis *is*. Most of them claim it is a sequence of tests. You hand over data, you get back a *p*-value, and the interpretation is left as an exercise. [`kkstatfun`](../kkstatfun.qmd) makes a different claim, and this post is an attempt to demonstrate it rather than assert it: that an analysis is a chain of decisions, that most of those decisions should be made once and reused forever, and that a good tool makes the uncomfortable ones visible instead of hiding them behind a default.
+Every applied statistics package makes a claim about what analysis *is*. Most claim it is a sequence of tests: you hand over data, you get back a *p*-value, and the interpretation is left as an exercise. [`kkstatfun`](../kkstatfun.qmd) claims something else, and this post tries to demonstrate that claim rather than assert it — that an analysis is a chain of decisions, that most of those decisions should be made once and then reused, and that a good tool makes the uncomfortable ones visible instead of hiding them behind a default.
 
 So this is not a feature list — the [reference page](../kkstatfun.qmd) already is one. It is a single worked analysis, run end to end, on a dataset built so that **the honest answer and the obvious answer point in opposite directions**. Every number below was produced by the code shown above it when this page was rendered. Nothing is transcribed.
 
-Then, in §12, the part that actually pays for the package: the public-health workflow it sits inside — how the data gets out of the National Health Insurance Fund and the Ministry of Health in the first place, what happens to it before an estimate is legitimate, and which parts of that I now hand to a machine.
+Then, in §12, the part that actually pays for the package: the public-health workflow it sits inside. How the data gets out of the National Health Information System in the first place, what has to happen to it before an estimate is legitimate, and which parts of that I now hand to a machine.
 
 ::: {.callout-note}
 ## The short version
@@ -86,7 +86,7 @@ I am keeping the palette, because I use those colours for fills and points rathe
 kk_pal_safe(4, seed_colors = "#003049")
 ```
 
-This is the philosophical point of the whole package in miniature. The function did not silently fix my figure, and it did not refuse to run. It told me precisely what was wrong, in units I can act on, and left the decision where it belongs.
+That is the package's whole attitude in one function. It did not silently fix my figure, and it did not refuse to run. It told me what was wrong, in units I can act on, and left the decision with me.
 
 ## 2. The data, and why it is synthetic
 
@@ -232,7 +232,7 @@ kkplot(plot_df, aes(curb65, risk, colour = timing)) +
 
 ## 5. Adjusted, weighted, and doubly robust
 
-Stratification handles one confounder. For several at once the package gives three routes with different assumptions, and — the point — the same interface.
+Stratification handles one confounder. For several at once there are three routes, with different assumptions and, the point, one interface.
 
 **Regression, on the right scale.** For a common binary outcome the odds ratio overstates the risk ratio, so `kk_rr_reg()` fits modified Poisson regression with robust standard errors (Zou 2004) and returns risk ratios directly. It runs the univariate models alongside the multivariable one, so confounding is visible as a shift between rows rather than something you have to reconstruct from two printouts:
 
@@ -246,7 +246,7 @@ rr |>
   mutate_round(3)
 ```
 
-The `early_abx` row moves from `r rr |> filter(term == "early_abx", model_type == "univariate") |> pull(risk_ratio) |> round(2)` univariately to `r rr |> filter(term == "early_abx", model_type == "multivariable") |> pull(risk_ratio) |> round(2)` adjusted. That single sign flip is the entire post.
+The `early_abx` row moves from `r rr |> filter(term == "early_abx", model_type == "univariate") |> pull(risk_ratio) |> round(2)` univariately to `r rr |> filter(term == "early_abx", model_type == "multivariable") |> pull(risk_ratio) |> round(2)` adjusted. That reversal is the entire post.
 
 **Weighting.** Before weighting anything, look at the imbalance you are trying to remove:
 
@@ -629,13 +629,13 @@ kk_r0(beta = 0.42, gamma = 0.2)
 kk_final_size(R0 = 2.1)
 ```
 
-And, because most of my data is Bulgarian administrative data, the registry helpers — `extract_egn_info()` parses date of birth, sex, age and birth region out of an EGN; `kk_std_rates()` and `kk_smr()` do direct and indirect standardisation; `kk_nb_scan()` looks for space–time clusters under overdispersion.
+And, because most of my data comes out of Bulgarian national systems, the registry helpers: `extract_egn_info()` parses date of birth, sex, age and birth region out of an EGN; `kk_std_rates()` and `kk_smr()` do direct and indirect standardisation; `kk_nb_scan()` looks for space–time clusters under overdispersion.
 
 ## 11. The philosophy, stated plainly
 
 Having shown it, let me name it. Four commitments, in the order they matter.
 
-**Tidy data in, tidy data out.** Every function takes a data frame first and returns a tibble. Never a print-only object you have to scrape, never a list of matrices, never a `summary()` you parse with regular expressions. This is why §3 could pipe a 2×2 result straight into a plot, and why any result in this post could be written to a CSV and pasted into a manuscript without an intermediate step.
+**Tidy data in, tidy data out.** Every function takes a data frame first and returns a tibble. Never a print-only object you have to scrape, never a list of matrices, never a `summary()` you parse with regular expressions. This is why §5 could collect four estimates from four different estimators into one figure without a number being retyped, and why any result in this post could be written to a CSV and included in a manuscript with no step in between.
 
 **`group_by()` is not decoration.** Stratified analysis is the default posture of epidemiology, not an advanced option. When running an analysis by site, by sex or by severity costs one line, you actually do it — and effect modification stops being something you notice at peer review.
 
@@ -649,30 +649,30 @@ Having shown it, let me name it. Four commitments, in the order they matter.
 It is not a replacement for understanding the method. `kk_tmle()` will happily estimate an average treatment effect from a dataset where the exchangeability assumption is nonsense, and it will do so with a tidy confidence interval and no complaint. Convenience functions lower the cost of doing an analysis, including a bad one. The books remain the load-bearing part; the package is only the part that stops me re-deriving them at midnight.
 :::
 
-## 12. Where this actually gets used: public-health analysis on national data
+## 12. Where this actually gets used: NHIS data
 
-None of the above is hypothetical tooling. The synthetic cohort is a teaching device; the real work is population-level, and the analysis layer is the *last* step of it. A public-health question in Bulgaria — how many people are treated for a condition, where, at what cost, and how that changed after a policy — is answered from administrative data held by two institutions, and getting it out of them is most of the job.
+None of the above is hypothetical tooling. The synthetic cohort is a teaching device. The real work is population-level, and the analysis is its *last* step. A public-health question here — how many people were treated for a condition, where, with what, and what changed after a policy — is answered from the **National Health Information System** (НЗИС, NHIS): the national e-health infrastructure through which prescriptions, referrals, hospitalisations and immunisations are recorded. It covers the country rather than a sample, and it is where most of my data comes from.
+
+That coverage is also its main analytical hazard. The NHIS records what clinicians entered into it, which is not the same as what happened to patients: completeness differs by module, by year and by how strongly a given field was enforced when the record was made. A count that rises in 2022 may be a rise in disease, a rise in reporting, or a change in what the system required — and you cannot tell which from the file. So the first analysis on any NHIS extract is always the same one: plot the raw counts by month and look for the step change that corresponds to a software release rather than an epidemic.
+
+Where the question is about money rather than activity, the **National Health Insurance Fund** (НЗОК, NHIF) is the second source: claims under clinical pathways (КП), reimbursed medicines by ATC code, dialysis, dental. The two are not interchangeable. The NHIS records clinical activity; the NHIF records what was paid for. Care that generates no claim exists only in the first, and a claim that was never clinically recorded exists only in the second, so which one you ask decides what your denominator means.
 
 ### Asking for the data
 
-The **National Health Insurance Fund** (НЗОК / NHIF) publishes a good deal: hospitalisations by clinical pathway (КП), outpatient activity, reimbursed medicines by ATC code, dialysis, IVF, dental. It publishes it as Excel and PDF attachments scattered across a website, in formats that change between years.
+Very little of either is published in usable form, so the work starts with a written request under the Access to Public Information Act (ЗДОИ). After a fair number of these I would say the request itself is a skill, with rules:
 
-The **Ministry of Health** (МЗ) holds what the NHIF does not, most importantly the **National Health Information System** (НЗИС) — the electronic prescription, referral and hospitalisation records that now cover essentially the whole system, including activity that never generates an insurance claim. Almost none of it is published. For that you write to the Ministry.
-
-Both routes run through the Access to Public Information Act (ЗДОИ), and after a fair number of these I would say the request itself is a skill with rules:
-
-- **Ask for aggregates, never person-level records.** Counts and sums by КП or ATC code, month, region (област), age band and sex. This is not only the lawful form of the request — it removes the institution's best reason to refuse, since no personal data means no data-protection ground for saying no.
+- **Ask for aggregates, never person-level records.** Counts by code, month, district (област), age band and sex. That is not only the lawful form of the request — it removes the institution's best reason to refuse, because with no personal data there is no data-protection ground for saying no.
 - **Name the fields and the period exactly.** "Брой хоспитализации по КП 39 за периода 2019–2024 г., по области и по пол" is answerable by a clerk running a query. "Data on hospitalisations" is answerable only by a meeting.
-- **Say the format in the request.** Write `.csv` or `.xlsx` explicitly. Otherwise the answer arrives as a scanned PDF of a printed table, and the institution has complied.
-- **Ask for the codelist alongside the data.** The version of the КП or ATC list in force in each year of the period — otherwise you will spend a week reconstructing which code was renumbered when.
-- **Anticipate the aggregation refusal.** Where cells are small, propose the suppression rule yourself in the request (for example, cells below five reported as "<5"). It converts a likely refusal into a qualified release.
+- **Say the format in the request.** Write `.csv` or `.xlsx` explicitly, or the answer arrives as a scan of a printed table and the institution has complied.
+- **Ask for the codelist alongside the data** — the version of the МКБ, КП or ATC list in force in each year of the period. Otherwise you will spend a week reconstructing which code was renumbered when.
+- **Pre-empt the small-cell refusal.** Propose the suppression rule yourself: cells below five reported as "<5". It turns a likely refusal into a qualified release.
 - **Keep the reference number and the response date.** They become the provenance record in the deposit metadata, and they are what makes the resulting dataset citable rather than anecdotal.
 
-The reply usually arrives within the statutory two weeks, and it is usually incomplete in some interesting way. That is normal, and it is why the next step exists.
+The reply usually arrives inside the statutory two weeks, and it is usually incomplete in some interesting way. That is normal, and it is why the next step exists.
 
 ### The pipeline
 
-What arrives is never clean. Merged header cells, footer totals rows, comma decimal separators, Cyrillic and Latin mixed within a column, MKB codes that Excel has helpfully converted to dates, and a schema that changes between years. So the pipeline is four numbered scripts and one rule:
+What arrives is never clean. Merged header cells, footer totals rows, comma decimal separators, Cyrillic and Latin mixed inside one column, МКБ codes that Excel has helpfully converted to dates, and a schema that changes between years. So the pipeline is four numbered scripts and one rule:
 
 ```
 scripts/01-ingest.R      # raw -> tidy, one function per source file
@@ -683,7 +683,7 @@ scripts/04-publish.R     # sha256 hashes, metadata, deposit package
 
 The rule is that `data/raw/` is never edited. Every correction happens in a script, with a comment saying what was wrong — which means the pipeline can always be re-run from the true origin and "what exactly did you change?" has an answer.
 
-Three conventions do most of the work. Money is stored in **both BGN and EUR** at the fixed rate of 1.95583, which matters enormously across the 2025–2026 adoption boundary, where a careless join double-converts a column and nobody notices. CSV output is **UTF-8 with BOM**, so Cyrillic survives the round trip through Excel. And every dataset ships a `data-dictionary.csv` with one row per column — Bulgarian label, English label, type, unit, codelist, the original NHIF field name, and the caveats. The dictionary is the artefact that survives schema drift; the code is comparatively disposable.
+Three conventions do most of the work. Money is stored in **both BGN and EUR** at the fixed rate of 1.95583, which matters across the 2025–2026 adoption boundary, where a careless join double-converts a column and nobody notices. CSV output is **UTF-8 with BOM**, so Cyrillic survives the round trip through Excel. And every dataset ships a `data-dictionary.csv` with one row per column: Bulgarian label, English label, type, unit, codelist, the original Cyrillic field name from the source, and the caveats. The dictionary is the artefact that survives schema drift. The code is comparatively disposable.
 
 Alongside it goes a `data-quality-report.md` logging, per source file, the rows ingested, the rows surviving, and each irreversible decision. That log is more valuable than perfect code, because it is the only record of judgements that the data itself no longer shows.
 
@@ -691,19 +691,19 @@ The finished product is deposited on Zenodo with a DOI, CC-BY, and a `CITATION.c
 
 ### Then, and only then, the analysis
 
-At this point the file is a tidy panel of counts and costs by region, year, age band and code, and everything in §§3–9 applies — with the population-health functions doing the work the clinical ones did above. Rates per person-time with exact Poisson intervals from `kk_incidence_rate()`. Direct age-standardisation against the European Standard Population with `kk_std_rates()`, or `kk_std_rates_ci()` where the counts are sparse enough that the Gamma interval matters. Indirect standardisation and an SMR by district with `kk_smr()`. Trends over the period with `kk_apc()`, and the spatial-temporal outlier hunt with `kk_nb_scan()`.
+At this point the file is a tidy panel of counts by district, year, age band and code, and everything in §§3–9 applies, with the population-health functions doing the work the clinical ones did above. Rates per person-time with exact Poisson intervals from `kk_incidence_rate()`. Direct age-standardisation against the European Standard Population with `kk_std_rates()`, or `kk_std_rates_ci()` where the counts are sparse enough that the Gamma interval matters. Indirect standardisation and an SMR by district with `kk_smr()`. Period trends with `kk_apc()`. The spatial-temporal outlier hunt with `kk_nb_scan()`.
 
-And when the question is about a policy — a new reimbursement rule, a pathway price change, a programme rolled out in some districts before others — it is §8 verbatim: `kk_its()` on the national monthly series, `kk_did()` or `kk_did_staggered()` across districts, with `kk_event_study()` to show whether the parallel-trends story holds. Administrative data is unusually well suited to those designs, because the intervention really was switched on by a rule with a date, and the date is in the *Държавен вестник*.
+When the question is about a policy — a new reimbursement rule, a pathway price change, a programme rolled out in some districts before others — it is §8 verbatim: `kk_its()` on the national monthly series, `kk_did()` or `kk_did_staggered()` across districts, with `kk_event_study()` for whether the parallel-trends story survives contact with the pre-period. National data suits those designs unusually well, because the intervention really was switched on by a rule with a date, and the date is in the *Държавен вестник*.
 
-That is the whole argument for building the package. The interesting part of a public-health analysis is deciding what to ask an institution for and what the resulting estimate can support. The part in between should be a function call I have already tested.
+That is the argument for building the package. The interesting part of a public-health analysis is deciding what to ask for and what the resulting estimate can carry. The part in between should be a function call I have already tested.
 
 ### Where AI fits, and where it does not
 
-I run this with [Claude Code](https://claude.com/claude-code), and the arrangement that made it useful rather than merely fast is **skills**: plain Markdown files in `~/.claude/skills/`, one per recurring task, each stating the conventions for that task. `nhif-data-pipeline` holds the directory layout, the currency rule, the encoding rule and the data-dictionary schema. `kkstatfun-epi` says to reach for `kk_*` functions over `epitools` or `gtsummary` and how they compose. `bibliography-management` holds the citation rules below. `humanizer-bg` strips the calques out of Bulgarian prose.
+I run this with [Claude Code](https://claude.com/claude-code), and what made it useful rather than merely fast is **skills**: plain Markdown files in `~/.claude/skills/`, one per recurring task, each stating the conventions for that task. The data-pipeline skill holds the directory layout, the currency rule, the encoding rule and the data-dictionary schema. `kkstatfun-epi` says to reach for `kk_*` functions over `epitools` or `gtsummary`, and how they compose. `bibliography-management` holds the citation rules below. `humanizer-bg` strips the English calques out of Bulgarian prose, and `humanizer-en` does the same job in the other direction — this post went through it.
 
-The distinction I would insist on is this: **the conventions are written by me, in version control, once. The model applies them.** That is the opposite of asking a chatbot how to clean health data. The AI is fast at the mechanical middle — parsing a malformed sheet, writing the ingest function for the twelfth source file, drafting the data dictionary from the column names, catching the year where the schema changed, drafting the ЗДОИ request in the register's own idiom. It is not the thing deciding what the currency rule is, whether a join is legitimate, or what an estimate means. Every number it produces gets checked against the source, because a fluent wrong answer is the characteristic failure mode and it costs nothing to generate.
+The distinction I would insist on is this: **the conventions are written by me, in version control, once. The model applies them.** That is a different activity from asking a chatbot how to clean health data. The model is fast at the mechanical middle: parsing a malformed sheet, writing the ingest function for the twelfth source file, drafting the data dictionary from the column names, catching the year the schema changed, putting a ЗДОИ request into the register's own idiom. It is not the thing deciding whether a join is legitimate or what an estimate means. Every number it produces gets checked against the source, because a fluent wrong answer is the characteristic failure mode and costs nothing to generate.
 
-The small tools around it matter more than they sound. `anydoc` converts the legacy `.doc` and `.xls` files institutions still send into something readable — pandoc will silently emit binary garbage for an `.xls` rather than failing, which is exactly the kind of error that ends up in a published table. DBeaver is where I sanity-check a join before writing analysis code against it. Local models via Ollama take the bulk mechanical passes — summarising, extracting, first-draft translation — for text that should not leave the machine at all. And the whole thing is in Git, because the value of version control here is not collaboration but a record of my own reasoning: the commit that dropped 1,400 rows says why it dropped them.
+The small tools around it matter more than they sound. `anydoc` converts the legacy `.doc` and `.xls` files institutions still send; pandoc will silently emit binary garbage for an `.xls` instead of failing, which is exactly the class of error that ends up in a published table. DBeaver is where I check a join before writing analysis code against it. Local models through Ollama take the bulk mechanical passes — summarising, extracting, first-draft translation — for text that should not leave the machine. And all of it is in Git, because the value of version control here is not collaboration but a record of my own reasoning: the commit that dropped 1,400 rows says why it dropped them.
 
 ### Writing it up
 
@@ -714,7 +714,7 @@ getbib 10.1016/S0140-6736(20)30183-5 33301246
 getbib -c    # audit: duplicate keys, and entries with no abstract
 ```
 
-`getbib` populates the `abstract` field automatically, and that field is the point. **Each entry stores what the source actually found**, so when I need support for a claim I search my own bibliography and what comes back is a finding, not a title. A claim followed by `[@key]` has to be supported by the abstract recorded in that entry — which is the single most effective guard I have against citing a paper for something it does not say, a failure that fluent drafting makes easier rather than harder. Non-PubMed sources — NHIF releases, legal acts, Bulgarian-language reports — have no abstract to fetch, so I write the findings statement by hand or the entry does not get cited.
+`getbib` populates the `abstract` field automatically, and that field is the point. **Each entry stores what the source actually found**, so when I need support for a claim I search my own bibliography and what comes back is a finding rather than a title. A claim followed by `[@key]` has to be supported by the abstract recorded in that entry. It is the best guard I have against citing a paper for something it does not say, which fluent drafting makes easier rather than harder. Bulgarian sources — NHIS and NHIF releases, legal acts, NCPHA reports — are not in PubMed and have no abstract to fetch, so I write the findings statement by hand or the entry does not get cited at all.
 
 The rest follows the structure in my [writing setup post](academic-writing-setup.qmd): numbered scripts produce `output/figures/` and `output/tables/`, the manuscript consumes them, no number is ever transcribed by hand, and `00_run_all.R` regenerates everything from the raw files in one command. `kkstatfun` occupies exactly one layer of that stack — the layer between a cleaned dataset and a defensible estimate. It is a small layer. It is also the one where the mistakes are hardest to see afterwards, which is why it is the one I automated first.
 
