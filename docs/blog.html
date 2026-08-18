@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.11.1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,14 +46,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-993615bec231d6057790b9e3465a04b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8f3d97f8e51a6dae54ce054eebf10868.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-993615bec231d6057790b9e3465a04b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-026534c11b3848075140f9b7f06c974b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2af5aef1d946e35f65555e73531b8ea5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-026534c11b3848075140f9b7f06c974b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bdd62bf60ee9af6da7d6f01dc1eb4b72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-691dfc7af7cbd832f7fe67ba9e416462.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bdd62bf60ee9af6da7d6f01dc1eb4b72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -109,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -478,7 +481,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UiUyQ2trc3RhdGZ1biUyQ2VwaWRlbWlvbG9neSUyQ2NhdXNhbCUyMGluZmVyZW5jZSUyQ3B1YmxpYyUyMGhlYWx0aCUyQ3JlcHJvZHVjaWJpbGl0eSUyQ3dvcmtmbG93" data-listing-date-sort="1786827600000" data-listing-file-modified-sort="1786894672295" data-listing-date-modified-sort="1786894672000" data-listing-reading-time-sort="38" data-listing-word-count-sort="7422">
+<div class="quarto-post image-right" data-index="0" data-categories="UiUyQ2trc3RhdGZ1biUyQ2VwaWRlbWlvbG9neSUyQ2NhdXNhbCUyMGluZmVyZW5jZSUyQ3B1YmxpYyUyMGhlYWx0aCUyQ3JlcHJvZHVjaWJpbGl0eSUyQ3dvcmtmbG93" data-listing-date-sort="1786827600000" data-listing-file-modified-sort="1786948558833" data-listing-date-modified-sort="1786948558000" data-listing-reading-time-sort="38" data-listing-word-count-sort="7422">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./blog/kkstatfun-worked-example.html" class="no-external">A Package That Argues With You: kkstatfun, One Analysis Start to Finish</a>
@@ -513,7 +516,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGVhY2hpbmclMkNkb2N0b3JhbCUyMGVkdWNhdGlvbiUyQ3JlcHJvZHVjaWJpbGl0eSUyQ3dvcmtmbG93JTJDb3Bpbmlvbg==" data-listing-date-sort="1784667600000" data-listing-file-modified-sort="1785351102656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5552">
+<div class="quarto-post image-right" data-index="1" data-categories="dGVhY2hpbmclMkNkb2N0b3JhbCUyMGVkdWNhdGlvbiUyQ3JlcHJvZHVjaWJpbGl0eSUyQ3dvcmtmbG93JTJDb3Bpbmlvbg==" data-listing-date-sort="1784667600000" data-listing-file-modified-sort="1784981421705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5552">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./blog/phd-curriculum.html" class="no-external">The PhD Curriculum Is Preparing Researchers for Yesterday</a>
@@ -544,7 +547,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="d29ya2Zsb3clMkNyZXByb2R1Y2liaWxpdHklMkNSJTJDb3BlbiUyMHNjaWVuY2UlMkN3cml0aW5n" data-listing-date-sort="1784494800000" data-listing-file-modified-sort="1785351102602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5532">
+<div class="quarto-post image-right" data-index="2" data-categories="d29ya2Zsb3clMkNyZXByb2R1Y2liaWxpdHklMkNSJTJDb3BlbiUyMHNjaWVuY2UlMkN3cml0aW5n" data-listing-date-sort="1784494800000" data-listing-file-modified-sort="1784981421687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5532">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./blog/academic-writing-setup.html" class="no-external">My Academic Writing Setup: Why Writing Has Already Changed</a>

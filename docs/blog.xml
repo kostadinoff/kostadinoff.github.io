@@ -9,7 +9,7 @@
 <link>https://kostadinoff.github.io/blog.html</link>
 <atom:link href="https://kostadinoff.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on research workflows, epidemiological methods, and scientific tooling.</description>
-<generator>quarto-1.9.37</generator>
+<generator>quarto-1.11.1</generator>
 <lastBuildDate>Sat, 15 Aug 2026 21:00:00 GMT</lastBuildDate>
 <item>
   <title>A Package That Argues With You: kkstatfun, One Analysis Start to Finish</title>
@@ -52,7 +52,7 @@ font-style: inherit;">kk_setup</span>()</span></code></pre></div></div>
 <pre><code>#&gt; ✅ kkstatfun environment configured:</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt;    - Cores: 5</code></pre>
+<pre><code>#&gt;    - Cores: 7</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>#&gt;    - Backend: cmdstanr</code></pre>
@@ -3350,7 +3350,7 @@ font-style: inherit;">"kkstatfun"</span>)</span></code></pre></div></div>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Written in Quarto, rendered with knitr against R 4.6.0 and <code>kkstatfun</code> 1.3.0. The cohort is synthetic and the hospitals are fictional; the confounding is not. Corrections and disagreements to <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">my inbox</a>.</p>
+<p>Written in Quarto, rendered with knitr against R 4.6.1 and <code>kkstatfun</code> 1.3.0. The cohort is synthetic and the hospitals are fictional; the confounding is not. Corrections and disagreements to <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">my inbox</a>.</p>
 </div>
 </div>
 
