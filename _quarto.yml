@@ -4,6 +4,7 @@ project:
   resources:
     - SOCIAL_SEMESTER_BOOK_EN.pdf
     - medical-statistics-practical-guide-bg.pdf
+    - medical-statistics-practical-guide-en.pdf
     - medical-ethics-deontology-bg.pdf
     - medical-ethics-deontology-en.pdf
     - .nojekyll
