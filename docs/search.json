@@ -3301,7 +3301,7 @@
     "href": "study-guide.html",
     "title": "Study guides",
     "section": "",
-    "text": "Semester study guides for the subjects I teach, together with the AI study notebooks built from the course materials. More guides are on the way — a medical ethics guide is currently in preparation."
+    "text": "Semester study guides for the subjects I teach, together with the AI study notebooks built from the course materials. Each guide is written to be read alongside the practical classes — open it, work through the examples, and come to class with questions."
   },
   {
     "objectID": "study-guide.html#social-medicine",
@@ -3323,5 +3323,19 @@
     "title": "Study guides",
     "section": "Gemini AI Notebooks",
     "text": "Gemini AI Notebooks\nInteractive Gemini AI Notebooks built from the course materials — ask questions, generate quizzes, and listen to audio overviews for each subject.\n\n\nSocial Medicine · Gemini AI study notebook\nBiostatistics · Gemini AI study notebook\nBioethics · Gemini AI study notebook\nEpidemiology · Gemini AI study notebook\nHygiene · Gemini AI study notebook"
+  },
+  {
+    "objectID": "study-guide.html#medical-statistics",
+    "href": "study-guide.html#medical-statistics",
+    "title": "Study guides",
+    "section": "Medical statistics",
+    "text": "Medical statistics\nМедицинска статистика · Практически наръчник за упражнения — учебно помагало за студентите от специалностите „Медицина“ и „Дентална медицина“, II курс. Седем упражнения с решени примери и задачи за самоподготовка, с анализите в R и пакета kkstatfun.\n\n    Ако PDF файлът не се зареди, можете да го изтеглите оттук."
+  },
+  {
+    "objectID": "study-guide.html#medical-ethics-and-deontology",
+    "href": "study-guide.html#medical-ethics-and-deontology",
+    "title": "Study guides",
+    "section": "Medical ethics and deontology",
+    "text": "Medical ethics and deontology\n\nПътеводител на студента (български)\nМедицинска етика и деонтология — Пътеводител на студента. Пълен учебен пътеводител по медицинска етика и деонтология за студентите по медицина: история на медицинската етика, основните принципи, взаимоотношението лекар–пациент и нормативната рамка.\n\n    Ако PDF файлът не се зареди, можете да го изтеглите оттук.\n    \n\n\n\nPractical class study guide (English)\nMedical Ethics and Deontology — Practical Class Study Guide. Seven case-based seminars for medical students, each built around ethical cases for discussion in class.\n\n    If the PDF does not appear, you can download it here."
   }
 ]

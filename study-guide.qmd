@@ -3,7 +3,7 @@ title: "Study guides"
 description: "Semester study guides and AI study notebooks for the subjects I teach."
 ---
 
-Semester study guides for the subjects I teach, together with the AI study notebooks built from the course materials. More guides are on the way — a medical ethics guide is currently in preparation.
+Semester study guides for the subjects I teach, together with the AI study notebooks built from the course materials. Each guide is written to be read alongside the practical classes — open it, work through the examples, and come to class with questions.
 
 ## Social medicine
 
@@ -12,13 +12,44 @@ The full semester study guide for the social medicine course (English programme)
 ```{=html}
 <div class="pdf-container">
     <p>If the PDF does not appear, you can <a href="SOCIAL_SEMESTER_BOOK_EN.pdf" target="_blank">download it here</a>.</p>
-    <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;"></iframe>
+    <iframe src="SOCIAL_SEMESTER_BOOK_EN.pdf" width="100%" height="800px" style="border: none;" loading="lazy"></iframe>
 </div>
 ```
 
-## Medical ethics
+## Medical statistics
 
-In preparation — coming in the 2026/2027 academic year.
+**Медицинска статистика · Практически наръчник за упражнения** — учебно помагало за студентите от специалностите „Медицина“ и „Дентална медицина“, II курс. Седем упражнения с решени примери и задачи за самоподготовка, с анализите в R и пакета `kkstatfun`.
+
+```{=html}
+<div class="pdf-container">
+    <p>Ако PDF файлът не се зареди, можете да го <a href="medical-statistics-practical-guide-bg.pdf" target="_blank">изтеглите оттук</a>.</p>
+    <iframe src="medical-statistics-practical-guide-bg.pdf" width="100%" height="800px" style="border: none;" loading="lazy"></iframe>
+</div>
+```
+
+## Medical ethics and deontology
+
+### Пътеводител на студента (български) {#ethics-guide-bg}
+
+**Медицинска етика и деонтология — Пътеводител на студента.** Пълен учебен пътеводител по медицинска етика и деонтология за студентите по медицина: история на медицинската етика, основните принципи, взаимоотношението лекар–пациент и нормативната рамка.
+
+```{=html}
+<div class="pdf-container">
+    <p>Ако PDF файлът не се зареди, можете да го <a href="medical-ethics-deontology-bg.pdf" target="_blank">изтеглите оттук</a>.</p>
+    <iframe src="medical-ethics-deontology-bg.pdf" width="100%" height="800px" style="border: none;" loading="lazy"></iframe>
+</div>
+```
+
+### Practical class study guide (English) {#ethics-guide-en}
+
+**Medical Ethics and Deontology — Practical Class Study Guide.** Seven case-based seminars for medical students, each built around ethical cases for discussion in class.
+
+```{=html}
+<div class="pdf-container">
+    <p>If the PDF does not appear, you can <a href="medical-ethics-deontology-en.pdf" target="_blank">download it here</a>.</p>
+    <iframe src="medical-ethics-deontology-en.pdf" width="100%" height="800px" style="border: none;" loading="lazy"></iframe>
+</div>
+```
 
 ## Gemini AI Notebooks
 
