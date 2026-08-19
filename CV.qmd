@@ -1,18 +1,16 @@
 ---
 title: "Kostadin Rangelov Kostadinov"
-subtitle: "MD, PhD, MPH, MSc · Chief Assistant Professor, Medical University of Plovdiv"
-bibliography: referencelist.bib
-csl: "american-chemical-society.csl"
-nocite: |
-   @*
+subtitle: "MD, PhD, MPH, MSc · Chief Assistant Professor, Department of Social Medicine and Public Health, Medical University of Plovdiv"
 format:
   html:
     toc: true
+    toc-depth: 2
     toc-location: left
     title-block-banner: true
   pdf:
+    papersize: a4
     mainfont: "CMU Serif"
-    fontsize: 11pt
+    fontsize: 10.5pt
     linestretch: 1.05
     geometry: margin=0.85in
     colorlinks: true
@@ -23,13 +21,15 @@ format:
         \definecolor{cvink}{HTML}{1E2A33}
         \definecolor{cvslate}{HTML}{35506A}
         \definecolor{cvbronze}{HTML}{8A5A24}
-        \usepackage{titlesec}
+        \usepackage[nobottomtitles*]{titlesec}
+        \renewcommand{\bottomtitlespace}{0.18\textheight}
         \titleformat{\section}{\Large\bfseries\color{cvslate}}{}{0em}{}[{\color{cvslate}\titlerule[1.1pt]}]
         \titleformat{\subsection}{\large\bfseries\color{cvink}}{}{0em}{}
         \titlespacing*{\section}{0pt}{16pt}{6pt}
         \titlespacing*{\subsection}{0pt}{10pt}{3pt}
         \usepackage{enumitem}
         \setlist[itemize]{leftmargin=1.25em, itemsep=1.5pt, topsep=2pt}
+        \setlist[enumerate]{leftmargin=1.6em, itemsep=1.5pt, topsep=2pt}
         \let\oldtexttt\texttt
         \renewcommand{\texttt}[1]{{\color{cvbronze}\small\oldtexttt{#1}}}
         \AtBeginDocument{\hypersetup{urlcolor=cvbronze, linkcolor=cvbronze}}
@@ -37,606 +37,843 @@ format:
         \pagestyle{fancy}
         \fancyhf{}
         \renewcommand{\headrulewidth}{0pt}
-        \fancyfoot[L]{\small\color{cvslate}Kostadin Kostadinov — Curriculum Vitae}
+        \fancyfoot[L]{\small\color{cvslate}Kostadin R. Kostadinov — Curriculum Vitae}
         \fancyfoot[R]{\small\color{cvslate}\thepage}
+        \widowpenalty=10000
+        \clubpenalty=10000
+        \makeatletter
+        \@beginparpenalty=10000
+        \makeatother
+        \raggedbottom
 format-links: [pdf]
 ---
 
 ::: {.content-visible when-format="html"}
 ::: {.cv-contact}
-{{< fa envelope >}} [drkostadinkostadinov@gmail.com](mailto:drkostadinkostadinov@gmail.com) &nbsp;·&nbsp; {{< fa brands github >}} [GitHub](https://github.com/kostadinoff) &nbsp;·&nbsp; {{< fa brands twitter >}} [Twitter](https://twitter.com/kostadinoffMD) &nbsp;·&nbsp; {{< fa brands linkedin >}} [LinkedIn](https://linkedin.com/in/kostadinovmd) &nbsp;·&nbsp; {{< fa brands orcid >}} [ORCID](https://orcid.org/0000-0003-1414-8738)
+{{< fa envelope >}} [drkostadinkostadinov@gmail.com](mailto:drkostadinkostadinov@gmail.com) &nbsp;·&nbsp; {{< fa building-columns >}} [kostadinr.kostadinov@mu-plovdiv.bg](mailto:kostadinr.kostadinov@mu-plovdiv.bg) &nbsp;·&nbsp; Plovdiv, Bulgaria
+:::
+
+::: {.cv-download}
+[{{< fa file-pdf >}} Download CV (PDF)](CV.pdf){.btn .btn-primary .btn-lg role="button"}
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
-drkostadinkostadinov@gmail.com  |  [GitHub](https://github.com/kostadinoff)  |  [Twitter](https://twitter.com/kostadinoffMD)  |  [LinkedIn](https://linkedin.com/in/kostadinovmd)  |  [ORCID](https://orcid.org/0000-0003-1414-8738)
+drkostadinkostadinov@gmail.com  |  kostadinr.kostadinov@mu-plovdiv.bg  |  Plovdiv, Bulgaria
 :::
 
-# Personal data
+# Current appointments
 
-`Date of birth`
+- **Chief Assistant Professor**, Department of Social Medicine and Public Health, Faculty of Public Health, Medical University of Plovdiv *(July 2025 – present)*
+- **Founder and Chief Executive Officer**, [Social Epidemiology Lab](lab.qmd) — independent research and analytics practice in epidemiology, health economics and health policy
+- **Resident Physician in Infectious Disease Epidemiology**, Department of Epidemiology and Disaster Medicine, Medical University of Plovdiv *(November 2025 – present)*
+- **Attending Physician**, Medicus Alpha Hospital, Plovdiv *(December 2020 – present)*
 
--   1992-04-01
--   Plovdiv, Bulgaria
+## Researcher identifiers
 
+[ORCID 0000-0003-1414-8738](https://orcid.org/0000-0003-1414-8738) · [Google Scholar](https://scholar.google.com/citations?user=nQOcsJkAAAAJ&hl=en) · [Scopus Author ID 57542360900](https://www.scopus.com/authid/detail.uri?authorId=57542360900) · [Web of Science AEE-9300-2022](https://www.webofscience.com/wos/author/record/AEE-9300-2022) · [GitHub](https://github.com/kostadinoff) · [LinkedIn](https://www.linkedin.com/in/kostadinovmd/) · [X](https://x.com/kostadinoffMD)
 
-# Education
+*Last updated: August 2026.*
 
-`Starting October 2026`
+# Academic profile
 
-- Master’s in Law | Burgas Free University
+Physician-epidemiologist and Chief Assistant Professor in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, working at the intersection of epidemiology, health economics and health policy. Research centres on how health systems allocate scarce resources — orphan medicines and rare cancers, the cost of illness, health technology assessment, and the health consequences of the urban environment — using routinely collected administrative health data and real-world evidence.
 
-`November 2025 - Present`
+Holds an MD, a PhD in social medicine and public health, an MPH, and master's degrees in economics and finance, statistical business consulting, and impact assessment and policy appraisal, and is currently reading for a Master of Laws. Board-certified in Social Medicine and Organisation of Health Care and Pharmacy, and currently in residency training in Infectious Disease Epidemiology.
 
-- Resident Physician in Infectious Disease Epidemiology | Department of Epidemiology and Disaster Medicine | MU-Plovdiv
+Develops and publishes open research software: [`kkstatfun`](kkstatfun.qmd), an R toolkit of 146 functions for medical statistics, epidemiology and health economics. Associate Editor at JMIR Publications and founder of the Social Epidemiology Lab.
 
-`October 2025 - July 2026`
+# Research interests
 
-- Master’s in Impact Assessment and Policy Appraisal | Department of Public Administration | Sofia University "St. Kliment Ohridski"
+Epidemiology · Social medicine and public health · Infectious disease epidemiology · Health policy and health technology assessment · Real-world evidence and health economics · Environmental and urban health · Biostatistics and reproducible research
 
-`April 2022 - May 2025`
+The publication record is organised around six research programmes:
 
-- National Medical Board Certification | Medical specialty ‘Social Medicine and Organization of Health Care and Pharmacy’ | MU-Plovdiv
+1. **Rare diseases, rare cancers and access to orphan medicines.** Policy analysis of definitions, registration, organisation of care and reimbursement; timeliness of market access; national and EU-level policy alternatives.
+2. **Health economics, HTA and real-world evidence.** Cost-of-illness studies (myasthenia gravis, spinal muscular atrophy, osteoporosis, end-stage kidney disease, terminal cancer), budget-impact validation, and public expenditure analysis from a payer perspective.
+3. **Infectious disease epidemiology and antimicrobial resistance.** COVID-19 epidemiology and vaccine impact, urinary tract and sexually transmitted infections, antimicrobial resistance trends, echinococcosis, and HPV-attributable expenditure.
+4. **Environmental and urban health.** Air pollution and cardiovascular risk, green space and land cover, health impact assessment in spatial planning, and stakeholder evidence for urban environmental policy.
+5. **Health professions education and digital health.** Virtual-reality and simulation-based training, trauma-informed care, and mental health literacy among school and health professionals.
+6. **Applied biostatistics, prediction and reproducible research.** External validation of clinical prediction and AI tools, diagnostic accuracy, and open, reproducible statistical software.
 
-`December 2021 - January 2025`
+# Academic appointments
 
-- PhD | Department of Social Medicine and Public Health | Medical University of Plovdiv | Health Policies in the Field of Rare Tumors
+`July 2025 – Present`
 
-`October 2024 - September 2025`
+- **Chief Assistant Professor** | Department of Social Medicine and Public Health | Faculty of Public Health | Medical University of Plovdiv
+    - Lectures and practical training in Medical Ethics, Biostatistics, Social Medicine and Public Health, Public Dental Health, and Clinical Trial Design for Non-Interventional Studies
+    - Course coordination and curriculum development for undergraduate public health and biostatistics teaching
+    - Design and marking of written and practical examinations; student assessment
+    - Supervision and mentoring of student research projects
+    - Research within the departmental programme in health policy, health economics and environmental health
 
-- Master’s in Statistical Business Consulting | D. A. Tsenov Academy of Economics, Svishtov
+`September 2021 – July 2025`
 
-`October 2021 - September 2022`
+- **Assistant Professor** | Department of Social Medicine and Public Health | Faculty of Public Health | Medical University of Plovdiv
+    - Practical classes in Medical Ethics, Biostatistics, Social Medicine and Public Health
 
-- Master’s in Economics and Finance | Faculty of Economics | Sofia University "St. Kliment Ohridski"
+## Research appointments
 
-`October 2017 - September 2019`
+`October 2024 – July 2026`
 
-- Master’s in Public Health and Health Management | Faculty of Public Health | Medical University of Plovdiv
+- **Junior Researcher (R1)** | Research Group 3.1.5 "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Programme for the Development of MU-Plovdiv (PSNIIR-MUP) | Contract BG-RRP-2.004-0007-C01 of 31 December 2022
 
-`September 2012 - December 2017`
+`2025 – Present`
 
-- Master’s in Medicine | Faculty of Medicine | Medical University of Plovdiv
+- **Founder and Chief Executive Officer** | [Social Epidemiology Lab](lab.qmd) | Independent research and analytics practice: study design, epidemiological and statistical analysis, health economics and HTA, and policy impact assessment for universities, clinicians, NGOs and public institutions
 
+## Clinical appointments
 
-# Professional Experience
+`December 2020 – Present`
 
-`July 2025 - Present`
+- **Attending Physician** | Medicus Alpha Hospital | Plovdiv, Bulgaria | General inpatient and outpatient practice across acute and chronic conditions and injuries
 
-- MU-Plovdiv | Chief Assistant Professor | Department of Social Medicine and Public Health | Faculty of Public Health | Teaching and Practical Training in Medical Ethics; Biostatistics; Social Medicine and Public Health
+`December 2017 – March 2020`
 
-`October 2024 - Present`
+- **Resident Physician in Cardiology** | Cardiology Clinic | University Hospital Plovdiv | Inpatient care
 
-- Medical University of Plovdiv | Junior Researcher - R1 | Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Contract: BG-RRP-2.004-0007-C01 from 31.12.2022
+# Academic education
 
-`September 2021 - July 2025`
+`2026 – Present`
 
-- Medical University of Plovdiv | Assistant professor | Practical classes in Medical Ethics, Biostatistics, Social Medicine, and Public Health
+- **Master of Laws** | Burgas Free University | Enrolled; studies commence October 2026
 
-`December 2020 - Present`
+`October 2025 – July 2026`
 
-- Medicus Alpha Hospital | Attending Physician | Healthcare | Inpatient and Outpatient Medical Services
+- **MSc in Impact Assessment and Policy Appraisal** | Department of Public Administration | Sofia University "St. Kliment Ohridski"
 
-`December 2017 - March 2020`
+`October 2024 – September 2025`
 
-- University Hospital Plovdiv | Cardiology Resident Physician | Healthcare | Inpatient Medical Services
+- **MSc in Statistical Business Consulting** | D. A. Tsenov Academy of Economics, Svishtov
 
-## NGO Memberships 
+`December 2021 – January 2025`
 
-`2021 - Present`
+- **PhD** | Department of Social Medicine and Public Health | Faculty of Public Health | Medical University of Plovdiv
+    - **Dissertation:** *Health Policies in the Field of Rare Tumours*
+    - **Field:** Medicine — Public Health — Social Medicine and Organisation of Health Care and Pharmacy
+    - **Supervisors:** Prof. Georgi Iskrov, PhD and Prof. Nina Musurlieva, DMD, PhD
+    - **Thesis submitted** 2024; **publicly defended** January 2025
+    - Dissertation appendices and analysis code: [github.com/kostadinoff/phd_appendices](https://github.com/kostadinoff/phd_appendices) · PhD defence announcement: [mu-plovdiv.bg](https://mu-plovdiv.bg/d-r-kostadin-rangelov-kostadinov/)
 
-- "Air for Health" Physician Network
+`October 2021 – September 2022`
 
-`2024 - 2025`
+- **MSc in Economics and Finance** | Faculty of Economics | Sofia University "St. Kliment Ohridski"
 
-- OpenAQ Community Ambassador | OpenAQ | Advocating for air quality data transparency, open data utilization, and air pollution monitoring in local communities
+`October 2017 – September 2019`
 
-`2012 - 2017`
+- **MPH in Public Health and Health Management** | Faculty of Public Health | Medical University of Plovdiv
 
-- Bulgarian Medical Students’ Association | Chair of the Supervisory Board 2015-2016 | Secretary 2017
+`September 2012 – December 2017`
 
-`2011 - 2017`
+- **MD (Master's in Medicine)** | Faculty of Medicine | Medical University of Plovdiv
 
-- Student Council | President 20212 | Chair of the General Assembly 2013-2015
+# Medical qualifications and specialty training
 
+`November 2025 – Present`
 
-# Personal skills and competences
+- **Residency in Infectious Disease Epidemiology** | Department of Epidemiology and Disaster Medicine | Medical University of Plovdiv
 
-## Teaching
+`April 2022 – May 2025`
 
-- Winter Semester 2021/22: Biostatistics | Medical Ethics | Public Dental Health
+- **Board-certified specialist in Social Medicine and Organisation of Health Care and Pharmacy** | National medical specialty certification | Medical University of Plovdiv
 
-- Summer Semester 2021/22: Social Medicine and Public Health
+`October 2024 – July 2025`
 
-- Winter Semester 2022/23: Biostatistics | Medical Ethics | Public Dental Health
+- **Postgraduate qualification in Sexology and Sexopathology** | Department of Postgraduate Education | Medical University of Plovdiv
 
-- Summer Semester 2022/23: Social Medicine and Public Health
+`Since 2017`
 
-- Winter Semester 2023/24: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies
+- **Medical licensure** | Bulgarian Medical Association | Registration No. 1700005331
 
-- Summer Semester 2023/24: Social Medicine and Public Health
+# Research funding and projects
 
-- Winter Semester 2024/25: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies
+## Grants, fellowships and personal funding
 
-- Summer Semester 2024/25: Social Medicine and Public Health
+`2026`
 
-- Winter Semester 2025/26: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies
+- **World Health Organization** | Externally commissioned research contract | Epidemiological and economic analysis of varicella and varicella vaccination in Bulgaria, informing the introduction of varicella vaccine into the national immunisation programme in 2026 | Role: **Consultant — lead analyst**
 
-- Summer Semester 2025/26: Social Medicine and Public Health
+`September 2024 – 2025`
 
-## Erasmus Mobility
+- **National Science Programme "Young Scientists and Postdoctoral Researchers – 2"** | Ministry of Education and Science of the Republic of Bulgaria | Competitive personal funding | Role: **Awardee**
 
-`September 2023`
+`November 2025 – Present`
 
-- Erasmus+ Staff Mobility for Teaching | University of West Attica (Athens), Greece | 04.09.2023 – 08.09.2023
+- **Project BG05SFPR002-1.014-0001 "Encouraging specialisation in specialties and areas with a shortage of specialists"** | Human Resources Development Programme 2021–2027 | Role: **Beneficiary**
 
-`January 2026`
+`September 2023; January 2026`
 
-- Erasmus+ Staff Mobility for Teaching | Tartu Health Care College, Estonia | 19.01.2026 – 23.01.2026 | 16 teaching hours
+- **Erasmus+ Staff Mobility for Teaching grants** | University of West Attica, Greece (2023); Tartu Health Care College, Estonia (2026)
 
-## Language
+## International projects
 
-`Bulgarian`	 (Native)
+`2024 – 2026`
 
-`English`
+- **AFFIRMO** — Atrial Fibrillation Integrated Approach in Frail, Multimorbid and Polymedicated Older People | European Union Horizon 2020 research and innovation programme | Grant Agreement No. 899871 | Role: **National site monitor** — monitoring of study conduct and protocol compliance at the Bulgarian site, source data verification and implementation support
 
--  First Certificate in English (FCE) - Cambridge English Language Assessment | Reading C1 | Writing B2 | Use of English C1 | Listening B2 | Speaking C1
+`February 2022 – January 2025`
 
-## Social
+- **Safe4Child** — "Caring for Violent Children Safely in Child Psychiatric and Residential Units" | Erasmus+ Programme, Key Action 2 (KA220-HED) | Agreement No. 2021-1-FI01-KA220-HED-000032106 | Coordinator: Turku University of Applied Sciences, Finland | Partners: HAW Hamburg (Germany), University College Cork (Ireland), Medical University of Plovdiv (Bulgaria) | Total budget EUR 358,235; MU-Plovdiv allocation EUR 41,778 | MU-Plovdiv lead: Assoc. Prof. Gergana Petrova, PhD
+    - Role: **Researcher**, Department of Social Medicine and Public Health, Faculty of Public Health, MU-Plovdiv
+    - Contribution: evaluation design, statistical analysis and reporting of the virtual-reality trauma-informed care training programme
+    - Main outputs: pre–post evaluation study in *JMIR Medical Education* (2026); qualitative multi-country study in *Child Care in Practice* (2025); systematic review in *Journal of Child and Adolescent Trauma* (2023)
 
-Engaging in academic and instructional endeavors within a diverse setting encompassing students from medical, dental, pharmacy, and nursing disciplines. Contributing to postgraduate programs with attendees hailing from various continents. Actively involved in social and charitable initiatives of non-profit and non-governmental entities. Professional development in Ireland, Greece, Austria, Estonia, Germany, Finland and the United Kingdom.
+`September 2021 – 2025`
 
+- **Screen4Care** — "Shortening the Path to Rare Disease Diagnosis Using Newborn Genetic Screening and Digital Technologies" | Innovative Medicines Initiative 2 Joint Undertaking | Grant Agreement No. 101034427
+    - Role: **Researcher** — landscape analysis of European data sources amenable to machine learning; mapping of rare disease registries and databases against organisational, FAIR and legal principles
+    - Main outputs: project protocol in *PLOS ONE* (2023); scoping review in *Frontiers in Public Health* (2023); landscape analysis in *Orphanet Journal of Rare Diseases* (2024); machine-learning readiness study in *Orphanet Journal of Rare Diseases* (2024)
 
-## Computer skills
+`2020 – August 2023`
 
-`Programming languages and tools`
+- **W@S / Well@School** — "Developing Multi-Professional Higher Education for Promoting Mental Health and Well-Being in Schools" | Erasmus+ Programme, Key Action 2 | Project Reference 2020-1-FI01-KA203-066521 | Coordinator: Turku University of Applied Sciences, Finland | MU-Plovdiv lead: Prof. Gergana Petrova, PhD
+    - Role: **Researcher** — leading contribution to the development, methodology, analysis and reporting of the training evaluation
+    - Main output: Korhonen J, Lahti M, **Kostadinov K**, et al. Fostering Mental Health Literacy Among Primary School Professionals. *Int J Environ Res Public Health*. 2025;22:435
 
--   *Data analysis*
-    **R** | Python | SPSS | SAS | STATA | Orange | Jamovi | JASP
+`2025 – Present`
 
--   *Other*
-    **Linux**; R studio; MySQL; Latex; VS code; html; CSS; Quarto; Pandoc; Microsoft 365; Google Workspace
+- **"Combined Effects of Exposure to Natural and Built Environment – Informing Healthy and Sustainable Urban Development"** | National Science Programme with EU funding (Recovery and Resilience Plan)
+    - Role: **Researcher** — epidemiological study design, exposure–outcome modelling and statistical analysis of urban environmental exposures and population health outcomes
+    - Main outputs: stakeholder survey in *Urban Science* (2026); health impact assessment framework presented at AESOP 2025; land cover and allergic rhinitis analysis presented at ISEE 2026
 
-## Other
+`March – May 2020`
 
-- Driving license
+- **"Interdisciplinarity, Multiculturalism and Patient Care in Non-Standard Situations in the Context of Didactic Activities in Medical and Health Sciences at Medical Simulation Centres"** | Erasmus+ Programme, Key Action 2 | Project No. 2019-1-PL01-KA203-065205 | Role: **Researcher**
 
-# Professional organization membership
+`2018 – 2019`
+
+- **AEGIS II** — ApoA-I Event Reducing in Ischemic Syndromes II | International multicentre clinical trial | Role: **Study Coordinator** (site level)
+
+## National projects and programmes
+
+`December 2025 – June 2026`
+
+- **Academic Mentor** | Project BG05SFPR001-3.002-0001 "From Higher Education to Employment" | Mentoring of students in practical placements; supporting the match between higher education provision and labour market demand
+
+`October 2024 – July 2026`
+
+- **Research Group 3.1.5 "Health and Quality of Life in a Green and Sustainable Environment"** | Strategic Research and Innovation Programme for the Development of MU-Plovdiv | Agreement BG-RRP-2.004-0007-C01 of 31 December 2022 | Role: **Junior Researcher (R1)**
+
+## University projects
+
+`2026`
+
+- **"Conflict Dynamics and Illness Behaviour"** | Project No. РНО1400 | Project Leader: Assoc. Prof. Zlatoslav Arabadzhiev, MD, PhD | Role: **Statistical analysis and methodology** | Medical University of Plovdiv
+
+`2025`
+
+- **"Investigation of New Modern Biomarkers for Diagnosis and Therapeutic Response in Urinary Tract Infections"** | PhD and Postdoctoral Project DPDP-11/2025 | Role: **Epidemiological design and statistical analysis** | Medical University of Plovdiv
+- **"Healthcare Costs and Their Economic and Social Effects – Statistical Dimensions"** | Inter-university research project, nationally funded | Role: **Researcher — health economics and statistical analysis** | Main output: Kostadinov K, Raycheva R, Zdravkova-Aneva I, Shopova M, Ovchinnikov E, Petkov P. Accuracy of Budget Impact Projections in Bulgarian Health Technology Assessment. *Healthcare*. 2025;13:2990
+- **"Development of a Scientific Framework and National Methodology for Psychotherapy of Dysfunctional Schemas Based on Evidence"** | Intra-university research project No. HO-2/2025 | Principal Investigator: Kristina Stoyanova, PhD (NIMH – Plovdiv) | Scientific Supervisor: Assoc. Prof. Zlatoslav Arabadzhiev, MD, PhD | Role: **Statistical analysis and methodology** | Medical University of Plovdiv
+
+`September 2023 – 2025`
+
+- **"Study of the Relationship Between Non-Cultivable and Hard-to-Culture Microorganisms and Fertility Function in Men with Symptomatic and Asymptomatic Infections of the Lower Urogenital Tract"** | University Project No. НО-17/2023 | Role: **Epidemiological design and statistical analysis** | Medical University of Plovdiv
+
+`October 2023`
+
+- **"Comparative Study on Modern Microbiological Methods for Rapid Etiological Diagnosis of Urinary Tract Infections"** | PhD and Postdoctoral Project | Agreement No. 10/2023 | Role: **Statistical analysis** | Medical University of Plovdiv
+
+`September 2022`
+
+- **"Antimicrobial Activity of Root Canal Fillers for the Treatment of Endodontic Infection in Primary Teeth"** | PhD and Postdoctoral Project | Agreement No. 04/01.09.2022 | Role: **Statistical analysis** | Medical University of Plovdiv
+
+`September 2021`
+
+- **"Rapid Microbiological Diagnosis of Genital Infections in Women and Men – Comparative Analysis"** | Project No. НО-03/2020 (НО-Р-8445) | Funded by the Bulgarian Ministry of Education and Science under the regulations for targeted state budget allocations for scientific and creative activities in higher education institutions | Role: **Statistical analysis** | Medical University of Plovdiv
+
+# Publications
+
+{{< include _publications.md >}}
+
+# Research software and open science
+
+`2024 – Present`
+
+- **[`kkstatfun`](kkstatfun.qmd)** — R package for medical statistics, epidemiology and health economics. A single tidy, pipe-friendly and `group_by()`-aware interface covering measures of association, standardisation, diagnostic accuracy, agreement, survival analysis, regression, causal inference and quasi-experimental designs, health technology assessment, and infectious disease modelling. Current release **v1.3.0**, 146 functions, MIT licence.
+    - Source: [github.com/kostadinoff/kkstatfun](https://github.com/kostadinoff/kkstatfun) · Archive: [doi:10.5281/zenodo.18936019](https://doi.org/10.5281/zenodo.18936019) · Documentation: [kkstatfun function reference](kkstatfun.qmd)
+
+`2025`
+
+- **PhD dissertation appendices and analysis code** — reproducible materials accompanying the doctoral thesis on health policies in rare tumours: [github.com/kostadinoff/phd_appendices](https://github.com/kostadinoff/phd_appendices)
+
+`Ongoing`
+
+- **Reproducible analytical workflows** — Quarto-based reproducible reporting for manuscripts, teaching materials and policy analyses; version-controlled research workflows in Git and GitHub; literate analysis pipelines in R with figures and tables regenerated from source data.
+- **Open educational and scholarly resources** — [kostadinoff.github.io](https://kostadinoff.github.io): teaching slides, 15-minute learning modules, learning tasks and the *Epi News* research digest, all published openly and generated from source (see *Teaching materials and textbooks*).
+
+`2024 – 2025`
+
+- **[OpenAQ Community Ambassador](https://openaq.org/about/people/)** — advocacy for open air quality data, data transparency and participatory environmental health research.
+
+`September 2024`
+
+- **Open Science certification** | NASA Transform to Open Science curriculum
+
+{{< pagebreak >}}
+
+# Teaching experience
+
+Undergraduate and postgraduate teaching at the Faculty of Public Health, Medical University of Plovdiv, since 2021, for students of medicine, dental medicine, pharmacy and nursing, in both Bulgarian and English. Postgraduate teaching reaches participants from a range of countries and continents.
+
+::: {.table-responsive .cv-course-table}
+| Course | Level | Semester | Format | Language | Years |
+|:---|:---|:---|:---|:---|:---|
+| Biostatistics / Medical Statistics | Undergraduate | Winter | Lectures, practicals | BG · EN | 2021/22 – 2025/26 |
+| Medical Ethics | Undergraduate | Winter | Lectures, practicals | BG · EN | 2021/22 – 2025/26 |
+| Public Dental Health | Undergraduate (Dental Medicine) | Winter | Practicals | BG · EN | 2021/22 – 2025/26 |
+| Clinical Trial Design for Non-Interventional Studies | Postgraduate | Winter | Lectures, practicals | EN | 2023/24 – 2025/26 |
+| Social Medicine and Public Health | Undergraduate | Summer | Lectures, practicals | BG · EN | 2021/22 – 2025/26 |
+
+: {tbl-colwidths="[25,17,11,15,12,20]"}
+:::
+
+**Additional teaching responsibilities**
+
+- Course coordination and curriculum development in biostatistics and public health teaching
+- Design, administration and marking of examinations; continuous student assessment
+- Development of open teaching materials, practical guides and reproducible statistical exercises (see *Research software and open science*)
+- International teaching mobility under Erasmus+ (see *International teaching mobility*)
+
+## Semester record
+
+`2025/26` Winter: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies · Summer: Social Medicine and Public Health
+
+`2024/25` Winter: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies · Summer: Social Medicine and Public Health
+
+`2023/24` Winter: Biostatistics | Medical Ethics | Public Dental Health | Clinical Trial Design for Non-Interventional Studies · Summer: Social Medicine and Public Health
+
+`2022/23` Winter: Biostatistics | Medical Ethics | Public Dental Health · Summer: Social Medicine and Public Health
+
+`2021/22` Winter: Biostatistics | Medical Ethics | Public Dental Health · Summer: Social Medicine and Public Health
+
+# Teaching materials and textbooks
+
+`2025 – Present`
+
+- ***Medical Statistics: A Practical Guide*** | Bulgarian and English editions | Open-access practical guide for undergraduate medical statistics teaching, with worked examples and reproducible exercises
+
+`2025 – Present`
+
+- ***Medical Ethics and Deontology*** | Bulgarian and English editions | Open-access teaching text for undergraduate medical ethics
+
+`2025 – Present`
+
+- ***Social Medicine and Public Health*** | Semester book, English edition | Course text for the English-language undergraduate programme
+
+`2023`
+
+- Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R. ***COVID-19 in Bulgaria: Epidemiological Analysis*** (in Bulgarian) | Paisii Hilendarski University Press | Recorded as a teaching aid by the Medical University of Plovdiv; also listed under *Publications — Books and monographs*
+
+All teaching texts are written in Quarto and published openly at [kostadinoff.github.io](https://kostadinoff.github.io).
+
+# Supervision and mentorship
+
+`December 2025 – June 2026`
+
+- **Academic Mentor** | Project BG05SFPR001-3.002-0001 "From Higher Education to Employment" | Formal mentorship under a nationally funded programme; supervision of students in practical placements
+
+`2024 – Present`
+
+- **Student research supervision and co-supervision** | Medical University of Plovdiv | Supervision of student scientific projects in epidemiology, biostatistics and microbiology, covering study design, analysis and preparation of conference and journal outputs
+
+**Student outputs arising from supervision and mentorship**
+
+- Rupcheva M, **Kostadinov K**, Tashev R, et al. — accelerated antimicrobial susceptibility testing in urinary tract infections | **First place, Best Poster**, European Biotechnology Congress 2026, Varna
+- Markova P, Spasova M, Yaneva A, **Kostadinov K** — optimisation of GFR estimation for chemotherapy dosing in paediatric oncology | **Best Presentation prize**, Science and Youth 2025
+- Budak A, **Kostadinov K**, Tashev R, Christozova E — antimicrobial susceptibility of *Staphylococcus aureus* nasal isolates in preclinical medical students | **Best Presentation prize**, Science and Youth 2024
+- Razheva E, **Kostadinov K**, Iskrov G, Miteva-Katrandzhieva T, Stefanov R — regional disparities in the availability of physical therapy and rehabilitation in Bulgaria | Science and Youth 2025
+
+# Editorial and peer-review service
+
+`Since 2025`
+
+- **Associate Editor** | *JMIRx Med* | JMIR Publications
+
+`Since 2025`
+
+- **Peer reviewer** for international peer-reviewed journals in public health, health policy and epidemiology
+
+# Invited lectures and keynotes
+
+`13–15 July 2026`
+
+- **Invited Speaker** | Air Quality Reporter Briefing | Breathe Cities | London, United Kingdom
+
+`10 July 2026`
+
+- **Lecturer** | Interinstitutional working meeting of the Ministry of Health, Ministry of Agriculture and Food, Bulgarian Food Safety Agency, Regional Health Inspectorates and Information Services JSC | *"Improving the surveillance of influenza and other viral respiratory pathogens by integrating all existing surveillance systems and using a unified approach in the field of human and animal health. Addressing regional and country-specific issues related to influenza in South-Eastern Europe"*
+
+`10–13 October 2024`
+
+- **Invited Lecture** | XVIII National Congress of Cardiology | Plovdiv, Bulgaria | *["The Role of Air Pollution in Cardiovascular Disease Genesis"](https://www.bgcardio.org/storage/app/media/uploaded-files/XVIII%20Congress%20program_web.pdf)* | **Kostadinov K**
+
+`14 September 2023`
+
+- **Invited Webinar Speaker** | EU Health Technology Assessment Regulation — The Role and Involvement of Cancer Patients | *"Landscape of Bulgarian HTA Regulations"* | **Kostadinov K** | Belgium
+
+`9–11 March 2021`
+
+- **Plenary Lecture** | Science and Youth 2021 | *["Changes in Physical Activity During Epidemic Control Measures"](https://www.asclepius.bg/images/nm2021/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%90-%D0%9D%D0%90%D0%A3%D0%9A%D0%90-%D0%98-%D0%9C%D0%9B%D0%90%D0%94%D0%9E%D0%A1%D0%A2-2021.pdf)* | **Kostadinov K**, Hubenova M, Mandova V
+
+# Conference contributions
+
+Presenter roles are stated where documented. Entries marked **Co-author** were presented by another member of the author team.
+
+## International
+
+`2026`
+
+- **ISEE 2026** — International Society for Environmental Epidemiology | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM | Poster presentation | Co-author
+
+`24–25 April 2026`
+
+- **European Biotechnology Congress 2026** | Varna, Bulgaria | *"Accelerated antimicrobial susceptibility testing in patients with urinary tract infections: laser light scattering versus disc diffusion"* | Rupcheva M, **Kostadinov K**, Tashev R, Markova P, Zheleva V, Tsvetkova Y, Atanasova M, Petrov M | Poster presentation | Co-author | **First place, Best Poster**
+
+`11–14 November 2025`
+
+- **18th European Public Health Conference 2025** | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G, **Kostadinov K**, Dzhambazova E, Ezeldin F | E-poster presentation | Co-author
+
+`27 October 2025`
+
+- **ACR Convergence 2025** | Chicago, IL, USA | *["Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients"](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)* | Velikova T, **Kostadinov K**, Naseva E, et al. | Poster presentation | Co-author
+
+`28–30 September 2025`
+
+- **ISPOR Real-World Evidence Summit 2025** | Tokyo, Japan
+    1. *"RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria"* | Iskrov G, **Kostadinov K**, Dzhambazova E, Ezeldin F | Poster presentation | Co-author
+    2. *"RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria"* | Iskrov G, **Kostadinov K**, Dzhambazova E, Ezeldin F | Poster presentation | Co-author
+
+`23–27 September 2025`
+
+- **56th Annual Meeting of the European Society for Paediatric Nephrology** | Greece | *"Optimization of eGFR Assessment in Pediatric Oncology: Limitations of the Schwartz Formula and Alternative Approaches"* | **Kostadinov K**, Yaneva A, Spasova M, Spasov N, Markova P | Poster presentation | Presenter
+
+`18–19 September 2025`
+
+- **XVII International Symposium "Challenges Affecting the Strengthening of the Role of Nurses in Modern Society"** | České Budějovice, Czech Republic | *"Developing Competencies for Specialized Healthcare for Patients with Psychological Trauma"* | **Kostadinov K**, Petrova G, Lalova V, Ivanova S | Oral presentation | Presenter
+
+`7–11 July 2025`
+
+- **AESOP Congress 2025** | Yıldız Technical University, Istanbul, Türkiye | *"Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How?"* | Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M | Co-author
+
+`19–20 June 2025`
+
+- **International Scientific Conference "Education, Science, Economics and Technology"** | Burgas, Bulgaria | *["Formed attitudes and benefits of training with virtual reality glasses among nursing students and educators"](https://www.conference-burgas.com/maevolumes/vol21_2025/book%205_25.pdf)* | Petrova G, **Kostadinov K**, Lalova V, Ivanova S | Co-author
+
+`12–15 November 2024`
+
+- **17th European Public Health Conference 2024** | Lisbon, Portugal | *[DV.24 — Mapping the Policy Alternatives for Rare Cancer](https://doi.org/10.1093/eurpub/ckae144.2172)* | **Kostadinov K**, Hristova-Atanasova E, Musurlieva N, Iskrov G, Stefanov R | Poster presentation | Presenter
+
+`20–24 June 2024`
+
+- **Xth International Conference of Young Scientists** | Plovdiv, Bulgaria | *"Regulatory Framework for Market Authorization of Gene Therapies in the EU and the USA"* | Stefanov R, Iskrov G, Hristova-Atanasova E, **Kostadinov K**, Dimitrov K | Oral presentation | Co-author
+
+`7–10 May 2023`
+
+- **ISPOR 2023** | Boston, MA, USA | *["HTA7 The Price of Innovation — Oncology Treatments Expenditures: Case from Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3665/126756)* | Raycheva R, **Kostadinov K** | Co-author
+
+`15–18 April 2023`
+
+- **33rd European Congress of Clinical Microbiology and Infectious Diseases (ECCMID)** | Copenhagen, Denmark | *"Impact of COVID-19 Vaccines – Data from Bulgaria"* | Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R, Kunchev A | Co-author
+
+`4–11 March 2023`
+
+- **41st European Winter Conference on Brain Research (EWCBR)** | *"Immunological Reactivity Under Acute and Chronic Stress. Where Are We? Experience in Bulgaria"* | Ivanovska M, Kalfova T, Gardjeva P, **Kostadinov K**, Murdjeva M | Co-author
+
+`6–9 November 2022`
+
+- **ISPOR Europe 2022** | Vienna, Austria | *["HTA69 Delay of Innovative Oncology Treatments — Case From Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/euro2022-3565/120960)* | Raycheva R, **Kostadinov K** | Co-author
+
+`20–23 October 2022`
+
+- **Joint Forum: 12th South-East European Conference and 32nd Annual Assembly of IMAB** | *"Antimicrobial Activity of Root Canal Filling Materials for Endodontic Treatment in Primary Dentition"* | Shindova M, Hristozova E, Katsarov P, Onov M, **Kostadinov K**, Toplev V, Belcheva A | Lecture | Co-author
 
 ## National
 
-`Since 2016` Youth Scientific Society "Asclepius" | Board Member, Term 2024-2026
+`17–18 April 2026`
+
+- **Science and Youth 2026** | Plovdiv | *"Application of the Evidence-Based Psychotherapy Focusing on the Correlation Between Early Dysfunctional Schemas and Current Capabilities"* | Velchev V, Cherneva M, **Kostadinov K**, Stoyanova K, Arabadzhiev Z | Co-author
+
+`12–13 September 2025`
+
+- **XVI National Conference on Rare Diseases and Orphan Drugs** | *"Orphan Drugs in Bulgaria: The Path from Marketing Authorization to the Patient"* | Stefanov R, Iskrov G, Raycheva R, **Kostadinov K** | Oral presentation | Co-author
+
+`29 May – 1 June 2025`
+
+- **XII National Scientific Conference "HIV/AIDS and Exotic Parasitic and Infectious Diseases"** | *"Assessment of Occupational Risk Exposures and Behavior Among Medical Staff"* | **Kostadinov K**, Stoeva V, Batselova H, Atliev K | Oral presentation | Presenter
+
+`9–11 May 2025`
+
+- **Science and Youth 2025** | Plovdiv
+    1. *["Regional disparities and dynamics in the availability of physical therapy and rehabilitation in Bulgaria"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | Razheva E, **Kostadinov K**, Iskrov G, Miteva-Katrandzhieva T, Stefanov R | Poster presentation | Co-author
+    2. *["A rapid review of health outcomes associated with the food environment in cities"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | **Kostadinov K**, Dimitrova D, Helbich M, Burov A, Dzhambov A | Poster presentation | Presenter
+    3. *["Optimization of GFR estimation for chemotherapy dosing in pediatric oncology"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | Markova P, Spasova M, Yaneva A, **Kostadinov K** | Oral presentation | Co-author | **Best Presentation prize**
+
+`10–11 October 2024`
+
+- **Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities"** | Plovdiv University "Paisii Hilendarski", Plovdiv | *["Research on the Link Between Air Pollution, Urban Environment Characteristics and Population Health"](https://hiddeneurope-jeanmonnet.uni-plovdiv.net/event/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BD%D0%B0-%D1%81%D1%80%D0%B5%D0%B4%D0%B0-%D0%B8-%D0%B7%D0%B4%D1%80/)* | Dzhambov A, **Kostadinov K**, Dimitrova D | Co-author
+
+`27–29 September 2024`
+
+- **Sixth National Epidemiology Conference "Challenges in Infectious Disease Prevention"** | *["Assessment of Occupational Risk Exposures and Compliance with Standard Precautions among Medical Staff"](http://bulepid.org/_upload2018/PROGRAMA%202024-final.pdf)* | Stoeva V, Batselova H, **Kostadinov K**, Atliev K | Co-author
+
+`27–28 September 2024`
+
+- **Seventh Scientific Conference with International Participation "Public Health: A Look Toward the Future"** | *["Enhancing Patient-Centered Care through Simulation Training with Virtual Reality Glasses"](https://publisher.mu-plovdiv.bg/wp-content/uploads/published-online/public-health-conf/2024/abstract-book.html#p=56)* | Petrova G, **Kostadinov K**, Lalova V, Ivanova S | Co-author | **Best Presentation prize**
+
+`19–21 April 2024`
+
+- **Science and Youth 2024** | Plovdiv | *["Assessment of Antimicrobial Susceptibility of Staphylococcus aureus Nasal Isolates from Preclinical Medical Students at the Medical University of Plovdiv"](https://asclepius.bg/cnm/wp-content/uploads/2024/04/SY-DMS-2024-abstracts-web.pdf)* | Budak A, **Kostadinov K**, Tashev R, Christozova E | Co-author | **Best Presentation prize**
+
+`30 September – 1 October 2022`
+
+- **Fourth National Conference on Epidemiology "Infectious Diseases in Bulgaria: Challenges and Perspectives"** | *["COVID-19 in Bulgaria and the Impact of Vaccines on Hospitalizations, Mortality and Lethality"](http://bulepid.org/_upload2018/PROGRAMA%202022-pre-final%20-%20Copy.pdf)* | Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R, Kunchev A, Serbezova A | Co-author
+
+`15–16 September 2022`
+
+- **XX Jubilee National Congress on Clinical Microbiology and Infections** | Bulgarian Association of Microbiologists
+    1. *["Study of Urethral Microbiome with Androflor Screen in Men with Non-Specific Genital Symptoms During the COVID-19 Pandemic"](https://www.bam-bg.net/images/documents/3Posters.pdf)* | Christozova E, Dermendzhiev T, Rachkovska Z, Georgieva V, **Kostadinov K**, Pavlov C, Murdjeva M | Published in proceedings | Co-author
+    2. *["Omicron — Relief or Challenge?"](https://www.bam-bg.net/images/documents/2Abstracts.pdf)* | Atanasova M, Korsun N, Komitova R, **Kostadinov K**, Aleksiev I, Raycheva R, Ivanov I, Glomb L, Petkova C, Djoglova L | Plenary lecture | Published in proceedings | Co-author
+
+`14–16 September 2021`
+
+- **XVIII National Congress on Clinical Microbiology and Infections** | Bulgarian Association of Microbiologists | *"Rapid Molecular Screening for Vaginal Candidiasis in Symptomatic Women"* | Christozova E, Rachkovska Z, Georgieva V, Dermendzhiev T, **Kostadinov K**, Vlahova M, Uchikova E, Murdjeva M | Poster presentation | Co-author
+
+`13–14 May 2021`
+
+- **XIV National Scientific-Technical Conference with International Participation "Ecology and Health"** | *["Modern Microbiological and Molecular Screening of Genital Infections in Symptomatic Non-Pregnant Women"](https://hst.bg/ECOLOGY%20AND%20HEALTH%202021.pdf)* | Hristozova E, Rachkovska Z, Dermendzhiev T, Murdjeva M, Georgieva V, Uchikova E, **Kostadinov K** | Co-author
+
+`9–11 March 2021`
+
+- **Science and Youth 2021** | Plovdiv
+    1. *["Changes in Dietary Habits and Behavior During COVID-19 Epidemic Control Measures"](https://www.asclepius.bg/images/nm2021/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%90-%D0%9D%D0%90%D0%A3%D0%9A%D0%90-%D0%98-%D0%9C%D0%9B%D0%90%D0%94%D0%9E%D0%A1%D0%A2-2021.pdf)* | Hubenova M, **Kostadinov K**, Mandova V | Plenary lecture | Co-author
+    2. *["Changes in Physical Activity During Epidemic Control Measures"](https://www.asclepius.bg/images/nm2021/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%90-%D0%9D%D0%90%D0%A3%D0%9A%D0%90-%D0%98-%D0%9C%D0%9B%D0%90%D0%94%D0%9E%D0%A1%D0%A2-2021.pdf)* | **Kostadinov K**, Hubenova M, Mandova V | Plenary lecture | Presenter *(see Invited lectures and keynotes)*
+    3. *["Oral Health Self-Assessment among Hemophilia Families"](https://asclepius.bg/cnm/wp-content/uploads/2022/05/Sbornik-Nauka-i-Mladost-2021.pdf)* | Mandova V, **Kostadinov K**, Stefanov R | Co-author
+
+`28 November 2020`
+
+- **Virtual Congress "Rare Diseases and Orphan Drugs"** | *["Acquired Thrombotic Thrombocytopenic Purpura along the Path of Challenges"](https://youtu.be/R_UbvDcyTxs)* | **Kostadinov K** | Presenter
+
+`27–29 September 2019`
+
+- **11th Scientific Meeting of SOIBOM** | *"The Pathway of Patients with Cardiovascular Disease"* and *"Clinical Case of Valvular Atrial Fibrillation"* | **Kostadinov K** | Oral presentation | Presenter
+
+# Awards and honours
+
+`2026`
+
+- **First place, Best Poster** | European Biotechnology Congress 2026, Varna | Team award for accelerated antimicrobial susceptibility testing in urinary tract infections (Rupcheva M, **Kostadinov K**, Tashev R, et al.), funded under PSNIIR-MUP Contract BG-RRP-2.004-0007-C03
+
+`2025`
+
+- **Best Presentation prize** | Science and Youth 2025, Plovdiv | Optimisation of GFR estimation for chemotherapy dosing in paediatric oncology
+
+`2024`
+
+- **Best Presentation prize** | Seventh Scientific Conference "Public Health: A Look Toward the Future" | Simulation training with virtual reality glasses
+- **Best Presentation prize** | Science and Youth 2024, Plovdiv | Antimicrobial susceptibility of *Staphylococcus aureus* nasal isolates
+- **Best Presentation prize** | Open Medical Institute seminar, Public Health Strategy II | Salzburg, Austria
+- **Competitive award** | National Science Programme "Young Scientists and Postdoctoral Researchers – 2" | Ministry of Education and Science
+- **Competitive selection** | OpenAQ Community Ambassador Programme
+
+`2023`
+
+- **Best Presentation prize** | Open Medical Institute seminar, Public Health Strategy I | Salzburg, Austria
+
+# Policy, public health and knowledge-translation activities
+
+`2026`
+
+- **Commissioned analysis for the World Health Organization** — epidemiological and economic analysis of varicella and varicella vaccination in Bulgaria, supporting the introduction of varicella vaccine into the national immunisation programme
+
+`July 2026`
+
+- **Lecturer**, interinstitutional working meeting of the Ministry of Health, Ministry of Agriculture and Food, Bulgarian Food Safety Agency, Regional Health Inspectorates and Information Services JSC — integration of human and animal health surveillance systems for influenza and other viral respiratory pathogens under a One Health approach
+- **Invited speaker**, Breathe Cities Air Quality Reporter Briefing, London — translation of air quality evidence for media and city stakeholders
+
+`2025 – Present`
+
+- **Evidence for urban environmental policy** — stakeholder survey informing evidence-based policy for urban environmental health in Bulgaria (*Urban Science*, 2026); framework for reintroducing Health Impact Assessment into Bulgarian spatial planning (AESOP 2025)
+
+`September 2025`
+
+- **Expert contract, "Air for Health" Association** | Project 001491 "Engaging health professionals in the design of policies to combat air pollution in Sofia", 2024–2026 | Bulgarian translation and language editing of the World Health Organization guidance on air pollution for health professionals (104 pages)
+
+`2024 – 2025`
+
+- **OpenAQ Community Ambassador** — advocacy for air quality data transparency, open data use and community air pollution monitoring
+
+`2023 – Present`
+
+- **Health technology assessment and access to medicines** — analyses of orphan medicinal product access, HTA timeliness and budget impact accuracy informing national debate on reimbursement policy; briefing to EU-level cancer patient organisations on the EU HTA Regulation (2023)
+
+`2021 – Present`
+
+- **"Air for Health" Physician Network** — public engagement and professional advocacy on air pollution and health
+
+# International teaching mobility
+
+`19–23 January 2026`
+
+- **Erasmus+ Staff Mobility for Teaching** | Tartu Health Care College, Estonia | 16 teaching hours | Subjects taught: epidemiological methods and health policy analysis
+
+`4–8 September 2023`
+
+- **Erasmus+ Staff Mobility for Teaching** | University of West Attica, Athens, Greece | Subjects taught: epidemiological methods and health policy analysis
+
+**International professional development** — research and training visits to Ireland, Greece, Austria, Estonia, Germany, Finland and the United Kingdom.
+
+# Professional service and memberships
+
+## Elected offices and service
+
+`2024 – 2026`
+
+- **Board Member** | Youth Scientific Society "Asclepius"
+
+`2025 – Present`
+
+- **Associate Editor** | *JMIRx Med*, JMIR Publications (see *Editorial and peer-review service*)
+
+## Professional memberships — international
+
+`Since 2026` American College of Epidemiology (ACE) | Member (MACE)
+
+`Since 2026` TEPHIConnect
+
+`Since 2025` International Epidemiological Association (IEA)
+
+`Since 2022` World Federation of Public Health Associations (WFPHA)
+
+`Since 2020` European Public Health Association (EUPHA)
+
+## Professional memberships — national
+
+`Since 2020` Bulgarian Scientific Society for Public Health
+
+`Since 2020` Association for Social Research and Applied Research Practices
 
 `Since 2017` Bulgarian Medical Association
 
 `Since 2017` Bulgarian Society of Cardiology
 
-`Since 2020` Bulgarian Scientific Society for Public Health
+`Since 2016` Youth Scientific Society "Asclepius"
 
 `Since 2016` Association of Trainers and Researchers in General Medicine in Bulgaria
 
-`Since 2020` Association for Social Research and Applied Research Practices
+## Non-governmental organisations
 
-## International
+`2021 – Present`
 
-`Since 2020` European Public Health Association
+- **"Air for Health" Physician Network**
 
-`Since 2022` World Federation of Public Health Associations (WFPHA)
+`2024 – 2025`
 
-`Since 2025` International Epidemiology Association (IEA)
+- **OpenAQ Community Ambassador** | OpenAQ
 
-`Since 2025` Associate editor of the Journal of Medical Internet Research (JMIR)
+## Earlier leadership
 
-`Since 2026` American College of Epidemiology (ACE) | Member (MACE)
+`2012 – 2017`
 
-`Since 2026` TEPHIConnect | Member
+- **Bulgarian Medical Students' Association** | Chair of the Supervisory Board 2015–2016 | Secretary 2017
 
+`2011 – 2017`
 
-# Publications
+- **Student Council, Medical University of Plovdiv** | President 2014 | President of the Student Assembly 2015 | Chair of the General Assembly 2013–2015
 
-::: {#refs}
-\nocite{*}
-:::
+# Selected advanced training and continuing professional development
 
-
-# Project activity
-
-## University projects 
-
-`September 2021`
-
-- "Rapid Microbiological Diagnosis of Genital Infections in Women and Men – Comparative Analysis" | Project No. НО-03/2020 (НО-Р-8445) | Research project funded by the Bulgarian Ministry of Education and Science under the 2017 regulations for targeted state budget allocations for scientific and creative activities in higher education institutions | Medical University of Plovdiv
-
-`September 2022`
-
-- "Antimicrobial Activity of Root Canal Fillers for the Treatment of Endodontic Infection in Primary Teeth" | PhD and Postdoctoral Project | agreement contract 04/01.09. | Medical University of Plovdiv
-
-`September 2023 - 2025`
-
-- "Study of the Relationship Between Non-Cultivable and Hard-to-Culture Microorganisms and Fertility Function in Men with Symptomatic and Asymptomatic Infections of the Lower Urogenital Tract" | University Project No. НО-17/2023 | Medical University of Plovdiv
-
-`October 2023`
-
-- "Comparative Study on Modern Microbiological Methods for Rapid Etiological Diagnosis of Urinary Tract Infections" | PhD and Postdoctoral Project | Agrement No. 10/2023 | Medical University of Plovdiv
-
-`2025`
-
-- "Investigation of new modern biomarkers for diagnosis and therapeutic response in urinary tract infections" | PhD and Postdoctoral Project | Project DPDP-11/2025 | Role: Epidemiological design and statistical analysis | Medical University of Plovdiv
-
-- "Healthcare Costs and Their Economic and Social Effects – Statistical Dimensions" | University Project | Medical University of Plovdiv | Sofia University
-
-- "Development of a scientific framework and national methodology for psychotherapy of dysfunctional schemas based on evidence" | Intra-university research project No. HO-2/2025 | Principal Investigator: Kristina Stoyanova, PhD (NIMH – Plovdiv) | Scientific Supervisor: Assoc. Prof. Zlatoslav Arabadjiev, MD, PhD | Role: Statistical Analysis Methods | Medical University of Plovdiv
-
-`2026`
-
-- "Conflict Dynamics and Illness Behavior" | Project No. РНО1400 | Project Leader: Assoc. Prof. Zlatoslav Arabadzhiev, MD, PhD | Role: Statistical Analysis Methods | Medical University of Plovdiv
-
-## National projects
-
-`September 2024`
-
-- National Science Program "Young Scientists and Postdoctoral Researchers - 2" | Ministry of Education and Science of the Republic of Bulgaria
-
-`October 2024`
-
-- Research Group (RG) 3.1.5 – "Health and Quality of Life in a Green and Sustainable Environment" | Strategic Research and Innovation Program for the Development of MU-Plovdiv | Agreement: BG-RRP-2.004-0007-C01 from 31.12.2022
-
-`December 2025 - June 2026`
-
-- Academic Mentor | Project BG05SFPR001-3.002-0001 "From Higher Education to Employment" | Goal: Achieving a dynamic match between higher education supply and labor market demand by improving practical skills, promoting dual education, and strengthening university-employer partnerships
-
-`November 2025 - Present`
-
-- Beneficiary | Project BG05SFPR002-1.014-0001 "Encouraging specialization in specialties and areas with a shortage of specialists" | Human Resources Development Programme 2021-2027
-
-## International projects
-
-`2018 - 2019`
-
-- Clinical trial | ApoA-I Event Reducing in Ischemic Syndromes II (AEGIS II) | Study Coordinator
-
-`March - May 2020`
-
-- "Interdisciplinarity, Multiculturalism, and Patient Care in Non-Standard Situations in the Context of Didactic Activities in Medical and Health Sciences at Medical Simulation Centers" | Project No. 2019-1-PL01-KA203-065205 | Erasmus+ Program, Key Action 2: Cooperation for Innovation and Exchange of Good Practices | KA203: Strategic Partnerships for Higher Education
-
-`September 2021 - 2025`
-
-- Screen4Care | "Shortening the Path to Rare Disease Diagnosis Using Newborn Genetic Screening and Digital Technologies" | Innovative Medicines Initiative 2 Joint Undertaking (JU) | Grant Agreement No. 101034427
-
-`February 2022 - 2025`
-
-- Safe4Child | "Caring for Violent Children Safely in Child Psychiatric and Residential Units" | Erasmus+ Programme | Key Action 2 | Agreement No. 2021-1-FI01-KA220-HED-000032106
-
-`April 2023 - December 2023`
-
-- W@S | "Developing Multi-Professional Higher Education for Promoting Mental Health and Well-Being in Schools" | Project Reference: 2020-1-FI01-KA203-066521
-
-`2024 - 2026`
-
-- AFFIRMO | Atrial Fibrillation Integrated Approach in Frail, Multimorbid, and Polymedicated Older People | Monitor | European Union’s Horizon 2020 research and innovation programme | Grant agreement 899871 
-
-`2025`
-
-- "Combined Effects of Exposure to Natural and Built Environment – Informing Healthy and Sustainable Urban Development" | National Science Program with EU funding (RRP)
-
-
-# Congresses presentations and poster sessions
-
-## National
-
-`September 27-29, 2019`
-
-- 11th Scientific Meeting of SOIBOM | *"The Pathway of Patients with Cardiovascular Disease"* | Oral Presentation | *"Clinical Case of Valvular Atrial Fibrillation"* | **Kostadinov K.**
-
-`November 28, 2020`
-
-- Virtual Congress Center "Rare Diseases and Orphan Drugs" | *["Acquired Thrombotic Thrombocytopenic Purpura along the Path of Challenges"](https://youtu.be/R_UbvDcyTxs)* | **Kostadinov K.**
-
-`March 9-11, 2021`
-
-- Science and Youth 2021 Conference
-
-1. *["Changes in Dietary Habits and Behavior During COVID-19 Epidemic Control Measures"](https://www.asclepius.bg/images/nm2021/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%90-%D0%9D%D0%90%D0%A3%D0%9A%D0%90-%D0%98-%D0%9C%D0%9B%D0%90%D0%94%D0%9E%D0%A1%D0%A2-2021.pdf)* | Plenary Lecture | Hubenova M, **Kostadinov K**, Mandova V
-   
-2. *["Changes in Physical Activity During Epidemic Control Measures"](https://www.asclepius.bg/images/nm2021/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%90-%D0%9D%D0%90%D0%A3%D0%9A%D0%90-%D0%98-%D0%9C%D0%9B%D0%90%D0%94%D0%9E%D0%A1%D0%A2-2021.pdf)* | Plenary Lecture | **Kostadinov K**, Hubenova M, Mandova V
-
-3. *["Oral Health Self-Assessment among Hemophilia Families"](https://asclepius.bg/cnm/wp-content/uploads/2022/05/Sbornik-Nauka-i-Mladost-2021.pdf)* | Mandova V, **Kostadinov K**, Stefanov R
-
-`May 13-14, 2021`
-
-- XIV National Scientific-Technical Conference with International Participation "Ecology and Health" | *["Modern Microbiological and Molecular Screening of Genital Infections in Symptomatic Non-Pregnant Women"](https://hst.bg/ECOLOGY%20AND%20HEALTH%202021.pdf)* | Eli Hristozova, Zoya Rachkovska, Tihomir Dermendzhiev, Mariana Murdjeva, Vida Georgieva, Ekaterina Uchikova, **Kostadin Kostadinov** | Medical University Plovdiv
-
-`September 14-16, 2021`
-
-- XVIII National Congress on Clinical Microbiology and Infections of the Bulgarian Association of Microbiologists | *"Rapid Molecular Screening for Vaginal Candidiasis in Symptomatic Women"* | Christozova E., Rachkovska Z., Georgieva V., Dermendzhiev T., **Kostadinov K.**, Vlahova M., Uchikova E., Murdjeva M. | Poster session
-
-`September 15-16, 2022`
-
-- XX Jubilee National Congress on Clinical Microbiology and Infections of the Bulgarian Association of Microbiologists
-
-1. *["Study of Urethral Microbiome with Androflor Screen in Men with Non-Specific Genital Symptoms During the COVID-19 Pandemic"](https://www.bam-bg.net/images/documents/3Posters.pdf)* | E. Christozova, T. Dermendzhiev, Z. Rachkovska, V. Georgieva, **K. Kostadinov**, C. Pavlov, M. Murdjeva | Published in Proceedings
-   
-2. *["Omicron - Relief or Challenge?"](https://www.bam-bg.net/images/documents/2Abstracts.pdf)* | M. Atanasova, N. Korsun, R. Komitova, **K. Kostadinov**, I. Aleksiev, R. Raycheva, I. Ivanov, L. Glomb, C. Petkova, L. Djoglova | Plenar Lecture | Published in Proceedings
-
-`September 30 - October 1, 2022`
-
-- Fourth National Conference on Epidemiology | *"Infectious Diseases in Bulgaria: Challenges and Perspectives"* | *["COVID-19 in Bulgaria and the Impact of Vaccines on Hospitalizations, Mortality, and Lethality"](http://bulepid.org/_upload2018/PROGRAMA%202022-pre-final%20-%20Copy.pdf)* | A. Kevorkyan, **K. Kostadinov**, V. Rangelova, R. Raycheva, A. Kunchev, A. Serbezova
-
-`April 19-21, 2024`
-
-- Science and Youth Conference 2021 | *["Assessment of Antimicrobial Susceptibility of Staphylococcus Aureus Nasal Isolates from Preclinical Medical Students at the Medical University of Plovdiv"](https://asclepius.bg/cnm/wp-content/uploads/2024/04/SY-DMS-2024-abstracts-web.pdf)* | Aras Budak, **Kostadin Kostadinov**, Radoslav Tashev, Eli Christozova | Awarded with the "Best Presentation" prize
-
-`September 27-28, 2024`
-
-- Seventh Scientific Conference with International Participation | *"Public Health: A Look Toward the Future"* | *["Enhancing Patient-Centered Care through Simulation Training with Virtual Reality Glasses"](https://publisher.mu-plovdiv.bg/wp-content/uploads/published-online/public-health-conf/2024/abstract-book.html#p=56)* | Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova | Awarded with the "Best Presentation" prize
-
-`September 27-29, 2024`
-
-- Sixth National Epidemiology Conference | *"Challenges in Infectious Disease Prevention"* | *["Assessment of Occupational Risk Exposures and Compliance with Standard Precautions among Medical Staff"](http://bulepid.org/_upload2018/PROGRAMA%202024-final.pdf)* | Velina Stoeva, Hristiana Batselova, **Kostadin Kostadinov**, Kiril Atliev
-
-`October 10-11, 2024`
-
-- Scientific Conference "Environment and Health: Socio-Technical Barriers and Perspectives to Improve Quality of Life for Human Communities" | *["Research on the Link Between Air Pollution, Urban Environment Characteristics, and Population Health"](https://hiddeneurope-jeanmonnet.uni-plovdiv.net/event/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BD%D0%B0-%D1%81%D1%80%D0%B5%D0%B4%D0%B0-%D0%B8-%D0%B7%D0%B4%D1%80/)* | Assoc. Prof. Dr. Angel Djambov, **Asst. Dr. Kostadin Kostadinov**, Prof. Donka Dimitrova | Plovdiv University "Paisii Hilendarski" | Plovdiv
-
-`October 10-13, 2024`
-
-- XVIII National Congress of Cardiology | *["The Role of Air Pollution in Cardiovascular Disease Genesis"](https://www.bgcardio.org/storage/app/media/uploaded-files/XVIII%20Congress%20program_web.pdf)* | **Kostadin Kostadinov** | Plovdiv
-
-
-`09-11 May 2025`
-
-- The Scientific Conference "Science and Youth 2025"
-   1.  *["Regional disparities and dynamics in the availability of physical therapy and rehabilitation in bulgaria"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | E. Razheva, **K. Kostadinov**, G. Iskrov, T. Miteva-Katrandzhieva, R. Stefanov | Poster session
-   2.  *["A rapid review of health outcomes associated with the food environment in cities"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | **K. Kostadinov**, D. Dimitrova, M. Helbich, A. Burov, A. Dzhambov | Poster session
-   3.  *["Optimization of GFR estimation for chemotherapy dosing in pediatric oncology"](https://asclepius.bg/cnm/wp-content/uploads/2025/05/SY-DMS-2025-abstracts.pdf)* | P. Markova, M. Spasova, A. Yaneva, **K. Kostadinov** | Oral presentation | Awarded with the "Best Presentation" prize
-
-`May 29 - June 1, 2025`
-
-- XII National Scientific Conference "HIV/AIDS and Exotic Parasitic and Infectious Diseases" | *"Assessment of Occupational Risk Exposures and Behavior Among Medical Staff"* | **Kostadinov K.**, Stoeva V., Batselova H., Atliev K.
-
-`September 12-13, 2025`
-
-- XVI National Conference on Rare Diseases and Orphan Drugs | *"Orphan Drugs in Bulgaria: The Path from Marketing Authorization to the Patient"* | **Stefanov R.**, Iskrov G., Raycheva R., **Kostadinov K.**
-
-`April 17-18, 2026`
-
-- Science and Youth Conference 2026 | Plovdiv | *"Application of the Evidence-Based Psychotherapy Focusing on the Correlation Between Early Dysfunctional Schemas and Current Capabilities"* | Vladislav Velchev, Marina Cherneva, **Kostadin Kostadinov**, Kristina Stoyanova, Zlatoslav Arabadzhiev
-
-## International
-
-`2026`
-
--`October 20-23, 2022`
-
-- Joint Forum: 12th South-East European Conference and 32nd Annual Assembly of IMAB | *"Antimicrobial Activity of Root Canal Filling Materials for Endodontic Treatment in Primary Dentition"* | Maria Shindova, Eli Hristozova, Plamen Katsarov, Michael Onov, **Kostadin Kostadinov**, Vasko Toplev, Ani Belcheva | Lecture
-
-`March 4-11, 2023`
-
-- 41st European Winter Conference on Brain Research (EWCBR) | *"Immunological Reactivity Under Acute and Chronic Stress. Where Are We? Experience in Bulgaria."* | M. Ivanovska, T. Kalfova, P. Gardjeva, **K. Kostadinov**, M. Murdjeva
-
-`April 15-18, 2023`
-
-- 33rd European Congress of Clinical Microbiology and Infectious Diseases | *"Impact of COVID-19 Vaccines – Data from Bulgaria"* | Ani Kevorkyan, **Kostadin Kostadinov**, Vania Rangelova, Ralitsa Raycheva, Angel Kunchev | Plenary Lecture | Plovdiv
-
-`May 2023`
-
-- ISPOR 2023 | Boston, MA, USA | *["The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3665/126756)* | Raycheva R., **Kostadinov K.**
-
-`September 14, 2023`
-
-- Webinar | EU Health Technology Assessment Regulation | The Role and Involvement of Cancer Patients | *Landscape of Bulgarian HTA Regulations* | **Kostadin K.** | Belgium
-
-`November 2023`
-
-- ISPOR Europe 2022 | Vienna, Austria | *["Delay of Innovative Oncology Treatments - Case From Bulgaria"](https://www.ispor.org/heor-resources/presentations-database/presentation/euro2022-3565/120960)* | Raycheva R., **Kostadinov K.**
-
-`June 20-24, 2024`
-
-- Xth International Conference of Young Scientists – Plovdiv | *"Regulatory Framework for Market Authorization of Gene Therapies in the EU and the USA"* | **Stefanov R.**, Iskrov G., Hristova-Atanasova E., **Kostadinov K.**, Dimitrov K.
-
-`November 13-15, 2024`
-
-- 17th European Public Health Conference 2024 | *[DV.24 - Mapping the Policy Alternatives for Rare Cancer](https://ephconference.eu/app/programme/programme.php?d=displays)* | **Kostadinov K.**, Hristozova E., Musurova N., Iskrov G., Stefanov R.
-
-`19-20 June 2025`
-
-- International Scientific Conference "Education, Science, Economics and Technology" | Burgas, Bulgaria | *["Formed attitudes and benefits of training with virtual reality glasses among nursing students and educators"](https://www.conference-burgas.com/maevolumes/vol21_2025/book%205_25.pdf)*| Gergana Petrova, **Kostadin Kostadinov**, Valentina Lalova, Svetla Ivanova
-
-`7-11 July 2025`
-
-- AESOP Congress 2025 | Yıldız Technical University, Istanbul | *"Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How?"* | Burov A., Dzhambov A., Dimitrova D., Markevych I., **Kostadinov K.**, Helbich M., Nieuwenhuijsen M.
-
-`September 18-19, 2025`
-
-- XVII International Symposium "Challenges Affecting the Strengthening of the Role of Nurses in Modern Society" | *"Developing Competencies for Specialized Healthcare for Patients with Psychological Trauma"* | **Kostadinov K.**, Petrova G., Lalova V., Ivanova S. | České Budějovice, CZ
-
-`September 23-27, 2025`
-
-- 56th Annual Meeting of the European Society for Paediatric Nephrology | *"Optimization of eGFR Assessment in Pediatric Oncology: Limitations of the Schwartz Formula and Alternative Approaches"* | **Kostadinov K.**, Yaneva A., Spasova M., Spasov N., Markova P. | Greece
-
-`September 28-30, 2025`
-
-- ISPOR Real-World Evidence Summit 2025 | Tokyo, Japan
-   1. *"RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
-   2. *"RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
-
-`October 27, 2025`
-
-- ACR Convergence 2025 | Chicago, IL, USA | *["Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients"](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)* | Velikova T., **Kostadinov K.**, Naseva E., Rubinstein T., Sarkar M., Mangla L., Makowska J., Micheroli R., ferreryra L., Kobert L., Parodis I., Nikiphorou E., Shinjo S., Uribe C., Venerito V., Agarwal V., Gupta L. | Poster Session
-
-`November 11-14, 2025`
-
-- 18th European Public Health Conference 2025 | Helsinki, Finland | *"The Socioeconomic Burden of Osteoporosis: A Cost of Illness Study in Bulgaria"* | Iskrov G., **Kostadinov K.**, Dzhambazova E., Ezeldin F.
-
-`July 10, 2026`
-
-- Working meeting of the Ministry of Health, Ministry of Agriculture and Food, Bulgarian Food Safety Agency, Regional Health Inspectorates, and Information Services JSC | *"Improving the surveillance of influenza and other viral respiratory pathogens by integrating all existing surveillance systems and using a unified approach in the field of human and animal health. Addressing regional and country-specific issues: related to influenza in South-Eastern Europe"* | Lecturer
-
-`July 13-15, 2026`
-
-- Air Quality Reporter Briefing | London, UK | Invited Speaker | Breathe Cities
-
-`2026`
-
-- ISEE 2026 | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I., Baumbach C., Burov A., Helbich M., Dimitrova D., **Kostadinov K.**, Nieuwenhuijsen M., Dzhambov A. | Poster Session
-
-
-# Postgraduate courses and training
-
-`September 24-25, 2011`
-
-- Training | Emergency Care in Medicine | Medical University of Plovdiv
-
-`November 22-23, 2012`
-
-- Training| National Program for HIV and Sexually Transmitted Infections Prevention and Control in Bulgaria 2008-2015 | "Treatment and Care for People Living with HIV/AIDS and Reducing Stigma and Discrimination" | Plovdiv, Bulgaria
-
-`December 16, 2012`
-
-- Training| Tokuda Hospital Sofia | Basic Surgical Skills | Sofia, Bulgaria
-
-`October 20-21, 2014`
-
-- Training | Diagnosis, Care, and Treatment of People Living with HIV/AIDS | Program Funded by the Global Fund to Fight AIDS, Tuberculosis, and Malaria | Plovdiv, Bulgaria
-
-`April 24-28, 2017`
-
-- Training | Medical Support in Radiation, Nuclear Accidents, and Terrorism Emergency Preparedness | National Institute of Radiobiology and Radiation Protection | Sofia, Bulgaria
-
-`November 10, 2017`
-
-- Course | National Cardiology Hospital | Echocardiographic Assessment of Cardiac Function | Sofia, Bulgaria
-
-`December 1-2, 2017`
-
-- Course | Critical Appraisal | Evidence-Based Medicine | Sofia, Bulgaria | Narinder Gosall & Gurpal Gosall
-
-`October 19-20, 2018`
-
-- Course | First School of Echocardiography | Introduction to Echocardiographic Diagnosis | Sofia, Bulgaria
-
-`February 22-23, 2019`
-
-- Course | Second School of Echocardiography | Echocardiographic Assessment of Congenital and Acquired Cardiovascular Diseases | Sofia, Bulgaria
-
-`October 24-25, 2019`
-
-- Course | Third School of Echocardiography | New Echocardiographic Methods in Cardiology | Sofia, Bulgaria
-
-`February 2020`
-
-- Postgraduate Training | Promoters of Advanced Oncogenetics | Open Online Training and Multimedia Raise Awareness on Multidisciplinary Assessment of Patients and Their Families at Risk of Hereditary or Familial Cancer | HOPE How Oncogenetics Predicts & Educates Erasmus+ Program 2018-1-RO01-KA202-049189
-
-`March 2020`
-
-- English for Academic Purposes | Irina Mitrcheva, Ph.D. | Department of Language Training (DESO) | Medical University of Plovdiv
-
-- Language Issues in Scientific and Medical Text | Department of Language Training | Medical University of Plovdiv | Assoc. Prof. Milieva, Ph.D.
-
-`March 22-26, 2021`
-
-- Course | Biostatistics with IBM SPSS Statistics for Windows, Version 22.0 | PhD School | Medical University of Plovdiv
-
-`June 2021`
-
-- Intensive Specialized Course | Academic Writing, Systematic Reviews | Contract – 06-DK1/6 from 29.03.2021 | "COVID-19 HUB – Information, Innovations, and Implementation of Integrative Scientific Developments" | Funded through a competition related to the COVID-19 pandemic | Ministry of Education and Science.
-
-`September - December 2021`
-
-- Course "Machine Learning" | SoftUni | Sofia, Bulgaria
-
-`October 10-15, 2022`
-
-- Certificate Course | Open Medical Institute (OMI) Seminar | Economic Evaluation in Healthcare | Maastricht University Program | Salzburg, Austria
-
-`January - March 2023`
-
-- Certificate Course | Introduction to Bayesian Data Analysis | Prof. Dr. Shravan Vasishth, Dr. Anna Laurinavichyute | University of Potsdam, Germany | openHPI Program | Certificate of Completion
-
-`December 3-9, 2023`
-
-- Certificate Course | Open Medical Institute (OMI) Seminar | Public Health Strategy - I | Maastricht University Program | Salzburg, Austria | Awarded with the "Best Presentation" prize
-
-`April 2024 - Present`
-
-- [OpenAQ Community Ambassador Program](https://openaq.org/about/people/kostadin-kostadinov/) | The OpenAQ program includes a comprehensive curriculum on ambient air pollution, air quality monitoring, data transparency, data access, data analysis, participatory research, and community engagement | Certificate of Completion
-
-`May 26 - June 1, 2024`
-
-- Certificate Course | Open Medical Institute (OMI) Seminar | Public Health Strategy - II | Maastricht University Program | Salzburg, Austria | Awarded with the "Best Presentation" prize
-
-`August 2024`
-
-- Micro learning course | Evaluating the study question | ECDC | Online
-
-`September 2024`
-
-- Course | National Aeronautics and Space Administration: Washington, D.C, US | Open Science | Certificate of Completion
-- Micro learning course | Evaluating completeness of study reporting | ECDC | Online
-
-`September 2024 - Present`
-
-- Professional Training | SQL: Data Analysis and Reporting | 60 hours | Certificate of Completion
-- Professional Training | Python: Data Analysis and Machine Learning | 75 hours | Certificate of Completion
-
-`October 2024 - July 2025`
-
-- Postgraduate Training | Sexology and Sexopathology | Medical University of Plovdiv | Department of Postgraduate Education
-
-`17-20 February 2025`
-
-- GenEpi-BioTrain - Virtual training 14 | R data analysis and visualisation for beginners | ECDC | Online
-
-`April 2025`
-
-- Micro learning course | Role of social and behavioural sciences in the prevention and control of infectious diseases | ECDC | Online
-
-`June 2025`
-
-- GenEpi-BioTrain - Virtual training 18 | Empowering AMR Research through R: Analysis and Visualisation | ECDC | Online
-
-`July 2025`
-
-- Micro learning course | Investigate an outbreak | ECDC | Online
-
-`August 2025`
-
-- Micro learning course | Assess and mitigate the risk of locally acquired Aedes-borne viral diseases in the EU/EEA | ECDC | Online
-
-`September 2025`
-
-- GenEpi-BioTrain - Virtual training 20 | Klebsiella pneumoniae genomic epidemiology and antimicrobial resistance | ECDC | Online
-- Training | Stata Basic, Intermediate & Advanced | Sabiha Gulshan | Data handling to advanced analysis | Certificate of Completion
-
-`October 2025 - January 2026`
-
-- InfektEpiLehre | Robert Koch Institute (RKI) | Department of Infectious Disease Epidemiology | Curriculum for specialized infectious disease epidemiology | Berlin, Germany
-
-`November 2025`
-
-- Training | Epidemiology & Econometrics with Stata | Sabiha Gulshan | Certificate of Completion
-
-`January 2026`
-
-- AURORAE Webinar | INSaFLU-TELEVIR bioinformatics platform: virus metagenomic detection (TELEVIR) – demonstration and examples | ECDC/AURORAE | Online | Certificate of Completion
-
-- GenEpi-BioTrain - Virtual training 22 | Genomic epidemiology and outbreak investigation of Brucella spp. in a One Health context | ECDC | Online | Certificate of Completion
-
-
-`March 2026`
-
-- E-learning course | Behavioural and social research methodologies for the prevention and control of infectious diseases | ECDC | Online | 19 March 2026 | Certificate of Completion (Unique code: aDBwAbupxJ, 2 APHEA credits)
-
-- E-learning course | Multisectoral collaboration for the implementation of a One Health approach to communicable diseases | ECDC | Online | Certificate of Completion
-
-- AURORAE Webinar | Serology of seasonal influenza | ECDC/AURORAE | Online | 12 March 2026 | Certificate of Completion
-
-- GenEpi-BioTrain - Virtual training 24 | Antigen Surveillance: from evolution to immune escape | ECDC | Online | 23 and 25 March 2026 | Certificate of Completion
+## Selected advanced training (2020 – present)
 
 `July 2026`
 
-- E-learning course | Community engagement and socially vulnerable populations | ECDC | Online | 4 July 2026 | Certificate of Completion (Unique code: V2swzV62FB, 2 APHEA credits)
+- GenEpi-BioTrain virtual training 28 | Genomics and epidemiology of polioviruses: how a virus resists eradication? | ECDC | Online | 17 and 20 July 2026 | Certificate of completion (code sVGYAN5bMP)
+- E-learning course | Community engagement and socially vulnerable populations | ECDC | 4 July 2026 | Certificate of completion (code V2swzV62FB, 2 APHEA credits)
 
+`March 2026`
 
+- E-learning course | Behavioural and social research methodologies for the prevention and control of infectious diseases | ECDC | 19 March 2026 | Certificate of completion (code aDBwAbupxJ, 2 APHEA credits)
+- E-learning course | Multisectoral collaboration for the implementation of a One Health approach to communicable diseases | ECDC | Certificate of completion
+- GenEpi-BioTrain virtual training 24 | Antigen surveillance: from evolution to immune escape | ECDC | 23 and 25 March 2026 | Certificate of completion
+- AURORAE webinar | Serology of seasonal influenza | ECDC/AURORAE | 12 March 2026 | Certificate of completion
 
+`January 2026`
 
+- GenEpi-BioTrain virtual training 22 | Genomic epidemiology and outbreak investigation of *Brucella* spp. in a One Health context | ECDC | Certificate of completion
+- AURORAE webinar | INSaFLU-TELEVIR bioinformatics platform: virus metagenomic detection | ECDC/AURORAE | Certificate of completion
+
+`October 2025 – January 2026`
+
+- **InfektEpiLehre** | Robert Koch Institute (RKI), Department of Infectious Disease Epidemiology | Curriculum for specialised infectious disease epidemiology | Berlin, Germany
+
+`November 2025`
+
+- Training | Epidemiology and Econometrics with Stata | Sabiha Gulshan | Certificate of completion
+
+`September 2025`
+
+- GenEpi-BioTrain virtual training 20 | *Klebsiella pneumoniae* genomic epidemiology and antimicrobial resistance | ECDC
+- Training | Stata Basic, Intermediate and Advanced — data handling to advanced analysis | Sabiha Gulshan | Certificate of completion
+
+`August 2025`
+
+- Micro-learning course | Assess and mitigate the risk of locally acquired *Aedes*-borne viral diseases in the EU/EEA | ECDC
+
+`July 2025`
+
+- Micro-learning course | Investigate an outbreak | ECDC
+
+`June 2025`
+
+- GenEpi-BioTrain virtual training 18 | Empowering AMR research through R: analysis and visualisation | ECDC
+
+`April 2025`
+
+- Micro-learning course | Role of social and behavioural sciences in the prevention and control of infectious diseases | ECDC
+
+`17–20 February 2025`
+
+- GenEpi-BioTrain virtual training 14 | R data analysis and visualisation | ECDC
+
+`September 2024 – 2026`
+
+- Professional training | SQL: Data Analysis and Reporting | 60 hours | Certificate of completion
+- Professional training | Python: Data Analysis and Machine Learning | 75 hours | Certificate of completion
+
+`September 2024`
+
+- Course | Open Science | NASA Transform to Open Science | Certificate of completion
+- Micro-learning course | Evaluating completeness of study reporting | ECDC
+
+`August 2024`
+
+- Micro-learning course | Evaluating the study question | ECDC
+
+`26 May – 1 June 2024`
+
+- Certificate course | Open Medical Institute seminar | Public Health Strategy II | Maastricht University Programme | Salzburg, Austria | **Best Presentation prize**
+
+`3–9 December 2023`
+
+- Certificate course | Open Medical Institute seminar | Public Health Strategy I | Maastricht University Programme | Salzburg, Austria | **Best Presentation prize**
+
+`January – March 2023`
+
+- Certificate course | Introduction to Bayesian Data Analysis | Prof. Dr. Shravan Vasishth and Dr. Anna Laurinavichyute | University of Potsdam, Germany | openHPI Programme | Certificate of completion
+
+`10–15 October 2022`
+
+- Certificate course | Open Medical Institute seminar | Economic Evaluation in Healthcare | Maastricht University Programme | Salzburg, Austria
+
+`September – December 2021`
+
+- Course | Machine Learning | SoftUni | Sofia, Bulgaria
+
+`June 2021`
+
+- Intensive specialised course | Academic Writing and Systematic Reviews | Contract 06-DK1/6 of 29 March 2021 | "COVID-19 HUB — Information, Innovations and Implementation of Integrative Scientific Developments" | Ministry of Education and Science
+
+`22–26 March 2021`
+
+- Course | Biostatistics with IBM SPSS Statistics | PhD School | Medical University of Plovdiv
+
+`March 2020`
+
+- English for Academic Purposes | Irina Mitrcheva, PhD | Department of Language Training | Medical University of Plovdiv
+- Language Issues in Scientific and Medical Text | Assoc. Prof. Milieva, PhD | Department of Language Training | Medical University of Plovdiv
+
+`February 2020`
+
+- Postgraduate training | Promoters of Advanced Oncogenetics | HOPE — How Oncogenetics Predicts and Educates | Erasmus+ Programme 2018-1-RO01-KA202-049189
+
+## Earlier training record (2011 – 2019)
+
+`24–25 October 2019`
+
+- Course | Third School of Echocardiography | New echocardiographic methods in cardiology | Sofia, Bulgaria
+
+`22–23 February 2019`
+
+- Course | Second School of Echocardiography | Echocardiographic assessment of congenital and acquired cardiovascular diseases | Sofia, Bulgaria
+
+`19–20 October 2018`
+
+- Course | First School of Echocardiography | Introduction to echocardiographic diagnosis | Sofia, Bulgaria
+
+`1–2 December 2017`
+
+- Course | Critical Appraisal and Evidence-Based Medicine | Narinder Gosall and Gurpal Gosall | Sofia, Bulgaria
+
+`10 November 2017`
+
+- Course | Echocardiographic assessment of cardiac function | National Cardiology Hospital | Sofia, Bulgaria
+
+`24–28 April 2017`
+
+- Training | Medical support in radiation and nuclear accidents and terrorism emergency preparedness | National Institute of Radiobiology and Radiation Protection | Sofia, Bulgaria
+
+`20–21 October 2014`
+
+- Training | Diagnosis, care and treatment of people living with HIV/AIDS | Global Fund to Fight AIDS, Tuberculosis and Malaria | Plovdiv, Bulgaria
+
+`16 December 2012`
+
+- Training | Basic surgical skills | Tokuda Hospital Sofia | Sofia, Bulgaria
+
+`22–23 November 2012`
+
+- Training | National Programme for HIV and Sexually Transmitted Infections Prevention and Control 2008–2015 | Treatment and care for people living with HIV/AIDS and reducing stigma and discrimination | Plovdiv, Bulgaria
+
+`24–25 September 2011`
+
+- Training | Emergency care in medicine | Medical University of Plovdiv
+
+# Research methods expertise
+
+- **Observational epidemiology** — cohort, case–control and cross-sectional designs; retrospective analysis of routinely collected administrative health data
+- **Regression modelling** — linear, logistic, ordinal, Poisson and modified-Poisson models; model specification, validation and calibration
+- **Survival analysis** — Kaplan–Meier estimation, Cox proportional hazards models, restricted mean survival time and competing risks
+- **Longitudinal and time-series methods** — trend analysis, interrupted time series and surveillance analytics
+- **Health-economic evaluation** — cost-of-illness, cost-effectiveness and budget-impact analysis; probabilistic sensitivity analysis
+- **Real-world evidence** — analysis of payer, registry and hospital administrative datasets
+- **Diagnostic accuracy and prediction** — sensitivity and specificity, ROC and AUC analysis, external validation, agreement and reliability
+- **Evidence synthesis** — systematic, scoping and rapid reviews
+- **Bayesian analysis** — Bayesian estimation with informative and sceptical priors
+- **Reproducible statistical programming** — literate, version-controlled analysis pipelines and open research software
+
+# Technical skills
+
+`Programming and statistical computing`
+
+- R · Python · SQL · R package development
+
+`Statistical software`
+
+- Stata · SPSS · SAS · Jamovi · JASP
+
+`Reproducible research`
+
+- Quarto · Markdown · Pandoc · LaTeX
+
+`Development and version control`
+
+- Git · GitHub · VS Code · RStudio
+
+`Systems and databases`
+
+- Linux / WSL · Bash · MySQL
+
+`Web`
+
+- HTML · CSS
+
+# Languages
+
+`Bulgarian`
+
+- Native speaker
+
+`English`
+
+- First Certificate in English (FCE), Cambridge English Language Assessment | Reading C1 · Writing B2 · Use of English C1 · Listening B2 · Speaking C1
+- Working language for teaching, research and publication

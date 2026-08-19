@@ -357,7 +357,40 @@ div.quarto-about-trestles .about-links {
 .cv-contact {
   text-align: center;
   font-size: 0.95rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Prominent "Download CV (PDF)" call to action */
+.cv-download {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cv-download .btn {
+  padding-inline: 1.5rem;
+}
+
+/* Teaching course table: honour the declared column widths instead of letting
+   long course names stretch the table past the content column */
+.cv-course-table table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.cv-course-table th,
+.cv-course-table td {
+  overflow-wrap: anywhere;
+}
+
+/* Long bare URLs (repo links, DOIs) must not push the page sideways on mobile */
+#quarto-document-content a {
+  overflow-wrap: anywhere;
+}
+
+/* Keep the academic indicators table compact and readable */
+#academic-indicators table {
+  max-width: 32rem;
 }
 
 /* Date labels rendered as inline "chips" (the `backtick dates`) */
