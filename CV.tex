@@ -209,6 +209,10 @@
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
 \hypersetup{
   pdftitle={Kostadin Rangelov Kostadinov},
   colorlinks=true,
@@ -507,8 +511,8 @@ setting encompassing students from medical, dental, pharmacy, and
 nursing disciplines. Contributing to postgraduate programs with
 attendees hailing from various continents. Actively involved in social
 and charitable initiatives of non-profit and non-governmental entities.
-Professional development in Ireland, Greece, Austria, Estonia, Germany
-and Finland.
+Professional development in Ireland, Greece, Austria, Estonia, Germany,
+Finland and the United Kingdom.
 
 \subsection{Computer skills}\label{computer-skills}
 
@@ -1026,6 +1030,14 @@ A.; Raycheva, R. Estimated HPV-Attributable Inpatient Pharmaceutical
 Reimbursement in Bulgaria, 2021--2025: A National Payer-Perspective
 Expenditure Analysis. \emph{Healthcare} \textbf{2026}, \emph{14} (16),
 2474. \url{https://doi.org/10.3390/healthcare14162474}.}
+
+\bibitem[\citeproctext]{ref-Sitnikov_2026}
+\CSLLeftMargin{(54) }%
+\CSLRightInline{Sitnikov, I.; Halil, E.; Atanasova, N.; Popova, P.;
+Kostadinov, K.; Ezeldin, F.; Judge, E.; Atanassova, P. External
+Validation of BrainScan AI for Detection of Hemorrhagic Stroke on
+Non-Contrast Head CT. \emph{The EuroBiotech Journal} \textbf{2026},
+\emph{10} (3), 258--269. \url{https://doi.org/10.2478/ebtj-2026-0019}.}
 
 \end{CSLReferences}
 
