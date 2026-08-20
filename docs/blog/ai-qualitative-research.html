@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-08-20">
+<meta name="description" content="Quantitative researchers spent forty years learning to delegate computation to software without surrendering judgment. Qualitative researchers now face the same transition, with a tool that answers in the register of analysis rather than in numbers. A delegation framework, a project structure, and a reading of where the methodological dispute currently stands.">
+
+<title>AI as the SPSS, R, and Stata for Qualitative Research – Kostadin Kostadinov</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-026534c11b3848075140f9b7f06c974b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2af5aef1d946e35f65555e73531b8ea5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-026534c11b3848075140f9b7f06c974b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="AI as the SPSS, R, and Stata for Qualitative Research – Kostadin Kostadinov">
+<meta name="twitter:description" content="Quantitative researchers spent forty years learning to delegate computation to software without surrendering judgment. Qualitative researchers now face the same transition, with a tool that answers in the register of analysis rather than in numbers. A delegation framework, a project structure, and a reading of where the methodological dispute currently stands.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed blog-post quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../study-guide.html">
+ <span class="dropdown-text">Study guides</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">AI as the SPSS, R, and Stata for Qualitative Research</h1>
+                  <div>
+        <div class="description">
+          Quantitative researchers spent forty years learning to delegate computation to software without surrendering judgment. Qualitative researchers now face the same transition, with a tool that answers in the register of analysis rather than in numbers. A delegation framework, a project structure, and a reading of where the methodological dispute currently stands.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">qualitative research</div>
+                <div class="quarto-category">workflow</div>
+                <div class="quarto-category">methodology</div>
+                <div class="quarto-category">reproducibility</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 20, 2026</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">August 20, 2026</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-analogy-and-where-it-strains" id="toc-the-analogy-and-where-it-strains" class="nav-link active" data-scroll-target="#the-analogy-and-where-it-strains">1. The analogy, and where it strains</a></li>
+  <li><a href="#what-the-evidence-actually-shows" id="toc-what-the-evidence-actually-shows" class="nav-link" data-scroll-target="#what-the-evidence-actually-shows">2. What the evidence actually shows</a></li>
+  <li><a href="#the-disagreement-worth-taking-seriously" id="toc-the-disagreement-worth-taking-seriously" class="nav-link" data-scroll-target="#the-disagreement-worth-taking-seriously">3. The disagreement worth taking seriously</a></li>
+  <li><a href="#methodological-congruence-comes-first" id="toc-methodological-congruence-comes-first" class="nav-link" data-scroll-target="#methodological-congruence-comes-first">4. Methodological congruence comes first</a></li>
+  <li><a href="#the-project-structure" id="toc-the-project-structure" class="nav-link" data-scroll-target="#the-project-structure">5. The project structure</a></li>
+  <li><a href="#the-delegation-framework" id="toc-the-delegation-framework" class="nav-link" data-scroll-target="#the-delegation-framework">6. The delegation framework</a>
+  <ul class="collapse">
+  <li><a href="#mechanical-tasks" id="toc-mechanical-tasks" class="nav-link" data-scroll-target="#mechanical-tasks">Mechanical tasks</a></li>
+  <li><a href="#interpretive-tasks" id="toc-interpretive-tasks" class="nav-link" data-scroll-target="#interpretive-tasks">Interpretive tasks</a></li>
+  <li><a href="#the-grey-zone" id="toc-the-grey-zone" class="nav-link" data-scroll-target="#the-grey-zone">The grey zone</a></li>
+  </ul></li>
+  <li><a href="#a-worked-example" id="toc-a-worked-example" class="nav-link" data-scroll-target="#a-worked-example">7. A worked example</a>
+  <ul class="collapse">
+  <li><a href="#step-1-establish-methodological-congruence" id="toc-step-1-establish-methodological-congruence" class="nav-link" data-scroll-target="#step-1-establish-methodological-congruence">Step 1: Establish methodological congruence</a></li>
+  <li><a href="#step-2-transcription-and-preparation" id="toc-step-2-transcription-and-preparation" class="nav-link" data-scroll-target="#step-2-transcription-and-preparation">Step 2: Transcription and preparation</a></li>
+  <li><a href="#step-3-human-familiarisation" id="toc-step-3-human-familiarisation" class="nav-link" data-scroll-target="#step-3-human-familiarisation">Step 3: Human familiarisation</a></li>
+  <li><a href="#step-4-ai-assisted-first-pass-coding" id="toc-step-4-ai-assisted-first-pass-coding" class="nav-link" data-scroll-target="#step-4-ai-assisted-first-pass-coding">Step 4: AI-assisted first-pass coding</a></li>
+  <li><a href="#step-5-theme-development" id="toc-step-5-theme-development" class="nav-link" data-scroll-target="#step-5-theme-development">Step 5: Theme development</a></li>
+  <li><a href="#step-6-quotation-verification" id="toc-step-6-quotation-verification" class="nav-link" data-scroll-target="#step-6-quotation-verification">Step 6: Quotation verification</a></li>
+  <li><a href="#step-7-audit-trail-and-reflexivity" id="toc-step-7-audit-trail-and-reflexivity" class="nav-link" data-scroll-target="#step-7-audit-trail-and-reflexivity">Step 7: Audit trail and reflexivity</a></li>
+  </ul></li>
+  <li><a href="#the-reporting-standard" id="toc-the-reporting-standard" class="nav-link" data-scroll-target="#the-reporting-standard">8. The reporting standard</a></li>
+  <li><a href="#the-multilingual-dimension" id="toc-the-multilingual-dimension" class="nav-link" data-scroll-target="#the-multilingual-dimension">9. The multilingual dimension</a></li>
+  <li><a href="#common-failures" id="toc-common-failures" class="nav-link" data-scroll-target="#common-failures">10. Common failures</a></li>
+  <li><a href="#where-this-is-going" id="toc-where-this-is-going" class="nav-link" data-scroll-target="#where-this-is-going">11. Where this is going</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<p>When quantitative researchers opened SPSS for the first time in the 1980s, nobody asked whether the software was doing statistics <em>“for real.”</em> The question was whether the researcher understood what the software was doing: whether the output made sense, whether the model was appropriate, whether the assumptions held. The computer handled the arithmetic and the human handled the judgment, and that division of labour became so uncontroversial that it eventually became invisible.</p>
+<p>Qualitative research is now entering an equivalent transition, with one important difference: the division of labour is much harder to draw. A large language model can code transcripts, propose themes, surface patterns across a corpus, draft summaries and identify contradictions, and it does all of this in prose that resembles analysis rather than in a column of coefficients. That resemblance is exactly why qualitative researchers need to be more deliberate about delegation, not less. Once you can no longer tell whether you are operating a tool or handing over a task, you have already lost track of who is doing the thinking.</p>
+<p>The frame I find most useful is the one that worked for statistical software. An LLM is an instrument: it extends your capacity to process text in the way that R extends your capacity to process numbers. No competent quantitative researcher lets R choose the regression model, and no competent qualitative researcher should let an LLM choose the interpretation. The whole skill lies in knowing where that boundary sits, and — as I will argue below — a substantial part of the field currently denies that the boundary can be drawn at all.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The short version
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>AI in qualitative research sits roughly where SPSS sat in 1990: a powerful instrument that most users have not yet learned to wield with discipline. Structure the project so that human judgment and machine computation never occupy the same step, delegate the mechanical work, retain the interpretive work, and document what was delegated to whom. Whether any delegation at all is compatible with reflexive methodologies is an open dispute, and taking a position in it is now part of the methods section.</p>
+</div>
+</div>
+<section id="the-analogy-and-where-it-strains" class="level2">
+<h2 class="anchored" data-anchor-id="the-analogy-and-where-it-strains">1. The analogy, and where it strains</h2>
+<p>The comparison to statistical software is more than a rhetorical device; the structural parallel is close enough to be worked systematically.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Quantitative tools</strong></th>
+<th><strong>Qualitative AI tools</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>What they handle</strong></td>
+<td>Arithmetic, matrix algebra, optimisation, randomisation</td>
+<td>Text processing, pattern matching, pattern suggestion, summarisation</td>
+</tr>
+<tr class="even">
+<td><strong>What they cannot do</strong></td>
+<td>Choose the model, interpret the estimate, judge causal structure</td>
+<td>Interpret lived experience, understand cultural context, determine what something <em>means</em></td>
+</tr>
+<tr class="odd">
+<td><strong>What they changed</strong></td>
+<td>Removed manual computation; freed time for design and interpretation</td>
+<td>Removes manual coding labour; frees time for interpretation and reflexivity</td>
+</tr>
+<tr class="even">
+<td><strong>The main risk</strong></td>
+<td>Treating software output as findings rather than as intermediate results</td>
+<td>Treating AI-generated codes as findings rather than as intermediate results</td>
+</tr>
+<tr class="odd">
+<td><strong>The core skill</strong></td>
+<td>Knowing which model fits your question</td>
+<td>Knowing which tasks can be delegated without changing what the methodology claims to know</td>
+</tr>
+</tbody>
+</table>
+<p>R does not understand epidemiology, and GPT-5 does not understand phenomenology. In both cases the researcher’s task is to know the method well enough to recognise when the tool is doing the wrong thing, and fluent output does not relax that requirement.</p>
+<p>The analogy strains at two points, and both matter. The first is register. A coefficient and a standard error are obviously intermediate quantities; nobody mistakes them for a finding. A theme statement written in competent academic English invites exactly that mistake, and the invitation is psychological rather than technical, which is why the safeguards below are procedural. The second is that the arithmetic SPSS performs is deterministic and inspectable, whereas an LLM’s mapping from transcript to code is stochastic, opaque and unstable across runs. A regression can be recomputed by hand; a coding decision produced at temperature 0.7 cannot be reconstructed even by the model that produced it. Reproducibility in the SPSS sense is not available here, and pretending otherwise is the most common overclaim in this literature.</p>
+</section>
+<section id="what-the-evidence-actually-shows" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-evidence-actually-shows">2. What the evidence actually shows</h2>
+<p>The empirical base has grown quickly and unevenly. The most informative synthesis to date is the scoping review by Kempny and colleagues, published in <em>BMC Medical Research Methodology</em> in 2026, which screened 4,201 de-duplicated records from five databases covering January 2020 to May 2025 and included 75 peer-reviewed empirical studies that used an LLM at a substantive stage of qualitative analysis.</p>
+<p>Three findings from that review are worth carrying into practice. The first concerns concentration: OpenAI GPT models appeared in 93% of the included studies, so the accumulated evidence describes the behaviour of one model family rather than of LLMs in general, and it is not obvious how far it transfers. The second concerns where the tools are actually being applied. Coding assistance (43 studies) and theme identification (41 studies) dominate, and thematic analysis is by a wide margin the host methodology (38 studies), followed by content analysis (12). In other words, the most frequent application is also the one where the methodological objections are sharpest, a mismatch I return to in the next section.</p>
+<p>The third finding is the one I would put in front of anyone who cites headline accuracy figures. Reported agreement between LLM and human coders ranged from 36% to 99%. A range that wide is not a performance estimate; it is an indication that performance is governed almost entirely by moderators — task complexity, prompt construction, the rigour of the validation procedure — that the primary studies mostly failed to document. The reporting deficit is severe on the review’s own accounting: 75% of studies reported no parameter settings at all, only 13 reported temperature, 12 reported context length, 4 reported top-p, and 45% did not even specify whether the model was accessed through an API, a web interface or a local deployment. Against that, 95% discussed ethical considerations and 97% claimed human verification of AI output — figures high enough to suggest that verification is being asserted rather than described. When almost every paper says a human checked the output and almost no paper says what checking consisted of, the claim has stopped carrying information.</p>
+<p>What survives this is not a performance benchmark but a gradient, and the gradient is architectural rather than incidental. Performance tracks task explicitness: the more structured, descriptive and rule-governed the task, the better these models do, and the more contextual, interpretive and culturally situated the task, the worse. This follows directly from what the models are — next-token predictors trained on a corpus that over-represents some registers, languages and populations and under-represents others — and it is therefore not the kind of limitation that the next model generation dissolves.</p>
+</section>
+<section id="the-disagreement-worth-taking-seriously" class="level2">
+<h2 class="anchored" data-anchor-id="the-disagreement-worth-taking-seriously">3. The disagreement worth taking seriously</h2>
+<p>It would be convenient to present careful delegation as the settled consensus position. It is not, and a methods section written as though it were will not survive an informed reviewer.</p>
+<p>In December 2025, Jowsey, Braun, Clarke, Lupton and Fine published a position statement in <em>Qualitative Inquiry</em>, co-signed by 419 qualitative researchers from 32 countries, rejecting the use of generative AI for reflexive qualitative research outright. Their argument runs on three tracks. Methodologically, they hold that reflexive approaches such as reflexive thematic analysis constitutively require a subjective, positioned, reflexive researcher, so that a statistical text generator cannot perform the analysis rather than merely performing it badly. Epistemically, they argue that reflexive qualitative work is a human practice undertaken by humans, with or about humans, and that the models tend to reproduce dominant framings while flattening marginal ones. Ethically and environmentally, they point to resource extraction, emissions, and the labour conditions of the largely Global South workforce that trains content filters — costs that are external to the analysis but not external to the researcher’s responsibility.</p>
+<p>The first two tracks deserve engagement rather than dismissal. If a methodology defines the researcher’s situated subjectivity as the analytic instrument, then delegating interpretation is not a shortcut but a category error, and the tool’s accuracy is beside the point. The third track is the one most easily set aside by researchers who would not set aside an equivalent argument about, say, fieldwork travel, and it is the one I find hardest to answer honestly.</p>
+<p>The response has been quick and not uniform. Greenhalgh, writing in the same journal in 2026, declined to sign, on the grounds that a binary of adopters against refusers obscures the question that matters. Her distinction is between tools that displace, obscure or constrain the researcher’s reflexive engagement with the data and tools that do not; qualitative research has always used non-reflexive instruments — transcription software, search functions, coding frameworks — without anyone claiming that the software understood meaning. She reframes the ethical objection as a governance problem, concerning the scale of use, institutional accountability and who bears the environmental cost, and argues that governance questions are better addressed by staying in the conversation than by withdrawing from it. De Paoli has argued a stronger version of the same objection to categorical rejection.</p>
+<p>My own position is closer to Greenhalgh’s, and I hold it with less confidence than the volume of the debate might suggest. What the dispute does establish is that the delegation decision is no longer a private workflow preference. It is a methodological commitment that has to be stated and defended, and the defence has to be made in the vocabulary of the methodology rather than in the vocabulary of efficiency.</p>
+</section>
+<section id="methodological-congruence-comes-first" class="level2">
+<h2 class="anchored" data-anchor-id="methodological-congruence-comes-first">4. Methodological congruence comes first</h2>
+<p>The practical consequence is that the sequence matters. The question is never “which tasks can AI do well?” but “which tasks can this methodology delegate without changing what it claims to know?” — and the second question is answered before any tool is opened.</p>
+<p>The three families of thematic analysis illustrate how much latitude varies within what is nominally one method. Coding reliability approaches, which treat codes as a measurement instrument and inter-coder agreement as evidence of quality, are the most permissive: a second coder is by design interchangeable, and an LLM applying a fixed codebook is a plausible second coder whose agreement can be quantified in the ordinary way. Codebook approaches occupy a middle position, in which the codebook is a human theoretical product but its application is largely classificatory. Reflexive thematic analysis is the most restrictive, because the researcher’s subjectivity is the analytic resource rather than a source of error to be controlled, and there is no coherent sense in which a model can be a second reflexive analyst. Phenomenological, narrative and participatory designs restrict delegation further still.</p>
+<p>Prahl’s AI-Reflexivity Checklist offers a usable procedure for making this determination before rather than after the fact. It asks five questions of the planned task — how far it is purely descriptive, how far meanings vary across contexts, how much experiential nuance is at stake, what the ethical exposure is, and whether the output is fully reversible — and sorts the task into one of three human-in-the-loop postures: delegate, assist, or human-led. Reversibility functions as a hard constraint rather than one criterion among five, on the sensible ground that an irreversible output cannot be audited or repaired. The checklist takes perhaps twenty minutes and produces a short record that a reviewer can read, which is more than most of the 75 studies in the Kempny review managed.</p>
+</section>
+<section id="the-project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-structure">5. The project structure</h2>
+<p>What follows is a practical layout for an AI-assisted qualitative study. It follows the logic of numbered R scripts in a quantitative project: everything has a place, every step is traceable, and the sequence can be re-run to check that the same result emerges. The one structural departure is that AI interactions live in dedicated logs rather than inside the analysis scripts, so that the machine’s contribution remains separable after the fact.</p>
+<pre><code>2026-patient-experience-study/
+├── README.md                          # study overview, team, status
+├── protocol/
+│   ├── study_design.md                # RQ → epistemology → methodology
+│   └── ai_use_plan.md                 # pre-declared: what AI will and will not do
+├── data/
+│   ├── raw/                           # original transcripts, never edited
+│   ├── deidentified/                  # cleaned for AI processing
+│   └── processed/                     # analysis-ready extracts
+├── scripts/
+│   ├── 01_transcription.R             # or notes on transcription workflow
+│   ├── 02_data_prep.R                 # cleaning, de-identification, formatting
+│   ├── 03_human_familiarisation.md    # researcher notes from initial reading
+│   ├── 04_coding.R                    # your coding framework (human-led)
+│   └── 05_themes.R                    # theme development and refinement
+├── ai/
+│   ├── prompts/                       # every prompt you used, versioned
+│   │   ├── deductive_coding_prompt.md
+│   │   ├── theme_suggestions_prompt.md
+│   │   └── negative_case_prompt.md
+│   ├── logs/                          # raw AI outputs, timestamped
+│   │   ├── 2026-07-15_coding_batch1.md
+│   │   └── 2026-07-16_theme_review.md
+│   └── audit_trail.md                 # model, version, date, settings, decisions
+├── analysis/
+│   ├── codes/
+│   │   ├── codebook.md                # final codebook with definitions
+│   │   └── code_comparison.csv        # human vs AI code assignments
+│   ├── themes/
+│   │   ├── theme_map.svg
+│   │   └── theme_definitions.md
+│   └── quotations/
+│       └── verified_quotes.csv        # participant, location, original text, code, decision
+├── output/
+│   ├── figures/
+│   └── tables/
+├── manuscript/
+│   └── manuscript.qmd
+└── logs/
+    ├── reflexivity_log.md             # evolving researcher reflections
+    └── ai_reflexivity_log.md          # how AI shaped what you noticed</code></pre>
+<p>The two files most likely to be skipped are the two that carry the methodological weight. The AI use plan is written <em>before</em> the tool is opened; it records the congruence judgment from the previous section, states which tasks will be delegated, and gives the reason. The AI reflexivity log is maintained <em>during</em> analysis and records how the model’s suggestions moved the interpretation — where they were accepted, where they were rejected, and on what grounds. Without both, there is no audit trail, and the distinction between AI-assisted and AI-generated becomes impossible to demonstrate to anyone who asks.</p>
+</section>
+<section id="the-delegation-framework" class="level2">
+<h2 class="anchored" data-anchor-id="the-delegation-framework">6. The delegation framework</h2>
+<p>The decision rule maps onto the SPSS analogy. Delegate the work you would hand to a research assistant with clear instructions; keep the work that requires your expertise as the analyst; treat everything in between as requiring documented supervision.</p>
+<section id="mechanical-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="mechanical-tasks">Mechanical tasks</h3>
+<p>Transcription refinement is data preparation rather than analysis: cleaning the output of automatic speech recognition, fixing diarisation, standardising punctuation. So is formatting and organisation, whether that means converting interview notes into a standard extract format, normalising file names, or building structured data files out of messy raw input. Applying a pre-existing, human-developed codebook to excerpts is classification, and the qualitative equivalent of running <code>table()</code>; it is also the best-supported application in the empirical literature, though the wide agreement range in §2 should temper expectations about how well it will work on any particular corpus. Corpus searching — locating every instance where a topic, word or concept appears across a large dataset — is grep with better recall on paraphrase, and nothing more. Negative case searching exploits the same retrieval strength: the model is good at finding excerpts that sit awkwardly with a proposed theme, and you are the one who decides whether the friction is meaningful. Comparing two coding schemes for overlap and divergence is bookkeeping.</p>
+</section>
+<section id="interpretive-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="interpretive-tasks">Interpretive tasks</h3>
+<p>Reading the transcripts is not delegable, and the reason is epistemological rather than conventional: interpretation without prolonged engagement is not interpretation. An AI summary of a transcript you have not read gives you the model’s compression of the data in place of your familiarity with it, and you will not be able to tell the difference from the inside.</p>
+<p>Developing the initial coding framework is a human intellectual product whether it is derived deductively from theory or inductively from the data. A model can propose candidate codes; the framework, and the theoretical commitments it encodes, are yours. The same holds for the interpretive judgments that constitute the analysis. When a participant says “It was fine, I suppose,” deciding whether that registers resignation, politeness or satisfaction is the analysis. A model will give you an answer, and the answer will be a plausible guess drawn from the distribution of similar sentences in its training data, rather than a reading grounded in your relationship with the participant, your knowledge of the setting and your sense of what the pause before “I suppose” was doing.</p>
+<p>Illustrative quotations are never copied from an AI output. They are retrieved from the original transcript against a participant and line identifier, because these models alter wording, silently repair grammar, merge excerpts from different speakers, and produce fluent quotations that do not exist in the source. Final theme development and theorisation are the intellectual core of the study rather than a text-processing problem. Reflexive accounting — noting how your position, history and relationship to the data shape what you noticed — is irreducibly first-person.</p>
+</section>
+<section id="the-grey-zone" class="level3">
+<h3 class="anchored" data-anchor-id="the-grey-zone">The grey zone</h3>
+<p>Inductive coding sits in between: a model can propose an initial set of codes, but every proposal has to be checked against the transcript, which makes it a suggestion engine rather than a coder. Codebook development is similar, in that pattern highlighting is useful and the resulting structure is still a human product. Translation produces a serviceable first draft and a poor final one, because idiom, register and the distance between what someone said and what they meant require bilingual human judgment. Synthesis across many interviews is the most seductive case: models identify surface commonalities well, and the move from what people said to what it means is precisely the analytic work that cannot be handed over.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Posture</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Transcription refinement, formatting, corpus search</td>
+<td>Delegate</td>
+<td>Routine verification</td>
+</tr>
+<tr class="even">
+<td>Deductive coding against a human codebook</td>
+<td>Delegate</td>
+<td>Agreement quantified against independent human coding</td>
+</tr>
+<tr class="odd">
+<td>Negative case search, cross-codebook comparison</td>
+<td>Delegate</td>
+<td>Researcher judges relevance of what is retrieved</td>
+</tr>
+<tr class="even">
+<td>Inductive coding, codebook development</td>
+<td>Assist</td>
+<td>Every proposal checked against the transcript</td>
+</tr>
+<tr class="odd">
+<td>Translation, cross-interview synthesis</td>
+<td>Assist</td>
+<td>Bilingual or analytic human verification</td>
+</tr>
+<tr class="even">
+<td>Familiarisation, interpretation, quotation selection</td>
+<td>Human-led</td>
+<td>No delegation</td>
+</tr>
+<tr class="odd">
+<td>Theme development, theorisation, reflexivity</td>
+<td>Human-led</td>
+<td>No delegation</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="a-worked-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-worked-example">7. A worked example</h2>
+<p>Suppose the study concerns how general practitioners in Bulgarian small towns experience the transition to electronic health records. Twenty-four semi-structured interviews have been conducted and transcribed in Bulgarian, each running 45 to 70 minutes.</p>
+<section id="step-1-establish-methodological-congruence" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-establish-methodological-congruence">Step 1: Establish methodological congruence</h3>
+<p>Before any tool is opened, four things go into <code>protocol/ai_use_plan.md</code>. The research question: how do GPs in Bulgarian small towns experience the transition to electronic health records, and what does it mean for their clinical practice? The epistemology: constructionist, since the interest is in how participants construct meaning rather than in counting occurrences of predefined categories. The methodology: reflexive thematic analysis. And the implication, which is the point of the exercise — reflexive TA treats the researcher’s subjectivity as a resource rather than a bias, so mechanical support is admissible and the interpretive work that constitutes the method is not. A codebook-driven design would permit considerably more delegation; this one does not. Given the Jowsey position statement, a study of this design also has to state whether it accepts any AI involvement at all, and defend the answer.</p>
+</section>
+<section id="step-2-transcription-and-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-transcription-and-preparation">Step 2: Transcription and preparation</h3>
+<p>Audio is transcribed with Whisper or an equivalent, then reviewed against the recording, with particular attention to Bulgarian medical terminology, regional dialect features, and the hedging and irony that automatic transcription reliably flattens. Transcripts are then de-identified — names, practice locations, patient identifiers — with originals kept in <code>data/raw/</code> and cleaned versions in <code>data/deidentified/</code>. Transcription is delegated; verification is not.</p>
+</section>
+<section id="step-3-human-familiarisation" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-human-familiarisation">Step 3: Human familiarisation</h3>
+<p>Every transcript is read in full, with analytic notes taken on patterns, surprises and contradictions, and written into <code>scripts/03_human_familiarisation.md</code>. For 24 interviews this is typically 20 to 30 hours of work, and it is the foundation for everything that follows.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Do not skip this step
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Uploading 24 transcripts and asking for themes is the qualitative equivalent of running every possible regression and reporting the ones that reached significance. The requirement for prolonged engagement is not a ritual; interpretation without familiarity is fabrication with a methods section attached.</p>
+</div>
+</div>
+</section>
+<section id="step-4-ai-assisted-first-pass-coding" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-ai-assisted-first-pass-coding">Step 4: AI-assisted first-pass coding</h3>
+<p>Only now is the model engaged, and on a subsample. For each of five interview excerpts, a prompt supplies the de-identified text and the codebook, and asks the model to apply the codebook, identify the relevant passage for each code, and state its reasoning:</p>
+<blockquote class="blockquote">
+<p>“Apply the following codebook to these interview excerpts. For each code, identify the relevant passage and explain your reasoning.”</p>
+</blockquote>
+<p>You supply the codebook rather than asking the model to generate one. This is the deductive coding case, and the one with the strongest empirical support.</p>
+<p>The model’s assignments are then compared against your own independent coding of the same excerpts, and the comparison is recorded in <code>analysis/codes/code_comparison.csv</code>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Participant</th>
+<th>Excerpt</th>
+<th>Code</th>
+<th>AI assigned</th>
+<th>Human assigned</th>
+<th>Agreement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GP-07</td>
+<td>“I still write on paper when the system is slow”</td>
+<td>Workaround</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>GP-12</td>
+<td>“The system is fine, I suppose”</td>
+<td>Resignation</td>
+<td>No</td>
+<td>Yes</td>
+<td>✗</td>
+</tr>
+</tbody>
+</table>
+<p>Disagreements drive refinement of the code definitions, the model is re-run on a fresh batch, and the loop continues until the framework stabilises. This is inter-rater calibration in all but name, and it is defensible because the model functions as a second coder under human final authority rather than as the coder. Record the agreement rate and where the disagreements concentrated; that number is the substance behind the phrase “human verification,” and the Kempny review suggests that almost nobody currently reports it.</p>
+</section>
+<section id="step-5-theme-development" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-theme-development">Step 5: Theme development</h3>
+<p>With the codebook stable and all 24 interviews coded under human final authority, theme development proceeds iteratively. This is the interpretive core, and the model’s role here is adversarial rather than productive: ask it to propose alternative organisations of the codes, or to identify the excerpts most likely to embarrass an emerging theme.</p>
+<blockquote class="blockquote">
+<p>“Here are 12 codes from my analysis. Suggest three alternative ways they could be organised into themes. For each, identify which codes cluster naturally and which seem forced.”</p>
+</blockquote>
+<p>Then discard the suggestions you find unconvincing and sit with the ones that surprise you. The value lies in the friction against your own emerging reading rather than in the model’s answer, and the friction is worth logging even when the suggestion is rejected.</p>
+</section>
+<section id="step-6-quotation-verification" class="level3">
+<h3 class="anchored" data-anchor-id="step-6-quotation-verification">Step 6: Quotation verification</h3>
+<p>Every quotation in the manuscript is retrieved from the original transcript rather than from an AI output, and <code>analysis/quotations/verified_quotes.csv</code> records the retrieval:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Participant</th>
+<th>Transcript file</th>
+<th>Line/page</th>
+<th>Original text (verbatim)</th>
+<th>Code</th>
+<th>Theme</th>
+<th>Included in manuscript</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GP-07</td>
+<td>GP-07_transcript_bg.txt</td>
+<td>L142–144</td>
+<td>“Когато системата падне, минавам на хартия — така сме свикнали”</td>
+<td>Workaround</td>
+<td>Adapting under pressure</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>Fabricated, truncated, merged and quietly improved quotations are the best-documented failure mode of these systems, and an unverified quote in a published paper is a correction waiting to be issued.</p>
+</section>
+<section id="step-7-audit-trail-and-reflexivity" class="level3">
+<h3 class="anchored" data-anchor-id="step-7-audit-trail-and-reflexivity">Step 7: Audit trail and reflexivity</h3>
+<p><code>ai/audit_trail.md</code> records the model and access route (say, GPT-5 via the API), the date range, the sampling parameters — temperature, maximum tokens, and the fact that transcripts were processed individually rather than batched — the exact system prompt, the versioned list of task prompts, and a summary of what was changed or rejected during coding reconciliation. On the Kempny figures, supplying this places a study in a small minority.</p>
+<p><code>logs/ai_reflexivity_log.md</code> records the interpretive traffic in both directions. Two entries from a study of this kind might read: “AI coding of GP-07 and GP-12 suggested I was over-coding ‘resignation’; reviewed the transcripts and found the excerpts were better described as pragmatic acceptance, and revised the code definition.” And: “The model’s alternative theme organisation grouped ‘training’ with ‘support’. I disagree, because the data show these are experienced differently, and I have noted the disagreement in the theme development log.” The point of the log is that it captures the cases where the machine changed your mind, which are the cases a reader has no other way of seeing.</p>
+</section>
+</section>
+<section id="the-reporting-standard" class="level2">
+<h2 class="anchored" data-anchor-id="the-reporting-standard">8. The reporting standard</h2>
+<p>The COREQ+LLM extension, whose protocol was published in <em>JMIR Research Protocols</em> in September 2025 and which is registered as a guideline under development with the EQUATOR Network, will eventually supply an agreed checklist. Until it does, the working standard is that a methods section should let another researcher reconstruct what the researchers did, what the model did, what information the model received, what it produced, how the humans evaluated that output, and what ultimately determined the interpretation. If a reader cannot distinguish your analysis from one in which the model did the thinking, the reporting is not yet adequate.</p>
+<p>A minimal disclosure has six components, and they are short. Name the tool and version, with the access route and date — “GPT-5 via the OpenAI API, accessed July 2026” — together with the sampling parameters, since these are omitted in three quarters of published studies and determine the reproducibility of nothing else in the paper. State the task: first-pass deductive coding of interview excerpts against a human-developed codebook. State the input: de-identified Bulgarian-language excerpts of 300 to 500 words, supplied individually. State the output: proposed code assignments with a rationale for each excerpt. State the human evaluation in quantitative terms, including who reviewed the output, who retained final authority, what the disagreement rate was, and where the disagreements clustered — “18%, concentrated in codes requiring cultural or emotional interpretation” carries information in a way that “all output was reviewed by the research team” does not. Finally, state the reflexive position: that use was pre-declared in an analysis plan, that a reflexivity log was maintained, and how the model’s suggestions bore on theme development.</p>
+<p>The graduation of reporting effort follows the delegation posture. Mechanical delegation — transcription, formatting, deductive coding, corpus search — is reported directly and briefly. Grey-zone delegation — inductive coding suggestions, candidate themes, translation drafts — is reported with the qualification that human evaluation was applied to every output, and with the evidence for it. Any interpretive task delegated to a model is reported with an explicit methodological justification, and that justification has to answer the position statement in §3 rather than ignore it.</p>
+</section>
+<section id="the-multilingual-dimension" class="level2">
+<h2 class="anchored" data-anchor-id="the-multilingual-dimension">9. The multilingual dimension</h2>
+<p>Almost all of the evidence discussed above comes from English-language studies using GPT-family models, and the Kempny review names the limited evidence for non-English contexts as one of the field’s open problems. For Bulgarian-language research, the extrapolation is unsafe in a specific way.</p>
+<p>Bulgarian is a morphologically rich Slavic language with a complex verbal aspect system, an analytic nominal system unusual among the Slavic languages, an extensive clitic inventory, evidential verb forms that mark whether the speaker witnessed what they report, substantial dialectal variation, and conventions of hedging, indirectness and politeness that carry considerable interactional weight. The evidential system alone should give pause: the distinction between what a GP saw happen and what they were told happened is grammatically marked in Bulgarian and disappears entirely in English translation. A model that reaches 80% agreement with human coders on English interviews has not thereby been shown to do anything in particular on Bulgarian data, and very few people have checked.</p>
+<p>The safe workflow for multilingual work runs from original-language human interpretation, through AI assistance, to bilingual verification. The unsafe one runs from AI translation to English-only analysis, and its defect is that the interpretive step becomes invisible by being relocated into preprocessing. You believe you are analysing what participants said; you are analysing what the model rendered them as having said, and the two diverge exactly where the analysis is most interesting. Where translation is unavoidable, pilot the model on a small subset and compare its coding of the Bulgarian original against its coding of the translated text; the size of the gap is a study finding in its own right, and worth reporting.</p>
+</section>
+<section id="common-failures" class="level2">
+<h2 class="anchored" data-anchor-id="common-failures">10. Common failures</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Failure</th>
+<th>Why it happens</th>
+<th>How to prevent it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Automation anchoring</strong></td>
+<td>The model’s first-pass coding structure becomes the researcher’s frame</td>
+<td>Read the transcripts before engaging the model; keep analytic notes from familiarisation</td>
+</tr>
+<tr class="even">
+<td><strong>Quotation fabrication</strong></td>
+<td>Plausible-sounding quotes are generated that do not exist in the data</td>
+<td>Retrieve every quote from the original transcript against a participant and line identifier</td>
+</tr>
+<tr class="odd">
+<td><strong>Theatrical validation</strong></td>
+<td>“AI output was reviewed by researchers”, with no detail</td>
+<td>Specify what was compared, by whom, and with what disagreement rate</td>
+</tr>
+<tr class="even">
+<td><strong>Epistemological mismatch</strong></td>
+<td>Delegating interpretation in reflexive TA or phenomenology, where subjectivity is the method</td>
+<td>Settle congruence before selecting tasks; document the judgment</td>
+</tr>
+<tr class="odd">
+<td><strong>Missing audit trail</strong></td>
+<td>“ChatGPT was used to assist analysis”, with nothing further</td>
+<td>Maintain the use plan, audit trail and reflexivity log throughout</td>
+</tr>
+<tr class="even">
+<td><strong>Parameter silence</strong></td>
+<td>Model, version, temperature and deployment route go unreported</td>
+<td>Record them at the time of use, not at the time of writing</td>
+</tr>
+<tr class="odd">
+<td><strong>Privacy breach</strong></td>
+<td>Identifiable transcripts uploaded to consumer services</td>
+<td>De-identify before processing; use enterprise or local deployment for sensitive data</td>
+</tr>
+<tr class="even">
+<td><strong>Language assumption</strong></td>
+<td>English-language performance assumed to transfer</td>
+<td>Pilot on a subset; compare coding of original against translated excerpts</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="where-this-is-going" class="level2">
+<h2 class="anchored" data-anchor-id="where-this-is-going">11. Where this is going</h2>
+<p>Statistical software did not replace statisticians. It changed what statisticians spend their time on: the arithmetic was delegated, and design, interpretation and judgment became more consequential rather than less. The researchers who did well out of the transition were those who understood the method deeply enough to notice when the software was doing the wrong thing.</p>
+<p>Something similar seems likely here, with two qualifications. The transition is faster, and the instrument is far less transparent than a statistical package. An R output displays the coefficient, its standard error and the degrees of freedom, and every step from data to estimate can in principle be reconstructed. A model output displays a theme statement that reads like something a thoughtful colleague might have written, and you have to determine for yourself whether it is one, with no access to how it was produced. That asymmetry makes methodological literacy more important rather than less, and it makes the apparatus described here — the separation of human and machine tasks, the audit trail, the reflexivity log — part of the method rather than administrative overhead sitting on top of it.</p>
+<p>The second qualification is that a substantial body of qualitative researchers holds that the analogy fails at its root: that the arithmetic SPSS took over was never constitutive of statistical reasoning, whereas interpretation is constitutive of qualitative analysis, so that delegating it changes the object rather than the labour. I do not think that argument settles the matter, since it applies with full force to interpretive delegation and with very little force to transcription cleanup. But it does establish that the burden of justification sits with the person delegating, and it should be discharged in the methods section rather than in a footnote.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The question to answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Can AI do qualitative analysis?” is the wrong question. The useful one is which tasks can be delegated without changing what this methodology claims knowledge to be — a methodological question rather than a technical one, and the one that separates rigorous AI-assisted research from AI-generated prose with the surface features of analysis.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>De Paoli S. Why we should reject to reject the use of generative artificial intelligence in qualitative analysis: a response to Jowsey, Braun, Clarke, Lupton, and Fine (2025). <em>Qual Inq</em>. 2026. doi:<a href="https://doi.org/10.1177/10778004261425137">10.1177/10778004261425137</a></p>
+<p>Fehring L, Frings J, Rust P, Kempny C, Thürmann PA, Meister S. Extension of the Consolidated Criteria for Reporting Qualitative Research Guideline to Large Language Models (COREQ+LLM): protocol for a multiphase study. <em>JMIR Res Protoc</em>. 2025;14:e78682. doi:<a href="https://doi.org/10.2196/78682">10.2196/78682</a></p>
+<p>Greenhalgh T. Reflexive qualitative research and generative AI: a call to go beyond the binary. <em>Qual Inq</em>. 2026. doi:<a href="https://doi.org/10.1177/10778004261429383">10.1177/10778004261429383</a></p>
+<p>Jowsey T, Braun V, Clarke V, Lupton D, Fine M. We reject the use of generative artificial intelligence for reflexive qualitative research. <em>Qual Inq</em>. 2025. doi:<a href="https://doi.org/10.1177/10778004251401851">10.1177/10778004251401851</a></p>
+<p>Kempny C, Frings J, Rust P, Meister S, Fehring L. The use and methodological reporting of large language models in qualitative research: a scoping review. <em>BMC Med Res Methodol</em>. 2026;26(1). doi:<a href="https://doi.org/10.1186/s12874-026-02913-1">10.1186/s12874-026-02913-1</a></p>
+<p>Prahl A. The AI-Reflexivity Checklist (ARC): a pre-analysis pause for LLM-assisted coding. <em>Qual Health Res</em>. 2026;36(2-3):181–190. doi:<a href="https://doi.org/10.1177/10497323251401503">10.1177/10497323251401503</a></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Colophon
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Written in August 2026. Empirical claims about model performance and reporting practice are drawn from the scoping review cited above; the project structure and delegation framework reflect my own experience integrating these tools into epidemiological and health services research, and should be read as a proposal rather than as a validated instrument. Corrections and disagreement are welcome at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a>.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
