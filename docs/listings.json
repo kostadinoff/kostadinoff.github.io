@@ -19,6 +19,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/epinews-posts/2026-W32-34-en.html",
+      "/blog/ai-qualitative-research.html",
       "/blog/kkstatfun-worked-example.html",
       "/epinews-posts/2026-W30-31-en.html",
       "/blog/phd-curriculum.html",
@@ -90,6 +92,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/ai-qualitative-research.html",
       "/blog/kkstatfun-worked-example.html",
       "/blog/phd-curriculum.html",
       "/blog/academic-writing-setup.html"
@@ -98,6 +101,7 @@
   {
     "listing": "/epinews.html",
     "items": [
+      "/epinews-posts/2026-W32-34-en.html",
       "/epinews-posts/2026-W30-31-en.html",
       "/epinews-posts/2026-W28-29-en.html",
       "/epinews-posts/2026-W27-en.html",
