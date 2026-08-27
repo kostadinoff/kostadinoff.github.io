@@ -9,8 +9,706 @@
 <link>https://kostadinoff.github.io/blog.html</link>
 <atom:link href="https://kostadinoff.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on research workflows, epidemiological methods, and scientific tooling.</description>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 19 Aug 2026 21:00:00 GMT</lastBuildDate>
+<generator>quarto-1.11.1</generator>
+<lastBuildDate>Wed, 26 Aug 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>A Markdown-First Research Workflow for My Colleagues (and Their AI Agents)</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/blog/markdown-first-research-workflow.html</link>
+  <description><![CDATA[
+
+
+
+
+
+
+<p>This post is for my colleagues who are beginning to use artificial intelligence in research, and for the AI agents that will soon be working beside them.</p>
+<p>The first instinct is usually to open a chatbot, upload a Word document, and start asking for paragraphs. That can produce text, but it does not produce a good research system. The conversation becomes the workplace, the uploaded document becomes the only memory, and neither the researcher nor the agent has a reliable account of what changed. A week later there are four files called <code>final</code>, the references have drifted, and nobody knows which table belongs to which analysis.</p>
+<p>I work differently. The centre of my workflow is a folder containing plain-text files. The manuscript is Markdown. Its settings are YAML. References live in a BibTeX file. Analyses are scripts. Git records every meaningful change. Quarto turns the source into HTML, PDF, or Word when an output file is needed. The folder, not the chat, is the durable memory of the project.</p>
+<p>This distinction becomes more important when AI agents enter the picture. An agent is much better at helping with a well-structured folder than with a loose collection of attachments. It can inspect the project, edit a small source file, run a render, compare the result with Git, and leave a record for the next person or agent. Good files make agents better. They also make human collaboration less painful.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The short version
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Keep one folder per study, article, book, or report. Write the source in Markdown, render it with Quarto, store references in a project-level <code>.bib</code> file, and put the text and code under Git. Use the university OneDrive for institutional access and recovery, but use Git branches or worktrees when several agents are changing files. Treat Word as an export format, not as the master copy.</p>
+</div>
+</div>
+<section id="the-project-folder-is-the-unit-of-work" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-folder-is-the-unit-of-work">1. The project folder is the unit of work</h2>
+<p>A research project should have a boundary. If two papers answer different questions, they should normally have different folders. If a thesis contains several linked analyses, it may be one larger Quarto project with separate chapters, but the principle is the same: the files needed to understand and reproduce the work belong together.</p>
+<p>This is the structure I use for a study:</p>
+<pre class="text"><code>2026-example-study/
+├── README.md
+├── HANDOFF.md
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── scripts/
+│   ├── 00_run_all.R
+│   ├── 01_data_prep.R
+│   ├── 02_analysis.R
+│   ├── 03_figures.R
+│   └── 04_tables.R
+├── output/
+│   ├── figures/
+│   └── tables/
+├── manuscript/
+│   ├── manuscript.md
+│   ├── supplementary.md
+│   └── references.bib
+├── metadata/
+│   ├── study.yml
+│   ├── data-dictionary.csv
+│   ├── data-sources.csv
+│   └── decisions.md
+├── presentation/
+│   └── presentation.typ
+└── docs/</code></pre>
+<p>The original data in <code>data/raw/</code> are never edited. Cleaning happens in <code>01_data_prep.R</code>. Figures and tables are written to <code>output/</code>, which means that directory can be deleted and rebuilt. The manuscript consumes those outputs; it does not hide an undocumented analysis inside the prose.</p>
+<p>The names are intentionally boring. A predictable layout saves time because a colleague or an agent can enter an unfamiliar project and find the analysis, references, figures, and current state without guessing. My public <a href="https://github.com/kostadinoff/research-scaffold"><code>research-scaffold</code></a> repository can create this structure automatically, but the structure matters more than the helper that creates it <span class="citation" data-cites="kostadinov2026scaffold">(Kostadinov 2026)</span>.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-project-flow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-project-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-project-flow">flowchart LR
+  H[Researcher] --&gt; S[Plain-text source]
+  A[AI agent] --&gt; S
+  S --&gt; R[R or Python scripts]
+  S --&gt; Q[Quarto]
+  R --&gt; O[Figures and tables]
+  O --&gt; Q
+  Q --&gt; D[HTML, PDF, or DOCX]
+  S --&gt; G[Git history]
+  R --&gt; G
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-project-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The project folder is shared memory. People and agents change source files; scripts and Quarto produce disposable outputs; Git records the decisions.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The rendered PDF is not the project. It is one product of the project. The same is true of a Word file, a conference figure, or a slide deck. The source files and the history that connects them are the project.</p>
+</section>
+<section id="markdown-is-the-source-of-truth" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-is-the-source-of-truth">2. Markdown is the source of truth</h2>
+<p>Markdown is plain text with a small amount of punctuation that describes structure. A heading begins with <code>#</code>. Emphasis uses <code>*asterisks*</code>. Links use square brackets followed by a URL in parentheses. Lists begin with <code>-</code> or a number. Because the file is text, any editor can open it, Git can show line-by-line changes, and an AI agent can alter one paragraph without reconstructing an opaque binary document.</p>
+<p>Here is a complete piece of Markdown:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># Results</span></span>
+<span id="cb2-2"></span>
+<span id="cb2-3">We included **412 participants**. The primary outcome was lower in the</span>
+<span id="cb2-4">intervention group (Figure 1).</span>
+<span id="cb2-5"></span>
+<span id="cb2-6"><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">- </span>205 participants received the intervention.</span>
+<span id="cb2-7"><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">- </span>207 participants received usual care.</span>
+<span id="cb2-8"></span>
+<span id="cb2-9">See the <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">study protocol</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">](https://example.org/protocol)</span> for the original plan.</span></code></pre></div></div>
+<p>The punctuation is visible, but it is not formatting debris. It says what each part <em>is</em>: a heading, a paragraph, a list, or a link. Quarto then decides how that structure should look in HTML, PDF, or another format.</p>
+<section id="md-and-.qmd" class="level3">
+<h3 class="anchored" data-anchor-id="md-and-.qmd"><code>.md</code> and <code>.qmd</code></h3>
+<p>Both extensions contain Markdown and both can be rendered by Quarto.</p>
+<ul>
+<li>I use <code>.md</code> for manuscripts that contain prose and links to finished figures and tables. The analysis stays in separate R scripts.</li>
+<li>I use <code>.qmd</code> for Quarto pages and documents that use Quarto-specific features or executable R, Python, or Julia cells.</li>
+</ul>
+<p>Beginners can use <code>.qmd</code> everywhere without doing anything wrong. The distinction matters later, when you decide whether a document should execute code while it renders. My preference for scientific articles is to keep analysis and prose separate. A failed R package should not prevent me from correcting a sentence, and the manuscript should not quietly contain a second version of the analysis.</p>
+</section>
+<section id="yaml-the-settings-at-the-top" class="level3">
+<h3 class="anchored" data-anchor-id="yaml-the-settings-at-the-top">YAML: the settings at the top</h3>
+<p>Most Quarto documents begin with a YAML header, also called front matter. YAML is a human-readable format for structured settings. The header sits between two lines containing three hyphens:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Example study"</span></span>
+<span id="cb3-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">author</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Your research team"</span></span>
+<span id="cb3-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">date</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> 2026-08-27</span></span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb3-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb3-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">toc</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb3-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">docx</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> default</span></span>
+<span id="cb3-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">bibliography</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> references.bib</span></span>
+<span id="cb3-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">link-citations</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb3-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">execute</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb3-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">echo</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb3-13"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div></div>
+<p>YAML uses <code>name: value</code> pairs. Indentation expresses nesting, so the spaces before <code>html:</code> and <code>toc:</code> matter. Use spaces, not tabs. Quote a value when it contains punctuation or when you want to remove any ambiguity. If Quarto reports a YAML error, first inspect the indentation and the opening and closing <code>---</code> lines.</p>
+<p>The example says: use this title and author, produce HTML and Word, read references from <code>references.bib</code>, make citations clickable, and hide code in the rendered document. Changing output format does not require copying the manuscript into a new program. It is a change to a setting.</p>
+</section>
+<section id="open-the-whole-folder-in-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="open-the-whole-folder-in-vs-code">Open the whole folder in VS Code</h3>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code</a> is a free editor. After installing it, choose <strong>File &gt; Open Folder</strong> and select the project directory. Do not begin by double-clicking <code>manuscript.qmd</code> in File Explorer. Opening the folder gives VS Code and your AI tools the full project context: the bibliography, scripts, figures, Git history, and configuration files.</p>
+<p>Install <a href="https://quarto.org/docs/get-started/">Quarto</a> separately. Quarto is the publishing system; the VS Code extension is only the editor integration. Then open the Extensions panel in VS Code (<code>Ctrl+Shift+X</code>), search for <strong>Quarto</strong>, and install the extension published by Quarto. It provides syntax highlighting, YAML completion, diagnostics, preview, and support for executable cells <span class="citation" data-cites="quarto2026vscode">(Quarto Project 2026b)</span>.</p>
+<p>My minimum extension list is short:</p>
+<ul>
+<li><strong>Quarto</strong>, for <code>.qmd</code> editing and preview;</li>
+<li><strong>R</strong>, if the project contains R code;</li>
+<li><strong>Python</strong> and <strong>Jupyter</strong>, if it contains Python notebooks or Python cells.</li>
+</ul>
+<p>Do not install twenty extensions on the first day. Add one when you know what problem it solves. After installing Quarto, open a new terminal in VS Code and check the setup:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb4-1">quarto <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">--</span>version</span>
+<span id="cb4-2">quarto check</span>
+<span id="cb4-3">quarto preview manuscript<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">qmd</span></span></code></pre></div></div>
+<p>The last command renders the document and opens a live preview. The preview updates when the source is saved.</p>
+<p>There is a naming trap here. A <strong>VS Code extension</strong> changes the editor. A <strong>Quarto extension</strong> changes a document or project, for example by adding a journal format, filter, or shortcode. Quarto extensions are added inside a project:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> add quarto-ext/fontawesome</span></code></pre></div></div>
+<p>They are stored in the project’s <code>_extensions/</code> directory and should travel with the project. A beginner does not need any Quarto extension to write a good manuscript. Install one only when a template or a real publishing need requires it.</p>
+</section>
+</section>
+<section id="tables-figures-code-and-citations-belong-in-the-same-source" class="level2">
+<h2 class="anchored" data-anchor-id="tables-figures-code-and-citations-belong-in-the-same-source">3. Tables, figures, code, and citations belong in the same source</h2>
+<p>Markdown is not limited to paragraphs. It can contain tables, equations, diagrams, images, cross-references, citations, and executable code.</p>
+<p>This table is written directly in the source of this post:</p>
+<div id="tbl-file-roles" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-file-roles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Four plain-text files with different responsibilities.
+</figcaption>
+<div aria-describedby="tbl-file-roles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>What it contains</th>
+<th>Why it is agent-friendly</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>manuscript.md</code></td>
+<td>The argument and interpretation</td>
+<td>Small, readable diffs</td>
+</tr>
+<tr class="even">
+<td><code>references.bib</code></td>
+<td>Reference metadata and source summaries</td>
+<td>Citation keys are stable</td>
+</tr>
+<tr class="odd">
+<td><code>02_analysis.R</code></td>
+<td>Statistical decisions and estimates</td>
+<td>It can be run and tested</td>
+</tr>
+<tr class="even">
+<td><code>HANDOFF.md</code></td>
+<td>Current state and next action</td>
+<td>A new session can resume safely</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Table Table&nbsp;1 is not a screenshot. A human or agent can edit a cell, Git can show exactly what changed, and Quarto can restyle it for the chosen output.</p>
+<section id="figures-and-graphs" class="level3">
+<h3 class="anchored" data-anchor-id="figures-and-graphs">Figures and graphs</h3>
+<p>A finished figure can be inserted with one line:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><span class="al" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">![Age-standardised incidence by year.](output/figures/incidence.png)</span>{#fig-incidence width=85%}</span></code></pre></div></div>
+<p>Later in the text, <code>@fig-incidence</code> becomes “Figure 1” with the correct number. If a new figure is inserted before it, Quarto renumbers the references.</p>
+<p>A <code>.qmd</code> file can also execute code. The following example would run R, create a graph, attach a caption, and make it cross-referenceable:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"></span>
+<span id="cb7-2">::: {.cell}</span>
+<span id="cb7-3"></span>
+<span id="cb7-4">:::</span></code></pre></div></div>
+<p>Quarto can do the same with Python. It can also print a data frame as a table. That is useful for teaching materials, exploratory reports, and genuinely computational documents. For my main manuscripts, however, I normally create the plot in <code>03_figures.R</code>, save it to <code>output/figures/</code>, and link the finished image from <code>manuscript.md</code>. The source still connects prose and graph, while the statistical pipeline remains testable on its own.</p>
+</section>
+<section id="what-a-.bib-file-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-a-.bib-file-is">What a <code>.bib</code> file is</h3>
+<p>A BibTeX file is a plain-text database of references. Each entry has a type, a unique citation key, and fields such as author, title, journal, year, DOI, and abstract:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb8-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">smith2024screening</span>,</span>
+<span id="cb8-2">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>   = {Smith, Jane and Ivanov, Petar},</span>
+<span id="cb8-3">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>    = {Example title},</span>
+<span id="cb8-4">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span>  = {Example Journal},</span>
+<span id="cb8-5">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>     = {2024},</span>
+<span id="cb8-6">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span>   = {12},</span>
+<span id="cb8-7">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span>   = {3},</span>
+<span id="cb8-8">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span>    = {101--109},</span>
+<span id="cb8-9">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>      = {10.1000/example},</span>
+<span id="cb8-10">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">abstract</span> = {A concise record of the design, population, main finding,</span>
+<span id="cb8-11">              and the limitation that matters for later citation.}</span>
+<span id="cb8-12">}</span></code></pre></div></div>
+<p>The citation key is <code>smith2024screening</code>. In the manuscript, I cite it like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb9-1">Screening uptake differed by age group <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">@smith2024screening</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span>.</span>
+<span id="cb9-2"></span>
+<span id="cb9-3">Smith and Ivanov <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">-@smith2024screening</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span> reported the same pattern.</span>
+<span id="cb9-4"></span>
+<span id="cb9-5">Several studies addressed the question <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">@smith2024screening; @jones2025uptake</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">]</span>.</span></code></pre></div></div>
+<p>Quarto reads the key, finds the matching entry in <code>references.bib</code>, formats the in-text citation, and creates the reference list. A CSL file can change the entire document from APA to Vancouver or to a journal-specific style without retyping a reference. The bibliography is connected in YAML with <code>bibliography: references.bib</code> <span class="citation" data-cites="quarto2026citations">(Quarto Project 2026a)</span>.</p>
+<p>I keep one <code>.bib</code> file per project. I do not point every paper at one enormous lifetime library. A self-contained project is easier to deposit, share, audit, and reopen. I also store an abstract or a short, checked statement of findings in each entry. That field is working context: it tells me and an agent what the source can actually support. A fluent sentence with the wrong citation is still wrong.</p>
+</section>
+</section>
+<section id="install-git-before-the-project-becomes-complicated" class="level2">
+<h2 class="anchored" data-anchor-id="install-git-before-the-project-becomes-complicated">4. Install Git before the project becomes complicated</h2>
+<p>Git is a version-control system. It records changes to files over time so that you can compare versions, recover earlier work, and see when and why a change was made <span class="citation" data-cites="git2026versioncontrol">(Git Project 2026)</span>. GitHub is a service that can host a Git repository; it is not Git itself.</p>
+<p>This matters in research because plain text gives Git something useful to compare. If I change “associated with” to “caused,” Git shows that exact change. If an agent removes an exclusion criterion, the deletion appears in the diff. If a reviewer requests a different model, I can make the change on a branch and compare the resulting tables before accepting it.</p>
+<p>On Windows, install <a href="https://git-scm.com/downloads/win">Git for Windows</a>, or use <code>winget</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb10-1">winget install <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">--</span>id Git<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Git</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>e <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">--</span>source winget</span></code></pre></div></div>
+<p>Open a new terminal and configure your identity once:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> user.name <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Your Name"</span></span>
+<span id="cb11-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> user.email <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"your.university.email@example.org"</span></span>
+<span id="cb11-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> core.autocrlf input</span></code></pre></div></div>
+<p>Then, inside a new project folder:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> init</span>
+<span id="cb12-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> status</span>
+<span id="cb12-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add README.md manuscript/manuscript.md manuscript/references.bib</span>
+<span id="cb12-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Create manuscript and bibliography"</span></span></code></pre></div></div>
+<p>A commit is a named checkpoint, not an automatic save. Make one after a coherent change: “Define primary outcome,” “Add adjusted model,” or “Respond to reviewer 2.” Messages such as “updates” and “final final” throw away the main benefit.</p>
+<p>Do not put confidential participant data, credentials, or large generated files into a public GitHub repository. Use a private remote where institutional policy permits it, and write a <code>.gitignore</code> that excludes sensitive and disposable paths. Git records research history; it does not replace information governance.</p>
+</section>
+<section id="word-should-be-an-output-not-the-source" class="level2">
+<h2 class="anchored" data-anchor-id="word-should-be-an-output-not-the-source">5. Word should be an output, not the source</h2>
+<p>Microsoft Word is useful for opening a file that a journal expects, for collecting comments from a co-author who will use nothing else, and for checking the final page layout. It is a poor master format for a computational research project.</p>
+<p>A <code>.docx</code> file combines content, formatting, comments, tracked changes, and internal XML in a package that is difficult to inspect from the outside. AI tools can read it, but they cannot collaborate on it as safely as they can on plain text. Git cannot give you a clean scientific diff. Merging simultaneous changes is awkward. Copying a new table into Word can silently leave the old numbers in the text.</p>
+<p>My rule is simple: the authoritative manuscript remains Markdown. When somebody needs Word, Quarto produces it:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> render manuscript.md <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--to</span> docx</span></code></pre></div></div>
+<p>If a co-author returns tracked changes, I review them and incorporate the accepted changes into Markdown. Then I render again. Word is the delivery vehicle; it is not where the research logic lives.</p>
+<p>This does require a change of habit. You stop adjusting fonts while drafting and start marking structure. You stop hand-numbering tables. You stop typing the bibliography. The reward is that one source can become a clean HTML page today, a Word file for a collaborator tomorrow, and a PDF for submission next month.</p>
+</section>
+<section id="use-the-university-onedrive-but-understand-its-job" class="level2">
+<h2 class="anchored" data-anchor-id="use-the-university-onedrive-but-understand-its-job">6. Use the university OneDrive, but understand its job</h2>
+<p>Our university already provides institutional OneDrive. For ordinary non-sensitive project files, that gives us managed accounts, access from several computers, sharing within the institution, and version history. Microsoft documents that OneDrive version history can restore previous versions of non-Office files as well as Office documents <span class="citation" data-cites="microsoft2026onedrive">(Microsoft Support 2026)</span>. A Markdown file benefits from that protection just as a Word file does.</p>
+<p>A sensible starting location is therefore something like:</p>
+<pre class="text"><code>OneDrive - &lt;University&gt;/Research/2026-example-study/</code></pre>
+<p>This is much better than keeping the only copy on a desktop or passing attachments by email. It also gives approved collaborators and locally running agents a common project location.</p>
+<p>OneDrive and Git solve different problems:</p>
+<ul>
+<li>OneDrive synchronises files and provides institutional access and recovery.</li>
+<li>Git records intentional changes, branches, authorship, and merge history.</li>
+</ul>
+<p>Use both. Do not assume that OneDrive can merge two agents editing the same paragraph at the same moment. It may create a conflict copy, but it does not understand the scientific meaning of either version.</p>
+<p>For beginners, the safe rule is one agent at a time per file. For a team that already knows Git, give each agent a branch or a separate Git worktree. Each agent makes a small change, renders or tests it, commits it, and returns the commit for human review. The main branch changes only after that review.</p>
+<p>There is also a performance caveat. A text-first manuscript with a few figures is usually fine in a synced Windows folder. Large datasets, package libraries, and projects containing thousands of small files run much faster inside WSL’s Linux filesystem. In that case, keep the active computational clone under <code>~/projects/</code> in WSL, use Git to exchange changes, and copy only approved deliverables or shared project material to OneDrive.</p>
+<p>Institutional storage does not automatically make every use ethical. Check the study protocol, data-protection rules, and university policy before placing identifiable or sensitive data in any synced folder. Likewise, permission to store data in OneDrive is not permission to upload those data to an external AI service. De-identification and an approved processing environment remain separate requirements.</p>
+</section>
+<section id="why-wsl-matters-and-what-getbib-does" class="level2">
+<h2 class="anchored" data-anchor-id="why-wsl-matters-and-what-getbib-does">7. Why WSL matters, and what <code>getbib</code> does</h2>
+<p>Most of us use Windows because the university uses Windows. Much of scientific computing, server infrastructure, and research automation assumes a Unix shell. Windows Subsystem for Linux (WSL) lets both environments exist on the same machine without dual booting. Microsoft provides a one-command installation for supported Windows versions <span class="citation" data-cites="microsoft2026wsl">(Microsoft Learn 2026)</span>.</p>
+<p>Open PowerShell as Administrator:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb15-1">wsl <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">--</span>install</span></code></pre></div></div>
+<p>Restart, open Ubuntu, and create the requested Linux username and password. Then install the small command-line tools used by my research helpers:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> apt update</span>
+<span id="cb16-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> apt install <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-y</span> git curl python3</span></code></pre></div></div>
+<p>WSL matters because it gives you Bash, predictable paths, mature text-processing tools, and an environment close to the Linux machines on which many analyses and automated jobs eventually run. From a project directory in WSL, <code>code .</code> opens the folder in VS Code with the Linux tools available through the editor.</p>
+<p>It also provides the most straightforward home for my <code>getbib</code> helper. <code>getbib</code> accepts a DOI or PubMed ID, retrieves BibTeX metadata, and appends the entry to the bibliography in the current project. It checks PubMed first and falls back to DOI metadata. When available, it adds the abstract too. That turns the bibliography into evidence context for the researcher and the agent.</p>
+<p>The public tool is part of <a href="https://github.com/kostadinoff/research-scaffold"><code>research-scaffold</code></a>. A simple WSL setup is:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> clone https://github.com/kostadinoff/research-scaffold.git ~/research-scaffold</span>
+<span id="cb17-2"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">echo</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'export PATH="$HOME/research-scaffold/bin:$PATH"'</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;&gt;</span> ~/.bashrc</span>
+<span id="cb17-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">source</span> ~/.bashrc</span></code></pre></div></div>
+<p>Now enter the directory containing <code>references.bib</code> and fetch one or several records:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">getbib</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'10.1016/S0140-6736(20)30183-5'</span></span>
+<span id="cb18-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">getbib</span> 32741486 35771962 35146976</span>
+<span id="cb18-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">getbib</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-c</span></span>
+<span id="cb18-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">getbib</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--enrich</span></span></code></pre></div></div>
+<p>The quotes around a DOI containing parentheses prevent the shell from interpreting it. <code>getbib -c</code> audits the target bibliography for duplicate keys, DOIs, PubMed IDs, and missing abstracts. <code>getbib --enrich</code> adds missing metadata to existing entries without replacing curated fields <span class="citation" data-cites="kostadinov2026scaffold">(Kostadinov 2026)</span>.</p>
+<p>Automation does not remove the need to check a reference. Confirm the authors, title, year, journal, DOI, and abstract against the source. The abstract describes what the source may support; it is not permission to make a stronger causal or numerical claim. If the full paper is available, use it to correct and enrich the stored summary.</p>
+</section>
+<section id="how-i-work-with-ai-agents" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-work-with-ai-agents">8. How I work with AI agents</h2>
+<p>I do not ask an agent to “write the paper” and accept the result. I divide work into bounded tasks that can be inspected: check citation keys, review a Methods section against the analysis script, find tables whose numbers disagree with the Results, draft a figure caption from a verified output, or list unsupported claims with line references.</p>
+<p>The project folder supplies context. A good agent begins by reading <code>README.md</code>, the current manuscript, the relevant script, and <code>HANDOFF.md</code>. It then changes the smallest useful set of files, runs the available checks, and shows the diff. The researcher decides whether the change belongs in the project.</p>
+<p>I also maintain a private library of agent skills. These are reusable Markdown protocols for tasks I perform repeatedly: epidemiological analysis, statistical planning, figure design, bibliography checks, manuscript structure, language editing, peer review, and other specialised work. They are not magic prompts and they are not substitutes for expertise. They record decisions that I do not want each new agent session to rediscover.</p>
+<p>My colleagues do not need my private skill files to begin. Start with the project itself and a short instruction file for the agent you use, such as <code>AGENTS.md</code> or <code>CLAUDE.md</code>. State the scientific goal, the files that are authoritative, the checks that must pass, and the actions that are forbidden. When the same instruction has proved useful in several projects, then it may deserve to become a reusable skill.</p>
+<p>The operating model is orchestrator and workers:</p>
+<ol type="1">
+<li>A person or lead agent breaks the job into small, independent tasks.</li>
+<li>Each worker receives the files and constraints needed for one task.</li>
+<li>The worker returns a patch, a commit, or a review with line references.</li>
+<li>The lead checks facts, numbers, citations, and rendered output.</li>
+<li>Only verified work is merged into the main branch.</li>
+</ol>
+<p>Local models can handle privacy-sensitive drafts or cheap mechanical work when the approved environment allows it. More capable cloud models can coordinate complicated changes. Neither should publish a number or scientific claim that nobody has checked.</p>
+<p>At the end of a work session, I leave a short <code>HANDOFF.md</code> with five things: the goal, the verified and unverified state, decisions, the exact next command, and any traps discovered during the session. Git tells the next agent <em>what</em> changed. The handoff explains <em>why</em> and what remains uncertain. This small file prevents every new chat from starting the project again from memory.</p>
+</section>
+<section id="a-first-afternoon-setup" class="level2">
+<h2 class="anchored" data-anchor-id="a-first-afternoon-setup">9. A first-afternoon setup</h2>
+<p>If this workflow is new, do not try to reproduce my entire system at once. The following sequence is enough for a first project.</p>
+<section id="install-the-tools" class="level3">
+<h3 class="anchored" data-anchor-id="install-the-tools">Install the tools</h3>
+<ol type="1">
+<li>Install <a href="https://code.visualstudio.com/">VS Code</a>.</li>
+<li>Install <a href="https://quarto.org/docs/get-started/">Quarto</a>.</li>
+<li>Install the Quarto extension inside VS Code.</li>
+<li>Install <a href="https://git-scm.com/downloads/win">Git for Windows</a>.</li>
+<li>Install WSL with <code>wsl --install</code>, then add Git, curl, and Python inside Ubuntu.</li>
+</ol>
+</section>
+<section id="create-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="create-the-project">Create the project</h3>
+<p>Make a new folder inside the university OneDrive. Give it a stable name containing a year and a short topic, not <code>new folder</code> or <code>paper final</code>. Open that folder in VS Code.</p>
+<p>Create <code>manuscript.qmd</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb19-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb19-2"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">title:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "My first reproducible manuscript"</span></span>
+<span id="cb19-3"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">author:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "Research team"</span></span>
+<span id="cb19-4"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">format:</span></span>
+<span id="cb19-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">  html: default</span></span>
+<span id="cb19-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">  docx: default</span></span>
+<span id="cb19-7"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">bibliography:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> references.bib</span></span>
+<span id="cb19-8"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">link-citations:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> true</span></span>
+<span id="cb19-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb19-10"></span>
+<span id="cb19-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># Introduction</span></span>
+<span id="cb19-12"></span>
+<span id="cb19-13">Write the research problem here.</span>
+<span id="cb19-14"></span>
+<span id="cb19-15"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># Methods</span></span>
+<span id="cb19-16"></span>
+<span id="cb19-17">Describe what was planned and done.</span>
+<span id="cb19-18"></span>
+<span id="cb19-19"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># Results</span></span>
+<span id="cb19-20"></span>
+<span id="cb19-21">Link verified tables and figures here.</span>
+<span id="cb19-22"></span>
+<span id="cb19-23"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># Discussion</span></span>
+<span id="cb19-24"></span>
+<span id="cb19-25">Interpret the findings without extending beyond the design.</span>
+<span id="cb19-26"></span>
+<span id="cb19-27"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"># References</span></span></code></pre></div></div>
+<p>Create an empty <code>references.bib</code>, then preview the document:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> preview manuscript.qmd</span></code></pre></div></div>
+</section>
+<section id="put-it-under-version-control" class="level3">
+<h3 class="anchored" data-anchor-id="put-it-under-version-control">Put it under version control</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> init</span>
+<span id="cb21-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add manuscript.qmd references.bib</span>
+<span id="cb21-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Create manuscript skeleton"</span></span></code></pre></div></div>
+<p>Add one real reference with <code>getbib</code>, cite its key in the Introduction, render again, and commit the change. Ask an agent to perform one narrow review, such as: “Check whether every citation key in <code>manuscript.qmd</code> exists in <code>references.bib</code>. Report missing keys only; do not edit files.” When that works, allow a small edit and inspect the Git diff before accepting it.</p>
+<p>That is enough to understand the core loop:</p>
+<pre class="text"><code>edit source -&gt; render or test -&gt; inspect diff -&gt; commit -&gt; share</code></pre>
+<p>Everything else is an extension of that loop.</p>
+</section>
+</section>
+<section id="the-principle-behind-the-tools" class="level2">
+<h2 class="anchored" data-anchor-id="the-principle-behind-the-tools">10. The principle behind the tools</h2>
+<p>The real change is not replacing Word with a fashionable editor. It is moving the research record from opaque documents and temporary conversations into inspectable files with explicit relationships.</p>
+<p>Markdown makes the argument readable. YAML records publishing choices. BibTeX connects claims to sources. Scripts connect results to data. Quarto creates the deliverables. Git preserves the reasoning history. OneDrive gives the university team a managed shared location. WSL makes the tooling portable. AI agents can then work on bounded parts of a system whose state survives after the chat window closes.</p>
+<p>Once this is in place, adding another agent is no longer like inviting a stranger into a conversation halfway through. It is closer to giving a colleague a well-kept lab notebook, a defined task, and a clean bench. The researcher still owns the question, the method, the interpretation, and the final claim. The tools make that ownership visible.</p>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-git2026versioncontrol" class="csl-entry">
+Git Project. 2026. <em>About Version Control</em>. <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control.html">https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control.html</a>.
+</div>
+<div id="ref-kostadinov2026scaffold" class="csl-entry">
+Kostadinov, Kostadin. 2026. <em>Research-Scaffold: Dependency-Light Helpers for a Reproducible Research Workflow</em>. <a href="https://github.com/kostadinoff/research-scaffold">https://github.com/kostadinoff/research-scaffold</a>.
+</div>
+<div id="ref-microsoft2026wsl" class="csl-entry">
+Microsoft Learn. 2026. <em>Install WSL</em>. <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>.
+</div>
+<div id="ref-microsoft2026onedrive" class="csl-entry">
+Microsoft Support. 2026. <em>Restore a Previous Version of a File Stored in OneDrive</em>. <a href="https://support.microsoft.com/en-US/onedrive/restore-a-previous-version-of-a-file-stored-in-onedrive">https://support.microsoft.com/en-US/onedrive/restore-a-previous-version-of-a-file-stored-in-onedrive</a>.
+</div>
+<div id="ref-quarto2026citations" class="csl-entry">
+Quarto Project. 2026a. <em>Citations</em>. <a href="https://quarto.org/docs/authoring/citations.html">https://quarto.org/docs/authoring/citations.html</a>.
+</div>
+<div id="ref-quarto2026vscode" class="csl-entry">
+Quarto Project. 2026b. <em>VS Code</em>. <a href="https://quarto.org/docs/tools/vscode/">https://quarto.org/docs/tools/vscode/</a>.
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <category>workflow</category>
+  <category>Markdown</category>
+  <category>Quarto</category>
+  <category>Git</category>
+  <category>reproducibility</category>
+  <guid>https://kostadinoff.github.io/blog/markdown-first-research-workflow.html</guid>
+  <pubDate>Wed, 26 Aug 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>AI as the SPSS, R, and Stata for Qualitative Research</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>

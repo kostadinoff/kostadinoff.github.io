@@ -1,0 +1,470 @@
+---
+title: "A Markdown-First Research Workflow for My Colleagues (and Their AI Agents)"
+description: "A practical guide to the research setup I use: Markdown and Quarto, project-level bibliographies, Git, the university OneDrive, WSL, getbib, and a disciplined way for people and AI agents to work in the same project."
+author: "Kostadin Kostadinov"
+date: 2026-08-27
+date-modified: last-modified
+categories: [AI, workflow, Markdown, Quarto, Git, reproducibility]
+toc: true
+toc-depth: 3
+body-classes: blog-post
+bibliography: markdown-first-research-workflow.bib
+link-citations: true
+---
+
+This post is for my colleagues who are beginning to use artificial intelligence in research, and for the AI agents that will soon be working beside them.
+
+The first instinct is usually to open a chatbot, upload a Word document, and start asking for paragraphs. That can produce text, but it does not produce a good research system. The conversation becomes the workplace, the uploaded document becomes the only memory, and neither the researcher nor the agent has a reliable account of what changed. A week later there are four files called `final`, the references have drifted, and nobody knows which table belongs to which analysis.
+
+I work differently. The centre of my workflow is a folder containing plain-text files. The manuscript is Markdown. Its settings are YAML. References live in a BibTeX file. Analyses are scripts. Git records every meaningful change. Quarto turns the source into HTML, PDF, or Word when an output file is needed. The folder, not the chat, is the durable memory of the project.
+
+This distinction becomes more important when AI agents enter the picture. An agent is much better at helping with a well-structured folder than with a loose collection of attachments. It can inspect the project, edit a small source file, run a render, compare the result with Git, and leave a record for the next person or agent. Good files make agents better. They also make human collaboration less painful.
+
+::: {.callout-note}
+## The short version
+
+Keep one folder per study, article, book, or report. Write the source in Markdown, render it with Quarto, store references in a project-level `.bib` file, and put the text and code under Git. Use the university OneDrive for institutional access and recovery, but use Git branches or worktrees when several agents are changing files. Treat Word as an export format, not as the master copy.
+:::
+
+## 1. The project folder is the unit of work
+
+A research project should have a boundary. If two papers answer different questions, they should normally have different folders. If a thesis contains several linked analyses, it may be one larger Quarto project with separate chapters, but the principle is the same: the files needed to understand and reproduce the work belong together.
+
+This is the structure I use for a study:
+
+```text
+2026-example-study/
+├── README.md
+├── HANDOFF.md
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── scripts/
+│   ├── 00_run_all.R
+│   ├── 01_data_prep.R
+│   ├── 02_analysis.R
+│   ├── 03_figures.R
+│   └── 04_tables.R
+├── output/
+│   ├── figures/
+│   └── tables/
+├── manuscript/
+│   ├── manuscript.md
+│   ├── supplementary.md
+│   └── references.bib
+├── metadata/
+│   ├── study.yml
+│   ├── data-dictionary.csv
+│   ├── data-sources.csv
+│   └── decisions.md
+├── presentation/
+│   └── presentation.typ
+└── docs/
+```
+
+The original data in `data/raw/` are never edited. Cleaning happens in `01_data_prep.R`. Figures and tables are written to `output/`, which means that directory can be deleted and rebuilt. The manuscript consumes those outputs; it does not hide an undocumented analysis inside the prose.
+
+The names are intentionally boring. A predictable layout saves time because a colleague or an agent can enter an unfamiliar project and find the analysis, references, figures, and current state without guessing. My public [`research-scaffold`](https://github.com/kostadinoff/research-scaffold) repository can create this structure automatically, but the structure matters more than the helper that creates it [@kostadinov2026scaffold].
+
+```{mermaid}
+%%| label: fig-project-flow
+%%| fig-cap: "The project folder is shared memory. People and agents change source files; scripts and Quarto produce disposable outputs; Git records the decisions."
+flowchart LR
+  H[Researcher] --> S[Plain-text source]
+  A[AI agent] --> S
+  S --> R[R or Python scripts]
+  S --> Q[Quarto]
+  R --> O[Figures and tables]
+  O --> Q
+  Q --> D[HTML, PDF, or DOCX]
+  S --> G[Git history]
+  R --> G
+```
+
+The rendered PDF is not the project. It is one product of the project. The same is true of a Word file, a conference figure, or a slide deck. The source files and the history that connects them are the project.
+
+## 2. Markdown is the source of truth
+
+Markdown is plain text with a small amount of punctuation that describes structure. A heading begins with `#`. Emphasis uses `*asterisks*`. Links use square brackets followed by a URL in parentheses. Lists begin with `-` or a number. Because the file is text, any editor can open it, Git can show line-by-line changes, and an AI agent can alter one paragraph without reconstructing an opaque binary document.
+
+Here is a complete piece of Markdown:
+
+```markdown
+# Results
+
+We included **412 participants**. The primary outcome was lower in the
+intervention group (Figure 1).
+
+- 205 participants received the intervention.
+- 207 participants received usual care.
+
+See the [study protocol](https://example.org/protocol) for the original plan.
+```
+
+The punctuation is visible, but it is not formatting debris. It says what each part *is*: a heading, a paragraph, a list, or a link. Quarto then decides how that structure should look in HTML, PDF, or another format.
+
+### `.md` and `.qmd`
+
+Both extensions contain Markdown and both can be rendered by Quarto.
+
+- I use `.md` for manuscripts that contain prose and links to finished figures and tables. The analysis stays in separate R scripts.
+- I use `.qmd` for Quarto pages and documents that use Quarto-specific features or executable R, Python, or Julia cells.
+
+Beginners can use `.qmd` everywhere without doing anything wrong. The distinction matters later, when you decide whether a document should execute code while it renders. My preference for scientific articles is to keep analysis and prose separate. A failed R package should not prevent me from correcting a sentence, and the manuscript should not quietly contain a second version of the analysis.
+
+### YAML: the settings at the top
+
+Most Quarto documents begin with a YAML header, also called front matter. YAML is a human-readable format for structured settings. The header sits between two lines containing three hyphens:
+
+```yaml
+---
+title: "Example study"
+author: "Your research team"
+date: 2026-08-27
+format:
+  html:
+    toc: true
+  docx: default
+bibliography: references.bib
+link-citations: true
+execute:
+  echo: false
+---
+```
+
+YAML uses `name: value` pairs. Indentation expresses nesting, so the spaces before `html:` and `toc:` matter. Use spaces, not tabs. Quote a value when it contains punctuation or when you want to remove any ambiguity. If Quarto reports a YAML error, first inspect the indentation and the opening and closing `---` lines.
+
+The example says: use this title and author, produce HTML and Word, read references from `references.bib`, make citations clickable, and hide code in the rendered document. Changing output format does not require copying the manuscript into a new program. It is a change to a setting.
+
+### Open the whole folder in VS Code
+
+[Visual Studio Code](https://code.visualstudio.com/) is a free editor. After installing it, choose **File > Open Folder** and select the project directory. Do not begin by double-clicking `manuscript.qmd` in File Explorer. Opening the folder gives VS Code and your AI tools the full project context: the bibliography, scripts, figures, Git history, and configuration files.
+
+Install [Quarto](https://quarto.org/docs/get-started/) separately. Quarto is the publishing system; the VS Code extension is only the editor integration. Then open the Extensions panel in VS Code (`Ctrl+Shift+X`), search for **Quarto**, and install the extension published by Quarto. It provides syntax highlighting, YAML completion, diagnostics, preview, and support for executable cells [@quarto2026vscode].
+
+My minimum extension list is short:
+
+- **Quarto**, for `.qmd` editing and preview;
+- **R**, if the project contains R code;
+- **Python** and **Jupyter**, if it contains Python notebooks or Python cells.
+
+Do not install twenty extensions on the first day. Add one when you know what problem it solves. After installing Quarto, open a new terminal in VS Code and check the setup:
+
+```powershell
+quarto --version
+quarto check
+quarto preview manuscript.qmd
+```
+
+The last command renders the document and opens a live preview. The preview updates when the source is saved.
+
+There is a naming trap here. A **VS Code extension** changes the editor. A **Quarto extension** changes a document or project, for example by adding a journal format, filter, or shortcode. Quarto extensions are added inside a project:
+
+```bash
+quarto add quarto-ext/fontawesome
+```
+
+They are stored in the project's `_extensions/` directory and should travel with the project. A beginner does not need any Quarto extension to write a good manuscript. Install one only when a template or a real publishing need requires it.
+
+## 3. Tables, figures, code, and citations belong in the same source
+
+Markdown is not limited to paragraphs. It can contain tables, equations, diagrams, images, cross-references, citations, and executable code.
+
+This table is written directly in the source of this post:
+
+| File | What it contains | Why it is agent-friendly |
+|---|---|---|
+| `manuscript.md` | The argument and interpretation | Small, readable diffs |
+| `references.bib` | Reference metadata and source summaries | Citation keys are stable |
+| `02_analysis.R` | Statistical decisions and estimates | It can be run and tested |
+| `HANDOFF.md` | Current state and next action | A new session can resume safely |
+
+: Four plain-text files with different responsibilities. {#tbl-file-roles}
+
+Table @tbl-file-roles is not a screenshot. A human or agent can edit a cell, Git can show exactly what changed, and Quarto can restyle it for the chosen output.
+
+### Figures and graphs
+
+A finished figure can be inserted with one line:
+
+```markdown
+![Age-standardised incidence by year.](output/figures/incidence.png){#fig-incidence width=85%}
+```
+
+Later in the text, `@fig-incidence` becomes “Figure 1” with the correct number. If a new figure is inserted before it, Quarto renumbers the references.
+
+A `.qmd` file can also execute code. The following example would run R, create a graph, attach a caption, and make it cross-referenceable:
+
+````markdown
+```{r}
+#| label: fig-age-risk
+#| fig-cap: "Age and estimated risk in the analytic sample."
+#| echo: false
+#| eval: false
+
+library(ggplot2)
+
+ggplot(analysis_data, aes(age, estimated_risk)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+````
+
+Quarto can do the same with Python. It can also print a data frame as a table. That is useful for teaching materials, exploratory reports, and genuinely computational documents. For my main manuscripts, however, I normally create the plot in `03_figures.R`, save it to `output/figures/`, and link the finished image from `manuscript.md`. The source still connects prose and graph, while the statistical pipeline remains testable on its own.
+
+### What a `.bib` file is
+
+A BibTeX file is a plain-text database of references. Each entry has a type, a unique citation key, and fields such as author, title, journal, year, DOI, and abstract:
+
+```bibtex
+@article{smith2024screening,
+  author   = {Smith, Jane and Ivanov, Petar},
+  title    = {Example title},
+  journal  = {Example Journal},
+  year     = {2024},
+  volume   = {12},
+  number   = {3},
+  pages    = {101--109},
+  doi      = {10.1000/example},
+  abstract = {A concise record of the design, population, main finding,
+              and the limitation that matters for later citation.}
+}
+```
+
+The citation key is `smith2024screening`. In the manuscript, I cite it like this:
+
+```markdown
+Screening uptake differed by age group [@smith2024screening].
+
+Smith and Ivanov [-@smith2024screening] reported the same pattern.
+
+Several studies addressed the question [@smith2024screening; @jones2025uptake].
+```
+
+Quarto reads the key, finds the matching entry in `references.bib`, formats the in-text citation, and creates the reference list. A CSL file can change the entire document from APA to Vancouver or to a journal-specific style without retyping a reference. The bibliography is connected in YAML with `bibliography: references.bib` [@quarto2026citations].
+
+I keep one `.bib` file per project. I do not point every paper at one enormous lifetime library. A self-contained project is easier to deposit, share, audit, and reopen. I also store an abstract or a short, checked statement of findings in each entry. That field is working context: it tells me and an agent what the source can actually support. A fluent sentence with the wrong citation is still wrong.
+
+## 4. Install Git before the project becomes complicated
+
+Git is a version-control system. It records changes to files over time so that you can compare versions, recover earlier work, and see when and why a change was made [@git2026versioncontrol]. GitHub is a service that can host a Git repository; it is not Git itself.
+
+This matters in research because plain text gives Git something useful to compare. If I change “associated with” to “caused,” Git shows that exact change. If an agent removes an exclusion criterion, the deletion appears in the diff. If a reviewer requests a different model, I can make the change on a branch and compare the resulting tables before accepting it.
+
+On Windows, install [Git for Windows](https://git-scm.com/downloads/win), or use `winget`:
+
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+Open a new terminal and configure your identity once:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.university.email@example.org"
+git config --global core.autocrlf input
+```
+
+Then, inside a new project folder:
+
+```bash
+git init
+git status
+git add README.md manuscript/manuscript.md manuscript/references.bib
+git commit -m "Create manuscript and bibliography"
+```
+
+A commit is a named checkpoint, not an automatic save. Make one after a coherent change: “Define primary outcome,” “Add adjusted model,” or “Respond to reviewer 2.” Messages such as “updates” and “final final” throw away the main benefit.
+
+Do not put confidential participant data, credentials, or large generated files into a public GitHub repository. Use a private remote where institutional policy permits it, and write a `.gitignore` that excludes sensitive and disposable paths. Git records research history; it does not replace information governance.
+
+## 5. Word should be an output, not the source
+
+Microsoft Word is useful for opening a file that a journal expects, for collecting comments from a co-author who will use nothing else, and for checking the final page layout. It is a poor master format for a computational research project.
+
+A `.docx` file combines content, formatting, comments, tracked changes, and internal XML in a package that is difficult to inspect from the outside. AI tools can read it, but they cannot collaborate on it as safely as they can on plain text. Git cannot give you a clean scientific diff. Merging simultaneous changes is awkward. Copying a new table into Word can silently leave the old numbers in the text.
+
+My rule is simple: the authoritative manuscript remains Markdown. When somebody needs Word, Quarto produces it:
+
+```bash
+quarto render manuscript.md --to docx
+```
+
+If a co-author returns tracked changes, I review them and incorporate the accepted changes into Markdown. Then I render again. Word is the delivery vehicle; it is not where the research logic lives.
+
+This does require a change of habit. You stop adjusting fonts while drafting and start marking structure. You stop hand-numbering tables. You stop typing the bibliography. The reward is that one source can become a clean HTML page today, a Word file for a collaborator tomorrow, and a PDF for submission next month.
+
+## 6. Use the university OneDrive, but understand its job
+
+Our university already provides institutional OneDrive. For ordinary non-sensitive project files, that gives us managed accounts, access from several computers, sharing within the institution, and version history. Microsoft documents that OneDrive version history can restore previous versions of non-Office files as well as Office documents [@microsoft2026onedrive]. A Markdown file benefits from that protection just as a Word file does.
+
+A sensible starting location is therefore something like:
+
+```text
+OneDrive - <University>/Research/2026-example-study/
+```
+
+This is much better than keeping the only copy on a desktop or passing attachments by email. It also gives approved collaborators and locally running agents a common project location.
+
+OneDrive and Git solve different problems:
+
+- OneDrive synchronises files and provides institutional access and recovery.
+- Git records intentional changes, branches, authorship, and merge history.
+
+Use both. Do not assume that OneDrive can merge two agents editing the same paragraph at the same moment. It may create a conflict copy, but it does not understand the scientific meaning of either version.
+
+For beginners, the safe rule is one agent at a time per file. For a team that already knows Git, give each agent a branch or a separate Git worktree. Each agent makes a small change, renders or tests it, commits it, and returns the commit for human review. The main branch changes only after that review.
+
+There is also a performance caveat. A text-first manuscript with a few figures is usually fine in a synced Windows folder. Large datasets, package libraries, and projects containing thousands of small files run much faster inside WSL's Linux filesystem. In that case, keep the active computational clone under `~/projects/` in WSL, use Git to exchange changes, and copy only approved deliverables or shared project material to OneDrive.
+
+Institutional storage does not automatically make every use ethical. Check the study protocol, data-protection rules, and university policy before placing identifiable or sensitive data in any synced folder. Likewise, permission to store data in OneDrive is not permission to upload those data to an external AI service. De-identification and an approved processing environment remain separate requirements.
+
+## 7. Why WSL matters, and what `getbib` does
+
+Most of us use Windows because the university uses Windows. Much of scientific computing, server infrastructure, and research automation assumes a Unix shell. Windows Subsystem for Linux (WSL) lets both environments exist on the same machine without dual booting. Microsoft provides a one-command installation for supported Windows versions [@microsoft2026wsl].
+
+Open PowerShell as Administrator:
+
+```powershell
+wsl --install
+```
+
+Restart, open Ubuntu, and create the requested Linux username and password. Then install the small command-line tools used by my research helpers:
+
+```bash
+sudo apt update
+sudo apt install -y git curl python3
+```
+
+WSL matters because it gives you Bash, predictable paths, mature text-processing tools, and an environment close to the Linux machines on which many analyses and automated jobs eventually run. From a project directory in WSL, `code .` opens the folder in VS Code with the Linux tools available through the editor.
+
+It also provides the most straightforward home for my `getbib` helper. `getbib` accepts a DOI or PubMed ID, retrieves BibTeX metadata, and appends the entry to the bibliography in the current project. It checks PubMed first and falls back to DOI metadata. When available, it adds the abstract too. That turns the bibliography into evidence context for the researcher and the agent.
+
+The public tool is part of [`research-scaffold`](https://github.com/kostadinoff/research-scaffold). A simple WSL setup is:
+
+```bash
+git clone https://github.com/kostadinoff/research-scaffold.git ~/research-scaffold
+echo 'export PATH="$HOME/research-scaffold/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Now enter the directory containing `references.bib` and fetch one or several records:
+
+```bash
+getbib '10.1016/S0140-6736(20)30183-5'
+getbib 32741486 35771962 35146976
+getbib -c
+getbib --enrich
+```
+
+The quotes around a DOI containing parentheses prevent the shell from interpreting it. `getbib -c` audits the target bibliography for duplicate keys, DOIs, PubMed IDs, and missing abstracts. `getbib --enrich` adds missing metadata to existing entries without replacing curated fields [@kostadinov2026scaffold].
+
+Automation does not remove the need to check a reference. Confirm the authors, title, year, journal, DOI, and abstract against the source. The abstract describes what the source may support; it is not permission to make a stronger causal or numerical claim. If the full paper is available, use it to correct and enrich the stored summary.
+
+## 8. How I work with AI agents
+
+I do not ask an agent to “write the paper” and accept the result. I divide work into bounded tasks that can be inspected: check citation keys, review a Methods section against the analysis script, find tables whose numbers disagree with the Results, draft a figure caption from a verified output, or list unsupported claims with line references.
+
+The project folder supplies context. A good agent begins by reading `README.md`, the current manuscript, the relevant script, and `HANDOFF.md`. It then changes the smallest useful set of files, runs the available checks, and shows the diff. The researcher decides whether the change belongs in the project.
+
+I also maintain a private library of agent skills. These are reusable Markdown protocols for tasks I perform repeatedly: epidemiological analysis, statistical planning, figure design, bibliography checks, manuscript structure, language editing, peer review, and other specialised work. They are not magic prompts and they are not substitutes for expertise. They record decisions that I do not want each new agent session to rediscover.
+
+My colleagues do not need my private skill files to begin. Start with the project itself and a short instruction file for the agent you use, such as `AGENTS.md` or `CLAUDE.md`. State the scientific goal, the files that are authoritative, the checks that must pass, and the actions that are forbidden. When the same instruction has proved useful in several projects, then it may deserve to become a reusable skill.
+
+The operating model is orchestrator and workers:
+
+1. A person or lead agent breaks the job into small, independent tasks.
+2. Each worker receives the files and constraints needed for one task.
+3. The worker returns a patch, a commit, or a review with line references.
+4. The lead checks facts, numbers, citations, and rendered output.
+5. Only verified work is merged into the main branch.
+
+Local models can handle privacy-sensitive drafts or cheap mechanical work when the approved environment allows it. More capable cloud models can coordinate complicated changes. Neither should publish a number or scientific claim that nobody has checked.
+
+At the end of a work session, I leave a short `HANDOFF.md` with five things: the goal, the verified and unverified state, decisions, the exact next command, and any traps discovered during the session. Git tells the next agent *what* changed. The handoff explains *why* and what remains uncertain. This small file prevents every new chat from starting the project again from memory.
+
+## 9. A first-afternoon setup
+
+If this workflow is new, do not try to reproduce my entire system at once. The following sequence is enough for a first project.
+
+### Install the tools
+
+1. Install [VS Code](https://code.visualstudio.com/).
+2. Install [Quarto](https://quarto.org/docs/get-started/).
+3. Install the Quarto extension inside VS Code.
+4. Install [Git for Windows](https://git-scm.com/downloads/win).
+5. Install WSL with `wsl --install`, then add Git, curl, and Python inside Ubuntu.
+
+### Create the project
+
+Make a new folder inside the university OneDrive. Give it a stable name containing a year and a short topic, not `new folder` or `paper final`. Open that folder in VS Code.
+
+Create `manuscript.qmd`:
+
+```markdown
+---
+title: "My first reproducible manuscript"
+author: "Research team"
+format:
+  html: default
+  docx: default
+bibliography: references.bib
+link-citations: true
+---
+
+# Introduction
+
+Write the research problem here.
+
+# Methods
+
+Describe what was planned and done.
+
+# Results
+
+Link verified tables and figures here.
+
+# Discussion
+
+Interpret the findings without extending beyond the design.
+
+# References
+```
+
+Create an empty `references.bib`, then preview the document:
+
+```bash
+quarto preview manuscript.qmd
+```
+
+### Put it under version control
+
+```bash
+git init
+git add manuscript.qmd references.bib
+git commit -m "Create manuscript skeleton"
+```
+
+Add one real reference with `getbib`, cite its key in the Introduction, render again, and commit the change. Ask an agent to perform one narrow review, such as: “Check whether every citation key in `manuscript.qmd` exists in `references.bib`. Report missing keys only; do not edit files.” When that works, allow a small edit and inspect the Git diff before accepting it.
+
+That is enough to understand the core loop:
+
+```text
+edit source -> render or test -> inspect diff -> commit -> share
+```
+
+Everything else is an extension of that loop.
+
+## 10. The principle behind the tools
+
+The real change is not replacing Word with a fashionable editor. It is moving the research record from opaque documents and temporary conversations into inspectable files with explicit relationships.
+
+Markdown makes the argument readable. YAML records publishing choices. BibTeX connects claims to sources. Scripts connect results to data. Quarto creates the deliverables. Git preserves the reasoning history. OneDrive gives the university team a managed shared location. WSL makes the tooling portable. AI agents can then work on bounded parts of a system whose state survives after the chat window closes.
+
+Once this is in place, adding another agent is no longer like inviting a stranger into a conversation halfway through. It is closer to giving a colleague a well-kept lab notebook, a defined task, and a clean bench. The researcher still owns the question, the method, the interpretation, and the final claim. The tools make that ownership visible.
+
+## References {.unnumbered}
+
+::: {#refs}
+:::

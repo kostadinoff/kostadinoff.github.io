@@ -19,6 +19,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/markdown-first-research-workflow.html",
       "/epinews-posts/2026-W32-34-en.html",
       "/blog/ai-qualitative-research.html",
       "/blog/kkstatfun-worked-example.html",
@@ -92,6 +93,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/markdown-first-research-workflow.html",
       "/blog/ai-qualitative-research.html",
       "/blog/kkstatfun-worked-example.html",
       "/blog/phd-curriculum.html",
