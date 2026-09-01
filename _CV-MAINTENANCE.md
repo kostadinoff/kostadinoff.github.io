@@ -28,6 +28,7 @@ reworded — never deleted to save space. HTML and PDF render from the same sour
 | `journal` is a congress name (e.g. `ISEE 2026`) + `(Abstract)` | Filed under *Other scholarly outputs* |
 | Title contains `Comment on` | Filed under *Commentaries and letters* |
 | `@book` | Filed under *Books and monographs* |
+| `@incollection` / `@inbook` | Filed under *Book chapters*, rendered `In: <editors>, editors. *Booktitle*. Publisher; year:pages` |
 | Everything else | Filed under *Peer-reviewed original research articles* |
 
 The generator bolds `Kostadinov K*`, links every DOI, numbers continuously across all
@@ -39,7 +40,7 @@ that (`Kostadinov K`, not `Kostadinov K.`).
 
 | New item | Section |
 |---|---|
-| Journal article, abstract, book | `referencelist.bib` → regenerate |
+| Journal article, abstract, book, book chapter | `referencelist.bib` → regenerate |
 | Grant, contract, commissioned analysis | Research funding and projects → *Grants, fellowships and personal funding* |
 | Project participation | Research funding and projects → International / National / University |
 | Conference talk or poster | Conference contributions (International or National) |

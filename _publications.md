@@ -95,26 +95,30 @@
 
 44. Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R. COVID-19 in Bulgaria: Epidemiological Analysis (in Bulgarian). *Paisii Hilendarski University Press (Университетско издателство „Паисий Хилендарски“)*. 2023.
 
+## Book chapters (1)
+
+45. Petrova G, **Kostadinov K**, Lalova V, Ivanova S. Virtual simulation education of students from specialty of “Nursing care”. In: Chmiel Z, Sałacińska I, Lesiak A, editors. *Medical simulation and international training ground for teaching and scientific experiences*. Rzeszów University Press; 2026:91–100. [link](https://repozytorium.ur.edu.pl/handle/item/12607)
+
 ## Conference abstracts published in journals (8)
 
-45. Dzhambazova E, **Kostadinov K**, Ezeldin F, Iskrov G. The socioeconomic burden of osteoporosis: a cost of illness study in Bulgaria. *European Journal of Public Health*. 2025;35(Supplement_4):ckaf161.1078. [doi:10.1093/eurpub/ckaf161.1078](https://doi.org/10.1093/eurpub/ckaf161.1078)
+46. Dzhambazova E, **Kostadinov K**, Ezeldin F, Iskrov G. The socioeconomic burden of osteoporosis: a cost of illness study in Bulgaria. *European Journal of Public Health*. 2025;35(Supplement_4):ckaf161.1078. [doi:10.1093/eurpub/ckaf161.1078](https://doi.org/10.1093/eurpub/ckaf161.1078)
 
-46. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101385. [doi:10.1016/j.vhri.2025.101385](https://doi.org/10.1016/j.vhri.2025.101385)
+47. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101385. [doi:10.1016/j.vhri.2025.101385](https://doi.org/10.1016/j.vhri.2025.101385)
 
-47. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101303. [doi:10.1016/j.vhri.2025.101303](https://doi.org/10.1016/j.vhri.2025.101303)
+48. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101303. [doi:10.1016/j.vhri.2025.101303](https://doi.org/10.1016/j.vhri.2025.101303)
 
-48. Halil E, Atanasova P, Traykova N, **Kostadinov K**. CT Perfusion and Laboratory Markers as Predictors of Long-Term Functional Outcome and Survival in Acute Ischemic Stroke. *International Journal of Stroke*. 2025;20(2_suppl). [doi:10.1177/17474930251371440](https://doi.org/10.1177/17474930251371440)
+49. Halil E, Atanasova P, Traykova N, **Kostadinov K**. CT Perfusion and Laboratory Markers as Predictors of Long-Term Functional Outcome and Survival in Acute Ischemic Stroke. *International Journal of Stroke*. 2025;20(2_suppl). [doi:10.1177/17474930251371440](https://doi.org/10.1177/17474930251371440)
 
-49. Velikova T, **Kostadinov K**, Naseva E, Rubinstein T, Sarkar M, Mangla L, Makowska J, Micheroli R, Ferreyra L, Kobert L, Parodis I, Nikiphorou E, Shinjo S, Caballero Uribe CV, Venerito V, Agarwal V, Gupta L. Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients. *Arthritis & Rheumatology*. 2025;77(suppl 9). [link](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)
+50. Velikova T, **Kostadinov K**, Naseva E, Rubinstein T, Sarkar M, Mangla L, Makowska J, Micheroli R, Ferreyra L, Kobert L, Parodis I, Nikiphorou E, Shinjo S, Caballero Uribe CV, Venerito V, Agarwal V, Gupta L. Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients. *Arthritis & Rheumatology*. 2025;77(suppl 9). [link](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)
 
-50. **Kostadinov K**, Hristova-Atanasova E, Musurlieva N, Iskrov G, Stefanov R. Mapping the Policy Alternatives for Rare Cancer. *European Journal of Public Health*. 2024;34:842-843. [doi:10.1093/eurpub/ckae144.2172](https://doi.org/10.1093/eurpub/ckae144.2172)
+51. **Kostadinov K**, Hristova-Atanasova E, Musurlieva N, Iskrov G, Stefanov R. Mapping the Policy Alternatives for Rare Cancer. *European Journal of Public Health*. 2024;34:842-843. [doi:10.1093/eurpub/ckae144.2172](https://doi.org/10.1093/eurpub/ckae144.2172)
 
-51. Raycheva R, **Kostadinov K**. HTA7 The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria. *Value in Health*. 2023;26(6):S260. [doi:10.1016/j.jval.2023.03.1436](https://doi.org/10.1016/j.jval.2023.03.1436)
+52. Raycheva R, **Kostadinov K**. HTA7 The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria. *Value in Health*. 2023;26(6):S260. [doi:10.1016/j.jval.2023.03.1436](https://doi.org/10.1016/j.jval.2023.03.1436)
 
-52. Raycheva R, **Kostadinov K**. HTA69 Delay of Innovative Oncology Treatments - Case From Bulgaria. *Value in Health*. 2022;25(12):S309–S310. [doi:10.1016/j.jval.2022.09.1529](https://doi.org/10.1016/j.jval.2022.09.1529)
+53. Raycheva R, **Kostadinov K**. HTA69 Delay of Innovative Oncology Treatments - Case From Bulgaria. *Value in Health*. 2022;25(12):S309–S310. [doi:10.1016/j.jval.2022.09.1529](https://doi.org/10.1016/j.jval.2022.09.1529)
 
 ## Other scholarly outputs (conference proceedings) (2)
 
-53. Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM. Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults. *ISEE 2026*. 2026.
+54. Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM. Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults. *ISEE 2026*. 2026.
 
-54. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025.
+55. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025.

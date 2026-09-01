@@ -116,6 +116,8 @@ def category(entry: dict) -> str:
     journal = entry.get("journal", "").lower()
     if entry["type"] == "book":
         return "books"
+    if entry["type"] in ("incollection", "inbook"):
+        return "chapters"
     if re.search(r"\bcomment on\b", title, re.I):
         return "commentaries"
     if "(Abstract)" in title:
@@ -140,19 +142,30 @@ def render(entry: dict, number: int) -> str:
     end = "" if title.endswith(("?", "!")) else "."
     bits = [format_authors(entry.get("author", "")) + ".", f"{title}{end}"]
 
-    venue = entry.get("journal") or entry.get("booktitle") or entry.get("publisher")
-    if venue:
-        bits.append(f"*{venue}*.")
+    if entry["type"] in ("incollection", "inbook"):
+        editors = format_authors(entry.get("editor", ""))
+        bits.append(f"In: {editors}, editors." if editors else "In:")
+        if entry.get("booktitle"):
+            bits.append(f"*{entry['booktitle']}*.")
+        locator = entry.get("year", "")
+        if entry.get("pages"):
+            locator += f":{entry['pages']}"
+        publisher = entry.get("publisher", "")
+        bits.append(f"{publisher}; {locator}." if publisher else locator + ".")
+    else:
+        venue = entry.get("journal") or entry.get("booktitle") or entry.get("publisher")
+        if venue:
+            bits.append(f"*{venue}*.")
 
-    locator = entry.get("year", "")
-    if entry.get("volume"):
-        locator += f";{entry['volume']}"
-        if entry.get("number"):
-            locator += f"({entry['number']})"
-    if entry.get("pages"):
-        locator += f":{entry['pages']}"
-    if locator:
-        bits.append(locator.strip() + ".")
+        locator = entry.get("year", "")
+        if entry.get("volume"):
+            locator += f";{entry['volume']}"
+            if entry.get("number"):
+                locator += f"({entry['number']})"
+        if entry.get("pages"):
+            locator += f":{entry['pages']}"
+        if locator:
+            bits.append(locator.strip() + ".")
 
     if entry.get("doi"):
         doi = entry["doi"].replace("https://doi.org/", "")
@@ -167,6 +180,7 @@ SECTIONS = [
     ("articles", "Peer-reviewed original research articles"),
     ("commentaries", "Commentaries and letters"),
     ("books", "Books and monographs"),
+    ("chapters", "Book chapters"),
     ("abstracts", "Conference abstracts published in journals"),
     ("proceedings", "Other scholarly outputs (conference proceedings)"),
 ]
