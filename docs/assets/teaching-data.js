@@ -220,6 +220,25 @@ window.TEACHING_DATA = {
                   files: [{ label: "Handout (PDF)", href: "2025-2026-classes/practical-class-15.pdf", kind: "pdf" }]
                 }
               ]
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Practical classes for the English-language medical programme.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Drop the PDF
+                 in 2026-2027-classes/ and copy the template into `lectures`. */
+              lectures: [
+                // {
+                //   title: "Class 1 · Social medicine — definition and scope",
+                //   description: "What the class covers.",
+                //   tags: ["introduction", "scope"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/practical-class-01.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         },
@@ -363,6 +382,26 @@ window.TEACHING_DATA = {
                   files: [{ label: "Материал (PDF)", href: "slides/social-medicine-bg/colloquium.pdf", kind: "pdf" }]
                 }
               ]
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Материали за практическите занятия по социална медицина.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Put new
+                 files in 2026-2027-classes/ rather than overwriting last
+                 year's PDFs in slides/social-medicine-bg/. */
+              lectures: [
+                // {
+                //   title: "Занятие 1 · ...",
+                //   description: "...",
+                //   tags: ["въведение"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/practical-class-01-bg.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         }

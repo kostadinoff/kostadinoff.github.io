@@ -1,0 +1,8 @@
+Practical-class PDFs for the 2026/2027 academic year.
+
+Name them practical-class-01.pdf, practical-class-02.pdf, … so they sort
+naturally and match the 2025-2026-classes/ convention. This folder is listed
+under `resources:` in _quarto.yml, so anything dropped here is copied to
+docs/2026-2027-classes/ on the next render.
+
+See _TEACHING-MAINTENANCE.md for the full drop-in checklist.
