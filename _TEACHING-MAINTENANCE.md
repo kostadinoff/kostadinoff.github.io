@@ -16,17 +16,28 @@ around it that break silently.
 ## Adding a practical class PDF
 
 1. **Drop the PDF in the academic-year folder** — `2026-2027-classes/` for the current
-   year. Name it `practical-class-NN.pdf` (`-bg` suffix for the Bulgarian track) so
-   files sort naturally.
+   year. One folder holds every discipline, so the filename carries the subject:
+   `<subject>-<NN>-<lang>.pdf`, e.g. `stat-01-bg.pdf`, `ethics-07-en.pdf`,
+   `dental-01-en.pdf`, `socmed-03-bg.pdf`.
 2. **Check the folder is in `_quarto.yml` under `resources:`.** This is the one that
    bites: a PDF in an unlisted folder is never copied to `docs/`, and the link 404s on
    the live site while working fine locally. `2025-2026-classes/`, `2026-2027-classes/`,
    `slides/` and `assets/` are listed.
 3. **Add the item** to the right discipline → language → year block in
-   `assets/teaching-data.js`. Both social-medicine year blocks for 2026/2027 already
-   exist with a commented-out template item — uncomment and fill it in.
+   `assets/teaching-data.js`. Every 2026/2027 year block already exists with a
+   commented-out template item — uncomment and fill it in.
 4. **Bump `updated:`** at the top of the data file.
 5. **Render and commit** (see below).
+
+## Why one folder per year, not one per discipline
+
+Nothing on the page depends on where a file sits: every `href` in the data file is
+written out in full, so folders exist for the person maintaining them, not for the code.
+That makes the choice a filing question, and one folder per academic year wins on three
+counts — a new cohort can never overwrite the previous one, `_quarto.yml` needs a single
+`resources:` entry per year instead of one per discipline, and archiving a finished year
+means leaving one directory alone. The cost is that the folder gets long, which the
+`<subject>-<NN>-<lang>` naming absorbs.
 
 ## Academic years
 
@@ -43,16 +54,25 @@ The academic year is the only level between a language and the two collections
 - **Never delete an old year block.** Past cohorts stay browsable as an archive; that is
   the point of the structure.
 
-## File layout, and the one inconsistency
+## Adding a discipline
 
-| Track | Where the PDFs live |
+A year block with no items is invisible, but a *discipline* with no items is not: every
+entry in `disciplines` renders a tab with an item count, so publishing an empty one puts
+a "Dental public health 0" tab on the live page. Write the block commented out, and
+uncomment it together with its first item. The dental public health block sits ready
+above `epidemiology` in the data file — check its title, blurb and languages before it
+goes live.
+
+## File layout
+
+| Vintage | Where the PDFs live |
 |---|---|
-| Social medicine, English | `2025-2026-classes/`, `2026-2027-classes/` — one folder per academic year |
-| Everything else | `slides/<discipline>-<lang>/` — flat, not year-scoped |
+| 2026/2027 onwards | `2026-2027-classes/` — one folder per academic year, every discipline |
+| 2025/2026, social medicine EN | `2025-2026-classes/` |
+| 2025/2026, everything else | `slides/<discipline>-<lang>/` — flat, not year-scoped |
 
-The flat folders cannot hold two cohorts of `practical-class-01.pdf` without one
-overwriting the other, so new material should go into the year folder regardless of
-track. The 2026/2027 Bulgarian template points there for that reason.
+The old flat folders stay where they are; nothing is gained by moving files that are
+already linked and published. New material goes in the year folder.
 
 ## Rendering
 

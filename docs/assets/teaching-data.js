@@ -235,7 +235,7 @@ window.TEACHING_DATA = {
                 //   tags: ["introduction", "scope"],
                 //   date: "2026-09-28",
                 //   version: "1.0",
-                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/practical-class-01.pdf", kind: "pdf" }]
+                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/socmed-01-en.pdf", kind: "pdf" }]
                 // }
               ],
               handouts: []
@@ -398,7 +398,7 @@ window.TEACHING_DATA = {
                 //   tags: ["въведение"],
                 //   date: "2026-09-28",
                 //   version: "1.0",
-                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/practical-class-01-bg.pdf", kind: "pdf" }]
+                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/socmed-01-bg.pdf", kind: "pdf" }]
                 // }
               ],
               handouts: []
@@ -531,6 +531,25 @@ window.TEACHING_DATA = {
                   files: [{ label: "Test (PDF)", href: "slides/ethics-en/07-seminar-test.pdf", kind: "pdf" }]
                 }
               ]
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Practical class handouts and case discussions in medical ethics.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Every
+                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
+              lectures: [
+                // {
+                //   title: "Class 1 · ...",
+                //   description: "...",
+                //   tags: ["ethics"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-01-en.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         },
@@ -650,6 +669,25 @@ window.TEACHING_DATA = {
                   files: [{ label: "Тест (PDF)", href: "slides/ethics-bg/07-seminar-test.pdf", kind: "pdf" }]
                 }
               ]
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Материали за упражнения и казуси по медицинска етика.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Every
+                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
+              lectures: [
+                // {
+                //   title: "Занятие 1 · ...",
+                //   description: "...",
+                //   tags: ["етика"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-01-bg.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         }
@@ -795,6 +833,25 @@ window.TEACHING_DATA = {
                   files: [{ label: "Решения (PDF)", href: "slides/statistics-bg/homework-solutions.pdf", kind: "pdf" }]
                 }
               ]
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Упражнения, формули и домашни работи по медицинска статистика.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Every
+                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
+              lectures: [
+                // {
+                //   title: "Упражнение 1 · ...",
+                //   description: "...",
+                //   tags: ["статистика"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/stat-01-bg.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         },
@@ -825,11 +882,91 @@ window.TEACHING_DATA = {
                 }
               ],
               handouts: []
+            },
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "English-language practicals accompanying the medical statistics course.",
+              /* Empty years are skipped by the renderer, so this block stays
+                 invisible until the first item below is filled in. Every
+                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
+              lectures: [
+                // {
+                //   title: "Practical 1 · ...",
+                //   description: "...",
+                //   tags: ["statistics"],
+                //   date: "2026-09-28",
+                //   version: "1.0",
+                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/stat-01-en.pdf", kind: "pdf" }]
+                // }
+              ],
+              handouts: []
             }
           ]
         }
       ]
     },
+
+    /* ----------------------------------------------------------------
+       Dental public health — 2026/2027.
+
+       Kept commented out on purpose: every discipline in this array gets a
+       tab with an item count, so publishing it empty would put a "Dental
+       public health 0" tab on the live page. Uncomment the whole block with
+       the first class, not before. Check the title, blurb and languages
+       before it goes live.
+       ---------------------------------------------------------------- */
+    // {
+    //   id: "dental-public-health",
+    //   title: "Dental public health",
+    //   blurb: "Practical classes for dental medicine students: oral health determinants, prevention, and the organisation of dental care.",
+    //   languages: [
+    //     {
+    //       code: "en",
+    //       label: "English",
+    //       years: [
+    //         {
+    //           id: "2026-2027",
+    //           label: "2026/2027",
+    //           note: "Practical classes for the English-language dental medicine programme.",
+    //           lectures: [
+    //             {
+    //               title: "Class 1 · ...",
+    //               description: "...",
+    //               tags: ["oral health"],
+    //               date: "2026-09-28",
+    //               version: "1.0",
+    //               files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-01-en.pdf", kind: "pdf" }]
+    //             }
+    //           ],
+    //           handouts: []
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       code: "bg",
+    //       label: "Български",
+    //       years: [
+    //         {
+    //           id: "2026-2027",
+    //           label: "2026/2027",
+    //           note: "Материали за практическите занятия по дентално обществено здраве.",
+    //           lectures: [
+    //             {
+    //               title: "Занятие 1 · ...",
+    //               description: "...",
+    //               tags: ["орално здраве"],
+    //               date: "2026-09-28",
+    //               version: "1.0",
+    //               files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-01-bg.pdf", kind: "pdf" }]
+    //             }
+    //           ],
+    //           handouts: []
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
 
     /* ---------------------------------------------------------------- */
     {

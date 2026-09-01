@@ -1,8 +1,20 @@
-Practical-class PDFs for the 2026/2027 academic year.
+Every practical-class PDF for the 2026/2027 academic year, all disciplines, one
+folder. Nothing on the site depends on the folder layout — each href in
+assets/teaching-data.js is explicit — so the folder is purely for humans, and
+one folder per year is what keeps a cohort from overwriting the one before it.
 
-Name them practical-class-01.pdf, practical-class-02.pdf, … so they sort
-naturally and match the 2025-2026-classes/ convention. This folder is listed
-under `resources:` in _quarto.yml, so anything dropped here is copied to
-docs/2026-2027-classes/ on the next render.
+Because the folder is flat, the filename carries the discipline:
+
+    <subject>-<NN>-<lang>.pdf
+
+    stat-01-bg.pdf        medical statistics, class 1, Bulgarian
+    ethics-01-en.pdf      medical ethics, class 1, English
+    dental-01-en.pdf      dental public health, class 1, English
+    socmed-01-bg.pdf      social medicine, class 1, Bulgarian
+
+Two digits so they sort; the subject first so the folder groups by course.
+
+This folder is listed under `resources:` in _quarto.yml, so anything dropped
+here is copied to docs/2026-2027-classes/ on the next render.
 
 See _TEACHING-MAINTENANCE.md for the full drop-in checklist.
