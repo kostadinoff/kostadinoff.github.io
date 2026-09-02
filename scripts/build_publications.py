@@ -91,10 +91,20 @@ def clean(value: str) -> str:
 
 # --------------------------------------------------------------------------- authors
 def format_authors(raw: str) -> str:
+    group_authors = ("AFFIRMO Study Investigators and Consortium",)
+    placeholders = {}
+    for index, group in enumerate(group_authors):
+        placeholder = f"GROUPAUTHOR{index}"
+        if group in raw:
+            raw = raw.replace(group, placeholder)
+            placeholders[placeholder] = group
     out = []
     for name in re.split(r"\s+and\s+", raw):
         name = name.strip()
         if not name:
+            continue
+        if name in placeholders:
+            out.append(placeholders[name])
             continue
         if "," in name:
             surname, _, given = name.partition(",")
@@ -172,6 +182,10 @@ def render(entry: dict, number: int) -> str:
         bits.append(f"[doi:{doi}](https://doi.org/{doi})")
     elif entry.get("url"):
         bits.append(f"[link]({entry['url']})")
+
+    if entry.get("cv_contribution"):
+        contribution = entry["cv_contribution"].rstrip(".")
+        bits.append(f"**{contribution}.**")
 
     return f"{number}. " + " ".join(b for b in bits if b.strip(". "))
 
