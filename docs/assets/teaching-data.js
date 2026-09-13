@@ -938,7 +938,7 @@ window.TEACHING_DATA = {
                     "Definition, aim and tasks of dental public health; determinants and the common risk factor approach; oral health indicators; and how the work of a clinician differs from that of a dental public health specialist.",
                   tags: ["oral health", "prevention", "indicators"],
                   date: "2026-09-13",
-                  version: "1.0",
+                  version: "1.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-01-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-introduction.html" },
