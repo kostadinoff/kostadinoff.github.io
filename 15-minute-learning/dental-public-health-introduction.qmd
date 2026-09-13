@@ -10,7 +10,7 @@ author-meta: "Kostadin Kostadinov"
 date-meta: 2026-09-13
 ---
 
-[Slides (PDF)](../2026-2027-classes/dental-01-bg.pdf) · [Student tasks](../learning-tasks/dental-public-health-introduction.qmd)
+[Slides (PDF)](../2026-2027-classes/dental-01-en.pdf) · [Student tasks](../learning-tasks/dental-public-health-introduction.qmd)
 
 Allow about **15 minutes** to read and reflect. This reading follows the first class in Dental Public Health. By the end, you should be able to state what the discipline is for, explain why a population approach adds something a clinical approach cannot supply on its own, read a simple oral health indicator critically, and describe how the work of a dental public health specialist differs from your own future work at the chair.
 

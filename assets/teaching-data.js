@@ -912,11 +912,10 @@ window.TEACHING_DATA = {
     /* ----------------------------------------------------------------
        Dental public health — 2026/2027.
 
-       Live since Class 1. Everything for this course sits under one English
-       block: the reading and the student tasks are published in English only,
-       and the slide deck is listed there too even though the slides
-       themselves are in Bulgarian — hence the language note on the file
-       label. Add a bg block only if a separate Bulgarian set appears.
+       Live since Class 1. The course is taught in English, so there is one
+       English block and no bg counterpart: slides, reading and tasks are all
+       English. Source decks live in MEGA/TEACHING/PRESENTATIONS_DPH as
+       NN-en-*.typ.
        ---------------------------------------------------------------- */
     {
       id: "dental-public-health",
@@ -931,7 +930,7 @@ window.TEACHING_DATA = {
             {
               id: "2026-2027",
               label: "2026/2027",
-              note: "Reading and student tasks are in English; the slide decks are in Bulgarian.",
+              note: "Practical classes for the English-language dental medicine programme.",
               lectures: [
                 {
                   title: "Class 1 · Introduction to dental public health",
@@ -940,7 +939,7 @@ window.TEACHING_DATA = {
                   tags: ["oral health", "prevention", "indicators"],
                   date: "2026-09-13",
                   version: "1.0",
-                  files: [{ label: "Slides (PDF, Bulgarian)", href: "2026-2027-classes/dental-01-bg.pdf", kind: "pdf" }],
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-01-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-introduction.html" },
                     { label: "Student tasks", href: "learning-tasks/dental-public-health-introduction.html" }
