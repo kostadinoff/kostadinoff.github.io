@@ -912,63 +912,61 @@ window.TEACHING_DATA = {
     /* ----------------------------------------------------------------
        Dental public health — 2026/2027.
 
-       Kept commented out on purpose: every discipline in this array gets a
-       tab with an item count, so publishing it empty would put a "Dental
-       public health 0" tab on the live page. Uncomment the whole block with
-       the first class, not before. Check the title, blurb and languages
-       before it goes live.
+       Live since Class 1. Everything for this course sits under one English
+       block: the reading and the student tasks are published in English only,
+       and the slide deck is listed there too even though the slides
+       themselves are in Bulgarian — hence the language note on the file
+       label. Add a bg block only if a separate Bulgarian set appears.
        ---------------------------------------------------------------- */
-    // {
-    //   id: "dental-public-health",
-    //   title: "Dental public health",
-    //   blurb: "Practical classes for dental medicine students: oral health determinants, prevention, and the organisation of dental care.",
-    //   languages: [
-    //     {
-    //       code: "en",
-    //       label: "English",
-    //       years: [
-    //         {
-    //           id: "2026-2027",
-    //           label: "2026/2027",
-    //           note: "Practical classes for the English-language dental medicine programme.",
-    //           lectures: [
-    //             {
-    //               title: "Class 1 · ...",
-    //               description: "...",
-    //               tags: ["oral health"],
-    //               date: "2026-09-28",
-    //               version: "1.0",
-    //               files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-01-en.pdf", kind: "pdf" }]
-    //             }
-    //           ],
-    //           handouts: []
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       code: "bg",
-    //       label: "Български",
-    //       years: [
-    //         {
-    //           id: "2026-2027",
-    //           label: "2026/2027",
-    //           note: "Материали за практическите занятия по дентално обществено здраве.",
-    //           lectures: [
-    //             {
-    //               title: "Занятие 1 · ...",
-    //               description: "...",
-    //               tags: ["орално здраве"],
-    //               date: "2026-09-28",
-    //               version: "1.0",
-    //               files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-01-bg.pdf", kind: "pdf" }]
-    //             }
-    //           ],
-    //           handouts: []
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // },
+    {
+      id: "dental-public-health",
+      title: "Dental public health",
+      blurb:
+        "Practical classes for dental medicine students: oral health determinants, prevention, and the organisation of dental care.",
+      languages: [
+        {
+          code: "en",
+          label: "English",
+          years: [
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Reading and student tasks are in English; the slide decks are in Bulgarian.",
+              lectures: [
+                {
+                  title: "Class 1 · Introduction to dental public health",
+                  description:
+                    "Definition, aim and tasks of dental public health; determinants and the common risk factor approach; oral health indicators; and how the work of a clinician differs from that of a dental public health specialist.",
+                  tags: ["oral health", "prevention", "indicators"],
+                  date: "2026-09-13",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF, Bulgarian)", href: "2026-2027-classes/dental-01-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-public-health-introduction.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-public-health-introduction.html" }
+                  ]
+                }
+              ],
+              handouts: [
+                {
+                  title: "Class 1 · Reading a population and spending a budget",
+                  description:
+                    "A 15-minute reading followed by a 75-minute group exercise: correcting common misconceptions, interpreting DMFT and the care index across three districts, classifying preventive measures, and allocating a limited prevention budget. Model answers included.",
+                  tags: ["assignment", "indicators", "prevention", "case analysis"],
+                  date: "2026-09-13",
+                  version: "1.0",
+                  files: [],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-public-health-introduction.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-public-health-introduction.html" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
 
     /* ---------------------------------------------------------------- */
     {

@@ -1,0 +1,109 @@
+---
+title: "Dental Public Health: When the Community Is the Patient"
+author: "Kostadin Kostadinov"
+date: 2026-09-13
+lang: en
+description: "A 15-minute reading for Class 1: what dental public health is, its aim and tasks, determinants and the common risk factor approach, how oral health is measured, and how the work of a clinician differs from that of a dental public health specialist."
+categories: [English, Dental Public Health, "Dental Medicine", "2026/2027"]
+title-meta: "Dental Public Health: When the Community Is the Patient"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-13
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-01-bg.pdf) · [Student tasks](../learning-tasks/dental-public-health-introduction.qmd)
+
+Allow about **15 minutes** to read and reflect. This reading follows the first class in Dental Public Health. By the end, you should be able to state what the discipline is for, explain why a population approach adds something a clinical approach cannot supply on its own, read a simple oral health indicator critically, and describe how the work of a dental public health specialist differs from your own future work at the chair.
+
+## Two questions about the same disease
+
+A child arrives with three carious lesions. The clinical question is immediate and familiar: which lesions need restoring, in what order, under what behaviour management, and what will prevent the next one in this mouth. That question has a good answer, and your training over the coming years is largely devoted to producing it reliably.
+
+A second question is equally legitimate and rarely asked in the surgery: why do the children of this district arrive with three lesions when children a hundred kilometres away arrive with one? Nothing about the child's teeth answers it. The answer lies in what the family eats, what it can afford, whether the school has a programme, whether fluoride reaches the child in any form, how far the nearest practice is, and whether anyone is paid to see a healthy child.
+
+These two questions require different methods. The first is answered by examination and treatment planning; the second by counting, comparing and intervening on the conditions that produce the disease. Dental public health is the discipline built around the second question. It does not compete with clinical dentistry — it describes the field on which every clinician plays.
+
+## What public health means
+
+The definition that has survived for a century is Winslow's, adopted in substance by the World Health Organization: public health is the science and art of preventing disease, prolonging life and promoting health **through the organized efforts of society**. Three elements in that sentence carry the weight.
+
+It prevents rather than only treats. It works through organised, collective action rather than through individual good intentions. And its object of care is a population rather than a person. A dentist who advises every patient to reduce sugar is practising good clinical care; a city that removes sugary drinks from school canteens is practising public health. The second acts on children who will never attend that dentist's practice.
+
+Geoffrey Rose formulated the distinction in 1985 as the difference between *sick individuals* and *sick populations*. The clinical question is why this person has the disease; the population question is why this population has more of it than another. Answering the first identifies susceptible individuals. Answering the second identifies the causes of the incidence rate itself — and those causes are usually social, economic and environmental rather than individual.
+
+## The prevention paradox
+
+Rose's most uncomfortable observation follows from simple arithmetic. A small number of people at very high risk generate fewer cases in total than the large number of people at moderate risk, because the moderate group is so much larger. A programme that finds and treats only the highest-risk children can be efficient per child and still leave most of the district's new lesions untouched.
+
+Consider a district with 2,400 twelve-year-olds. If the highest-risk 10 per cent develop on average 1.5 new lesions a year and everyone else develops 0.33, the 240 high-risk children account for 360 lesions and the remaining 2,160 children for about 710. Preventing *every* lesion in the high-risk group — an unattainable ideal — would still leave two-thirds of the district's disease in place.
+
+This does not make targeting wrong. Targeted measures can be highly efficient, and the children at greatest risk are usually also the most disadvantaged, so reaching them serves fairness as well as efficiency. The point is that a high-risk strategy and a population strategy answer different questions, and that a service which only ever does the first will report good value per child while the district's caries experience barely moves.
+
+## Defining dental public health
+
+The classical definition describes dental public health as the science and art of preventing and controlling oral diseases and promoting oral health **through organized community efforts**. The phrase that matters most for this course follows it: it is the form of dental practice in which *the community is the patient* rather than the individual.
+
+Take that phrase literally, because the analogy is exact and it structures everything the discipline does. A community can be examined — through an epidemiological survey rather than a mirror and probe. It can be diagnosed — a mean DMFT, a distribution, a pattern of untreated decay concentrated in particular neighbourhoods. It can be given a treatment plan — a programme, a policy, a change in financing. And the outcome can be evaluated, which in this discipline means measuring the population again and accepting that the plan may have failed.
+
+Dental public health is also a recognised specialty in Bulgaria, as it is in most European countries. Few of you will pursue it. All of you will work inside arrangements that people in it have designed: what the health insurance fund pays for, which children are sealed and at what age, what a school programme contains, and which data you are required to report.
+
+## Oral health is more than the absence of caries
+
+The FDI's 2016 definition describes oral health as multi-faceted: the ability to speak, smile, taste, chew, swallow and convey emotion through facial expression, **with confidence and without pain or discomfort**. It is deliberately broader than a clinical chart.
+
+The definition has practical consequences. It means that a mouth restored to anatomical adequacy but still painful on chewing has not reached the goal; that an adolescent who will not smile has an oral health problem even with a low DMFT; and that oral health is measured not only by examination but also by asking people how their mouths affect their lives. It also anchors oral health inside general health and quality of life, which is the argument that persuades ministries of finance — where the dental argument alone rarely does.
+
+## The scale, and why it justifies a population response
+
+The WHO's Global Oral Health Status Report (2022) estimated that oral diseases affect around **3.5 billion people**, and that untreated caries of the permanent teeth is the single most common health condition in the world. Severe periodontal disease affects close to a billion people; oral cancers are among the most common cancers globally.
+
+Four features of oral disease make the population approach unusually rational here. They are almost universal, so screening for a rare condition is not the model. They are cumulative and irreversible — lost tooth substance is never recovered, so a twelve-year-old's DMFT is a permanent record of the district's failure to prevent. They are highly preventable, with well-established risk factors and effective measures. And they are expensive, ranking among the costliest disease groups to treat in high-income health systems.
+
+Put together: a disease that is common, irreversible, preventable and expensive is precisely the kind that a health system should be attacking upstream. That it so rarely does is itself a subject of this discipline.
+
+## Determinants and the common risk factor approach
+
+The determinants of oral health arrange themselves in layers. At the centre are individual factors — age, genetic susceptibility, salivary function. Around them sit behaviours: oral hygiene, diet, tobacco, alcohol, and whether a person seeks care early or late. Around those sit socioeconomic conditions: income, education, employment, where a person lives. And enclosing everything are system factors: access, financing, workforce distribution, policy.
+
+The useful observation is that the further out you move, the less the individual patient controls — and the more a population intervention can achieve. Telling a parent to buy fluoride toothpaste addresses a behaviour; removing the tax on it addresses an environment.
+
+Sheiham and Watt's **common risk factor approach** (2000) draws the practical conclusion. Oral diseases share their principal risk factors with the major chronic diseases: sugar with obesity and diabetes; tobacco with periodontitis, oral cancer, cardiovascular disease and COPD; alcohol with oral cancer and liver disease; poor diet with nearly all of them. It follows that separate, disease-specific campaigns are wasteful. A policy that reduces free sugar intake — the WHO recommends below 10 per cent of energy intake — improves dental, metabolic and cardiovascular outcomes at once. This is also how dentistry gets a seat at tables where it would otherwise not be invited.
+
+## Inequalities and the social gradient
+
+Oral diseases are not distributed randomly. They follow a **social gradient**: each step down the socioeconomic ladder is associated with worse oral health, not merely a gap between the poorest and everyone else. The gradient runs the whole length of the scale, which means there is no threshold below which the problem is concentrated and above which it disappears.
+
+One consequence deserves attention now, because you will meet it in the exercises. A programme that depends on parents hearing about it, registering, travelling and attending will reach the informed and motivated first. If uptake is higher in advantaged groups — as it usually is — the programme can improve the district's average while **widening** the gap between its best-off and worst-off children. Average improvement is therefore not sufficient evidence of success. A programme has to be evaluated by who it reached, not only by what it achieved.
+
+## Measuring: what an index does and does not tell you
+
+Population comparisons require standardised measurement, which is why WHO survey methodology specifies index ages — 5, 12, 15, 35–44 and 65–74 — and explicit diagnostic criteria. Twelve is the global monitoring age because most permanent teeth have erupted and children are still reliably reachable through schools.
+
+The **DMFT index** counts decayed, missing and filled permanent teeth; the lowercase dmft does the same for the primary dentition. The **CPI** records periodontal status. The WHO's long-standing goal of a DMFT of 3 or below at age twelve remains a reference point.
+
+An index is a summary, and every summary hides something. DMFT records accumulated *experience* of caries, not current activity: a fully restored mouth and an untreated one can score identically. A district where most of the score is **D** has a treatment access problem; a district where most is **F** has had its disease treated but not prevented; a high **M** component points to extraction as the default response, and to the years of neglect behind it. The ratio of F to DMFT — the care index — often tells you more about the service than the DMFT itself. And no component captures pain, function or whether a child is willing to smile.
+
+This is why a mean alone is a weak description. The same mean can arise from disease spread evenly across all children or concentrated in a minority — and those two districts need entirely different programmes.
+
+## Need, demand and the trap of planning from the appointment book
+
+Three things are routinely confused. **Normative need** is what a professional assessment establishes. **Felt need** is what the person recognises and would like addressed. **Demand** is what actually converts into someone walking through a door. The three overlap far less than we assume.
+
+The planning trap follows immediately. A service planned from its own activity data — waiting lists, attendance, procedure counts — is planned around the people who already attend. The children with the most untreated decay are systematically the ones least represented in that data. Services planned this way reliably serve the attenders better and never discover the non-attenders at all. Establishing need therefore requires going out and measuring the population, not analysing the appointment book more carefully.
+
+## The clinician and the dental public health specialist
+
+The two roles differ in almost every operational respect, and in none of their values.
+
+The clinician's patient is a person; the specialist's is a community. The clinician's method is examination, imaging and a treatment plan; the specialist's is a survey, a statistical analysis and a programme. The clinician's tools are instruments, materials and techniques; the specialist's are programmes, regulations and financing arrangements. The clinician succeeds when this patient is healthy, comfortable and satisfied; the specialist succeeds when an indicator moves for a population, including for people who never attended anything.
+
+Their characteristic ethical emphases differ too. Clinical ethics turns most often on autonomy and beneficence — this patient's informed choice, this patient's welfare. Population ethics turns most often on justice and aggregate benefit — who gets the scarce resource, whose claim is stronger, and whether an efficient rule keeps excluding the same group.
+
+The roles are complementary, not competing. The clinician treats the disease in the person present; the specialist works so that fewer people arrive with it. Neither substitutes for the other, and a system with only one of them fails in a predictable way: all clinicians and no public health produces an excellent repair service for a population that keeps breaking.
+
+## You will do this work whether or not you specialise
+
+In the surgery you will give dietary and tobacco advice, detect early oral cancer at a routine examination, apply fluoride varnish and place sealants, take part in school programmes, and submit the data from which national estimates are eventually built. You will also decide — every week, by how you fill your list — how much of your time goes to repairing disease and how much to preventing it.
+
+Those are public health acts performed one patient at a time. The difference between you and the specialist is the scale at which you work and the instruments available to you, not what you are trying to achieve.
+
+Before opening the [student tasks](../learning-tasks/dental-public-health-introduction.qmd), try two things. Explain to yourself, without using the word "prevention", why two districts with an identical mean DMFT may need entirely different programmes. Then state one reason why a dental programme that improves a district's average could still be judged a failure. If you can answer both with a concrete example, you are ready to begin.
