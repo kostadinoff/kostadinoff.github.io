@@ -1,0 +1,95 @@
+---
+title: "Introduction to Medical Ethics: From Principles to Decisions"
+author: "Kostadin Kostadinov"
+date: 2026-09-13
+lang: en
+description: "A 15-minute reading for Class 1: ethics and law, the historical development of medical ethics, ethical theories, the four principles, justice and a practical method for analysing cases."
+categories: [English, Medical Ethics, "Medicine | 2nd year", "2026/2027"]
+title-meta: "Introduction to Medical Ethics: From Principles to Decisions"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-13
+---
+
+[Slides (PDF)](../2026-2027-classes/ethics-01-en.pdf) · [Student tasks](../learning-tasks/medical-ethics-introduction-en.qmd) · [Български](medical-ethics-introduction-bg.qmd)
+
+Allow about **15 minutes** to read and reflect. This reading follows the first presentation in Social Medicine and Medical Ethics, Part I. By the end, you should be able to distinguish an ethical problem from a factual uncertainty, explain the four principles, and defend a decision when reasonable people disagree.
+
+## Why medicine needs ethical reasoning
+
+A patient refuses a treatment that the physician believes could save their life. Both may understand the medical facts, yet disagree about what should happen. The physician gives priority to survival; the patient may give greater weight to religious commitments, independence or an acceptable quality of life. More laboratory results will not necessarily settle the disagreement. It concerns what matters, who should decide, and which responsibilities remain when agreement is impossible.
+
+Ethics provides a disciplined way to examine these questions. It asks for reasons that other people can understand and challenge. A strong ethical argument identifies the relevant facts, makes its values explicit, considers alternatives and explains why one course of action is preferable. Personal conviction matters, but the strength of an argument depends on more than the sincerity or seniority of the person making it.
+
+Ethical reasoning also belongs in ordinary consultations. How we introduce students, discuss uncertainty, protect privacy and respond to a frightened patient expresses our professional values. These small decisions help establish the trust on which difficult decisions later depend. Learning ethics therefore involves both recognising major dilemmas and noticing the moral significance of routine behaviour.
+
+## Ethics, morality, moral conduct and law
+
+**Morality** refers to beliefs and standards about right and wrong. **Ethics** critically examines those standards and the reasons for accepting them. **Moral conduct** is their expression in practice. Someone may sincerely endorse confidentiality but discuss a recognisable patient in a crowded lift. The gap between an accepted norm and actual behaviour is precisely why professional education must address habits as well as knowledge.
+
+**Law** sets formally enforceable requirements. Ethics and law overlap because both regulate behaviour and protect important interests, but they ask partly different questions. A legal question asks what the applicable rules permit or require. An ethical question asks what we ought to do and why. An action may satisfy a minimum legal requirement yet still be insensitive, unfair or poorly explained. Conversely, a clinician's ethical concern does not by itself establish permission to disregard the law.
+
+In a case discussion, keep these questions distinguishable. Identify any legal uncertainty and the need to check the relevant jurisdiction. Then continue the ethical analysis: whose interests are affected, which values conflict, and what options are available? A reference to law should clarify the discussion rather than replace the reasoning. This introductory class develops ethical judgement; its fictional cases are not instructions for handling every legal or clinical situation.
+
+## Medical ethics and bioethics
+
+**Medical ethics** addresses the responsibilities of healthcare professionals and the moral questions arising in care. The clinician–patient relationship is central, but the field also includes relationships with colleagues, professional integrity and responsibilities to society. Describing it as concerned only with individual consultations would overlook questions such as fair waiting lists or commercial influence on prescribing.
+
+**Bioethics** has a broader reach across medicine, research and the life sciences. Genetic engineering, reproductive technologies, transplantation, artificial intelligence and pandemic policy create questions that require contributions from several disciplines. Scientific expertise helps establish what an intervention can do; philosophy, law and the social sciences help examine what should be done, who might benefit, and who may carry the burdens. The fields overlap rather than forming two separate boxes.
+
+Consider an algorithm that prioritises appointments. Its predictive accuracy is a scientific question. Whether its errors fall disproportionately on a disadvantaged group is also an ethical concern. Whether a clinician may share identifiable information with its provider raises further professional and legal questions. The technology changes the setting, but familiar responsibilities concerning harm, consent and fairness remain.
+
+## How the historical perspective helps
+
+The historical slides trace a changing understanding of physicians' responsibilities. In ancient Mesopotamia, the Code of Hammurabi linked surgical outcomes to fees and severe penalties, with distinctions based on social status. The Hippocratic tradition gave enduring prominence to benefiting patients, avoiding harm, confidentiality and professional conduct. Its continuing influence does not mean that every ancient provision expresses today's ethical standards.
+
+Later developments added further emphases. Christian charitable institutions connected care with compassion and assistance to poor people. Byzantine and Islamic medicine preserved and developed medical learning, hospital care and reflection on the physician's conduct. Renaissance humanism and the expansion of medical education strengthened attention to human experience and professional knowledge. These broad periods overlap; they should be understood as a teaching outline, not a single uninterrupted story of progress.
+
+Thomas Percival's *Medical Ethics* appeared in 1803 and influenced the American Medical Association's first ethics code in 1847. Twentieth-century medical atrocities demonstrated how professional authority and scientific ambition could be used against vulnerable people. The Nuremberg Code of 1947 made voluntary consent central to research ethics. This history explains why good intentions and professional status cannot substitute for safeguards.
+
+The presentation then introduces the Declaration of Geneva (1948), the Declaration of Helsinki (1964), the Declaration of Tokyo (1975) and the Oviedo Convention (1997). Their purposes differ: a physician's pledge, research ethics, opposition to participation in torture, and human rights in biomedicine. The dates on the slides identify their origins. Helsinki was revised in 2024; when consulting a document for current practice, use its current text. The [World Medical Association's Declaration of Helsinki](https://www.wma.net/policies-post/wma-declaration-of-helsinki/) remains a reference for research involving human participants.
+
+## Three approaches to a difficult decision
+
+**Utilitarianism** evaluates consequences and seeks the greatest overall benefit. It helps explain why health services compare the benefits that limited resources can produce. Its difficulty is that a gain in total benefit may leave a particular person or disadvantaged group worse off. A defensible argument must therefore make clear whose outcomes count and whether important losses are concealed by the total.
+
+**Deontology** gives central importance to duties and moral constraints. A beneficial outcome does not automatically justify deception or the use of a person without regard for their own purposes. Kant's humanity formulation asks us to respect people as ends in themselves, rather than merely as instruments. This is different from the Golden Rule about treating others as we would wish to be treated. The distinction is explained in the [Stanford Encyclopedia of Philosophy's account of Kant](https://plato.stanford.edu/entries/kant-moral/).
+
+**Principlism** organises analysis around respect for autonomy, beneficence, non-maleficence and justice. It is particularly useful in clinical teaching because the same case can be considered from four connected perspectives. These principles do not form an automatic ranking, and naming them does not resolve a conflict. The work lies in explaining their relevance and deciding how much weight each should receive in the circumstances.
+
+## Autonomy: support a person's own decision
+
+Respect for autonomy means taking a person's values and choices seriously. An informed decision requires understandable information, the ability to consider it and freedom from controlling pressure. A signed form alone cannot establish that these conditions were met. A useful conversation asks the patient to explain, in their own words, what they understand about the options and possible consequences.
+
+Decision-making capacity concerns a particular decision at a particular time. Illness, distress, communication barriers or altered consciousness may affect the process, but a diagnosis, age or disagreement with the clinician does not by itself establish incapacity. Support may include an interpreter, clearer language, time to ask questions or relief of distress. Supporting autonomy can require active help rather than simply leaving someone to decide alone.
+
+The [WMA Declaration of Lisbon](https://www.wma.net/policies-post/wma-declaration-of-lisbon-on-the-rights-of-the-patient/) recognises informed self-determination, including accepting or refusing treatment. In discussion, distinguish refusal after understanding from refusal based on an unresolved misunderstanding. The ethical response starts by clarifying which situation exists. It also asks whether the patient's apparent choice reflects their own wishes or pressure from relatives, staff or circumstances.
+
+## Beneficence and non-maleficence
+
+**Beneficence** is the responsibility to promote the patient's welfare. It requires positive action: offering appropriate care, relieving suffering and helping the patient pursue worthwhile goals. The meaning of benefit is partly clinical and partly personal. A treatment that extends life but imposes substantial burdens may be valued differently by different patients. The clinician contributes knowledge and recommendations; the patient contributes what makes the outcome worthwhile.
+
+**Non-maleficence** concerns avoiding preventable harm and unjustified risks. Harm may be physical, psychological or connected to privacy, dignity and reputation. Because almost every intervention carries some risk, the principle cannot mean that only risk-free care is acceptable. It asks whether the risks are necessary and proportionate, whether safer options exist, and whether avoidable harms have been reduced.
+
+The distinction is useful in practice. Recommending an effective treatment expresses beneficence. Checking contraindications and explaining adverse effects addresses non-maleficence. Both can support the same option, yet conflict with a patient's refusal. A careful analysis states the expected benefit, the relevant harms and the remaining uncertainty rather than using “best interests” as an unexplained conclusion.
+
+## Justice: deciding what fairness requires
+
+**Justice** concerns the distribution of benefits, burdens and opportunities. Equal respect does not always require identical treatment. A person with greater clinical need may reasonably receive earlier care; someone facing a language barrier may need additional communication support. The relevant question is whether the difference in treatment rests on a defensible reason that could be applied consistently to others.
+
+The presentation considers five perspectives. Status-based proportionality describes historical arrangements in which social position shaped access. Social justice emphasises basic goods for everyone. A utilitarian approach seeks the greatest benefit from available resources. A mixed approach guarantees a minimum while allowing some additional goods to reflect contribution. Perfect justice functions as an ideal against which existing arrangements can be criticised and improved. These are perspectives for comparison, not an exhaustive classification.
+
+An allocation exercise makes the tensions visible. If one option benefits more people but another helps those with the greatest need, counting beneficiaries is only the beginning. Ask about severity, likely benefit, alternatives, disadvantage and the fairness of the procedure. Transparent criteria matter because disappointed patients still deserve an explanation. A consistent process can also reveal when an apparently neutral rule repeatedly excludes the same group.
+
+Cost-effectiveness supplies information for such decisions; it does not determine the entire ethical answer. A lower cost per comparable unit of benefit generally indicates greater efficiency, but efficiency alone says nothing about whether access is fair. State which goal is being pursued and which other considerations could legitimately change the decision.
+
+## A three-step method for analysing a case
+
+First, **define the ethical problem** as a question about action. “The patient refuses” describes an event. “How should the team respond when an informed refusal conflicts with its duty to prevent serious harm?” identifies the tension. Separate established facts from missing information. Do not silently assume capacity, urgency, treatment effectiveness or the patient's reasons when the case has not supplied them.
+
+Second, **identify the stakeholders**. The patient, treating clinician and family often matter, but nurses, other patients or an institution may also be affected. For each, identify interests, responsibilities and influence. Having a stake in the outcome does not mean having equal authority to decide. A family member's fear deserves attention without automatically giving them control over an adult patient's choice.
+
+Third, **compare options using the principles**. Put stakeholders in rows and the four principles in columns, writing a concrete consideration in each relevant cell. An empty cell is preferable to inventing a conflict. Then compare realistic alternatives, explain which considerations carry most weight, and describe how harms can still be reduced. The matrix organises reasoning; it is not a scoring system in which the option with the most filled cells wins.
+
+For the transfusion case, begin with the presentation's explicit assumption: an adult patient has decision-making capacity and refuses on religious grounds. Clarify understanding and freedom from pressure, discuss acceptable alternatives with the clinical team, and consider what supportive care remains possible. Explain how the proposed response respects the patient's values while addressing the clinician's concern about death. Finally, identify which change in the facts would require a fresh analysis, such as loss of capacity or new information about the available alternatives.
+
+Before opening the [student tasks](../learning-tasks/medical-ethics-introduction-en.qmd), try to explain the difference between beneficence and non-maleficence without using either word. Then state one reason why a technically correct treatment recommendation may still require ethical discussion. If you can connect your answers to a concrete patient situation, you are ready to begin the case analysis.

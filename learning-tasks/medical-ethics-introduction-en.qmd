@@ -1,0 +1,156 @@
+---
+title: "Medical Ethics, Class 1: Principles and Case Analysis"
+author: "Kostadin Kostadinov"
+date: 2026-09-13
+lang: en
+description: "A 75-minute group exercise after the 15-minute reading: clarify concepts, analyse informed refusal and privacy, allocate a limited resource, and defend an ethical decision. Includes collapsible model answers."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "2026/2027"]
+title-meta: "Medical Ethics, Class 1: Principles and Case Analysis"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-13
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-introduction-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-01-en.pdf) · [Български](medical-ethics-introduction-bg.qmd)
+
+## How to work
+
+Complete the reading first, then work in groups of three or four. The reading takes **15 minutes** and the activities below take **75 minutes**, making a 90-minute session. Assign a facilitator, a recorder and a spokesperson; rotate these roles between cases. Every group completes all activities. Open each model answer only after recording your own reasoning.
+
+The hospitals are real place names used to make the setting familiar. **All people, events, numbers and allocation arrangements below are fictional** and do not describe these hospitals' actual practices. Use only the supplied case information and identify what else you would need to know. No patient contact is required.
+
+**Submit one group sheet** containing the corrected statements, a stakeholder–principle matrix, your recommendations for the three cases, the allocation calculations and the final group rule. Each student also completes the exit ticket. You are assessed on clear reasoning, attention to the facts and a defensible response to disagreement; model answers illustrate an approach rather than a script to memorise.
+
+## Activity 1. Repair the argument — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is misleading and give a brief example.
+
+1. “If an action is lawful, it is necessarily ethical.”
+2. “Medical ethics concerns only the relationship between one doctor and one patient.”
+3. “A patient who rejects our recommendation lacks decision-making capacity.”
+4. “Non-maleficence means that a treatment must carry no risk.”
+5. “Justice means giving everyone exactly the same care.”
+
+Then assign these documents to their main purpose: **Geneva, Helsinki and Tokyo**. The purposes are a physician's pledge, research ethics, and physicians' responsibilities concerning torture. Explain why remembering a declaration's purpose is more useful than remembering its date alone.
+
+::: {.callout-note collapse="true" title="Model answer: concepts and historical documents"}
+
+Legal compliance and ethical justification are related but distinct. An explanation might satisfy a formal requirement while remaining incomprehensible to the patient. Medical ethics also concerns colleagues, professional integrity and fair access to care. Disagreement is not a capacity assessment: first examine understanding, reasoning, communication and freedom from pressure. Non-maleficence requires reducing preventable harm and avoiding unjustified risk, because effective care often carries some risk. Justice permits different care when differences in need provide a defensible reason.
+
+Geneva concerns the physician's professional pledge; Helsinki concerns research involving human participants; Tokyo concerns torture and cruel, inhuman or degrading treatment. Knowing the purpose helps identify which document is relevant to a problem. The [WMA's Tokyo declaration](https://www.wma.net/what-we-do/medical-ethics/declaration-of-tokyo/) provides the reference for the last distinction.
+
+:::
+
+## Activity 2. Informed refusal — 20 minutes
+
+### Case A: a difficult conversation at St George University Hospital, Plovdiv
+
+A 38-year-old patient with severe anaemia is advised to receive a blood transfusion. For this exercise, assume that the patient has decision-making capacity and that there is time for a careful conversation. The physician explains the expected benefit, material risks, available alternatives and the possibility of death without transfusion. The patient explains these points accurately in their own words and refuses on religious grounds. Their partner asks the physician to administer blood after the patient falls asleep. The patient is willing to discuss other treatment options.
+
+1. State the ethical dilemma in one sentence. Identify three established facts and two matters that still need clarification.
+2. Complete the matrix below with **case-specific considerations**, not definitions of the principles.
+3. Compare three responses: transfuse secretly; withdraw all care; respect the informed refusal while discussing acceptable alternatives and continuing appropriate care.
+4. Recommend a response in 100–150 words. Include two sentences you would actually say to the patient or partner.
+5. Change one fact: the patient now cannot explain the likely consequences of refusal. What must be reassessed before relying on the earlier analysis? Do not assume that this change automatically authorises treatment.
+
+::: {.table-responsive}
+
+| Stakeholder | Autonomy | Beneficence | Non-maleficence | Justice |
+|---|---|---|---|---|
+| Patient | | | | |
+| Treating physician | | | | |
+| Partner | | | | |
+
+:::
+
+::: {.callout-note collapse="true" title="Model answer: informed refusal"}
+
+The dilemma is how to respect an informed refusal while addressing the duty to prevent serious harm. Capacity, understanding and refusal are supplied facts. Whether the choice is free from pressure and which alternatives are clinically feasible still require attention; do not invent a safe or equally effective substitute.
+
+For the patient, autonomy concerns the refusal, beneficence concerns care consistent with their goals, non-maleficence includes the risk of death and unwanted intervention, and justice requires the same commitment to care as for other patients. For the physician, the corresponding considerations are respecting the decision, recommending beneficial care, reducing avoidable harm and applying professional standards without religious discrimination. The partner's wish to protect the patient is understandable but does not give the partner authority to replace this patient's choice.
+
+Secret transfusion defeats informed choice and damages trust. Withdrawing all care neglects responsibilities that remain after refusal. The third response is ethically preferable on the stated facts: clarify freedom from pressure, discuss acceptable options and their limitations, record the discussion and continue appropriate care. This reasoning is consistent with the self-determination principle in the [WMA Declaration of Lisbon](https://www.wma.net/policies-post/wma-declaration-of-lisbon-on-the-rights-of-the-patient/).
+
+To the patient: “Please tell us which options you would consider, so we can discuss their possible benefits and limits.” To the partner: “I understand that you are afraid; we need to support the patient without concealing treatment from them.”
+
+If understanding changes, reassess decision-making capacity, communication barriers and potentially reversible causes. Clarify timing, urgency and the relevance of previously expressed wishes. The changed facts require a new assessment and, in real practice, appropriate clinical and legal guidance.
+
+:::
+
+## Activity 3. Privacy during teaching — 15 minutes
+
+### Case B: a teaching ward round at Pirogov Hospital, Sofia
+
+An adult patient agrees that two students may observe an examination. Afterwards, one student photographs a screen displaying the patient's name and diagnosis and posts the image to a 12-person study chat. The student says, “It is a private group, and the picture will help us learn.” The patient agreed to observation but was not asked about photography or sharing.
+
+1. Identify the difference between the permission given and the action taken.
+2. Analyse the conflict using at least three principles. Name one possible harm other than physical injury.
+3. Propose an immediate response and a safer way to achieve the educational purpose. Identify who should be informed under the hospital's procedures.
+4. Would hiding the name after posting fully resolve the problem? Explain in two sentences.
+
+::: {.callout-note collapse="true" title="Model answer: permission has a scope"}
+
+Agreement to student observation does not establish permission for identifiable photography or sharing. Autonomy concerns the patient's control over participation and information. Non-maleficence concerns exposure of private information, distress and loss of trust. Beneficence asks whether the educational purpose can be achieved with less intrusion. Justice asks whether all patients receive the same protection regardless of the educational interest of their condition.
+
+Stop further sharing and promptly inform the supervising clinician. Follow the institution's information-incident procedure, including containment, appropriate removal of shared copies and an accurate record of what happened. The supervisor should arrange any necessary involvement of the responsible privacy staff and communication with the patient. Do not independently promise that all copies have disappeared or conceal the incident by quietly deleting your own message.
+
+Use a fictional teaching example or an appropriately authorised, de-identified teaching resource. Hiding the name after posting cannot recall copies already seen or saved. Other details may also identify the person. A good response addresses the disclosure and the teaching practice that allowed it.
+
+:::
+
+## Activity 4. A limited resource — 15 minutes
+
+### Case C: rehabilitation appointments at St Marina University Hospital, Varna
+
+A teaching exercise gives a rehabilitation service **12 additional appointments**. It must choose among the fictional courses below. Assume that each completed course produces the same specified functional improvement, that the estimates are certain for this exercise, and that partial courses produce no benefit. These simplifying assumptions are for calculation only.
+
+::: {.table-responsive}
+
+| Group | People waiting | Appointments per complete course | Additional information |
+|---|---:|---:|---|
+| A | 6 | 2 | Moderate limitations; no suitable alternative service |
+| B | 3 | 4 | Severe limitations; no suitable alternative service |
+| C | 4 | 3 | Moderate limitations; a suitable nearby alternative is available |
+
+:::
+
+1. Calculate appointments per person benefiting and people benefiting per appointment for A, B and C. Rank the groups by efficiency under the stated assumptions.
+2. If all 12 appointments go to one group, how many people benefit? Give the result for each group.
+3. Propose one mixed allocation using exactly 12 appointments. Show that no partial courses have been counted as completed treatment.
+4. Recommend an allocation. Explain how efficiency, severity and access to alternatives influenced it. State a fair method for selecting between people with otherwise equivalent claims.
+5. Name two missing real-world facts that could change the recommendation. Explain why the arithmetic alone does not settle the ethical question.
+
+::: {.callout-note collapse="true" title="Model answer: calculation and ethical judgement"}
+
+A requires 2 appointments per person benefiting, B requires 4 and C requires 3. The corresponding yields are **0.50**, **0.25** and **0.33** people per appointment. Efficiency ranks A, C, then B. Giving the entire resource to A completes 6 courses; to B, 3 courses; to C, 4 courses.
+
+A mixed allocation can serve **2 people from A and 2 from B**: \(2\times2 + 2\times4 = 12\) appointments, benefiting 4 people. Another feasible allocation serves 4 from A and 1 from B, also using 12 appointments and benefiting 5 people. Both make the trade-off visible: fewer total beneficiaries than serving only A, with some access for people with more severe limitations.
+
+There is no uniquely determined ethical allocation in the supplied facts. Serving only A maximises the stated total; prioritising B gives greater weight to severity. A mixed allocation can balance these concerns. The existence of an alternative for C is relevant only if that alternative is realistically accessible. Apply declared criteria consistently; among equivalent claims, a transparent lottery may be defensible. Explain arrangements for those still waiting.
+
+Actual decisions would require information such as urgency, expected size and probability of benefit, harm from delay and barriers to accessing the alternative. “People benefiting” hides differences in the magnitude of benefit. No monetary cost is supplied, so this is a resource-efficiency exercise, not a full economic evaluation.
+
+:::
+
+## Cross-group discussion — 10 minutes
+
+Each group gives a one-minute defence of its allocation and names the strongest objection to it. Compare the refusal case with the allocation case: why does respecting an individual's treatment choice not automatically settle who receives a scarce service?
+
+Agree on a four-sentence class rule covering **facts to establish, people to involve, reasons to weigh and how to explain the decision**. Include one circumstance in which you would reconsider your conclusion.
+
+::: {.callout-note collapse="true" title="Discussion guide"}
+
+An informed treatment refusal concerns what may be done to an individual. Allocation also concerns other people's claims on a shared resource. Autonomy remains relevant, but it cannot create unlimited access. Strong class rules establish facts, invite affected perspectives, compare feasible options and explain both the chosen action and its remaining disadvantages. Reconsideration should follow a relevant change in facts or a persuasive objection, rather than simply pressure from the most influential speaker.
+
+:::
+
+## Individual exit ticket — 5 minutes
+
+Write three short answers without opening the model answers:
+
+1. Which principle did you initially overlook, and how did it change your reasoning?
+2. State one fact that would change your recommendation in Case A or Case C.
+3. Write one respectful sentence explaining a decision to someone who disagrees with it.
+
+### Feedback criteria
+
+A complete response identifies the real conflict, distinguishes facts from assumptions, applies the principles to the people involved, compares feasible actions and offers a reasoned recommendation. For Case C, it also shows correct arithmetic and states the trade-off. Simply naming four principles, appealing to authority or claiming that one principle always wins does not meet the task.

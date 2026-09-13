@@ -1213,7 +1213,7 @@ font-style: inherit;">kk_setup</span>()</span></code></pre></div></div>
 <pre><code>#&gt; ✅ kkstatfun environment configured:</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt;    - Cores: 7</code></pre>
+<pre><code>#&gt;    - Cores: 11</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>#&gt;    - Backend: cmdstanr</code></pre>

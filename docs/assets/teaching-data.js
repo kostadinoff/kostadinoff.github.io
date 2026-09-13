@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-07-20",
+  updated: "2026-09-13",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -536,18 +536,19 @@ window.TEACHING_DATA = {
               id: "2026-2027",
               label: "2026/2027",
               note: "Practical class handouts and case discussions in medical ethics.",
-              /* Empty years are skipped by the renderer, so this block stays
-                 invisible until the first item below is filled in. Every
-                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
               lectures: [
-                // {
-                //   title: "Class 1 · ...",
-                //   description: "...",
-                //   tags: ["ethics"],
-                //   date: "2026-09-28",
-                //   version: "1.0",
-                //   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-01-en.pdf", kind: "pdf" }]
-                // }
+                {
+                  title: "Class 1 · Introduction to medical ethics",
+                  description: "Key concepts, historical development, ethical theories, the four principles, justice and case analysis.",
+                  tags: ["ethics", "principles", "case analysis"],
+                  date: "2026-09-13",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-01-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-introduction-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-introduction-en.html" }
+                  ]
+                }
               ],
               handouts: []
             }
@@ -674,18 +675,19 @@ window.TEACHING_DATA = {
               id: "2026-2027",
               label: "2026/2027",
               note: "Материали за упражнения и казуси по медицинска етика.",
-              /* Empty years are skipped by the renderer, so this block stays
-                 invisible until the first item below is filled in. Every
-                 2026/2027 PDF lives in the one folder: 2026-2027-classes/. */
               lectures: [
-                // {
-                //   title: "Занятие 1 · ...",
-                //   description: "...",
-                //   tags: ["етика"],
-                //   date: "2026-09-28",
-                //   version: "1.0",
-                //   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-01-bg.pdf", kind: "pdf" }]
-                // }
+                {
+                  title: "Упражнение 1 · Въведение в медицинската етика",
+                  description: "Основни понятия, историческо развитие, етични теории, четирите принципа, справедливост и анализ на казус.",
+                  tags: ["етика", "принципи", "казуси"],
+                  date: "2026-09-13",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-01-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-introduction-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-introduction-bg.html" }
+                  ]
+                }
               ],
               handouts: []
             }

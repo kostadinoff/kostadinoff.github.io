@@ -11,7 +11,7 @@ listing:
   sort: "date desc"
 ---
 
-This section contains learning tasks and assignments for students. These tasks are designed to complement the learning materials and help you apply sociological and public health concepts in practice.
+This section contains learning tasks and assignments for students. These tasks are designed to complement the learning materials and help you apply concepts from medical ethics, social medicine, and public health in practice.
 
 ::: {#tasks-listing}
 :::

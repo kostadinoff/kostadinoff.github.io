@@ -15,7 +15,7 @@ listing:
   image-height: "12em"
 ---
 
-Welcome to the 15-minute learning section. Here you will find quick, digestible lessons on various topics including statistics, social medicine, and public health. Each post is designed to be read or completed in approximately 15 minutes.
+Welcome to the 15-minute learning section. Here you will find quick, digestible lessons on various topics including medical ethics, statistics, social medicine, and public health. Each post is designed to be read or completed in approximately 15 minutes.
 
 ::: {#learning-listing}
 :::
