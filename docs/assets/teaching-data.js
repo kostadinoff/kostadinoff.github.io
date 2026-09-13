@@ -542,7 +542,7 @@ window.TEACHING_DATA = {
                   description: "Key concepts, historical development, ethical theories, the four principles, justice and case analysis.",
                   tags: ["ethics", "principles", "case analysis"],
                   date: "2026-09-13",
-                  version: "1.0",
+                  version: "1.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-01-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-introduction-en.html" },
