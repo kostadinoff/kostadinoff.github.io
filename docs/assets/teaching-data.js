@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-09-13",
+  updated: "2026-09-20",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -548,6 +548,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-introduction-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-introduction-en.html" }
                   ]
+                },
+                {
+                  title: "Class 2 · Informed consent",
+                  description: "Ethical foundations and the five conditions for valid consent, decision-making capacity, the Bulgarian legal framework, refusal, emergencies and documentation.",
+                  tags: ["ethics", "informed consent", "health law"],
+                  date: "2026-09-20",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-02-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-informed-consent-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-informed-consent-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -686,6 +698,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-introduction-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-introduction-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 2 · Информирано съгласие",
+                  description: "Етични основи и петте условия за валидно съгласие, способност за вземане на решение, българската правна рамка, отказ, спешност и документиране.",
+                  tags: ["етика", "информирано съгласие", "здравно законодателство"],
+                  date: "2026-09-20",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-02-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-informed-consent-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-informed-consent-bg.html" }
                   ]
                 }
               ],
@@ -944,6 +968,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-introduction.html" },
                     { label: "Student tasks", href: "learning-tasks/dental-public-health-introduction.html" }
                   ]
+                },
+                {
+                  title: "Class 2 · Informed consent",
+                  description: "Shared with medical ethics: the five conditions for valid consent, decision-making capacity, the Bulgarian legal framework, refusal, emergencies and documentation.",
+                  tags: ["ethics", "informed consent", "health law"],
+                  date: "2026-09-20",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-02-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-informed-consent-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-informed-consent-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -961,6 +997,32 @@ window.TEACHING_DATA = {
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          code: "bg",
+          label: "Български",
+          years: [
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Материали за упражненията по обществено дентално здраве.",
+              lectures: [
+                {
+                  title: "Упражнение 2 · Информирано съгласие",
+                  description: "Общо с медицинската етика: петте условия за валидно съгласие, способност за вземане на решение, българската правна рамка, отказ, спешност и документиране.",
+                  tags: ["етика", "информирано съгласие", "здравно законодателство"],
+                  date: "2026-09-20",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-02-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-informed-consent-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-informed-consent-bg.html" }
+                  ]
+                }
+              ],
+              handouts: []
             }
           ]
         }

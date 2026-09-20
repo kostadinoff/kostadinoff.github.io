@@ -1,0 +1,154 @@
+---
+title: "Medical Ethics, Class 2: Informed Consent in Practice"
+author: "Kostadin Kostadinov"
+date: 2026-09-20
+lang: en
+description: "A 75-minute group exercise after the 15-minute reading: the conditions for valid consent, the adolescent patient, the scope of consent when an unexpected finding appears, refusal with life at risk, and documentation. Includes collapsible model answers."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Medical Ethics, Class 2: Informed Consent in Practice"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-20
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-informed-consent-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-02-en.pdf) · [Български](medical-ethics-informed-consent-bg.qmd)
+
+## How to work
+
+Read the preparatory material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes**, together one 90-minute class. Appoint a discussion lead, a note-taker and a spokesperson, and rotate the roles between cases. Open a model answer only after you have written down your own reasoning.
+
+**All people, events and circumstances are fictional** and describe no actual patient. Work from the information given and state what else you would need to know. These teaching cases develop ethical and legal judgement; they do not replace consultation with the head of the establishment, the medical ethics committee or a lawyer in a real case. The legal rules applied throughout are Bulgarian.
+
+**Submit one group answer** containing the corrected statements, the analysis of the four cases, and the completed documentation template. Each student completes the individual task at the end. Assessment rewards precise use of the conditions for valid consent, correct separation of the legal situations, and attention to missing facts.
+
+## Task 1. True or false — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is wrong and name the rule that applies.
+
+1. "A signed form proves that consent is valid."
+2. "A patient with a psychiatric diagnosis cannot give informed consent."
+3. "Once the patient is under anaesthesia, the team may perform any beneficial additional procedure."
+4. "A husband may sign for his adult wife when she is distressed."
+5. "In an emergency, informed consent no longer applies."
+6. "Consent protects the doctor from liability if a complication occurs."
+
+::: {.callout-note collapse="true" title="Model answer: six corrections"}
+
+A signature records a decision but does not replace information, understanding, capacity, voluntariness and a specific authorisation. A mental disorder and an established inability to express consent are distinct conditions: a diagnosis does not remove decision-making capacity, and the specific regimes in Articles 87(7) and 89(3) of the Health Act have their own requirements.
+
+Consent authorises a defined intervention. Anaesthesia does not turn limited permission into blanket permission. Foreseeable extensions are discussed beforehand, and an unexpected finding is assessed against Article 89(2). Kinship alone creates no authority to sign for an adult; the specific legal basis for representation must be verified.
+
+An emergency does not remove the duty to inform when the patient can decide and there is time to talk. Article 89(2) requires an immediate threat to life, an inability to express consent, and an inability to obtain it in time from a representative where one is legally required. Finally, consent covers the explained risks of a properly performed intervention; it does not waive responsibility for negligence or for departure from professional standards.
+
+:::
+
+## Task 2. The signed form — 15 minutes
+
+### Case A: preparing for elective surgery
+
+A patient is admitted for elective surgery. The treating doctor is busy and asks the nurse to take the form to the patient. The patient speaks little Bulgarian, does not read the text, and signs. Just before anaesthesia the patient says: "I thought this was only a test." After surgery the patient develops a complication listed on the form and complains that the risks were never explained.
+
+1. Which of the five conditions for valid consent are missing? Name them separately.
+2. Who carries the duty to inform, and what may the rest of the team take on?
+3. What must happen before the patient enters the operating theatre?
+4. Is the complaint justified if the complication is listed on the form? Answer in two sentences.
+
+::: {.callout-note collapse="true" title="Model answer: the conversation, not the form"}
+
+Missing are the information from the treating doctor, understanding, and a specific authorisation of this operation. The language barrier was never addressed, and the signature was obtained without explanation. Capacity and voluntariness are not challenged by the facts given, but neither were they checked.
+
+Article 88 of the Health Act places the duty to inform on the treating doctor. The team supports preparation, interpretation, accessibility and recording, but handing over a form does not discharge the doctor's duty. Before surgery the patient needs a conversation with the treating doctor, professional interpretation, a check of understanding by asking them to explain it back, and fresh documentation of consent in the required written form. For an elective procedure, deferral is clinically acceptable.
+
+The complaint is justified in substance: listing a complication does not show that the patient was informed of the risks and alternatives that mattered to them. The form documents a process that did not take place here.
+
+:::
+
+## Task 3. A sixteen-year-old patient — 15 minutes
+
+### Case B: counselling and a proposed procedure
+
+A sixteen-year-old attends without a parent and asks for contraceptive counselling. After the discussion she asks whether an intrauterine device can be inserted the same day. There is no emergency and no identified illness. Later, a preventive test identifies an abnormality that requires treatment.
+
+1. Do the counselling and the procedure follow the same rule? Give the basis for each part.
+2. What can and cannot be promised about confidentiality at the start of the conversation?
+3. How does the position change once the abnormality is identified?
+4. Draft two sentences explaining the limits of confidentiality before counselling begins.
+
+::: {.callout-note collapse="true" title="Model answer: two different activities"}
+
+The counselling falls within the exception in Article 87(3) of the Health Act and Ordinance No. 8 of 2018, which permits specified health counselling, preventive examinations and tests for persons aged sixteen or older without parental consent. Insertion of an intrauterine device is a therapeutic and invasive procedure outside that exception: the general rule in Article 87(2) applies, requiring both the patient's consent and that of a parent or custodian, together with the form requirements of Article 89.
+
+Confidentiality is not absolute. Article 5 of the ordinance requires the doctor to notify the parent or custodian in a timely manner if an abnormality or illness is identified during the covered activities. This is explained in advance, not after the finding. Once the abnormality is identified, notification is a duty rather than a preference, although the manner and timing can be discussed with the patient, including her presence during that conversation.
+
+Example opening sentences: "This conversation is confidential, and counselling does not require your parents' consent." "If I identify an illness or abnormality during the examination, I am required to inform your parent in a timely manner; I will tell you first and we will agree how that happens."
+
+:::
+
+## Task 4. An unexpected finding during surgery — 15 minutes
+
+### Case C: polypectomy and an early lesion
+
+A 40-year-old patient undergoes surgery for nasal polyps after signing informed consent for that operation. During the procedure the team finds a suspicious lesion, and a frozen section shows an early carcinoma. Resecting the nasal turbinate would be curative. There is no bleeding and no immediate threat to life.
+
+1. Does the consent given cover resection of the turbinate? Reason from the scope of the authorisation.
+2. Does Article 89(2) apply? Check each of its conditions in turn.
+3. Can the spouse authorise the extended operation? What do you tell her?
+4. Describe the course of action you propose, and what the patient loses and gains by it.
+5. Change one fact so that your answer changes, and explain why.
+
+::: {.callout-note collapse="true" title="Model answer: the scope of consent"}
+
+The consent covers the polypectomy. Resecting the turbinate is a different intervention in scope and consequence, never discussed and never authorised. Avoiding a second anaesthetic is an organisational convenience, not a basis for extension.
+
+Article 89(2) does not apply, because there is no immediate threat to life. The remaining conditions, inability to express consent and inability to obtain it in time from a legally required representative, are not assessed independently once the first condition fails. Anaesthesia creates a practical inability to talk, but that follows from the planned intervention and is not an emergency.
+
+Kinship gives the spouse no authority to authorise an intervention on an adult patient. It is appropriate to explain what was found, that the decision belongs to the patient, and when the conversation with him will take place. The proposal is to complete the operation within the agreed scope, inform the patient on waking, plan treatment of the lesion, and document the finding and the reason for deferral. The patient loses the convenience of a single anaesthetic and gains the ability to choose his treatment, including a second opinion.
+
+If the lesion caused uncontrollable bleeding with an immediate threat to life, the analysis changes: the team then does what is necessary to address the danger and documents the circumstances.
+
+:::
+
+## Task 5. Refusal with life at risk — 15 minutes
+
+### Case D: refusal of a blood transfusion
+
+An adult patient refuses a proposed blood transfusion because of personal beliefs. He explains the risks clearly, including the possibility of death, and consistently confirms his choice. Bleeding increases and the team identifies a threat to life.
+
+1. Which facts support the conclusion that the refusal is informed and autonomous? Which still need checking?
+2. Distinguish Article 89(2) from Article 90(4). Which one describes this case?
+3. What does Article 91 add to the analysis? What does Article 9 of the Oviedo Convention add?
+4. Describe what the team does in the next hour, including whom you inform and what you record.
+5. Explain why "we always transfuse" and "we never transfuse" are equally inadequate answers.
+
+::: {.callout-note collapse="true" title="Model answer: two different legal situations"}
+
+The refusal appears informed and autonomous because the patient explains the risks in his own words, confirms the choice consistently, and shows no sign of impaired consciousness. Still to be checked are voluntariness in a private conversation, the stability of the decision as his condition changes, which alternatives he would accept, and whether any previously expressed wishes exist.
+
+Article 89(2) addresses a patient who cannot express consent. Here the patient has expressed his will, so the applicable provision is Article 90(4): where treatment is refused and life is threatened, the head of the healthcare establishment may decide on life-saving treatment. The law identifies who takes that decision; it does not convert disagreement into incapacity.
+
+Article 91 is a reminder that care against a patient's will is permissible only in cases provided for by law, so ethical concern and internal rules create no authority. Article 9 of the Oviedo Convention requires previously expressed wishes to be taken into account if the patient can no longer express them.
+
+In the next hour the team continues to assess blood loss, discusses the alternatives the patient accepts, rechecks capacity and voluntariness, informs the head of the establishment, and where possible seeks the medical ethics committee. The record covers the explanations given, the refusal with a signature or attestation by the doctor and a witness, the alternatives provided, and the basis for each subsequent step. Categorical answers fail because they ignore either the patient's autonomy or an express statutory provision; the facts and the applicable basis must be assessed case by case.
+
+:::
+
+## Documentation — 5 minutes
+
+Write a short record for Case D using the four questions from the presentation: what was discussed, what support was provided, what the patient chose, and what happens next. Be specific and avoid the phrase "everything explained".
+
+::: {.callout-note collapse="true" title="Guidance for the record"}
+
+The record names the proposed intervention and the benefits, risks and alternatives explained, together with the consequences of refusal. It notes the conditions provided, including a private conversation, time, a check of understanding and the capacity assessment. It states the patient's choice with its limits, meaning which alternatives he accepts and which he declines. It ends with the date, the participants, the form of attestation used, the people informed, and when the decision will be revisited.
+
+:::
+
+## Individual closing task — 5 minutes
+
+Answer briefly without opening the model answers:
+
+1. Which of the five conditions is most often missing in these cases, and why?
+2. Write the question you will use to check that your patients have understood.
+3. Name one circumstance in which you would seek fresh consent even though you already hold a signature.
+
+### Feedback criteria
+
+A complete answer separates the signature from the process, names the specific legal basis, checks the conditions of the applicable provision in turn, and identifies the missing facts. In Case C it shows that convenience does not create an emergency, and in Case D it distinguishes Article 89(2) from Article 90(4). Listing ethical principles without applying them to the facts does not meet the task.

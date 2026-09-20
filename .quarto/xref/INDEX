@@ -236,5 +236,38 @@
   },
   "blog/markdown-first-research-workflow.qmd": {
     "markdown-first-research-workflow.html": "a0862492"
+  },
+  "15-minute-learning/dental-public-health-introduction.qmd": {
+    "dental-public-health-introduction.html": "7a557e80"
+  },
+  "15-minute-learning/medical-ethics-introduction-bg.qmd": {
+    "medical-ethics-introduction-bg.html": "89d29eb7"
+  },
+  "15-minute-learning/medical-ethics-introduction-en.qmd": {
+    "medical-ethics-introduction-en.html": "5deb47fa"
+  },
+  "15-minute-learning/medical-ethics-informed-consent-bg.qmd": {
+    "medical-ethics-informed-consent-bg.html": "4ff158ee"
+  },
+  "15-minute-learning/medical-ethics-informed-consent-en.qmd": {
+    "medical-ethics-informed-consent-en.html": "1a479f59"
+  },
+  "epinews-posts/2026-W35-36-en.qmd": {
+    "2026-W35-36-en.html": "29d54d70"
+  },
+  "learning-tasks/dental-public-health-introduction.qmd": {
+    "dental-public-health-introduction.html": "9811fe1a"
+  },
+  "learning-tasks/medical-ethics-introduction-bg.qmd": {
+    "medical-ethics-introduction-bg.html": "e2e7bfcf"
+  },
+  "learning-tasks/medical-ethics-introduction-en.qmd": {
+    "medical-ethics-introduction-en.html": "05d2177e"
+  },
+  "learning-tasks/medical-ethics-informed-consent-bg.qmd": {
+    "medical-ethics-informed-consent-bg.html": "b81af1cb"
+  },
+  "learning-tasks/medical-ethics-informed-consent-en.qmd": {
+    "medical-ethics-informed-consent-en.html": "8cf5f42e"
   }
 }

@@ -1,0 +1,81 @@
+---
+title: "Informed Consent: From Conversation to Decision"
+author: "Kostadin Kostadinov"
+date: 2026-09-20
+lang: en
+description: "A 15-minute reading for Class 2: the conditions for valid consent, what must be explained, decision-making capacity, the Bulgarian legal framework, refusal, emergencies and documentation."
+categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Informed Consent: From Conversation to Decision"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-20
+---
+
+[Slides (PDF)](../2026-2027-classes/ethics-02-en.pdf) · [Student tasks](../learning-tasks/medical-ethics-informed-consent-en.qmd) · [Български](medical-ethics-informed-consent-bg.qmd)
+
+Set aside about **15 minutes** to read and think. This reading follows the presentation on the ethical and legal aspects of informed consent. Afterwards you should be able to list the conditions for valid consent, distinguish legal status from decision-making capacity, and identify the legal basis that applies when a patient refuses treatment or cannot consent. The legal rules described here are Bulgarian, because that is where you will practise.
+
+## Why the signature is not the consent
+
+Informed consent is a patient's free and informed authorisation of a specific healthcare intervention, given after receiving and understanding the relevant information. It has a moral basis in respect for the person and for bodily integrity, legal conditions governing who decides about what and through which process, and a clinical process of communication, choice and documentation. A signed form records a decision; it does not create the conditions for one.
+
+The distinction matters in practice. A patient who signs a form without speaking to the treating doctor, without interpretation where language is a barrier, or without the chance to ask questions has signed a document but has not made an informed decision. Conversely, where legislation does not require written form, a conversation can produce entirely valid consent. Quality of consent is therefore judged by the process, not by the presence of a signature.
+
+Consent does not transfer medical responsibility to the patient. It accepts the explained risks of an intervention that was properly offered and competently performed. It does not accept negligence, departure from professional standards, or concealment of error. By the same logic, freedom of choice does not oblige a clinician to perform a requested intervention that lacks medical justification or falls outside their competence.
+
+## Five conditions for a valid decision
+
+Valid consent requires **sufficient information**, **understanding**, **decision-making capacity**, **voluntariness** and a **specific authorisation** of a defined intervention. These conditions are interdependent. Detailed information is worthless if delivered incomprehensibly. Understanding does not produce a valid choice if the patient is threatened or manipulated. Capacity alone does not mean agreement to every intervention.
+
+Consent may be expressed orally, in writing, or through unambiguous conduct in context. Holding out an arm for venepuncture expresses agreement to that procedure; it is not permission for other tests or for use of the sample for unrelated purposes. Silence and absence of resistance do not establish an informed choice.
+
+## What the treating doctor must explain
+
+The Bulgarian Health Act places the duty to inform on the treating doctor. The information covers the diagnosis and nature of the illness, the purpose and nature of the proposed activity, expected outcomes and prognosis, possible risks, complications and burdens, reasonable alternatives, and the likely consequences of refusal. It must be given in good time, in an appropriate amount, and in a comprehensible form.
+
+A "material" risk is not merely a frequent one. A rare complication can be decisive if its consequence is severe or if it affects something central to this particular person. A small risk of permanent impairment of fine motor control carries different weight for a professional pianist than for another patient. A pre-printed list of complications therefore does not relieve the doctor of the duty to highlight what matters for this patient.
+
+The amount of information follows the decision. Measuring blood pressure does not require the conversation that precedes cancer surgery. Information must also be accurate and balanced. Presenting only the benefits of the team's preferred option is a form of manipulation, as is describing one alternative in alarming language and another in reassuring terms. The doctor may and should make a recommendation, but the recommendation must be clearly distinguishable from the factual information.
+
+## Checking understanding, and voluntariness
+
+Providing information does not prove it was understood. A reliable check is to invite the patient to describe, in their own words, what is proposed and what other options exist. This tests the quality of the explanation, not the patient's intelligence. "Do you understand?" is usually insufficient, because people say yes out of embarrassment or reluctance to burden the team.
+
+A decision is voluntary when the patient has a real opportunity to accept or decline. Physical coercion, threats and deception plainly destroy voluntariness. Harder to recognise are the suggestion that refusal will anger the doctor, the presence of a dominating relative, or a signature obtained once the patient is already prepared for theatre. Persuasion is not coercion: a doctor may argue firmly for a recommendation. The line is crossed when professional authority removes the patient's choice. The useful question is whether, after the conversation, the person is better able to decide for themselves or merely more likely to comply.
+
+## Legal status and decision-making capacity
+
+**Legal capacity** is a status determined by age and by the applicable rules on representation. **Decision-making capacity** is a clinical assessment for this intervention at this moment. An adult patient is presumed able to decide unless a specific reason for doubt arises. A diagnosis, advanced age, limited education or disagreement with the clinician does not by itself establish incapacity.
+
+The clinical assessment asks whether the person can understand the relevant information, retain it long enough to decide, use and weigh the consequences for themselves, and communicate a choice by speech, writing, gesture or an appropriate aid. This framework comes from UK professional guidance; it is a clinical reference, not a freestanding Bulgarian legal test. Capacity is decision-specific and can change: a patient with delirium may be temporarily unable to decide and regain capacity once the cause is treated.
+
+Where capacity is doubtful, the first task is to remove remediable obstacles. Arrange an interpreter, glasses or a hearing aid, control pain, identify and treat reversible causes of confusion, choose a better moment, and defer an elective intervention where this is clinically safe. Kinship alone does not create authority to sign for an adult; the specific legal basis for representation must be verified. Relatives remain a valuable source of information about the patient's values.
+
+## The Bulgarian legal framework
+
+Identify the kind of rule you are applying. The Health Act, Articles 87 to 92, governs consent, information, form and refusal. The Oviedo Convention establishes rights and safeguards for healthcare interventions. World Medical Association declarations state professional ethical principles. UK guidance is a useful clinical reference but not a source of Bulgarian law, so doctrines such as Gillick competence and American advance-directive instruments are not imported automatically.
+
+For an adult patient, the starting point is the patient's own consent. Under limited interdiction, both the patient's consent and that of the appointed curator are required; where a person lacks legal capacity, consent is given by the legal representative under Article 87(4). A mental disorder and an established inability to express consent are distinct conditions: Article 87(7) refers to persons designated through Article 162(3), and interventions under Article 89(1) also engage the specific procedure in paragraph 3, which involves the medical ethics committee. A diagnosis alone does not authorise treatment against a person's will.
+
+Age changes the general rule. For a child under 14, a parent or guardian gives consent while the child is involved according to maturity. From 14 until 18, both the young person's consent and that of a parent or custodian are required. From age 16, Ordinance No. 8 of 2018 permits specified health counselling, preventive examinations and tests without parental consent. Its scope is listed in the ordinance and includes counselling on behavioural risk and on mental, sexual, reproductive and dental health, specified infection tests, preventive blood and urine tests, and pregnancy testing. The exception does not extend to treatment generally. Article 5 of the ordinance requires the doctor to notify the parent or custodian in a timely manner if an abnormality or illness is identified during those activities, which is why the limits of confidentiality must be explained in advance.
+
+Written form is required for surgery, general anaesthesia, and invasive or other diagnostic and therapeutic methods carrying increased risk to life or health or causing temporary alteration of consciousness. Under Article 89(1) both the information and the consent are in writing. The conversation remains necessary even where the law requires a document.
+
+Consent authorises a defined intervention. Foreseeable extensions are discussed in advance, a new elective intervention requires a new discussion and the required form, and anaesthesia does not convert limited consent into blanket permission. The right to information also includes a limited right not to know: Article 92(2) and (3) allow a patient to decline specified information, with a written record. Written authority for a relative to receive information is not general authority to decide for the patient.
+
+## Refusal, emergencies and statutory exceptions
+
+Informed refusal requires the same conditions as consent. The doctor clarifies understanding, capacity, voluntariness and reasons, explains the consequences, offers acceptable alternatives, and records the decision. Refusal is recorded in the medical documentation with the person's signature; where they cannot or will not sign, the treating doctor and a witness attest it. A refusal may be withdrawn at any time, and the new decision and subsequent actions are recorded. Refusing one procedure is not refusing all care, and it is never a reason to withdraw treatment that remains owed.
+
+Article 89(2) governs immediate danger: the patient's life is immediately threatened, their physical or mental condition prevents expression of informed consent, and consent cannot be obtained in time from a representative where the law requires one. The exception concerns Article 89(1) interventions and extends only to what the emergency requires. A busy schedule and convenience are not emergencies.
+
+Article 90(4) governs a different situation: treatment has been refused and life is threatened, and the head of the healthcare establishment may decide on life-saving treatment. The provision identifies who takes that decision. It does not reclassify disagreement as incapacity, and it does not authorise every clinician to override a refusal. Article 91 permits care against a patient's will only in cases provided for by law: ethical concern and hospital rules do not create a legal basis. Article 9 of the Oviedo Convention requires previously expressed wishes to be taken into account when the patient can no longer express them, after checking their content, applicability and reliability.
+
+## The record and shared decision-making
+
+A good record shows what was discussed, namely the intervention, benefits, risks, alternatives and consequences of refusal; what support was provided, such as interpretation, aids, time and a capacity assessment; what the patient chose, including scope and limits; and what happens next, with the date, participants, required form and the point of reassessment. The formula "everything explained" without specifics does not meet this standard.
+
+Consent is confirmed again when the intervention or its scope changes, when significant new information about risks or alternatives emerges, when the condition, capacity or preferences change, and when the patient adds limits or withdraws consent. A previous signature does not remove the need to establish current wishes.
+
+Finally, distinguish clinical care from research. Treatment aims to care for this patient; research aims to generate knowledge and requires separate information, free choice and ethics oversight. Declining to participate must not worsen standard care, and the emergency exception for treatment is not permission to enrol someone in a study. Shared decision-making describes how the choice is reached: the clinician explains the options, the evidence and the uncertainty, and the patient expresses goals, values and the treatment burden they find acceptable.
+
+Before opening the [student tasks](../learning-tasks/medical-ethics-informed-consent-en.qmd), try to state in one sentence the difference between Article 89(2) and Article 90(4). If you can say who decides in each situation and what must be documented, you are ready for the cases.

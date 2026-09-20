@@ -10,7 +10,155 @@
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 12 Sep 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Информирано съгласие: от разговора до решението</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-02-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-informed-consent-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-informed-consent-en.html">English</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене и обмисляне. Материалът следва презентацията „Информирано съгласие — етични и правни аспекти“. След прочита трябва да можете да изброявате условията за валидно съгласие, да разграничавате дееспособността от способността за вземане на решение и да посочвате приложимото правно основание при отказ или спешност.</p>
+<section id="защо-подписът-не-е-съгласието" class="level2">
+<h2 class="anchored" data-anchor-id="защо-подписът-не-е-съгласието">Защо подписът не е съгласието</h2>
+<p>Информираното съгласие е свободно и осъзнато разрешение на пациента за конкретна медицинска намеса, дадено след получаване и разбиране на необходимата информация. То има морално основание в уважението към личността и телесната неприкосновеност, правни условия за това кой, за какво и по какъв ред решава, и клиничен процес на общуване, избор и документиране. Подписаният формуляр удостоверява решение; той не създава условията за него.</p>
+<p>Тази разлика има практическо значение. Пациент, който подписва бланка, без да е разговарял с лекуващия лекар, без превод при езикова бариера или без възможност да зададе въпроси, е подписал документ, но не е взел информирано решение. Обратно, в случаите, в които законът не изисква писмена форма, устният разговор може да доведе до напълно валидно съгласие. Затова качеството на съгласието се преценява по процеса, а не по наличието на подпис.</p>
+<p>Съгласието не прехвърля медицинската отговорност върху пациента. С него човекът приема обяснения риск на правилно предложена и компетентно извършена дейност. Той не се съгласява с небрежност, с отклонение от професионалния стандарт или с прикриване на грешка. По същата логика правото на избор не задължава лекаря да извърши поискана намеса, която няма медицинско основание или е извън неговата компетентност.</p>
+</section>
+<section id="петте-условия-за-валидно-решение" class="level2">
+<h2 class="anchored" data-anchor-id="петте-условия-за-валидно-решение">Петте условия за валидно решение</h2>
+<p>Валидното съгласие изисква <strong>достатъчна информация</strong>, <strong>разбиране</strong>, <strong>способност за вземане на решение</strong>, <strong>доброволност</strong> и <strong>конкретно волеизявление</strong> за определена намеса. Тези условия са взаимно зависими. Подробната информация губи стойност, ако е поднесена неразбираемо. Разбирането не води до валиден избор, ако пациентът е заплашен или манипулиран. Способността сама по себе си не означава съгласие за всяка дейност.</p>
+<p>Съгласието може да бъде изразено изрично устно, изрично писмено или чрез недвусмислено поведение в конкретен контекст. Протягането на ръка за вземане на кръв изразява съгласие за тази манипулация, но не е разрешение за други изследвания или за използване на пробата за несвързани цели. Мълчанието и липсата на съпротива не доказват информиран избор.</p>
+</section>
+<section id="какво-трябва-да-обясни-лекуващият-лекар" class="level2">
+<h2 class="anchored" data-anchor-id="какво-трябва-да-обясни-лекуващият-лекар">Какво трябва да обясни лекуващият лекар</h2>
+<p>Законът за здравето възлага задължението за информиране на лекуващия лекар. Информацията обхваща диагнозата и характера на заболяването, целите и естеството на предложената дейност, очакваните резултати и прогнозата, възможните рискове, усложнения и неудобства, разумните алтернативи и вероятните последици при отказ. Тя се предоставя своевременно, в подходящ обем и в разбираема форма.</p>
+<p>„Съществен“ риск не означава само често срещан. Рядко усложнение може да бъде решаващо, ако последицата му е тежка или ако засяга нещо особено важно за конкретния човек. Малкият риск от трайно нарушение на фината моторика има различна тежест за професионален пианист и за друг пациент. Затова предварително отпечатаното изброяване на усложнения не освобождава лекаря от задължението да открои значимите за този пациент.</p>
+<p>Обемът се съобразява с решението. Измерването на артериално налягане не изисква разговора, който предхожда онкологична операция. Информацията трябва да бъде вярна и балансирана: представянето само на ползите от предпочитаното от екипа лечение е форма на манипулация, както и описването на една алтернатива с плашещ, а на друга — с успокояващ език. Лекарят има право и задължение да препоръча, но препоръката трябва ясно да се различава от фактическата информация.</p>
+</section>
+<section id="проверка-на-разбирането-и-доброволност" class="level2">
+<h2 class="anchored" data-anchor-id="проверка-на-разбирането-и-доброволност">Проверка на разбирането и доброволност</h2>
+<p>Предоставянето на информация не доказва, че тя е разбрана. Надежден начин за проверка е пациентът да бъде поканен да обясни със свои думи какво предстои и какви други възможности има. Това не е изпит за пациента, а проверка на качеството на обяснението. Въпросът „Разбрахте ли?“ обикновено е недостатъчен, защото човек може да отговори утвърдително от притеснение или от нежелание да затруднява екипа.</p>
+<p>Решението е доброволно, когато пациентът има реална възможност да приеме или откаже. Физическата принуда, заплахата и измамата очевидно разрушават доброволността. По-трудни за разпознаване са внушението, че отказът ще разгневи лекаря, присъствието на доминиращ близък или подписът в момент, когато пациентът вече е подготвен за операция. Убеждаването не е принуда: лекарят може настойчиво да обясни основанията си. Границата се преминава, когато професионалният авторитет лишава пациента от избор. Полезният въпрос е дали след разговора човекът е по-способен да реши сам, или просто е по-склонен да се подчини.</p>
+</section>
+<section id="дееспособност-и-способност-за-вземане-на-решение" class="level2">
+<h2 class="anchored" data-anchor-id="дееспособност-и-способност-за-вземане-на-решение">Дееспособност и способност за вземане на решение</h2>
+<p><strong>Дееспособността</strong> е правен статус, определен от възрастта и от приложимите правила за представителство. <strong>Способността за вземане на решение</strong> е клинична преценка за конкретната намеса в конкретния момент. Пълнолетният пациент се приема за способен, докато не възникне конкретно основание за съмнение. Диагнозата, възрастта, ниското образование или несъгласието с лекаря не доказват сами по себе си липса на способност.</p>
+<p>Клиничната оценка изследва дали човекът разбира относимата информация, дали я задържа достатъчно дълго, за да реши, дали може да съпостави последиците за себе си и дали изразява избор — чрез реч, писане, жестове или помощно средство. Тази схема идва от британски професионални насоки и е клиничен ориентир, а не самостоятелен български правен тест. Способността е специфична за решението и може да се променя: пациент с делириум може временно да не е способен да реши и да възстанови способността си след овладяване на причината.</p>
+<p>При съмнение първата задача е да се отстранят преодолимите пречки. Осигурете преводач, очила или слухов апарат, овладейте болката, разпознайте и лекувайте обратимите причини за объркване, изберете подходящ момент и отложете плановата намеса, когато това е клинично безопасно. Родството само по себе си не създава общо право да се подписва вместо пълнолетен пациент; проверява се конкретното законово основание за представителство. Близките остават ценен източник на сведения за ценностите на пациента.</p>
+</section>
+<section id="българската-правна-рамка" class="level2">
+<h2 class="anchored" data-anchor-id="българската-правна-рамка">Българската правна рамка</h2>
+<p>Различавайте вида на правилото. Законът за здравето, чл. 87–92, урежда съгласието, информацията, формата и отказа. Конвенцията от Овиедо установява права и защити при медицинска намеса. Декларациите на Световната медицинска асоциация формулират професионални етични принципи. Британските насоки са полезен клиничен ориентир, но не са източник на българско право, затова чуждестранни институти като Gillick или американските пълномощни не се пренасят автоматично.</p>
+<p>При пълнолетния пациент отправната точка е собственото му съгласие. При ограничено запрещение се изискват неговото съгласие и съгласието на попечителя; при недееспособност съгласието се изразява от законния представител по чл. 87, ал. 4. Психичното разстройство и установената неспособност за изразяване на съгласие са различни предпоставки: чл. 87, ал. 7 препраща към лицата, определени по реда на чл. 162, ал. 3, а за дейностите по чл. 89, ал. 1 се прилага и специалният ред по ал. 3. Диагнозата сама по себе си не разрешава лечение против волята.</p>
+<p>Възрастта променя общото правило. При дете под 14 години съгласието се изразява от родител или настойник, а самото дете се включва според зрелостта си. От 14 до навършване на 18 години се изискват както съгласието на пациента, така и съгласието на родител или попечител. За навършилите 16 години Наредба № 8 от 2018 г. допуска определени здравни консултации, профилактични прегледи и изследвания без съгласие на родителя. Обхватът е изброен в наредбата и включва консултиране по поведенчески риск, психично, сексуално, репродуктивно и дентално здраве, посочени изследвания за инфекции, профилактични изследвания на кръв и урина и тест за бременност. Това изключение не обхваща всяко лечение. Чл. 5 от наредбата изисква лекарят своевременно да уведоми родителя или попечителя, когато в хода на тези дейности установи отклонение от здравословното състояние или заболяване, затова ограниченията на поверителността трябва да се обяснят предварително.</p>
+<p>Писмена форма се изисква при хирургични интервенции, обща анестезия, инвазивни и други диагностични или терапевтични методи с повишен риск за живота и здравето или с временна промяна в съзнанието. По чл. 89, ал. 1 писмени са както информацията, така и съгласието. Устният разговор остава необходим и когато законът изисква документ.</p>
+<p>Съгласието е за определена намеса. Предвидимите разширения се обсъждат предварително, нова планова дейност изисква ново обсъждане и приложимата форма, а анестезията не превръща ограниченото съгласие в общо разрешение. Правото на информация включва и ограничено право да не знаеш: чл. 92, ал. 2–3 допуска пациентът да откаже определена информация, като това се отразява писмено. Писменото упълномощаване на близък да получава информация не е общо право да решава вместо пациента.</p>
+</section>
+<section id="отказ-спешност-и-законови-изключения" class="level2">
+<h2 class="anchored" data-anchor-id="отказ-спешност-и-законови-изключения">Отказ, спешност и законови изключения</h2>
+<p>Информираният отказ изисква същите условия като съгласието. Лекарят изяснява разбирането, способността, доброволността и причините, обяснява последствията, предлага приемливи алтернативи и документира решението. Отказът се удостоверява в медицинската документация с подписа на лицето, а когато то не може или не желае да го подпише — от лекуващия лекар и свидетел. Пациентът може да оттегли отказа по всяко време; новото решение и последващите действия се отразяват. Отказът от една процедура не е отказ от всяка помощ и не е основание грижата да бъде прекратена.</p>
+<p>Чл. 89, ал. 2 урежда непосредствената опасност: животът на пациента е непосредствено застрашен, физическото или психичното му състояние не позволява изразяване на информирано съгласие и не може своевременно да се получи съгласие от представител, когато законът го изисква. Изключението се отнася до дейностите по ал. 1 и до необходимото за преодоляване на опасността. Натовареният график и удобството не са спешност.</p>
+<p>Чл. 90, ал. 4 урежда друга хипотеза: има изразен отказ и животът е застрашен, при което ръководителят на лечебното заведение може да вземе решение за животоспасяващо лечение. Законът посочва кой взема това решение. Разпоредбата не превръща всяко несъгласие в неспособност и не дава на всеки лекар право да пренебрегне отказа. Чл. 91 допуска медицинска помощ против волята на пациента само в случаи, определени със закон: етичната загриженост и болничният правилник не създават сами правно основание. Чл. 9 от Конвенцията от Овиедо изисква предварително изразените желания да бъдат взети предвид, когато пациентът не може да изрази волята си, като се проверяват тяхното съдържание, приложимост и надеждност.</p>
+</section>
+<section id="записът-и-споделеното-решение" class="level2">
+<h2 class="anchored" data-anchor-id="записът-и-споделеното-решение">Записът и споделеното решение</h2>
+<p>Добрият запис показва какво е обсъдено — намеса, ползи, рискове, алтернативи и последици от отказ; каква подкрепа е осигурена — превод, помощни средства, време и оценка на способността; какво е избрал пациентът, включително обхват и ограничения; и какво следва — дата, участници, необходима форма и повторна проверка. Шаблонният израз „всичко обяснено“ без конкретика не изпълнява тази задача.</p>
+<p>Съгласието се потвърждава наново, когато се променят намесата или нейният обхват, когато се появи нова значима информация за риска или алтернативите, когато се променят състоянието, способността или предпочитанията, и когато пациентът постави ограничения или оттегли съгласието си. Предходният подпис не отменя проверката на настоящата воля.</p>
+<p>Накрая разграничавайте клиничната помощ от научното изследване. Лечението цели грижа за конкретния пациент; изследването цели създаване на знание и изисква отделна информация, свободен избор и етичен надзор. Отказът от участие не трябва да влошава стандартната грижа, а спешното изключение за лечение не е разрешение за включване в проучване. Споделеното вземане на решение описва начина, по който се достига до избора: лекарят обяснява възможностите, доказателствата и несигурността, а пациентът изразява целите, ценностите и приемливата за него тежест на лечението.</p>
+<p>Преди да отворите <a href="../learning-tasks/medical-ethics-informed-consent-bg.html">задачите за студенти</a>, опитайте да обясните с една фраза разликата между чл. 89, ал. 2 и чл. 90, ал. 4. Ако можете да посочите кой решава във всяка от двете хипотези и какво трябва да бъде документирано, сте готови за казусите.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-bg.html</guid>
+  <pubDate>Sat, 19 Sep 2026 21:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Informed Consent: From Conversation to Decision</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-02-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-informed-consent-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-informed-consent-bg.html">Български</a></p>
+<p>Set aside about <strong>15 minutes</strong> to read and think. This reading follows the presentation on the ethical and legal aspects of informed consent. Afterwards you should be able to list the conditions for valid consent, distinguish legal status from decision-making capacity, and identify the legal basis that applies when a patient refuses treatment or cannot consent. The legal rules described here are Bulgarian, because that is where you will practise.</p>
+<section id="why-the-signature-is-not-the-consent" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-signature-is-not-the-consent">Why the signature is not the consent</h2>
+<p>Informed consent is a patient’s free and informed authorisation of a specific healthcare intervention, given after receiving and understanding the relevant information. It has a moral basis in respect for the person and for bodily integrity, legal conditions governing who decides about what and through which process, and a clinical process of communication, choice and documentation. A signed form records a decision; it does not create the conditions for one.</p>
+<p>The distinction matters in practice. A patient who signs a form without speaking to the treating doctor, without interpretation where language is a barrier, or without the chance to ask questions has signed a document but has not made an informed decision. Conversely, where legislation does not require written form, a conversation can produce entirely valid consent. Quality of consent is therefore judged by the process, not by the presence of a signature.</p>
+<p>Consent does not transfer medical responsibility to the patient. It accepts the explained risks of an intervention that was properly offered and competently performed. It does not accept negligence, departure from professional standards, or concealment of error. By the same logic, freedom of choice does not oblige a clinician to perform a requested intervention that lacks medical justification or falls outside their competence.</p>
+</section>
+<section id="five-conditions-for-a-valid-decision" class="level2">
+<h2 class="anchored" data-anchor-id="five-conditions-for-a-valid-decision">Five conditions for a valid decision</h2>
+<p>Valid consent requires <strong>sufficient information</strong>, <strong>understanding</strong>, <strong>decision-making capacity</strong>, <strong>voluntariness</strong> and a <strong>specific authorisation</strong> of a defined intervention. These conditions are interdependent. Detailed information is worthless if delivered incomprehensibly. Understanding does not produce a valid choice if the patient is threatened or manipulated. Capacity alone does not mean agreement to every intervention.</p>
+<p>Consent may be expressed orally, in writing, or through unambiguous conduct in context. Holding out an arm for venepuncture expresses agreement to that procedure; it is not permission for other tests or for use of the sample for unrelated purposes. Silence and absence of resistance do not establish an informed choice.</p>
+</section>
+<section id="what-the-treating-doctor-must-explain" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-treating-doctor-must-explain">What the treating doctor must explain</h2>
+<p>The Bulgarian Health Act places the duty to inform on the treating doctor. The information covers the diagnosis and nature of the illness, the purpose and nature of the proposed activity, expected outcomes and prognosis, possible risks, complications and burdens, reasonable alternatives, and the likely consequences of refusal. It must be given in good time, in an appropriate amount, and in a comprehensible form.</p>
+<p>A “material” risk is not merely a frequent one. A rare complication can be decisive if its consequence is severe or if it affects something central to this particular person. A small risk of permanent impairment of fine motor control carries different weight for a professional pianist than for another patient. A pre-printed list of complications therefore does not relieve the doctor of the duty to highlight what matters for this patient.</p>
+<p>The amount of information follows the decision. Measuring blood pressure does not require the conversation that precedes cancer surgery. Information must also be accurate and balanced. Presenting only the benefits of the team’s preferred option is a form of manipulation, as is describing one alternative in alarming language and another in reassuring terms. The doctor may and should make a recommendation, but the recommendation must be clearly distinguishable from the factual information.</p>
+</section>
+<section id="checking-understanding-and-voluntariness" class="level2">
+<h2 class="anchored" data-anchor-id="checking-understanding-and-voluntariness">Checking understanding, and voluntariness</h2>
+<p>Providing information does not prove it was understood. A reliable check is to invite the patient to describe, in their own words, what is proposed and what other options exist. This tests the quality of the explanation, not the patient’s intelligence. “Do you understand?” is usually insufficient, because people say yes out of embarrassment or reluctance to burden the team.</p>
+<p>A decision is voluntary when the patient has a real opportunity to accept or decline. Physical coercion, threats and deception plainly destroy voluntariness. Harder to recognise are the suggestion that refusal will anger the doctor, the presence of a dominating relative, or a signature obtained once the patient is already prepared for theatre. Persuasion is not coercion: a doctor may argue firmly for a recommendation. The line is crossed when professional authority removes the patient’s choice. The useful question is whether, after the conversation, the person is better able to decide for themselves or merely more likely to comply.</p>
+</section>
+<section id="legal-status-and-decision-making-capacity" class="level2">
+<h2 class="anchored" data-anchor-id="legal-status-and-decision-making-capacity">Legal status and decision-making capacity</h2>
+<p><strong>Legal capacity</strong> is a status determined by age and by the applicable rules on representation. <strong>Decision-making capacity</strong> is a clinical assessment for this intervention at this moment. An adult patient is presumed able to decide unless a specific reason for doubt arises. A diagnosis, advanced age, limited education or disagreement with the clinician does not by itself establish incapacity.</p>
+<p>The clinical assessment asks whether the person can understand the relevant information, retain it long enough to decide, use and weigh the consequences for themselves, and communicate a choice by speech, writing, gesture or an appropriate aid. This framework comes from UK professional guidance; it is a clinical reference, not a freestanding Bulgarian legal test. Capacity is decision-specific and can change: a patient with delirium may be temporarily unable to decide and regain capacity once the cause is treated.</p>
+<p>Where capacity is doubtful, the first task is to remove remediable obstacles. Arrange an interpreter, glasses or a hearing aid, control pain, identify and treat reversible causes of confusion, choose a better moment, and defer an elective intervention where this is clinically safe. Kinship alone does not create authority to sign for an adult; the specific legal basis for representation must be verified. Relatives remain a valuable source of information about the patient’s values.</p>
+</section>
+<section id="the-bulgarian-legal-framework" class="level2">
+<h2 class="anchored" data-anchor-id="the-bulgarian-legal-framework">The Bulgarian legal framework</h2>
+<p>Identify the kind of rule you are applying. The Health Act, Articles 87 to 92, governs consent, information, form and refusal. The Oviedo Convention establishes rights and safeguards for healthcare interventions. World Medical Association declarations state professional ethical principles. UK guidance is a useful clinical reference but not a source of Bulgarian law, so doctrines such as Gillick competence and American advance-directive instruments are not imported automatically.</p>
+<p>For an adult patient, the starting point is the patient’s own consent. Under limited interdiction, both the patient’s consent and that of the appointed curator are required; where a person lacks legal capacity, consent is given by the legal representative under Article 87(4). A mental disorder and an established inability to express consent are distinct conditions: Article 87(7) refers to persons designated through Article 162(3), and interventions under Article 89(1) also engage the specific procedure in paragraph 3, which involves the medical ethics committee. A diagnosis alone does not authorise treatment against a person’s will.</p>
+<p>Age changes the general rule. For a child under 14, a parent or guardian gives consent while the child is involved according to maturity. From 14 until 18, both the young person’s consent and that of a parent or custodian are required. From age 16, Ordinance No.&nbsp;8 of 2018 permits specified health counselling, preventive examinations and tests without parental consent. Its scope is listed in the ordinance and includes counselling on behavioural risk and on mental, sexual, reproductive and dental health, specified infection tests, preventive blood and urine tests, and pregnancy testing. The exception does not extend to treatment generally. Article 5 of the ordinance requires the doctor to notify the parent or custodian in a timely manner if an abnormality or illness is identified during those activities, which is why the limits of confidentiality must be explained in advance.</p>
+<p>Written form is required for surgery, general anaesthesia, and invasive or other diagnostic and therapeutic methods carrying increased risk to life or health or causing temporary alteration of consciousness. Under Article 89(1) both the information and the consent are in writing. The conversation remains necessary even where the law requires a document.</p>
+<p>Consent authorises a defined intervention. Foreseeable extensions are discussed in advance, a new elective intervention requires a new discussion and the required form, and anaesthesia does not convert limited consent into blanket permission. The right to information also includes a limited right not to know: Article 92(2) and (3) allow a patient to decline specified information, with a written record. Written authority for a relative to receive information is not general authority to decide for the patient.</p>
+</section>
+<section id="refusal-emergencies-and-statutory-exceptions" class="level2">
+<h2 class="anchored" data-anchor-id="refusal-emergencies-and-statutory-exceptions">Refusal, emergencies and statutory exceptions</h2>
+<p>Informed refusal requires the same conditions as consent. The doctor clarifies understanding, capacity, voluntariness and reasons, explains the consequences, offers acceptable alternatives, and records the decision. Refusal is recorded in the medical documentation with the person’s signature; where they cannot or will not sign, the treating doctor and a witness attest it. A refusal may be withdrawn at any time, and the new decision and subsequent actions are recorded. Refusing one procedure is not refusing all care, and it is never a reason to withdraw treatment that remains owed.</p>
+<p>Article 89(2) governs immediate danger: the patient’s life is immediately threatened, their physical or mental condition prevents expression of informed consent, and consent cannot be obtained in time from a representative where the law requires one. The exception concerns Article 89(1) interventions and extends only to what the emergency requires. A busy schedule and convenience are not emergencies.</p>
+<p>Article 90(4) governs a different situation: treatment has been refused and life is threatened, and the head of the healthcare establishment may decide on life-saving treatment. The provision identifies who takes that decision. It does not reclassify disagreement as incapacity, and it does not authorise every clinician to override a refusal. Article 91 permits care against a patient’s will only in cases provided for by law: ethical concern and hospital rules do not create a legal basis. Article 9 of the Oviedo Convention requires previously expressed wishes to be taken into account when the patient can no longer express them, after checking their content, applicability and reliability.</p>
+</section>
+<section id="the-record-and-shared-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="the-record-and-shared-decision-making">The record and shared decision-making</h2>
+<p>A good record shows what was discussed, namely the intervention, benefits, risks, alternatives and consequences of refusal; what support was provided, such as interpretation, aids, time and a capacity assessment; what the patient chose, including scope and limits; and what happens next, with the date, participants, required form and the point of reassessment. The formula “everything explained” without specifics does not meet this standard.</p>
+<p>Consent is confirmed again when the intervention or its scope changes, when significant new information about risks or alternatives emerges, when the condition, capacity or preferences change, and when the patient adds limits or withdraws consent. A previous signature does not remove the need to establish current wishes.</p>
+<p>Finally, distinguish clinical care from research. Treatment aims to care for this patient; research aims to generate knowledge and requires separate information, free choice and ethics oversight. Declining to participate must not worsen standard care, and the emergency exception for treatment is not permission to enrol someone in a study. Shared decision-making describes how the choice is reached: the clinician explains the options, the evidence and the uncertainty, and the patient expresses goals, values and the treatment burden they find acceptable.</p>
+<p>Before opening the <a href="../learning-tasks/medical-ethics-informed-consent-en.html">student tasks</a>, try to state in one sentence the difference between Article 89(2) and Article 90(4). If you can say who decides in each situation and what must be documented, you are ready for the cases.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-en.html</guid>
+  <pubDate>Sat, 19 Sep 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Dental Public Health: When the Community Is the Patient</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>

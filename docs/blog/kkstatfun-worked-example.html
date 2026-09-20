@@ -436,7 +436,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">August 25, 2026</p>
+        <p class="date-modified">September 12, 2026</p>
       </div>
     </div>
       
@@ -505,10 +505,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kkstatfun)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_setup</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt; &lt;U+2705&gt; kkstatfun environment configured:</code></pre>
+<pre><code>#&gt; ✅ kkstatfun environment configured:</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt;    - Cores: 11</code></pre>
+<pre><code>#&gt;    - Cores: 15</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>#&gt;    - Backend: cmdstanr</code></pre>
@@ -519,21 +519,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>myfont <span class="ot">&lt;-</span> <span class="st">"Roboto Condensed"</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set_plot_font</span>(myfont, <span class="at">size =</span> <span class="dv">14</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; &lt;U+0001F50D&gt; Searching for font: Roboto Condensed 
+<pre><code>#&gt; 🔍 Searching for font: Roboto Condensed 
 #&gt;  Checking system source...</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt;  &lt;U+2713&gt; Found in system source!</code></pre>
+<pre><code>#&gt;  ✓ Found in system source!</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt; &lt;U+2713&gt; Updated ggplot2 theme with font 'Roboto Condensed'</code></pre>
+<pre><code>#&gt; ✓ Updated ggplot2 theme with font 'Roboto Condensed'</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt; &lt;U+2705&gt; Font setup complete. Using: Roboto Condensed</code></pre>
+<pre><code>#&gt; ✅ Font setup complete. Using: Roboto Condensed</code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set_plot_colors</span>(<span class="fu">c</span>(<span class="st">"#D62828"</span>, <span class="st">"#003049"</span>, <span class="st">"#F77F00"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>#&gt; &lt;U+2713&gt; Default discrete palette set from 3 anchor colour(s): #D62828, #003049, #F77F00</code></pre>
+<pre><code>#&gt; ✓ Default discrete palette set from 3 anchor colour(s): #D62828, #003049, #F77F00</code></pre>
 </div>
 </div>
 <p><code>kk_setup()</code> configures parallel workers and disables scientific notation. <code>set_plot_font()</code> searches your system, then local font files, then Google Fonts, and updates the default <code>ggplot2</code> theme, so every figure in the session inherits it without a <code>theme()</code> call. <code>set_plot_colors()</code> does the same for the discrete palette: three anchor colours, expanded on demand and installed as the session default.</p>
@@ -542,7 +542,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_pal_check</span>(<span class="fu">c</span>(<span class="st">"#D62828"</span>, <span class="st">"#003049"</span>, <span class="st">"#F77F00"</span>)) <span class="sc">|&gt;</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>distinct <span class="sc">|</span> <span class="sc">!</span>graphic)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 4 x 8
+<pre><code>#&gt; # A tibble: 4 × 8
 #&gt;   color   vision  simulated contrast graphic nearest min_dist distinct
 #&gt;   &lt;chr&gt;   &lt;fct&gt;   &lt;chr&gt;        &lt;dbl&gt; &lt;lgl&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;lgl&gt;   
 #&gt; 1 #F77F00 normal  #F77F00       2.63 FALSE   #D62828    0.179 TRUE    
@@ -631,7 +631,7 @@ Figure&nbsp;1: The requested palette simulated under four vision types. The cate
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">by =</span> <span class="st">"early_abx"</span>,</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">variables =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"sex"</span>, <span class="st">"curb65"</span>, <span class="st">"charlson"</span>, <span class="st">"smoker"</span>, <span class="st">"death30"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 13 x 5
+<pre><code>#&gt; # A tibble: 13 × 5
 #&gt;    Characteristic N     `0   N = 1,617`      `1   N = 1,383`      `p-value`
 #&gt;    &lt;chr&gt;          &lt;chr&gt; &lt;chr&gt;                &lt;chr&gt;                &lt;chr&gt;    
 #&gt;  1 __age__        3,000 65.00 (56.00, 75.00) 70.00 (61.00, 80.00) &lt;0.001   
@@ -662,7 +662,7 @@ Figure&nbsp;1: The requested palette simulated under four vision types. The cate
 <span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Metric, Estimate, Lower, Upper) <span class="sc">|&gt;</span></span>
 <span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 6 x 4
+<pre><code>#&gt; # A tibble: 6 × 4
 #&gt;   Metric            Estimate  Lower  Upper
 #&gt;   &lt;chr&gt;                &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
 #&gt; 1 Odds Ratio           1.61   1.29   2.00 
@@ -673,7 +673,7 @@ Figure&nbsp;1: The requested palette simulated under four vision types. The cate
 #&gt; 6 NNH                 19.4   13.3   36.1</code></pre>
 </div>
 </div>
-<p>There it is. A relative risk of 1.52 (95% CI 1.25&lt;U+2013&gt;1.84) — early antibiotics associated with a <strong>50 % higher</strong> 30-day mortality, comfortably significant, with a number-needed-to-harm of about 19. Written up carelessly, this is a paper. Written up carelessly by someone with a hypothesis, it is a paper with a mechanism section.</p>
+<p>There it is. A relative risk of 1.52 (95% CI 1.25–1.84) — early antibiotics associated with a <strong>50 % higher</strong> 30-day mortality, comfortably significant, with a number-needed-to-harm of about 19. Written up carelessly, this is a paper. Written up carelessly by someone with a hypothesis, it is a paper with a mechanism section.</p>
 <p>Two things about <code>kk_twobytwo()</code> are worth noticing. It returns nineteen quantities, not one — odds ratio, risk ratio, risk difference, attributable and preventable fractions, phi, Yule’s Q and Y, Cohen’s h, excess cases per 1,000, NNH — because the choice between them is yours and the arithmetic should not be a reason to avoid reporting the right one. And it returns them as a <strong>tibble</strong>, which is why the line above could <code>filter()</code> and <code>select()</code> it like any other data frame, and why §5 can collect this estimate and three others into a single figure without a number being retyped. (<code>kk_risk_plot()</code> will take the whole object and draw a forest plot in one call; I use it while exploring, but it builds its own theme, so the figures below are drawn with <code>kkplot()</code> instead.)</p>
 </section>
 <section id="group_by-is-the-whole-design" class="level2">
@@ -687,7 +687,7 @@ Figure&nbsp;1: The requested palette simulated under four vision types. The cate
 <span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(curb65, Estimate, Lower, Upper, P_Value) <span class="sc">|&gt;</span></span>
 <span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 5 x 5
+<pre><code>#&gt; # A tibble: 5 × 5
 #&gt;   curb65 Estimate Lower Upper P_Value
 #&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
 #&gt; 1      0    0.369 0.114 1.20    0.081
@@ -704,20 +704,20 @@ Figure&nbsp;1: The requested palette simulated under four vision types. The cate
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>st<span class="sc">$</span>pooled_rr</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 4
+<pre><code>#&gt; # A tibble: 1 × 4
 #&gt;   Estimate Lower Upper Method         
 #&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;          
 #&gt; 1    0.690 0.561 0.849 Mantel-Haenszel</code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>st<span class="sc">$</span>breslow_day</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 5
+<pre><code>#&gt; # A tibble: 1 × 5
 #&gt;   Test        Statistic    DF P_Value Interpretation        
 #&gt;   &lt;chr&gt;           &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;                 
 #&gt; 1 Breslow-Day      1.52     4   0.823 ORs appear homogeneous</code></pre>
 </div>
 </div>
-<p>Mantel–Haenszel pooled risk ratio: 0.69 (95% CI 0.56&lt;U+2013&gt;0.85). The truth I wrote into the generator was 0.70. Breslow–Day gives no evidence of heterogeneity across strata (<em>p</em> = 0.82), so a single pooled number is a fair summary here — which is a claim the function makes me check rather than assume.</p>
+<p>Mantel–Haenszel pooled risk ratio: 0.69 (95% CI 0.56–0.85). The truth I wrote into the generator was 0.70. Breslow–Day gives no evidence of heterogeneity across strata (<em>p</em> = 0.82), so a single pooled number is a fair summary here — which is a claim the function makes me check rather than assume.</p>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>plot_df <span class="ot">&lt;-</span> cap <span class="sc">|&gt;</span></span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(curb65, timing) <span class="sc">|&gt;</span></span>
@@ -763,7 +763,7 @@ Figure&nbsp;2: The same data twice. Within each severity stratum early treatment
 <span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(term, model_type, risk_ratio, conf.low, conf.high) <span class="sc">|&gt;</span></span>
 <span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 10 x 5
+<pre><code>#&gt; # A tibble: 10 × 5
 #&gt;    term      model_type    risk_ratio conf.low conf.high
 #&gt;    &lt;chr&gt;     &lt;chr&gt;              &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;
 #&gt;  1 early_abx univariate         1.52     1.25      1.84 
@@ -785,7 +785,7 @@ Figure&nbsp;2: The same data twice. Within each severity stratum early treatment
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(early_abx, age, sex, smoker, charlson, curb65) <span class="sc">|&gt;</span></span>
 <span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kk_smd</span>(<span class="at">treatment =</span> <span class="st">"early_abx"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 5 x 8
+<pre><code>#&gt; # A tibble: 5 × 8
 #&gt;   variable level type        group1 group2     smd abs_smd imbalanced
 #&gt; * &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;        &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt; &lt;lgl&gt;     
 #&gt; 1 age      &lt;NA&gt;  continuous  65.6   70.7   -0.371   0.371  TRUE      
@@ -801,7 +801,7 @@ Figure&nbsp;2: The same data twice. Within each severity stratum early treatment
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">covariates =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"sex"</span>, <span class="st">"smoker"</span>, <span class="st">"charlson"</span>, <span class="st">"curb65"</span>))</span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>ipw <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 2 x 7
+<pre><code>#&gt; # A tibble: 2 × 7
 #&gt;   estimand metric          estimate conf.low conf.high p.value conf.level
 #&gt;   &lt;chr&gt;    &lt;chr&gt;              &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;
 #&gt; 1 ATE      Risk difference  -0.0588  -0.0926    -0.025  0.0006       0.95
@@ -816,7 +816,7 @@ Figure&nbsp;2: The same data twice. Within each severity stratum early treatment
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>              <span class="at">covariates =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"sex"</span>, <span class="st">"smoker"</span>, <span class="st">"charlson"</span>, <span class="st">"curb65"</span>))</span>
 <span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>tm <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 8
+<pre><code>#&gt; # A tibble: 1 × 8
 #&gt;       ate std.error conf.low conf.high p.value   ey1   ey0 conf.level
 #&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
 #&gt; 1 -0.0488    0.0124  -0.0731   -0.0246  0.0001 0.104 0.153       0.95</code></pre>
@@ -827,7 +827,7 @@ Figure&nbsp;2: The same data twice. Within each severity stratum early treatment
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_nnt</span>(<span class="at">estimate =</span> tm<span class="sc">$</span>ate, <span class="at">type =</span> <span class="st">"risk_diff"</span>,</span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>       <span class="at">ci_low =</span> tm<span class="sc">$</span>conf.low, <span class="at">ci_high =</span> tm<span class="sc">$</span>conf.high)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 6
+<pre><code>#&gt; # A tibble: 1 × 6
 #&gt;   Metric Estimate Lower Upper RD_Estimate Note       
 #&gt;   &lt;chr&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt; &lt;chr&gt;      
 #&gt; 1 NNT        20.5  13.7  40.7     -0.0488 Significant</code></pre>
@@ -900,7 +900,7 @@ Figure&nbsp;3: Four estimators of the same causal contrast, against the risk rat
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>cap <span class="sc">|&gt;</span> <span class="fu">kk_roc</span>(bacterial, pct) <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 11
+<pre><code>#&gt; # A tibble: 1 × 11
 #&gt;     auc auc_low auc_high youden_j optimal_threshold sensitivity specificity
 #&gt;   &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;             &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
 #&gt; 1 0.898   0.887    0.909    0.625              1.68       0.767       0.858
@@ -917,7 +917,7 @@ Figure&nbsp;3: Four estimators of the same causal contrast, against the risk rat
 <span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(curb65, auc, auc_low, auc_high, n) <span class="sc">|&gt;</span></span>
 <span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 5 x 5
+<pre><code>#&gt; # A tibble: 5 × 5
 #&gt;   curb65   auc auc_low auc_high     n
 #&gt;    &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;
 #&gt; 1      0 0.889   0.869    0.91    962
@@ -931,7 +931,7 @@ Figure&nbsp;3: Four estimators of the same causal contrast, against the risk rat
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>cap <span class="sc">|&gt;</span> <span class="fu">kk_diagnostic</span>(bacterial, rapid_ag) <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 7 x 2
+<pre><code>#&gt; # A tibble: 7 × 2
 #&gt;   Metric      Value
 #&gt;   &lt;chr&gt;       &lt;dbl&gt;
 #&gt; 1 Sensitivity 0.75 
@@ -955,7 +955,7 @@ Figure&nbsp;3: Four estimators of the same causal contrast, against the risk rat
 <span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(hl_chi2, df, p.value, oe_ratio, calib_slope, calib_intercept) <span class="sc">|&gt;</span></span>
 <span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 6
+<pre><code>#&gt; # A tibble: 1 × 6
 #&gt;   hl_chi2    df p.value oe_ratio calib_slope calib_intercept
 #&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;       &lt;dbl&gt;           &lt;dbl&gt;
 #&gt; 1    7.71     8   0.462        1           1               0</code></pre>
@@ -968,7 +968,7 @@ Figure&nbsp;3: Four estimators of the same causal contrast, against the risk rat
 <span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(threshold, net_benefit_Model, <span class="st">`</span><span class="at">net_benefit_Treat all</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
 <span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 7 x 3
+<pre><code>#&gt; # A tibble: 7 × 3
 #&gt;   threshold net_benefit_Model `net_benefit_Treat all`
 #&gt;       &lt;dbl&gt;             &lt;dbl&gt;                   &lt;dbl&gt;
 #&gt; 1      0.05            0.0819                  0.0772
@@ -1046,11 +1046,11 @@ Figure&nbsp;4: Kaplan–Meier curves with the risk table built as a second panel
 <span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(group, n, observed, expected, oe_ratio, chisq, p_value) <span class="sc">|&gt;</span></span>
 <span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 2 x 7
-#&gt;   group                        n observed expected oe_ratio chisq p_value
-#&gt;   &lt;chr&gt;                    &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1 Antibiotics &lt;U+2265&gt; 4 h  1617      258     315.    0.819  22.9       0
-#&gt; 2 Antibiotics &lt; 4 h         1383      316     259.    1.22   22.9       0</code></pre>
+<pre><code>#&gt; # A tibble: 2 × 7
+#&gt;   group                 n observed expected oe_ratio chisq p_value
+#&gt;   &lt;chr&gt;             &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
+#&gt; 1 Antibiotics ≥ 4 h  1617      258     315.    0.819  22.9       0
+#&gt; 2 Antibiotics &lt; 4 h  1383      316     259.    1.22   22.9       0</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
@@ -1062,7 +1062,7 @@ Figure&nbsp;4: Kaplan–Meier curves with the risk table built as a second panel
 <span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(term, hazard_ratio, conf.low, conf.high, ph_p, ph_global_p) <span class="sc">|&gt;</span></span>
 <span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 4 x 6
+<pre><code>#&gt; # A tibble: 4 × 6
 #&gt;   term      hazard_ratio conf.low conf.high   ph_p ph_global_p
 #&gt;   &lt;chr&gt;            &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;
 #&gt; 1 early_abx        0.728    0.607     0.873 0.517       0.0058
@@ -1076,19 +1076,19 @@ Figure&nbsp;4: Kaplan–Meier curves with the risk table built as a second panel
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_rmst</span>(cap, time, status, timing, <span class="at">tau =</span> <span class="dv">90</span>) <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 4 x 8
-#&gt;   group                                                            tau   rmst
-#&gt;   &lt;chr&gt;                                                          &lt;dbl&gt;  &lt;dbl&gt;
-#&gt; 1 Antibiotics &lt;U+2265&gt; 4 h                                          90 82.5  
-#&gt; 2 Antibiotics &lt; 4 h                                                 90 79.3  
-#&gt; 3 RMST difference (Antibiotics &lt; 4 h - Antibiotics &lt;U+2265&gt; 4 h)    90 -3.23 
-#&gt; 4 RMST ratio (Antibiotics &lt; 4 h / Antibiotics &lt;U+2265&gt; 4 h)         90  0.961
-#&gt;       se conf.low conf.high p.value conf.level
-#&gt;    &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;
-#&gt; 1  0.498   81.6       83.5       NA       0.95
-#&gt; 2  0.621   78.1       80.5       NA       0.95
-#&gt; 3  0.796   -4.79      -1.67       0       0.95
-#&gt; 4 NA        0.942      0.98       0       0.95</code></pre>
+<pre><code>#&gt; # A tibble: 4 × 8
+#&gt;   group                                                     tau   rmst     se
+#&gt;   &lt;chr&gt;                                                   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+#&gt; 1 Antibiotics ≥ 4 h                                          90 82.5    0.498
+#&gt; 2 Antibiotics &lt; 4 h                                          90 79.3    0.621
+#&gt; 3 RMST difference (Antibiotics &lt; 4 h - Antibiotics ≥ 4 h)    90 -3.23   0.796
+#&gt; 4 RMST ratio (Antibiotics &lt; 4 h / Antibiotics ≥ 4 h)         90  0.961 NA    
+#&gt;   conf.low conf.high p.value conf.level
+#&gt;      &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;
+#&gt; 1   81.6       83.5       NA       0.95
+#&gt; 2   78.1       80.5       NA       0.95
+#&gt; 3   -4.79      -1.67       0       0.95
+#&gt; 4    0.942      0.98       0       0.95</code></pre>
 </div>
 </div>
 <p>Reported as “on average, X fewer days alive out of 90”, this is both assumption-free and comprehensible to a non-statistician — two properties that rarely travel together. (Unadjusted, it still carries the confounding; the point here is the estimand, not the estimate.)</p>
@@ -1116,7 +1116,7 @@ Figure&nbsp;4: Kaplan–Meier curves with the risk table built as a second panel
 <span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>its <span class="sc">|&gt;</span> <span class="fu">select</span>(term, estimate, conf.low, conf.high, p.value) <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 6 x 5
+<pre><code>#&gt; # A tibble: 6 × 5
 #&gt;   term           estimate conf.low conf.high p.value
 #&gt;   &lt;chr&gt;             &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
 #&gt; 1 intercept        91.3     89.4      93.2     0    
@@ -1135,7 +1135,7 @@ Figure&nbsp;4: Kaplan–Meier curves with the risk table built as a second panel
 <span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>         cumulative_difference) <span class="sc">|&gt;</span></span>
 <span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 4
+<pre><code>#&gt; # A tibble: 1 × 4
 #&gt;   final_observed final_counterfactual final_relative cumulative_difference
 #&gt;            &lt;dbl&gt;                &lt;dbl&gt;          &lt;dbl&gt;                 &lt;dbl&gt;
 #&gt; 1           54.7                 82.3           -0.3                 -442.</code></pre>
@@ -1187,7 +1187,7 @@ Figure&nbsp;5: Observed series against the modelled counterfactual — what cons
 <span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(term, estimate, conf.low, conf.high, p.value, n_clusters) <span class="sc">|&gt;</span></span>
 <span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 6
+<pre><code>#&gt; # A tibble: 1 × 6
 #&gt;   term  estimate conf.low conf.high p.value n_clusters
 #&gt;   &lt;chr&gt;    &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;
 #&gt; 1 did      -4.26    -7.27     -1.25   0.012          8</code></pre>
@@ -1207,7 +1207,7 @@ Figure&nbsp;5: Observed series against the modelled counterfactual — what cons
 <span id="cb67-6"><a href="#cb67-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb67-7"><a href="#cb67-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_icer</span>(strategies, cost, qaly, strategy) <span class="sc">|&gt;</span> <span class="fu">mutate_round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 3 x 7
+<pre><code>#&gt; # A tibble: 3 × 7
 #&gt;   strategy            cost effect inc_cost inc_effect   icer status  
 #&gt;   &lt;chr&gt;              &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;   
 #&gt; 1 Standard care       2840    6.4       NA       NA      NA  frontier
@@ -1220,7 +1220,7 @@ Figure&nbsp;5: Observed series against the modelled counterfactual — what cons
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb69"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_nmb</span>(strategies, cost, qaly, <span class="at">wtp =</span> <span class="dv">32000</span>, <span class="at">strategy =</span> strategy) <span class="sc">|&gt;</span></span>
 <span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate_round</span>(<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 3 x 7
+<pre><code>#&gt; # A tibble: 3 × 7
 #&gt;   strategy             wtp  cost effect    nmb   nhb optimal
 #&gt;   &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;lgl&gt;  
 #&gt; 1 Standard care      32000  2840   6.42 202600  6.33 FALSE  
@@ -1279,7 +1279,7 @@ Figure&nbsp;6: Cost-effectiveness acceptability curve from 2,000 probabilistic d
 <span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">power =</span> <span class="fl">0.8</span>, <span class="at">alpha =</span> <span class="fl">0.05</span>) <span class="sc">|&gt;</span></span>
 <span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(design, p0, p1, alpha, power, n_group1, n_total)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 7
+<pre><code>#&gt; # A tibble: 1 × 7
 #&gt;   design    p0    p1 alpha power n_group1 n_total
 #&gt;   &lt;chr&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;   &lt;dbl&gt;
 #&gt; 1 cohort  0.12 0.084  0.05   0.8     1109    2218</code></pre>
@@ -1289,14 +1289,14 @@ Figure&nbsp;6: Cost-effectiveness acceptability curve from 2,000 probabilistic d
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb75"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_r0</span>(<span class="at">beta =</span> <span class="fl">0.42</span>, <span class="at">gamma =</span> <span class="fl">0.2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 2
+<pre><code>#&gt; # A tibble: 1 × 2
 #&gt;      R0 method
 #&gt;   &lt;dbl&gt; &lt;chr&gt; 
 #&gt; 1   2.1 params</code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb77"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_final_size</span>(<span class="at">R0 =</span> <span class="fl">2.1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 x 3
+<pre><code>#&gt; # A tibble: 1 × 3
 #&gt;      R0 attack_rate herd_immunity
 #&gt;   &lt;dbl&gt;       &lt;dbl&gt;         &lt;dbl&gt;
 #&gt; 1   2.1       0.822         0.524</code></pre>

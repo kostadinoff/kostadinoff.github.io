@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss  xmlns:atom="http://www.w3.org/2005/Atom"
-      xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
 <title>Kostadin Kostadinov</title>
@@ -15,7 +15,7 @@
   <title>Epidemiological News: Weeks 35–36, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W35-36-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -161,7 +161,7 @@
   <title>Epidemiological News: Weeks 32–34, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W32-34-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -357,7 +357,7 @@
   <title>Epidemiological News: Weeks 30–31, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W30-31-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -521,7 +521,7 @@
   <title>Epidemiological News: Weeks 28–29, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W28-29-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -655,7 +655,7 @@
   <title>Epidemiological News: Week 27, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W27-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -800,7 +800,7 @@
   <title>Epidemiological News: Week 26, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W26-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -977,7 +977,7 @@
   <title>Epidemiological News: Week 25, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W25-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1079,7 +1079,7 @@
   <title>Epidemiological News: Weeks 23–24, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W23-24-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1228,7 +1228,7 @@
   <title>Epidemiological News: Week 22, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W22-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1389,7 +1389,7 @@
   <title>Epidemiological News: Week 21, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W21-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1549,7 +1549,7 @@
   <title>Epidemiological News: Week 20, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W20-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1722,7 +1722,7 @@
   <title>Epidemiological News: Week 19, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W19-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -1878,7 +1878,7 @@
   <title>Epidemiological News: Week 18, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W18-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2042,7 +2042,7 @@
   <title>Epidemiological News: Week 17, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W17-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2184,7 +2184,7 @@
   <title>Epidemiological News: Week 16, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W16-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2325,7 +2325,7 @@
   <title>Epidemiological News: Week 15, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W15-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2451,7 +2451,7 @@
   <title>Epidemiological News: Week 14, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W14-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2593,7 +2593,7 @@
   <title>Epidemiological News: Week 13, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W13-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2742,7 +2742,7 @@
   <title>Epidemiological News: Week 12, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W12-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
@@ -2889,7 +2889,7 @@
   <title>Epidemiological News: Week 11, 2026</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/epinews-posts/2026-W11-en.html</link>
-  <description><![CDATA[
+  <description><![CDATA[ 
 
 
 
