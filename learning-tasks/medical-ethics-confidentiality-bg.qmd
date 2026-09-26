@@ -4,7 +4,7 @@ author: "Костадин Костадинов"
 date: 2026-09-26
 lang: bg
 description: "Групова работа за 75 минути след 15-минутната подготовка: заплаха за партньор, непредпазливо разкриване в отделението, заразна болест и работодателят, достъп до документацията след смъртта и правната отговорност при нарушение. С отговори за самопроверка."
-categories: [Bulgarian, Medical Ethics, Assignment, "Medicine | 2nd year", "2026/2027"]
+categories: [Bulgarian, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "Медицинска етика, упражнение 3: медицинската тайна в практиката"
 author-meta: "Костадин Костадинов"
 date-meta: 2026-09-26

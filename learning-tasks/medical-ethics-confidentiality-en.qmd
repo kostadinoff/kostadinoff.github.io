@@ -4,7 +4,7 @@ author: "Kostadin Kostadinov"
 date: 2026-09-26
 lang: en
 description: "A 75-minute group exercise after the 15-minute reading: a threat to a partner, careless disclosure on the ward, a communicable disease and the employer, access to records after death, and the legal liability that follows a breach. Includes collapsible model answers."
-categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "2026/2027"]
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "Medical Ethics, Class 3: Medical Confidentiality in Practice"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2026-09-26
