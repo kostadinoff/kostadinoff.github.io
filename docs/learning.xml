@@ -10,7 +10,167 @@
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 19 Sep 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Медицинска тайна: кога пазим, кога споделяме, кога съобщаваме</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-03-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-confidentiality-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-confidentiality-en.html">English</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене и обмисляне. Материалът следва презентацията „Медицинска тайна — етични основания и правна отговорност“. След прочита трябва да можете да посочите основанията за предоставяне на здравна информация без съгласие, да прилагате правилото за минимално необходимото и да разграничавате видовете правна отговорност при нарушение.</p>
+<section id="три-свързани-понятия" class="level2">
+<h2 class="anchored" data-anchor-id="три-свързани-понятия">Три свързани понятия</h2>
+<p><strong>Медицинската тайна</strong> обхваща сведенията за пациента, станали известни при или по повод на медицинската помощ. <strong>Поверителността</strong> е задължението тези сведения да не се разкриват и използват извън допустимата цел. <strong>Защитата на личните данни</strong> урежда целия жизнен цикъл на информацията: събиране, достъп, обмен, съхраняване и унищожаване. Понятията са свързани, но не са взаимозаменяеми. Разговор за пациент пред външни лица нарушава поверителността, дори да не съществува електронен запис. Неоторизираното отваряне на електронно досие е нарушение, дори прочетеното да не бъде преразказано.</p>
+<p>Моралното основание на тайната е в автономността и в ненанасянето на вреда. Пациентът има основателно очакване сам да определя кой научава сведенията за здравето му. Разгласяването може да причини срам, семеен конфликт, загуба на работа, дискриминация и заклеймяване. При психични, генетични, инфекциозни и репродуктивни състояния вредата често идва не от диагнозата, а от реакцията на околните. Тайната пази и доверието: ако хората очакват, че диагнозата им ще се разчуе, те крият факти или отлагат изследването. Затова нарушената поверителност вреди едновременно на пациента, на клиничното решение и на общественото здраве. Тайната е право на пациента и задължение на професионалиста, а не привилегия на лекаря.</p>
+</section>
+<section id="какво-обхваща-и-кого-обвързва" class="level2">
+<h2 class="anchored" data-anchor-id="какво-обхваща-и-кого-обвързва">Какво обхваща и кого обвързва</h2>
+<p>Законът за здравето използва понятието <strong>здравна информация</strong> (чл. 27). Това са личните данни за здравословното състояние, физическото и психическото развитие, както и всяка информация в рецепти, предписания, протоколи, удостоверения и друга медицинска документация. Защитени са и самият факт на посещението, снимките, пробите и данните от медицински изделия. Защитата не зависи от това дали пациентът е нарекъл сведението „тайна“, нито от преценката на специалиста, че то е безобидно.</p>
+<p>Чл. 28в забранява на медицинските специалисти и на служителите в лечебните заведения да разгласяват информация за пациента, получена при изпълнение на служебните им задължения. Задължението обвързва целия екип: лекари, сестри, акушерки, лаборанти, администратори, студенти и специализанти. Членовете на екипа, който лекува, обменят необходимата информация помежду си. Това не е свободен достъп за всички в болницата: лекар от друго отделение, който не участва в грижата, е външно лице спрямо случая.</p>
+<p>Кодексът за професионална етика на лекарите в България, раздел IV, е по-взискателен от минималния законов стандарт. Лекарската тайна обхваща споделеното от пациента, откритото при прегледа и изследванията и всичко научено при упражняване на професията (чл. 51, ал. 1). Тя се пази и спрямо семейството и продължава след смъртта (чл. 51, ал. 2–3). Обхваща документацията, илюстративния материал и консултациите (чл. 52). Лекуващите лекари са свободни от тайна помежду си, освен при мотивирано несъгласие на пациента (чл. 53). За научна и преподавателска дейност сведенията се използват само при гарантирана анонимност (чл. 54). Когато законът изисква да се съобщи на институция, лекарят се освобождава от задължението за тайна (чл. 55).</p>
+</section>
+<section id="кога-информацията-може-да-бъде-предоставена" class="level2">
+<h2 class="anchored" data-anchor-id="кога-информацията-може-да-бъде-предоставена">Кога информацията може да бъде предоставена</h2>
+<p>Първото основание е волята на пациента. Той може писмено да упълномощи друго лице да се запознае с медицинските му документи (чл. 28б, ал. 2). Разрешението трябва да показва кой, каква информация и с каква цел получава. Общото „може да говорите с близките“ често се нуждае от уточнение.</p>
+<p>Без съгласие здравна информация се предоставя на трети лица само в случаите по чл. 28, ал. 1 от Закона за здравето:</p>
+<ol type="1">
+<li>лечението продължава в друго лечебно заведение;</li>
+<li>съществува заплаха за здравето или живота на други лица;</li>
+<li>необходима е за идентификация на труп или за установяване на причината за смъртта;</li>
+<li>необходима е за държавния здравен контрол за предотвратяване на епидемии и разпространение на заразни болести;</li>
+<li>необходима е за медицинската експертиза и общественото осигуряване;</li>
+<li>необходима е за медицинската статистика или научни изследвания, след като идентифициращите данни са заличени;</li>
+<li>необходима е за Министерството на здравеопазването, Националния център по здравна информация, НЗОК, регионалните здравни инспекции и НСИ;</li>
+<li>необходима е за определени застрахователи по Кодекса за застраховането.</li>
+</ol>
+<p>При заплаха за други лица пациентът се уведомява, преди информацията да бъде предоставена (чл. 28, ал. 2). Отделни закони създават и задължения за съобщаване. Според чл. 7, ал. 2 от Закона за закрила на детето всеки, който по повод професията си научи, че дете се нуждае от закрила, трябва незабавно да уведоми социалните служби, Държавната агенция за закрила на детето или полицията, дори ако е обвързан с професионална тайна.</p>
+</section>
+<section id="правилото-за-минимално-необходимото" class="level2">
+<h2 class="anchored" data-anchor-id="правилото-за-минимално-необходимото">Правилото за минимално необходимото</h2>
+<p>Наличието на законово основание не отменя принципа на минималната необходимост. Преди да предостави информация, специалистът трябва да отговори на четири въпроса: кой е получателят, на какво основание получава данните, кои точно сведения са нужни и по какъв защитен канал ще бъдат изпратени. Ако някой от отговорите е неясен, разкриването се спира до проверка. Регионалната здравна инспекция при епидемиологично проучване не получава несвързана психиатрична анамнеза. Екипът, който поема лечението, получава нужното за безопасна приемственост, а не неограничен достъп.</p>
+<p>Заплахата за трето лице е една от най-трудните дилеми. Преценката изяснява дали вредата е тежка, вероятна и предотвратима, дали застрашеното лице може да бъде определено и дали има по-малко ограничаващ начин да се намали рискът. Разговорът с пациента, насърчаването му сам да уведоми засегнатите и консултацията с колеги или с комисия по медицинска етика обикновено предхождат разкриването. Генетичният резултат създава подобен конфликт, защото показва риск и за роднините. Обичайният подход е пациентът да бъде консултиран и подкрепен сам да ги уведоми.</p>
+</section>
+<section id="близки-починали-и-деца" class="level2">
+<h2 class="anchored" data-anchor-id="близки-починали-и-деца">Близки, починали и деца</h2>
+<p>Съпругът, родителят на пълнолетен пациент, пълнолетното дете и близкият приятел са трети лица, ако пациентът не ги е упълномощил. Родството и доброто намерение не дават автоматично право на диагноза, прогноза или информация за предходно лечение. Присъствието на съпруга в стаята не е разрешение да се съобщи всяка подробност. Особено внимание изискват сведения за предходна бременност, аборт, инфекция, психично лечение, генетичен резултат или насилие.</p>
+<p>След смъртта етичният дълг продължава, но документацията не става напълно недостъпна. Наследниците и роднините по права и по съребрена линия до четвърта степен включително имат право да се запознаят със здравната информация за починалия и да получат копия (чл. 28б, ал. 3). Сведенията не стават обществено достояние. Те се предоставят на правоимащия след проверка на самоличността и основанието.</p>
+<p>При детето родителят има достъп заради отговорността си за здравните решения. Подрастващият трябва да знае предварително доколко разговорът ще остане поверителен. Не бива да се обещава абсолютна тайна, когато може да се разкрие сериозен риск от насилие, самонараняване или тежка вреда.</p>
+</section>
+<section id="степени-на-нарушение-и-дигитални-рискове" class="level2">
+<h2 class="anchored" data-anchor-id="степени-на-нарушение-и-дигитални-рискове">Степени на нарушение и дигитални рискове</h2>
+<p>Законът не установява скала на нарушенията. За учебен анализ се разграничават четири степени. Нулевата е законосъобразен обмен за грижата. Първата е непредпазливо разкриване с ниска разпознаваемост. Втората е разкриване пред неупълномощено лице или достъп без служебна необходимост. Третата е умишлено, публично или мащабно разпространение на разпознаваеми данни. Идентификацията не изисква име: рядка диагноза, възраст, професия, населено място и снимка могат заедно да направят човека разпознаваем. Липсата на умисъл не премахва нарушението. Умисълът влияе върху вида и размера на отговорността.</p>
+<p>Електронният запис подобрява приемствеността, но разширява кръга от хора, които могат да достигнат до данните. Достъпът е според ролята и необходимостта, профилът не се споделя, а всяко отваряне на досие трябва да може да бъде проследено. Служебният достъп не разрешава търсене на роднина, колега или публична личност. Лични приложения за съобщения, снимки на рана или на екран и въвеждането на клинични данни във външни системи с изкуствен интелект създават неуправляем риск. При пробив събитието се ограничава, съобщава се незабавно по вътрешния ред, оценяват се данните и засегнатите лица и при необходимост се уведомяват надзорният орган и пациентът. Прикриването увеличава вредата.</p>
+</section>
+<section id="правна-отговорност" class="level2">
+<h2 class="anchored" data-anchor-id="правна-отговорност">Правна отговорност</h2>
+<p>Едно деяние може едновременно да породи няколко самостоятелни вида отговорност.</p>
+<ul>
+<li><strong>Съсловна.</strong> Лекарят отговаря за неспазване на Кодекса за професионална етика пред комисията по професионална етика на районната колегия на Българския лекарски съюз (Закон за съсловните организации на лекарите и на лекарите по дентална медицина, чл. 37, ал. 1, т. 1 и чл. 39). Наказанията по чл. 38 са порицание, глоба от една до пет минимални работни заплати и заличаване от регистъра на колегията за срок от три месеца до една година. Според чл. 42, ал. 1 тези наказания не изключват наказателна, гражданска или дисциплинарна отговорност.</li>
+<li><strong>Трудово-дисциплинарна.</strong> Виновното неизпълнение на трудовите задължения, включително задължения по закон и по правилника за вътрешния ред, е нарушение на трудовата дисциплина (Кодекс на труда, чл. 186 и чл. 187, ал. 1, т. 10). Наказанията са забележка, предупреждение за уволнение и уволнение (чл. 188).</li>
+<li><strong>Административна.</strong> Законът за здравето предвижда глоба за нарушение на разпоредбите му, включително забраната по чл. 28в (чл. 229), и санкция за лечебно заведение, което наруши права на пациента (чл. 221). Засегнатият може да подаде жалба до Комисията за защита на личните данни в срок шест месеца от узнаването (Закон за защита на личните данни, чл. 38). Администраторът на данни носи санкции по чл. 83 от Регламент (ЕС) 2016/679.</li>
+<li><strong>Гражданска.</strong> Всеки е длъжен да поправи вредите, които виновно е причинил другиму, като вината се предполага (Закон за задълженията и договорите, чл. 45). Лечебното заведение отговаря за вредите, причинени от служителите при или по повод на работата (чл. 49). Неимуществените вреди, например срамът и заклеймяването, се определят от съда по справедливост (чл. 52). Обезщетение може да се търси и по чл. 39, ал. 2 от Закона за защита на личните данни.</li>
+<li><strong>Наказателна.</strong> Който противозаконно открие чужда тайна, опасна за доброто име на някого, поверена му или узната във връзка със занятието му, се наказва с лишаване от свобода до една година или с глоба (Наказателен кодекс, чл. 145, ал. 1). Преследването започва по тъжба на пострадалия (чл. 161, ал. 1). Не всяко разкриване е престъпление, но може да е тежко етично и дисциплинарно нарушение.</li>
+</ul>
+<p>Медицинската тайна не може да прикрива професионална грешка, насилие или друго нарушение. Тя защитава пациента, а не репутацията на отделението.</p>
+<p>Преди да отворите <a href="../learning-tasks/medical-ethics-confidentiality-bg.html">задачите за студенти</a>, опитайте да отговорите в три изречения: кога пазите, кога споделяте и кога сте длъжни да съобщите. Ако можете да посочите законовото основание и получателя за всяко от трите, сте готови за казусите.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</guid>
+  <pubDate>Fri, 25 Sep 2026 21:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Medical confidentiality: when to keep, share or report</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-03-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-confidentiality-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-confidentiality-bg.html">Български</a></p>
+<p>Allow about <strong>15 minutes</strong> to read and reflect. This material follows the presentation “Medical confidentiality: ethical foundations and legal liability”. Afterwards you should be able to name the grounds for disclosing health information without consent, apply the minimum-necessary rule, and distinguish the kinds of legal liability that a breach can create. The legal rules are Bulgarian; the English wording of statutes is a teaching translation.</p>
+<section id="three-related-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="three-related-concepts">Three related concepts</h2>
+<p><strong>Medical secrecy</strong> covers information about the patient learned during or in connection with healthcare. <strong>Confidentiality</strong> is the duty not to disclose or use that information beyond its permitted purpose. <strong>Data protection</strong> governs the whole life cycle of the information: collection, access, sharing, storage and deletion. The concepts are related but not interchangeable. Discussing a patient in front of outsiders breaches confidentiality even when no electronic record exists. Opening an electronic record without authorisation is a breach even if nothing is retold.</p>
+<p>The moral basis of confidentiality lies in autonomy and non-maleficence. Patients reasonably expect to decide who learns about their health. Disclosure can cause shame, family conflict, job loss, discrimination and stigma. With mental, genetic, infectious and reproductive conditions, the harm often comes from how others react rather than from the diagnosis itself. Confidentiality also protects trust. People who expect their diagnosis to become known hide facts or delay testing, so a breach harms the patient, the clinical decision and public health at once. Confidentiality is the patient’s right and the professional’s duty, not the doctor’s privilege.</p>
+</section>
+<section id="what-it-covers-and-whom-it-binds" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-covers-and-whom-it-binds">What it covers and whom it binds</h2>
+<p>The Bulgarian Health Act uses the term <strong>health information</strong> (Art. 27). It means personal data on health status and on physical and mental development, and any information in prescriptions, orders, reports, certificates and other medical records. The fact of a visit, images, samples and data from medical devices are protected too. Protection does not depend on whether the patient called something a secret, or on the professional’s view that it is harmless.</p>
+<p>Article 28c prohibits healthcare professionals and staff of healthcare establishments from disclosing information about a patient obtained in the course of their duties. The duty binds the whole team: doctors, nurses, midwives, laboratory staff, administrators, students and trainees. Members of the treating team share what they need. That is not free access for everyone in the hospital: a doctor from another ward who is not involved in the patient’s care is an outsider to the case.</p>
+<p>The Code of Professional Ethics for Physicians in Bulgaria, Section IV, is stricter than the statutory minimum. Medical secrecy covers what the patient shared, what examination and tests revealed, and everything the doctor learned about the patient in practice (Art. 51(1)). It applies to the patient’s family and continues after death (Art. 51(2)–(3)). It extends to records, illustrative material and consultations (Art. 52). Doctors treating the same patient are released from secrecy among themselves unless the patient has a reasoned objection (Art. 53). Research and teaching may use the information only with guaranteed anonymity (Art. 54). Where the law requires reporting to an institution, the doctor is released from the duty of secrecy (Art. 55).</p>
+</section>
+<section id="when-information-may-be-disclosed" class="level2">
+<h2 class="anchored" data-anchor-id="when-information-may-be-disclosed">When information may be disclosed</h2>
+<p>The first basis is the patient’s own wish. A patient may authorise another person in writing to see their records and make copies (Art. 28b(2)). The authorisation should make clear who receives what information and for what purpose. A general “you can talk to my family” often needs clarifying.</p>
+<p>Without consent, health information may be disclosed to third parties only in the situations listed in Article 28(1) of the Health Act:</p>
+<ol type="1">
+<li>treatment continues in another healthcare establishment;</li>
+<li>there is a threat to the health or life of other persons;</li>
+<li>it is needed to identify a body or establish the cause of death;</li>
+<li>it is needed for state health control to prevent epidemics and the spread of communicable diseases;</li>
+<li>it is needed for medical expertise and social insurance;</li>
+<li>it is needed for medical statistics or research after the identifying data have been removed;</li>
+<li>it is needed by the Ministry of Health, the National Centre for Health Information, the National Health Insurance Fund, the regional health inspectorates or the National Statistical Institute;</li>
+<li>it is needed by specified insurers under the Insurance Code.</li>
+</ol>
+<p>Where others are threatened, the patient must be notified before the information is disclosed (Art. 28(2)). Other laws create reporting duties. Under Article 7(2) of the Child Protection Act, anyone who learns through their profession that a child needs protection must report it immediately to social services, the State Agency for Child Protection or the police, even when bound by professional secrecy.</p>
+</section>
+<section id="the-minimum-necessary-rule" class="level2">
+<h2 class="anchored" data-anchor-id="the-minimum-necessary-rule">The minimum-necessary rule</h2>
+<p>A legal basis does not suspend the principle of minimum necessity. Before disclosing, the professional must answer four questions: who is the recipient, on what basis they receive the data, exactly which details are needed, and through which secure channel they will be sent. If any answer is unclear, disclosure stops until it has been checked. A regional health inspectorate investigating an outbreak does not receive unrelated psychiatric history. A team taking over care receives what it needs for safe continuity, not unlimited access.</p>
+<p>A threat to a third party is among the hardest dilemmas. The assessment asks whether the harm is serious, likely and preventable, whether the person at risk can be identified, and whether a less intrusive way of reducing the risk exists. Talking with the patient, encouraging them to inform those affected, and consulting colleagues or a medical ethics committee usually come before disclosure. A genetic result raises a similar conflict because it also reveals a risk to relatives. The usual approach is to counsel the patient and support them in telling their relatives themselves.</p>
+</section>
+<section id="relatives-the-deceased-and-children" class="level2">
+<h2 class="anchored" data-anchor-id="relatives-the-deceased-and-children">Relatives, the deceased and children</h2>
+<p>A spouse, the parent of an adult patient, an adult child and a close friend are third parties unless the patient has authorised them. Kinship and good intentions do not create an automatic right to a diagnosis, prognosis or past treatment. A husband in the room is not permission to share every detail. Particular care is needed with a previous pregnancy or abortion, an infection, psychiatric treatment, a genetic result or abuse.</p>
+<p>The ethical duty continues after death, but the records do not become completely inaccessible. Heirs and relatives in direct and collateral line up to the fourth degree may see the health information of the deceased and obtain copies (Art. 28b(3)). The information does not become public. It is released to the entitled person after their identity and basis have been checked.</p>
+<p>With a child, the parent has access because of their responsibility for health decisions. An adolescent should know in advance how far the conversation will stay confidential. Absolute secrecy must not be promised where serious risk of abuse, self-harm or grave harm might emerge.</p>
+</section>
+<section id="degrees-of-breach-and-digital-risks" class="level2">
+<h2 class="anchored" data-anchor-id="degrees-of-breach-and-digital-risks">Degrees of breach and digital risks</h2>
+<p>The law sets no scale of breaches. For teaching purposes, four degrees are distinguished. The zero degree is lawful sharing for care. The first is careless disclosure with low identifiability. The second is disclosure to an unauthorised person, or access without a work-related need. The third is deliberate, public or large-scale spread of identifiable data. Identification does not require a name: a rare diagnosis, age, occupation, place and a photograph can together make a person recognisable. Lack of intent does not remove the breach. Intent affects the type and extent of liability.</p>
+<p>Electronic records improve continuity but widen the circle of people who can reach the data. Access follows role and need, logins are never shared, and every opening of a record must be traceable. Work access does not allow looking up a relative, colleague or public figure. Personal messaging apps, photos of wounds or screens, and entering clinical data into external artificial-intelligence tools create unmanageable risk. After a breach, contain the incident, report it at once through internal channels, assess the data and the people affected, and notify the supervisory authority and the patient where required. Concealment increases the harm.</p>
+</section>
+<section id="legal-liability" class="level2">
+<h2 class="anchored" data-anchor-id="legal-liability">Legal liability</h2>
+<p>One act can give rise to several independent kinds of liability.</p>
+<ul>
+<li><strong>Professional.</strong> A doctor answers for breaching the Code of Professional Ethics before the ethics committee of the regional college of the Bulgarian Medical Association (Professional Organisations of Physicians and Dentists Act, Arts. 37(1)(1) and 39). Penalties under Article 38 are a reprimand, a fine of one to five minimum monthly wages, and removal from the college register for three months to one year. Under Article 42(1), these penalties do not exclude criminal, civil or disciplinary liability.</li>
+<li><strong>Employment-disciplinary.</strong> Culpable failure to perform work duties, including duties set by law and by internal rules, breaches labour discipline (Labour Code, Arts. 186 and 187(1)(10)). The penalties are a reprimand, a warning of dismissal and dismissal (Art. 188).</li>
+<li><strong>Administrative.</strong> The Health Act provides a fine for breaching its provisions, including the prohibition in Article 28c (Art. 229), and a sanction for a healthcare establishment that violates patients’ rights (Art. 221). The person affected may complain to the Commission for Personal Data Protection within six months of learning of the breach (Personal Data Protection Act, Art. 38). The data controller faces sanctions under Article 83 of Regulation (EU) 2016/679.</li>
+<li><strong>Civil.</strong> Everyone must repair harm they culpably cause to another, and fault is presumed (Obligations and Contracts Act, Art. 45). The healthcare establishment is liable for harm caused by staff in or in connection with their work (Art. 49). Non-pecuniary harm, such as shame and stigma, is assessed by the court on an equitable basis (Art. 52). Damages may also be claimed under Article 39(2) of the Personal Data Protection Act.</li>
+<li><strong>Criminal.</strong> Anyone who unlawfully discloses another person’s secret that could damage someone’s good name, entrusted to them or learned in connection with their occupation, faces imprisonment of up to one year or a fine (Penal Code, Art. 145(1)). Prosecution begins on the victim’s complaint (Art. 161(1)). Not every disclosure is a crime, but it may still be a serious ethical and disciplinary breach.</li>
+</ul>
+<p>Confidentiality cannot be used to hide a professional error, abuse or any other wrongdoing. It protects the patient, not the reputation of the department.</p>
+<p>Before you open the <a href="../learning-tasks/medical-ethics-confidentiality-en.html">student tasks</a>, try to answer in three sentences: when you keep information, when you share it, and when you must report it. If you can name the legal basis and the recipient for each, you are ready for the cases.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</guid>
+  <pubDate>Fri, 25 Sep 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Информирано съгласие: от разговора до решението</title>
   <dc:creator>Костадин Костадинов</dc:creator>

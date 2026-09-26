@@ -1,0 +1,173 @@
+---
+title: "Medical Ethics, Class 3: Medical Confidentiality in Practice"
+author: "Kostadin Kostadinov"
+date: 2026-09-26
+lang: en
+description: "A 75-minute group exercise after the 15-minute reading: a threat to a partner, careless disclosure on the ward, a communicable disease and the employer, access to records after death, and the legal liability that follows a breach. Includes collapsible model answers."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "2026/2027"]
+title-meta: "Medical Ethics, Class 3: Medical Confidentiality in Practice"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-09-26
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-confidentiality-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-03-en.pdf) · [Български](medical-ethics-confidentiality-bg.qmd)
+
+## How to work
+
+Read the preparatory material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes**, together one 90-minute class. Appoint a discussion lead, a note-taker and a spokesperson, and rotate the roles between cases. Open a model answer only after you have written down your own reasoning.
+
+**All people, events and circumstances are fictional** and describe no actual patient. The cases are adapted from the course case bank. Work from the information given and state what else you would need to know. These teaching cases develop ethical and legal judgement; they do not replace consultation with the head of the establishment, the medical ethics committee or a lawyer in a real case. The legal rules applied throughout are Bulgarian.
+
+**Submit one group answer** containing the corrected statements, the analysis of the five cases, and the disclosure record. Each student completes the individual task at the end. Assessment rewards naming the precise legal basis, applying the minimum-necessary rule, and separating the kinds of liability.
+
+## Task 1. True or false — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is wrong and name the rule that applies.
+
+1. "A patient's wife is entitled to know his diagnosis."
+2. "Any doctor working in the hospital may open any patient's record."
+3. "If I leave out the name, the case is anonymous."
+4. "After the patient's death, confidentiality ends."
+5. "When the law allows disclosure, I can send the whole record."
+6. "An unintentional disclosure is not a breach."
+
+::: {.callout-note collapse="true" title="Model answer: six corrections"}
+
+A spouse is a third party unless the patient has authorised them in writing (Health Act, Art. 28b(2)); the Code of Professional Ethics expressly keeps secrecy from the family (Art. 51(2)). Access follows involvement in care: Art. 28c binds all staff, and a doctor from another ward with no role in the case is an outsider. Removing a name is rarely enough, because a rare diagnosis, age, occupation, place and images can identify a person; the Code requires guaranteed anonymity for teaching and research (Art. 54).
+
+The duty continues after death (Code, Art. 51(3)), but heirs and relatives up to the fourth degree have a statutory right of access (Health Act, Art. 28b(3)). A legal basis defines the recipient, the purpose and the scope, so only the minimum necessary is disclosed. Finally, lack of intent does not remove the breach; it affects the type and extent of liability.
+
+:::
+
+## Task 2. "I won't tell her" — 15 minutes
+
+### Case A: a positive HIV test
+
+You are the general practitioner of a 45-year-old man who asks for an HIV test after paid sexual contact. The result is positive. He says he will not tell his wife, will continue sexual relations with her because "we usually use condoms", and forbids you to tell her. His wife is also registered with your practice.
+
+1. What do you do in the first and second consultations after the result? List the steps in order.
+2. Which basis in Article 28(1) of the Health Act could permit disclosure, and what condition does paragraph 2 add?
+3. Does it matter that the wife is also your patient? Explain in two sentences.
+4. Who must not receive the information, and what exactly would you tell the wife if disclosure became justified?
+
+::: {.callout-note collapse="true" title="Model answer: disclosure as a last step"}
+
+First comes post-test counselling, starting treatment, explaining the risk to the partner and that condoms used "usually" do not protect reliably, and offering to support a joint conversation or partner notification. A second conversation, a deadline and consultation with colleagues or the ethics committee follow if he still refuses. Everything is documented.
+
+The relevant basis is Article 28(1)(2): a threat to the health or life of another person. The threat here is serious, likely, preventable and directed at an identifiable person. Paragraph 2 requires the patient to be notified before the information is disclosed. Reporting to the health authorities under point 4 is a separate channel for state health control and does not tell the wife anything.
+
+The wife being your patient increases your duty of care towards her but gives you no separate right to use her husband's information; each record is confidential in its own right. If disclosure becomes justified, only the wife receives only what she needs to protect herself: that she may have been exposed to HIV and should be tested and consider prophylaxis. The circumstances of infection, other diagnoses, the employer, relatives and friends are excluded.
+
+:::
+
+## Task 3. On the ward — 15 minutes
+
+### Case B: a phone call and a careless sentence
+
+The phone on the ward rings and a nurse answers. The caller asks about a patient, and the nurse, who knows the patient, says he has pneumonia on top of chronic bronchitis and has started intravenous antibiotics. She does not know who called.
+
+On the obstetrics ward the same day, the husband of a patient admitted with a threatened miscarriage asks about her condition. The doctor explains that the pregnancy is complicated and mentions an abortion on request a year ago as a possible cause. It turns out the husband did not know about it.
+
+1. Place each disclosure on the teaching scale of breaches and justify the degree.
+2. What should the nurse have done when the phone rang? Write a short rule for the ward.
+3. What should the doctor have done before speaking to the husband?
+4. What should happen now in each case? Consider the patient, the record and the internal report.
+
+::: {.callout-note collapse="true" title="Model answer: the unknown caller and the husband"}
+
+Both are at least second-degree breaches: identifiable information went to a person without authority. The obstetric case is more serious because the information is highly sensitive and the harm, conflict in the marriage, is immediate and irreversible. The nurse's disclosure was careless rather than deliberate, but lack of intent does not remove the breach.
+
+A ward rule might read: "We give no clinical information by phone unless the caller's identity and authority are verified against the patient's written authorisation; otherwise we take a number and ask the patient." The doctor should have asked the patient privately what she wished to share with her husband, and should never have mentioned a past abortion that was not needed to explain the current condition. Kinship is not authorisation (Health Act, Art. 28b(2); Code, Art. 51(2)).
+
+Now the patients should be told honestly what was disclosed and to whom, the events recorded and reported through the establishment's internal procedure, and support offered, including to the patient whose marriage is affected. Disciplinary and other liability is assessed separately; see Task 6.
+
+:::
+
+## Task 4. A risk on the bus — 15 minutes
+
+### Case C: tuberculosis and returning to work
+
+A 36-year-old bus driver in Plovdiv has active pulmonary tuberculosis. After discharge he is still smear-positive. Despite your advice to continue treatment in isolation at home, he returns to work and tells his employer nothing.
+
+1. Which disclosure is permitted and to whom? Give the legal basis.
+2. May he be isolated against his will? Which provision applies, and who issues the order?
+3. May you inform the employer or the passengers directly? Explain.
+4. How does the minimum-necessary rule shape what you send?
+
+::: {.callout-note collapse="true" title="Model answer: the proper recipient"}
+
+The information goes to the regional health inspectorate under Article 28(1)(4) of the Health Act, state health control to prevent the spread of communicable disease, and, because others are threatened, also under point 2, with notice to the patient beforehand (Art. 28(2)). Communicable-disease reporting duties apply in any case.
+
+Tuberculosis with bacillary excretion is on the list of diseases requiring compulsory isolation (Health Act, Art. 61(1)). Isolation is ordered by a prescription from the director of the regional health inspectorate or an authorised deputy (Art. 61(4)). This is one of the cases provided by law in which care against a patient's will is allowed (Art. 91); the doctor does not decide it alone.
+
+The employer and the passengers are not the proper recipients. The competent authority decides on contact tracing, screening and protective measures and shares only what those measures need. What you send covers the diagnosis, infectiousness, treatment status, the refusal of isolation and the relevant contacts, and nothing unrelated to the public health purpose.
+
+:::
+
+## Task 5. Confidentiality after death — 10 minutes
+
+### Case D: the family asks for the full record
+
+A patient of yours died of advanced ovarian cancer. Months before diagnosis she attended the emergency department twice with vague symptoms and was sent home. Her daughter writes to the hospital manager asking for a full copy of the records, because the family suspects the cancer was diagnosed late. As the treating doctor, you are asked to answer.
+
+1. Does confidentiality continue after death? What does the law give the family?
+2. What do you check before releasing the records?
+3. May the hospital refuse because the request may lead to a complaint?
+
+::: {.callout-note collapse="true" title="Model answer: access with verification"}
+
+The ethical duty continues after death (Code, Art. 51(3)), but heirs and relatives in direct and collateral line up to the fourth degree may see the health information and obtain copies (Health Act, Art. 28b(3)). A daughter falls within this group.
+
+Before release, the hospital verifies the requester's identity and relationship, records the request, and sends the copies through a secure channel. The information goes only to the entitled person and does not become public.
+
+The possibility of a complaint is no ground to refuse. Confidentiality protects the patient, not the reputation of the department, and cannot be used to hide a possible error. The records are released in full and unaltered, and the family can be offered a meeting to discuss the course of care.
+
+:::
+
+## Task 6. One disclosure, several kinds of liability — 10 minutes
+
+### Case E: dinner at home
+
+Over dinner, a midwife tells her husband about the women she examined that day and names some of them. The husband later repeats one story to a neighbour, who recognises the patient.
+
+1. What degree of breach is this?
+2. Fill in a table with five rows, one for each kind of liability: basis, who decides, possible outcome.
+3. What would have to be true for criminal liability under Article 145 of the Penal Code?
+
+::: {.callout-note collapse="true" title="Model answer: independent kinds of liability"}
+
+This is a second-degree breach: identifiable information was given to an unauthorised person. Once the story spreads further and the patient is recognised, it approaches the third degree.
+
+| Kind | Basis | Who decides | Possible outcome |
+|:--|:--|:--|:--|
+| Professional | Her professional body's ethics code | The midwives' professional organisation | A professional penalty |
+| Disciplinary | Labour Code, Arts. 186, 187(1)(10) | The employer | Reprimand, warning, dismissal (Art. 188) |
+| Administrative | Health Act, Arts. 28c and 229 | Health inspection bodies | Fine |
+| Civil | Obligations and Contracts Act, Arts. 45, 49, 52 | Court, on the patient's claim | Damages, including non-pecuniary |
+| Criminal | Penal Code, Arts. 145(1), 161(1) | Court, on the patient's complaint | Imprisonment up to one year or a fine |
+
+The Code of Professional Ethics for Physicians and the Professional Organisations of Physicians and Dentists Act apply to doctors; a midwife answers to her own professional organisation and code. Criminal liability requires that the secret could damage the patient's good name, that it was learned in connection with the midwife's occupation, that the disclosure was unlawful, and that the patient files a complaint. The hospital may also be liable under Article 49 of the Obligations and Contracts Act for harm caused by its employee.
+
+:::
+
+## Disclosure record — 5 minutes
+
+Write the record you would make in Case A if you decided to disclose. Use the four questions from the presentation: who received the information, on what basis, which details, and through which channel. Add when and how the patient was told beforehand.
+
+::: {.callout-note collapse="true" title="Guidance for the record"}
+
+The record names the recipient and their relationship to the patient, cites Article 28(1)(2) and (2) of the Health Act, and lists exactly what was said. It states the channel, for example a private consultation, and the date. It documents the earlier steps: counselling, the offer of joint disclosure, the deadline, the consultation with colleagues or the ethics committee, and the notice given to the patient before disclosure.
+
+:::
+
+## Individual closing task — 5 minutes
+
+Answer briefly without opening the model answers:
+
+1. Write one rule you will follow on the ward to protect confidentiality.
+2. Name one situation where you are obliged to report even though the patient objects, and give the legal basis.
+3. Explain in one sentence why "the family has a right to know" is usually wrong.
+
+### Feedback criteria
+
+A complete answer names the specific legal basis and the recipient, applies the minimum-necessary rule, and records the steps taken before disclosure. In Case C it identifies the regional health inspectorate, not the employer, as the recipient. In Case E it separates the five kinds of liability and states the conditions for criminal liability. Listing ethical principles without applying them to the facts does not meet the task.

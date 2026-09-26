@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-09-20",
+  updated: "2026-09-26",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -560,6 +560,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-informed-consent-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-informed-consent-en.html" }
                   ]
+                },
+                {
+                  title: "Class 3 · Medical confidentiality",
+                  description: "Concept and ethical foundations, health information and permitted disclosure under the Health Act, degrees of breach, digital confidentiality, and the physician's professional, disciplinary, administrative, civil and criminal liability.",
+                  tags: ["ethics", "medical confidentiality", "health law", "legal liability"],
+                  date: "2026-09-26",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-03-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-confidentiality-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-confidentiality-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -710,6 +722,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-informed-consent-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-informed-consent-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 3 · Медицинска тайна",
+                  description: "Понятие и етични основания, здравна информация и допустимо предоставяне по Закона за здравето, степени на нарушение, дигитална поверителност и съсловна, дисциплинарна, административна, гражданска и наказателна отговорност на лекаря.",
+                  tags: ["етика", "медицинска тайна", "здравно законодателство", "правна отговорност"],
+                  date: "2026-09-26",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-03-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-confidentiality-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-confidentiality-bg.html" }
                   ]
                 }
               ],

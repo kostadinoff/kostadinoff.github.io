@@ -2,6 +2,8 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/medical-ethics-confidentiality-bg.html",
+      "/learning-tasks/medical-ethics-confidentiality-en.html",
       "/learning-tasks/medical-ethics-informed-consent-bg.html",
       "/learning-tasks/medical-ethics-informed-consent-en.html",
       "/learning-tasks/dental-public-health-introduction.html",
@@ -79,6 +81,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/15-minute-learning/medical-ethics-confidentiality-bg.html",
+      "/15-minute-learning/medical-ethics-confidentiality-en.html",
+      "/learning-tasks/medical-ethics-confidentiality-en.html",
+      "/learning-tasks/medical-ethics-confidentiality-bg.html",
       "/15-minute-learning/medical-ethics-informed-consent-bg.html",
       "/15-minute-learning/medical-ethics-informed-consent-en.html",
       "/learning-tasks/medical-ethics-informed-consent-bg.html",
@@ -164,6 +170,8 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/medical-ethics-confidentiality-bg.html",
+      "/15-minute-learning/medical-ethics-confidentiality-en.html",
       "/15-minute-learning/medical-ethics-informed-consent-bg.html",
       "/15-minute-learning/medical-ethics-informed-consent-en.html",
       "/15-minute-learning/dental-public-health-introduction.html",

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-09-26">
+<meta name="description" content="A 15-minute reading before the third class: the concept and ethical foundations of medical confidentiality, health information and permitted disclosure under the Bulgarian Health Act, degrees of breach, digital confidentiality and the physician’s legal liability.">
 
-<title>Kostadin Kostadinov</title>
+<title>Medical confidentiality: when to keep, share or report – Kostadin Kostadinov</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,29 +32,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-f1dc749df20b1e08b3a4856047134027.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-55d0e057869ad88b5495b2227f7019fc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-f1dc749df20b1e08b3a4856047134027.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f1dc749df20b1e08b3a4856047134027.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55d0e057869ad88b5495b2227f7019fc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f1dc749df20b1e08b3a4856047134027.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,77 +81,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="assets/teaching.css">
-<meta name="twitter:title" content="Kostadin Kostadinov">
-<meta name="twitter:description" content="Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv">
-<meta name="twitter:image" content="https://kostadinoff.github.io/face_new.jpg">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="Medical confidentiality: when to keep, share or report – Kostadin Kostadinov">
+<meta name="twitter:description" content="A 15-minute reading before the third class: the concept and ethical foundations of medical confidentiality, health information and permitted disclosure under the Bulgarian Health Act, degrees of breach, digital confidentiality and the physician’s legal liability.">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -327,7 +269,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
   </div>
@@ -338,11 +280,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -351,37 +293,37 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="./slides.html">
+    <a class="dropdown-item" href="../slides.html">
  <span class="dropdown-text">Teaching materials</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learning.html">
+    <a class="dropdown-item" href="../learning.html">
  <span class="dropdown-text">15-minute learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./tasks.html">
+    <a class="dropdown-item" href="../tasks.html">
  <span class="dropdown-text">Learning tasks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./study-guide.html">
+    <a class="dropdown-item" href="../study-guide.html">
  <span class="dropdown-text">Study guides</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./epinews.html"> 
+    <a class="nav-link" href="../epinews.html"> 
 <span class="menu-text">Epi News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./kkstatfun.html"> 
+    <a class="nav-link" href="../kkstatfun.html"> 
 <span class="menu-text">kkstatfun</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lab.html"> 
+    <a class="nav-link" href="../lab.html"> 
 <span class="menu-text">Lab</span></a>
   </li>  
 </ul>
@@ -402,7 +344,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./epinews.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -415,167 +357,133 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Medical confidentiality: when to keep, share or report</h1>
+                  <div>
+        <div class="description">
+          A 15-minute reading before the third class: the concept and ethical foundations of medical confidentiality, health information and permitted disclosure under the Bulgarian Health Act, degrees of breach, digital confidentiality and the physician’s legal liability.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">English</div>
+                <div class="quarto-category">Medical Ethics</div>
+                <div class="quarto-category">Medicine | 2nd year</div>
+                <div class="quarto-category">2026/2027</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 26, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#three-related-concepts" id="toc-three-related-concepts" class="nav-link active" data-scroll-target="#three-related-concepts">Three related concepts</a></li>
+  <li><a href="#what-it-covers-and-whom-it-binds" id="toc-what-it-covers-and-whom-it-binds" class="nav-link" data-scroll-target="#what-it-covers-and-whom-it-binds">What it covers and whom it binds</a></li>
+  <li><a href="#when-information-may-be-disclosed" id="toc-when-information-may-be-disclosed" class="nav-link" data-scroll-target="#when-information-may-be-disclosed">When information may be disclosed</a></li>
+  <li><a href="#the-minimum-necessary-rule" id="toc-the-minimum-necessary-rule" class="nav-link" data-scroll-target="#the-minimum-necessary-rule">The minimum-necessary rule</a></li>
+  <li><a href="#relatives-the-deceased-and-children" id="toc-relatives-the-deceased-and-children" class="nav-link" data-scroll-target="#relatives-the-deceased-and-children">Relatives, the deceased and children</a></li>
+  <li><a href="#degrees-of-breach-and-digital-risks" id="toc-degrees-of-breach-and-digital-risks" class="nav-link" data-scroll-target="#degrees-of-breach-and-digital-risks">Degrees of breach and digital risks</a></li>
+  <li><a href="#legal-liability" id="toc-legal-liability" class="nav-link" data-scroll-target="#legal-liability">Legal liability</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="face_new.jpg" class="about-image
-  rounded " style="width: 17em;">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-    <div class="about-links">
-  <a href="https://github.com/kostadinoff" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=nQOcsJkAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text">Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0003-1414-8738" class="about-link" rel="" target="">
-    <i class="bi bi-person-vcard"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-  <a href="https://www.linkedin.com/in/kostadinovmd/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=57542360900" class="about-link" rel="" target="">
-    <i class="bi bi-fingerprint"></i>
-     <span class="about-link-text">Scopus</span>
-  </a>
-  <a href="https://www.webofscience.com/wos/author/record/AEE-9300-2022" class="about-link" rel="" target="">
-    <i class="bi bi-diagram-3-fill"></i>
-     <span class="about-link-text">Web of Science</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<p>I’m Dr.&nbsp;Kostadin Kostadinov, a medical doctor, Chief Assistant Professor and researcher in the Department of Social Medicine and Public Health at the Medical University of Plovdiv, Bulgaria.</p>
-<p>I hold an MD and PhD, as well as an MPH from MU–Plovdiv. I also completed an MSc in Economics and Finance and a Master’s in Impact Assessment and Policy Appraisal from Sofia University, and a Master’s in Statistical Business Consulting from the D. A. Tsenov Academy of Economics in Svishtov. I am currently pursuing a Master’s degree in Law at Burgas Free University.</p>
-<p>Alongside my academic work, I am training as a resident physician in Infectious Disease Epidemiology at MU–Plovdiv and serve as an Associate Editor of the Journal of Medical Internet Research (JMIR).</p>
-<p>I am the founder of the <a href="./lab.html">Social Epidemiology Lab</a>, a private research company dedicated to advancing evidence-based approaches in social medicine, public health, and health policy.</p>
-<p>My academic and professional interests focus on <strong>data science</strong>, <strong>epidemiology</strong>, <strong>policy evaluation</strong>, and <strong>health services research</strong>.</p>
-<p>This website serves as a space to share my research projects, my R packages (like <a href="./kkstatfun.html">kkstatfun</a>), <a href="./slides.html">teaching materials</a>, 15-minute learning materials, learning tasks, and reflections on public health and social epidemiology. All learning and task materials are developed in collaboration with my colleagues, although I bear full responsibility for any errors or omissions.</p>
-<p>All opinions expressed here are my own and do not necessarily represent the views of any affiliated institution or organization.</p>
-<hr>
-<section id="what-i-do" class="level2">
-<h2 data-anchor-id="what-i-do">What I do</h2>
-<div class="home-areas grid">
-<div class="g-col-12 g-col-md-6">
-<div class="home-area">
-<p><i class="bi bi-journal-medical"></i></p>
-<section id="research" class="level3">
-<h3 data-anchor-id="research">Research</h3>
-<p>Research in epidemiology, health economics, and policy evaluation — published in peer-reviewed journals with reproducible code and open data.</p>
-<p><a href="./CV.html" class="home-area-link">Explore my CV →</a></p>
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-03-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-confidentiality-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-confidentiality-bg.html">Български</a></p>
+<p>Allow about <strong>15 minutes</strong> to read and reflect. This material follows the presentation “Medical confidentiality: ethical foundations and legal liability”. Afterwards you should be able to name the grounds for disclosing health information without consent, apply the minimum-necessary rule, and distinguish the kinds of legal liability that a breach can create. The legal rules are Bulgarian; the English wording of statutes is a teaching translation.</p>
+<section id="three-related-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="three-related-concepts">Three related concepts</h2>
+<p><strong>Medical secrecy</strong> covers information about the patient learned during or in connection with healthcare. <strong>Confidentiality</strong> is the duty not to disclose or use that information beyond its permitted purpose. <strong>Data protection</strong> governs the whole life cycle of the information: collection, access, sharing, storage and deletion. The concepts are related but not interchangeable. Discussing a patient in front of outsiders breaches confidentiality even when no electronic record exists. Opening an electronic record without authorisation is a breach even if nothing is retold.</p>
+<p>The moral basis of confidentiality lies in autonomy and non-maleficence. Patients reasonably expect to decide who learns about their health. Disclosure can cause shame, family conflict, job loss, discrimination and stigma. With mental, genetic, infectious and reproductive conditions, the harm often comes from how others react rather than from the diagnosis itself. Confidentiality also protects trust. People who expect their diagnosis to become known hide facts or delay testing, so a breach harms the patient, the clinical decision and public health at once. Confidentiality is the patient’s right and the professional’s duty, not the doctor’s privilege.</p>
 </section>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="home-area">
-<p><i class="bi bi-easel"></i></p>
-<section id="teaching" class="level3">
-<h3 data-anchor-id="teaching">Teaching</h3>
-<p>Lecture slides, handouts, 15-minute guides, and interactive notebooks for public health students.</p>
-<p><a href="./slides.html" class="home-area-link">Browse materials →</a></p>
+<section id="what-it-covers-and-whom-it-binds" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-covers-and-whom-it-binds">What it covers and whom it binds</h2>
+<p>The Bulgarian Health Act uses the term <strong>health information</strong> (Art. 27). It means personal data on health status and on physical and mental development, and any information in prescriptions, orders, reports, certificates and other medical records. The fact of a visit, images, samples and data from medical devices are protected too. Protection does not depend on whether the patient called something a secret, or on the professional’s view that it is harmless.</p>
+<p>Article 28c prohibits healthcare professionals and staff of healthcare establishments from disclosing information about a patient obtained in the course of their duties. The duty binds the whole team: doctors, nurses, midwives, laboratory staff, administrators, students and trainees. Members of the treating team share what they need. That is not free access for everyone in the hospital: a doctor from another ward who is not involved in the patient’s care is an outsider to the case.</p>
+<p>The Code of Professional Ethics for Physicians in Bulgaria, Section IV, is stricter than the statutory minimum. Medical secrecy covers what the patient shared, what examination and tests revealed, and everything the doctor learned about the patient in practice (Art. 51(1)). It applies to the patient’s family and continues after death (Art. 51(2)–(3)). It extends to records, illustrative material and consultations (Art. 52). Doctors treating the same patient are released from secrecy among themselves unless the patient has a reasoned objection (Art. 53). Research and teaching may use the information only with guaranteed anonymity (Art. 54). Where the law requires reporting to an institution, the doctor is released from the duty of secrecy (Art. 55).</p>
 </section>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="home-area">
-<p><i class="bi bi-code-square"></i></p>
-<section id="kkstatfun" class="level3">
-<h3 data-anchor-id="kkstatfun">kkstatfun</h3>
-<p>An R toolkit for medical statistics — from 2×2 tables to causal inference, survival, and HTA.</p>
-<p><a href="./kkstatfun.html" class="home-area-link">View the package →</a></p>
+<section id="when-information-may-be-disclosed" class="level2">
+<h2 class="anchored" data-anchor-id="when-information-may-be-disclosed">When information may be disclosed</h2>
+<p>The first basis is the patient’s own wish. A patient may authorise another person in writing to see their records and make copies (Art. 28b(2)). The authorisation should make clear who receives what information and for what purpose. A general “you can talk to my family” often needs clarifying.</p>
+<p>Without consent, health information may be disclosed to third parties only in the situations listed in Article 28(1) of the Health Act:</p>
+<ol type="1">
+<li>treatment continues in another healthcare establishment;</li>
+<li>there is a threat to the health or life of other persons;</li>
+<li>it is needed to identify a body or establish the cause of death;</li>
+<li>it is needed for state health control to prevent epidemics and the spread of communicable diseases;</li>
+<li>it is needed for medical expertise and social insurance;</li>
+<li>it is needed for medical statistics or research after the identifying data have been removed;</li>
+<li>it is needed by the Ministry of Health, the National Centre for Health Information, the National Health Insurance Fund, the regional health inspectorates or the National Statistical Institute;</li>
+<li>it is needed by specified insurers under the Insurance Code.</li>
+</ol>
+<p>Where others are threatened, the patient must be notified before the information is disclosed (Art. 28(2)). Other laws create reporting duties. Under Article 7(2) of the Child Protection Act, anyone who learns through their profession that a child needs protection must report it immediately to social services, the State Agency for Child Protection or the police, even when bound by professional secrecy.</p>
 </section>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="home-area">
-<p><i class="bi bi-building"></i></p>
-<section id="social-epi-lab" class="level3">
-<h3 data-anchor-id="social-epi-lab">Social Epi Lab</h3>
-<p>Independent analytics for universities, clinicians, NGOs, and public institutions.</p>
-<p><a href="./lab.html" class="home-area-link">Learn more →</a></p>
+<section id="the-minimum-necessary-rule" class="level2">
+<h2 class="anchored" data-anchor-id="the-minimum-necessary-rule">The minimum-necessary rule</h2>
+<p>A legal basis does not suspend the principle of minimum necessity. Before disclosing, the professional must answer four questions: who is the recipient, on what basis they receive the data, exactly which details are needed, and through which secure channel they will be sent. If any answer is unclear, disclosure stops until it has been checked. A regional health inspectorate investigating an outbreak does not receive unrelated psychiatric history. A team taking over care receives what it needs for safe continuity, not unlimited access.</p>
+<p>A threat to a third party is among the hardest dilemmas. The assessment asks whether the harm is serious, likely and preventable, whether the person at risk can be identified, and whether a less intrusive way of reducing the risk exists. Talking with the patient, encouraging them to inform those affected, and consulting colleagues or a medical ethics committee usually come before disclosure. A genetic result raises a similar conflict because it also reveals a risk to relatives. The usual approach is to counsel the patient and support them in telling their relatives themselves.</p>
 </section>
-</div>
-</div>
-</div>
-<hr>
+<section id="relatives-the-deceased-and-children" class="level2">
+<h2 class="anchored" data-anchor-id="relatives-the-deceased-and-children">Relatives, the deceased and children</h2>
+<p>A spouse, the parent of an adult patient, an adult child and a close friend are third parties unless the patient has authorised them. Kinship and good intentions do not create an automatic right to a diagnosis, prognosis or past treatment. A husband in the room is not permission to share every detail. Particular care is needed with a previous pregnancy or abortion, an infection, psychiatric treatment, a genetic result or abuse.</p>
+<p>The ethical duty continues after death, but the records do not become completely inaccessible. Heirs and relatives in direct and collateral line up to the fourth degree may see the health information of the deceased and obtain copies (Art. 28b(3)). The information does not become public. It is released to the entitled person after their identity and basis have been checked.</p>
+<p>With a child, the parent has access because of their responsibility for health decisions. An adolescent should know in advance how far the conversation will stay confidential. Absolute secrecy must not be promised where serious risk of abuse, self-harm or grave harm might emerge.</p>
 </section>
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent posts</h2>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QnVsZ2FyaWFuJTJDTWVkaWNhbCUyMEV0aGljcyUyQ01lZGljaW5lJTIwJTdDJTIwMm5kJTIweWVhciUyQzIwMjYlMkYyMDI3" data-listing-date-sort="1790370000000" data-listing-file-modified-sort="1790414002366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1614">
-<a href="./15-minute-learning/medical-ethics-confidentiality-bg.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Медицинска тайна: кога пазим, кога споделяме, кога съобщаваме
-</h5>
-<div class="card-text listing-description delink">
-<p>Материал за 15-минутна подготовка към третото упражнение: понятие и етични основания на медицинската тайна, здравна информация и допустимо предоставяне по Закона за…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW5nbGlzaCUyQ01lZGljYWwlMjBFdGhpY3MlMkNNZWRpY2luZSUyMCU3QyUyMDJuZCUyMHllYXIlMkMyMDI2JTJGMjAyNw==" data-listing-date-sort="1790370000000" data-listing-file-modified-sort="1790414032006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1706">
-<a href="./15-minute-learning/medical-ethics-confidentiality-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Medical confidentiality: when to keep, share or report
-</h5>
-<div class="card-text listing-description delink">
-<p>A 15-minute reading before the third class: the concept and ethical foundations of medical confidentiality, health information and permitted disclosure under the Bulgarian…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW5nbGlzaCUyQ01lZGljYWwlMjBFdGhpY3MlMkNBc3NpZ25tZW50JTJDTWVkaWNpbmUlMjAlN0MlMjAybmQlMjB5ZWFyJTJDMjAyNiUyRjIwMjc=" data-listing-date-sort="1790370000000" data-listing-file-modified-sort="1790414079167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2149">
-<a href="./learning-tasks/medical-ethics-confidentiality-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Medical Ethics, Class 3: Medical Confidentiality in Practice
-</h5>
-<div class="card-text listing-description delink">
-<p>A 75-minute group exercise after the 15-minute reading: a threat to a partner, careless disclosure on the ward, a communicable disease and the employer, access to records…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./epinews.html" class="btn btn-outline-primary" role="button">Epi News →</a> <a href="./blog.html" class="btn btn-outline-primary" role="button">Blog →</a> <a href="./learning.html" class="btn btn-outline-primary" role="button">15-minute learning →</a></p>
+<section id="degrees-of-breach-and-digital-risks" class="level2">
+<h2 class="anchored" data-anchor-id="degrees-of-breach-and-digital-risks">Degrees of breach and digital risks</h2>
+<p>The law sets no scale of breaches. For teaching purposes, four degrees are distinguished. The zero degree is lawful sharing for care. The first is careless disclosure with low identifiability. The second is disclosure to an unauthorised person, or access without a work-related need. The third is deliberate, public or large-scale spread of identifiable data. Identification does not require a name: a rare diagnosis, age, occupation, place and a photograph can together make a person recognisable. Lack of intent does not remove the breach. Intent affects the type and extent of liability.</p>
+<p>Electronic records improve continuity but widen the circle of people who can reach the data. Access follows role and need, logins are never shared, and every opening of a record must be traceable. Work access does not allow looking up a relative, colleague or public figure. Personal messaging apps, photos of wounds or screens, and entering clinical data into external artificial-intelligence tools create unmanageable risk. After a breach, contain the incident, report it at once through internal channels, assess the data and the people affected, and notify the supervisory authority and the patient where required. Concealment increases the harm.</p>
+</section>
+<section id="legal-liability" class="level2">
+<h2 class="anchored" data-anchor-id="legal-liability">Legal liability</h2>
+<p>One act can give rise to several independent kinds of liability.</p>
+<ul>
+<li><strong>Professional.</strong> A doctor answers for breaching the Code of Professional Ethics before the ethics committee of the regional college of the Bulgarian Medical Association (Professional Organisations of Physicians and Dentists Act, Arts. 37(1)(1) and 39). Penalties under Article 38 are a reprimand, a fine of one to five minimum monthly wages, and removal from the college register for three months to one year. Under Article 42(1), these penalties do not exclude criminal, civil or disciplinary liability.</li>
+<li><strong>Employment-disciplinary.</strong> Culpable failure to perform work duties, including duties set by law and by internal rules, breaches labour discipline (Labour Code, Arts. 186 and 187(1)(10)). The penalties are a reprimand, a warning of dismissal and dismissal (Art. 188).</li>
+<li><strong>Administrative.</strong> The Health Act provides a fine for breaching its provisions, including the prohibition in Article 28c (Art. 229), and a sanction for a healthcare establishment that violates patients’ rights (Art. 221). The person affected may complain to the Commission for Personal Data Protection within six months of learning of the breach (Personal Data Protection Act, Art. 38). The data controller faces sanctions under Article 83 of Regulation (EU) 2016/679.</li>
+<li><strong>Civil.</strong> Everyone must repair harm they culpably cause to another, and fault is presumed (Obligations and Contracts Act, Art. 45). The healthcare establishment is liable for harm caused by staff in or in connection with their work (Art. 49). Non-pecuniary harm, such as shame and stigma, is assessed by the court on an equitable basis (Art. 52). Damages may also be claimed under Article 39(2) of the Personal Data Protection Act.</li>
+<li><strong>Criminal.</strong> Anyone who unlawfully discloses another person’s secret that could damage someone’s good name, entrusted to them or learned in connection with their occupation, faces imprisonment of up to one year or a fine (Penal Code, Art. 145(1)). Prosecution begins on the victim’s complaint (Art. 161(1)). Not every disclosure is a crime, but it may still be a serious ethical and disciplinary breach.</li>
+</ul>
+<p>Confidentiality cannot be used to hide a professional error, abuse or any other wrongdoing. It protects the patient, not the reputation of the department.</p>
+<p>Before you open the <a href="../learning-tasks/medical-ethics-confidentiality-en.html">student tasks</a>, try to answer in three sentences: when you keep information, when you share it, and when you must report it. If you can name the legal basis and the recipient for each, you are ready for the cases.</p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -591,6 +499,13 @@ Sep 26, 2026
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

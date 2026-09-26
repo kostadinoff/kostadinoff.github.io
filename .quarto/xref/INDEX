@@ -269,5 +269,17 @@
   },
   "learning-tasks/medical-ethics-informed-consent-en.qmd": {
     "medical-ethics-informed-consent-en.html": "8cf5f42e"
+  },
+  "15-minute-learning/medical-ethics-confidentiality-bg.qmd": {
+    "medical-ethics-confidentiality-bg.html": "ddbe7f8e"
+  },
+  "15-minute-learning/medical-ethics-confidentiality-en.qmd": {
+    "medical-ethics-confidentiality-en.html": "ce605032"
+  },
+  "learning-tasks/medical-ethics-confidentiality-en.qmd": {
+    "medical-ethics-confidentiality-en.html": "db395b59"
+  },
+  "learning-tasks/medical-ethics-confidentiality-bg.qmd": {
+    "medical-ethics-confidentiality-bg.html": "27c32463"
   }
 }
