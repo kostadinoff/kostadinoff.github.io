@@ -490,6 +490,10 @@ Presenter roles are stated where documented. Entries marked **Co-author** were p
 
 ## National
 
+`26 September 2026`
+
+- **8th National Conference of Epidemiology "One Health in a Dynamic Global World"** | Stara Zagora | *"Epidemiological Burden and Cost-Effectiveness of Universal Varicella Vaccination in Bulgaria: An Analysis of National Administrative Data with Dynamic Modelling"* | **Kostadinov K**, Raycheva R, Kevorkyan A, Rangelova V, Parmakova K | Oral presentation | Presenter
+
 `17–18 April 2026`
 
 - **Science and Youth 2026** | Plovdiv | *"Application of the Evidence-Based Psychotherapy Focusing on the Correlation Between Early Dysfunctional Schemas and Current Capabilities"* | Velchev V, Cherneva M, **Kostadinov K**, Stoyanova K, Arabadzhiev Z | Co-author
@@ -636,6 +640,8 @@ Presenter roles are stated where documented. Entries marked **Co-author** were p
 - **Associate Editor** | *JMIRx Med*, JMIR Publications (see *Editorial and peer-review service*)
 
 ## Professional memberships — international
+
+`Since 2026` [Balkan Association for Vector-Borne Diseases (BAVBD)](https://www.bavbd.org/epidemiology-and-biostatistics-task-force/k-konst) | Member, Epidemiology and Biostatistics Task Force
 
 `Since 2026` American College of Epidemiology (ACE) | Member (MACE)
 
