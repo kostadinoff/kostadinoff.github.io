@@ -1,0 +1,133 @@
+---
+title: "Epidemiological News: Weeks 37–38, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-10-04
+description: "Weeks 37–38 of 2026 (7–20 September) brought further geographic expansion of Bundibugyo Ebola disease in the Democratic Republic of the Congo, where ECDC reported 7,475 confirmed cases and 3,605 deaths through 16 September; the outbreak had reached seven provinces, although an internal inconsistency in the preceding bulletin prevents a reliable ECDC week-to-week calculation ([ECDC Week 38](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf)). European surveillance recorded 180 West Nile virus affected areas in sixteen countries, while locally acquired chikungunya reached 75 cases in France and one in Italy; Frankfurt airport-associated malaria increased to eight cases with three deaths, and Denmark investigated six severe cases of botulism following injected botulinum toxin ([ECDC](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf)). EMA recommended twelve medicines for approval and narrowed the proposed indications of ipidacrine, including products authorised in Bulgaria ([CHMP highlights](https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026), [ipidacrine review](https://www.ema.europa.eu/en/news/ema-concludes-review-ipidacrine-containing-medicines)). In Bulgaria, measles notifications declined from eleven to seven, while two probable West Nile fever cases were added in Week 38; hepatitis ABCDEN increased from 25 to 30 notifications and salmonellosis from 23 to 33, while campylobacteriosis fell from seventeen to seven ([district bulletins](https://ncpha.government.bg/index/3296-zarazni-zaboliavania.html), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf)). Despite these variable weekly movements, cumulative excesses remained substantial for hepatitis (+27.5%), campylobacteriosis (+43.9%), rotavirus gastroenteritis (+24.0%), gonorrhoea (+121.4%) and urogenital chlamydial infection (+106.2%); aggregate notifications cannot separate changes in transmission from changes in testing and reporting ([NCIPD](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf))."
+categories:
+  - "English"
+title-meta: "Epidemiological News: Weeks 37–38, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-04
+---
+
+## Non-Communicable Disease and Healthcare System Developments
+
+### EMA Medicine Assessment and Availability
+
+#### September CHMP — New Opinions and Evidence Requirements
+
+EMA's human medicines committee, meeting on 14–17 September, recommended twelve medicines for approval. These included ***Frehemgo*** (denecimig) for bleeding prophylaxis in haemophilia A, ***Klygefa*** (gefurulimab) for generalised myasthenia gravis, and ***VaxRabeo***, an inactivated rabies vaccine for pre-exposure and post-exposure prophylaxis across age groups. The committee also supported two biosimilars, including ***Pebrilzo*** (pertuzumab), the first recommended under EMA's tailored clinical approach. For Bulgarian services, these opinions identify prospective treatment and procurement options; a positive CHMP opinion does not establish that a product is already authorised, reimbursed or available nationally. The distinction is especially relevant when anticipating access to specialist medicines and prophylactic products. [EMA's September CHMP highlights](https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026).
+
+#### Ipidacrine — Restricting Uses to the Available Evidence
+
+On 18 September, EMA announced the conclusion of its ipidacrine review, recommending narrower, more clearly defined indications and removal of uses including neuritis, polyradiculoneuropathy and demyelinating diseases. The assessment identified small studies, inadequate comparators and other methodological weaknesses; some established uses were also inconsistent with current standards of care. Ipidacrine products are authorised in Bulgaria, making the review directly relevant to domestic prescribing. EMA identified no new safety concern, but stated that liver toxicity could not be excluded and highlighted caution above 80 mg daily and in patients with abnormal liver function. The committee's opinion still required a European Commission decision. This is a reassessment of the evidence supporting particular uses, rather than evidence that all symptomatic benefit has been disproved. [EMA's ipidacrine review](https://www.ema.europa.eu/en/news/ema-concludes-review-ipidacrine-containing-medicines).
+
+#### Sodium Oxybate — Continued Use with Additional Efficacy Studies
+
+EMA also retained a favourable benefit–risk assessment for sodium oxybate syrup and oral solution at 175 mg/ml in alcohol dependence, while recommending further efficacy studies because existing post-authorisation evidence had methodological limitations. The review concerned products authorised for these uses in Austria and Italy; the 500 mg/ml formulation used for narcolepsy was outside its scope. No new abuse or misuse safety signal was identified. For Bulgarian interpretation of regulatory evidence, the useful distinction is between continued authorisation subject to further evidence generation and a newly demonstrated treatment effect; the announcement supplied no basis for claiming a quantified improvement in abstinence or withdrawal outcomes. [EMA's sodium oxybate review](https://www.ema.europa.eu/en/news/benefits-sodium-oxybate-continue-outweigh-risks-people-alcohol-dependency).
+
+### Healthcare-Associated Harm
+
+#### Denmark — Botulism Following Botulinum Toxin Treatment
+
+ECDC's Week 38 bulletin described six severe, hospitalised cases of iatrogenic botulism following cosmetic or hyperhidrosis treatment in Denmark, initially reported by the Danish Patient Safety Authority on 9 September. An unapproved product or unauthorised treatment setting was suspected, but neither the product nor the source had been confirmed. ECDC assessed general-population risk as low and emphasised the potential for greater risk among people receiving procedures in informal settings. For Bulgarian clinical surveillance, recent botulinum toxin administration is therefore relevant to the investigation of compatible neurological illness. This event concerns injected toxin exposure and should not be counted as evidence of a foodborne outbreak or ordinary person-to-person transmission. [ECDC Week 38, botulism assessment](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf#page=9).
+
+---
+
+## Infectious Diseases: Global Perspective
+
+### Contact and Body-Fluid Transmission
+
+#### Bundibugyo Ebola Disease — Expansion with Inconsistent Interim Reporting
+
+WHO's Disease Outbreak News dated 10 September reported 6,757 confirmed cases and 3,267 deaths in the Democratic Republic of the Congo through 7 September, a crude cumulative case fatality ratio of 48.3%. Sixty-one health zones in six provinces had been affected. WHO attributed the continued rise to sustained transmission alongside improved surveillance, diagnostic capacity and reconciliation of previously unreported data; notification growth therefore cannot be interpreted as a direct measure of transmission acceleration. [WHO Disease Outbreak News, DON617](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617).
+
+The ECDC Week 37 PDF contains different totals for the same 9 September cutoff: 6,842 cases in its executive summary and 6,942 in the detailed account. Neither is selected here as a definitive baseline. The Week 38 bulletin subsequently reported 7,475 confirmed cases and 3,605 deaths through 16 September, with seven provinces affected following the addition of Sud Ubangi. The later total documents continued expansion, but a precise increase from the internally inconsistent Week 37 figure would convey unjustified certainty. [ECDC Week 37](https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-37-2026.pdf), [ECDC Week 38](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+WHO described transmission through contact with infected body fluids and contaminated materials, with amplification in healthcare settings and unsafe burials; no approved Bundibugyo-specific vaccine or treatment was available. For Bulgaria, the clinical implication remains prompt recognition of compatible illness with an appropriate exposure history. ECDC continued to assess infection likelihood for the EU/EEA population as very low, which is compatible with maintaining preparedness for an uncommon but consequential imported infection. The cumulative deaths-to-cases ratio is descriptive and does not estimate prognosis in a completed patient cohort. [WHO DON617](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617), [ECDC Week 38](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+### Zoonotic Transmission
+
+#### Chile — Validation of Dog-Transmitted Rabies Elimination
+
+On 14 September, WHO validated Chile's elimination of dog-transmitted rabies as a public health problem, the first such validation in South America. The assessment required evidence of sustained absence of human disease transmitted by dogs together with surveillance, laboratory, vaccination and response capacity capable of preventing re-emergence. This is a defined elimination milestone, not a declaration that every animal reservoir or exposure risk has disappeared. For Bulgarian One Health practice, it illustrates why an absence of notified human cases needs to be interpreted alongside veterinary surveillance and access to post-exposure care. [WHO's Chile validation announcement](https://www.who.int/news/item/14-09-2026-chile-becomes-first-country-in-south-america-validated-for-eliminating-dog-transmitted-rabies-as-a-public-health-problem).
+
+---
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Vector-Borne Transmission
+
+#### West Nile Virus, Chikungunya and Dengue
+
+ECDC identified 161 West Nile virus affected areas in fifteen European countries by 10 September, increasing to 180 areas in sixteen countries by 17 September. The later report included 1,482 locally acquired human infections. These are different indicators: affected areas describe geographic spread, whereas cases describe reported human disease. The regional picture is pertinent to Bulgaria because neighbouring Greece and Romania were among the affected countries; it does not establish the acquisition location of any Bulgarian notification. [ECDC Week 37](https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-37-2026.pdf), [ECDC Week 38](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+Locally acquired chikungunya increased from 57 to 75 cases in France between the 9 and 16 September updates; Italy reported one case, its first of the season, in Rome. Locally acquired dengue in Italy rose from 24 to 37 cases, while France remained at five. These cumulative updates document additional ascertainment in affected settings; they do not date every infection to the week of publication. For Bulgarian travellers and clinicians, an exposure history within Europe can therefore be relevant to suspected arboviral illness. Spain's four reported Crimean-Congo haemorrhagic fever cases were unchanged and are included for surveillance continuity, rather than as a new escalation. [ECDC Week 37](https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-37-2026.pdf), [ECDC Week 38](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+#### Frankfurt — Airport-Associated Malaria Beyond Airport Workers
+
+By 18 September, the Frankfurt investigation included eight *Plasmodium falciparum* infections: six airport workers and two people living nearby, with three deaths. None reported travel to a malaria-endemic area. ECDC considered multiple introductions of infectious mosquitoes likely but could not exclude involvement of local *Anopheles* mosquitoes; investigation of transmission links continued. The risk to the general population remained very low. Compared with the six cases and two deaths described in the preceding edition, the geographical exposure history had broadened beyond employment at the airport. For Bulgarian diagnostic practice, unexplained fever after an airport-associated exposure should therefore not be dismissed solely because a patient has no conventional malaria travel history. [ECDC Week 38, Frankfurt investigation](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf#page=8).
+
+### Environmental and Waterborne Exposure
+
+#### Vibrio — Continued Suitability along the Bulgarian Coast
+
+The Week 38 forecast identified high environmental suitability for *Vibrio* growth in twelve municipalities across three countries through 23 September. Nine were in Bulgaria: Avren, Dolni Chiflik and Varna in Varna region, and six municipalities in Burgas region. This is an environmental forecast extending beyond the reporting fortnight, not a count of infections or a finding of contaminated bathing water in every listed municipality. Its relevance to the Bulgarian Black Sea coast is the persistence of favourable conditions for exposure, even as summer ends; it cannot quantify human morbidity or establish an outbreak. [ECDC Week 38, Vibrio forecast](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+### Respiratory and Droplet Transmission
+
+#### Respiratory Viruses — Early Increases within a Low-Activity Period
+
+The Week 38 CDTR, using Week 37 respiratory surveillance, described baseline consultation rates across most reporting countries, slight increases in SARS-CoV-2 activity and low influenza and RSV circulation. Hospital detections predominantly concerned older adults. This supplies regional context for Bulgarian autumn surveillance, but a regional pattern cannot substitute for domestic incidence estimates. Small laboratory-confirmed notification counts and sentinel respiratory indicators also measure different parts of the burden and should not be directly equated. [ECDC Week 38, respiratory overview](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-38-2026.pdf).
+
+---
+
+## Infectious Diseases: Bulgaria
+
+The domestic comparison uses ISO Week 37, 7–13 September, and Week 38, 14–20 September, as specified in the NCIPD operational analyses. ECDC's correspondingly numbered bulletins cover 5–11 and 12–18 September, respectively. The series retains its 20% week-over-week inclusion threshold, with unusual events and substantial cumulative excesses considered separately; changes at low counts are descriptive signals, not proof of altered transmission. Both national and district sources were retrieved for this retrospective edition. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf), [NCPHA district bulletin index](https://ncpha.government.bg/index/3296-zarazni-zaboliavania.html).
+
+### Respiratory and Droplet Transmission
+
+#### Measles — Eighteen Notifications with a Weekly Decline
+
+NCPHA recorded eleven measles notifications in Week 37, distributed across Vratsa (one), Lovech (five), Pleven (two) and Sofia-grad (three). Week 38 recorded seven: Vratsa (one), Lovech (four), Pleven (one) and Sofia-oblast (one). The decline was four cases, or 36.4%; the fortnight contributed eighteen notifications. These are reporting locations, not verified places of acquisition, and the move from Sofia-grad to Sofia-oblast should not be interpreted as a demonstrated transmission link. The district tables do not supply a comparable year-to-date series, so no cumulative percentage change is calculated from them. [NCPHA Week 37](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_37.pdf), [NCPHA Week 38](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_38.pdf).
+
+#### Varicella — Rebound after a Lower Week
+
+Varicella fell from 55 notifications in Week 36 to 38 in Week 37, a 30.9% decline, then rose to 48 in Week 38, an increase of ten (26.3%). The latter comprised ten possible, 32 probable and six confirmed cases. The cumulative total of 15,858 remained 4.5% below the 16,602 recorded in the corresponding period of 2025. The rebound crosses the weekly threshold, but the cumulative comparison does not support a national excess; changes in notification timing remain a possible contributor. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+### Vector-Borne and Zoonotic Transmission
+
+#### West Nile Fever — Two Probable Cases
+
+West Nile fever had no new notification in Week 37 and two probable notifications in Week 38, bringing the cumulative total to three versus one in 2025. A percentage increase from the preceding weekly zero is undefined. The classification matters: these two notifications were not reported as confirmed, and the analysis does not provide exposure or travel histories. They therefore cannot independently establish local acquisition, despite the concurrent European seasonal activity. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+#### Anthrax — No Further Notifications
+
+Neither week added an anthrax notification, leaving the cumulative total at three versus none in 2025. This is included for continuity after the Lovech event described in the previous edition, rather than as an active weekly increase. The national counts provide no further case-level exposure or outcome information, and two weeks without additional notifications cannot independently establish that every exposed person remained free of illness. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+### Fecal-Oral and Bloodborne Transmission
+
+#### Acute Viral Hepatitis ABCDEN — Persistent Cumulative Excess
+
+Acute viral hepatitis ABCDEN decreased from 37 cases in Week 36 to 25 in Week 37 (32.4%), then increased to thirty in Week 38, exactly meeting the 20% threshold. Week 38 comprised five possible, two probable and 23 confirmed cases; the cumulative total of 1,289 exceeded 2025's 1,011 by 278 (27.5%). The district bulletin assigned four cases each to Lovech and Pleven, with the rest dispersed. The aggregate category continues the sustained excess tracked in this series, but does not permit attribution to a particular hepatitis virus or transmission route. Virus-specific and exposure information would be necessary to distinguish a common-source event from unrelated notifications or altered ascertainment. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf), [NCPHA Week 38](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_38.pdf).
+
+### Fecal-Oral Transmission
+
+#### Campylobacteriosis, Salmonellosis and Rotavirus Gastroenteritis
+
+Campylobacteriosis declined from 22 confirmed cases in Week 36 to seventeen in Week 37 (22.7%) and seven in Week 38 (58.8%). Despite the decline, the cumulative total reached 482 versus 335 in 2025, a 43.9% excess. Sofia-grad accounted for four Week 38 cases, Varna two and Ruse one. These data sustain the cumulative signal without establishing a shared exposure; differences in diagnostic access and testing practice remain relevant alternative explanations for geographic concentration. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf), [NCPHA Week 38](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_38.pdf).
+
+Salmonellosis moved in the opposite direction, from 23 confirmed cases in Week 37 to 33 in Week 38, an increase of ten (43.5%). The cumulative total of 571 was only 7.3% above 2025's 532, so inclusion is driven by the weekly movement. Rotavirus gastroenteritis declined from 37 to thirty confirmed cases (18.9%), below the weekly threshold, but its cumulative total of 718 versus 579 represented a 24.0% excess. The latter is retained for the cumulative signal rather than presented as a weekly escalation. Neither bulletin provides the age, vaccination or common-exposure detail required to explain these divergent trends. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+#### Listeriosis — Three Confirmed Notifications
+
+Listeriosis registered two confirmed cases in Week 37, after none in Week 36, and one confirmed case in Week 38. The latter is a one-case decline of 50.0%; a percentage increase from the preceding zero baseline is undefined. The cumulative total reached twelve versus four in the corresponding period of 2025, an eight-case excess (200.0%). The cumulative difference and additional confirmed notifications justify inclusion, but the small absolute numbers require restraint. The operational analyses do not provide food histories, microbiological linkage or patient characteristics, so these notifications cannot be labelled a connected foodborne outbreak. A common source remains a question for case investigation rather than a conclusion available from the weekly totals. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+### Contact and Sexual Transmission
+
+#### Gonorrhoea, Chlamydial Infection and Syphilis
+
+Gonorrhoea increased from six confirmed notifications in Week 36 to twelve in Week 37, then fell to two in Week 38, a ten-case decrease (83.3%). The cumulative total nevertheless remained 121.4% above 2025: 186 versus 84. Urogenital chlamydial infection rose from three to thirteen and then fourteen confirmed cases; the final one-case increase (7.7%) is below the weekly threshold, while the cumulative total of 268 versus 130 was 106.2% higher. These large cumulative excesses justify continued inclusion despite small and unstable weekly counts. The national analyses provide no gonococcal susceptibility results, so notification growth cannot be equated with antimicrobial resistance. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
+
+Syphilis declined from twenty confirmed notifications in Week 36 to nine in Week 37, then rose to twelve in Week 38, an increase of three (33.3%). Its cumulative total reached 318 versus 247 in 2025, a 28.7% excess. The separate congenital and infant syphilis category recorded no cases in either week and remained at 27 cumulatively, versus 26 in 2025. The latter is included for continuity because of its clinical importance, without implying a new weekly signal. Across these indicators, aggregate notification data cannot distinguish changing transmission from changes in screening, diagnosis or reporting delay. [NCIPD Week 37](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_37.pdf), [NCIPD Week 38](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_38.pdf).
