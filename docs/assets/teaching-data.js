@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-09-26",
+  updated: "2026-10-04",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -572,6 +572,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-confidentiality-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-confidentiality-en.html" }
                   ]
+                },
+                {
+                  title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
+                  description: "The chronically ill patient and coping, models of the relationship (Szasz–Hollender, Emanuel, Veatch), collegiality and teamwork under the Code of Professional Ethics, and the physician's professional, administrative, civil (contract and tort), criminal and employment liability.",
+                  tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability"],
+                  date: "2026-10-04",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-04-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-chronic-relationship-liability-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -734,6 +746,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-confidentiality-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-confidentiality-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 4 · Хронично болният пациент, взаимоотношения и правна отговорност",
+                  description: "Хронично болният пациент и механизмите на справяне, модели на взаимоотношението (Сас–Холендер, Емануел, Вийч), колегиалност и работа в екип по Кодекса за професионална етика и съсловна, административна, гражданска (договорна и деликтна), наказателна и трудова отговорност на лекаря.",
+                  tags: ["етика", "хронично заболяване", "лекар – пациент", "колегиалност", "правна отговорност"],
+                  date: "2026-10-04",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-04-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-chronic-relationship-liability-bg.html" }
                   ]
                 }
               ],

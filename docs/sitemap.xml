@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kostadinoff.github.io/tasks.html</loc>
+    <loc>https://kostadinoff.github.io/CV.html</loc>
+    <lastmod>2026-09-28T08:50:19.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/learning.html</loc>
     <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/study-guide.html</loc>
-    <lastmod>2026-09-12T05:45:31.428Z</lastmod>
+    <loc>https://kostadinoff.github.io/slides.html</loc>
+    <lastmod>2026-09-12T05:45:31.411Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-confidentiality-bg.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-chronic-relationship-liability-bg.html</loc>
+    <lastmod>2026-10-04T18:12:18.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-confidentiality-en.html</loc>
     <lastmod>2026-09-26T09:22:34.978Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-informed-consent-en.html</loc>
-    <lastmod>2026-09-20T07:42:58.642Z</lastmod>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-informed-consent-bg.html</loc>
+    <lastmod>2026-09-20T07:41:32.021Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-introduction-en.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-introduction-bg.html</loc>
     <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/dental-public-health-introduction.html</loc>
-    <lastmod>2026-09-15T17:30:03.355Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/sociological-research-methods.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/temporary-incapacity.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/primary-health-care-indicators.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/reproductive-family-adolescent-health.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/hospital-care.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/liability-social-history.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/health-culture.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/health-education-program-design.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/dispensary-occupational-medicine.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/epidemiology-surveillance.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/burden-of-disease.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/demography-indices.html</loc>
+    <lastmod>2026-09-12T05:45:31.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/lab.html</loc>
     <lastmod>2026-09-12T05:45:31.396Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/kkstatfun.html</loc>
+    <loc>https://kostadinoff.github.io/index.html</loc>
     <lastmod>2026-09-12T05:45:31.396Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kostadinoff.github.io/epinews.html</loc>
-    <lastmod>2026-09-12T05:45:31.384Z</lastmod>
   </url>
   <url>
     <loc>https://kostadinoff.github.io/epinews-posts/2026-W9-en.html</loc>
@@ -149,43 +153,43 @@
     <lastmod>2026-09-12T05:45:31.218Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html</loc>
+    <lastmod>2026-10-04T18:10:43.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</loc>
     <lastmod>2026-09-26T09:22:34.977Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-en.html</loc>
-    <lastmod>2026-09-20T07:42:14.162Z</lastmod>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-bg.html</loc>
+    <lastmod>2026-09-20T07:40:21.111Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-en.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-bg.html</loc>
     <lastmod>2026-09-15T17:30:03.337Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/dental-public-health-introduction.html</loc>
-    <lastmod>2026-09-15T17:30:03.336Z</lastmod>
+    <loc>https://kostadinoff.github.io/15-minute-learning/temporary-incapacity.html</loc>
+    <lastmod>2026-09-12T05:45:31.114Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/sociological-research-methods.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/risk-factors-causality.html</loc>
     <lastmod>2026-09-12T05:45:31.113Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/reproductive-family-adolescent-health.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/primary-health-care.html</loc>
     <lastmod>2026-09-12T05:45:31.113Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/planning-economics-marketing.html</loc>
-    <lastmod>2026-09-12T05:45:31.113Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/liability-social-history.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/occupational-medicine.html</loc>
     <lastmod>2026-09-12T05:45:31.107Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/health-culture.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/hospital-care.html</loc>
     <lastmod>2026-09-12T05:45:31.107Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/demography-indices.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/dispensary-care.html</loc>
     <lastmod>2026-09-12T05:45:31.102Z</lastmod>
   </url>
   <url>
@@ -193,44 +197,48 @@
     <lastmod>2026-09-12T05:45:31.101Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/dispensary-care.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/demography-indices.html</loc>
     <lastmod>2026-09-12T05:45:31.102Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/hospital-care.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/health-culture.html</loc>
     <lastmod>2026-09-12T05:45:31.107Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/occupational-medicine.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/liability-social-history.html</loc>
     <lastmod>2026-09-12T05:45:31.107Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/primary-health-care.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/planning-economics-marketing.html</loc>
     <lastmod>2026-09-12T05:45:31.113Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/risk-factors-causality.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/reproductive-family-adolescent-health.html</loc>
     <lastmod>2026-09-12T05:45:31.113Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/temporary-incapacity.html</loc>
-    <lastmod>2026-09-12T05:45:31.114Z</lastmod>
+    <loc>https://kostadinoff.github.io/15-minute-learning/sociological-research-methods.html</loc>
+    <lastmod>2026-09-12T05:45:31.113Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-bg.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/dental-public-health-introduction.html</loc>
+    <lastmod>2026-09-15T17:30:03.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-en.html</loc>
     <lastmod>2026-09-15T17:30:03.337Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-bg.html</loc>
-    <lastmod>2026-09-20T07:40:21.111Z</lastmod>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-informed-consent-en.html</loc>
+    <lastmod>2026-09-20T07:42:14.162Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</loc>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</loc>
     <lastmod>2026-09-26T09:22:34.977Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/CV.html</loc>
-    <lastmod>2026-09-28T08:50:19.849Z</lastmod>
+    <loc>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-en.html</loc>
+    <lastmod>2026-10-04T18:11:17.183Z</lastmod>
   </url>
   <url>
     <loc>https://kostadinoff.github.io/blog/academic-writing-setup.html</loc>
@@ -325,55 +333,63 @@
     <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/index.html</loc>
+    <loc>https://kostadinoff.github.io/epinews.html</loc>
+    <lastmod>2026-09-12T05:45:31.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/kkstatfun.html</loc>
     <lastmod>2026-09-12T05:45:31.396Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/lab.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/burden-of-disease.html</loc>
     <lastmod>2026-09-12T05:45:31.396Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/demography-indices.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/dispensary-occupational-medicine.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/epidemiology-surveillance.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/health-culture.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/health-education-program-design.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/hospital-care.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/liability-social-history.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/primary-health-care-indicators.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/reproductive-family-adolescent-health.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/sociological-research-methods.html</loc>
     <lastmod>2026-09-12T05:45:31.397Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/temporary-incapacity.html</loc>
-    <lastmod>2026-09-12T05:45:31.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-introduction-bg.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/dental-public-health-introduction.html</loc>
     <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-informed-consent-bg.html</loc>
-    <lastmod>2026-09-20T07:41:32.021Z</lastmod>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-introduction-en.html</loc>
+    <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-confidentiality-en.html</loc>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-informed-consent-en.html</loc>
+    <lastmod>2026-09-20T07:42:58.642Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-confidentiality-bg.html</loc>
     <lastmod>2026-09-26T09:22:34.978Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/slides.html</loc>
-    <lastmod>2026-09-12T05:45:31.411Z</lastmod>
+    <loc>https://kostadinoff.github.io/learning-tasks/medical-ethics-chronic-relationship-liability-en.html</loc>
+    <lastmod>2026-10-04T18:12:52.502Z</lastmod>
   </url>
   <url>
-    <loc>https://kostadinoff.github.io/learning.html</loc>
+    <loc>https://kostadinoff.github.io/study-guide.html</loc>
+    <lastmod>2026-09-12T05:45:31.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kostadinoff.github.io/tasks.html</loc>
     <lastmod>2026-09-15T17:30:03.355Z</lastmod>
   </url>
 </urlset>

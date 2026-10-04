@@ -1,0 +1,74 @@
+---
+title: "The chronically ill patient, relationship models and the physician's legal liability"
+author: "Kostadin Kostadinov"
+date: 2026-10-04
+lang: en
+description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, collegiality and teamwork, and the physician's professional, administrative, civil, criminal and employment liability under Bulgarian law."
+categories: [English, Medical Ethics, "Medicine | 2nd year", "2026/2027"]
+title-meta: "The chronically ill patient, relationship models and the physician's legal liability"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-04
+---
+
+[Slides (PDF)](../2026-2027-classes/ethics-04-en.pdf) · [Student tasks](../learning-tasks/medical-ethics-chronic-relationship-liability-en.qmd) · [Български](medical-ethics-chronic-relationship-liability-bg.qmd)
+
+Set aside about **15 minutes** to read and think. The text follows the presentation "Physician, patient, team and law". Afterwards you should be able to explain why chronic illness calls for a different relationship from acute illness, recognise the models of the physician–patient relationship, say where collegiality ends, and distinguish the kinds of legal liability a physician can face in Bulgaria.
+
+## Chronic illness as a long-term human condition
+
+Acute medicine is organised around a clear onset, a diagnosis, an intervention and the end of an episode of care. In chronic illness the diagnosis does not close the problem; it opens a long relationship. Medication, measurements, diet and rehabilitation happen mostly at home. The outcome therefore depends not only on the right prescription but on whether the plan is understandable, acceptable and workable in this person's life.
+
+The distinction between **disease** and **illness** helps. Disease is described by a diagnosis and measurements. Illness is how the person lives through the symptoms, uncertainty, treatment and changed roles. Two people with the same diagnosis may struggle with quite different things: one loses their job, the other fears dependence. The ethical problem arises when the logic of acute care is carried mechanically into long-term care and the patient becomes a passive recipient of instructions.
+
+## Coping with illness
+
+**Coping** is the effort to manage demands that exceed a person's usual resources. Problem-focused strategies seek information, change routines and organise help. Emotion-focused strategies reduce distress through distancing, sharing feelings or religious support. Meaning-focused strategies reorder goals and find values beyond the illness. No strategy is good or bad in itself. Brief denial can prevent collapse in the first days; prolonged denial delays treatment.
+
+A diagnosis often splits life into "before" and "after". Fear, anger, denial and sadness follow no fixed order and come back with each new complication. Anger at the team is often anger at the illness. Hopelessness ("there is no point in treatment") calls for assessment of uncontrolled pain, depression and self-harm risk; it should not simply be taken as a final refusal. Adaptation is not resignation. The physician supports it by acknowledging losses without reducing the person to them.
+
+## Autonomy, adherence and treatment burden
+
+Chronic illness increases dependence on drugs, machines, relatives and institutions. Dependence does not remove autonomy: a patient on haemodialysis may be fully able to set their own priorities. **Relational autonomy** reminds us that choices take shape in relationships, so the physician checks whether a decision expresses a free preference or guilt, fear and pressure.
+
+**Adherence** has replaced the older term "compliance". It describes behaviour that matches a plan agreed with the patient. Non-adherence may be unintentional (missed doses, a complex regimen, cost, no pharmacy nearby) or intentional (side effects, fear of dependence, a different view of benefit). Look for the cause before looking for someone to blame. **Treatment burden** is the work that treatment places on the patient: taking drugs, measuring, attending appointments, travelling, paying. With multimorbidity, separate guidelines can add up to an unworkable plan, and the question becomes "what can this person sustain?" as well as "what else can we prescribe?".
+
+The family brings care and knowledge of daily life but does not own the decisions. Kinship gives no right to information without the patient's consent. Overprotection erodes skills, and an exhausted relative is not necessarily irresponsible. When neglect or abuse is suspected, the patient is heard alone.
+
+## Models of the physician–patient relationship
+
+Models are analytical tools, not labels for a physician's character. One consultation can contain elements of several.
+
+**Szasz and Hollender (1956)** distinguish three degrees of participation according to the patient's condition. In *activity–passivity* the patient cannot take part: resuscitation, coma, general anaesthesia. In *guidance–cooperation* the physician leads and the patient knowingly follows: an acute illness with a clear standard of treatment. In *mutual participation* tasks and decisions are shared: chronic illness, rehabilitation, behaviour change. The error is to keep the patient passive after capacity has returned.
+
+**Emanuel and Emanuel (1992)** describe four models based on how the patient's values are understood. In the *paternalistic* model the physician is a guardian who decides what is best. In the *informative* model the physician is a technical expert who supplies facts and carries out the patient's choice. In the *interpretive* model the physician is a counsellor who helps the patient clarify unclear or conflicting goals. In the *deliberative* model the physician is a teacher or friend who argues for health-related values without moralising. The informative model can leave the patient alone with a hard choice, and the authors favour the deliberative model as the general ideal.
+
+**Veatch (1972)** describes the engineering, priestly, collegial and contractual models. The engineering model reduces the physician to a scientist handing over facts and leaves values out of the conversation. The priestly model is paternalism from a position of moral authority. The collegial model assumes two equals with a shared goal, though equality and shared interests are often missing. The contractual model allocates rights and duties but risks minimalism: "only what was agreed". The textbook adds the market model (health as a commodity), the covenant model (a promise of fidelity) and the friendship model, which blurs boundaries.
+
+**Strong paternalism** restricts a capable, informed patient and is not justified. **Weak paternalism** protects a person whose capacity for the specific decision is impaired, and lasts only while that ground exists. A patient may refuse offered treatment but cannot demand harmful or needless treatment. The Bulgarian Code of Professional Ethics lets a physician decline treatment when trust is absent (Art. 12), but never emergency care (Art. 11).
+
+**Shared decision-making** combines the professional recommendation with the patient's values: acknowledge that there is a choice; present the reasonable options, including waiting or refusal; clarify what matters to the patient; give a reasoned recommendation; agree a plan and check understanding. The Bulgarian Health Act guarantees the right to clear, accessible information and to more than one medical opinion (Art. 86(1)), and gives the physician freedom of action and decision according to qualification, medical standards and ethics (Art. 190(1)).
+
+## Collegiality and teamwork
+
+Section III of the Code governs relations between physicians. Collegiality is a basic duty, observed "while respecting the interests of the patient" (Art. 40). Physicians owe each other moral support, must not slander one another, and do not take their disagreements into public polemics (Art. 41). It is unworthy to discredit a colleague by criticising their treatment or person (Art. 42). This does not forbid reasoned professional criticism through the proper channel: disputes go to the ethics committees (Art. 46).
+
+A consultant reports the result to the treating physician and refrains from judgements in front of the patient (Arts. 36, 45). A medical council (консилиум) is convened when diagnosis or treatment is difficult, and a unanimous decision is binding (Art. 38). Continuity is a moral duty: a physician who withdraws passes on all information (Art. 24(1)), and another physician may change treatment in the treating physician's absence but must inform them and record the change (Art. 50). Gaps in handover are a common cause of preventable harm.
+
+Nurses, midwives and other professionals have their own competence, professional body and code of ethics. Hierarchy in the team is functional, not personal. An unclear order is clarified, not carried out silently, and any team member must be able to stop a procedure when safety is at risk.
+
+Collegiality does not mean cover-up. A sick colleague has the same rights and the same confidentiality as any patient (Code, Art. 49), but a corridor consultation is not care. When illness or addiction affects a physician's work, what is needed is individual assessment and proportionate limits, neither concealment nor automatic exclusion. When there is immediate risk, patients are protected through the established procedure and the colleague is offered help.
+
+## The physician's legal liability in Bulgaria
+
+One professional act can give rise to several independent kinds of liability. The Professional Organisations of Physicians and Dentists Act (Art. 42(1)) and the Labour Code (Arts. 186, 203(3)) expressly allow them to accumulate.
+
+- **Professional.** A physician is liable for breaching the Code of Professional Ethics and the rules of good medical practice (Professional Organisations Act, Art. 37(1)). Complaints of ethical breaches go to the ethics committee of the regional college of the Bulgarian Medical Association (Art. 39). Penalties are a reprimand, a fine of one to five minimum monthly wages, and removal from the register for three months to one year (Art. 38). Good medical practice is monitored by the Executive Agency "Medical Supervision" jointly with the Bulgarian Medical Association (Art. 37(2)).
+- **Administrative.** The Health Act provides for a fine for breaching its provisions (Art. 229) and a fine or pecuniary sanction for a healthcare establishment that violates patients' rights (Art. 221).
+- **Civil: contract.** Where there is a contract (a paid service, private practice, a contract with the establishment), the parties perform it exactly and in good faith (Obligations and Contracts Act, Art. 63). On improper performance the creditor may claim damages (Art. 79). The debtor is not liable if performance became impossible for a reason not attributable to them (Art. 81). Foreseeable direct damage is compensated, and all direct damage where the debtor acted in bad faith (Art. 82).
+- **Civil: tort.** Everyone must repair damage they culpably cause to another, and fault is presumed until proven otherwise (Obligations and Contracts Act, Art. 45). The healthcare establishment is liable for damage caused by its physician in or in connection with the work (Art. 49). Compensation may be reduced if the victim contributed (Art. 51(2)). The court assesses non-pecuniary damage "in equity" (Art. 52). Several tortfeasors are jointly and severally liable (Art. 53). The limitation period is five years (Art. 110), and in tort it runs from discovery of the tortfeasor (Art. 114(3)).
+- **Criminal.** The Penal Code punishes causing death or bodily injury by negligence (Arts. 122, 133). The offences are heavier when the harm results from ignorance or negligent practice of an occupation that is a source of increased danger (Arts. 123, 134), and Bulgarian case law treats medicine as such an occupation. A medical professional who without good reason fails to come to the aid of a patient or a woman in labour is also punished (Art. 141). Negligent acts are punishable only where the law expressly provides (Art. 11). Disclosure of a professional secret (Art. 145) was covered in Practical Class 3.
+- **Employment.** Culpable failure to perform work duties is a disciplinary breach (Labour Code, Arts. 186, 187). Penalties are a reprimand, a warning of dismissal and dismissal (Art. 188), imposed only after the employee has been heard (Art. 193). Financial liability to the employer for negligence is capped at the agreed monthly salary, including when the employer has compensated a third party such as the patient (Art. 206(1), (3)). For intent or a crime, liability is full under civil law (Art. 203(2)). Damage from normal operational risk is not compensated (Art. 204).
+
+In practice the injured patient claims from the healthcare establishment as principal (Obligations and Contracts Act, Art. 49), and the establishment's recourse against a negligent physician is limited by the Labour Code. Fine amounts are deliberately left out: check the current wording after the euro changeover.
+
+Before you open the [student tasks](../learning-tasks/medical-ethics-chronic-relationship-liability-en.qmd), try to answer in three sentences: which relationship model suits a patient with hypertension who takes the tablets irregularly; when collegiality must give way; and which kinds of liability may arise if a new symptom is left out of a shift handover.
