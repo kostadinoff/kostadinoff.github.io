@@ -4,7 +4,7 @@ author: "Kostadin Kostadinov"
 date: 2026-10-04
 lang: en
 description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, collegiality and teamwork, and the physician's professional, administrative, civil, criminal and employment liability under Bulgarian law."
-categories: [English, Medical Ethics, "Medicine | 2nd year", "2026/2027"]
+categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "The chronically ill patient, relationship models and the physician's legal liability"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2026-10-04

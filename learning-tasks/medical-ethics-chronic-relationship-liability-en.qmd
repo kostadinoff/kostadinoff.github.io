@@ -4,7 +4,7 @@ author: "Kostadin Kostadinov"
 date: 2026-10-04
 lang: en
 description: "Group work for 75 minutes after the 15-minute preparation: adherence and trust in chronic illness, relationship models when a patient delegates the choice, collegiality and patient safety, and allocating legal liability after a handover omission. With model answers for self-checking."
-categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "2026/2027"]
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "Medical ethics, Practical Class 4: the chronically ill patient, teamwork and legal liability"
 author-meta: "Kostadin Kostadinov"
 date-meta: 2026-10-04
