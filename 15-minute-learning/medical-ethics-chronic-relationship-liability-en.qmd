@@ -2,8 +2,9 @@
 title: "The chronically ill patient, relationship models and the physician's legal liability"
 author: "Kostadin Kostadinov"
 date: 2026-10-04
+date-modified: 2026-10-06
 lang: en
-description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, collegiality and teamwork, and the physician's professional, administrative, civil, criminal and employment liability under Bulgarian law."
+description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, collegiality and teamwork, and the physician's disciplinary, administrative (including professional body), criminal and civil liability under Bulgarian law."
 categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "The chronically ill patient, relationship models and the physician's legal liability"
 author-meta: "Kostadin Kostadinov"
@@ -58,17 +59,41 @@ Nurses, midwives and other professionals have their own competence, professional
 
 Collegiality does not mean cover-up. A sick colleague has the same rights and the same confidentiality as any patient (Code, Art. 49), but a corridor consultation is not care. When illness or addiction affects a physician's work, what is needed is individual assessment and proportionate limits, neither concealment nor automatic exclusion. When there is immediate risk, patients are protected through the established procedure and the colleague is offered help.
 
-## The physician's legal liability in Bulgaria
+## The physician's legal liability in Bulgaria: four kinds
 
-One professional act can give rise to several independent kinds of liability. The Professional Organisations of Physicians and Dentists Act (Art. 42(1)) and the Labour Code (Arts. 186, 203(3)) expressly allow them to accumulate.
+This class uses four kinds in this order: **disciplinary, administrative, criminal and civil**. The disciplinary block groups disciplinary penalties and the employee's financial liability towards the employer. These have independent legal grounds: compensation for loss is not a disciplinary fine (Labour Code, Art. 203(3)). Professional body liability is an administrative subtype in this teaching scheme; contractual and tort liability are the two civil subtypes.
 
-- **Professional.** A physician is liable for breaching the Code of Professional Ethics and the rules of good medical practice (Professional Organisations Act, Art. 37(1)). Complaints of ethical breaches go to the ethics committee of the regional college of the Bulgarian Medical Association (Art. 39). Penalties are a reprimand, a fine of one to five minimum monthly wages, and removal from the register for three months to one year (Art. 38). Good medical practice is monitored by the Executive Agency "Medical Supervision" jointly with the Bulgarian Medical Association (Art. 37(2)).
-- **Administrative.** The Health Act provides for a fine for breaching its provisions (Art. 229) and a fine or pecuniary sanction for a healthcare establishment that violates patients' rights (Art. 221).
-- **Civil: contract.** Where there is a contract (a paid service, private practice, a contract with the establishment), the parties perform it exactly and in good faith (Obligations and Contracts Act, Art. 63). On improper performance the creditor may claim damages (Art. 79). The debtor is not liable if performance became impossible for a reason not attributable to them (Art. 81). Foreseeable direct damage is compensated, and all direct damage where the debtor acted in bad faith (Art. 82).
-- **Civil: tort.** Everyone must repair damage they culpably cause to another, and fault is presumed until proven otherwise (Obligations and Contracts Act, Art. 45). The healthcare establishment is liable for damage caused by its physician in or in connection with the work (Art. 49). Compensation may be reduced if the victim contributed (Art. 51(2)). The court assesses non-pecuniary damage "in equity" (Art. 52). Several tortfeasors are jointly and severally liable (Art. 53). The limitation period is five years (Art. 110), and in tort it runs from discovery of the tortfeasor (Art. 114(3)).
-- **Criminal.** The Penal Code punishes causing death or bodily injury by negligence (Arts. 122, 133). The offences are heavier when the harm results from ignorance or negligent practice of an occupation that is a source of increased danger (Arts. 123, 134), and Bulgarian case law treats medicine as such an occupation. A medical professional who without good reason fails to come to the aid of a patient or a woman in labour is also punished (Art. 141). Negligent acts are punishable only where the law expressly provides (Art. 11). Disclosure of a professional secret (Art. 145) was covered in Practical Class 3.
-- **Employment.** Culpable failure to perform work duties is a disciplinary breach (Labour Code, Arts. 186, 187). Penalties are a reprimand, a warning of dismissal and dismissal (Art. 188), imposed only after the employee has been heard (Art. 193). Financial liability to the employer for negligence is capped at the agreed monthly salary, including when the employer has compensated a third party such as the patient (Art. 206(1), (3)). For intent or a crime, liability is full under civil law (Art. 203(2)). Damage from normal operational risk is not compensated (Art. 204).
+### 1. Disciplinary
 
-In practice the injured patient claims from the healthcare establishment as principal (Obligations and Contracts Act, Art. 49), and the establishment's recourse against a negligent physician is limited by the Labour Code. Fine amounts are deliberately left out: check the current wording after the euro changeover.
+**Basis and consequences.** The [Labour Code](https://lex.bg/bg/laws/ldoc/1594373121), Arts. 186–188, covers culpable breach of work duties and the penalties of **reprimand, warning of dismissal and disciplinary dismissal**. The employer or an authorised person imposes them (Art. 192), after hearing the employee or receiving written explanations (Art. 193).
+
+The same block includes **employee financial liability towards the employer** under Arts. 203 onwards. For negligence, liability is normally capped at the agreed monthly salary; Art. 206(2) sets a different limit for loss caused in managerial duties. Art. 206(3) also covers compensation paid to third parties. For intentional harm or a crime, liability is determined under civil law (Art. 203(2)). Limited financial liability starts with an employer order; if contested in writing, the employer can bring a court claim (Art. 210). Full financial liability is enforced by a court (Art. 211).
+
+**Medical example:** a physician arrives late for a shift. A disciplinary penalty may follow; separately proven loss to the hospital may also give rise to a duty to compensate it.
+
+### 2. Administrative, including professional body liability
+
+**Basis and consequences.** The [Administrative Violations and Penalties Act](https://lex.bg/laws/ldoc/2126821377), Arts. 6, 13 and 47, covers administrative violations, penalties including fines, and sanctioning authorities. The relevant special Act defines the specific violation and competent authority. For example, the [Health Act](https://lex.bg/laws/ldoc/2135489147), Art. 221, provides for a fine or pecuniary sanction on an establishment that violates patient rights; the Medical Supervision Agency's executive director issues the penalty decree (Art. 233a). Art. 229 is a residual penalty provision for breaches outside the cases expressly listed there.
+
+**Subtype — professional body liability before BLS / BZS.** The [Professional Organisations of Physicians and Dentists Act](https://lex.bg/laws/ldoc/2134419457), Arts. 37–41, sets out the violations and procedure. For an ethical-code breach, Art. 38 provides for a reprimand, fine or temporary removal from the register. The regional ethics committee hears the complaint (Art. 39), a member records the violation, and the **chair of the regional college's governing board** of the Bulgarian Medical Association (BLS) or Bulgarian Dental Association (BZS) issues the penalty decree (Art. 40). Art. 41 applies the administrative penalties procedure. Good-practice compliance is monitored by Medical Supervision jointly with BLS and BZS (Art. 37(2)).
+
+**Medical examples:** an establishment violates a statutory patient right; a physician discredits a colleague before patients in breach of the ethical code — the professional subtype.
+
+### 3. Criminal
+
+**Basis and consequences.** The [Criminal Code](https://lex.bg/laws/ldoc/1589654529), Art. 11, addresses intent and negligence. Arts. 123 and 134 concern death or grievous/moderate bodily injury through ignorance or negligent practice of an occupation or regulated activity that is a source of increased danger. All elements of the specific offence, including causation and fault, must be proved. **The court** decides guilt and imposes punishment; the prosecution brings and maintains the charge in public prosecutions.
+
+**Medical example:** a negligently administered wrong dose causes death. Art. 123 may apply if all its conditions are proved; the adverse outcome alone does not establish a crime.
+
+### 4. Civil — contractual and tort
+
+The purpose is compensation for damage. **The court** awards damages on the injured party's claim if the conditions are established. The [Obligations and Contracts Act](https://lex.bg/laws/ldoc/2121934337) governs the two subtypes:
+
+- **Contractual:** Arts. 79–82 — failure to perform a contractual duty properly; Art. 82 covers direct, immediate and foreseeable losses, or all direct and immediate losses in bad faith. Example: an agreed investigation is not performed and the patient incurs proven additional costs. This does not mean every treatment contract guarantees a cure.
+- **Tort / non-contractual:** Art. 45 — culpably caused harm, with fault presumed until proved otherwise; Art. 49 — liability of the establishment as principal for harm in or in connection with assigned work. Example: an incorrectly given injection injures a patient's nerve.
+
+One act can engage more than one of the four kinds, subject to the law (Professional Organisations Act, Art. 42(1); Labour Code, Arts. 186 and 203(3)). All sanctions do not follow automatically. In the handover case, assess the physician's conduct, the colleague and the establishment separately.
+
+*The cited provisions were checked against the consolidated texts on lex.bg on 6 October 2026.*
 
 Before you open the [student tasks](../learning-tasks/medical-ethics-chronic-relationship-liability-en.qmd), try to answer in three sentences: which relationship model suits a patient with hypertension who takes the tablets irregularly; when collegiality must give way; and which kinds of liability may arise if a new symptom is left out of a shift handover.

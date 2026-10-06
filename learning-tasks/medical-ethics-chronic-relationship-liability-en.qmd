@@ -2,6 +2,7 @@
 title: "Medical ethics, Practical Class 4: the chronically ill patient, teamwork and legal liability"
 author: "Kostadin Kostadinov"
 date: 2026-10-04
+date-modified: 2026-10-06
 lang: en
 description: "Group work for 75 minutes after the 15-minute preparation: adherence and trust in chronic illness, relationship models when a patient delegates the choice, collegiality and patient safety, and allocating legal liability after a handover omission. With model answers for self-checking."
 categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
@@ -35,7 +36,7 @@ Rewrite each statement in one or two sentences. Explain what is wrong and name t
 
 Non-adherence may be unintentional (forgetting, a complex regimen, cost) or intentional (side effects, fear, a different view of benefit); look for the cause first. Dependence on a machine does not remove autonomy: a capable patient decides, and relatives take part as far as the patient wishes. Activity–passivity and weak paternalism are justified when the patient cannot take part, as in resuscitation, and last only while that ground exists.
 
-The Code forbids discrediting colleagues and public polemics (Arts. 41, 42), but collegiality is observed "while respecting the interests of the patient" (Art. 40); reasoned criticism through the proper channel is allowed and sometimes required. The kinds of liability are independent (Professional Organisations Act, Art. 42(1)); civil liability has its own conditions, and in tort fault is presumed (Obligations and Contracts Act, Art. 45). The injured patient usually claims from the healthcare establishment as principal (Art. 49), not only from the physician.
+The Code forbids discrediting colleagues and public polemics (Arts. 41, 42), but collegiality is observed "while respecting the interests of the patient" (Art. 40); reasoned criticism through the proper channel is allowed and sometimes required. The four kinds have distinct legal grounds (Professional Organisations Act, Art. 42(1)). Civil liability has its own conditions, but a final criminal judgment binds the civil court on the conduct, unlawfulness and fault within [Civil Procedure Code, Art. 300](https://lex.bg/laws/ldoc/2135558368). The effect of an acquittal therefore depends on its grounds; presumed fault in tort (Obligations and Contracts Act, Art. 45) cannot simply override binding findings. The injured patient usually claims from the healthcare establishment as principal (Art. 49), not only from the physician.
 
 :::
 
@@ -105,7 +106,7 @@ Art. 40 requires collegiality "while respecting the interests of the patient". A
 
 At the end of his shift on 24 December a physician waits almost an hour for a late colleague. A nurse reports chest pain in a patient with pneumonia. The physician orders an ECG, expecting the next doctor on duty to read it. In the rushed handover he forgets to mention the symptom and leaves. The ECG is not read in time. Later the patient dies of acute myocardial infarction. The family seeks compensation and complains to the Bulgarian Medical Association and the prosecutor.
 
-1. Fill in a table with six rows, one per kind of liability: legal basis, who decides, possible outcome.
+1. Fill in a table with exactly four rows in this order: disciplinary, administrative, criminal and civil. Include employee financial liability in the first row, professional body liability as a subtype in the second, and contractual/tort liability in the fourth. State the legal basis, who decides and the possible outcome.
 2. What must be established for criminal liability, and what for civil liability?
 3. What share belongs to the organisation and to the late colleague?
 
@@ -113,16 +114,14 @@ At the end of his shift on 24 December a physician waits almost an hour for a la
 
 | Type | Legal basis | Who decides | Possible outcome |
 |:--|:--|:--|:--|
-| Professional | Professional Organisations Act, Art. 37(1); Code, Art. 24 | Ethics committee of the Bulgarian Medical Association | Reprimand, fine, removal from the register (Art. 38) |
-| Administrative | Health Act, Arts. 221, 229 | Inspection bodies | Fine; sanction on the establishment |
-| Civil: tort | Obligations and Contracts Act, Arts. 45, 49, 52 | Court, on the heirs' claim | Damages from the hospital, including non-pecuniary |
-| Civil: contract | Obligations and Contracts Act, Arts. 79, 82 | Court, where there is a contract | Damages for improper performance |
-| Criminal | Penal Code, Art. 123(1) | Prosecutor and court | Imprisonment |
-| Employment | Labour Code, Arts. 186–188, 203, 206 | Employer; court | Disciplinary penalty; limited recourse |
+| 1. Disciplinary — penalties and employee financial liability | Labour Code, Arts. 186–188; Arts. 203 onwards | Employer/authorised person (Art. 192); employee financial claims follow Arts. 210–211 | Disciplinary penalty; separate compensation for proven loss within applicable limits |
+| 2. Administrative, including professional body liability | Administrative Violations and Penalties Act, Arts. 6, 13, 47; Health Act, Arts. 221/229; Professional Organisations Act, Arts. 37–41 | Competent sanctioning authority; for the professional subtype, regional board chair of BLS/BZS (Art. 40(3)) | Fine/pecuniary sanction; for an ethical breach, reprimand, fine or temporary removal from the register |
+| 3. Criminal | Criminal Code, Arts. 11 and 123(1) | Court; prosecution brings and maintains the charge | Punishment if all elements of the offence are proved |
+| 4. Civil — contractual and tort | Obligations and Contracts Act, Arts. 79–82 (contractual); Arts. 45/49 (tort) | Court, on the injured party's claim | Compensation; this case raises a tort claim, while no contractual basis has been established |
 
-Criminal liability requires proof of negligent practice of the occupation, a causal link between the omission and the death, and fault in the form of negligence (Penal Code, Art. 11). It must be shown whether an ECG read in time and treatment would have prevented the death. In civil tort, fault is presumed (Obligations and Contracts Act, Art. 45); the hospital is liable for damage caused by its physician at work (Art. 49) without proof of its own fault, and after paying it has limited recourse against him (Labour Code, Art. 206(3)).
+Criminal liability requires proof of negligent practice of the occupation, a causal link between the omission and the death, and fault in the form of negligence (Criminal Code, Art. 11). It must be shown whether an ECG read in time and treatment would have prevented the death. In civil tort, fault is presumed (Obligations and Contracts Act, Art. 45); the hospital is liable for damage caused by its physician at work (Art. 49) without proof of its own fault, and after paying it has limited recourse for negligence where Labour Code Art. 206(3) applies. If the harm results from a crime, Art. 203(2) applies; the limit is not automatically one monthly salary.
 
-The organisation bears a share: no structured handover, a late arrival tolerated without cover, pending tests not flagged. The late colleague may face disciplinary liability for lateness. The kinds of liability do not exclude each other (Professional Organisations Act, Art. 42(1); Labour Code, Art. 186).
+The organisation bears a share: no structured handover, a late arrival tolerated without cover, pending tests not flagged. The late colleague may face disciplinary liability for lateness. More than one kind may apply subject to the law (Professional Organisations Act, Art. 42(1); Labour Code, Art. 186). Liability is established for each person and legal ground; the death alone does not prove every breach.
 
 :::
 
@@ -136,4 +135,4 @@ Answer briefly without opening the model answers:
 
 ### Feedback criteria
 
-A complete answer looks for the cause of non-adherence before judging the patient and proposes an agreed plan that can be followed up. In Case B it separates a delegated choice from paternalism. In Case C it separates immediate safety from a fair assessment of the colleague. In Case D it distinguishes the six kinds of liability and names causation and fault as conditions for criminal liability. Listing models and articles without applying them to the facts does not complete the task.
+A complete answer looks for the cause of non-adherence before judging the patient and proposes an agreed plan that can be followed up. In Case B it separates a delegated choice from paternalism. In Case C it separates immediate safety from a fair assessment of the colleague. In Case D it distinguishes the four kinds of liability and correctly places their subtypes and names causation and fault as conditions for criminal liability. Listing models and articles without applying them to the facts does not complete the task.
