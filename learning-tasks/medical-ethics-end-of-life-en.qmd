@@ -1,0 +1,134 @@
+---
+title: "Medical ethics, Practical Class 5: the terminally ill patient, palliative care and euthanasia"
+author: "Kostadin Kostadinov"
+date: 2026-10-09
+lang: en
+description: "Group work for 75 minutes after the 15-minute preparation: refusal of life-sustaining treatment, opioids and double effect, a request for an advance euthanasia directive in dementia, and a patient preparing for assisted suicide abroad. With model answers for self-checking."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Medical ethics, Practical Class 5: the terminally ill patient, palliative care and euthanasia"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-09
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-end-of-life-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-05-en.pdf) · [Български](medical-ethics-end-of-life-bg.qmd)
+
+## How to work
+
+Read the preparation text first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes**, one 90-minute class in total. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. Open a model answer only after you have written down your own reasoning.
+
+**All people, events and circumstances are fictional** and do not describe a real patient. The cases are adapted from the course case bank. Work with the information given and say what else you would want to know. The cases train ethical and legal judgement; they do not replace advice from the head of the establishment, the ethics committee or a lawyer in a real case.
+
+**Hand in one group answer** with the corrected statements and the analysis of the four cases. Each student completes the individual task at the end. Marks go to precise use of the concepts (euthanasia, assisted suicide, withdrawal, double effect, palliative sedation), correct Bulgarian legal grounds, and a response that never abandons the patient.
+
+## Task 1. True or false — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is wrong and name the rule or concept that applies.
+
+1. "Stopping a ventilator is passive euthanasia, so it is forbidden in Bulgaria."
+2. "Palliative care starts when there is nothing more to be done."
+3. "Morphine in high doses always shortens life."
+4. "The family may ask the doctor not to tell the patient the diagnosis, and the doctor must agree."
+5. "Since euthanasia is forbidden, the doctor need not discuss a request to die."
+6. "The European Court of Human Rights requires every state to allow assisted suicide."
+
+::: {.callout-note collapse="true" title="Model answer: six corrections"}
+
+Withdrawing treatment that has failed its goal, or that a capable patient refuses, is not euthanasia: nothing new causes death, the disease takes its course and care continues. The Health Act allows refusal of care or of its continuation at any time (Art. 90); Art. 97 forbids euthanasia, which means deliberately causing death. The term "passive euthanasia" is misleading.
+
+Palliative care starts according to need, often at diagnosis, and can run alongside treatment of the disease (WHO). Properly titrated opioids are an ordinary medical duty and do not routinely hasten death; double effect covers a rare foreseen risk, not a lethal dose given in order to kill.
+
+The right not to know belongs to the patient (Health Act, Art. 92(2)); the family's wish does not decide. The physician explores what the patient wants to know. A request to die must be answered: assess symptoms, mood, capacity and risk, treat what can be treated, explain the limits and promise not to abandon. Strasbourg leaves states a wide margin: *Pretty* (2002) found no right to die, and *Karsai* (2024) no duty to allow assisted dying.
+
+:::
+
+## Task 2. Refusal of life-sustaining treatment — 15 minutes
+
+### Case A: "No tube and machines"
+
+An 84-year-old man with advanced chronic obstructive pulmonary disease is admitted with severe pneumonia. His breathing worsens; he is drowsy at times, and the team discusses intubation. When awake he says he does not want "a tube and machines", but his answers are short and sometimes contradictory. There is no recorded advance preference. His daughter says he told the family many times that he would never accept intubation; his son insists that "everything must be done".
+
+1. How do hypoxia, infection and drowsiness affect his capacity to decide? Can capacity be supported or reassessed?
+2. What weight do the daughter's report and the son's demand carry?
+3. Is a time-limited trial of ventilation acceptable? What goals and stopping conditions should be agreed in advance?
+
+::: {.callout-note collapse="true" title="Model answer: capacity first, then proportionality"}
+
+Capacity is decision-specific and can fluctuate. Hypoxia, infection and sedatives may impair it temporarily. The team corrects what it can (oxygen, treatment of the infection), chooses a lucid moment, uses short questions and checks whether he understands, applies the information to himself, weighs options and gives a consistent answer. If he is capable and refuses, the refusal is recorded with signatures (Health Act, Art. 90(2)–(3)) and respected, with full symptom control.
+
+If he lacks capacity, the daughter's account is evidence of his earlier wishes and values. It is not her decision, and the son cannot demand treatment that would not serve the patient's goals. Neither sibling "owns" the choice; the team seeks what the patient would have chosen and his best interests, and documents the reasoning. A disagreement calls for another conversation, a second opinion or the ethics committee, not a unilateral decision by the loudest relative.
+
+A time-limited trial can be ethical when recovery to an acceptable state is possible: for example ventilation for a set number of days with defined markers of improvement, and an advance agreement that it will be withdrawn if they are not reached. Withdrawal then is not euthanasia; it is ending an intervention that no longer serves its goal, with palliative care continuing.
+
+:::
+
+## Task 3. Pain, opioids and double effect — 15 minutes
+
+### Case B: the hidden tablets
+
+A 45-year-old patient with advanced cancer receives strong opioids for home use. At a visit the physician notices that the prescribed amounts do not match the pain described or the expected side effects. The wife says privately that he may be saving tablets. Soon afterwards he asks how many tablets would be lethal, adding that it is "just out of curiosity". He refuses to let his wife join the conversation and fears that if he says more, his pain relief will be taken away.
+
+1. Why should the question be treated as a possible risk signal rather than a pharmacological query?
+2. How can safety, confidentiality and adequate pain relief be combined?
+3. When is it justified to involve a relative or an emergency psychiatric team despite his objection?
+
+::: {.callout-note collapse="true" title="Model answer: safety without punishment"}
+
+Saving tablets plus a question about a lethal dose may indicate suicidal intent. It may also reflect fear of future pain, or a wish to keep control. The physician asks directly and calmly about thoughts of death, plans, timing and access to means; asking does not plant the idea. Giving the number would be facilitating suicide (Criminal Code, Art. 127).
+
+Pain relief continues: withdrawing it would punish him and increase suffering and risk. The plan can change its form: smaller quantities more often, a different route, a pharmacist or nurse to hold the supply, and safe disposal of what has been stored, agreed openly with him. Uncontrolled pain, depression and fear of becoming a burden are treated and the palliative team is involved.
+
+Confidentiality protects him, but not at the cost of his life. With an immediate, serious risk of suicide, the physician may act for his safety: an urgent psychiatric assessment, not leaving him alone, involving a relative to remove the means, while sharing only what is necessary and recording the reasons. Without immediate risk, the conversation, the safety plan and close follow-up continue without overriding his wishes.
+
+:::
+
+## Task 4. An advance request in dementia — 15 minutes
+
+### Case C: the document from abroad
+
+A woman with advanced dementia lives in a care home. Eight years ago, with intact cognition and living in a country where euthanasia is legal under strict conditions, she signed a document saying she did not want to live if she stopped recognising her family and became fully dependent. She no longer recognises her daughter, but smiles at music, eats with help and sometimes resists examinations. After moving her to Bulgaria, the daughter presents the document and insists that respecting her mother's autonomy means the doctor must "carry out her will". The team also finds a separate, more specific advance preference not to start mechanical ventilation if her condition worsens irreversibly.
+
+1. What is the difference between an advance request for euthanasia and an advance refusal of a specific treatment?
+2. Can a relative request euthanasia for a patient who cannot decide now?
+3. How should past autonomy, present apparent well-being and current resistance be weighed? What does Bulgarian law change?
+
+::: {.callout-note collapse="true" title="Model answer: refusal of treatment yes, killing no"}
+
+An advance refusal of a specific treatment (here, mechanical ventilation in irreversible deterioration) concerns what the patient does not want done to her. The Oviedo Convention requires such wishes to be taken into account (Art. 9), after checking that they fit the situation. An advance request for euthanasia asks for an act that causes death. In Bulgaria euthanasia is not applied (Health Act, Art. 97); the physician has no right to end a life (Code, Art. 30), and doing so would be murder (Criminal Code, Art. 115). The document does not change that.
+
+A relative cannot request euthanasia for someone else. Even in permissive countries, advance requests in dementia are among the most contested cases. The present person seems to enjoy music and resists interventions; her earlier self wrote the document. Precedent autonomy does not automatically override present well-being and present resistance.
+
+The team respects the ventilation preference and plans proportionate care with comfort as the goal: symptom control, no burdensome interventions that she would have refused, and presence. It acknowledges the daughter's grief and loyalty, explains the difference without dismissing her, and offers an ethics consultation.
+
+:::
+
+## Task 5. Help to die abroad — 15 minutes
+
+### Case D: documents for abroad
+
+A 60-year-old woman with amyotrophic lateral sclerosis has full capacity and communicates through an eye-tracking device. She does not want to stop supportive care now, but she wants to apply to an organisation in a country that allows assisted suicide under certain conditions. She asks her neurologist for a detailed medical summary, translated results and direct contact with the organisation. The neurologist is convinced he cannot help end a life but worries that refusing everything would deny her right to information and to a second opinion.
+
+1. Where is the line between her access to her own medical information, neutral explanation of foreign law and concrete facilitation of suicide?
+2. Does her ability to perform the last act herself change the ethical assessment? How does the risk of losing motor function affect her decision?
+3. What palliative, communication and home options should be discussed without turning the conversation into pressure?
+
+::: {.callout-note collapse="true" title="Model answer: information yes, facilitation no"}
+
+The patient has a right to information about her condition and to her own medical documentation, and the Code recognises her right to a second opinion (Art. 28). Providing her records in the usual way is not assisting suicide. Explaining in neutral terms that some countries allow assisted suicide, and correcting misinformation, is also legitimate. Contacting the organisation on her behalf or preparing documents specifically for that purpose crosses into concrete facilitation, which risks Criminal Code Art. 127 and conflicts with the Code (Art. 30). When in doubt the physician seeks legal and ethics advice promptly, without leaving her alone.
+
+The fact that she would perform the last act moves the case from euthanasia to assisted suicide, but the physician's contribution would still be causal and intended. Fear of losing the ability to act herself may push her to act early, which is one reason why palliative planning should start now.
+
+Discuss communication aids, home ventilation and nutrition options, and her right to refuse or stop them later; palliative sedation for refractory distress in the final phase; psychological support; and the burden on her family. All of this is offered as information and help, not as a condition for continuing care. The neurologist's personal refusal is legitimate, but without condemning words: "I cannot take part in this, but I will stay your doctor."
+
+:::
+
+## Individual closing task — 5 minutes
+
+Answer briefly without opening the model answers:
+
+1. Define euthanasia and physician-assisted suicide in one sentence each, naming who performs the last act.
+2. Name the four conditions of the rule of double effect.
+3. Write what you would say to a patient in Bulgaria who asks you to end his life.
+
+### Feedback criteria
+
+A complete answer keeps the four questions apart (what is done, what is intended, what causes death, whether care continues). It names the correct provisions: Health Act Arts. 90, 92 and 97, Code Arts. 29–31 and Criminal Code Arts. 115 and 127. In Case A it puts capacity before proportionality; in Case B, safety without withdrawing pain relief; in Case C, it separates refusal of treatment from a request for death; in Case D, information from facilitation. Listing principles without applying them to the facts does not complete the task.

@@ -2,6 +2,8 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/medical-ethics-end-of-life-bg.html",
+      "/15-minute-learning/medical-ethics-end-of-life-en.html",
       "/15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html",
       "/15-minute-learning/medical-ethics-chronic-relationship-liability-en.html",
       "/15-minute-learning/medical-ethics-confidentiality-bg.html",
@@ -29,6 +31,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/15-minute-learning/medical-ethics-end-of-life-en.html",
+      "/15-minute-learning/medical-ethics-end-of-life-bg.html",
+      "/learning-tasks/medical-ethics-end-of-life-en.html",
+      "/learning-tasks/medical-ethics-end-of-life-bg.html",
       "/epinews-posts/2026-W37-38-en.html",
       "/epinews-posts/2026-W39-40-en.html",
       "/15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html",
@@ -181,6 +187,8 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/medical-ethics-end-of-life-bg.html",
+      "/learning-tasks/medical-ethics-end-of-life-en.html",
       "/learning-tasks/medical-ethics-chronic-relationship-liability-bg.html",
       "/learning-tasks/medical-ethics-chronic-relationship-liability-en.html",
       "/learning-tasks/medical-ethics-confidentiality-bg.html",

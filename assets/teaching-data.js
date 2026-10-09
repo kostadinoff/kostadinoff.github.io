@@ -584,6 +584,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-chronic-relationship-liability-en.html" }
                   ]
+                },
+                {
+                  title: "Class 5 · The terminally ill patient, palliative care, euthanasia and assisted suicide",
+                  description: "Ethical problems at the end of life, palliative care and hospice (WHO definition, goals, double effect, palliative sedation), definitions and types of euthanasia and physician-assisted suicide, Bulgarian law, Strasbourg case law and WMA declarations, a short global overview, and the arguments and philosophical positions.",
+                  tags: ["ethics", "end of life", "palliative care", "euthanasia", "assisted suicide"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-05-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-end-of-life-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -758,6 +770,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-chronic-relationship-liability-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 5 · Терминално болният пациент, палиативни грижи, евтаназия и асистирано самоубийство",
+                  description: "Етични проблеми в края на живота, палиативни грижи и хоспис (определение на СЗО, цели, двоен ефект, палиативна седация), определения и видове евтаназия и медицински асистирано самоубийство, българско право, практика на ЕСПЧ и декларации на СМА, кратък световен преглед, аргументи и философски позиции.",
+                  tags: ["етика", "край на живота", "палиативни грижи", "евтаназия", "асистирано самоубийство"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-05-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-end-of-life-bg.html" }
                   ]
                 }
               ],
@@ -1052,6 +1076,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-chronic-relationship-liability-en.html" }
                   ]
+                },
+                {
+                  title: "Class 5 · The terminally ill patient, palliative care, euthanasia and assisted suicide",
+                  description: "Shared with medical ethics: ethical problems at the end of life, palliative care and hospice (WHO definition, goals, double effect, palliative sedation), definitions and types of euthanasia and physician-assisted suicide, Bulgarian law, Strasbourg case law and WMA declarations, a short global overview, and the arguments and philosophical positions.",
+                  tags: ["ethics", "end of life", "palliative care", "euthanasia", "assisted suicide"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-05-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-end-of-life-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1115,6 +1151,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-chronic-relationship-liability-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 5 · Терминално болният пациент, палиативни грижи, евтаназия и асистирано самоубийство",
+                  description: "Общо с медицинската етика: етични проблеми в края на живота, палиативни грижи и хоспис (определение на СЗО, цели, двоен ефект, палиативна седация), определения и видове евтаназия и медицински асистирано самоубийство, българско право, практика на ЕСПЧ и декларации на СМА, кратък световен преглед, аргументи и философски позиции.",
+                  tags: ["етика", "край на живота", "палиативни грижи", "евтаназия", "асистирано самоубийство"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-05-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-end-of-life-bg.html" }
                   ]
                 }
               ],

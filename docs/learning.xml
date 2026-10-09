@@ -10,7 +10,205 @@
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 03 Oct 2026 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Терминално болният пациент, палиативни грижи, евтаназия и асистирано самоубийство</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-end-of-life-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-05-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-end-of-life-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-end-of-life-en.html">English</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене и размисъл. Текстът следва презентацията „Грижа в края на живота“. След него трябва да можете да обясните кога пациентът е терминално болен, за какво служат палиативните грижи, с какво евтаназията се различава от медицински асистираното самоубийство и от решенията, които изобщо не са евтаназия, какво казва българското право и кои аргументи имат тежест за всяка от страните.</p>
+<section id="терминално-болният-пациент" class="level2">
+<h2 class="anchored" data-anchor-id="терминално-болният-пациент">Терминално болният пациент</h2>
+<p>Законът за лечебните заведения определя терминално болните като лица с прогресиращи и неизлечими заболявания, при които прилагането на лечение не променя неблагоприятната медицинска прогноза по отношение продължителността на живота (§ 1, т. 4 от Допълнителните разпоредби). Законът не посочва срок в дни или месеци и това е основателно: прогнозата е вероятност, а не часовник. Три думи често се смесват. <strong>Неизлечимото</strong> заболяване не може да бъде премахнато, но може да се контролира с години. <strong>Терминалният</strong> стадий означава, че болестта ограничава живота и възстановяването вече не е реалистична цел. <strong>Умирането</strong> означава, че е започнало необратимо угасване на жизнените функции.</p>
+<p>Етиката на този етап е оградена от две грешки. Едната е <strong>изоставянето</strong>: фразата „няма какво повече да се направи“ прекъсва връзката точно когато пациентът има най-голяма нужда от нея. Другата е <strong>терапевтичното упорство</strong>: продължаване или започване на тежки намеси, които само удължават умирането. Между тях стоят познатите проблеми: колко и кога да се каже, молбата на близките диагнозата да бъде скрита, отказът на способен пациент от диализа или вентилация, решенията за реанимация, пациентът, който вече не може да решава, и справедливият достъп до грижа. Терминален статус не се определя само заради възраст, увреждане или зависимост. Недостигът на легла не е клинична безполезност.</p>
+<p>Неблагоприятната прогноза не отнема нито едно право на пациента. Според <a href="https://lex.bg/laws/ldoc/2135489147">Закона за здравето</a> пациентът може по всяко време да откаже предложената медицинска помощ или продължаването на започнатата дейност; отказът се удостоверява с подписи (чл. 90). Помощ против волята на пациента може да се оказва само в случаите, определени със закон (чл. 91). Пациентът може да откаже да бъде информиран за заболяването и прогнозата и може писмено да упълномощи лице, което да бъде информирано вместо него (чл. 92, ал. 2 и 4). Правото да не знаеш принадлежи на пациента, а не на семейството. Когато пациентът отказва необходимо лечение, без да разбира опасността, лекарят е длъжен да разясни неблагоприятната прогноза, освен ако пациентът изрично не желае да я чуе (Кодекс за професионална етика на лекарите, чл. 29).</p>
+<p>Незапочването и прекратяването на лечение могат да имат еднакво етично основание. Ако пробен период на апаратна вентилация не постига договорената цел, фактът, че тя е започнала, не я прави безсрочно задължителна. Лечението е <strong>пропорционално</strong>, когато очакваната полза е разумно съпоставима с риска и товара спрямо целите на конкретния пациент. Решението за непредприемане на реанимация засяга само реанимацията при арест. Обезболяването, кислородът, течностите, сестринските грижи и присъствието продължават. Изкуственото хранене и хидратиране са медицински намеси със свои показания, а не избор между „хранене“ и „оставяне да гладува“.</p>
+</section>
+<section id="палиативни-грижи-и-хоспис" class="level2">
+<h2 class="anchored" data-anchor-id="палиативни-грижи-и-хоспис">Палиативни грижи и хоспис</h2>
+<p>Световната здравна организация определя палиативните грижи като подход, който подобрява качеството на живот на пациентите и семействата им при животозастрашаващо заболяване чрез предотвратяване и облекчаване на страданието — ранно разпознаване, безупречна оценка и лечение на болката и другите физически, психосоциални и духовни проблеми (<a href="https://doi.org/10.1016/S0885-3924(02)00440-2">Sepúlveda et al., 2002</a>). Думата идва от латинското <em>pallium</em> — мантия, покривало. Палиативните грижи не са запазени за онкологичните заболявания и за последните дни. Те започват според потребностите и могат да вървят успоредно с лечението на основната болест. В рандомизирано проучване при метастатичен белодробен карцином ранните палиативни грижи подобряват качеството на живот и настроението, а медианата на преживяемост е 11,6 вместо 8,9 месеца (<a href="https://doi.org/10.1056/NEJMoa1000678">Temel et al., 2010</a>).</p>
+<p>Целите им са облекчаване на болката и другите симптоми; приемане на умирането като естествен процес, който нито се ускорява, нито се отлага; психологическа, социална и духовна подкрепа; помощ пациентът да живее възможно най-активно; подкрепа на семейството по време на болестта и в скръбта. Законът за здравето формулира целта сходно: поддържане на качеството на живот чрез намаляване или премахване на някои непосредствени прояви на болестта и на неблагоприятните психологични и социални ефекти, свързани с нея (чл. 95, ал. 2).</p>
+<p>Сисли Сондърс, която открива хосписа „Сейнт Кристофърс“ в Лондон през 1967 г., нарича това <strong>тотална болка</strong>: физическото, психологичното, социалното и духовното страдание се усилват взаимно, затова по-високата доза аналгетик не лекува страха или самотата (<a href="https://doi.org/10.1016/S0277-9536(99)00098-2">Clark, 1999</a>). Палиативната грижа, грижата в края на живота и хосписната грижа се пресичат, но не са едно и също. Палиативната консултация не е присъда.</p>
+<p>В България пациентът с нелечимо заболяване и неблагоприятна прогноза има право на палиативни медицински грижи (ЗЗ, чл. 95). Те включват медицинско наблюдение, грижи за премахване на болката и психоемоционалните ефекти на болестта и морална подкрепа на пациента и близките му и се оказват от личния лекар, от лечебните заведения за извънболнична и болнична помощ и от хосписите (чл. 96, ал. 1 и 2). Според <a href="https://lex.bg/laws/ldoc/2134670848">Закона за лечебните заведения</a> хосписът е лечебно заведение, когато в него медицински и други специалисти осъществяват палиативни грижи за терминално болни пациенти; той може да предоставя и социални услуги (чл. 10 и 28). Има обаче празнота. Чл. 96, ал. 3 изисква наредба на министъра на здравеопазването за изискванията към палиативните грижи. Илиева и Мусурлиева установяват, че тя не е издадена и деветнадесет години по-късно, и заключават, че липсва ясен механизъм за предоставяне и контрол на обема на палиативната грижа (<a href="https://doi.org/10.36865/2023.v14i2.183">2023</a>). През март 2026 г. служебният министър на здравеопазването пое ангажимент да бъде разработен стандарт за палиативни грижи.</p>
+<p>Опиоидите са незаменими при силна болка. Според <strong>принципа на двойния ефект</strong> действие с добър и предвидим лош ефект е допустимо, ако самото действие е добро или неутрално, цели се само добрият ефект, лошият ефект не е средство за постигане на добрия и има съразмерна причина (<a href="https://doi.org/10.1001/archinte.159.6.545">Sulmasy и Pellegrino, 1999</a>). Учебникът предупреждава срещу мита, че правилно титрираните опиоиди по правило ускоряват смъртта; истинският избор никога не е „болка или смъртоносна доза“. <strong>Палиативната (терминална) седация</strong> е пропорционално и наблюдавано понижаване на съзнанието при рефрактерен симптом, който не може да се облекчи в приемлив срок или при приемлив товар. Използва се най-ниското ефективно ниво; продължителната дълбока седация е запазена за последните часове или дни (<a href="https://doi.org/10.1177/0269216309107024">Cherny и Radbruch, 2009</a>). Целта ѝ е облекчение; смъртта не е нито цел, нито средство.</p>
+</section>
+<section id="евтаназия-и-асистирано-самоубийство-понятия-и-видове" class="level2">
+<h2 class="anchored" data-anchor-id="евтаназия-и-асистирано-самоубийство-понятия-и-видове">Евтаназия и асистирано самоубийство: понятия и видове</h2>
+<p><strong>Евтаназия</strong> е преднамерено прекратяване на живота на пациент от лекар по доброволна и изрична молба на пациент, който има способност за решение; последното действие се извършва от лекаря. При <strong>медицински асистираното самоубийство</strong> лекарят предписва или осигурява средството, а последното действие се извършва от пациента. При по-широкото понятие <strong>асистирано самоубийство</strong> помощникът може да не е лекар. Решаващият въпрос е кой извършва последното действие, с какво намерение и от какво настъпва смъртта.</p>
+<p>Класическата литература разделя евтаназията по четири критерия, които ще срещнете в по-стари текстове и на изпит:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Критерий</th>
+<th style="text-align: left;">Видове</th>
+<th style="text-align: left;">Съвременна оценка</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">По действието</td>
+<td style="text-align: left;">Активна (действие причинява смъртта); пасивна (лечение не се започва или се прекратява)</td>
+<td style="text-align: left;">„Пасивна евтаназия“ е подвеждащ термин: пропорционалното прекратяване е легитимна грижа</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">По волята</td>
+<td style="text-align: left;">Доброволна, недоброволна (без способност), принудителна (против волята)</td>
+<td style="text-align: left;">Само доброволната може да е евтаназия; принудителната е убийство</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">По намерението</td>
+<td style="text-align: left;">Директна (смъртта е цел); индиректна (смъртта е предвидена, но не е цел)</td>
+<td style="text-align: left;">Индиректната е двоен ефект, а не евтаназия</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">По извършителя</td>
+<td style="text-align: left;">Евтаназия или (медицински) асистирано самоубийство</td>
+<td style="text-align: left;">Решава кой извършва последното действие</td>
+</tr>
+</tbody>
+</table>
+<p>Рейчълс твърди, че убиването и допускането на смъртта сами по себе си не се различават морално (<a href="https://doi.org/10.1056/NEJM197501092920206">Rachels, 1975</a>). Учебникът и Световната медицинска асоциация запазват разграничението. Четири въпроса отделят решенията: какво се прави, какво се цели, от какво настъпва смъртта и продължава ли грижата. Отказът на способен пациент, прекратяването на безполезно лечение, титрираното обезболяване и пропорционалната палиативна седация не са евтаназия. Близките не могат да поискат евтаназия вместо пациент без способност за решение, а предварителният отказ от определено лечение не е предварителна молба да бъде причинена смърт.</p>
+<p>„Искам да умра“ е съобщение, което изисква отговор. То може да означава неовладяна болка, задух, страх от загуба на контрол, депресия, делир, самота, бедност или чувство, че човек е в тежест. Попитайте открито какво прави живота непоносим сега; оценете симптомите, настроението, способността за решение и риска от самоубийство; лекувайте поправимото; обяснете правните граници; обещайте, че няма да изоставите пациента.</p>
+</section>
+<section id="нормативна-рамка" class="level2">
+<h2 class="anchored" data-anchor-id="нормативна-рамка">Нормативна рамка</h2>
+<p>В България всеки има право на живот и посегателството върху него се наказва като най-тежко престъпление (<a href="https://lex.bg/laws/ldoc/521957377">Конституция</a>, чл. 28). <strong>На територията на Република България не се прилага евтаназия</strong> (ЗЗ, чл. 97). Лекарят няма право да прекъсва живота на пациента и трябва да извърши всичко възможно неизлечимо болните да прекарат остатъка от живота си без болки и страдания, при съхранено достойнство (Кодекс за професионална етика на лекарите, чл. 30 и 31). <a href="https://lex.bg/laws/ldoc/1589654529">Наказателният кодекс</a> не съдържа привилегирован състав „убийство по молба“: умишленото умъртвяване е убийство (чл. 115), а съгласието не изключва отговорността. Подпомагането или склоняването на другиго към самоубийство е престъпление, ако последва самоубийство или опит (чл. 127). Забраната не отменя правото на отказ от лечение и правото на палиативни грижи.</p>
+<p>Европейският съд по правата на човека оставя на държавите широка свобода. По делото <em>Прети срещу Обединеното кралство</em> (2002) съдът приема, че правото на живот не включва право на смърт. По <em>Хаас срещу Швейцария</em> (2011) решението как и кога да приключи животът е част от личния живот (чл. 8). По <em>Ламбер и др. срещу Франция</em> (Голяма камара, 2015) прекратяването на изкуственото хранене при пациент във вегетативно състояние не нарушава чл. 2. По <em>Мортие срещу Белгия</em> (2022) е установено нарушение на чл. 2, защото контролът върху конкретния случай на евтаназия не е бил независим, а не заради белгийския закон. По <em>Карсаи срещу Унгария</em> (2024) съдът не намира задължение за допускане на помощ при умиране и подчертава значението на палиативните грижи. Конвенцията от Овиедо изисква предварително изразените желания да бъдат вземани предвид (чл. 9), а Парламентарната асамблея заявява, че евтаназията трябва винаги да бъде забранена (Резолюция 1859, 2012). Световната медицинска асоциация е твърдо против евтаназията и медицински асистираното самоубийство (Декларация от Тбилиси, 2019) и определя палиативната грижа като част от добрата медицина (Декларация от Венеция, ревизия 2022).</p>
+</section>
+<section id="кратък-световен-преглед" class="level2">
+<h2 class="anchored" data-anchor-id="кратък-световен-преглед">Кратък световен преглед</h2>
+<p>Към октомври 2026 г. евтаназията и асистираното самоубийство са разрешени в Нидерландия, Белгия, Люксембург, Канада, Испания, Колумбия, Нова Зеландия и във всички австралийски щати и столичната територия. Уругвай разреши евтаназията през 2025 г. Швейцария допуска асистирано самоубийство без користен мотив; Орегон (1997) и над десет други юрисдикции в САЩ го допускат, Ню Йорк от август 2026 г.; в Австрия, Германия и Италия то е възможно след съдебни решения. Франция прие закон през юли 2026 г., който е на конституционен контрол; законопроектът за Англия и Уелс пропадна в Камарата на лордовете, Шотландия отхвърли своя, законът на Португалия от 2023 г. не влезе в сила, а в Словения избирателите отхвърлиха закона на референдум през 2025 г. Където е разрешено, евтаназията и асистираното самоубийство са 0,3–4,6% от смъртните случаи, над 70% са при онкологично болни, а болката най-често не е основният мотив (<a href="https://doi.org/10.1001/jama.2016.8499">Emanuel et al., 2016</a>).</p>
+</section>
+<section id="аргументи-и-философски-позиции" class="level2">
+<h2 class="anchored" data-anchor-id="аргументи-и-философски-позиции">Аргументи и философски позиции</h2>
+<p>Аргументите <strong>за</strong> разрешаването се основават на автономността над собствената смърт, на състраданието там, където страданието не може да бъде облекчено, на достойнството, разбирано като живот според собствените ценности, и на прозрачността вместо скрита практика. Аргументите <strong>против</strong> се основават на присъщата ценност на живота и ролята на лечителя, на несигурната прогноза и необратимото действие, на натиска върху възрастни, бедни и хора с увреждания, на хлъзгавия склон и на палиативните грижи като първи отговор. „Достойнство“ и „да не се вреди“ се използват и от двете страни, затова ги определете, преди да спорите.</p>
+<p>Всяка философска традиция тегли в своя посока. <strong>Автономността</strong> (Мил) подкрепя избора на способния човек, но правото на отказ не е право да задължиш друг да убие. <strong>Светостта на живота</strong> забранява умишленото причиняване на смърт, но не изисква безкрайно лечение. <strong>Кант</strong> приписва на личността достойнство, а не цена, и смята, че да прекратиш живота си, за да избягаш от страданието, означава да се използваш само като средство. <strong>Утилитаризмът</strong> цели минимум страдание (Сингър подкрепя доброволната евтаназия), но трябва да претегли и доверието в медицината и риска за уязвимите. <strong>Хлъзгавият склон</strong> има логическа форма (основанията се разпростират извън терминалното заболяване) и емпирична: едно изследване не открива повишен риск за уязвими групи в Орегон и Нидерландия (<a href="https://doi.org/10.1136/jme.2007.022335">Battin et al., 2007</a>), а други изразяват безпокойство за психиатричните случаи (<a href="https://doi.org/10.1001/jamainternmed.2015.4086">Lerner и Caplan, 2015</a>). <strong>Хипократовата традиция</strong> гласи: „Няма да дам смъртоносно средство на никого, дори да ме помоли.“</p>
+<p><em>Цитираните разпоредби са проверени в актуалните консолидирани текстове на 9 октомври 2026 г.</em></p>
+<p>Преди да отворите <a href="../learning-tasks/medical-ethics-end-of-life-bg.html">задачите за студенти</a>, опитайте се да отговорите в три изречения: защо прекратяването на диализа по искане на способен пациент не е евтаназия; кои са четирите условия на двойния ефект; какво трябва да каже българският лекар на пациент, който моли за помощ да умре.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-end-of-life-bg.html</guid>
+  <pubDate>Thu, 08 Oct 2026 21:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The terminally ill patient, palliative care, euthanasia and assisted suicide</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-end-of-life-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/ethics-05-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-end-of-life-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-end-of-life-bg.html">Български</a></p>
+<p>Set aside about <strong>15 minutes</strong> to read and think. The text follows the presentation “Care at the end of life”. Afterwards you should be able to say what makes a patient terminally ill, what palliative care is for, how euthanasia differs from physician-assisted suicide and from decisions that are not euthanasia at all, what Bulgarian law says, and which arguments carry weight on each side.</p>
+<section id="the-terminally-ill-patient" class="level2">
+<h2 class="anchored" data-anchor-id="the-terminally-ill-patient">The terminally ill patient</h2>
+<p>The Bulgarian Medical Institutions Act defines terminally ill patients as persons with progressive and incurable diseases in which treatment does not change the unfavourable prognosis for length of life (Additional Provisions, § 1, item 4). It sets no limit in days or months, and rightly so: prognosis is a probability, not a clock. Three words are often confused. An <strong>incurable</strong> disease cannot be removed but may be controlled for years. A <strong>terminal</strong> stage means the disease limits life and recovery is no longer a realistic goal. <strong>Dying</strong> means that irreversible failure of vital functions has begun.</p>
+<p>Two errors frame the ethics of this stage. One is <strong>abandonment</strong>: “there is nothing more we can do” ends the relationship just when the patient needs it most. The other is <strong>therapeutic obstinacy</strong>: continuing or starting burdensome interventions that only prolong dying. Between them lie the familiar problems: how much to tell and when, a family asking to hide the diagnosis, a capable patient refusing dialysis or ventilation, decisions about resuscitation, a patient who can no longer decide, and fair access to care. Terminal status must never be assigned because of age, disability or dependence alone. A shortage of beds is not clinical futility.</p>
+<p>A terminal prognosis does not reduce any patient right. Under the <a href="https://lex.bg/laws/ldoc/2135489147">Health Act</a> the patient may refuse offered care, or its continuation, at any time; the refusal is recorded with signatures (Art. 90). Care against the patient’s will is possible only in cases set by law (Art. 91). The patient may decline information about the disease and prognosis and may authorise another person in writing to be informed instead (Art. 92(2) and (4)). The right not to know belongs to the patient, not to the family. When a patient refuses needed treatment without understanding the danger, the physician must explain the unfavourable prognosis, unless the patient explicitly does not want to hear it (Code of Professional Ethics, Art. 29).</p>
+<p>Withholding and withdrawing treatment can rest on the same ethical ground. If a time-limited trial of ventilation fails its agreed goal, the fact that it has started does not make it obligatory forever. Treatment is <strong>proportionate</strong> when its expected benefit reasonably matches its risks and burdens for this patient’s goals. A do-not-resuscitate decision covers only resuscitation at arrest. Pain relief, oxygen, fluids, nursing care and presence continue. Artificial nutrition and hydration are medical interventions with their own indications, not a choice between “feeding” and “letting someone starve”.</p>
+</section>
+<section id="palliative-care-and-hospice" class="level2">
+<h2 class="anchored" data-anchor-id="palliative-care-and-hospice">Palliative care and hospice</h2>
+<p>The World Health Organization defines palliative care as an approach that improves the quality of life of patients and their families facing life-threatening illness, through the prevention and relief of suffering by early identification, impeccable assessment and treatment of pain and other problems, physical, psychosocial and spiritual (<a href="https://doi.org/10.1016/S0885-3924(02)00440-2">Sepúlveda et al., 2002</a>). The word comes from the Latin <em>pallium</em>, a cloak. Palliative care is not reserved for cancer or for the last days. It starts according to need and can run alongside treatment aimed at the disease. In a randomised trial in metastatic lung cancer, early palliative care improved quality of life and mood, and median survival was 11.6 rather than 8.9 months (<a href="https://doi.org/10.1056/NEJMoa1000678">Temel et al., 2010</a>).</p>
+<p>Its goals: relief of pain and other symptoms; regarding dying as a normal process that is neither hastened nor postponed; psychological, social and spiritual support; helping the patient live as actively as possible; and support for the family during the illness and in bereavement. The Health Act puts the goal in similar terms: maintaining quality of life by reducing or removing manifestations of the disease and its unfavourable psychological and social effects (Art. 95(2)).</p>
+<p>Cicely Saunders, who opened St Christopher’s Hospice in London in 1967, called this <strong>total pain</strong>: physical, psychological, social and spiritual suffering reinforce one another, so a higher analgesic dose does not cure fear or loneliness (<a href="https://doi.org/10.1016/S0277-9536(99)00098-2">Clark, 1999</a>). Palliative care, end-of-life care and hospice care overlap but are not the same. A palliative consultation is not a death sentence.</p>
+<p>In Bulgaria the patient with an incurable disease and unfavourable prognosis has a right to palliative care (Health Act, Art. 95). It includes medical monitoring, care to remove pain and psycho-emotional effects, and moral support for the patient and family, provided by the GP, outpatient and hospital care, and hospices (Art. 96(1)–(2)). Under the <a href="https://lex.bg/laws/ldoc/2134670848">Medical Institutions Act</a> a hospice is a medical institution in which specialists provide palliative care to terminally ill patients; it may also offer social services (Arts. 10 and 28). There is a gap, though. Art. 96(3) requires an ordinance of the Minister of Health on the requirements for palliative care. Ilieva and Musurlieva found that it had still not been issued nineteen years later and concluded that there is no clear mechanism for providing and controlling the scope of palliative care (<a href="https://doi.org/10.36865/2023.v14i2.183">2023</a>). In March 2026 the caretaker health minister committed to developing a palliative care standard.</p>
+<p>Opioids are indispensable for severe pain. Under the <strong>rule of double effect</strong> an act with a good and a foreseen bad effect is permissible if the act itself is good or neutral, only the good effect is intended, the bad effect is not the means to the good, and there is a proportionate reason (<a href="https://doi.org/10.1001/archinte.159.6.545">Sulmasy and Pellegrino, 1999</a>). The textbook warns against the myth that properly titrated opioids routinely hasten death; the real choice is never “pain or a lethal dose”. <strong>Palliative (terminal) sedation</strong> is a proportionate, monitored lowering of consciousness for a refractory symptom, one that cannot be relieved within an acceptable time or burden. The lowest effective level is used; continuous deep sedation is reserved for the last hours or days (<a href="https://doi.org/10.1177/0269216309107024">Cherny and Radbruch, 2009</a>). Its aim is relief; death is neither the goal nor the means.</p>
+</section>
+<section id="euthanasia-and-assisted-suicide-concepts-and-types" class="level2">
+<h2 class="anchored" data-anchor-id="euthanasia-and-assisted-suicide-concepts-and-types">Euthanasia and assisted suicide: concepts and types</h2>
+<p><strong>Euthanasia</strong> is the deliberate ending of a patient’s life by a physician at the voluntary, explicit request of a patient with decision-making capacity; the physician performs the last act. In <strong>physician-assisted suicide</strong> the physician prescribes or provides the means and the patient performs the last act. In the broader term <strong>assisted suicide</strong> the helper need not be a physician. The decisive question is who performs the last act, with what intention, and what causes death.</p>
+<p>The classical literature divides euthanasia by four criteria, and you will meet them in older texts and exams:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Criterion</th>
+<th style="text-align: left;">Types</th>
+<th style="text-align: left;">Assessment today</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">By the act</td>
+<td style="text-align: left;">Active (an act causes death); passive (treatment is withheld or withdrawn)</td>
+<td style="text-align: left;">“Passive euthanasia” is misleading: proportionate withdrawal is legitimate care</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">By the will</td>
+<td style="text-align: left;">Voluntary, non-voluntary (no capacity), involuntary (against the will)</td>
+<td style="text-align: left;">Only voluntary can be euthanasia; involuntary is murder</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">By intention</td>
+<td style="text-align: left;">Direct (death intended); indirect (death foreseen, not intended)</td>
+<td style="text-align: left;">Indirect is the rule of double effect, not euthanasia</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">By the actor</td>
+<td style="text-align: left;">Euthanasia or (physician-)assisted suicide</td>
+<td style="text-align: left;">Decided by who performs the last act</td>
+</tr>
+</tbody>
+</table>
+<p>Rachels argued that killing and letting die do not differ morally in themselves (<a href="https://doi.org/10.1056/NEJM197501092920206">1975</a>). The textbook and the World Medical Association keep the distinction. Four questions separate the decisions: what is done, what is intended, what causes death, and whether care continues. Refusal by a capable patient, withdrawal of futile treatment, titrated pain relief and proportionate palliative sedation are not euthanasia. Relatives cannot request euthanasia on behalf of a patient who lacks capacity, and an advance refusal of a specific treatment is not an advance request to be killed.</p>
+<p>“I want to die” is a message that needs an answer. It may mean uncontrolled pain, breathlessness, fear of losing control, depression, delirium, loneliness, poverty or the feeling of being a burden. Ask openly what makes life unbearable now; assess symptoms, mood, capacity and suicide risk; treat what can be treated; explain the legal limits; and promise not to abandon the patient.</p>
+</section>
+<section id="the-normative-framework" class="level2">
+<h2 class="anchored" data-anchor-id="the-normative-framework">The normative framework</h2>
+<p>In Bulgaria everyone has the right to life, and an attack on it is punished as the gravest crime (<a href="https://lex.bg/laws/ldoc/521957377">Constitution</a>, Art. 28). <strong>Euthanasia is not applied on the territory of Bulgaria</strong> (Health Act, Art. 97). The physician has no right to end the patient’s life and must do everything possible so that the incurably ill spend the rest of their lives without pain and suffering, with their dignity preserved (Code of Professional Ethics, Arts. 30 and 31). The <a href="https://lex.bg/laws/ldoc/1589654529">Criminal Code</a> has no privileged offence of “killing on request”: deliberate killing is murder (Art. 115), and consent is no defence. Assisting or persuading another person to commit suicide is a crime if suicide or an attempt follows (Art. 127). The prohibition does not cancel the right to refuse treatment or the right to palliative care.</p>
+<p>The European Court of Human Rights leaves states a wide margin. <em>Pretty v United Kingdom</em> (2002) held that the right to life confers no right to die. <em>Haas v Switzerland</em> (2011) placed the decision how and when to end one’s life within private life (Art. 8). In <em>Lambert and Others v France</em> (Grand Chamber, 2015), withdrawing artificial nutrition from a patient in a vegetative state did not breach Art. 2. <em>Mortier v Belgium</em> (2022) found a violation of Art. 2 because the review of a euthanasia case was not independent, not because of the Belgian law itself. <em>Karsai v Hungary</em> (2024) found no duty to allow assisted dying and stressed palliative care. The Oviedo Convention requires previously expressed wishes to be taken into account (Art. 9), and the Parliamentary Assembly has stated that euthanasia must always be prohibited (Resolution 1859, 2012). The World Medical Association is firmly opposed to euthanasia and physician-assisted suicide (Declaration of Tbilisi, 2019) and calls palliative care part of good medical care (Declaration of Venice, revised 2022).</p>
+</section>
+<section id="a-short-global-overview" class="level2">
+<h2 class="anchored" data-anchor-id="a-short-global-overview">A short global overview</h2>
+<p>As of October 2026, euthanasia and assisted suicide are legal in the Netherlands, Belgium, Luxembourg, Canada, Spain, Colombia, New Zealand and every Australian state and the ACT. Uruguay legalised euthanasia in 2025. Switzerland allows assisted suicide without a selfish motive; Oregon (1997) and more than ten other US jurisdictions allow it, New York since August 2026; Austria, Germany and Italy allow it after court rulings. France adopted a law in July 2026 that is under constitutional review; the bill for England and Wales fell in the House of Lords, Scotland rejected its bill, Portugal’s 2023 law never came into force, and Slovenian voters rejected theirs in a 2025 referendum. Where it is legal, 0.3–4.6% of deaths are euthanasia or assisted suicide, more than 70% involve cancer, and pain is mostly not the main motive (<a href="https://doi.org/10.1001/jama.2016.8499">Emanuel et al., 2016</a>).</p>
+</section>
+<section id="arguments-and-philosophical-positions" class="level2">
+<h2 class="anchored" data-anchor-id="arguments-and-philosophical-positions">Arguments and philosophical positions</h2>
+<p>The case <strong>for</strong> legalisation rests on autonomy over one’s own death, on compassion where suffering cannot be relieved, on dignity understood as living by one’s own values, and on transparency instead of hidden practice. The case <strong>against</strong> rests on the inherent value of life and the healer’s role, on uncertain prognosis and an irreversible act, on pressure on old, poor and disabled people, on the slippery slope, and on palliative care as the first answer. “Dignity” and “do no harm” are used by both sides, so define them before you argue.</p>
+<p>Each philosophical tradition pulls in its own direction. <strong>Autonomy</strong> (Mill) supports a capable person’s choice, yet a right to refuse is not a right to oblige someone else to kill. The <strong>sanctity of life</strong> forbids intentional killing but does not demand endless treatment. <strong>Kant</strong> gives persons dignity rather than a price and held that ending one’s life to escape suffering treats oneself as a mere means. <strong>Utilitarianism</strong> aims to minimise suffering (Singer supports voluntary euthanasia) but must also weigh trust in medicine and risk to the vulnerable. The <strong>slippery slope</strong> has a logical form (the reasons extend beyond terminal illness) and an empirical one: one study found no heightened risk for vulnerable groups in Oregon and the Netherlands (<a href="https://doi.org/10.1136/jme.2007.022335">Battin et al., 2007</a>), while others worry about psychiatric cases (<a href="https://doi.org/10.1001/jamainternmed.2015.4086">Lerner and Caplan, 2015</a>). The <strong>Hippocratic tradition</strong> says: “I will not give a deadly drug to anybody who asks for it.”</p>
+<p><em>The cited provisions were checked against current consolidated texts on 9 October 2026.</em></p>
+<p>Before you open the <a href="../learning-tasks/medical-ethics-end-of-life-en.html">student tasks</a>, try to answer in three sentences: why stopping dialysis at a capable patient’s request is not euthanasia; what the four conditions of double effect are; and what a Bulgarian physician should say to a patient who asks for help to die.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Medical Ethics</category>
+  <category>Medicine | 2nd year</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-end-of-life-en.html</guid>
+  <pubDate>Thu, 08 Oct 2026 21:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Хронично болният пациент, моделите на взаимоотношение и правната отговорност на лекаря</title>
   <dc:creator>Костадин Костадинов</dc:creator>
@@ -1799,333 +1997,6 @@
   <category>Bulgaria</category>
   <guid>https://kostadinoff.github.io/15-minute-learning/primary-health-care.html</guid>
   <pubDate>Sat, 14 Mar 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The Burden of Disease: Concepts, Measurement, and the Bulgarian Context</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/burden-of-disease.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<section id="the-burden-of-disease-core-concepts-and-evolution" class="level1">
-<h1>The Burden of Disease: Core Concepts and Evolution</h1>
-<section id="why-counting-deaths-is-not-enough" class="level2">
-<h2 class="anchored" data-anchor-id="why-counting-deaths-is-not-enough">Why Counting Deaths Is Not Enough</h2>
-<p>Physicians have long recorded how many patients die and from what causes. For most of medical history, mortality statistics were treated as the primary measure of a population’s health. Yet a moment’s reflection reveals how much this misses. A person living with advanced rheumatoid arthritis, unable to work or care for themselves, contributes nothing to the death register until they die—which may be decades away. A country in which most citizens reach old age but do so with severe chronic pain, impaired mobility, and depression may record enviable mortality figures while concealing an enormous weight of human suffering. This is why modern public health has moved toward the concept of <strong>disease burden</strong>: a framework that tries to capture not only how many people die, but how many years of healthy life a population loses, through both premature death and the diminished quality of life imposed by illness and disability.</p>
-<p>The burden of disease, formally defined, describes the total cumulative consequences of a given disease or range of diseases on a community, encompassing health dimensions, social disruption, and costs to society. Its conceptual logic rests on identifying the gap between an ideal—a world in which everyone lives to their full biological potential, free of disease and disability—and the reality of a population’s actual health. Quantifying that gap, across conditions as different as childhood pneumonia and dementia, is the task of burden of disease measurement.</p>
-</section>
-<section id="what-makes-a-disease-a-heavy-burden" class="level2">
-<h2 class="anchored" data-anchor-id="what-makes-a-disease-a-heavy-burden">What Makes a Disease a Heavy Burden?</h2>
-<p>Not every condition that affects many people imposes a large burden, and not every condition that kills imposes the largest burden. The criteria used to identify conditions of high burden are worth understanding because they do not reduce to a single dimension.</p>
-<p>A disease carries a heavy burden when it combines high mortality with poor prognosis—meaning that not only does it kill frequently, but it does so in circumstances where intervention has little to offer. Advanced cancers and end-stage organ failure exemplify this combination. Separately, a disease may impose substantial burden through high prevalence and incidence even when individual cases have a relatively moderate prognosis: the sheer scale of cases translates into massive collective suffering. Diabetes is an instructive example, as it rarely appears as a primary cause of death yet generates cardiovascular events, renal failure, and blindness across millions of patients simultaneously.</p>
-<p>The structural impact on a population is another dimension. Diseases that concentrate their lethality among young people—such as road traffic injuries or tuberculosis in productive-age adults—distort the age distribution of a population and remove people at life stages when their social and economic contributions would have been greatest. The economic consequences extend to direct healthcare costs, which can be catastrophic for families and health systems alike, and to indirect costs through lost productivity. A condition that leads to years of hospitalisation, rehabilitation, and permanent inability to work imposes costs that spread well beyond the healthcare sector into social welfare, disability support, and family income.</p>
-</section>
-<section id="from-disease-to-disability-a-three-stage-chain" class="level2">
-<h2 class="anchored" data-anchor-id="from-disease-to-disability-a-three-stage-chain">From Disease to Disability: A Three-Stage Chain</h2>
-<p>Before turning to the specific metrics used to measure burden, it is useful to understand how the consequences of disease are conceptually organised. Three related terms—impairment, disability, and handicap—describe progressive stages in the journey from a biological lesion to its social consequences.</p>
-<p><strong>Impairment</strong> is the most basic level, referring to any structural or functional abnormality, typically at the level of an organ or organ system. A person who suffers brain injury may develop intellectual impairment; a person with poliomyelitis may develop paralysis. <strong>Disability</strong> is the translation of that impairment into functional limitation: difficulty in learning in the first case, inability to walk in the second. The disability captures what the person cannot do, measured against what would normally be expected for someone of their age and sex. <strong>Handicap</strong> is the social consequence: social isolation in the person who cannot learn effectively, unemployment in the person who cannot walk. It describes the gap between what the individual can do and what their social environment demands of them.</p>
-<p>This three-stage chain matters clinically because interventions can target different stages. Medicine typically works at the level of impairment, attempting to reverse or limit the biological lesion. Rehabilitation works primarily at the level of disability, trying to restore or compensate for lost function. Social and legal policy works at the level of handicap, modifying environmental demands so that disability does not automatically translate into social exclusion. Effective reduction of disease burden requires action at all three stages.</p>
-</section>
-<section id="the-metrics-yll-yld-and-daly" class="level2">
-<h2 class="anchored" data-anchor-id="the-metrics-yll-yld-and-daly">The Metrics: YLL, YLD, and DALY</h2>
-<p>The Global Burden of Disease study, launched in the early 1990s, created a standardised set of metrics to make disease burdens comparable across conditions and populations. The central measure is the <strong>Disability-Adjusted Life Year</strong>, or DALY, which combines two components: Years of Life Lost to premature mortality and Years Lived with Disability.</p>
-<p><strong>Years of Life Lost (YLL)</strong> captures the mortality component. When a person dies at age 45 and the reference life expectancy at that age is 82.5 years for women or 80 years for men—the standard benchmarks used in the Global Burden of Disease study—they have lost approximately 37 years of potential life. Multiplying the number of deaths at each age by the remaining life expectancy at that age, and summing across all deaths from a given cause, produces the total YLL for that condition. The logic is straightforward but has important implications: it assigns greater weight to deaths at younger ages. A hundred deaths at age 30 generate far more YLL than a hundred deaths at age 75, because young deaths represent a greater proportion of a life unlived.</p>
-<p><strong>Years Lived with Disability (YLD)</strong> addresses the morbidity component—the burden carried by people who are alive but not fully healthy. The calculation requires three pieces of information: the number of cases of a condition, the average duration for which each case persists, and a <strong>disability weight</strong> that expresses the severity of functional loss on a scale from zero (perfect health) to one (a state equivalent to death). Terminal-stage cancer carries a disability weight of 0.70 to 1.00; mild anaemia carries a weight of approximately 0.02. Multiplying cases by duration by disability weight produces YLD. This makes the metric sensitive to the scale and chronicity of a condition as well as its severity—a condition affecting five hundred patients for ten years with a weight of 0.6 contributes three thousand YLD, entirely independent of how many patients die from it.</p>
-<p>Adding YLL and YLD yields the DALY: one DALY equals one year of healthy life lost, whether to premature death or to disability. The practical power of this composite metric is that it allows direct comparisons between conditions with very different epidemiological profiles. A highly fatal disease with low morbidity can be weighed against a chronic condition with very low mortality but widespread and severe disability. Without a common unit of this kind, public health priority-setting between such conditions would rest on intuition rather than evidence.</p>
-<p>A related measure, the <strong>Quality-Adjusted Life Year (QALY)</strong>, works along similar principles but from the opposite direction: rather than counting years lost, it counts years lived, adjusted for quality. A year lived in perfect health counts as 1.0 QALY; a year lived with moderate functional limitation might count as 0.65. QALYs are the standard metric of health economics and underpin most cost-effectiveness analyses used to guide decisions about which treatments should be funded.</p>
-</section>
-<section id="measuring-healthcare-quality-through-burden-indicators" class="level2">
-<h2 class="anchored" data-anchor-id="measuring-healthcare-quality-through-burden-indicators">Measuring Healthcare Quality Through Burden Indicators</h2>
-<p>Beyond aggregating total burden, these metrics can be combined to probe the quality and efficiency of healthcare systems. The <strong>Mortality-to-Incidence Ratio (MIR)</strong> divides the number of deaths from a condition by the number of new cases. Where healthcare is effective—where screening detects disease early, treatment is timely, and quality is high—deaths will be low relative to incidence, producing a low MIR. Where healthcare is deficient, deaths will be high relative to diagnosed cases. The contrast across regions for cancer is instructive: African regions, where access to diagnosis and treatment is most constrained, record MIR values approaching 67 percent for cancer overall, meaning more than two in three diagnosed patients die. North American regions achieve MIR values around 23 percent. This difference does not primarily reflect different cancer types or genetic predispositions; it reflects healthcare capacity, diagnostic infrastructure, and the availability of effective treatment.</p>
-<p>The <strong>DALYs-to-Prevalence Ratio (DPR)</strong> measures how severe the average health loss is per person living with a condition—useful for comparing conditions with similar prevalence but different clinical impact. The <strong>Prevalence-to-Incidence Ratio (PIR)</strong> reflects how long, on average, a condition persists once diagnosed: a rising PIR may signal either improving survival—patients living longer with their disease—or inadequate prevention, with new cases accumulating faster than they resolve. The <strong>YLL-to-YLD Ratio (YYR)</strong> indicates whether a condition’s burden falls primarily on the mortality side or the disability side, and this distinction has direct implications for intervention strategy: conditions with a high YYR call for investment in early detection and curative treatment, while those with a low YYR call for rehabilitation, disability accommodation, and quality-of-life services.</p>
-</section>
-<section id="the-epidemiological-transition" class="level2">
-<h2 class="anchored" data-anchor-id="the-epidemiological-transition">The Epidemiological Transition</h2>
-<p>The distribution of disease burden across populations is not random but follows a recognisable historical pattern known as the <strong>epidemiological transition</strong>. As countries industrialise and living standards improve, the burden of Group I diseases—infectious conditions, perinatal disorders, and nutritional deficiencies—declines, driven by improvements in sanitation, nutrition, vaccination, and access to basic healthcare. In their place, Group II diseases—non-communicable conditions including cardiovascular disease, cancers, neuropsychiatric disorders, and diabetes—become dominant, as people live long enough to develop the chronic diseases associated with ageing, lifestyle, and environmental exposure. A third group, injuries, remains relatively constant as a share of total burden at all levels of development.</p>
-<p>In high-income countries, non-communicable diseases now account for approximately 86 percent of total DALYs. The inverse is equally striking: more than 98 percent of the global burden from infectious conditions is concentrated in low- and middle-income countries. Countries caught in transition face a particularly difficult epidemiological situation—they carry residual Group I burdens while Group II conditions are already rising, placing extraordinary demands on health systems that were often designed for a different disease pattern. This double burden is not merely a transitional phase; it can persist for decades and requires simultaneous investment in communicable disease control and in chronic disease prevention and management.</p>
-</section>
-<section id="disease-burden-in-bulgaria-the-2024-picture" class="level2">
-<h2 class="anchored" data-anchor-id="disease-burden-in-bulgaria-the-2024-picture">Disease Burden in Bulgaria: The 2024 Picture</h2>
-<p>Bulgaria provides a clear example of a country in advanced but still incomplete epidemiological transition. The cardiovascular system dominates mortality: diseases of the circulatory system caused 957.1 deaths per one hundred thousand population, accounting for 61.1 percent of all deaths, with cerebrovascular diseases—stroke—representing the most lethal single manifestation. This cardiovascular dominance is characteristic of Eastern European populations and reflects the combined effects of high tobacco use, physical inactivity, suboptimal diet, undertreated hypertension, and insufficient organised stroke care.</p>
-<p>Cancer constitutes the second major burden. In 2024, 25,225 new malignant neoplasm cases were registered. Skin cancer led at 17.7 percent of all new cases, followed by breast cancer in women at 11.8 percent, prostate cancer at 10.6 percent, lung cancers at 8.1 percent, and colorectal cancer at 7.9 percent. In children under seventeen years, forty-nine new cases were recorded, of which 57.1 percent were haematological malignancies—a pattern consistent with global childhood cancer epidemiology and one that requires dedicated paediatric oncology infrastructure.</p>
-<p>Against this background of chronic disease dominance, 2024 brought sharp reminders that communicable disease control remains unfinished. Whooping cough cases surged from 20 in 2023 to 2,721—an increase of more than a hundredfold—and measles re-emerged with 27 cases after recording none in the preceding year. These are not isolated statistical fluctuations but signals of weakening population immunity, with implications for programme managers and clinicians managing vulnerable infants and immunocompromised patients. Tuberculosis registered 885 new cases and relapses, maintaining Bulgaria within the elevated Eastern European burden pattern.</p>
-<p>Hospitalisation data from 2024 reflect the scale of healthcare engagement with this burden: 3,245,686 cases were hospitalised, an increase of nearly 300,000 from the year before. The largest single diagnostic category—accounting for 34 percent of all hospitalisations—was not a disease class at all but the administrative category covering preventive encounters, screening, and rehabilitation, reflecting the expanding role of the healthcare system in managing and monitoring chronic conditions rather than responding only to acute episodes. Among children, respiratory diseases led hospitalisation at 28.9 percent, with injuries and poisonings second at 18.1 percent.</p>
-<p>Permanent disability data illustrate how disease burden extends beyond hospital walls and death registers. In 2024, 79,238 adults over sixteen were certified with permanent disability—a rate of 14.5 per thousand and a notable increase from the 64,719 certified in the preceding year. Nearly half were certified for life. The leading causes in adults mirrored those of mortality: circulatory diseases at 27.4 percent, neoplasms at 19.1 percent, musculoskeletal conditions at 12.9 percent. Among children under sixteen, 3,721 were certified with disability, and the causative structure differed entirely from adults: mental and behavioural disorders led at 34.4 percent, followed by congenital anomalies at 14.5 percent and respiratory diseases at 12.5 percent. This age-specific difference underscores that the pathways to childhood disability—neurodevelopmental disorders, genetic conditions, early-onset chronic diseases—require very different policy responses from those appropriate to adult disability.</p>
-</section>
-<section id="the-modifiable-risk-factors" class="level2">
-<h2 class="anchored" data-anchor-id="the-modifiable-risk-factors">The Modifiable Risk Factors</h2>
-<p>Understanding why Bulgaria carries this burden requires looking at behaviour and lifestyle. Tobacco use stands at 39.5 percent of the adult population overall—40.3 percent of men and 38.7 percent of women. This near-symmetry between the sexes is unusual within Europe, where the historical gender gap in smoking has not closed to this degree in most countries. The WHO reports that the European Region already faces the prospect of leading global tobacco consumption by 2030 if current trends continue, and Bulgaria sits at the upper extreme of the regional range. Among adolescents aged thirteen to fifteen, 23.3 percent use e-cigarettes—the highest proportion recorded in the WHO European Region. The adolescent uptake matters because nicotine dependence established in adolescence is highly persistent, meaning that without effective intervention, high tobacco prevalence among today’s teenagers will translate into high burden from respiratory disease, cardiovascular disease, and cancer two and three decades from now.</p>
-<p>Physical inactivity compounds the tobacco burden. Globally, 31 percent of adults fail to meet minimum recommended activity levels—a figure that, when applied to a world population, represents 1.8 billion people. In Bulgaria, sedentary behaviour accounts for an estimated 9.8 percent of all deaths annually, with specific fractions attributable to ischaemic heart disease, stroke, type 2 diabetes, and cancer. Within the European Union, Bulgaria ranks among the five most inactive member states, with 61 percent of adults reporting no physical activity—a figure reflecting both the absence of structured exercise and the predominantly sedentary nature of most occupations.</p>
-<p>Alcohol presents a similar picture of high burden and limited clinical response. WHO data published in 2024 attribute 2.6 million deaths per year globally to alcohol—4.7 percent of all deaths—with the European Region recording the highest per capita consumption in the world. Bulgaria stands at 11.9 litres of pure alcohol per capita annually, among the highest in the Region and rising. Half of fifteen to nineteen-year-olds are current alcohol users, and one in five reported heavy episodic drinking in the month before the survey. Perhaps most concerning from a public health perspective is the gap in clinical counselling: only 2.8 percent of survey respondents reported having received advice from a physician about alcohol consumption, indicating that one of the most cost-effective prevention tools—brief intervention in primary care—is reaching barely one in thirty-five affected individuals.</p>
-<p>Dietary patterns add the final layer of risk. The 2024 household consumption data show total fruit and vegetable intake at 360.6 grams per day—below the WHO-recommended threshold of 400 grams, a reversal from 2021 when consumption had briefly crossed that line. Processed meat consumption at 46.8 grams per day significantly exceeds recommendations, fish intake at 19.2 grams per day falls well short of the recommended 30 grams, and nut consumption at 4.9 grams per day is barely one sixth of the minimum recommended level. Added salt consumption has improved and now meets WHO recommendations at 4.3 grams per day—a rare positive development in an otherwise challenging dietary landscape.</p>
-</section>
-<section id="reading-the-burden-as-a-whole" class="level2">
-<h2 class="anchored" data-anchor-id="reading-the-burden-as-a-whole">Reading the Burden as a Whole</h2>
-<p>When the separate components are read together, they describe a recognisable and actionable situation. The chronic disease burden from cardiovascular conditions, cancers, and musculoskeletal disorders dominates both mortality and disability, driven substantially by modifiable risk factors that are present at higher prevalence in Bulgaria than in most comparable European countries. The resurgence of vaccine-preventable infections in 2024 adds an infectious disease component that cannot be dismissed as an anachronism. The rapid rise in certified permanent disability—particularly the distinctive childhood pattern centred on neurodevelopmental and congenital conditions—points to dimensions of burden that lie outside the traditional cardiovascular-cancer frame and require specialised responses.</p>
-<p>The importance of burden of disease measurement lies precisely in this capacity to hold multiple dimensions in view simultaneously, to assign weights that reflect actual health loss rather than clinical familiarity, and to direct attention toward the conditions—and the risk factors—where prevention and treatment would achieve the greatest population health gain.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Public Health</category>
-  <category>Epidemiology</category>
-  <category>Social Medicine</category>
-  <category>Bulgaria</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/burden-of-disease.html</guid>
-  <pubDate>Fri, 06 Mar 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Risk Factors, Causality, and Morbidity Measurement</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/risk-factors-causality.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<section id="risk-factors-and-causality" class="level2">
-<h2 class="anchored" data-anchor-id="risk-factors-and-causality">Risk Factors and Causality</h2>
-<section id="the-concept-of-a-risk-factor" class="level3">
-<h3 class="anchored" data-anchor-id="the-concept-of-a-risk-factor">The Concept of a Risk Factor</h3>
-<p>A risk factor is any characteristic, condition, or behaviour that increases the probability of an individual or population developing a specific disease, injury, or adverse health outcome. The concept is foundational to both epidemiological research and public health practice, because it identifies targets for preventive intervention even when the precise biological mechanisms of disease causation remain incompletely understood.</p>
-<p>Two preliminary definitions are indispensable for precise use of this concept. Risk is the probability that an adverse event or disease will occur within a defined population over a specified time period. Odds is the ratio of the probability of the event occurring to the probability of its not occurring. Although used interchangeably in everyday language, the two quantities carry distinct mathematical meanings that bear directly on how risk relationships are quantified, and confusion between them is a common source of error in the interpretation of epidemiological studies.</p>
-<p>It is equally important to distinguish associated factors from causal (risk) agents. All genuine causes of disease will demonstrate some form of statistical association with that disease, but the converse is not true: the presence of a statistical association does not, by itself, establish that the associated factor causes the disease. This distinction between association and causation is the central epistemological problem of observational epidemiology and motivates the frameworks for causal inference examined later in this chapter.</p>
-<p>The concept of exposure is closely related to, but distinct from, the concept of a risk factor. Exposure refers to the specific circumstances of contact between an individual and a risk factor, and must be characterised along two dimensions: the intensity (or power) of the contact, and the duration of contact. Two individuals exposed to the same carcinogen may face very different risks depending on whether the exposure was brief and low-intensity or prolonged and high-intensity.</p>
-</section>
-<section id="classification-of-risk-factors" class="level3">
-<h3 class="anchored" data-anchor-id="classification-of-risk-factors">Classification of Risk Factors</h3>
-<p>Risk factors can be organised according to several complementary frameworks, each offering a different analytical perspective.</p>
-<p><strong>Modifiability</strong></p>
-<p>The modifiability framework distinguishes factors that can be changed through intervention from those that cannot. Modifiable risk factors — such as tobacco use, dietary patterns, physical activity levels, and alcohol consumption — represent potential targets for preventive strategies ranging from individual counselling to population-level policy. Non-modifiable risk factors — including chronological age, biological sex, and genetic constitution — cannot be eliminated, but their identification serves a different purpose: they delineate populations at elevated baseline risk who may benefit from enhanced surveillance, earlier screening, or prophylactic treatment.</p>
-<p><strong>Origin</strong></p>
-<p>Behavioural risk factors arise from individual choices and actions and are in principle amenable to change through health education and behavioural modification programmes. Environmental risk factors derive from the physical or social context surrounding the individual — ambient air pollution, infectious agents in drinking water, occupational chemical exposures, or substandard housing — and typically require structural or regulatory responses rather than individual-level interventions.</p>
-<p><strong>Mechanism</strong></p>
-<p>Biological risk factors emerge from the physiological or genetic characteristics of the individual, such as hormonal dysregulation, inherited susceptibility variants, or immune deficits. Social risk factors reflect the socioeconomic and cultural environment: poverty, social isolation, low educational attainment, and barriers to healthcare access. The distinction between biological and social risk is important when designing interventions, because biological factors typically require medical management while social factors demand policy-level action targeting structural inequalities.</p>
-<p><strong>Proximity in the causal chain</strong></p>
-<p>Proximal risk factors directly produce disease through immediate pathophysiological mechanisms. Elevated blood pressure and hyperglycaemia are proximal risk factors for cardiovascular disease because they cause direct, measurable damage to vascular structures. Distal risk factors exert their influence at a distance, acting through chains of intermediate variables. Socioeconomic status is a distal factor for many chronic diseases: it influences health through pathways that include diet quality, exposure to occupational hazards, psychosocial stress, health literacy, and access to preventive services. Understanding the position of a risk factor in the causal chain is essential for designing appropriate interventions.</p>
-<p><strong>Directness of the causal relationship</strong></p>
-<p>Primary risk factors demonstrate direct causal relationships with specific diseases. The relationship between cigarette smoking and lung cancer is the paradigmatic example. Secondary risk factors increase disease risk indirectly, typically by exacerbating primary risk factors or through shared underlying mechanisms. Obesity is a secondary risk factor for type 2 diabetes and cardiovascular disease, operating through pathways including insulin resistance, dyslipidaemia, systemic inflammation, and endothelial dysfunction.</p>
-</section>
-</section>
-<section id="establishing-causality-in-epidemiology" class="level2">
-<h2 class="anchored" data-anchor-id="establishing-causality-in-epidemiology">Establishing Causality in Epidemiology</h2>
-<section id="the-nature-of-causal-claims" class="level3">
-<h3 class="anchored" data-anchor-id="the-nature-of-causal-claims">The Nature of Causal Claims</h3>
-<p>Causality in epidemiology refers to the relationship in which a specific factor (the cause) is responsible for producing an observed outcome (the effect). Establishing causal relationships requires far more than demonstrating a statistical association. Any observed association might reflect a genuine causal effect, confounding by a third variable related to both the exposure and the outcome, selection or information bias, or chance. Distinguishing causal from spurious associations is the central challenge of observational epidemiology.</p>
-<p>Multiple complementary frameworks have been developed to guide causal inference, each contributing important insights while carrying its own limitations. The Bradford Hill criteria remain the most widely taught and applied, but contemporary causal inference increasingly relies on formal graphical methods and the counterfactual framework.</p>
-</section>
-<section id="bradford-hill-criteria-1965" class="level3">
-<h3 class="anchored" data-anchor-id="bradford-hill-criteria-1965">Bradford Hill Criteria (1965)</h3>
-<p>Sir Austin Bradford Hill proposed nine viewpoints for assessing whether a statistical association is likely to be causal. These criteria are not a checklist to be mechanically applied, but a framework for weighing the totality of evidence. Confidence in a causal interpretation increases as more criteria are satisfied, particularly when those satisfied include the ones with greatest logical force.</p>
-<p><strong>Strength of association.</strong> The stronger the statistical association between exposure and disease, measured by relative risk or odds ratio, the less likely it is to be explained by confounding or bias. A strong association does not guarantee causality, but a weak association that disappears with modest adjustment is less convincing.</p>
-<p><strong>Consistency.</strong> The association should be reproducible across different researchers, populations, time periods, and study designs. Replication using independent methods that have different potential biases provides stronger evidence than multiple studies sharing the same methodological limitations.</p>
-<p><strong>Specificity.</strong> The more precisely the disease and exposure can be defined, and the more specific the relationship between them, the stronger the case for causality. This criterion has become less central in an era of multifactorial disease aetiology but retains relevance for infectious diseases with specific pathogens and specific clinical syndromes.</p>
-<p><strong>Temporal relationship.</strong> The presumed cause must always precede the effect in time. This is the only obligatory criterion: no causal claim can stand if the putative cause follows the putative effect. Establishing the correct temporal sequence is one of the principal advantages of prospective cohort study designs over cross-sectional studies.</p>
-<p><strong>Biological gradient.</strong> A dose-response relationship — in which increasing levels of exposure produce corresponding increases in disease frequency — strengthens causal inference. However, the absence of a monotonic dose-response does not rule out causality; some causal relationships exhibit threshold effects or non-linear patterns.</p>
-<p><strong>Plausibility.</strong> The association should have a logically coherent explanation consistent with current biological and medical knowledge. Plausibility is constrained by the existing state of scientific knowledge, which changes over time; associations that seemed implausible at discovery have later proved causal as the underlying mechanisms were elucidated.</p>
-<p><strong>Coherence.</strong> All available evidence — from clinical, experimental, and epidemiological sources — should be consistent with the hypothetical causal model. The causal hypothesis should not fundamentally contradict established natural history of the disease.</p>
-<p><strong>Experimental evidence.</strong> Evidence from experimental manipulation — ideally randomised controlled trials in humans, or animal experiments when human experiments are not feasible or ethical — that removing or modifying the cause produces corresponding changes in the outcome strengthens causal inference substantially.</p>
-<p><strong>Analogy.</strong> Evidence that a similar exposure causes a similar disease (by analogy) lowers the threshold of evidence required to accept a new causal claim. The prior existence of accepted teratogenic drugs, for example, made it easier to accept thalidomide’s teratogenicity.</p>
-</section>
-</section>
-<section id="measurement-of-disease-and-exposure" class="level2">
-<h2 class="anchored" data-anchor-id="measurement-of-disease-and-exposure">Measurement of Disease and Exposure</h2>
-<section id="illness-disease-and-sickness" class="level3">
-<h3 class="anchored" data-anchor-id="illness-disease-and-sickness">Illness, Disease, and Sickness</h3>
-<p>Before examining measurement approaches, three foundational terms require precise definition. <strong>Illness</strong> refers to the subjective experience of poor health as perceived by the individual — the constellation of symptoms and signs that prompt healthcare seeking. <strong>Disease</strong> is the objective pathological condition identified by clinical criteria, laboratory findings, or imaging studies; it is a medical construct used for diagnosis, classification, and treatment. <strong>Sickness</strong> is a broader social and administrative concept encompassing both physical and mental aspects of poor health, often used in occupational, insurance, and administrative contexts without implying a specific diagnosis. Surveillance systems capture diagnosed disease, not the subjective experience of illness — a distinction critical for interpreting morbidity data, since the two will diverge whenever barriers to diagnosis exist.</p>
-</section>
-<section id="the-morbidity-iceberg" class="level3">
-<h3 class="anchored" data-anchor-id="the-morbidity-iceberg">The Morbidity Iceberg</h3>
-<p>A conceptual model indispensable for interpreting disease frequency measures is the morbidity iceberg. Like an iceberg, disease burden presents a small visible portion — reported, diagnosed cases known to health services — and a much larger hidden portion that remains beneath the surface of clinical detection. The hidden component comprises cases where individuals experience symptoms but do not seek care (due to mild symptoms, financial barriers, geographic inaccessibility, or cultural factors), cases where care is sought but diagnosis fails (due to atypical presentation, limited diagnostic resources, or clinician oversight), and cases where infection or disease is entirely asymptomatic.</p>
-<p>The iceberg metaphor has direct implications for measurement. Incidence and prevalence estimates derived solely from diagnosed cases will substantially underestimate true disease burden when a large hidden component exists. This phenomenon motivates population-based screening programmes, active surveillance strategies, and epidemiological studies employing representative sampling to characterise total disease burden including undiagnosed cases. The morbidity iceberg is also directly relevant to case reporting systems: no passive notification system, however well designed, captures the full disease burden because it is structurally dependent on patients presenting to healthcare and receiving correct diagnoses.</p>
-</section>
-<section id="incidence" class="level3">
-<h3 class="anchored" data-anchor-id="incidence">Incidence</h3>
-<p>Incidence measures the rate at which new cases of disease arise in a population that is at risk of developing the disease during a defined observation period. The denominator must exclude individuals already affected at the start of observation, since they cannot become new cases. Incidence thus captures the dynamic process of disease development and provides fundamental information about disease aetiology and the effectiveness of preventive interventions.</p>
-<p><strong>Incidence Rate (Incidence Density)</strong></p>
-<p>The incidence rate, also termed incidence density, divides the number of new cases by the total person-time at risk accumulated by the population during the observation period. Person-time is calculated as the sum of disease-free observation periods contributed by each individual; a person observed for three years contributes three person-years to the denominator, while a person who develops disease after one year contributes only one. The incidence rate is expressed in units of inverse time (e.g., cases per 1,000 person-years) and has no upper bound, since multiple incident episodes can occur within a single person-year.</p>
-<p><img src="https://latex.codecogs.com/png.latex?I_%7Brate%7D%20=%20%5Cfrac%7B%5Ctext%7BNumber%20of%20new%20cases%7D%7D%7B%5Ctext%7BTotal%20person-time%20at%20risk%7D%7D%20%5Ctimes%2010%5En"></p>
-<p>In the theoretical limit as the time interval approaches zero, the incidence rate converges to the hazard rate (also termed the force of morbidity or disease intensity) — the instantaneous rate of disease occurrence at any given moment among those at risk.</p>
-<p><strong>Cumulative Incidence (Risk / Attack Rate)</strong></p>
-<p>The cumulative incidence, also called the attack rate or risk, measures the proportion of initially disease-free individuals who develop disease over a specified observation period. Unlike the incidence rate, cumulative incidence is a dimensionless probability ranging from 0 to 1, and its interpretation requires explicit specification of the time period.</p>
-<p><img src="https://latex.codecogs.com/png.latex?CI%20=%20%5Cfrac%7B%5Ctext%7BNew%20cases%20during%20period%7D%7D%7B%5Ctext%7BPopulation%20at%20risk%20at%20start%20of%20period%7D%7D"></p>
-<p>Cumulative incidence assumes a closed population with complete follow-up (or random loss to follow-up). When substantial variation in follow-up duration exists, the incidence rate is methodologically preferable because it accommodates variable observation periods through its person-time denominator.</p>
-<p><strong>Cumulative Risk and the Rate-to-Risk Conversion</strong></p>
-<p>Cumulative risk accumulates age-specific incidence rates over a defined age span — typically from birth to age 64 or 74 — to estimate the probability of developing a disease in the absence of competing causes of death. For rare diseases (cumulative risk less than 10%), cumulative risk can be approximated by the cumulative rate, which is the simple sum of age-specific incidence rates. The precise mathematical relationship is:<br>
-<img src="https://latex.codecogs.com/png.latex?%5Ctext%7BCumulative%20Risk%7D%20=%201%20-%20%5Cexp(-%5Ctext%7BCumulative%20Rate%7D)"></p>
-<p>More generally, the conversion between an incidence rate and the corresponding risk over a time interval <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t"> is:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BRisk%7D%20=%201%20-%20e%5E%7B(%E2%88%92I_%7Brate%7D%20%5Ctimes%20%5CDelta%20t)%7D"></p>
-</section>
-<section id="prevalence" class="level3">
-<h3 class="anchored" data-anchor-id="prevalence">Prevalence</h3>
-<p>Prevalence measures the proportion of individuals in a defined population who have a specified condition at a given moment, regardless of when disease onset occurred. Unlike incidence, which counts new cases, prevalence counts all existing cases and reflects the cumulative historical burden of the disease in the population.</p>
-<p><strong>Point prevalence</strong> is the proportion of the population with disease on a specific date:</p>
-<p><img src="https://latex.codecogs.com/png.latex?P_%7Bpoint%7D%20=%20%5Cfrac%7B%5Ctext%7BAll%20cases%20at%20a%20specific%20point%20in%20time%7D%7D%7B%5Ctext%7BTotal%20population%20at%20that%20point%7D%7D%20%5Ctimes%2010%5En"></p>
-<p><strong>Period prevalence</strong> is the proportion affected at any time during a defined interval, necessarily exceeding point prevalence unless there is zero incidence during the interval:</p>
-<p><img src="https://latex.codecogs.com/png.latex?P_%7Bperiod%7D%20=%20%5Cfrac%7B%5Ctext%7BCases%20at%20any%20time%20during%20the%20period%7D%7D%7B%5Ctext%7BTotal%20population%20during%20the%20period%7D%7D%20%5Ctimes%2010%5En"></p>
-<p><strong>Factors Governing Prevalence</strong></p>
-<p>Prevalence is a function of both the rate of disease development and the duration of disease. The following relationship holds approximately under steady-state conditions (stable population with constant incidence and prevalence):</p>
-<p><img src="https://latex.codecogs.com/png.latex?P%20%5Capprox%20I%20%5Ctimes%20D"></p>
-<p>where D is the average duration of the disease. Prevalence increases when disease duration is extended, when incidence rises, when affected individuals immigrate, or when improved diagnostics detect previously unrecognised cases. Prevalence falls when effective curative treatment shortens disease duration, when case-fatality rises, or when affected individuals emigrate.</p>
-<p>A closely related quantity is the prevalence odds — the ratio of diseased to non-diseased individuals in the population — which under steady-state conditions equals exactly <img src="https://latex.codecogs.com/png.latex?I_%7Brate%7D%20%5Ctimes%20D">. This identity provides the theoretical foundation for the relationship between odds ratios from case-control studies and incidence rate ratios from cohort studies in stable populations.</p>
-</section>
-<section id="measuring-exposure-risk-metrics" class="level3">
-<h3 class="anchored" data-anchor-id="measuring-exposure-risk-metrics">Measuring Exposure: Risk Metrics</h3>
-<p>Measuring the relationship between an exposure and a disease requires at least two comparison groups — the exposed and the unexposed — and a set of metrics that quantify both the strength of association and the absolute burden attributable to the exposure.</p>
-<p><strong>Relative Risk (RR)</strong></p>
-<p>The relative risk (or risk ratio) is the ratio of disease incidence in the exposed group to disease incidence in the unexposed group. It ranges from 0 to positive infinity and measures the strength of the association between exposure and disease.</p>
-<p><img src="https://latex.codecogs.com/png.latex?RR%20=%20I_%7Bexposed%7D%20/%20I_%7Bunexposed%7D"></p>
-<p><strong>Odds Ratio (OR)</strong></p>
-<p>The odds ratio is the ratio of the odds of disease in the exposed group to the odds of disease in the unexposed group. It is the natural measure of association in case-control studies. When the disease is rare, the OR approximates the RR closely.<br>
-<img src="https://latex.codecogs.com/png.latex?OR%20=%20%5Cfrac%7B%5Ctext%7BOdds%20of%20disease%20in%20exposed%7D%7D%7B%5Ctext%7BOdds%20of%20disease%20in%20unexposed%7D%7D"></p>
-<p><strong>Risk Difference and Number Needed to Harm</strong></p>
-<p>The risk difference (or attributable risk) is the absolute excess incidence in the exposed group attributable to the studied factor.<br>
-<img src="https://latex.codecogs.com/png.latex?RD%20=%20I_%7Bexposed%7D%20%E2%88%92%20I_%7Bunexposed%7D"></p>
-<p><strong>Number Needed to Harm (NNH)</strong> is the number of individuals who must be exposed to produce one additional case of disease:</p>
-<p><img src="https://latex.codecogs.com/png.latex?NNH%20=%201%20/%20RD"></p>
-<p><strong>Attributable Fraction in the Exposed</strong></p>
-<p>The attributable fraction (AF%) quantifies the relative proportion of cases in the exposed group that are attributable to the exposure.</p>
-<p><img src="https://latex.codecogs.com/png.latex?AF%5C%25%20=%20%5B%5Cfrac%7B(I_%7Bexposed%7D%20%E2%88%92%20I_%7Bunexposed%7D)%7D%7BI_%7Bexposed%7D%7D%5D%20%5Ctimes%20100%5C%25"></p>
-<p><strong>Population Attributable Risk and Etiologic Fraction</strong></p>
-<p>The population attributable risk (PAR) is the absolute excess incidence in the entire population.</p>
-<p><img src="https://latex.codecogs.com/png.latex?PAR%20=%20I_%7Bpopulation%7D%20%E2%88%92%20I_%7Bunexposed%7D"></p>
-<p>The population etiologic fraction (PAR%) expresses this excess as a proportion of total population incidence:<br>
-<img src="https://latex.codecogs.com/png.latex?PAR%5C%25%20=%20%5B%5Cfrac%7B(I_%7Bpopulation%7D%20%E2%88%92%20I_%7Bunexposed%7D)%7D%7BI_%7Bpopulation%7D%7D%5D%20%5Ctimes%20100%5C%25"></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Measure</th>
-<th>What it quantifies</th>
-<th>Study design</th>
-<th>Scale</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>RR</td>
-<td>Relative incidence ratio</td>
-<td>Cohort</td>
-<td>0 → ∞</td>
-</tr>
-<tr class="even">
-<td>OR</td>
-<td>Relative odds ratio</td>
-<td>Case-control</td>
-<td>0 → ∞</td>
-</tr>
-<tr class="odd">
-<td>RD / AR</td>
-<td>Absolute excess risk</td>
-<td>Cohort / RCT</td>
-<td>−1 → 1</td>
-</tr>
-<tr class="even">
-<td>NNH</td>
-<td>Exposed individuals per extra case</td>
-<td>Clinical</td>
-<td>1 → ∞</td>
-</tr>
-<tr class="odd">
-<td>AF%</td>
-<td>Excess fraction attributable — in exposed</td>
-<td>Cohort</td>
-<td>0–100%</td>
-</tr>
-<tr class="even">
-<td>PAR</td>
-<td>Excess incidence in the population</td>
-<td>Population</td>
-<td>Absolute</td>
-</tr>
-<tr class="odd">
-<td>PAR%</td>
-<td>Attributable fraction — in population</td>
-<td>Population</td>
-<td>0–100%</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="case-finding-and-case-reporting-systems" class="level2">
-<h2 class="anchored" data-anchor-id="case-finding-and-case-reporting-systems">Case Finding and Case Reporting Systems</h2>
-<section id="case-finding" class="level3">
-<h3 class="anchored" data-anchor-id="case-finding">Case Finding</h3>
-<p>Case finding is the process of identifying individuals who meet a specified case definition for a disease or condition. It is a critical first step in outbreak investigation and in the ongoing operation of public health surveillance programmes. The quality of case finding — its completeness, timeliness, and selectivity — determines the quality of the epidemiological intelligence available for public health response.</p>
-<p><strong>Passive case finding</strong> relies on patients presenting at healthcare facilities on their own initiative in response to symptoms. The fundamental limitation of this approach is its dependence on health-seeking behaviour. <strong>Active case finding</strong> involves public health authorities proactively searching for cases rather than waiting for them to present. Active methods include searching existing surveillance and laboratory data, systematic surveys of physicians and labs, contact tracing, and public announcements.</p>
-<p>Case finding can be organised on either a population basis or on a healthcare provider basis. Effective case finding in all contexts requires a clear case definition specifying clinical criteria, laboratory confirmation criteria, and orientations regarding time, place, and person.</p>
-</section>
-<section id="case-reporting-systems" class="level3">
-<h3 class="anchored" data-anchor-id="case-reporting-systems">Case Reporting Systems</h3>
-<p>Case reporting systems, also termed notification systems, are the structured mechanisms through which information about identified cases is transmitted to public health authorities.</p>
-<p><strong>Passive reporting</strong> places the responsibility for initiating a report on the healthcare provider or laboratory. <strong>Active reporting</strong> involves public health officials regularly contacting providers and laboratories to collect case data. Reporting may be mandatory (statutory) or voluntary. From the perspective of individual privacy, reporting systems are further classified as nominative (including identifying details) or non-nominative (anonymous).</p>
-<p>Modern reporting systems increasingly employ electronic platforms to accelerate data collection. Systems are evaluated on sensitivity and timeliness. Case reporting captures only the visible tip of the morbidity iceberg: cases that presented to healthcare, received a correct diagnosis, and were correctly reported. Delays and failures at any stage reduce the system’s sensitivity.</p>
-</section>
-</section>
-<section id="morbidity-data-sources-and-disease-registration" class="level2">
-<h2 class="anchored" data-anchor-id="morbidity-data-sources-and-disease-registration">Morbidity Data Sources and Disease Registration</h2>
-<section id="purposes-of-disease-registration" class="level3">
-<h3 class="anchored" data-anchor-id="purposes-of-disease-registration">Purposes of Disease Registration</h3>
-<p>Disease registration serves multiple essential functions. <strong>Control of infectious diseases</strong> enables rapid identification and timely implementation of case isolation and contact tracing. <strong>Planning and evaluation of preventive programmes</strong> allow health authorities to identify populations at elevated risk and quantify disease burden. <strong>Assessment of necessary healthcare services</strong> indicate the number of patients requiring care and guide decisions about hospital capacity. <strong>Evaluation of the economic burden of diseases</strong> provide the foundation for cost-of-illness studies. <strong>Research into etiology and pathogenesis</strong> serve as sampling frames for analytical epidemiological studies. <strong>National and international studies on disease prevalence and disability</strong> enable valid cross-national comparison.</p>
-</section>
-<section id="classification-of-morbidity-data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="classification-of-morbidity-data-sources">Classification of Morbidity Data Sources</h3>
-<p>Health and medical establishments represent the primary source of morbidity data, encountered either through passive or active methods. The individual and their family constitute a complementary source through self-assessed health data and household surveys. Registration of deaths through cause-of-death certificates provides data on fatal outcomes. Specialised disease registries for conditions such as cancer, HIV/AIDS, and tuberculosis provide high-quality longitudinal data.</p>
-</section>
-<section id="epidemiological-case-definitions" class="level3">
-<h3 class="anchored" data-anchor-id="epidemiological-case-definitions">Epidemiological Case Definitions</h3>
-<p>An epidemiological case definition is grounded in observable facts that can be reliably recorded. Three categories of certainty are used in Bulgarian infectious disease surveillance (Regulation 21 of July 18, 2005): <strong>Possible</strong> cases involve compatible clinical presentation without laboratory confirmation; <strong>Probable</strong> cases include clinical presentation plus an epidemiological link or preliminary lab evidence; <strong>Confirmed</strong> cases require definitive laboratory evidence.</p>
-</section>
-</section>
-<section id="the-international-classification-of-diseases-icd" class="level2">
-<h2 class="anchored" data-anchor-id="the-international-classification-of-diseases-icd">The International Classification of Diseases (ICD)</h2>
-<section id="purpose-and-structure" class="level3">
-<h3 class="anchored" data-anchor-id="purpose-and-structure">Purpose and Structure</h3>
-<p>The International Classification of Diseases (ICD) is the globally dominant system providing standardised nomenclature for diseases and causes of death. It uses a hierarchical alphanumeric structure to organise diseases into three major cause groups: <strong>Group I</strong> (Communicable, maternal, perinatal, and nutritional conditions), <strong>Group II</strong> (Non-communicable and degenerative diseases), and <strong>Group III</strong> (Injuries and external causes).</p>
-</section>
-<section id="icd-10-and-icd-11" class="level3">
-<h3 class="anchored" data-anchor-id="icd-10-and-icd-11">ICD-10 and ICD-11</h3>
-<p><strong>ICD-10</strong> was adopted in 1990 and consists of 22 chapters. In Bulgaria, its application across all healthcare institutions was made mandatory by Regulation 42 of December 8, 2004. <strong>ICD-11</strong> entered into force on January 1, 2022, and represents a fundamental structural modernisation with 28 chapters and a fully digital architecture. The transition from ICD-10 to ICD-11 is a multi-year process requiring updates to electronic health records and retraining of clinical coders.</p>
-</section>
-<section id="complementary-who-classification-systems" class="level3">
-<h3 class="anchored" data-anchor-id="complementary-who-classification-systems">Complementary WHO Classification Systems</h3>
-<p>The ICD is complemented by the International Classification of Functioning, Disability and Health (ICF), the Anatomical Therapeutic Chemical (ATC) classification system for pharmaceuticals, and International Nonproprietary Names (INN) for generic drug nomenclature.</p>
-</section>
-</section>
-<section id="bulgarian-legal-framework-and-the-national-health-information-system" class="level2">
-<h2 class="anchored" data-anchor-id="bulgarian-legal-framework-and-the-national-health-information-system">Bulgarian Legal Framework and the National Health Information System</h2>
-<section id="legal-framework-for-disease-registration" class="level3">
-<h3 class="anchored" data-anchor-id="legal-framework-for-disease-registration">Legal Framework for Disease Registration</h3>
-<p>Disease registration is governed by several regulatory instruments. <strong>Regulation 42 (2004)</strong> makes ICD-10 mandatory. <strong>Regulation 21 (2005)</strong> covers infectious disease classification. <strong>Regulation 8 (2016)</strong> manages the state-maintained population screening system and dispensary registers. Additional regulations govern occupational diseases, psychiatric patient behavior, and health registration in schools.</p>
-</section>
-<section id="specialised-electronic-surveillance-systems" class="level3">
-<h3 class="anchored" data-anchor-id="specialised-electronic-surveillance-systems">Specialised Electronic Surveillance Systems</h3>
-<p>The Ministry of Health maintains dedicated electronic systems for HIV and tuberculosis patient registration. The National Centre for Infectious and Parasitic Diseases administers systems for measles, rubella, epidemic mumps, and influenza. General practitioners and specialists maintain Infectious Diseases Registration Books following standardised templates.</p>
-</section>
-<section id="the-national-health-information-system-nhis" class="level3">
-<h3 class="anchored" data-anchor-id="the-national-health-information-system-nhis">The National Health Information System (NHIS)</h3>
-<p>Established by <strong>Regulation 6 of December 21, 2022</strong>, the NHIS integrates separate information systems into a unified federated infrastructure and creates an electronic health record for every citizen. Strategic objectives include improving medical care quality, ensuring rational pharmacotherapy, and increasing healthcare system efficiency. Evolutionary implementation involves challenges such as deployment costs and interoperability between different EHR vendors.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Epidemiology</category>
-  <category>Social Medicine</category>
-  <category>Public Health</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/risk-factors-causality.html</guid>
-  <pubDate>Sat, 28 Feb 2026 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
