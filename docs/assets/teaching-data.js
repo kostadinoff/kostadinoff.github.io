@@ -596,6 +596,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-end-of-life-en.html" }
                   ]
+                },
+                {
+                  title: "Class 6 · Ethical problems in transplantation and in research involving humans",
+                  description: "transplantation concepts and brain death, consent models, the living donor, fair allocation and organ trafficking; the history and principles of research ethics, informed consent, vulnerability, ethics committees and Good Clinical Practice; Bulgarian and EU law (Transplantation Act, Health Act, Medicinal Products Act, Regulation 536/2014).",
+                  tags: ["ethics", "transplantation", "organ donation", "research ethics", "clinical trials"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-06-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-transplantation-research-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-transplantation-research-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -782,6 +794,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-end-of-life-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 6 · Етични проблеми при трансплантацията и научните изследвания",
+                  description: "понятия в трансплантацията и мозъчна смърт, модели на съгласие, живият донор, справедливо разпределение и търговия с органи; история и принципи на изследователската етика, информирано съгласие, уязвимост, комисии по етика и Добра клинична практика; българската и европейската уредба (ЗТОТК, Закон за здравето, ЗЛПХМ, Регламент 536/2014).",
+                  tags: ["етика", "трансплантация", "донорство", "етика на изследванията", "клинични изпитвания"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-06-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-transplantation-research-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-transplantation-research-bg.html" }
                   ]
                 }
               ],
@@ -1088,6 +1112,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-end-of-life-en.html" }
                   ]
+                },
+                {
+                  title: "Class 6 · Ethical problems in transplantation and in research involving humans",
+                  description: "Shared with medical ethics: transplantation concepts and brain death, consent models, the living donor, fair allocation and organ trafficking; the history and principles of research ethics, informed consent, vulnerability, ethics committees and Good Clinical Practice; Bulgarian and EU law (Transplantation Act, Health Act, Medicinal Products Act, Regulation 536/2014).",
+                  tags: ["ethics", "transplantation", "organ donation", "research ethics", "clinical trials"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-06-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-transplantation-research-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-transplantation-research-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1163,6 +1199,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-end-of-life-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 6 · Етични проблеми при трансплантацията и научните изследвания",
+                  description: "Общо с медицинската етика: понятия в трансплантацията и мозъчна смърт, модели на съгласие, живият донор, справедливо разпределение и търговия с органи; история и принципи на изследователската етика, информирано съгласие, уязвимост, комисии по етика и Добра клинична практика; българската и европейската уредба (ЗТОТК, Закон за здравето, ЗЛПХМ, Регламент 536/2014).",
+                  tags: ["етика", "трансплантация", "донорство", "етика на изследванията", "клинични изпитвания"],
+                  date: "2026-10-09",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-06-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-transplantation-research-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-transplantation-research-bg.html" }
                   ]
                 }
               ],

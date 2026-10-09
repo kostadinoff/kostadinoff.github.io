@@ -1,0 +1,71 @@
+---
+title: "Ethical problems in transplantation and in research involving humans"
+author: "Kostadin Kostadinov"
+date: 2026-10-09
+lang: en
+description: "A 15-minute preparation for Practical Class 6: transplantation concepts and the determination of death, consent models, living donors, fair allocation and organ trafficking; the history and principles of research ethics, informed consent, vulnerability, ethics committees and Good Clinical Practice; and the Bulgarian and EU legal framework for both."
+categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Ethical problems in transplantation and in research involving humans"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-09
+---
+
+[Slides (PDF)](../2026-2027-classes/ethics-06-en.pdf) · [Student tasks](../learning-tasks/medical-ethics-transplantation-research-en.qmd) · [Български](medical-ethics-transplantation-research-bg.qmd)
+
+Set aside about **15 minutes** to read and think. The text follows the presentation "Gift, risk and trust". Afterwards you should be able to explain the dead donor rule, compare consent models for deceased donation, say how Bulgarian law protects a living donor, name acceptable and unacceptable allocation criteria, list the requirements for ethical research, and tell which law and which ethics committee apply to a given study.
+
+## One question behind two topics
+
+Transplantation and research look like separate subjects. Both ask when a person's body, or a person's participation, may serve someone else. In transplantation the beneficiary is the recipient; in research it is future patients. In both, the person who carries the risk is not the person who gains the benefit. The ethical rules exist so that this asymmetry does not turn into exploitation.
+
+## Transplantation: concepts and death
+
+Under the [Transplantation of Organs, Tissues and Cells Act](https://lex.bg/laws/ldoc/2135471868) (ZTOTK), Art. 2, transplantation is the set of medical and other activities by which organs, tissues and cells are removed from a cadaver or a living person and implanted in another person **for treatment**. It includes haematopoietic stem cells and grafts from animals. By source of the graft we distinguish **auto**transplantation (same person), **iso**transplantation (identical twin), **allo**transplantation (another person) and **xeno**transplantation (an animal).
+
+**Brain death** is the death of the person: the irreversible loss of all brain functions, including the brainstem, while breathing and circulation are maintained artificially for a time. It is not coma, a vegetative state or a minimally conscious state. **Donation after circulatory death** follows the irreversible cessation of circulation; the decision to withdraw treatment must be made independently of any interest in donation.
+
+The **dead donor rule** says that a vital organ is taken only after death has been properly determined, and that removal does not cause death. ZTOTK secures it with roles: with a beating heart, death is determined by a standing committee of three physicians (Art. 18(2)), and they may not join the removal or transplant teams (Art. 18(3)). The conversation with the family has two parts in sequence: first the death, then, if medically possible, donation.
+
+## Consent models
+
+Under **opt-in** (explicit consent) only those who agreed in life are donors. Under **opt-out** (presumed consent) donation is allowed unless the person objected. A systematic review found higher donation rates under opt-out, but the model alone does not explain the differences; organisation and public trust matter as much ([Rithalia et al., 2009](https://doi.org/10.1136/bmj.a3162)). Opt-out is ethical only if citizens are informed and objecting is easy.
+
+Bulgaria uses presumed consent with safeguards. No organs are taken from a person who objected in writing during life (ZTOTK, Art. 19(1)). The objection is made before the GP and entered in the official register of the Medical Supervision Executive Agency (Art. 20). Before removal the relatives listed in Art. 21 must be informed, and a written refusal from them within a reasonably short time stops the procedure. For a deceased person under 18, removal needs the parents' written consent (Art. 19(2)). Nothing is taken from a body of unknown identity (Art. 19(3)). A donor card carries moral weight, but it does not override these legal steps.
+
+## The living donor
+
+Living donation means surgery on a healthy person with no bodily benefit to them. That does not make it wrong, but the donor's freedom and safety need stronger protection than in ordinary treatment. ZTOTK, Art. 24, requires that removal does not endanger the donor's life and that the donor gives **notarised written consent** after the risks are explained by a physician who is not on the removal or transplant team. The donor may withdraw at any time before removal; a committee of at least three physicians outside the team assesses physical and mental health; no material benefit may be offered or accepted, and only costs and lost income may be compensated (Art. 24(8)–(9)).
+
+A living organ donor must be an adult spouse or relative in direct line or collateral line up to the fourth degree (Art. 26(1)). Other donors need permission from the **Transplantation Ethics Committee** at the Council of Ministers (Art. 26(2); Art. 12): a partner after more than two years of cohabitation, a biological parent who has not acknowledged the child, a donor in a paired exchange, or a uterus donor. Organs are never taken from persons under 18 (Art. 24(5)); regenerating tissue and bone marrow from children are allowed only in narrow cases with the Committee's permission (Arts. 27, 27a). In **paired exchange**, removal and implantation are done simultaneously (Art. 26a(2); Art. 33a), so no donor can back out after the other family has already given.
+
+Family pressure is often silent: guilt, expectation, the feeling that refusing proves lack of love. The donor is interviewed alone. If they decide not to donate, the team can tell the family that the donor is "not suitable" without revealing the reason.
+
+## Fair allocation, trade and tourism
+
+Organs are scarce, and every allocation decision is a choice between people. Acceptable criteria are compatibility, medical urgency, expected benefit and waiting time. Wealth, fame, media campaigns, ethnicity, sex, occupation and judgements about "social worth" are not. Behaviour, such as an untreated addiction, counts only if it directly affects the chance of success, and then the first response is help, not a moral verdict. ZTOTK guarantees equal rights for patients (Art. 3); recipients must be in the Medical Supervision register (Art. 32), and the Agency allocates organs (Art. 11(5)(6)).
+
+Organ sale looks like a voluntary deal between someone who needs money and someone who needs treatment. In practice the inequality between them empties the choice of freedom, and brokers take the profit. The [Declaration of Istanbul](https://doi.org/10.1097/TP.0000000000002540) and the [WHO Guiding Principles](https://doi.org/10.1097/TP.0b013e3181ec29f0) reject payment for organs. ZTOTK forbids paid transactions (Art. 5) and offering any benefit (Art. 6). The [Criminal Code](https://lex.bg/laws/ldoc/1589654529) punishes trafficking in human beings for organ removal (Art. 159a) and breaches of the rules on removal and supply, more heavily for gain (Art. 349a). Lawful treatment abroad is different: under Ordinance No. 2 of 27 March 2019 the NHIF may approve and pay for a transplant abroad when it cannot be done in time in Bulgaria and the patient is on the national register. A physician does not help a patient buy an organ, but treats them on their return: treating rejection is not approval.
+
+## Ethics of research involving humans
+
+Modern research ethics grew out of abuse. The Nuremberg Code (1947) made voluntary consent essential after the Nazi experiments ([Shuster, 1997](https://doi.org/10.1056/NEJM199711133372006)). In Tuskegee (1932–1972) African American men with syphilis were deceived and left without penicillin ([Brandt, 1978](https://doi.org/10.2307/3561468)). Beecher showed in 1966 that unethical studies were published in leading journals of democratic countries ([Beecher, 1966](https://doi.org/10.1056/NEJM196606162742405)). The Belmont Report (1979) named three principles: respect for persons, beneficence and justice. The [Declaration of Helsinki](https://doi.org/10.1001/jama.2024.21972), first adopted in 1964, was last revised in October 2024.
+
+[Emanuel, Wendler and Grady](https://doi.org/10.1001/jama.283.20.2701) summarise seven requirements: social value, scientific validity, fair selection of participants, a favourable risk–benefit ratio, independent review, informed consent and respect for enrolled participants. An invalid study is unethical, because it keeps the risk and loses the benefit.
+
+**Informed consent** in research covers the purpose and experimental nature of the study, randomisation and placebo, risks and benefits, alternatives, data protection, compensation for harm and the right to withdraw without losing usual care. The commonest failure is **therapeutic misconception**: the participant believes every procedure was chosen for their own treatment. The researcher must separate care from science and check understanding by asking the person to explain it back.
+
+**Vulnerability** is a limited ability to protect one's own interests, not a fixed group label. Extra protection should not mean automatic exclusion, or there will be no evidence for pregnant women or older people. **Randomisation** is justified by clinical equipoise. Placebo is acceptable when no proven treatment exists, or for compelling reasons without risk of serious or irreversible harm. An independent **ethics committee** reviews the study before the first participant and monitors it afterwards. **Good Clinical Practice** (ICH E6(R3)) links participant protection with reliable data.
+
+## Research in EU and Bulgarian law
+
+There are two regimes, and the researcher's first task is to identify the right one.
+
+A **clinical trial of a medicinal product** follows Regulation (EU) No 536/2014 and the [Medicinal Products in Human Medicine Act](https://lex.bg/laws/ldoc/2135549536) (ZLPHM). Applications go through the EU portal CTIS. The Bulgarian Drug Agency authorises the trial (Arts. 81, 84). The ethical opinion comes from the **Ethics Committee for Clinical Trials** at the Minister of Health (Arts. 83, 103), which has 7–12 members, including at least two without medical training. The former Central Ethics Committee and local committees for drug trials were abolished in 2018. Consent is written (Art. 96); for a young child both parents consent, and an adolescent consents together with both parents (Art. 97); a child's wish to refuse is respected. Sponsor and principal investigator must be insured (Art. 91).
+
+**Other medical research on humans** follows the [Health Act](https://lex.bg/laws/ldoc/2135489147), Arts. 197–205. The participant keeps all patient rights, and their interests outweigh the researcher's scientific and financial interests (Art. 197). Consent is written, given in person and revocable (Art. 199). No research is done on persons lacking legal capacity; pregnant and breastfeeding women and prisoners take part only when significant health benefit is expected (Art. 200). The study lead and team are jointly liable and must be insured (Art. 201). A **local ethics committee** in the institution gives a positive opinion before the study starts (Art. 203).
+
+In Bulgarian the term is **„клинично изпитване“** (clinical trial), never „клинично изследване“.
+
+*The cited provisions were checked on 9 October 2026 against the consolidated texts (Ciela Norma, the same texts and document numbers as lex.bg).*
+
+Before you open the [student tasks](../learning-tasks/medical-ethics-transplantation-research-en.qmd), try to answer in three sentences: why the physicians who declare brain death may not take part in organ removal; what stops removal from a deceased person in Bulgaria even without a registered objection; and which committee reviews a drug trial and which reviews a hospital study of a new surgical technique that involves no medicinal product.

@@ -1,0 +1,136 @@
+---
+title: "Medical ethics, Practical Class 6: transplantation and research involving humans"
+author: "Kostadin Kostadinov"
+date: 2026-10-09
+lang: en
+description: "Group work for 75 minutes after the 15-minute preparation: consent to deceased donation, a paired kidney exchange, organ allocation after a media campaign, placebo control and recruiting students as research participants. With model answers for self-checking."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Medical ethics, Practical Class 6: transplantation and research involving humans"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-09
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-transplantation-research-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-06-en.pdf) · [Български](medical-ethics-transplantation-research-bg.qmd)
+
+## How to work
+
+Read the preparation text first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes**, one 90-minute class in total. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. Open a model answer only after you have written down your own reasoning.
+
+**All people, events and circumstances are fictional** and do not describe a real patient. The cases are adapted from the course case bank. Work with the information given and say what else you would want to know. The cases train ethical and legal judgement; they do not replace the Transplantation Ethics Committee, a research ethics committee or a lawyer in a real case.
+
+**Hand in one group answer** with the corrected statements and the analysis of the four cases. Each student completes the individual task at the end. Marks go to correct use of the dead donor rule and the consent rules, a clear line between acceptable and unacceptable allocation criteria, and naming the right law and committee for each study.
+
+## Task 1. True or false — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is wrong and name the rule or article that applies.
+
+1. "A brain-dead patient whose heart is still beating is in a deep coma."
+2. "In Bulgaria, if there is no registered objection, the hospital may take the organs without telling anyone."
+3. "A living donor who has signed a notarised consent can no longer change their mind."
+4. "Anyone who wants to may donate a kidney to a stranger."
+5. "A research participant who signed the consent form has agreed to everything in the protocol."
+6. "Every clinical study in Bulgaria is reviewed by the Central Ethics Committee."
+
+::: {.callout-note collapse="true" title="Model answer: six corrections"}
+
+Brain death is the death of the person: all brain functions, including the brainstem, have irreversibly ceased; ventilation keeps the heart beating for a time. A coma is a living state with some brain function left. The physicians who determine brain death form a committee of three and do not join the removal or transplant teams (ZTOTK, Art. 18(2)–(3)).
+
+Without a registered objection, the relatives listed in ZTOTK Art. 21 must still be told, and their written refusal within a reasonably short time stops removal. The living donor may withdraw at any time before removal (Art. 24(4)); the notary certifies the declaration, not an irrevocable duty. A living organ donor must be an adult spouse or relative up to the fourth degree (Art. 26(1)); other cases need the Transplantation Ethics Committee's permission (Art. 26(2)), and anonymous altruistic donation to a stranger is not provided for.
+
+Consent in research is a process: the participant may withdraw at any time without losing usual care (Health Act, Art. 199(3); ZLPHM, Art. 96(3)), and new information about risk calls for new consent. Since 2018 drug trials are reviewed by the Ethics Committee for Clinical Trials at the Minister of Health (ZLPHM, Art. 103); other medical research by a local ethics committee in the institution (Health Act, Art. 203). The Central Ethics Committee no longer exists in that role.
+
+:::
+
+## Task 2. The donor card and the father's refusal — 15 minutes
+
+### Case A: the wish expressed in life
+
+A 24-year-old man is declared brain dead after a road accident, following the statutory procedure. The register shows no objection to donation. In his wallet there is a donor card he filled in himself. His parents confirm that he supported donation and had said he wanted to help others after his death. When removal becomes real, they hesitate. His mother says she cannot bear it; his father submits a written refusal and asks for the funeral as soon as possible.
+
+1. What is the moral weight of the donor card, and what is its legal weight in Bulgaria?
+2. What does ZTOTK Art. 21 say about the father's written refusal? Can the team go ahead?
+3. Write three sentences the physician might say to the parents.
+
+::: {.callout-note collapse="true" title="Model answer: the law decides, the wish still matters"}
+
+The card is strong evidence of the son's values and deserves respect, but it is not the legal basis for removal. Under presumed consent, removal requires no registered objection and no written refusal, within a reasonably short time, from the relatives listed in Art. 21. A parent is in the first group (Art. 21(1)(3)(a); Art. 21(2)(1)). The father's written refusal therefore stops removal. The team may not go ahead.
+
+Is this disrespect for the son's autonomy? It can be argued both ways. The law protects grieving families from a procedure they cannot bear, but it also lets the living override a clearly expressed wish. That is a reason to make one's wishes known to the family while still alive, not a reason for the team to pressure the parents.
+
+A possible wording: "We are deeply sorry. Your son has died; the tests confirmed it, and nothing we do can change that. We know he wanted to help others, and we also respect your decision. If you want to talk again before you leave, we are here."
+
+:::
+
+## Task 3. The paired exchange — 15 minutes
+
+### Case B: two fathers, two children
+
+Two families take part in an official paired kidney exchange. A 14-year-old boy (blood group A) has a father with group B; a 13-year-old girl (group B) has a father with group A. Each father is incompatible with his own child but suitable for the other. After independent information and the required permissions, two linked transplants are planned. Because of a scheduling problem the teams decide to operate one after the other. The girl's father's kidney is transplanted to the boy first. Before the second operation the boy's father hears that the new kidney is not yet working for certain. He withdraws consent and says he will donate only once he has proof his son is saved.
+
+1. May the boy's father still withdraw after the other family has given?
+2. Which rule of Bulgarian law did the teams break by operating sequentially, and why does that rule exist?
+3. What should the teams now do for the girl, and what may they tell each family?
+
+::: {.callout-note collapse="true" title="Model answer: simultaneity protects freedom and fairness"}
+
+Yes. A living donor may withdraw at any time before removal (ZTOTK, Art. 24(4)). A moral sense of reciprocity cannot be enforced: forcing him would make donation a debt and his consent coerced. Ethics and law both protect his freedom, even though the outcome is unfair to the girl's family.
+
+ZTOTK requires removal from both donors and implantation in both recipients to take place **simultaneously** in paired exchange (Art. 26a(2); Art. 33a). The rule exists precisely to prevent this situation: if both operations happen at once, no donor can withdraw after the other has given. Operating sequentially "for scheduling reasons" breached the law and created the dilemma.
+
+The girl stays on the register with her medical priority; the team reviews whether another donor or a new exchange is possible and supports the family. Identifying data may not be disclosed, including in paired exchange (Art. 8), so each family receives information about its own member only. The institution reviews the scheduling decision as a safety and legal incident.
+
+:::
+
+## Task 4. The campaign for an organ — 15 minutes
+
+### Case C: a liver for the child on television
+
+A two-year-old with severe liver disease is on the waiting list. There is no suitable living related donor. The parents, who are well off, run a widely reported media campaign. A week later the family of a child declared brain dead after a road accident say they will donate only if the liver goes to "the child from television". In the register there are other children, one of whom is more urgent and compatible.
+
+1. May the donor's family designate the recipient?
+2. Sort these factors into acceptable and unacceptable allocation criteria: urgency, media attention, compatibility, parents' wealth, waiting time, expected benefit.
+3. How can the team accept the gift and still explain that the liver will be allocated by the general rules?
+
+::: {.callout-note collapse="true" title="Model answer: one list, one rule"}
+
+Deceased donation enters the regulated system: the Medical Supervision Agency allocates organs (ZTOTK, Art. 11(5)(6)) by criteria set in the ordinance under Art. 33, and all patients in need have equal rights (Art. 3). A conditional gift to a named recipient outside the rules would turn media visibility into priority.
+
+Acceptable: urgency, compatibility, expected benefit, waiting time. Unacceptable: media attention and the parents' wealth. The campaign itself is understandable and may raise awareness of donation; it may not change the order of the list.
+
+The team thanks the family, explains without blame that the law does not let them choose the recipient, and that the liver will go to the child for whom it is medically most suitable. That may or may not be the child they saw. If the family maintains the condition, the team cannot accept it; it can offer time and support. A hard conversation now protects public trust in the whole system.
+
+:::
+
+## Task 5. Placebo and the students' trial — 15 minutes
+
+### Case D: two studies, one ethics committee meeting
+
+**Study 1.** A sponsor plans an international drug trial for a severe chronic disease. An effective standard treatment exists, but comparison with it would need more participants. The protocol gives half the patients placebo for six months and stops their usual treatment. Clinicians warn that delaying effective treatment may cause irreversible loss of function.
+
+**Study 2.** A lecturer invites medical students into a study with repeated blood samples and a wearable sensor. He offers a payment equal to a month's dormitory rent and says taking part shows "real commitment to science". He will examine the same students. Sign-up happens after a compulsory class, and the course assistant keeps the list.
+
+1. Is placebo acceptable in Study 1? Can participants' consent make it acceptable?
+2. Which elements of Study 2 create undue influence? Propose three changes.
+3. Which law and which ethics committee apply to each study in Bulgaria?
+
+::: {.callout-note collapse="true" title="Model answer: consent does not cure a bad design"}
+
+Placebo is acceptable when no proven intervention exists, or for compelling scientific reasons where withholding proven treatment carries no risk of serious or irreversible harm (Declaration of Helsinki, 2024). Here an effective treatment exists and the harm may be irreversible; convenience and a "cleaner result" are not compelling reasons. Consent cannot repair an unethical design: the committee must reject it. Alternatives are an active comparator, an add-on design (new drug or placebo on top of standard treatment) or a shorter placebo phase with strict rescue criteria.
+
+In Study 2, the lecturer examines the students, the payment is large relative to their expenses, the message ties participation to commitment, and sign-up follows a compulsory class with the list kept by course staff. Changes: recruitment by someone outside the teaching team; the lecturer does not learn who refused; payment proportionate to time and inconvenience, paid pro rata on withdrawal; sign-up outside teaching time.
+
+Study 1 is a clinical trial of a medicinal product: Regulation (EU) No 536/2014 and ZLPHM; the Bulgarian Drug Agency authorises, and the Ethics Committee for Clinical Trials at the Minister of Health gives the ethical opinion (Arts. 81, 83, 103). Study 2 involves no medicinal product: it is medical research under the Health Act, Arts. 197–205, with a positive opinion from the institution's local ethics committee (Art. 203), written personal consent (Art. 199) and insurance (Art. 201).
+
+:::
+
+## Individual closing task — 5 minutes
+
+Answer briefly without opening the model answers:
+
+1. Explain in one sentence why the physicians who determine brain death may not join the transplant team.
+2. Name two people who may become living kidney donors in Bulgaria only with the Transplantation Ethics Committee's permission.
+3. Write one question you would ask a research participant to check for therapeutic misconception.
+
+### Feedback criteria
+
+A complete answer separates the moral weight of a wish from its legal effect, applies ZTOTK Art. 21 and Art. 24(4) correctly, and explains why paired exchange must be simultaneous. It sorts allocation criteria without exceptions for sympathy or wealth. In Case D it rejects a design that consent cannot repair, identifies each source of undue influence and names the right law and committee for each study. Listing articles without applying them to the facts does not complete the task.
