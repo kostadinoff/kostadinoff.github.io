@@ -1,0 +1,75 @@
+---
+title: "Epidemiological News: Weeks 41–42, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-10-20
+description: "Weeks 41–42 of 2026 (5–18 October) brought a second Bundibugyo Ebola case in Kenya and continued transmission in the Democratic Republic of the Congo, where apparent stabilisation concealed persistent gaps in case detection and referral ([WHO](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41)). European surveillance documented continuing West Nile virus transmission, including seven locally acquired infections in Bulgaria, while a prolonged Salmonella Strathcona outbreak remained unresolved ([ECDC West Nile update](https://wnv-weekly.ecdc.europa.eu/), [ECDC Week 41](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-41-2026.pdf)). Bulgarian influenza/ARI consultations declined between the two weeks; varicella and hepatitis notifications rose, and cumulative enteric and sexually transmitted infection excesses persisted ([NCIPD Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf), [respiratory surveillance](https://grippe.gateway.bg/table.php)). The Week 42 district spreadsheet left the measles national total blank, preventing a complete fortnight comparison ([NCPHA](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_42.xls))."
+categories:
+  - "English"
+title-meta: "Epidemiological News: Weeks 41–42, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-20
+---
+
+## Infectious Diseases: Global Perspective
+
+### Contact and Body-Fluid Transmission
+
+- **Bundibugyo Ebola disease — further spread to Kenya.** WHO's 8 October update recorded 8,728 confirmed cases and 4,205 deaths in the Democratic Republic of the Congo through 6 October. Kenya's first imported patient, who had travelled from the DRC through Uganda, died on 5 October. A second Kenyan case, a family contact already in quarantine, was reported on 14 October. ECDC's later DRC update reached 9,277 confirmed cases and 4,478 deaths through 14 October. These cumulative totals remain subject to reconciliation; their difference does not measure infections acquired during the fortnight. [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619), [WHO Weekly Epidemiological Record](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41), [ECDC Week 42](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-42-2026.pdf).
+
+- **An apparent plateau did not establish control.** WHO reported 463 confirmed DRC cases in epidemiological Week 41, compared with 487 in Week 40. However, 44 health zones reported cases in Week 41, and 67% of confirmed deaths occurred in the community. Only approximately 10% of new cases were identified among known contacts, indicating incomplete recognition of transmission chains. For Bulgarian preparedness, the practical concern remains recognition and referral of an exposed returning traveller; ECDC continued to assess infection likelihood for the EU/EEA population as very low. [WHO Weekly Epidemiological Record](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41), [ECDC Week 41](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-41-2026.pdf).
+
+### Respiratory Illness of Undetermined Aetiology
+
+- **Irkutsk — pneumonia investigation, with no confirmed plague diagnosis.** WHO's 10 October notice addressed the death of a laboratory employee on 2 October. Russian authorities reported negative testing for high-threat pathogens, asymptomatic contacts and no additional linked severe pneumonia cases. WHO found no evidence of continuing transmission from the information supplied, but the fatal illness remained unexplained. For Bulgarian epidemic intelligence, this remains an unresolved diagnostic event: neither the occupational setting nor media allegations establish a plague outbreak or a laboratory release. [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620).
+
+---
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Vector-Borne Transmission
+
+- **West Nile virus — continued geographical expansion.** By 14 October, European surveillance recorded 1,926 locally acquired human infections across 19 countries and 222 affected areas. Bulgaria accounted for seven cases across six affected areas. The wider European totals include countries outside the EU/EEA. ECDC and EFSA's monthly assessment described declining activity after the August–September peak, alongside unusually extensive geographical spread and no indication of increased human disease severity. For Bulgaria, the affected-area surveillance is directly relevant to blood-donor assessment; newly reported areas do not necessarily represent infections acquired during the publication week. [ECDC weekly report, data to 14 October](https://wnv-weekly.ecdc.europa.eu/), [ECDC–EFSA October assessment](https://wnv-monthly.ecdc.europa.eu/).
+
+- **Chikungunya and dengue — European exposure remains relevant.** Through 14 October, France reported 163 locally acquired chikungunya cases and Italy one; locally acquired dengue reached 70 cases in Italy and six in France. These seasonal cumulative totals support including European destinations in the exposure history of Bulgarian travellers with compatible illness. [ECDC Week 42](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-42-2026.pdf).
+
+### Fecal-Oral Transmission
+
+- **Salmonella Strathcona — persistent cross-border foodborne outbreak.** ECDC's Week 41 assessment reported more than 160 new outbreak cases during 2026, following approximately 670 confirmed cases during 2023–2025. Earlier epidemiological, microbiological and traceability investigations implicated small tomatoes from Sicily; the source remained incompletely controlled as of September. Cases occurred both after travel to Italy and domestically elsewhere. The Bulgarian relevance is food-chain investigation and typing of compatible isolates. Routine Bulgarian salmonellosis totals alone cannot establish membership of this outbreak. [ECDC Week 41](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-41-2026.pdf).
+
+### Respiratory and Droplet Transmission
+
+- **Respiratory viruses — early seasonal increases from low levels.** The Week 42 CDTR summarised ERVISS data for **Week 41**: consultation rates remained low or at baseline, although many countries reported increases. Median primary-care positivity was 4.3% for SARS-CoV-2 and 3.4% for influenza; RSV activity was very low. These regional indicators provide context for Bulgarian surveillance, rather than a domestic incidence estimate. [ECDC Week 42, respiratory overview](https://www.ecdc.europa.eu/sites/default/files/documents/communicable-disease-threats-report-week-42-2026.pdf#page=2).
+
+### Contact and Sexual Transmission
+
+- **Mpox — sustained clade I circulation.** ECDC's September surveillance update recorded 342 clade I cases in 17 countries, compared with 354 in August, and three clade II cases. Thus, continued circulation should not be described as a September increase in clade I notifications. Transmission predominantly involved sexual networks of men who have sex with men; incomplete clade information and retrospective revisions limit trend interpretation. This supports continued diagnostic and sequencing capacity in Bulgarian sexual-health services. [ECDC September mpox report](https://mpox-monthly.ecdc.europa.eu/).
+
+---
+
+## Infectious Diseases: Bulgaria
+
+The national comparison covers Week 41 (5–11 October) and Week 42 (12–18 October), using sources retrieved on 20 October. ECDC's numbered CDTRs cover 3–9 and 10–16 October. The series retains its 20% weekly signal threshold, with cumulative excesses and unusual events considered separately. Counts describe notifications; diagnostic activity and reporting delays can also change them. [NCIPD Week 41](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_41.pdf), [NCIPD Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf).
+
+### Respiratory and Droplet Transmission
+
+- **Influenza/ARI — fewer consultations.** The sentinel system recorded 1,838 cases in Week 41 and 1,691 in Week 42 among 348,106 monitored people: incidence fell from 52.80 to 48.58 per 10,000, approximately 8.0%. This sub-threshold change is included for seasonal context. Week 42 incidence was highest in children aged 0–4 years, at 240.35 per 10,000. These syndromic consultations are neither laboratory-confirmed influenza counts nor a census of all Bulgarian infections. The linked dashboard uses moving weekly offsets; the dates above identify the observations retrieved for this edition. [NCIPD respiratory surveillance, Week 41](https://grippe.gateway.bg/table.php?offset=2), [Week 42](https://grippe.gateway.bg/table.php?offset=1).
+
+- **Measles — three notifications, then an incomplete row.** NCPHA's Week 41 spreadsheet recorded three cases: Vratsa two and Sofia-grad one. In Week 42, the national total and the Vratsa, Lovech and Pleven cells were blank, while other districts contained zeros. The missing cells cannot be treated as zeros, so neither a Week 42 total nor a fortnight decline can be established. [NCPHA Week 41](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_41.xlsx), [Week 42](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_42.xls).
+
+- **Varicella — weekly rise without a cumulative excess.** Notifications increased from 92 to 137, a 48.9% rise. The Week 42 total included 21 possible, 83 probable and 33 confirmed cases. Cumulative notifications reached 16,213 versus 17,165 in 2025, remaining 5.5% lower. [NCIPD Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf).
+
+### Fecal-Oral and Bloodborne Transmission
+
+- **Hepatitis ABCDEN — persistent excess.** Notifications rose from 25 to 35, or 40.0%; 31 Week 42 cases were confirmed. The cumulative total of 1,410 exceeded 2025's 1,156 by 22.0%. The aggregate category still prevents attribution to a specific hepatitis virus or transmission route. [NCIPD Week 41](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_41.pdf), [Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf).
+
+### Fecal-Oral Transmission
+
+- **Enteric infections — cumulative signals persist.** Campylobacteriosis rose from seven to eight confirmed cases, while rotavirus gastroenteritis fell from 28 to 27. Both movements were below the weekly threshold. Their cumulative totals nevertheless remained elevated: 516 versus 376 for campylobacteriosis (+37.2%) and 832 versus 625 for rotavirus (+33.1%). These continue the excesses tracked in preceding editions. [NCIPD Week 41](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_41.pdf), [Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf).
+
+### Vector-Borne Transmission
+
+- **West Nile fever — one probable notification.** NCIPD recorded no cases in Week 41 and one probable case in Week 42, bringing its cumulative total to eight versus one in 2025. This differs in cutoff and scope from ECDC's seven locally acquired infections through 14 October; the additional notification's acquisition location cannot be inferred. [NCIPD Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf), [ECDC weekly surveillance](https://wnv-weekly.ecdc.europa.eu/).
+
+### Contact and Sexual Transmission
+
+- **Sexually transmitted infections — falling weekly counts, sustained annual excesses.** Gonorrhoea fell from seven to two confirmed notifications (−71.4%); urogenital chlamydial infection fell from nine to two (−77.8%). Cumulative totals were 204 versus 95 (+114.7%) and 300 versus 149 (+101.3%), respectively. Small weekly denominators make percentage changes unstable, and gonorrhoea notifications provide no antimicrobial susceptibility results. Separately, congenital/infant syphilis recorded two cases in Week 41 and one probable case in Week 42, reaching 33 cumulatively, equal to 2025. [NCIPD Week 41](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_41.pdf), [Week 42](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_42.pdf).
