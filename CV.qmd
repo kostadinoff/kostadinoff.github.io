@@ -107,7 +107,7 @@ The publication record is organised around six research programmes:
     - Supervision and mentoring of student research projects
     - Research within the departmental programme in health policy, health economics and environmental health
 
-`September 2021 – July 2025`
+`September 2020 – July 2025`
 
 - **Assistant Professor** | Department of Social Medicine and Public Health | Faculty of Public Health | Medical University of Plovdiv
     - Practical classes in Medical Ethics, Biostatistics, Social Medicine and Public Health
@@ -326,7 +326,7 @@ The publication record is organised around six research programmes:
 
 # Teaching experience
 
-Undergraduate and postgraduate teaching at the Faculty of Public Health, Medical University of Plovdiv, since 2021, for students of medicine, dental medicine, pharmacy and nursing, in both Bulgarian and English. Postgraduate teaching reaches participants from a range of countries and continents.
+Undergraduate and postgraduate teaching at the Faculty of Public Health, Medical University of Plovdiv, since 2020, for students of medicine, dental medicine, pharmacy and nursing, in both Bulgarian and English. Postgraduate teaching reaches participants from a range of countries and continents.
 
 ::: {.table-responsive .cv-course-table}
 | Course | Level | Semester | Format | Language | Years |
