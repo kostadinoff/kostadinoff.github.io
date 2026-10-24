@@ -2,6 +2,8 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/medical-ethics-reproduction-bg.html",
+      "/15-minute-learning/medical-ethics-reproduction-en.html",
       "/15-minute-learning/medical-ethics-end-of-life-bg.html",
       "/15-minute-learning/medical-ethics-end-of-life-en.html",
       "/15-minute-learning/medical-ethics-transplantation-research-bg.html",
@@ -33,6 +35,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/15-minute-learning/medical-ethics-reproduction-bg.html",
+      "/15-minute-learning/medical-ethics-reproduction-en.html",
+      "/learning-tasks/medical-ethics-reproduction-bg.html",
+      "/learning-tasks/medical-ethics-reproduction-en.html",
       "/epinews-posts/2026-W41-42-en.html",
       "/15-minute-learning/medical-ethics-end-of-life-en.html",
       "/15-minute-learning/medical-ethics-end-of-life-bg.html",
@@ -195,6 +201,8 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/medical-ethics-reproduction-bg.html",
+      "/learning-tasks/medical-ethics-reproduction-en.html",
       "/learning-tasks/medical-ethics-end-of-life-bg.html",
       "/learning-tasks/medical-ethics-end-of-life-en.html",
       "/learning-tasks/medical-ethics-transplantation-research-bg.html",

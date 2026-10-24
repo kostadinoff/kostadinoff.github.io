@@ -608,6 +608,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-transplantation-research-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-transplantation-research-en.html" }
                   ]
+                },
+                {
+                  title: "Class 7 · Ethical and legal aspects of human reproduction",
+                  description: "reproductive autonomy; contraception, minors and reproductive coercion; abortion — moral positions, the Bulgarian regime (12 and 20 weeks), conscientious objection; sterilisation and its legal status; assisted reproduction (Ordinance N-2/2023), donation of gametes and embryos, number and fate of embryos, posthumous reproduction, parentage under the Family Code, single women and female couples, surrogacy.",
+                  tags: ["ethics", "reproduction", "abortion", "sterilisation", "assisted reproduction", "surrogacy"],
+                  date: "2026-10-24",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-07-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-reproduction-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-reproduction-en.html" }
+                  ]
                 }
               ],
               handouts: []
@@ -806,6 +818,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-transplantation-research-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-transplantation-research-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 7 · Етични и правни аспекти на човешката репродукция",
+                  description: "репродуктивна автономност; контрацепция, непълнолетни и репродуктивна принуда; аборт — морални позиции, българският режим (12 и 20 седмици), възражение по съвест; стерилизация и правният ѝ статус; асистирана репродукция (Наредба № Н-2/2023), даряване на гамети и ембриони, брой и съдба на ембрионите, посмъртна репродукция, произход по Семейния кодекс, самотни жени и двойки жени, заместващо майчинство.",
+                  tags: ["етика", "репродукция", "аборт", "стерилизация", "асистирана репродукция", "заместващо майчинство"],
+                  date: "2026-10-24",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-07-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-reproduction-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-reproduction-bg.html" }
                   ]
                 }
               ],
@@ -1124,6 +1148,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-transplantation-research-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-transplantation-research-en.html" }
                   ]
+                },
+                {
+                  title: "Class 7 · Ethical and legal aspects of human reproduction",
+                  description: "reproductive autonomy; contraception, minors and reproductive coercion; abortion — moral positions, the Bulgarian regime (12 and 20 weeks), conscientious objection; sterilisation and its legal status; assisted reproduction (Ordinance N-2/2023), donation of gametes and embryos, number and fate of embryos, posthumous reproduction, parentage under the Family Code, single women and female couples, surrogacy.",
+                  tags: ["ethics", "reproduction", "abortion", "sterilisation", "assisted reproduction", "surrogacy"],
+                  date: "2026-10-24",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-07-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/medical-ethics-reproduction-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/medical-ethics-reproduction-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1211,6 +1247,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-transplantation-research-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-transplantation-research-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 7 · Етични и правни аспекти на човешката репродукция",
+                  description: "репродуктивна автономност; контрацепция, непълнолетни и репродуктивна принуда; аборт — морални позиции, българският режим (12 и 20 седмици), възражение по съвест; стерилизация и правният ѝ статус; асистирана репродукция (Наредба № Н-2/2023), даряване на гамети и ембриони, брой и съдба на ембрионите, посмъртна репродукция, произход по Семейния кодекс, самотни жени и двойки жени, заместващо майчинство.",
+                  tags: ["етика", "репродукция", "аборт", "стерилизация", "асистирана репродукция", "заместващо майчинство"],
+                  date: "2026-10-24",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-07-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-reproduction-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-reproduction-bg.html" }
                   ]
                 }
               ],

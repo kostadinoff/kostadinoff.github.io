@@ -1,0 +1,77 @@
+---
+title: "Ethical and legal aspects of human reproduction: contraception, abortion, sterilisation and assisted reproduction"
+author: "Kostadin Kostadinov"
+date: 2026-10-24
+lang: en
+description: "A 15-minute reading for the seventh practical class: reproductive autonomy, contraception and minors, abortion and the Bulgarian regime, conscientious objection, sterilisation, assisted reproduction, donation of gametes and embryos, posthumous reproduction, legal parentage and surrogacy."
+categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Ethical and legal aspects of human reproduction"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-24
+---
+
+[Slides (PDF)](../2026-2027-classes/ethics-07-en.pdf) · [Student tasks](../learning-tasks/medical-ethics-reproduction-en.qmd) · [Български](medical-ethics-reproduction-bg.qmd)
+
+Set aside about **15 minutes** to read and reflect. The text follows the presentation "To have or not to have a child". Afterwards you should be able to explain who makes a reproductive decision, what Bulgarian law permits and prohibits in abortion, sterilisation and assisted reproduction, what happens to embryos on separation or the death of a partner, and how the law determines the mother and the father.
+
+## Reproductive autonomy
+
+Reproductive autonomy is a person's capacity to decide freely and on an informed basis whether, when and under what circumstances to have children. The Bulgarian [Health Act](https://lex.bg/laws/ldoc/2135489147) puts it briefly: everyone has the right to information and freedom of decision regarding their reproductive health (Art. 126(2)). Freedom is more than the absence of a ban. A real choice requires reliable information, accessible services, confidentiality and protection from pressure.
+
+The distinction between **negative** and **positive** rights helps. The negative right requires the state not to interfere — forced sterilisation, pregnancy or abortion are among the gravest violations of bodily integrity. The positive right is a claim to assistance: treatment, funding, donor material. It is limited by medical appropriateness, the law and public resources. The European Court of Human Rights holds that the decision to become or not to become a parent is part of private life (*Evans v. the United Kingdom*, 2007), but it leaves states a wide margin in regulating assisted reproduction (*S.H. and Others v. Austria*, 2011).
+
+Contraception, sterilisation and abortion act at different times and differ in reversibility. Contraception prevents pregnancy and is usually reversible; sterilisation is intended to be permanent; abortion ends a pregnancy that already exists. Mixing the concepts produces misinformation — the commonest example is emergency contraception presented as abortion.
+
+## Contraception and minors
+
+Good counselling clarifies what matters to the patient: effectiveness with perfect and with typical use, when protection starts and what to do after a missed dose, contraindications and serious adverse reactions, reversibility, discretion and protection from sexually transmitted infections (which only condoms provide). **Emergency contraception is not abortion**: it acts before an established pregnancy by preventing or delaying ovulation.
+
+For minors, medical activities require the consent of a parent or guardian in addition to the minor's own (Health Act, Art. 87(2)). From the age of 16, however, a minor may receive health consultations, preventive examinations and tests without parental consent (Art. 87(3)). The limits of confidentiality are explained in advance; absolute secrecy is not promised. The physician tactfully checks whether sexual contact is voluntary and whether there is an age or power asymmetry, violence or exploitation, and has a duty to report a child at risk (Child Protection Act, Art. 7).
+
+**Reproductive coercion** is control by another person over whether and when the patient becomes pregnant — sabotaged condoms, hidden pills, threats, but also a "caring" insistence on a long-acting method for a woman with an intellectual disability. A diagnosis is not incapacity: capacity is assessed for the specific decision and can be supported.
+
+## Abortion: moral positions and the Bulgarian regime
+
+The conservative position gives human life full moral worth from conception. The gradualist position holds that moral significance grows with development — nervous system, capacity to feel, viability. The bodily-autonomy argument (Thomson, 1971) holds that even if the fetus has moral status, a right to life does not include a right to use another person's body without consent. Modern law combines these positions: freedom of decision in early pregnancy and increasing protection of the fetus as pregnancy advances.
+
+The Health Act leaves the details to a ministerial ordinance (Art. 128(1)). Under [Ordinance No. 2 of 1990](https://lex.bg/laws/ldoc/-552069119), **abortion on request** is performed at the request of any pregnant woman up to 12 gestational weeks, provided she has no condition in which termination would threaten her health or life (Art. 7). **Abortion on medical grounds** is allowed up to 20 weeks for a condition that threatens the woman's life or health or the viability of the offspring, by decision of a special medical commission (Arts 12–14). After the 20th week, termination is allowed only for urgent reasons to save the woman's life or for proven gross morphological changes or severe genetic damage of the fetus (Art. 12(2)). A refusal by the commission can be appealed within 7 days to a commission at the "Maichin Dom" obstetric hospital (Art. 15).
+
+The [Criminal Code](https://lex.bg/laws/ldoc/1589654529) punishes whoever, with the pregnant woman's consent, kills the fetus outside an accredited health facility or in breach of medical standards — up to five years — and without her consent, three to eight years (Art. 126). **The pregnant woman bears no criminal liability** (Art. 126(4)). When a criminal abortion is suspected, the physician notifies the head of the facility, the prosecutor and the police within 24 hours (Ordinance No. 2, Art. 19), but emergency care is never refused.
+
+Prenatal screening gives a probability; a diagnostic test gives a diagnosis. Counselling after an unfavourable result is non-directive: prognosis, support, continuing the pregnancy, palliative care for a lethal anomaly and lawful termination. In assisted reproduction, sex selection is prohibited except to prevent sex-linked hereditary diseases (Health Act, Art. 135(1)).
+
+**Conscientious objection.** The Code of Professional Ethics of Physicians allows a physician with moral or religious convictions to refuse to terminate a *normal* pregnancy (Art. 32). This is a right not to take part personally, not a right to block access: the refusal is declared in good time, the patient receives accurate information and referral, and no refusal is allowed on medical grounds or in an emergency. The European Court requires the state to ensure effective access to what the law allows (*Tysiąc v. Poland*, 2007; *R.R. v. Poland*, 2011).
+
+Across Europe the regimes differ: France allows abortion on request up to 14 weeks and wrote this freedom into its Constitution in 2024; in Great Britain abortion is available up to 24 weeks on statutory grounds; since 2020 Poland, and Malta, allow it only when life or health is at risk (Poland also after a crime).
+
+## Sterilisation
+
+Sterilisation is an intervention intended to be permanent — tubal sterilisation in women, vasectomy in men. Consent must rest on the understanding that natural conception may never occur again; reversible alternatives must be discussed, and the decision should not be made in a crisis or immediately after a difficult delivery. The partner may take part in the conversation but has no veto.
+
+The Health Act speaks of "permanent removal of the capacity to reproduce" and delegates the conditions and procedure to a ministerial ordinance (Art. 128(3)). **In Bulgaria sterilisation is performed only on medical grounds** — when pregnancy is contraindicated or would endanger the woman's life; voluntary contraceptive sterilisation without medical grounds is not regulated by law. Causing loss of reproductive capacity is grievous bodily harm (Criminal Code, Art. 128(2)). In most Western countries voluntary sterilisation of adults is lawful with informed consent: France requires a four-month reflection period, the USA (with federal funding) age 21 and a 30-day wait, and Germany prohibits sterilising children.
+
+History explains the strictness. The eugenic policies of the 20th century sterilised people with disabilities, the poor and minorities. In *V.C. v. Slovakia* (2011) a Roma woman was sterilised during a caesarean section without genuine consent — the European Court found inhuman and degrading treatment.
+
+## Assisted reproduction
+
+The law defines assisted reproduction as diagnostic and therapeutic methods aimed at overcoming infertility and carried out in specialised centres (supplementary provisions, § 1, item 21). It applies when the condition of the man or the woman does not allow natural conception (Art. 129), after written informed consent and according to a medical standard (Art. 130). The current standard is [Ordinance No. N-2 of 12.07.2023](https://www.ciela.net/svobodna-zona-normativi/view/2137235067) on assisted reproduction, and supervision lies with the Executive Agency "Medical Supervision". The standard also allows fertility preservation for medical and social reasons.
+
+The main methods are intrauterine insemination, in vitro fertilisation, ICSI, cryopreservation and preimplantation genetic testing. Consent is **staged**: consent to IVF is not a blanket authorisation for fertilisation, genetic testing, freezing, donation and transfer. The Assisted Reproduction Centre funds procedures on medical indications for women under 43, up to four attempts — a funding rule, not a ban on treatment.
+
+**Donation.** An egg donor is an adult who gives notarised consent, is informed of the risks and has her health certified by a commission of three physicians outside the team (Health Act, Art. 130(5)); she may be anonymous or related (a sister or cousin) and may withdraw until fertilisation. Donor sperm is quarantined for 180 days. Donation is **unpaid** — only reasonable expenses are reimbursed (Art. 130(7)) — and **anonymous**: the donor's identity is an official secret for 30 years (Art. 132(2)). A novelty of Ordinance N-2 is embryo donation: a couple with cryopreserved embryos may donate them anonymously to one other couple. Many countries now give donor-conceived children the right to learn their origins (Sweden since 1985, the UK since 2005, France since 2022).
+
+**Number and fate of embryos.** For women under 38 in the first two cycles one embryo is transferred; up to 41, up to two; over 41, up to three. This is a ceiling, not a target: multiple pregnancy carries risk. "Surplus" embryos may be frozen (the period is set in the consent, recommended up to five years), donated, given to research with the written consent of both (Health Act, Art. 134(2)) or destroyed — on request, when the period expires, or if unclaimed six months after it. On separation, no transfer takes place without the consent of both; in *Evans* the European Court found no violation when the embryos — the woman's last chance of a genetic child — were destroyed after the man withdrew his consent.
+
+## Death of a partner and the child's parentage
+
+Ordinance N-2 prohibits retrieving gametes from a deceased or brain-dead person and assisted reproduction with frozen gametes after one partner's death. Transfer of a **frozen embryo** is possible only if all of the following hold: the deceased man expressed his wish in writing during life; the recipient is the same partner named in that document; 12 to 36 months have passed since the death; and the woman has had psychological counselling and been informed in writing of the consequences. Third parties, including the deceased's parents, may not dispose of the material.
+
+The consequences follow from the [Family Code](https://lex.bg/laws/ldoc/2135637484). The **mother** is the woman who gave birth, including after assisted reproduction with a donor egg, and maternity cannot be contested on that ground (Art. 60). The **father** is the mother's husband if the child is born during the marriage or within 300 days of its end (Art. 61); a husband who gave written consent to assisted reproduction cannot contest paternity (Art. 62(6)). Outside marriage the father acknowledges the child. A child conceived after the man's death is born after the 300-day period — it has no legal parentage from the deceased and is not his heir. In the United Kingdom and Spain posthumous conception with consent creates parentage; Germany and France prohibit it.
+
+A single woman can be treated with donor sperm. In a female couple only the birth mother is a legal parent, because Bulgarian law does not recognise same-sex unions; the European Court in *Koilova and Babulkova v. Bulgaria* (2023) held that the state must provide legal recognition for same-sex couples, and the Court of Justice of the EU in "Pancharevo" (2021) that a child with two same-sex parents under another Member State's act has the right to free movement.
+
+**Surrogacy** — carrying a pregnancy for another couple — may be traditional (with the surrogate's own egg) or gestational (with an embryo without her genetic material). In Bulgaria it is expressly prohibited (Ordinance N-2, Annex 1, item 5.7.9), and the mother is the birth mother — a contract with "intended parents" has no legal effect. Regulated altruistic surrogacy exists in the United Kingdom, Greece and Canada; commercial surrogacy in Ukraine and some US states. The main ethical dangers are exploitation, pressure and turning the child into the object of a contract; the pregnant woman remains a patient, and no contract can oblige her in advance to undergo abortion or surgery.
+
+*The cited provisions were checked against the current consolidated texts on 24 October 2026.*
+
+Before opening the [student tasks](../learning-tasks/medical-ethics-reproduction-en.qmd), try to answer in three sentences: up to which week and under what conditions is abortion allowed in Bulgaria; why voluntary sterilisation without medical grounds is not performed in Bulgaria; who is the father of a child born from a frozen embryo 18 months after the husband's death.

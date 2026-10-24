@@ -1,0 +1,124 @@
+---
+title: "Medical ethics, class 7: contraception, abortion, sterilisation and assisted reproduction"
+author: "Kostadin Kostadinov"
+date: 2026-10-24
+lang: en
+description: "75 minutes of group work after the 15-minute reading: sterilisation after a difficult delivery, conscientious objection and an expiring time limit, embryos after separation and after a husband's death, a female couple and surrogacy abroad. With self-check answers."
+categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
+title-meta: "Medical ethics, class 7: contraception, abortion, sterilisation and assisted reproduction"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-10-24
+---
+
+[15-minute reading](../15-minute-learning/medical-ethics-reproduction-en.qmd) · [Slides (PDF)](../2026-2027-classes/ethics-07-en.pdf) · [Български](medical-ethics-reproduction-bg.qmd)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. Open each self-check answer only after you have written down your own reasoning.
+
+**All persons, events and circumstances are fictional** and do not describe a real patient. The cases are adapted from the course case bank. Work with the information given and say what else you would like to know. The cases train ethical and legal judgement; in a real case they do not replace advice from the head of the facility, an ethics committee or a lawyer.
+
+**Submit one group answer** with the corrected statements and the analysis of the four cases. Each student completes the individual task at the end. You are assessed on the accurate use of concepts, the correct Bulgarian legal basis, and an answer in which the decision stays with the patient and no one is abandoned.
+
+## Task 1. True or false — 10 minutes
+
+Rewrite each statement in one or two sentences. Explain what is wrong and name the applicable rule.
+
+1. "The morning-after pill is an early abortion."
+2. "A 16-year-old cannot get contraceptive counselling without a parent."
+3. "A physician opposed to abortion need not tell the patient where she can have one."
+4. "A woman who had an abortion outside a hospital is criminally liable."
+5. "If an adult patient consents, the physician may perform a sterilisation."
+6. "A sperm donor may ask to be registered as the father."
+
+::: {.callout-note collapse="true" title="Answer: six corrections"}
+
+Emergency contraception acts before an established pregnancy — it prevents or delays ovulation — and does not end a pregnancy. From the age of 16, health consultations, preventive examinations and tests do not require parental consent (Health Act, Art. 87(3)); treatment also needs a parent's consent (Art. 87(2)).
+
+The Code of Professional Ethics (Art. 32) allows refusal to take part personally in terminating a normal pregnancy, but not obstruction: the patient must receive timely, accurate information and referral. The pregnant woman bears no criminal liability (Criminal Code, Art. 126(4)) — the person who performed the abortion is punished.
+
+The Health Act delegates sterilisation to an ordinance (Art. 128(3)); in Bulgaria it is performed only on medical grounds, and causing loss of reproductive capacity is grievous bodily harm (Criminal Code, Art. 128(2)). A donor does not become a parent: donation is anonymous (Health Act, Art. 132(2)), the mother is the birth mother (Family Code, Art. 60) and the father is the husband by presumption (Art. 61), who cannot contest paternity after giving consent (Art. 62(6)).
+
+:::
+
+## Task 2. A decision after a difficult delivery — 15 minutes
+
+### Case A: "It will be best this way"
+
+A 36-year-old woman delivers her third child by emergency caesarean section after severe pre-eclampsia. Twelve hours later she is exhausted, on analgesics and worried about her newborn in neonatal care. Her husband insists on permanent sterilisation before discharge; she quietly agrees that "it will be best this way". In private she admits that they never discussed irreversibility and that she fears he will leave her if she refuses. She has no condition that would make a future pregnancy contraindicated.
+
+**Questions.** Is her consent valid? What weight do the family intention and the husband's view carry? What does Bulgarian law allow? What will you offer her today?
+
+::: {.callout-note collapse="true" title="Answer: freedom, time and the legal framework"}
+
+Consent is neither free nor informed: exhaustion, medication, fear of the partner and no discussion of irreversibility. The earlier family intention matters for the conversation but does not replace her will; the husband has no veto and cannot decide for her.
+
+Legally, sterilisation in Bulgaria is performed only on medical grounds (Health Act, Art. 128(3)); there are none here — pre-eclampsia in this pregnancy does not by itself make a future pregnancy contraindicated, and that assessment needs a calm consultation. Causing loss of reproductive capacity without a legal basis is grievous bodily harm (Criminal Code, Art. 128(2)).
+
+A good response: a private conversation, a safety assessment and, if there are signs of pressure, support; an effective reversible method on discharge (an intrauterine device or implant); a consultation after recovery. Postponement here protects autonomy rather than removing it.
+
+:::
+
+## Task 3. Conscience and an expiring time limit — 15 minutes
+
+### Case B: "You have time to think"
+
+A patient at the end of her 11th gestational week asks for abortion on request. The physician says that for religious reasons he does not perform abortions, does not tell her where she can have one, and books a follow-up in two weeks so that she has "time to think". Another specialist in the area accepts only with a referral. When the woman finds information on her own, the time limit has almost expired.
+
+**Questions.** What does Art. 32 of the Code allow and what not? What is the difference between refusal and obstruction? Who is responsible for organising the service?
+
+::: {.callout-note collapse="true" title="Answer: a right to refuse — yes; a right to block — no"}
+
+Art. 32 of the Code of Professional Ethics gives the physician a right to refuse personal participation in terminating a normal pregnancy. It gives no right to withhold information or to delay the patient until the 12-week limit in Ordinance No. 2/1990 (Art. 7) expires. "Waiting" here is not a medical recommendation but a covert attempt to change her decision.
+
+The physician should have declared the refusal in good time, given accurate information and referred the patient. The facility is responsible for organising the service — it cannot depend on the convictions of its only specialist. The European Court requires real access to what is lawful (*Tysiąc v. Poland*, *R.R. v. Poland*). On medical grounds or in an emergency, conscientious refusal is not allowed.
+
+:::
+
+## Task 4. Embryos after separation and after death — 20 minutes
+
+### Case C: two embryos, two stories
+
+**Version 1.** A married couple created embryos before the woman's cancer treatment; two remain frozen. The couple separate. The woman has no other chance of a genetic child and asks for a transfer; the man withdraws his consent. The form does not say what happens on divorce.
+
+**Version 2.** Another couple has three frozen embryos. The husband dies in a car crash. In the informed consent he wrote that after his death the embryos may be transferred to his wife. Eight months later she asks for a transfer; his parents want the "grandchild" born by a surrogate if she changes her mind.
+
+**Questions.** What does the clinic do in each version? What are the time limits and conditions under Ordinance N-2? Who will be the child's father in version 2, and will the child inherit?
+
+::: {.callout-note collapse="true" title="Answer: consent of both; strict conditions after death"}
+
+**Version 1.** The embryos were created with joint consent; after required consent is withdrawn no transfer takes place until the dispute is resolved, and the clinic should not destroy the material merely because the period is about to expire while the dispute continues. In *Evans v. the United Kingdom* (2007) the European Court found no violation in a similar situation. The lesson is staged consent that anticipates separation, death and expiry of the storage period.
+
+**Version 2.** Transfer is allowed only if all of the following hold: a written statement by the deceased made during life; the recipient is the same wife named in that document; **no less than 12 and no more than 36 months** have passed; she has had psychological counselling and been informed in writing of the consequences (Ordinance N-2, Annex 1, item 5.9). At eight months she must wait. His parents cannot dispose of the embryos (item 5.10), and surrogacy is prohibited (item 5.7.9).
+
+The child will be born more than 300 days after the death — the presumption in Family Code Art. 61 does not apply, so the child has no legal parentage from the deceased; nor is the child his heir, having not been conceived when the succession opened (Inheritance Act, Art. 2). That is why the standard requires the woman to be informed in writing.
+
+:::
+
+## Task 5. Family forms and surrogacy abroad — 15 minutes
+
+### Case D: the form and the journey
+
+Two women have lived together for eight years. One asks for treatment with donor sperm; the specialist refuses because the child "needs a father", and the form has fields only for "husband" and "wife". The brother of the other woman and his wife plan a surrogate pregnancy in a country where it is commercial and ask their Bulgarian gynaecologist whether they will be registered as parents when they return.
+
+**Questions.** Which criteria are medically relevant? What will the parentage of the two women's child be? What must the gynaecologist honestly explain to the second couple?
+
+::: {.callout-note collapse="true" title="Answer: medical criteria, honest legal information"}
+
+The law requires a medical basis and the consent of the persons wishing to have offspring (Health Act, Arts 129–130); a single woman can be treated with donor sperm. A refusal based only on sexual orientation or on a vague "interest of the child" is discriminatory; criteria must be specific, medical and applied consistently. Only the birth mother will be a legal parent (Family Code, Art. 60); the second woman has no parental link because Bulgarian law does not recognise same-sex unions (see *Koilova and Babulkova v. Bulgaria*, 2023, and the CJEU "Pancharevo" case, 2021).
+
+For the second couple: surrogacy is prohibited in Bulgaria (Ordinance N-2, item 5.7.9) and the mother is the woman who gave birth (Family Code, Art. 60(2)); a foreign contract does not change this automatically. Recognition of parentage requires legal advice; the child's right to identity is protected (*Mennesson v. France*, 2014). The gynaecologist informs honestly, without judging and without acting as an intermediary; the ethical risks — exploitation of the woman who carries the pregnancy and the child as the object of a contract — deserve an open conversation.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. Name the three time limits in the Bulgarian abortion regime and who decides at each.
+2. Say who is the mother and who is the father of a child born after egg donation in a marriage where the husband gave written consent.
+3. Write what you would say to a patient who asks for sterilisation "simply because I do not want children".
+
+### Feedback criteria
+
+A complete answer distinguishes contraception, sterilisation and abortion; cites the correct provisions — Health Act, Arts 87, 126–136; Ordinance No. 2/1990, Arts 7, 12, 15; Code of Professional Ethics, Art. 32; Criminal Code, Arts 126 and 128; Ordinance N-2/2023 (items 5.5, 5.7.9, 5.9, 5.10); Family Code, Arts 60–62. In case A it puts free consent and the legal framework before convenience; in case B it separates refusal from obstruction; in case C it applies the cumulative conditions and their consequences for parentage; in case D it separates medical criteria from personal morality. Listing principles without applying them to the facts does not complete the task.
