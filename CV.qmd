@@ -502,6 +502,10 @@ Presenter roles are stated where documented. Entries marked **Co-author** were p
 
 ## National
 
+`28 October 2026`
+
+- **Round Table "Healthcare Expenditure in Bulgaria – Statistical Aspects"** | D. A. Tsenov Academy of Economics, Svishtov (hybrid) | *["Accuracy of Budget Impact Projections in Bulgarian Health Technology Assessment, 2020–2025"](https://www.uni-svishtov.bg/bg/events/kragla-masa-razhodite-za-zdraveopazvane-v-bulgaria-%E2%80%93-statisticheski-aspekti)* | **Kostadinov K**, Raycheva R, Zdravkova-Aneva I, Shopova M, Ovchinnikov E, Petkov P | Oral presentation | Presenter
+
 `26 September 2026`
 
 - **8th National Conference of Epidemiology "One Health in a Dynamic Global World"** | Stara Zagora | *"Epidemiological Burden and Cost-Effectiveness of Universal Varicella Vaccination in Bulgaria: An Analysis of National Administrative Data with Dynamic Modelling"* | **Kostadinov K**, Raycheva R, Kevorkyan A, Rangelova V, Parmakova K | Oral presentation | Presenter
