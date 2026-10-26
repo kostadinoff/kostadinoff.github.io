@@ -256,8 +256,7 @@ The publication record is organised around six research programmes:
 
 `2026 – Present`
 
-- **"Association of Transport Noise with Mental Health and Well-Being in Residents of Sofia: Underlying Mechanisms, Health and Socio-Economic Impact"** | Bulgarian National Science Fund, 2026 call for fundamental research | Contract КП-06-ПН05/20 (BNSF-1.011-0133) | Principal Investigator: Assoc. Prof. Angel Dzhambov, MD, PhD, DSc, Medical University of Plovdiv | 36 months, EUR 99,300
-    - Role: **Work Package Leader (dissemination)** and team member responsible for the study database, R analysis scripts and the epidemiological design of the population survey
+- **"Association of Transport Noise with Mental Health and Well-Being in Residents of Sofia: Underlying Mechanisms, Health and Socio-Economic Impact"** | Bulgarian National Science Fund, 2026 call for fundamental research | Contract КП-06-ПН05/20 (BNSF-1.011-0133) | Principal Investigator: Assoc. Prof. Angel Dzhambov, MD, PhD, DSc, Medical University of Plovdiv | Role: **Research team member**
 
 `December 2025 – June 2026`
 
