@@ -155,7 +155,7 @@ The publication record is organised around six research programmes:
     - **Thesis submitted** 2024; **publicly defended** January 2025
     - Dissertation appendices and analysis code: [github.com/kostadinoff/phd_appendices](https://github.com/kostadinoff/phd_appendices) · PhD defence announcement: [mu-plovdiv.bg](https://mu-plovdiv.bg/d-r-kostadin-rangelov-kostadinov/)
 
-`October 2021 – May 2023`
+`October 2021 – July 2022`
 
 - **MSc in Economics and Finance** | Faculty of Economics | Sofia University "St. Kliment Ohridski"
 
