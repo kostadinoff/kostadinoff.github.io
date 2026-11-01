@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="bg" xml:lang="bg"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Костадин Костадинов">
+<meta name="dcterms.date" content="2026-11-01">
+<meta name="description" content="Работа за 75 минути след 15-минутната подготовка: разпознаване на видовете относителни величини, структура и леталитет, нагледност и съотношение, пряка стандартизация на леталитет в две болници и тълкуване на стандартизирани показатели. Със скрити примерни отговори.">
+
+<title>Медицинска статистика, упражнение 1: относителни величини и стандартизация – Kostadin Kostadinov</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-85095ff840c36d762545b7c5b4ab48a0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-442b0019d5b029544066bc21a9ea5c83.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-85095ff840c36d762545b7c5b4ab48a0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Няма резултати",
+    "search-matching-documents-text": "съвпадащи документи",
+    "search-copy-link-title": "Копирай връзката към търсенето",
+    "search-hide-matches-text": "Скрий допълнителните съвпадения",
+    "search-more-match-text": "още едно съвпадение в този документ",
+    "search-more-matches-text": "още съвпадения в този документ",
+    "search-clear-button-title": "Изчисти",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Отказ",
+    "search-submit-button-title": "Търси",
+    "search-label": "Търсене"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="Медицинска статистика, упражнение 1: относителни величини и стандартизация – Kostadin Kostadinov">
+<meta name="twitter:description" content="Работа за 75 минути след 15-минутната подготовка: разпознаване на видовете относителни величини, структура и леталитет, нагледност и съотношение, пряка стандартизация на леталитет в две болници и тълкуване на стандартизирани показатели. Със скрити примерни отговори.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Търсене"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Превключи навигацията" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../study-guide.html">
+ <span class="dropdown-text">Study guides</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Превключи на тъмен режим"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Медицинска статистика, упражнение 1: относителни величини и стандартизация</h1>
+                  <div>
+        <div class="description">
+          Работа за 75 минути след 15-минутната подготовка: разпознаване на видовете относителни величини, структура и леталитет, нагледност и съотношение, пряка стандартизация на леталитет в две болници и тълкуване на стандартизирани показатели. Със скрити примерни отговори.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Bulgarian</div>
+                <div class="quarto-category">Medical Statistics</div>
+                <div class="quarto-category">Assignment</div>
+                <div class="quarto-category">Medicine | 2nd year</div>
+                <div class="quarto-category">2026/2027</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Автор</div>
+      <div class="quarto-title-meta-contents">
+               <p>Костадин Костадинов </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Публикувано</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">1 ноември 2026 г.</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">На тази страница</h2>
+   
+  <ul>
+  <li><a href="#организация-на-работата" id="toc-организация-на-работата" class="nav-link active" data-scroll-target="#организация-на-работата">Организация на работата</a></li>
+  <li><a href="#задача-1.-какъв-е-показателят-10-минути" id="toc-задача-1.-какъв-е-показателят-10-минути" class="nav-link" data-scroll-target="#задача-1.-какъв-е-показателят-10-минути">Задача 1. Какъв е показателят? — 10 минути</a></li>
+  <li><a href="#задача-2.-структура-и-леталитет-10-минути" id="toc-задача-2.-структура-и-леталитет-10-минути" class="nav-link" data-scroll-target="#задача-2.-структура-и-леталитет-10-минути">Задача 2. Структура и леталитет — 10 минути</a></li>
+  <li><a href="#задача-3.-нагледност-и-съотношение-10-минути" id="toc-задача-3.-нагледност-и-съотношение-10-минути" class="nav-link" data-scroll-target="#задача-3.-нагледност-и-съотношение-10-минути">Задача 3. Нагледност и съотношение — 10 минути</a></li>
+  <li><a href="#задача-4.-пряка-стандартизация-25-минути" id="toc-задача-4.-пряка-стандартизация-25-минути" class="nav-link" data-scroll-target="#задача-4.-пряка-стандартизация-25-минути">Задача 4. Пряка стандартизация — 25 минути</a></li>
+  <li><a href="#задача-5.-тълкуване-10-минути" id="toc-задача-5.-тълкуване-10-минути" class="nav-link" data-scroll-target="#задача-5.-тълкуване-10-минути">Задача 5. Тълкуване — 10 минути</a></li>
+  <li><a href="#индивидуална-заключителна-задача-10-минути" id="toc-индивидуална-заключителна-задача-10-минути" class="nav-link" data-scroll-target="#индивидуална-заключителна-задача-10-минути">Индивидуална заключителна задача — 10 минути</a>
+  <ul class="collapse">
+  <li><a href="#критерии-за-обратна-връзка" id="toc-критерии-за-обратна-връзка" class="nav-link" data-scroll-target="#критерии-за-обратна-връзка">Критерии за обратна връзка</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<p><a href="../15-minute-learning/medical-statistics-standardization-bg.html">Материал за 15-минутна подготовка</a> · <a href="../2026-2027-classes/stat-01-bg.pdf">Слайдове (PDF)</a> · <a href="../2026-2027-classes/stat-01-bg-homework.pdf">Домашна работа (PDF)</a></p>
+<section id="организация-на-работата" class="level2">
+<h2 class="anchored" data-anchor-id="организация-на-работата">Организация на работата</h2>
+<p>Първо прочетете подготвителния материал, след което работете по двойки с калкулатор. Четенето отнема <strong>15 минути</strong>, а задачите — <strong>75 минути</strong>, общо едно 90-минутно занятие. Междинните стойности не закръглявайте; крайните резултати закръглете до третия знак след десетичната запетая. Отваряйте примерния отговор едва след като запишете собственото си решение. Всички данни са учебни.</p>
+</section>
+<section id="задача-1.-какъв-е-показателят-10-минути" class="level2">
+<h2 class="anchored" data-anchor-id="задача-1.-какъв-е-показателят-10-минути">Задача 1. Какъв е показателят? — 10 минути</h2>
+<p>За всеки показател посочете вида му (екстензивен, интензивен, съотношение, нагледност) и какво стои в знаменателя.</p>
+<ol type="1">
+<li>35 % от хоспитализираните са приети по спешност.</li>
+<li>12 от 48 болни с рак на устната кухина са починали от него в рамките на една година (25 %).</li>
+<li>4,2 медицински сестри на 1 000 души население.</li>
+<li>28 нови случая на рак на гърдата на 100 000 жени за година.</li>
+<li>Броят на ражданията през 2026 г. е 96 % от този през 2020 г.</li>
+<li>Болестите на органите на кръвообращението са 60 % от всички смъртни случаи.</li>
+<li>6 починали деца до 1 година на 1 000 живородени.</li>
+<li>4 болнични легла на 1 000 души население.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="Примерен отговор">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>1 — екстензивен (знаменател: всички хоспитализирани). 2 — интензивен, леталитет (болните). 3 — съотношение (населението — друга по съдържание съвкупност). 4 — интензивен, заболеваемост (жените под риск). 5 — нагледност (базисната стойност от 2020 г.). 6 — екстензивен: структура на починалите по причини, а не риск от смърт. 7 — интензивен, детска смъртност (живородените). 8 — съотношение (осигуреност с легла).</p>
+<p>Показатели 1 и 6 често се четат погрешно като честоти. Те описват само състава на цялото.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="задача-2.-структура-и-леталитет-10-минути" class="level2">
+<h2 class="anchored" data-anchor-id="задача-2.-структура-и-леталитет-10-минути">Задача 2. Структура и леталитет — 10 минути</h2>
+<p>През една година в болница са лекувани 240 пациенти: 96 в кардиологично, 84 в хирургично и 60 в неврологично отделение. Починали са 18 от всички лекувани пациенти.</p>
+<ol type="1">
+<li>Изчислете структурата на пациентите по отделения.</li>
+<li>Изчислете болничния леталитет.</li>
+<li>Кой от двата резултата е екстензивен и кой — интензивен показател? Обяснете чрез знаменателя.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="Примерен отговор">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Структура: 96 / 240 = <strong>40,0 %</strong>, 84 / 240 = <strong>35,0 %</strong>, 60 / 240 = <strong>25,0 %</strong>; сборът е 100 %. Леталитет: 18 / 240 × 100 = <strong>7,5 %</strong>.</p>
+<p>Структурата е екстензивен показател: знаменателят е цялото (всички лекувани), разделено на части. Леталитетът е интензивен: знаменателят е средата, в която може да настъпи смъртният изход (лекуваните болни), а числителят — броят на изходите.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="задача-3.-нагледност-и-съотношение-10-минути" class="level2">
+<h2 class="anchored" data-anchor-id="задача-3.-нагледност-и-съотношение-10-минути">Задача 3. Нагледност и съотношение — 10 минути</h2>
+<p>Живородените в един град за пет години са: 2021 — 2 400; 2022 — 2 280; 2023 — 2 160; 2024 — 2 040; 2025 — 1 920. В града живеят 420 000 души и работят 1 260 лекари.</p>
+<ol type="1">
+<li>Изчислете базисните показатели за нагледност (2021 = 100 %) и верижните показатели.</li>
+<li>Изчислете осигуреността с лекари на 10 000 души население. Какъв вид показател е това?</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="Примерен отговор">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Базисни: <strong>100,0; 95,0; 90,0; 85,0; 80,0 %</strong> — за пет години ражданията са намалели с 20 % спрямо 2021 г. Верижни (спрямо предходната година): <strong>95,0; 94,7; 94,4; 94,1 %</strong>. Абсолютният спад е един и същ (120 раждания годишно), но относителният спад всяка година е малко по-голям, защото базата намалява.</p>
+<p>Осигуреност: 1 260 / 420 000 × 10 000 = <strong>30 лекари на 10 000 души</strong>. Това е показател за съотношение: лекарите не „възникват“ сред населението, а се съпоставят с него.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="задача-4.-пряка-стандартизация-25-минути" class="level2">
+<h2 class="anchored" data-anchor-id="задача-4.-пряка-стандартизация-25-минути">Задача 4. Пряка стандартизация — 25 минути</h2>
+<p>Да се изчислят стандартизираните показатели за леталитет в две областни болници. За стандарт да се приеме <strong>структурата по отделения в болница Б</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 20%">
+<col style="width: 21%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Отделение</th>
+<th style="text-align: right;">Преминали (А)</th>
+<th style="text-align: right;">Починали (А)</th>
+<th style="text-align: right;">Преминали (Б)</th>
+<th style="text-align: right;">Починали (Б)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Инфекциозно</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1 500</td>
+<td style="text-align: right;">35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Хирургия</td>
+<td style="text-align: right;">1 500</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">2 000</td>
+<td style="text-align: right;">70</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Онкология</td>
+<td style="text-align: right;">1 000</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">1 500</td>
+<td style="text-align: right;">120</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Всичко</strong></td>
+<td style="text-align: right;"><strong>3 000</strong></td>
+<td style="text-align: right;"><strong>145</strong></td>
+<td style="text-align: right;"><strong>5 000</strong></td>
+<td style="text-align: right;"><strong>225</strong></td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Изчислете специфичния и общия нестандартизиран леталитет за всяка болница.</li>
+<li>Изчислете стандарта.</li>
+<li>Изчислете претеглените приноси <span class="math inline">\(P_i \times S_i\)</span>, общите стандартизирани показатели и формулирайте извода.</li>
+<li>Проверете кой показател трябва да остане непроменен след стандартизацията.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="Примерен отговор">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Специфичен леталитет — А: 0,020; 0,033; 0,085; общо 145 / 3 000 = <strong>0,048</strong>. Б: 0,023; 0,035; 0,080; общо 225 / 5 000 = <strong>0,045</strong>.</p>
+<p>Стандарт (Б): 1 500 / 5 000 = 0,3; 2 000 / 5 000 = 0,4; 0,3. Сбор 1,0.</p>
+<p>Стандартизирани — А: 0,020 × 0,3 + 0,0333 × 0,4 + 0,085 × 0,3 = 0,0060 + 0,0133 + 0,0255 = 0,0448 ≈ <strong>0,045</strong>. Б: 0,0070 + 0,0140 + 0,0240 = <strong>0,045</strong>.</p>
+<p>Извод: нестандартизираният леталитет в А изглежда по-висок (4,8 % срещу 4,5 %), но след уеднаквяване на структурата по отделения двете болници практически не се различават (около 4,5 %). Разликата в общите показатели идва от това, че А лекува относително повече онкологично болни (33 % срещу 30 %) и по-малко инфекциозно болни. Болница Б запазва общия си показател (0,045), защото нейната структура е стандартът.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="задача-5.-тълкуване-10-минути" class="level2">
+<h2 class="anchored" data-anchor-id="задача-5.-тълкуване-10-минути">Задача 5. Тълкуване — 10 минути</h2>
+<ol type="1">
+<li>Общата смъртност в Япония е по-висока от общата смъртност в Бангладеш. Означава ли това, че здравеопазването в Япония е по-лошо? Обяснете с термините от упражнението.</li>
+<li>Нестандартизираният леталитет в болници А и Б е съответно 10 ‰ и 12 ‰. След стандартизация по структурата на болница А леталитетът е 10 ‰ в А и 8 ‰ в Б. Какъв е изводът? Могат ли да се изчислят стандартизираните стойности по структурата на Б само от тази информация?</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="Примерен отговор">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Не. Общата смъртност е интензивен показател, който зависи от възрастовата структура. Населението на Япония е едно от най-застарелите в света, а в Бангладеш преобладават младите. Сравнение на риска изисква специфични по възраст или стандартизирани показатели, изчислени по един и същ стандарт.</p></li>
+<li><p>При еднаква (на А) структура леталитетът в Б е по-нисък; по-високият общ леталитет на Б се дължи на по-тежкия ѝ състав. Новите стойности <strong>не могат</strong> да се изчислят: за пряка стандартизация са нужни специфичните показатели по подгрупи и структурата на Б, а те не са дадени. Знаем само, че Б ще запази своите 12 ‰.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="индивидуална-заключителна-задача-10-минути" class="level2">
+<h2 class="anchored" data-anchor-id="индивидуална-заключителна-задача-10-минути">Индивидуална заключителна задача — 10 минути</h2>
+<p>Две области имат обща смъртност съответно 19,8 ‰ и 12,1 ‰. След стандартизация по една и съща стандартна популация стойностите са 13,0 ‰ и 13,4 ‰. Напишете четири–пет изречения: коя област има по-висок риск от смърт при еднаква възрастова структура, защо общите показатели се различават толкова, може ли да се каже, че „реалната“ смъртност в първата област е 13,0 ‰, и какво още бихте искали да знаете, преди да направите извод за причините.</p>
+<section id="критерии-за-обратна-връзка" class="level3">
+<h3 class="anchored" data-anchor-id="критерии-за-обратна-връзка">Критерии за обратна връзка</h3>
+<p>Пълният отговор назовава вида на всеки показател чрез знаменателя, следва четирите стъпки без пропуск, проверява сбора на стандарта и запазването на показателя на стандартната група, изразява разликите в процентни пунктове или промили и не тълкува стандартизирания показател като наблюдавана честота. Стандартизацията отстранява влиянието само на признака, по който е извършена; тя не доказва причинна връзка.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Копирано!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Копирано!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

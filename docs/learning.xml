@@ -617,6 +617,124 @@
   <pubDate>Sat, 31 Oct 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Относителни величини и пряка стандартизация</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-statistics-standardization-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/stat-01-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-statistics-standardization-bg.html">Задачи за студенти</a> · <a href="../2026-2027-classes/stat-01-bg-homework.pdf">Домашна работа (PDF)</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене. Материалът следва презентацията „Основни понятия в медицинската статистика. Пряка стандартизация“. След прочита трябва да можете да различавате четирите вида относителни величини по техния знаменател и да извършвате пряка стандартизация в четири стъпки.</p>
+<section id="защо-статистика" class="level2">
+<h2 class="anchored" data-anchor-id="защо-статистика">Защо статистика</h2>
+<p>Статистиката превръща данните в информация. Изречението „в отделението починаха 40 души“ само по себе си не казва нищо: не знаем от колко лекувани, нито какви пациенти са били те. Клиничните ръководства, праговете за лечение и здравните политики стъпват на статистически изводи. Лекарят ги прилага ежедневно и трябва да може да прочете критично числата в една научна статия: как са получени и какво <em>не</em> следва от тях.</p>
+</section>
+<section id="съвкупност-единица-признак" class="level2">
+<h2 class="anchored" data-anchor-id="съвкупност-единица-признак">Съвкупност, единица, признак</h2>
+<p><strong>Статистическата съвкупност</strong> е множество от единици на наблюдение, които са качествено еднородни (имат общ признак) и са ограничени във времето и мястото. „Всички болни от инсулт“ не е съвкупност; „всички хоспитализирани с остър мозъчен инсулт в една болница през 2025 г.“ е. <strong>Единицата на наблюдение</strong> е отделният елемент — пациент, хоспитализация, раждане, смъртен случай. <strong>Признаците</strong> са характеристиките, които регистрираме за всяка единица: възраст, пол, диагноза, изход.</p>
+<p><strong>Генералната съвкупност</strong> включва всички единици, за които искаме да направим извод; <strong>извадката</strong> е частта, която реално наблюдаваме. Обемът им се отбелязва с <em>N</em> и <em>n</em>. Извадката е <strong>представителна</strong>, когато повтаря структурата на генералната съвкупност по важните признаци. Признаците са качествени (номинални и порядкови) или количествени (дискретни и непрекъснати); количествените могат да се групират в категории — например възрастта във възрастови групи.</p>
+</section>
+<section id="абсолютни-и-относителни-величини" class="level2">
+<h2 class="anchored" data-anchor-id="абсолютни-и-относителни-величини">Абсолютни и относителни величини</h2>
+<p><strong>Абсолютните величини</strong> са числата, получени чрез преброяване или измерване: 2 850 починали, систолно налягане 135 mmHg. Те винаги имат мерна единица и с тях започва всяко изследване, но не стигат за сравнение. Болница с 400 починали не работи непременно по-зле от болница с 40.</p>
+<p><strong>Относителните величини</strong> се получават при деление на две абсолютни и се изразяват като коефициент, процент, промил или на 10 000 и 100 000. Видът им се определя от <strong>знаменателя</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 37%">
+<col style="width: 30%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Вид</th>
+<th style="text-align: left;">Какво показва</th>
+<th style="text-align: left;">Знаменател</th>
+<th style="text-align: left;">Пример</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">екстензивен (структурен)</td>
+<td style="text-align: left;">как цялото се разпределя на части</td>
+<td style="text-align: left;">цялото явление</td>
+<td style="text-align: left;">52 % от болните са жени</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">интензивен (честотен)</td>
+<td style="text-align: left;">колко често възниква явлението</td>
+<td style="text-align: left;">средата под риск</td>
+<td style="text-align: left;">12 починали на 1 000 души</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">съотношение</td>
+<td style="text-align: left;">осигуреност, натовареност</td>
+<td style="text-align: left;">друга по съдържание съвкупност (напр. населението)</td>
+<td style="text-align: left;">50 лекари на 10 000 души</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">нагледност</td>
+<td style="text-align: left;">равнище спрямо база (динамика)</td>
+<td style="text-align: left;">базисна стойност = 100 %</td>
+<td style="text-align: left;">120 % спрямо 2022 г.</td>
+</tr>
+</tbody>
+</table>
+<p>Сборът на екстензивните показатели за едно явление е винаги 100 %. Именно затова структурата <strong>не измерва риск</strong>. Ако 70 % от хоспитализираните с една инфекция са ваксинирани, а ваксинирани са 90 % от населението, честотата на хоспитализация сред неваксинираните е по-висока — в учебния пример от презентацията около 3,9 пъти. За сравнение на риска са нужни честотите в съответните групи; дяловете сред хоспитализираните не са достатъчни.</p>
+<p>Сред интензивните показатели най-често се бъркат <strong>смъртност</strong> и <strong>леталитет</strong>. При смъртността знаменателят е населението; при леталитета — болните от съответната болест.</p>
+</section>
+<section id="защо-общите-показатели-могат-да-подвеждат" class="level2">
+<h2 class="anchored" data-anchor-id="защо-общите-показатели-могат-да-подвеждат">Защо общите показатели могат да подвеждат</h2>
+<p>Стойността на един интензивен показател зависи от <strong>състава</strong> на средата, в която е измерен. Общата смъртност е по-висока там, където живеят повече възрастни; болничният леталитет е по-висок в болница с повече тежко болни. Когато сравняваме групи с различна структура, признакът на структурата (най-често възрастта) се смесва със сравнението. Признак, който е свързан с изследвания фактор, независимо от него е свързан и с резултата и не е последица от фактора, наричаме <strong>смесващ фактор</strong>.</p>
+<p>В учебната задача от упражнението сред ваксинираните болни леталитетът е 71,25 %, а сред неваксинираните 68,75 %. Изглежда, че ваксината вреди. Но ваксинираните са по-възрастни (половината са на 45 и повече години), а във <em>всяка</em> възрастова група техният леталитет е с 10 процентни пункта по-нисък.</p>
+</section>
+<section id="пряк-метод-на-стандартизация" class="level2">
+<h2 class="anchored" data-anchor-id="пряк-метод-на-стандартизация">Пряк метод на стандартизация</h2>
+<p><strong>Стандартизацията</strong> преобразува общите коефициенти така, че да се отстрани влиянието на различния състав на сравняваните групи. Стандартизираният показател отговаря на въпроса: <em>какъв би бил общият показател, ако групите имаха еднаква структура?</em> Прекият метод има четири стъпки:</p>
+<ol type="1">
+<li><strong>Специфични показатели</strong> <img src="https://latex.codecogs.com/png.latex?P_i"> за всяка подгрупа (напр. 250 / 500 = 0,500) и отделно общият нестандартизиран показател за всяка група.</li>
+<li><strong>Стандарт</strong> <img src="https://latex.codecogs.com/png.latex?S_i%20=%20N_i%20/%20N"> — структурата на едната група или на външна популация; <img src="https://latex.codecogs.com/png.latex?%5Csum%20S_i%20=%201">.</li>
+<li><strong>Претеглени приноси</strong> <img src="https://latex.codecogs.com/png.latex?P_i%20%5Ctimes%20S_i"> за всяка подгрупа.</li>
+<li><strong>Сумиране и извод</strong>: <img src="https://latex.codecogs.com/png.latex?P_%7B%D1%81%D1%82%7D%20=%20%5Csum%20P_i%20%5Ctimes%20S_i">; сравняваме общите стандартизирани показатели.</li>
+</ol>
+<p>В примера със стандарт структурата на неваксинираните стандартизираният леталитет е <strong>58,75 %</strong> при ваксинираните и <strong>68,75 %</strong> при неваксинираните — изводът се обръща. Със стандарт структурата на ваксинираните стойностите са 71,25 % и 81,25 %: числата са други, посоката е същата. Тук изводът не зависи от стандарта, защото разликата е еднаква във всяка възрастова група. Ако разликите по подгрупи имаха различна посока, изборът на стандарт би могъл да промени и извода — затова стандартът винаги се посочва.</p>
+<p>Полезна проверка: групата, чиято структура е стандарт, запазва общия си показател.</p>
+</section>
+<section id="чести-грешки" class="level2">
+<h2 class="anchored" data-anchor-id="чести-грешки">Чести грешки</h2>
+<ul>
+<li>Сравняване на общи (нестандартизирани) показатели при групи с различна структура.</li>
+<li>Събиране на специфичните показатели вместо преизчисляване на общия от общите числа.</li>
+<li>Събиране вместо умножение със стандарта.</li>
+<li>Стандарт, чийто сбор не е 1 (100 %).</li>
+<li>Тълкуване на стандартизирания показател като реална честота — той служи само за сравнение.</li>
+<li>Разлика между два процента, изразена в проценти вместо в <strong>процентни пунктове</strong>.</li>
+</ul>
+</section>
+<section id="проверете-се" class="level2">
+<h2 class="anchored" data-anchor-id="проверете-се">Проверете се</h2>
+<ol type="1">
+<li>Кой е знаменателят на леталитета и кой — на смъртността?</li>
+<li>Защо стандартът винаги е екстензивен показател?</li>
+<li>Какво означава стандартизиран леталитет 58,75 %, ако наблюдаваният е 71,25 %?</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Statistics</category>
+  <category>Medicine | 2nd year</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-statistics-standardization-bg.html</guid>
+  <pubDate>Sat, 31 Oct 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Етични и правни аспекти на човешката репродукция: контрацепция, аборт, стерилизация и асистирана репродукция</title>
   <dc:creator>Костадин Костадинов</dc:creator>
   <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-reproduction-bg.html</link>
@@ -1344,87 +1462,6 @@
   <category>Dental Medicine</category>
   <category>2026/2027</category>
   <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</guid>
-  <pubDate>Fri, 25 Sep 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Medical confidentiality: when to keep, share or report</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-03-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-confidentiality-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-confidentiality-bg.html">Български</a></p>
-<p>Allow about <strong>15 minutes</strong> to read and reflect. This material follows the presentation “Medical confidentiality: ethical foundations and legal liability”. Afterwards you should be able to name the grounds for disclosing health information without consent, apply the minimum-necessary rule, and distinguish the kinds of legal liability that a breach can create. The legal rules are Bulgarian; the English wording of statutes is a teaching translation.</p>
-<section id="three-related-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="three-related-concepts">Three related concepts</h2>
-<p><strong>Medical secrecy</strong> covers information about the patient learned during or in connection with healthcare. <strong>Confidentiality</strong> is the duty not to disclose or use that information beyond its permitted purpose. <strong>Data protection</strong> governs the whole life cycle of the information: collection, access, sharing, storage and deletion. The concepts are related but not interchangeable. Discussing a patient in front of outsiders breaches confidentiality even when no electronic record exists. Opening an electronic record without authorisation is a breach even if nothing is retold.</p>
-<p>The moral basis of confidentiality lies in autonomy and non-maleficence. Patients reasonably expect to decide who learns about their health. Disclosure can cause shame, family conflict, job loss, discrimination and stigma. With mental, genetic, infectious and reproductive conditions, the harm often comes from how others react rather than from the diagnosis itself. Confidentiality also protects trust. People who expect their diagnosis to become known hide facts or delay testing, so a breach harms the patient, the clinical decision and public health at once. Confidentiality is the patient’s right and the professional’s duty, not the doctor’s privilege.</p>
-</section>
-<section id="what-it-covers-and-whom-it-binds" class="level2">
-<h2 class="anchored" data-anchor-id="what-it-covers-and-whom-it-binds">What it covers and whom it binds</h2>
-<p>The Bulgarian Health Act uses the term <strong>health information</strong> (Art. 27). It means personal data on health status and on physical and mental development, and any information in prescriptions, orders, reports, certificates and other medical records. The fact of a visit, images, samples and data from medical devices are protected too. Protection does not depend on whether the patient called something a secret, or on the professional’s view that it is harmless.</p>
-<p>Article 28c prohibits healthcare professionals and staff of healthcare establishments from disclosing information about a patient obtained in the course of their duties. The duty binds the whole team: doctors, nurses, midwives, laboratory staff, administrators, students and trainees. Members of the treating team share what they need. That is not free access for everyone in the hospital: a doctor from another ward who is not involved in the patient’s care is an outsider to the case.</p>
-<p>The Code of Professional Ethics for Physicians in Bulgaria, Section IV, is stricter than the statutory minimum. Medical secrecy covers what the patient shared, what examination and tests revealed, and everything the doctor learned about the patient in practice (Art. 51(1)). It applies to the patient’s family and continues after death (Art. 51(2)–(3)). It extends to records, illustrative material and consultations (Art. 52). Doctors treating the same patient are released from secrecy among themselves unless the patient has a reasoned objection (Art. 53). Research and teaching may use the information only with guaranteed anonymity (Art. 54). Where the law requires reporting to an institution, the doctor is released from the duty of secrecy (Art. 55).</p>
-</section>
-<section id="when-information-may-be-disclosed" class="level2">
-<h2 class="anchored" data-anchor-id="when-information-may-be-disclosed">When information may be disclosed</h2>
-<p>The first basis is the patient’s own wish. A patient may authorise another person in writing to see their records and make copies (Art. 28b(2)). The authorisation should make clear who receives what information and for what purpose. A general “you can talk to my family” often needs clarifying.</p>
-<p>Without consent, health information may be disclosed to third parties only in the situations listed in Article 28(1) of the Health Act:</p>
-<ol type="1">
-<li>treatment continues in another healthcare establishment;</li>
-<li>there is a threat to the health or life of other persons;</li>
-<li>it is needed to identify a body or establish the cause of death;</li>
-<li>it is needed for state health control to prevent epidemics and the spread of communicable diseases;</li>
-<li>it is needed for medical expertise and social insurance;</li>
-<li>it is needed for medical statistics or research after the identifying data have been removed;</li>
-<li>it is needed by the Ministry of Health, the National Centre for Health Information, the National Health Insurance Fund, the regional health inspectorates or the National Statistical Institute;</li>
-<li>it is needed by specified insurers under the Insurance Code.</li>
-</ol>
-<p>Where others are threatened, the patient must be notified before the information is disclosed (Art. 28(2)). Other laws create reporting duties. Under Article 7(2) of the Child Protection Act, anyone who learns through their profession that a child needs protection must report it immediately to social services, the State Agency for Child Protection or the police, even when bound by professional secrecy.</p>
-</section>
-<section id="the-minimum-necessary-rule" class="level2">
-<h2 class="anchored" data-anchor-id="the-minimum-necessary-rule">The minimum-necessary rule</h2>
-<p>A legal basis does not suspend the principle of minimum necessity. Before disclosing, the professional must answer four questions: who is the recipient, on what basis they receive the data, exactly which details are needed, and through which secure channel they will be sent. If any answer is unclear, disclosure stops until it has been checked. A regional health inspectorate investigating an outbreak does not receive unrelated psychiatric history. A team taking over care receives what it needs for safe continuity, not unlimited access.</p>
-<p>A threat to a third party is among the hardest dilemmas. The assessment asks whether the harm is serious, likely and preventable, whether the person at risk can be identified, and whether a less intrusive way of reducing the risk exists. Talking with the patient, encouraging them to inform those affected, and consulting colleagues or a medical ethics committee usually come before disclosure. A genetic result raises a similar conflict because it also reveals a risk to relatives. The usual approach is to counsel the patient and support them in telling their relatives themselves.</p>
-</section>
-<section id="relatives-the-deceased-and-children" class="level2">
-<h2 class="anchored" data-anchor-id="relatives-the-deceased-and-children">Relatives, the deceased and children</h2>
-<p>A spouse, the parent of an adult patient, an adult child and a close friend are third parties unless the patient has authorised them. Kinship and good intentions do not create an automatic right to a diagnosis, prognosis or past treatment. A husband in the room is not permission to share every detail. Particular care is needed with a previous pregnancy or abortion, an infection, psychiatric treatment, a genetic result or abuse.</p>
-<p>The ethical duty continues after death, but the records do not become completely inaccessible. Heirs and relatives in direct and collateral line up to the fourth degree may see the health information of the deceased and obtain copies (Art. 28b(3)). The information does not become public. It is released to the entitled person after their identity and basis have been checked.</p>
-<p>With a child, the parent has access because of their responsibility for health decisions. An adolescent should know in advance how far the conversation will stay confidential. Absolute secrecy must not be promised where serious risk of abuse, self-harm or grave harm might emerge.</p>
-</section>
-<section id="degrees-of-breach-and-digital-risks" class="level2">
-<h2 class="anchored" data-anchor-id="degrees-of-breach-and-digital-risks">Degrees of breach and digital risks</h2>
-<p>The law sets no scale of breaches. For teaching purposes, four degrees are distinguished. The zero degree is lawful sharing for care. The first is careless disclosure with low identifiability. The second is disclosure to an unauthorised person, or access without a work-related need. The third is deliberate, public or large-scale spread of identifiable data. Identification does not require a name: a rare diagnosis, age, occupation, place and a photograph can together make a person recognisable. Lack of intent does not remove the breach. Intent affects the type and extent of liability.</p>
-<p>Electronic records improve continuity but widen the circle of people who can reach the data. Access follows role and need, logins are never shared, and every opening of a record must be traceable. Work access does not allow looking up a relative, colleague or public figure. Personal messaging apps, photos of wounds or screens, and entering clinical data into external artificial-intelligence tools create unmanageable risk. After a breach, contain the incident, report it at once through internal channels, assess the data and the people affected, and notify the supervisory authority and the patient where required. Concealment increases the harm.</p>
-</section>
-<section id="legal-liability" class="level2">
-<h2 class="anchored" data-anchor-id="legal-liability">Legal liability</h2>
-<p>One act can give rise to several independent kinds of liability.</p>
-<ul>
-<li><strong>Professional.</strong> A doctor answers for breaching the Code of Professional Ethics before the ethics committee of the regional college of the Bulgarian Medical Association (Professional Organisations of Physicians and Dentists Act, Arts. 37(1)(1) and 39). Penalties under Article 38 are a reprimand, a fine of one to five minimum monthly wages, and removal from the college register for three months to one year. Under Article 42(1), these penalties do not exclude criminal, civil or disciplinary liability.</li>
-<li><strong>Employment-disciplinary.</strong> Culpable failure to perform work duties, including duties set by law and by internal rules, breaches labour discipline (Labour Code, Arts. 186 and 187(1)(10)). The penalties are a reprimand, a warning of dismissal and dismissal (Art. 188).</li>
-<li><strong>Administrative.</strong> The Health Act provides a fine for breaching its provisions, including the prohibition in Article 28c (Art. 229), and a sanction for a healthcare establishment that violates patients’ rights (Art. 221). The person affected may complain to the Commission for Personal Data Protection within six months of learning of the breach (Personal Data Protection Act, Art. 38). The data controller faces sanctions under Article 83 of Regulation (EU) 2016/679.</li>
-<li><strong>Civil.</strong> Everyone must repair harm they culpably cause to another, and fault is presumed (Obligations and Contracts Act, Art. 45). The healthcare establishment is liable for harm caused by staff in or in connection with their work (Art. 49). Non-pecuniary harm, such as shame and stigma, is assessed by the court on an equitable basis (Art. 52). Damages may also be claimed under Article 39(2) of the Personal Data Protection Act.</li>
-<li><strong>Criminal.</strong> Anyone who unlawfully discloses another person’s secret that could damage someone’s good name, entrusted to them or learned in connection with their occupation, faces imprisonment of up to one year or a fine (Penal Code, Art. 145(1)). Prosecution begins on the victim’s complaint (Art. 161(1)). Not every disclosure is a crime, but it may still be a serious ethical and disciplinary breach.</li>
-</ul>
-<p>Confidentiality cannot be used to hide a professional error, abuse or any other wrongdoing. It protects the patient, not the reputation of the department.</p>
-<p>Before you open the <a href="../learning-tasks/medical-ethics-confidentiality-en.html">student tasks</a>, try to answer in three sentences: when you keep information, when you share it, and when you must report it. If you can name the legal basis and the recipient for each, you are ready for the cases.</p>
-
-
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-en.html</guid>
   <pubDate>Fri, 25 Sep 2026 21:00:00 GMT</pubDate>
 </item>
 </channel>
