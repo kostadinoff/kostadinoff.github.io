@@ -2,6 +2,12 @@
   {
     "listing": "/learning.html",
     "items": [
+      "/15-minute-learning/dental-public-health-dental-epidemiology-bg.html",
+      "/15-minute-learning/dental-public-health-dental-epidemiology-en.html",
+      "/15-minute-learning/dental-public-health-epidemiology-basics-bg.html",
+      "/15-minute-learning/dental-public-health-epidemiology-basics-en.html",
+      "/15-minute-learning/dental-social-medicine-literature-review-en.html",
+      "/15-minute-learning/dental-social-medicine-research-methodology-en.html",
       "/15-minute-learning/medical-ethics-reproduction-bg.html",
       "/15-minute-learning/medical-ethics-reproduction-en.html",
       "/15-minute-learning/medical-ethics-end-of-life-bg.html",
@@ -35,6 +41,18 @@
   {
     "listing": "/index.html",
     "items": [
+      "/15-minute-learning/dental-social-medicine-research-methodology-en.html",
+      "/15-minute-learning/dental-social-medicine-literature-review-en.html",
+      "/15-minute-learning/dental-public-health-epidemiology-basics-en.html",
+      "/15-minute-learning/dental-public-health-dental-epidemiology-en.html",
+      "/15-minute-learning/dental-public-health-epidemiology-basics-bg.html",
+      "/15-minute-learning/dental-public-health-dental-epidemiology-bg.html",
+      "/learning-tasks/dental-social-medicine-research-methodology-en.html",
+      "/learning-tasks/dental-social-medicine-literature-review-en.html",
+      "/learning-tasks/dental-public-health-epidemiology-basics-en.html",
+      "/learning-tasks/dental-public-health-dental-epidemiology-en.html",
+      "/learning-tasks/dental-public-health-epidemiology-basics-bg.html",
+      "/learning-tasks/dental-public-health-dental-epidemiology-bg.html",
       "/15-minute-learning/medical-ethics-reproduction-bg.html",
       "/15-minute-learning/medical-ethics-reproduction-en.html",
       "/learning-tasks/medical-ethics-reproduction-bg.html",
@@ -201,6 +219,12 @@
   {
     "listing": "/tasks.html",
     "items": [
+      "/learning-tasks/dental-public-health-dental-epidemiology-bg.html",
+      "/learning-tasks/dental-public-health-dental-epidemiology-en.html",
+      "/learning-tasks/dental-public-health-epidemiology-basics-bg.html",
+      "/learning-tasks/dental-public-health-epidemiology-basics-en.html",
+      "/learning-tasks/dental-social-medicine-literature-review-en.html",
+      "/learning-tasks/dental-social-medicine-research-methodology-en.html",
       "/learning-tasks/medical-ethics-reproduction-bg.html",
       "/learning-tasks/medical-ethics-reproduction-en.html",
       "/learning-tasks/medical-ethics-end-of-life-bg.html",

@@ -1,0 +1,61 @@
+---
+title: "Epidemiology of dental diseases: indices, surveys, burden and risk factors"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "A 15-minute reading for Class 9 of Dental Public Health: what makes a good index and why examiners are calibrated; DMFT, SiC and the Care Index, ICDAS, periodontal, hygiene and gingival indices and Dean's fluorosis index; the WHO Oral Health Surveys methodology; the global burden of oral diseases and Bulgaria's position; sugars, fluoride, tobacco, HPV and the social gradient."
+categories: [English, Dental Public Health, Epidemiology, "Dental Medicine", "2026/2027"]
+title-meta: "Epidemiology of dental diseases"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-09-en.pdf) · [Student tasks](../learning-tasks/dental-public-health-dental-epidemiology-en.qmd) · [Български](dental-public-health-dental-epidemiology-bg.qmd)
+
+Set aside about **15 minutes** to read and reflect. The text follows the presentation "Epidemiology of dental diseases" and applies the measures of frequency from Class 8 to oral disease. Afterwards you should be able to calculate and interpret DMFT, SiC, the Care Index and Dean's Community Fluorosis Index, explain why WHO uses index ages and a pathfinder sample, describe the burden of oral diseases worldwide and in Bulgaria, and link the main risk factors to specific diseases.
+
+## From measures of frequency to indices
+
+The measures of Class 8 reappear in dental form. The share of people with untreated caries (D > 0) or of adults with a pocket of 6 mm or more is a **prevalence**; DMFT > 0 is the prevalence of **caries experience**. The share of caries-free children who develop caries within three years is a **cumulative incidence**; new carious surfaces per 100 person-years is an **incidence rate**; and a mean index value, such as mean DMFT, describes severity. Caries experience is cumulative: once affected, a tooth stays D, M or F, so mean DMFT describes the accumulated experience on the day of examination, and the DMFT increment shows newly accumulated experience. Every index needs three specifications: **age, diagnostic threshold and examination protocol.**
+
+An index is a standardised numerical scale for a condition in a population. A good index is valid, reliable, simple and quick enough for field use, quantitative, sensitive to change and acceptable to those examined. Before a survey, examiners are **calibrated**: they assess the same subjects and their agreement is expressed as Cohen's kappa, usually with a threshold of κ ≥ 0.60. An index does not replace the clinical diagnosis and treatment plan.
+
+## Caries indices
+
+**DMFT** counts the permanent teeth that are decayed (D), missing because of caries (M) or filled (F) — 0 to 32, since WHO counts third molars. DMFS counts surfaces (up to 148), and dmft counts primary teeth (0–20). A tooth is counted once — a filling with secondary caries is D — and sealants, crowns and bridges placed for non-carious reasons and implants are not counted. Under the WHO rule for M, only teeth extracted because of caries count under the age of 30; **from 30 years, all missing teeth count**, so in adults M is not a pure measure of caries. DMFT has limitations: it has no denominator of teeth at risk (so it is always reported by age), D, M and F have equal weight, M and F depend on the dentist's decisions, and DMFT = 0 does not mean caries-free if initial lesions are not recorded.
+
+Means can hide polarisation. In a class of 12 twelve-year-olds with DMFT 0, 0, 0, 0, 1, 1, 2, 2, 3, 4, 5 and 7, the mean DMFT is 2.08 — below the old goal of 3 — and two thirds have caries experience. But the **Significant Caries Index** (SiC), the mean DMFT of the third with the highest caries experience ([Bratthall, 2000](https://doi.org/10.1111/j.1875-595X.2000.tb00572.x)), is 4.75. The **Care Index** (100 × ΣF / ΣDMFT) is 56%, and 40% of the caries experience is untreated.
+
+**ICDAS** treats caries as a process rather than a hole, with codes from 0 (sound) through 1–2 (visual changes in enamel), 3 (localised enamel breakdown) and 4 (dark shadow from dentine) to 5–6 (distinct cavities with visible dentine) ([Ismail et al., 2007](https://doi.org/10.1111/j.1600-0528.2007.00347.x)). The **D1** threshold includes initial enamel lesions; **D3** includes only lesions into dentine. At D1, prevalence and DMFT are higher, so comparisons between countries and years are valid only with the same threshold and protocol.
+
+## Periodontal, hygiene and fluorosis indices
+
+The historical **CPITN** (Ainamo et al., 1982) coded the worst finding in each of six sextants — 0 healthy, 1 bleeding, 2 calculus, 3 a pocket of 4–5 mm, 4 a pocket of 6 mm or more — and linked each code to a treatment need. The **modified CPI** of WHO (2013) records bleeding on all teeth present, and from age 15 pockets (0, 4–5 mm, ≥ 6 mm) and loss of attachment by sextant. Severe periodontal disease in WHO and GBD estimates means a pocket of 6 mm or more, CPI code 4 or loss of attachment over 6 mm.
+
+The **Plaque Index** ([Silness & Löe, 1964](https://doi.org/10.3109/00016356408993968)) and the **Gingival Index** ([Löe & Silness, 1963](https://doi.org/10.3109/00016356309011240)) score six index teeth from 0 to 3; the **OHI-S** (Greene & Vermillion, 1964) adds a debris and a calculus score on six surfaces, giving a range of 0–6 (up to 1.2 good, 1.3–3.0 fair, above 3.0 poor hygiene).
+
+**Dean's fluorosis index** classifies each person, on the two most affected teeth, as normal, questionable, very mild, mild, moderate or severe. The **Community Fluorosis Index** weights these categories 0, 0.5, 1, 2, 3 and 4 and averages them. By Dean's historical bands, a CFI of 0.4–0.6 is borderline and above 0.6 a public health problem. These weights are not the WHO codes (0–5).
+
+## The WHO survey methodology
+
+The WHO manual *Oral Health Surveys: Basic Methods* (5th edition, 2013) standardises surveys through **index ages**: 5 years (primary teeth, school entry), **12 years** — the global indicator age, the last age easily reached through schools, when most permanent teeth except third molars have usually erupted — 15 years, 35–44 years (the standard adult group) and 65–74 years. The **pathfinder** survey is a stratified cluster sample covering subgroups with different disease levels (urban and rural, regions), with 25–50 people per age group at each site — for example, 12 sites × 25 people = 300 for one age. Site selection determines generalisability; this is not a national probability sample. A single form, codes, the WHO probe, training, calibration and repeat examinations make the data comparable.
+
+Goals have evolved: DMFT ≤ 3 in 12-year-olds by 2000 (FDI/WHO), reached in many countries in the 1990s; Bratthall's proposed SiC < 3 by 2015, which turned attention to the most affected third; and the WHO resolution on oral health (2021), the global strategy (2022) and the **Global Oral Health Action Plan 2023–2030**, which put oral health into non-communicable disease programmes and universal health coverage. The goal shifts from "mean DMFT below 3" to equal access to prevention and treatment for all groups.
+
+## The burden: the world and Bulgaria
+
+Oral diseases are the most widespread diseases of humankind. According to the WHO Global Oral Health Status Report (2022), based on GBD 2019, about **3.5 billion people** are affected — roughly a billion more than the cases of the five main non-communicable diseases combined. Untreated caries of permanent teeth affects about 2 billion people (28.7% of those aged 5+), untreated caries of primary teeth 514 million children (42.7% of those aged 1–9), severe periodontal disease about 1 billion (18.8%) and edentulism 350 million (6.8%); the last two figures are age-standardised. Cases have grown by more than a billion since 1990, mainly because of population growth and ageing.
+
+In **Bulgaria** (WHO country profile, 2022), untreated caries affects **48.1%** of children aged 1–9 (European Region 39.6%, world 42.7%) and **38.2%** of people aged 5+ (Region 33.6%, world 28.7%); these untreated-caries indicators are computed the same way in all three sources, so they can be compared. Severe periodontal disease affects 13.9% of people aged 15+ and edentulism 13.5% of those aged 20+. There were 455 new cases of lip and oral cavity cancer in 2020 (3.3 per 100,000, age-standardised); sugar availability was 74.4 g per person per day; **39.4%** of people aged 15+ used tobacco (age-standardised); and there were 14.0 dentists per 10,000 population.
+
+Bulgarian studies show who carries the burden. Among 12-year-olds in Plovdiv, mean DMFT was 1.57 in the city and 2.92 in the villages, and 38.4% vs 17.5% were caries-free ([Onov & Beltcheva, 2020](https://doi.org/10.3897/folmed.62.e47894)). Among 18-year-olds in two municipalities, mean DMFT was 7.48, of which untreated decay (D) was about 52% ([Kondeva et al., 2026](https://doi.org/10.3390/children13081087)).
+
+## Risk factors and the social gradient
+
+For caries, **free sugars are the main risk factor**: in the systematic review for WHO, 42 of 50 studies in children found an association, with moderate-quality evidence that caries is lower when intake is below 10% of energy ([Moynihan & Kelly, 2014](https://doi.org/10.1177/0022034513508954)). The WHO guideline (2015) recommends below 10% (strong) and below 5% (conditional); both amount and frequency matter. **Fluoride is the main protective factor**: fluoride toothpaste reduces the caries increment in children by 24% (95% CI 21–28%) compared with non-fluoride toothpaste ([Marinho et al., 2003](https://doi.org/10.1002/14651858.CD002278)); higher concentrations work better but in young children carry a higher risk of fluorosis ([Walsh et al., 2019](https://doi.org/10.1002/14651858.CD007868.pub3)). Community measures include fluoridation of water, salt or milk.
+
+Smoking is a major risk factor for periodontitis, and diabetes also raises the risk; tobacco and alcohol cause oral cancer, with a substantially higher risk when combined. The incidence of HPV-positive oropharyngeal cancer in the USA rose by 225% between 1988 and 2004 while HPV-negative cancer fell by half ([Chaturvedi et al., 2011](https://doi.org/10.1200/JCO.2011.36.4596)). The **common risk factor approach** ([Sheiham & Watt, 2000](https://doi.org/10.1034/j.1600-0528.2000.028006399.x)) recognises that sugar, tobacco, alcohol, hygiene and stress are shared by oral diseases, cardiovascular disease, diabetes and cancer, so population measures — taxes on sugar-sweetened beverages and tobacco, marketing regulation, healthy school environments — act on many diseases at once.
+
+Finally, oral health follows a **social gradient**. In the Dunedin birth cohort in New Zealand, people who grew up in low- rather than high-socioeconomic-status families had, at age 26, periodontal disease in 31.1% vs 11.9% and four or more caries-affected surfaces in 32.2% vs 9.9% ([Poulton et al., 2002](https://doi.org/10.1016/S0140-6736(02)11602-3)). Disease increased step by step from those who were advantaged throughout to those disadvantaged throughout ([Thomson et al., 2004](https://doi.org/10.1111/j.1600-0528.2004.00173.x)). Inequalities are stepwise, not just "poor versus rich", and they begin in childhood — so measures must cover the whole gradient ([Watt et al., 2019](https://doi.org/10.1016/S0140-6736(19)31133-X)).
+
+Before opening the [student tasks](../learning-tasks/dental-public-health-dental-epidemiology-en.qmd), remember the last line of the class: without a denominator, a threshold and a period, a number means nothing — check them in every comparison.

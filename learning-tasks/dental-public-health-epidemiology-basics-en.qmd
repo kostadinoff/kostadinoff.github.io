@@ -1,0 +1,95 @@
+---
+title: "Dental Public Health, Class 8: measuring how common oral disease is"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "75 minutes of group work after the 15-minute reading: prevalence of deep periodontal pockets, the risk of caries in six-year-olds, an incidence rate from person-time, incidence, mortality and case-fatality of oral cancer, and a crude comparison of edentulism that age confounds. With self-check answers."
+categories: [English, Dental Public Health, Epidemiology, Assignment, "Dental Medicine", "2026/2027"]
+title-meta: "Dental Public Health, Class 8: measuring how common oral disease is"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[15-minute reading](../15-minute-learning/dental-public-health-epidemiology-basics-en.qmd) · [Slides (PDF)](../2026-2027-classes/dental-08-en.pdf) · [Български](dental-public-health-epidemiology-basics-bg.qmd)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. A calculator is enough. Open each self-check answer only after you have written down your own calculation.
+
+For every calculation, write three things: the **numerator**, the **denominator** and the **period** (or the date). You are assessed on choosing the right measure and the right denominator, not only on the final number.
+
+## Task 1. Prevalence — 10 minutes
+
+In a survey, 500 adults aged 35–44 are examined; 95 have at least one periodontal pocket of 6 mm or more. Compute the measure and name it precisely. Would the same number obtained from the records of a university clinic mean the same thing?
+
+::: {.callout-note collapse="true" title="Answer: 19% point prevalence"}
+
+95/500 = **19%**. It is the **point prevalence** of the finding "pocket ≥ 6 mm" — all cases, new and existing, on the day of examination.
+
+The same figure from clinic records would not estimate population prevalence. Clinic records show the people served, not all the people affected — the iceberg of morbidity — and attenders are a selected group: some come only when in pain, others never come.
+
+:::
+
+## Task 2. Cumulative incidence — 10 minutes
+
+Two hundred caries-free six-year-olds are followed for 3 years with no losses; 50 develop caries. What is the risk? Why must the period always be stated? What would go wrong if 80 of the children had already had caries at the start and you kept them in the denominator?
+
+::: {.callout-note collapse="true" title="Answer: 25% over 3 years"}
+
+Cumulative incidence = 50/200 = **25% over 3 years**. Risk always depends on the length of follow-up: 25% over 3 years and 25% over 1 year describe very different situations.
+
+Children who already have caries cannot become a new case, so they do not belong in the denominator. Keeping them would underestimate the risk — exactly the error in the class example, where dividing 45 new cases by 300 children instead of the 180 at risk would be wrong.
+
+:::
+
+## Task 3. Incidence rate from person-time — 15 minutes
+
+Four people are followed for 3, 5, 2 and 4 years. The second and fourth develop periodontitis at the end of their follow-up. Compute the incidence rate per 100 person-years. Explain why the answer is a rate and not a probability, and when person-time is better than a simple proportion.
+
+::: {.callout-note collapse="true" title="Answer: 14.3 per 100 person-years"}
+
+Person-time = 3 + 5 + 2 + 4 = 14 person-years; 2 new cases → 2/14 = **14.3 per 100 person-years**.
+
+It is a rate: its unit is "per person-year" and it has no upper limit, unlike a probability (0–1). Person-time is needed when people are followed for different lengths of time — in a dynamic population or with losses to follow-up. Even so, informative drop-out (for example, sick people leaving more often) can bias the result.
+
+:::
+
+## Task 4. Incidence, mortality and case-fatality — 20 minutes
+
+A town of 400,000 people has 48 new cases of oral cancer in a year. Each case is followed for 12 months after diagnosis, and 12 of them die of the cancer. During the year, 20 people in total die of oral cancer (including people diagnosed earlier). Compute the incidence, the cause-specific mortality and the one-year case-fatality. Why are the denominators different?
+
+::: {.callout-note collapse="true" title="Answer: 12 and 5 per 100,000; 25%"}
+
+- Incidence = 48/400,000 = **12 per 100,000** per year.
+- Cause-specific mortality = 20/400,000 = **5 per 100,000** per year.
+- One-year case-fatality = 12/48 = **25%** (the cases followed for 12 months after diagnosis).
+
+Mortality uses the whole population as its denominator; case-fatality uses only the cases. The 20 deaths in the year cannot be used for case-fatality, because they include people diagnosed in earlier years — calendar-year deaths are not the same as deaths within one year of diagnosis.
+
+:::
+
+## Task 5. Crude rates can mislead — 15 minutes
+
+Two towns each have 10,000 adults. In both, 2% of people aged 20–64 and 20% of people aged 65+ have lost all their natural teeth. Town A has 2,000 people aged 65+; town B has 5,000. Compute the crude prevalence of edentulism in each town. Town B appears much "sicker". Explain why, and say what you would do before comparing the towns. For which purpose is the crude figure still the right one?
+
+::: {.callout-note collapse="true" title="Answer: age confounds the crude comparison"}
+
+Town A: 8,000 × 0.02 + 2,000 × 0.20 = 160 + 400 = 560 → **5.6%**. Town B: 5,000 × 0.02 + 5,000 × 0.20 = 100 + 1,000 = 1,100 → **11.0%**.
+
+The age-specific prevalence is identical; town B looks almost twice as affected only because its population is older. Age confounds the crude comparison. Compare the **age-specific** rates, or **age-standardise** them: applying both towns' rates to the same standard population (7,000 aged 20–64 and 3,000 aged 65+) gives **7.4%** in both towns.
+
+The crude figure is still the right one for planning: town B really does need more dentures. A standardised rate is a notional number, valid only for comparison with the same standard.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. The incidence of a condition is 0.5 per 1,000 person-years and its mean duration is 10 years. What prevalence would you expect in a stable population?
+2. Name the three parts of the epidemiological triad for dental caries, with one example each.
+3. Give one reason why the records of the National Health Insurance Fund do not show the prevalence of caries.
+
+### Feedback criteria
+
+A complete answer names the measure precisely (point or period prevalence, cumulative incidence, incidence rate, mortality, case-fatality); writes the numerator, denominator and period; excludes existing cases from the population at risk; distinguishes a rate from a probability; and recognises when a difference in age structure makes crude rates incomparable. A correct number with the wrong name or no period does not complete the task.

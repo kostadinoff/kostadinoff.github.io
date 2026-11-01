@@ -1,0 +1,91 @@
+---
+title: "Social Medicine with Medical Ethics (Dental Medicine), class 8: from a clinical question to a research plan"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "75 minutes of group work after the 15-minute reading: a PECO question on smoking and implants, why a case–control design suits oral HPV and oropharyngeal cancer, a sample-size calculation for a caries survey, an observational association that a trial did not confirm, and the units and ethics of a school DMFT survey. With self-check answers."
+categories: [English, Social Medicine, Research Methods, Assignment, "Dental Medicine", "2026/2027"]
+title-meta: "Social Medicine with Medical Ethics (Dental Medicine), class 8: from a clinical question to a research plan"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[15-minute reading](../15-minute-learning/dental-social-medicine-research-methodology-en.qmd) · [Slides (PDF)](../2026-2027-classes/dental-socmed-08-en.pdf)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. Open each self-check answer only after you have written down your own reasoning. A calculator is enough for Task 3.
+
+You are assessed on whether the question comes first and the design follows from it, whether each objective is measured by a variable, and whether your answers name the correct measure of association and the correct ethical requirement.
+
+## Task 1. Write a PECO question — 10 minutes
+
+A patient asks: "Do smokers lose more dental implants?" Turn the question into a PECO question, define each element precisely, and name a design that can answer it.
+
+::: {.callout-note collapse="true" title="Answer: PECO for smoking and implants"}
+
+**P** — adults receiving dental implants; **E** — current smoking; **C** — non-smokers; **O** — implant failure (loss) during follow-up, optionally postoperative infection and marginal bone loss.
+
+Design: a cohort study, prospective or built from clinic records, or a systematic review of such studies. The question is about an exposure that cannot be randomised, so a trial is not an option. The meta-analysis by Chrcanovic et al. (2015) pooled 107 studies: 6.35% of implants failed in smokers against 3.18% in non-smokers — with uncontrolled confounding, and with several implants per patient that are not independent.
+
+:::
+
+## Task 2. Choose a design for a rare cancer — 15 minutes
+
+A researcher wants to know whether oral HPV-16 infection causes oropharyngeal cancer. Why is a case–control design more practical than a cohort? What is its main measure of association, and what are its two main threats?
+
+::: {.callout-note collapse="true" title="Answer: case–control for a rare outcome"}
+
+The cancer is rare and has a long latency, so a cohort would need a very large population followed for many years. A case–control study starts from existing cases and suitable controls and compares their past exposure. It estimates the **odds ratio** — D'Souza et al. (2007) found OR 14.6 (95% CI 6.3–36.6) for oral HPV-16 infection.
+
+Main threats: **selection bias** — controls must come from the population that produced the cases — and **recall bias**, because cases may remember exposures differently. A case–control study cannot give incidence or absolute risk.
+
+:::
+
+## Task 3. Calculate a sample size — 15 minutes
+
+You plan to estimate the prevalence of caries experience among 15-year-olds with 95% confidence and a precision of ±5 percentage points. No previous estimate is available, so assume p = 0.50. The survey samples schools (design effect 1.5), and you expect 15% non-response. How many pupils must you invite? Compare with the class example (p = 0.60, design effect 2, 10% non-response → 820 pupils) and explain which assumptions change the number most.
+
+::: {.callout-note collapse="true" title="Answer: 680 pupils"}
+
+n = 1.96² × 0.5 × 0.5 / 0.05² = 384.2 → **385**; × 1.5 for the design effect = 577.5 → **578**; ÷ 0.85 for non-response = **680 pupils** to invite.
+
+p = 0.50 gives the largest n for a given precision, but the class example still needs more pupils because its design effect (2) is larger. The design effect and the precision d have the strongest influence: halving d quadruples n. All three planning values must be justified in a real protocol by a cited study or a pilot.
+
+:::
+
+## Task 4. Association versus effect — 15 minutes
+
+Observational studies linked periodontitis with preterm birth. The OPT trial randomised 823 pregnant women to periodontal treatment before 21 weeks or after delivery; preterm birth was 12.0% vs 12.8% (HR 0.93, 95% CI 0.63–1.37). How can both findings be true? What does the trial allow you to conclude, and what not?
+
+::: {.callout-note collapse="true" title="Answer: confounding, timing and the limits of a trial"}
+
+The observational association may be due to **confounding**: smoking, socioeconomic position and general health affect both periodontitis and preterm birth. Alternatively, treatment in mid-pregnancy may come too late, or periodontal treatment may be the wrong target even if the link is real.
+
+Randomisation balances known and unknown confounders, so the trial answers the intervention question directly: this treatment, at this time, did not demonstrate a reduction in preterm birth, although periodontal health improved. The confidence interval still allows a modest benefit or harm, and the trial does not prove that periodontitis has no causal role. An association does not guarantee that treating the exposure changes the outcome.
+
+:::
+
+## Task 5. Units, technical unit and ethics — 15 minutes
+
+Your group designs a school survey of DMFT among 15-year-olds in Plovdiv. Name the object of observation, the unit of observation and the technical unit. State two ethical requirements under the Bulgarian Health Act and explain what changes because the pupils are minors.
+
+::: {.callout-note collapse="true" title="Answer: object, units and ethics approval"}
+
+**Object** — 15-year-old pupils attending general secondary schools in Plovdiv; **unit of observation** — one pupil; **technical unit** — the school, where the data are gathered.
+
+Ethics: written informed consent after written information on the nature, significance, scope and risks of the study, withdrawable at any time (Health Act, Art. 199); a positive opinion of a local ethics committee before the study starts (Art. 203) — at MU-Plovdiv, the Research Ethics Committee. For minors, the consent of a parent as well as the pupil's own, in the form approved by the committee. Health data are a special category under the GDPR: pseudonymise them and keep the key separately. Pupils found to have untreated caries should receive a referral letter.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. Match each question to a design: the prevalence of untreated caries; the effect of a school toothbrushing programme; how patients experience fear of the dentist.
+2. Give one example each of selection bias and information bias in a caries survey.
+3. Write one SMART objective for your group's plan-programme.
+
+### Feedback criteria
+
+A complete answer starts from a FINER question written as PICO, PECO or PICo; chooses a design that can answer it (prevalence → cross-sectional; rare disease → case–control; incidence → cohort; effect of an intervention → randomised trial; experience → qualitative interviews); names the matching measure (prevalence, OR, RR/HR, themes); separates chance, bias and confounding; and cites the correct ethical requirements (Health Act, Arts 197–205; ethics committee opinion before the first participant). Naming a design without saying why it fits the question does not complete the task.

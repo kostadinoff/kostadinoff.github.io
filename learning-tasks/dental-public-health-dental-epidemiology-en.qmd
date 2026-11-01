@@ -1,0 +1,102 @@
+---
+title: "Dental Public Health, Class 9: calculating and reading oral health indices"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "75 minutes of group work after the 15-minute reading: DMFT for an adult patient, mean DMFT and SiC in a class of 12-year-olds, why age 12 is the WHO indicator age, Dean's Community Fluorosis Index, and population measures for Bulgaria's main oral health problems. With self-check answers."
+categories: [English, Dental Public Health, Epidemiology, Assignment, "Dental Medicine", "2026/2027"]
+title-meta: "Dental Public Health, Class 9: calculating and reading oral health indices"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[15-minute reading](../15-minute-learning/dental-public-health-dental-epidemiology-en.qmd) · [Slides (PDF)](../2026-2027-classes/dental-09-en.pdf) · [Български](dental-public-health-dental-epidemiology-bg.qmd)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. A calculator is enough. Open each self-check answer only after you have written down your own calculation and reasoning.
+
+You are assessed on applying the WHO counting rules correctly, stating the age, threshold and protocol behind every index, and comparing only like with like.
+
+## Task 1. DMFT for one patient — 15 minutes
+
+A 35-year-old has caries on teeth 16 and 47; fillings on 26, 36 and 46; teeth 37 and 18 were present earlier and have been lost (reason unknown); a sealant on 27; and a crown on 11 placed after trauma. Calculate DMFT and explain each decision. Would the answer change if the patient were 25?
+
+::: {.callout-note collapse="true" title="Answer: DMFT = 7"}
+
+- D = 2 (16, 47)
+- M = 2 (37, 18) — from age 30, WHO counts all missing teeth, whatever the reason
+- F = 3 (26, 36, 46)
+- not counted: the sealant on 27 and the crown on 11 placed for a non-carious reason (trauma)
+
+**DMFT = 2 + 2 + 3 = 7.**
+
+At 25, only teeth extracted because of caries count as M. With the reason unknown, the examiner would have to establish it; if the two teeth were not lost because of caries, DMFT would be 5. This is why, in adults, M is not a pure measure of caries-related tooth loss.
+
+:::
+
+## Task 2. Mean DMFT, caries experience and SiC — 15 minutes
+
+Nine 12-year-olds have DMFT 0, 0, 1, 1, 2, 3, 3, 6 and 8. Compute the mean DMFT, the prevalence of caries experience and the Significant Caries Index. What does the comparison of the mean and the SiC tell a school dentist planning prevention?
+
+::: {.callout-note collapse="true" title="Answer: 2.67; 77.8%; SiC 5.67"}
+
+- Mean DMFT = 24/9 = **2.67**
+- Caries-experience prevalence (DMFT > 0) = 7/9 = **77.8%**
+- SiC = mean of the third with the highest values = (8 + 6 + 3)/3 = **5.67**
+
+The mean is below the old WHO goal of 3, yet the most affected third has on average more than five affected teeth. Caries is polarised: the mean hides a highly affected group, and prevention should combine a whole-school approach with extra measures for the high-risk children.
+
+:::
+
+## Task 3. Why age 12? — 10 minutes
+
+Why is age 12 the WHO global indicator age for caries? Name two other WHO index ages and say what each is for. Why is a pathfinder survey not a national probability sample, and does that matter?
+
+::: {.callout-note collapse="true" title="Answer: the last age easily reached through schools"}
+
+At 12, children can still be reached easily through schools, and most permanent teeth except the third molars have usually erupted. This makes international comparisons and trends possible.
+
+Other index ages: **5 years** (caries in primary teeth, which changes quickly; school entry); **15 years** (permanent teeth exposed for 3–9 years; the periodontium in adolescents); **35–44 years** (the standard adult group: the full effect of caries, severe periodontitis and care); **65–74 years** (a life-course perspective; planning for older people).
+
+A pathfinder survey is a stratified cluster sample chosen to cover subgroups with different disease levels — urban and rural, regions — with 25–50 people per age group at each site. Its generalisability depends on how the sites are chosen, so it should be described as a stratified pathfinder estimate, not as a national probability sample.
+
+:::
+
+## Task 4. The Community Fluorosis Index — 15 minutes
+
+Fifty children are examined with Dean's index: 25 normal, 10 questionable, 10 very mild and 5 mild. Compute the Community Fluorosis Index and interpret it using Dean's historical bands. How is each child scored when the two most affected teeth differ?
+
+::: {.callout-note collapse="true" title="Answer: CFI = 0.50, borderline"}
+
+CFI = (25 × 0 + 10 × 0.5 + 10 × 1 + 5 × 2)/50 = 25/50 = **0.50**.
+
+By Dean's historical bands this is **borderline** (0.4–0.6), below the 0.6 threshold for a public health problem. Each person is scored on the two most affected teeth; if they differ, on the less affected one, and when in doubt the lower category is chosen. The CFI weights (0, 0.5, 1, 2, 3, 4) are not the WHO codes (0–5).
+
+:::
+
+## Task 5. From burden to population measures — 15 minutes
+
+Using the WHO country profile data in the reading, name two reasons why caries is a public health problem in Bulgaria, and propose one population-level measure for each. Add one measure that follows the common risk factor approach.
+
+::: {.callout-note collapse="true" title="Answer: high untreated caries and high sugar availability"}
+
+- **High untreated caries** — 48.1% of children aged 1–9 and 38.2% of people aged 5+, above the European and world averages → school-based fluoride varnish and sealant programmes and supervised toothbrushing with fluoride toothpaste.
+- **High free-sugar availability** — 74.4 g per person per day → a tax on sugar-sweetened beverages and healthy school food rules.
+- **Common risk factor approach** — tobacco use in 39.4% of people aged 15+ → tobacco control (taxes, marketing regulation), which acts on periodontitis, oral cancer, cardiovascular disease and other cancers at once.
+
+The urban–rural difference in Plovdiv (DMFT 1.57 vs 2.92) also argues for measures that reach the whole social gradient, not only the patients who come to the clinic.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. Why can a survey at the D1 threshold not be compared directly with one at the D3 threshold?
+2. What does a Cohen's kappa of 0.45 between two examiners tell you about a planned survey?
+3. In the Dunedin cohort, did upward social mobility erase the effect of a disadvantaged childhood on oral health?
+
+### Feedback criteria
+
+A complete answer applies the WHO rules for DMFT (one count per tooth, the age-30 rule for M, no sealants or crowns for non-carious reasons); separates the mean, the prevalence of caries experience and the SiC; states the age, threshold and protocol behind each index; compares only indicators computed the same way; and links each risk factor to a population-level measure. A correct number without the rule behind it does not complete the task.

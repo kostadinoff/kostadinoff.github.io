@@ -1,0 +1,67 @@
+---
+title: "Standing on the right shoulders: literature review, information sources and critical appraisal"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "A 15-minute reading for practical class 9 of Social Medicine with Medical Ethics (Dental Medicine): types of review, the main databases and the MU-Plovdiv library, MeSH and Boolean searching in PubMed, reporting guidelines and appraisal tools, a worked appraisal of the OPT trial, association versus effect, predatory journals and the optional critical-appraisal task."
+categories: [English, Social Medicine, Research Methods, "Dental Medicine", "2026/2027"]
+title-meta: "Standing on the right shoulders: literature review and critical appraisal"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-socmed-09-en.pdf) · [Optional task handout (PDF)](../2026-2027-classes/dental-socmed-09-en-assignment.pdf) · [Student tasks](../learning-tasks/dental-social-medicine-literature-review-en.qmd)
+
+Set aside about **15 minutes** to read and reflect. The text follows the presentation "Standing on the right shoulders" (practical class 9, Social Medicine with Medical Ethics, Dental Medicine). Afterwards you should be able to tell the main types of review apart, choose a database, build and document a Boolean search in PubMed, name the reporting guideline and appraisal tool for a given design, and recognise a predatory journal. The running example is a question from the previous class: in adults receiving dental implants, are smokers more likely than non-smokers to lose the implant?
+
+## Why review — and which kind
+
+A literature review is a structured account of what is already known about a question: which studies exist, what designs they used, what they found, how trustworthy they are and where the gap lies. It justifies the research question, supplies validated definitions and instruments (such as DMFT or periodontitis case definitions), anticipates confounders and bias, provides the expected prevalence or effect for the sample-size calculation, and lets new results be interpreted against existing evidence. **A review is research on research**: it has a question, a method, data and limitations, exactly like a primary study.
+
+Reviewing is also an ethical duty. The [Declaration of Helsinki](https://doi.org/10.1001/jama.2024.21972) (2024) requires research involving human participants to avoid research waste and to be based on a thorough knowledge of the scientific literature. Repeating a question that is already answered exposes participants to burden and risk without new knowledge.
+
+Reviews differ in how much method and how much synthesis they contain ([Grant & Booth, 2009](https://doi.org/10.1111/j.1471-1842.2009.00848.x)):
+
+- a **narrative review** is an expert summary; it gives orientation and context, but study selection is usually not specified, so it is selective and not reproducible;
+- a **scoping review** maps the volume, nature and gaps of the literature on a broad question, usually without appraising quality or pooling effects ([Arksey & O'Malley, 2005](https://doi.org/10.1080/1364557032000119616));
+- a **systematic review** answers a focused question with a predefined, reproducible search, selection, appraisal and synthesis — it minimises bias but is only as good as the studies it includes;
+- a **meta-analysis** is a statistical method, not a separate type of review: the pooling of effect estimates within a systematic review. It gives a precise overall estimate but misleads if the studies are too different ("garbage in, garbage out");
+- **umbrella reviews** systematically review systematic reviews; **rapid reviews** simplify the steps to meet a deadline, at a higher risk of missing studies.
+
+In short, a scoping review asks "what is out there?"; a systematic review asks "what is the answer, and how sure are we?" A systematic review fits a focused PICO/PECO question on effectiveness, harm, prognosis or accuracy whose answer should inform practice ([Munn et al., 2018](https://doi.org/10.1186/s12874-018-0611-x)).
+
+The model dental example is the Cochrane review of **fluoride varnish** ([Marinho et al., 2013](https://doi.org/10.1002/14651858.CD002279.pub2)): a search of many databases with no language or date limits, 22 trials with 12,455 children, and a prevented fraction of 43% (95% CI 30–57%) for permanent teeth and 37% (24–51%) for primary teeth, with substantial heterogeneity (I² = 75%) and moderate certainty. The prevented fraction is a reduction in the mean caries increment, not in the proportion of children who develop caries.
+
+A systematic review is reported with a **PRISMA 2020** flow diagram ([Page et al., 2021](https://doi.org/10.1136/bmj.n71)): a protocol registered in advance (for example in PROSPERO), a documented search of several databases, removal of duplicates, screening by two reviewers independently, data extraction and risk-of-bias assessment, and synthesis with grading of certainty (GRADE). In a **forest plot**, each square is one study's estimate (its size shows the weight) and each line its 95% CI; the vertical line marks no effect, and the diamond is the pooled estimate.
+
+The classic evidence pyramid puts randomised trials above cohort and case–control studies. The "new evidence pyramid" ([Murad et al., 2016](https://doi.org/10.1136/ebmed-2016-110401)) makes the borders wavy — the certainty of a body of evidence can be rated down or up, as in GRADE ([Guyatt et al., 2008](https://doi.org/10.1136/bmj.39489.470347.AD)) — and removes systematic reviews from the top, turning them into a lens for reading the other designs. A poorly conducted trial is not automatically better evidence than a large, well-designed cohort.
+
+## Sources of information
+
+**PubMed** is the free search interface of the US National Library of Medicine, with over 41 million records; its largest component, MEDLINE, is indexed with MeSH. The **Cochrane Library** holds Cochrane systematic reviews and the CENTRAL trials register. **Embase** is strong on pharmacology and European journals but depends on a subscription. **Scopus** and **Web of Science** are citation databases (Web of Science is the source of the Journal Impact Factor), and **Dentistry & Oral Sciences Source** is a specialised dental database — all three are licensed by MU-Plovdiv. **Google Scholar** is very broad but has an opaque ranking, no controlled vocabulary and results that cannot be reproduced. For a dental clinical question, start with PubMed; a systematic search uses several databases chosen for the topic.
+
+**MeSH** (Medical Subject Headings) is a controlled, hierarchical vocabulary: one concept, one heading, whatever words the authors used — "tooth decay", "dental decay" and "carious lesions" all become *Dental Caries*. A MeSH search includes the narrower terms below it in the tree, and subheadings narrow the aspect (*Dental Caries/prevention & control*). The trap: the newest records are not yet indexed, so always combine the MeSH heading with free-text synonyms searched in title and abstract.
+
+The **MU-Plovdiv Library and Information Centre** has over 180,000 library items, a central library and three branches, and a team that helps with searching. Licensed resources — EBSCO Discovery Service, Dentistry & Oral Sciences Source, MEDLINE Ultimate, Scopus, Web of Science, ScienceDirect and others — are available from home through EZproxy at **login.ezproxy.mu-plovdiv.bg**, with the personal username and password issued by the library.
+
+## Building a search
+
+The question is translated into **concept blocks**: synonyms within a concept are joined with **OR**, and concepts with **AND**. For the running example, the population block is *Dental Implants*[MeSH] OR "dental implant\*" OR "oral implant\*", and the exposure block is *Smoking*[MeSH] OR smok\* OR tobacco. The comparison is usually not searched; adding an outcome block trades sensitivity for precision. Truncation (smok\*), phrases, field tags ([tiab], [mh], [pt]), parentheses and filters complete the toolkit; NOT should be used sparingly because it can remove relevant studies.
+
+In the live demonstration (PubMed, 1 November 2026) the MeSH heading alone found 34,426 records; with synonyms, 49,186; combined with the smoking block, 1,485; with the outcome block, 863; and limited to systematic reviews and meta-analyses, 44. Both the final set and the variant without the outcome block (88 records) contained the meta-analysis by [Chrcanovic et al. (2015)](https://doi.org/10.1016/j.jdent.2015.03.003): 107 studies, with 6.35% of implants failing in smokers and 3.18% in non-smokers. Counts change with every database update, and the crude totals are not the study-weighted meta-analytic estimate. **A search is part of the method**: write down the database, the date, every line and the number of hits, so that someone else can repeat it. A reference manager (Zotero, Mendeley, EndNote or JabRef) formats the reference list; keep the DOI of every paper you cite.
+
+## Reading a paper critically
+
+**Reporting guidelines** say what a good paper must tell you: CONSORT 2025 for randomised trials ([Hopewell et al., 2025](https://doi.org/10.1136/bmj-2024-081123)), STROBE for cohort, case–control and cross-sectional studies ([von Elm et al., 2007](https://doi.org/10.1016/S0140-6736(07)61602-X)), PRISMA 2020 for systematic reviews, STARD for diagnostic accuracy ([Bossuyt et al., 2015](https://doi.org/10.1136/bmj.h5527)), COREQ and SRQR for qualitative research, ARRIVE 2.0 for animal studies and CRIS for in vitro studies in dentistry. All are collected by the EQUATOR Network. A guideline is a checklist for reporting, not a quality score, and "not reported" is not the same as "not done".
+
+**Appraisal tools** judge how trustworthy the results are: CASP and JBI checklists for most designs; RoB 2 for randomised trials ([Sterne et al., 2019](https://doi.org/10.1136/bmj.l4898)); ROBINS-I for non-randomised studies of interventions ([Sterne et al., 2016](https://doi.org/10.1136/bmj.i4919)); AMSTAR 2 for systematic reviews ([Shea et al., 2017](https://doi.org/10.1136/bmj.j4008)); and GRADE for the certainty of a body of evidence. Behind every checklist stand three questions: *Are the results valid? What are the results? Will they help my patients?* — the last including whether the participants are like yours, whether harms were considered, and whether funding and conflicts of interest are declared. A p-value must be read together with the effect estimate and its confidence interval.
+
+The worked appraisal is the **OPT trial** ([Michalowicz et al., 2006](https://doi.org/10.1056/NEJMoa062249)): 823 pregnant women with periodontitis at 13–17 weeks, treated before 21 weeks or after delivery. Periodontal measures improved, but preterm birth was 12.0% vs 12.8% (HR 0.93, 95% CI 0.63–1.37, P = 0.70). Observational studies had linked periodontitis with preterm birth, but the two share risk factors — smoking, socioeconomic disadvantage, infections — that can confound the association. The trial asked whether *this treatment, at this time* changes the outcome, and did not demonstrate a reduction. That does not prove periodontitis has no causal role: **"not demonstrated" is not "disproved", and association is not effect.** By contrast, the trial by [Tonetti et al. (2007)](https://doi.org/10.1056/NEJMoa063186) improved endothelial function after periodontal treatment — but that is a surrogate outcome, not fewer cardiovascular events.
+
+**Predatory journals** put self-interest before scholarship, with false or misleading information, poor editorial practice, a lack of transparency and aggressive solicitation ([Grudniewicz et al., 2019](https://doi.org/10.1038/d41586-019-03759-y)). Warning signs include flattering invitations, promises of peer review within days, fees revealed late, fake impact factors and an unverifiable editorial board. Check with the Think. Check. Submit. list, DOAJ, MEDLINE, Scopus or Web of Science indexing and COPE membership — remembering that indexing helps verification but does not prove methodological quality.
+
+## The optional individual task
+
+Students who want practice and written feedback can write a structured critical analysis (at most 1,000 words) of one published dental study — from the shortlist in the [handout](../2026-2027-classes/dental-socmed-09-en-assignment.pdf) or one approved by the teacher. **The task is optional: there is no deadline and it is not graded.** The analysis follows an eight-section template (reference, question, design and methods, main results, validity, reporting and integrity, applicability, conclusion) and uses the checklist that matches the design. The analysis and the judgement must be your own; AI tools may be used only to improve the English.
+
+Before opening the [student tasks](../learning-tasks/dental-social-medicine-literature-review-en.qmd), try to answer in three sentences: why a MeSH heading should always be combined with free-text synonyms; what the difference is between a reporting guideline and an appraisal tool; and why a non-significant result in a trial does not prove that a treatment has no effect.

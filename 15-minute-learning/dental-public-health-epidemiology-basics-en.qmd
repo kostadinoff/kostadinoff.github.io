@@ -1,0 +1,59 @@
+---
+title: "Epidemiology basics: counting oral disease in populations"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "A 15-minute reading for Class 8 of Dental Public Health: the definition and uses of epidemiology, a short history including the fluoride story, descriptive, analytic and experimental epidemiology, the epidemiological triad and natural history of caries, and the measures of frequency — prevalence, cumulative incidence, incidence rate, mortality, case-fatality, crude and standardised rates — with the main data sources in Bulgaria."
+categories: [English, Dental Public Health, Epidemiology, "Dental Medicine", "2026/2027"]
+title-meta: "Epidemiology basics: counting oral disease in populations"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-08-en.pdf) · [Student tasks](../learning-tasks/dental-public-health-epidemiology-basics-en.qmd) · [Български](dental-public-health-epidemiology-basics-bg.qmd)
+
+Set aside about **15 minutes** to read and reflect. The text follows the presentation "Epidemiology basics", the first class of the epidemiology part of Dental Public Health. It starts from zero. Afterwards you should be able to define epidemiology, apply the epidemiological triad and the natural history of disease to caries, calculate prevalence, cumulative incidence, an incidence rate, mortality and case-fatality, and explain why crude rates can mislead.
+
+## What epidemiology is
+
+Epidemiology is the study of the frequency, distribution and determinants of diseases and other health-related conditions in human populations, and the application of this study to the promotion of health and to the prevention and control of health problems. Each key word matters. The unit is the **population** — all 12-year-olds in the region, not the child in the chair. **Frequency** makes it quantitative: how many people, how many new cases, over what time. **Distribution** is described by person, place and time — for example, 12-year-olds in the villages around Plovdiv have a higher DMFT than those in the city ([Onov & Beltcheva, 2020](https://doi.org/10.3897/folmed.62.e47894)). **Determinants** are risk factors (sugars, tobacco) and protective factors (fluoride, sealants). **Health-related conditions** include injuries, behaviour such as toothbrushing, and access to dental care. And the aim is **application**: prevention programmes, service planning, evaluation.
+
+Epidemiology is used for community diagnosis (how common is untreated caries among 12-year-olds?), finding causes (sugar and caries, tobacco and periodontitis, HPV and oropharyngeal cancer), describing natural history and prognosis, evaluating interventions (does fluoride varnish reduce caries?), planning services for an ageing population, and surveillance — the ongoing collection and analysis of data for action.
+
+**A short history.** Hippocrates linked health to environment and way of life; John Graunt analysed the London Bills of Mortality in 1662; James Lind compared six treatments for scurvy in 1747, an early controlled trial; John Snow mapped cholera around the Broad Street pump in 1854; and after 1948 came the Framingham cohort and Doll and Hill's work on smoking and lung cancer ([Doll & Hill, 1950](https://doi.org/10.1136/bmj.2.4682.739)). Dentistry has its own story. Between 1901 and 1916 Frederick McKay described the "Colorado brown stain", later recognised as fluorosis, in which caries was less common. In 1939–1942 Dean and colleagues studied 21 cities and found that as the fluoride in water rises to about 1 mg/l, caries falls, while fluorosis increases with concentration ([Dean et al., 1942](https://doi.org/10.2307/4584182)). In 1945 Grand Rapids in the USA began the first controlled fluoridation of drinking water.
+
+Epidemiology is **descriptive** (who, where, when — case reports, case series, cross-sectional surveys; it generates hypotheses), **analytic** (why — ecological, case–control and cohort studies that compare groups; it tests hypotheses) or **experimental** (does the measure work — clinical trials such as fluoride varnish, community trials such as fluoridation; a well-conducted randomised trial is strong evidence of effect). In observational studies the investigator does not intervene in the natural course of events.
+
+## The triad and the natural history of caries
+
+The epidemiological triad links **host**, **agent** and **environment**. In caries, the host is the tooth (morphology, enamel), saliva, age and immunity; the agent is a dysbiotic dental biofilm with acid-producing bacteria — *S. mutans* is important, but neither the only nor a sufficient cause; the environment is the frequency and amount of sugars, fluoride, hygiene habits, income and access to care; and **time** matters because caries is a slow process. Keyes' historical triad placed caries where tooth, microflora and substrate (sugars) intersect; today caries is seen as a dynamic, biofilm-mediated disease strongly driven by diet. In the **causal pie** model, a sufficient cause is a complex of components. Sugar is a component cause: not everyone who eats sugar develops caries, but removing it blocks every causal complex that contains it.
+
+The **natural history** of disease maps onto the levels of prevention. In the stage of susceptibility, risk factors are present but there is no disease — primary prevention (health education, fluoride, sealants, less sugar). In the pre-symptomatic stage, an early non-cavitated "white spot" lesion is painless but clinically detectable and can arrest or remineralise — secondary prevention (check-ups, early detection, remineralisation). The clinical stage brings cavitation, pain and pulpitis, and the outcome without treatment is arrest or progression to abscess and tooth loss — restoration, endodontics and, at the tertiary level, prosthetics and rehabilitation. **Absence of pain does not mean absence of disease.**
+
+The **iceberg of morbidity** explains why practice records underestimate oral disease. Below the visible tip of registered cases lie asymptomatic and early cases, people who do not seek care because of fear, cost or distance, self-treatment and inaccurate recording. Periodontitis and early caries do not hurt for a long time. Population prevalence therefore requires active examination of a representative sample — a national oral health survey following the WHO methodology.
+
+## Measures of disease frequency
+
+**Counts and rates.** Town A registers 30 new cases of oral cancer a year and town B 15 — but town A has 600,000 inhabitants and town B 150,000, so the incidence is 5 and 10 per 100,000. The absolute number tells how much resource is needed; the rate allows comparison between groups of different size. Before counting, a **case definition** is needed: diagnostic threshold, dentition and unit (person, tooth, surface).
+
+A **proportion** has the numerator inside the denominator (65 of 100 children with caries experience → 65%). A **rate** counts new events per unit of time at risk. A **ratio** divides one quantity by another (dentists per 10,000 population; for lip and oral cavity cancer in Bulgaria in 2020, WHO estimated 317 new cases in men and 138 in women, a ratio of 2.3 : 1).
+
+**Prevalence** is the proportion of people who have the disease at a given time (point prevalence) or during a period (period prevalence), counting new and existing cases. It is measured by a cross-sectional survey — a "snapshot". It rises with longer duration of disease, treatment that prevents death without curing, higher incidence and better diagnosis; it falls with high case-fatality, rapid recovery and lower incidence.
+
+**Cumulative incidence** (risk) is the number of new cases during a period divided by the people at risk at its start. It is a probability and always needs a period: "25% over 3 years". The denominator excludes existing cases. In the class example, a school has 300 six-year-olds, 120 of whom already have caries in their first permanent molars; the remaining 180 are followed for three years and 45 develop caries, so the risk is 45/180 = 25% — dividing by 300 would be wrong.
+
+The **incidence rate** divides new cases by the total **person-time** at risk. Five people followed for 5, 2, 3, 4 and 4 years contribute 18 person-years; two new cases give 11.1 per 100 person-years. A rate is not a probability: its unit is "per person-year" and it has no upper limit. Person-time handles unequal follow-up, but informative drop-out can still bias it. For a rare event and a short period, risk ≈ rate × time.
+
+**P ≈ IR × D.** In the bathtub analogy, the tap is incidence, the water is prevalence and the drain is recovery or death. In a stable population, prevalence is approximately the incidence rate times the mean duration: an incidence of 3.3 per 100,000 person-years and a mean duration of about 4 years give about 13 per 100,000. Frequent but short episodes, such as aphthous ulcers lasting about 10 days, give a low point prevalence.
+
+**Mortality and case-fatality** use different denominators. Cause-specific mortality divides deaths from the cause by the whole mid-year population; the one-year case-fatality divides deaths within 12 months of diagnosis by the cases in that diagnosis cohort. In a hypothetical town of 250,000, 60 new cases of oral cancer give an incidence of 24 per 100,000; 24 deaths from oral cancer in the year give a mortality of 9.6 per 100,000; and 18 deaths among the 60 within a year give a case-fatality of 30%.
+
+## Crude and standardised rates
+
+Crude rates can mislead. In two hypothetical towns of 10,000 adults, 2% of people aged 20–64 and 20% of those aged 65+ are edentulous in both. But town A has 2,000 older residents and town B 5,000, so the crude prevalence is 5.6% in A and 11.0% in B. Town B looks twice as "sick" only because it is older: **age confounds the crude comparison**. **Direct standardisation** applies each town's age-specific rates to the same standard population (7,000 aged 20–64 and 3,000 aged 65+); both towns then have an age-standardised prevalence of 7.4%. A standardised measure is a notional number, valid only for comparison with the same standard; crude numbers describe the real burden and are used for planning — for example, how many dentures are needed.
+
+## Data sources
+
+In Bulgaria, demographic and health statistics come from the National Statistical Institute and the National Centre of Public Health and Analyses (full coverage, but registered events only and few dental data); registries such as the National Cancer Registry (detailed follow-up, but completeness must be checked); administrative data from the National Health Insurance Fund on reported dental activities (cheap and large, but they show services, not disease); surveys such as a WHO-method oral health survey or the European Health Interview Survey (they estimate population prevalence, but are expensive and periodic); and model estimates from GBD and WHO country profiles (comparable across countries, but estimates rather than measurements).
+
+Before opening the [student tasks](../learning-tasks/dental-public-health-epidemiology-basics-en.qmd), ask yourself the question from the last slide: before you divide, who is at risk, for how long were they observed, and are you counting new or all cases?

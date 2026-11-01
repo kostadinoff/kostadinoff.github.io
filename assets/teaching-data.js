@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-10-06",
+  updated: "2026-11-01",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -1160,6 +1160,30 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-reproduction-en.html" },
                     { label: "Student tasks", href: "learning-tasks/medical-ethics-reproduction-en.html" }
                   ]
+                },
+                {
+                  title: "Class 8 · Epidemiology basics",
+                  description: "The first class of the epidemiology part, starting from zero: definition and uses of epidemiology, a short history including the fluoride story (McKay, Dean, Grand Rapids), descriptive, analytic and experimental epidemiology, the epidemiological triad and Keyes' triad, the natural history of caries and levels of prevention, the iceberg of morbidity, and the measures of frequency — proportion, rate and ratio, prevalence, cumulative incidence, incidence rate with person-time, P ≈ IR × D, mortality and case-fatality, crude rates and direct age standardisation — with the main data sources in Bulgaria.",
+                  tags: ["epidemiology", "measures of frequency", "prevalence", "incidence", "standardisation"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-08-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-public-health-epidemiology-basics-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-public-health-epidemiology-basics-en.html" }
+                  ]
+                },
+                {
+                  title: "Class 9 · Epidemiology of dental diseases",
+                  description: "Oral health indices with worked calculations — DMFT/DMFS/dmft and the WHO counting rules, the Significant Caries Index and Care Index, ICDAS and the D1/D3 thresholds, CPITN and the modified CPI, PI, GI, OHI-S, Dean's index and the Community Fluorosis Index; examiner calibration; the WHO Oral Health Surveys methodology (index ages, pathfinder sample) and goals up to the Global Oral Health Action Plan 2023–2030; the global burden and Bulgaria's position; sugars, fluoride, tobacco, HPV, the common risk factor approach and the social gradient (Dunedin cohort).",
+                  tags: ["epidemiology", "oral health indices", "DMFT", "WHO surveys", "risk factors"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-09-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-public-health-dental-epidemiology-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-public-health-dental-epidemiology-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1260,9 +1284,94 @@ window.TEACHING_DATA = {
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-reproduction-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-ethics-reproduction-bg.html" }
                   ]
+                },
+                {
+                  title: "Упражнение 8 · Основи на епидемиологията",
+                  description: "Първото упражнение от епидемиологичната част, от нулата: определение и приложения на епидемиологията, кратка история и историята на флуорида (Маккей, Дийн, Гранд Рапидс), описателна, аналитична и експериментална епидемиология, епидемиологична триада и триада на Keyes, естествен ход на кариеса и нива на профилактика, айсберг на заболеваемостта и мерките за честота — пропорция, коефициент и отношение, болестност, кумулативна заболеваемост, коефициент на заболеваемост с човеко-време, P ≈ IR × D, смъртност и леталитет, груби коефициенти и пряка стандартизация по възраст — и основните източници на данни в България.",
+                  tags: ["епидемиология", "мерки за честота", "болестност", "заболеваемост", "стандартизация"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-08-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-epidemiology-basics-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/dental-public-health-epidemiology-basics-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 9 · Епидемиология на денталните заболявания",
+                  description: "Индекси на оралното здраве с решени примери — DMFT/DMFS/dmft и правилата на СЗО, Significant Caries Index и индекс на грижа, ICDAS и праговете D1/D3, CPITN и модифицираният CPI, PI, GI, OHI-S, индексът на Dean и индексът на общностна флуороза; калибриране на изследователите; методиката на СЗО за орални проучвания (индексни възрасти, pathfinder извадка) и целите до Глобалния план за действие 2023–2030; глобалното бреме и мястото на България; захари, флуорид, тютюн, HPV, подходът на общите рискови фактори и социалният градиент (кохортата от Дънидин).",
+                  tags: ["епидемиология", "индекси на оралното здраве", "DMFT", "проучвания на СЗО", "рискови фактори"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-09-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-dental-epidemiology-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/dental-public-health-dental-epidemiology-bg.html" }
+                  ]
                 }
               ],
               handouts: []
+            }
+          ]
+        }
+      ]
+    },
+
+    /* ----------------------------------------------------------------
+       Social medicine with medical ethics — dental medicine (SMEEND),
+       2nd year, English-taught, 2026/2027. Kostadin teaches the second
+       part (weeks 8–14). Source decks: MEGA/TEACHING/DENTAL_SOCIAL_MED.
+       ---------------------------------------------------------------- */
+    {
+      id: "social-medicine-dental",
+      title: "Social medicine with medical ethics — dental medicine",
+      blurb:
+        "Practical classes for second-year dental medicine students: research methodology, literature review and critical appraisal, and the ethics and communication of dental practice.",
+      languages: [
+        {
+          code: "en",
+          label: "English",
+          years: [
+            {
+              id: "2026-2027",
+              label: "2026/2027",
+              note: "Second part of the course (weeks 8–14) for the English-language dental medicine programme.",
+              lectures: [
+                {
+                  title: "Class 8 · From a clinical question to a research plan",
+                  description: "Research versus clinical audit; classifying studies; FINER questions and PICO/PECO; aims, objectives and hypotheses; a decision tree of study designs with one real dental study for each (NHANES, HPV and oropharyngeal cancer, the Dunedin cohort, the OPT trial, Cochrane reviews, a qualitative study of dental anxiety); the research plan-programme — object and units of observation, sampling, a worked sample-size calculation, variables and DMFT, chance, bias and confounding, ethics approval under the Health Act, the analysis plan — and a worked plan for a caries survey of 15-year-olds in Plovdiv.",
+                  tags: ["research methodology", "study design", "PICO", "sample size", "research ethics"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-socmed-08-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-social-medicine-research-methodology-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-social-medicine-research-methodology-en.html" }
+                  ]
+                },
+                {
+                  title: "Class 9 · Literature review, sources of information and critical appraisal",
+                  description: "Types of review (narrative, scoping, systematic, meta-analysis, umbrella, rapid) with the Cochrane fluoride varnish review as the model; PRISMA 2020 and reading a forest plot; the new evidence pyramid; PubMed, MeSH, Cochrane, Scopus, Web of Science and Dentistry & Oral Sciences Source, and remote access through the MU-Plovdiv library; a live Boolean search on smoking and implant failure; reference managers; reporting guidelines and appraisal tools; a worked appraisal of the OPT trial; association versus effect; predatory journals.",
+                  tags: ["literature review", "PubMed", "critical appraisal", "reporting guidelines", "evidence"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-socmed-09-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-social-medicine-literature-review-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-social-medicine-literature-review-en.html" }
+                  ]
+                }
+              ],
+              handouts: [
+                {
+                  title: "Class 9 · Optional task: critical analysis of a dental publication",
+                  description: "An optional individual task — no deadline, not graded, written feedback only: a structured critical analysis (at most 1,000 words) of one published dental study, with the eight-section template, the feedback criteria and a shortlist of ten papers with DOIs.",
+                  tags: ["assignment", "critical appraisal", "optional"],
+                  date: "2026-11-01",
+                  version: "1.0",
+                  files: [{ label: "Handout (PDF)", href: "2026-2027-classes/dental-socmed-09-en-assignment.pdf", kind: "pdf" }]
+                }
+              ]
             }
           ]
         }

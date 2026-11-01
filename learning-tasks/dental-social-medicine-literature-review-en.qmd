@@ -1,0 +1,104 @@
+---
+title: "Social Medicine with Medical Ethics (Dental Medicine), class 9: literature review and critical appraisal"
+author: "Kostadin Kostadinov"
+date: 2026-11-01
+lang: en
+description: "75 minutes of group work after the 15-minute reading: scoping or systematic review, a PubMed search for fluoride varnish, matching reporting guidelines and appraisal tools to designs, correcting an overstated conclusion from the OPT trial, and checking a suspicious journal invitation. With self-check answers."
+categories: [English, Social Medicine, Research Methods, Assignment, "Dental Medicine", "2026/2027"]
+title-meta: "Social Medicine with Medical Ethics (Dental Medicine), class 9: literature review and critical appraisal"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-01
+---
+
+[15-minute reading](../15-minute-learning/dental-social-medicine-literature-review-en.qmd) · [Slides (PDF)](../2026-2027-classes/dental-socmed-09-en.pdf) · [Optional task handout (PDF)](../2026-2027-classes/dental-socmed-09-en-assignment.pdf)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. Open each self-check answer only after you have written down your own reasoning. For Task 2 you need a laptop or phone with access to [PubMed](https://pubmed.ncbi.nlm.nih.gov/).
+
+You are assessed on whether you match the type of review to the question, document a search so that someone else can repeat it, pick the right guideline and tool for each design, and state a result neither more nor less strongly than the evidence allows.
+
+The **individual critical-appraisal task** described in the [handout](../2026-2027-classes/dental-socmed-09-en-assignment.pdf) is separate from these group tasks. It is optional, has no deadline and is not graded — hand it in whenever you are ready if you want written feedback.
+
+## Task 1. Scoping or systematic review? — 10 minutes
+
+A colleague asks: "What has been published on oral HPV in dental settings?" Should she do a scoping or a systematic review? Rewrite her question so that it would suit the other type of review.
+
+::: {.callout-note collapse="true" title="Answer: a scoping review for a mapping question"}
+
+A **scoping review**. The question is broad and maps the literature — what was studied, with which designs and outcomes, and where the gaps are. It does not ask for one effect estimate, and scoping reviews usually do not appraise quality or pool results.
+
+A **systematic review** fits a focused PICO/PECO question whose answer should inform practice and that needs risk-of-bias appraisal — for example, "In adults, how much higher is the prevalence of oral HPV infection in smokers than in non-smokers?", or the class example: "Does smoking increase the risk of dental implant failure?"
+
+:::
+
+## Task 2. Build and document a PubMed search — 20 minutes
+
+Question: in children and adolescents, does fluoride varnish, compared with no varnish, reduce caries increment? Build a search with at least two concept blocks, run it in PubMed line by line using Advanced → History, add the Systematic Review filter, and record each line, the date and the number of hits. Did the Cochrane review by Marinho et al. (2013) appear? Why might another group get different numbers for "the same" question?
+
+::: {.callout-note collapse="true" title="Answer: two blocks, OR within, AND between"}
+
+One possible search:
+
+1. `"Fluorides, Topical"[MeSH] OR "fluoride varnish*"[tiab]`
+2. `"Dental Caries"[MeSH] OR caries[tiab]`
+3. `#1 AND #2`
+4. optionally `#3 AND (child*[tiab] OR adolescen*[tiab] OR "Child"[MeSH])`
+5. the Systematic Review filter
+
+Synonyms are joined with OR within a block and blocks with AND. Record the database, the date, the exact string and the number of hits for every line; the Systematic Review filter should bring up Marinho et al. 2013 (CD002279).
+
+Numbers differ because groups choose different synonyms, truncation and field tags, because PubMed's automatic term mapping changes a query that is typed without quotation marks or tags, and because the counts change with every database update. That is why the full search must be documented.
+
+:::
+
+## Task 3. Guidelines and tools — 15 minutes
+
+For each design, name the reporting guideline and an appropriate appraisal tool: (a) a randomised trial of a mouthwash; (b) a cross-sectional survey of caries prevalence; (c) a systematic review of interventions; (d) an interview study of dental anxiety. Then explain in one sentence the difference between the two kinds of instrument.
+
+::: {.callout-note collapse="true" title="Answer: what was reported versus how trustworthy it is"}
+
+(a) **CONSORT 2025**; RoB 2 or the CASP RCT checklist. (b) **STROBE**; the JBI checklist for prevalence or analytical cross-sectional studies. (c) **PRISMA 2020**; AMSTAR 2. (d) **COREQ** or **SRQR**; the CASP qualitative checklist.
+
+A reporting guideline checks *what was reported*; an appraisal tool judges *how trustworthy the results are*. "Not reported" is not the same as "not done", and older papers predate the current guidelines.
+
+:::
+
+## Task 4. Correct an overstated conclusion — 15 minutes
+
+The OPT trial reported preterm birth in 12.0% of women treated for periodontitis during pregnancy and 12.8% of those treated after delivery (HR 0.93, 95% CI 0.63–1.37, P = 0.70). A classmate writes: "Periodontal treatment has no effect on preterm birth." Rewrite the sentence correctly and explain what was wrong with it.
+
+::: {.callout-note collapse="true" title="Answer: not demonstrated is not disproved"}
+
+"In this trial, treating periodontitis at 13–21 weeks of pregnancy improved periodontal health but did not demonstrate a reduction in preterm birth; the confidence interval is compatible with anything from a 37% lower to a 37% higher hazard."
+
+A non-significant result is not proof of no effect, and the result applies to this population and this timing of treatment. The trial also does not show that periodontitis plays no causal role — only that this treatment, at this time, did not change the outcome measurably.
+
+:::
+
+## Task 5. A suspicious invitation — 10 minutes
+
+You receive an e-mail inviting you to publish your student project within 72 hours in the "International Journal of Advanced Dental Excellence", for a fee. List four checks you would make before replying.
+
+::: {.callout-note collapse="true" title="Answer: four checks"}
+
+1. Is the journal indexed in MEDLINE, Scopus or Web of Science, and listed in DOAJ if it is open access?
+2. Does it describe its peer-review process and its fees transparently, and does the publisher belong to COPE?
+3. Are the editors real, verifiable researchers in the field?
+4. Is a promise of very fast acceptance being used to solicit authors indiscriminately, perhaps outside their field?
+
+Use the Think. Check. Submit. checklist. Predatory journals put self-interest before scholarship (Grudniewicz et al., Nature 2019). Indexing and badges help verification but do not prove methodological quality.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. Name the three questions that stand behind every appraisal checklist.
+2. Explain why the crude totals in the Chrcanovic meta-analysis (6.35% vs 3.18%) are not the same as its pooled estimate.
+3. Choose one paper from the shortlist in the handout and name its design and the checklist you would use.
+
+### Feedback criteria
+
+A complete answer distinguishes narrative, scoping and systematic reviews and treats meta-analysis as a statistical method; combines MeSH headings with free-text synonyms, joins synonyms with OR and concepts with AND, and documents every line with the date and number of hits; matches CONSORT, STROBE, PRISMA, COREQ/SRQR to the design and RoB 2, JBI, AMSTAR 2 or CASP to the appraisal; reads an effect together with its confidence interval; and keeps "not demonstrated" apart from "disproved". Naming tools without linking them to a design does not complete the task.
