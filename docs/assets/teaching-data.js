@@ -539,10 +539,10 @@ window.TEACHING_DATA = {
               lectures: [
                 {
                   title: "Class 1 · Introduction to medical ethics",
-                  description: "Key concepts, historical development, ethical theories, the four principles, justice and case analysis.",
-                  tags: ["ethics", "principles", "case analysis"],
-                  date: "2026-09-13",
-                  version: "1.1",
+                  description: "Morality, ethics, law and medical deontology; consequentialism, deontology, virtue ethics and the ethics of care through one case; the four principles with specification and balancing, theories of justice and the critiques of principlism; from the Hippocratic Oath through Nuremberg, Geneva, Helsinki and Lisbon to the Oviedo Convention; the Bulgarian framework — Constitution, Health Act patient rights, the Bulgarian Medical Association and its sanctions, the Code of Professional Ethics and the four kinds of liability; an eight-step method, the four-box method and three cases.",
+                  tags: ["ethics", "principles", "ethical theories", "health law", "case analysis"],
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-01-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-introduction-en.html" },
@@ -551,10 +551,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 2 · Informed consent",
-                  description: "Ethical foundations and the five conditions for valid consent, decision-making capacity, the Bulgarian legal framework, refusal, emergencies and documentation.",
+                  description: "Consent as a process — five elements and four ethical foundations; what the treating physician must explain (Health Act, Art. 88), the written form and the right not to know; legal capacity and decision-making capacity; who consents under Art. 87 and what minors from 16 may decide alone (Ordinance No. 8/2018); informed refusal, Art. 89(2) versus Art. 90(4), transfusion, treatment against the will and previously expressed wishes; documentation — with twelve cases.",
                   tags: ["ethics", "informed consent", "health law"],
-                  date: "2026-09-20",
-                  version: "1.0",
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-02-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-informed-consent-en.html" },
@@ -750,10 +750,10 @@ window.TEACHING_DATA = {
               lectures: [
                 {
                   title: "Упражнение 1 · Въведение в медицинската етика",
-                  description: "Основни понятия, историческо развитие, етични теории, четирите принципа, справедливост и анализ на казус.",
-                  tags: ["етика", "принципи", "казуси"],
-                  date: "2026-09-13",
-                  version: "1.0",
+                  description: "Морал, етика, право и медицинска деонтология; консеквенциализъм, деонтология, етика на добродетелите и етика на грижата през един казус; четирите принципа с конкретизиране и претегляне, теории за справедливостта и критики към принципализма; от Хипократовата клетва през Нюрнберг, Женева, Хелзинки и Лисабон до Конвенцията от Овиедо; българската рамка — Конституция, права на пациента по Закона за здравето, БЛС и наказанията по ЗСОЛЛДМ, Кодекс за професионална етика и четирите вида отговорност; метод в осем стъпки, метод на четирите полета и три казуса.",
+                  tags: ["етика", "принципи", "етични теории", "здравно законодателство", "казуси"],
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-01-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-introduction-bg.html" },
@@ -762,10 +762,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 2 · Информирано съгласие",
-                  description: "Етични основи и петте условия за валидно съгласие, способност за вземане на решение, българската правна рамка, отказ, спешност и документиране.",
+                  description: "Съгласието като процес — пет елемента и четири етични основания; какво разяснява лекуващият лекар (Закон за здравето, чл. 88), писмена форма и право да не знаеш; дееспособност и способност за вземане на решение; кой дава съгласие по чл. 87 и какво решават сами непълнолетните от 16 години (Наредба № 8/2018); информиран отказ, чл. 89, ал. 2 срещу чл. 90, ал. 4, кръвопреливане, лечение против волята и предварително изразени желания; документиране — с дванадесет казуса.",
                   tags: ["етика", "информирано съгласие", "здравно законодателство"],
-                  date: "2026-09-20",
-                  version: "1.0",
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-02-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-informed-consent-bg.html" },
@@ -1091,10 +1091,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 2 · Informed consent",
-                  description: "Shared with medical ethics: the five conditions for valid consent, decision-making capacity, the Bulgarian legal framework, refusal, emergencies and documentation.",
+                  description: "Shared with medical ethics: consent as a process — five elements and four ethical foundations; what the treating physician must explain (Health Act, Art. 88), the written form and the right not to know; legal capacity and decision-making capacity; who consents under Art. 87 and what minors from 16 may decide alone (Ordinance No. 8/2018); informed refusal, Art. 89(2) versus Art. 90(4), transfusion, treatment against the will and previously expressed wishes; documentation — with twelve cases.",
                   tags: ["ethics", "informed consent", "health law"],
-                  date: "2026-09-20",
-                  version: "1.0",
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-02-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-informed-consent-en.html" },
@@ -1215,10 +1215,10 @@ window.TEACHING_DATA = {
               lectures: [
                 {
                   title: "Упражнение 2 · Информирано съгласие",
-                  description: "Общо с медицинската етика: петте условия за валидно съгласие, способност за вземане на решение, българската правна рамка, отказ, спешност и документиране.",
+                  description: "Общо с медицинската етика: съгласието като процес — пет елемента и четири етични основания; какво разяснява лекуващият лекар (Закон за здравето, чл. 88), писмена форма и право да не знаеш; дееспособност и способност за вземане на решение; кой дава съгласие по чл. 87 и какво решават сами непълнолетните от 16 години (Наредба № 8/2018); информиран отказ, чл. 89, ал. 2 срещу чл. 90, ал. 4, кръвопреливане, лечение против волята и предварително изразени желания; документиране — с дванадесет казуса.",
                   tags: ["етика", "информирано съгласие", "здравно законодателство"],
-                  date: "2026-09-20",
-                  version: "1.0",
+                  date: "2026-11-01",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-02-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-informed-consent-bg.html" },
