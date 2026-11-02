@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,18 +42,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="../favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-85095ff840c36d762545b7c5b4ab48a0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-442b0019d5b029544066bc21a9ea5c83.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-85095ff840c36d762545b7c5b4ab48a0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f1e5f53186eea7ee45b469109d0a2c63.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-9428e41df4ea88ae9660976a99a1885d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-a77c49f3ea693e0a5303c258335e3cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d956c78f4006edb9374543ca41f5bc89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -92,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -115,6 +116,7 @@ ul.task-list li input[type="checkbox"] {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -144,13 +146,19 @@ ul.task-list li input[type="checkbox"] {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -245,6 +253,7 @@ ul.task-list li input[type="checkbox"] {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -254,6 +263,7 @@ ul.task-list li input[type="checkbox"] {
         return;
       const alternate = e.matches
       toggleColorMode(alternate);
+      refreshSafariScrollbar();
       localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
       toggleGiscusIfUsed(alternate, darkModeDefault);
     });
@@ -267,15 +277,14 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kostadin Kostadinov</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -352,8 +361,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -401,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
@@ -419,7 +429,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
 
 
 
@@ -450,7 +460,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="capacity-planning-and-efficiency-at-mhat-dr.-petar-bonev-vidin">Capacity Planning and Efficiency at MHAT “Dr.&nbsp;Petar Bonev,” Vidin</h3>
 <p><strong>The scenario.</strong> MHAT “Dr.&nbsp;Petar Bonev” is a municipal multiprofile hospital for active treatment in Vidin, a town in north-western Bulgaria with a rapidly ageing and shrinking population. The municipality’s population has declined from 63,000 in 2015 to 48,500 in 2025. The hospital operates 280 beds across six departments: internal medicine (70 beds), surgery (55 beds), obstetrics-gynaecology (30 beds), paediatrics (25 beds), neurology (50 beds), and an intensive care unit (20 beds with continuous monitoring). In 2025, the hospital recorded 8,960 admissions and 128,100 occupied bed-days. The internal medicine department alone recorded 2,870 admissions and 40,180 bed-days, while the obstetrics-gynaecology department recorded 640 admissions and 5,760 bed-days. The hospital also recorded 395 inpatient deaths, of which 52 occurred within the first 24 hours of admission. Following discharge, 312 patients were readmitted to the hospital within 30 days.</p>
 <p><strong>Task 1.1.</strong> Calculate the overall bed provision rate for Vidin municipality (beds per 1,000 population). Classify it as low, medium, high, or very high.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -468,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 1.2.</strong> Calculate the overall bed occupancy rate, the average length of stay, and the bed turnover for the hospital as a whole.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -489,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 1.3.</strong> Calculate the same three indicators for the internal medicine department and the obstetrics-gynaecology department separately. Compare the two departments.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -508,7 +518,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 1.4.</strong> Calculate the overall inpatient mortality rate and the 24-hour mortality rate as a percentage of all deaths.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.4">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -527,7 +537,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 1.5.</strong> Calculate the 30-day readmission rate.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 1.5">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -545,7 +555,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> The hospital director proposes closing the obstetrics-gynaecology department and reallocating its 30 beds to internal medicine to address overcrowding. As a public health adviser, what factors would you consider before supporting or opposing this proposal?</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -570,7 +580,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="analysing-emergency-department-dysfunction-at-umhat-st.-marina-varna">Analysing Emergency Department Dysfunction at UMHAT “St.&nbsp;Marina,” Varna</h3>
 <p><strong>The scenario.</strong> Dr.&nbsp;Elena Stoyanova is a newly appointed quality manager at UMHAT “St.&nbsp;Marina,” a large university multiprofile hospital in Varna. Over the past year, the emergency department has experienced growing boarding times — patients admitted from the emergency department wait for inpatient beds while remaining physically in the emergency department. During October 2025, the emergency department registered 4,250 visits. Of these, 680 resulted in a decision to hospitalise. Among hospitalised patients, 238 waited more than 4 hours for an inpatient bed, and 41 waited more than 24 hours. The hospital has 620 active treatment beds, of which on average 558 were occupied on any given day during October. Only 38 beds were designated for emergency admissions (against the regulatory minimum of 10%). During the same month, 14 patients left the emergency department without being seen (LWBS) and 6 filed formal complaints about waiting times.</p>
 <p><strong>Task 2.1.</strong> Calculate the hospitalisation rate from emergency department visits in October.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -588,7 +598,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 2.2.</strong> What percentage of admitted patients experienced boarding of more than 4 hours? More than 24 hours?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -607,7 +617,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 2.3.</strong> Calculate the overall bed occupancy rate for October. Does the hospital meet the 10% emergency bed reservation requirement?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -626,7 +636,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 2.4.</strong> The hospital’s average length of stay in October was 6.2 days. If discharge planning improvements could reduce ALOS by 1 day, how many additional bed-days would be freed monthly, and how many additional patients could theoretically be admitted?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 2.4">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -646,7 +656,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> Dr.&nbsp;Stoyanova must present an action plan to the hospital board. What combination of short-term and long-term measures would you recommend to address the boarding crisis?</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -674,7 +684,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Patient B:</strong> Mr.&nbsp;Georgi Kolev, 55, a self-employed carpenter, presents with a stable, uncomplicated lower back pain episode. His pain is moderate (VAS 5/10), neurological examination is normal, and outpatient management with analgesics and physiotherapy would be clinically appropriate. However, Mr.&nbsp;Kolev insists on hospitalisation because he believes hospital care is “more serious” and he has heard that workers who are hospitalised receive higher sick leave benefits. He refuses to leave the emergency department. His health insurance is current.</p>
 <p><strong>Patient C:</strong> Ms.&nbsp;Radka Petrova, 42, presents after a domestic violence incident. She has facial bruising, a suspected nasal fracture, and acute anxiety. The nasal fracture, if confirmed, requires only outpatient management (reduction under local anaesthesia). However, she states that she is afraid to return home and has nowhere else to go. She does not know about social services and has no family support.</p>
 <p><strong>Task 3.1.</strong> For each patient, classify the hospitalisation indication as medical, social, or medico-social. Justify each classification in 2–3 sentences.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -693,7 +703,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 3.2.</strong> For Patient A, Dr.&nbsp;Dimitrov decides to admit her under Clinical Pathway X for community-acquired pneumonia. The pathway requires a minimum stay of 48 hours. What documentation must accompany the admission, and what happens when Mrs.&nbsp;Mehmedova is ready for discharge but still has no family support?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -712,7 +722,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 3.3.</strong> For Patient B, what are the patient’s rights regarding refusal of the physician’s recommendation for outpatient treatment? What documentation is required if the patient insists on refusing to leave?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 3.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -730,7 +740,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> Patient C’s situation involves domestic violence. Beyond the immediate medical treatment of the nasal fracture, what obligations does the hospital have, and what services should Dr.&nbsp;Dimitrov activate?</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -755,7 +765,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="performance-indicators-and-discharge-planning-at-a-private-hospital-in-sofia">Performance Indicators and Discharge Planning at a Private Hospital in Sofia</h3>
 <p><strong>The scenario.</strong> “Vita” Private Hospital in Sofia is a specialised hospital for active treatment in orthopaedic surgery. The hospital has 85 beds and contracts with the NHIF for 12 clinical pathways covering joint replacement, fracture fixation, arthroscopic procedures, and spinal surgery. In 2025, the hospital reported the following data: 5,100 admissions, 19,380 occupied bed-days, 15 inpatient deaths, 204 postoperative complications (78 wound infections, 56 deep vein thromboses, 42 reoperations, 28 other), and 382 unplanned readmissions within 30 days. The hospital offers physician choice at €200 and team choice at €400. During an inspection, the Executive Agency “Medical Supervision” found that 23 patients had been charged €350 for physician choice and that the hospital’s price list did not display the regulatory maximum limits.</p>
 <p><strong>Task 4.1.</strong> Calculate the average length of stay, bed occupancy rate, and bed turnover for the hospital.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -775,7 +785,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 4.2.</strong> Calculate the overall postoperative complication rate, the hospital-acquired infection rate (wound infections only), and the reoperation rate.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -795,7 +805,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 4.3.</strong> Calculate the 30-day readmission rate. What are three possible explanations for the figure you obtain?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -813,7 +823,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 4.4.</strong> Regarding the physician choice fee violations: what specific regulations has the hospital breached, and what are the correct regulatory maximums in EUR?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 4.4">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -830,7 +840,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> The hospital’s readmission rate (7.5%) is considerably higher than the municipal hospital in Scenario 1 (3.6%). Does this necessarily mean the private hospital provides worse quality care? What contextual factors should be considered before drawing conclusions?</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -855,7 +865,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="hospital-funding-clinical-pathways-and-out-of-pocket-payments">Hospital Funding, Clinical Pathways, and Out-of-Pocket Payments</h3>
 <p><strong>The scenario.</strong> Mr.&nbsp;Ivan Petrov, 45, is admitted to UMHAT “St.&nbsp;Ivan Rilski” in Sofia for a planned orthopaedic surgery (joint replacement). He is fully insured under the National Health Insurance Fund (NHIF). The NHIF reimburses the hospital prospectively for this specific clinical pathway. Mr.&nbsp;Petrov’s inpatient stay lasts 7 days. During the admission process, the patient voluntarily requests the following additional non-medical services: to be operated on by a specific, highly requested surgical team, and a private room with enhanced amenities, priced by the hospital at €20 per day. Additionally, the implantable medical device required for the surgery costs €1,200, which is not covered by the standard NHIF benefits package.</p>
 <p><strong>Task 5.1.</strong> Calculate the statutory daily user fee for Mr.&nbsp;Petrov’s 7-day hospital stay according to Bulgarian regulations. What is the annual limit?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -873,7 +883,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 5.2.</strong> Assuming the hospital charges the legal maximum for the choice of medical team, what is this fee in EUR?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -891,7 +901,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 5.3.</strong> Calculate the total Out-of-Pocket (OOP) payment for Mr.&nbsp;Petrov, assuming all his requests are met and the hospital charges the legal maximum for the team choice.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 5.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -909,7 +919,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> Discuss the equity of the Bulgarian healthcare financing model based on this scenario. While the NHIF officially covers the clinical pathway (the algorithm, staff work, and basic medications), the patient’s out-of-pocket expenses are substantial. How do the legal caps on physician and team choice protect patients from financial exploitation, and what are the implications of expensive medical devices falling outside the pathway reimbursement?</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -934,7 +944,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="hospital-organization-structural-blocks-and-regulatory-approval">Hospital Organization, Structural Blocks, and Regulatory Approval</h3>
 <p><strong>The scenario.</strong> A private healthcare investment group, “MedInvest,” wishes to open a new Specialized Hospital for Oncology in Burgas. They recognize a regional deficit in comprehensive cancer care and have secured private funding to construct a state-of-the-art facility. Their business model relies on immediately establishing an inpatient block with 100 active treatment beds, advanced radiotherapy bunkers, and a large outpatient clinic. To ensure financial sustainability, they plan to contract with the National Health Insurance Fund (NHIF) from day one. They have appointed an experienced oncologist as the planned hospital director, though she lacks formal management qualifications.</p>
 <p><strong>Task 6.1.</strong> According to the Medical Establishments Act, every hospital must be organized into three mandatory functional structural blocks. Identify these three blocks and provide one example of a unit within each block that would be appropriate for this planned oncology hospital.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.1">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -951,7 +961,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 6.2.</strong> Evaluate the planned appointment of the hospital director. Does the proposed candidate meet the legal requirements to lead the institution?</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.2">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -968,7 +978,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Task 6.3.</strong> Outline the legal and organizational steps the hospital must take before it can officially open the 100 beds and receive funding from the NHIF.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Model Answer 6.3">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -985,7 +995,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Discussion question.</strong> Why does the state heavily regulate the opening of new hospital beds and NHIF contracting through instruments like the National Health Map? Discuss how an unregulated over-supply of hospital beds might lead to inefficiencies, and conversely, the risks of artificial under-supply.</p>
-<div class="callout callout-style-default callout-warning callout-titled" title="Discussion — Model Answer">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1020,15 +1030,50 @@ ul.task-list li input[type="checkbox"] {
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -1107,7 +1152,8 @@ ul.task-list li input[type="checkbox"] {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1116,8 +1162,69 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1131,6 +1238,7 @@ ul.task-list li input[type="checkbox"] {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1293,44 +1401,54 @@ ul.task-list li input[type="checkbox"] {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1428,6 +1546,9 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

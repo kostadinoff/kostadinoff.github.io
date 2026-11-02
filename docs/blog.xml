@@ -9,7 +9,7 @@
 <link>https://kostadinoff.github.io/blog.html</link>
 <atom:link href="https://kostadinoff.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on research workflows, epidemiological methods, and scientific tooling.</description>
-<generator>quarto-1.10.20</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Wed, 26 Aug 2026 21:00:00 GMT</lastBuildDate>
 <item>
   <title>A Markdown-First Research Workflow for My Colleagues (and Their AI Agents)</title>
@@ -79,6 +79,7 @@
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-project-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
+
 <pre class="mermaid mermaid-js" data-label="fig-project-flow">flowchart LR
   H[Researcher] --&gt; S[Plain-text source]
   A[AI agent] --&gt; S
@@ -5361,6 +5362,7 @@ font-style: inherit;">reference =</span> european_standard_population)</span></c
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
+
 <pre class="mermaid mermaid-js">flowchart TD
   A["data/raw/&lt;br/&gt;(immutable)"] --&gt; B["01_data_prep.R"]
   B --&gt; C["data/processed/"]
