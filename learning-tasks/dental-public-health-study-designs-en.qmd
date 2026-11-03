@@ -1,0 +1,111 @@
+---
+title: "Dental Public Health, Class 10: recognising study designs and measuring association"
+author: "Kostadin Kostadinov"
+date: 2026-11-03
+lang: en
+description: "75 minutes of group work after the 15-minute reading: naming the design of dental studies, RR and risk difference in a cohort, the odds ratio in a case–control study, spotting confounding and bias, planning a trial and judging the strength of evidence. With self-check answers."
+categories: [English, Dental Public Health, Epidemiology, Assignment, "Dental Medicine", "2026/2027"]
+title-meta: "Dental Public Health, Class 10: recognising study designs and measuring association"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-03
+---
+
+[15-minute reading](../15-minute-learning/dental-public-health-study-designs-en.qmd) · [Slides (PDF)](../2026-2027-classes/dental-10-en.pdf) · [Български](dental-public-health-study-designs-bg.qmd)
+
+## How to work
+
+Read the preparation material first, then work in groups of three or four. The reading takes **15 minutes** and the tasks **75 minutes** — one 90-minute class. Choose a discussion lead, a note-taker and a spokesperson, and rotate the roles between tasks. A calculator is enough. Open each self-check only after your group has agreed on an answer.
+
+You are assessed on naming designs with the three questions (who assigned the exposure, is there a comparison group, which came first), calculating measures from a correctly built 2 × 2 table, and saying what could make an association misleading.
+
+## Task 1. Name the design — 15 minutes
+
+For each study, name the design and the one question that decided it:
+
+1. All 12-year-olds in a sample of Plovdiv schools are examined once for untreated caries.
+2. A dentist describes four patients who developed the same unusual mucosal lesion after using a new mouthwash.
+3. Regions with higher sugar sales per person are compared with regions with lower sales for mean DMFT.
+4. Children whose parents chose sealants and children whose parents did not are followed for three years.
+5. Patients with oral cancer and patients without cancer from the same clinics are asked about past tobacco chewing.
+6. Twenty villages are randomly allocated to a school toothbrushing programme or to no programme.
+
+::: {.callout-note collapse="true" title="Answer"}
+
+1. **Cross-sectional survey** — exposure and outcome at one moment, no follow-up.
+2. **Case series** — no comparison group.
+3. **Ecological study** — the data are for regions, not individuals.
+4. **Prospective cohort study** — the exposure was not assigned by the investigator and the children are followed forward from the exposure.
+5. **Case–control study** — it starts from the outcome and looks back for the exposure.
+6. **Cluster randomised (community) trial** — the investigator assigned the intervention, by village.
+
+:::
+
+## Task 2. A cohort study — 15 minutes
+
+In a hypothetical cohort, 800 adults without periodontitis are followed for 5 years with no losses. Of 200 people with diabetes, 40 develop periodontitis; of 600 without diabetes, 48 do. Build the 2 × 2 table and calculate the risks, the RR and the risk difference. Interpret each in one sentence.
+
+::: {.callout-note collapse="true" title="Answer: RR = 2.5; risk difference 12 percentage points"}
+
+| | Periodontitis | No periodontitis | Total |
+|---|---|---|---|
+| Diabetes | 40 | 160 | 200 |
+| No diabetes | 48 | 552 | 600 |
+
+- Risk with diabetes = 40/200 = **20%**; without = 48/600 = **8%**
+- **RR** = 20/8 = **2.5** — people with diabetes had two and a half times the 5-year risk.
+- **Risk difference** = 20 − 8 = **12 percentage points** — of every 100 people with diabetes, about 12 more developed periodontitis in 5 years than if they had the risk of people without diabetes.
+
+:::
+
+## Task 3. A case–control study — 15 minutes
+
+In a hypothetical study, 120 patients with oral cancer and 240 controls are interviewed. Heavy drinking is reported by 72 cases and 60 controls. Calculate the OR. Why may you not say that "72/132 = 55% of heavy drinkers get oral cancer"? Name one bias that threatens the result.
+
+::: {.callout-note collapse="true" title="Answer: OR = 4.5"}
+
+| | Cases | Controls |
+|---|---|---|
+| Heavy drinking | 72 | 60 |
+| Not heavy drinking | 48 | 180 |
+
+**OR** = (72 × 180)/(60 × 48) = 12,960/2,880 = **4.5**. The odds of heavy drinking were 4.5 times higher among cases than controls; because oral cancer is rare, the OR approximates the RR.
+
+The investigator chose 120 cases and 240 controls, so 72/132 is not a risk — it depends on that choice. **Recall bias**: patients with cancer may think harder about, and report more fully, their past drinking than healthy controls. **Selection bias** is possible if controls do not come from the same population as the cases.
+
+:::
+
+## Task 4. Confounding — 10 minutes
+
+The study in Task 3 also finds that heavy drinkers smoke much more often than other people. Why does this matter, and how could the researchers deal with it in the design and in the analysis?
+
+::: {.callout-note collapse="true" title="Answer: smoking is a confounder"}
+
+Smoking is linked with heavy drinking and is itself a cause of oral cancer, so part of the association between drinking and cancer may be due to smoking — **confounding**. In the design: restrict to non-smokers or match cases and controls on smoking (then smoking itself cannot be studied). In the analysis: **stratify** by smoking and compare the OR in smokers and non-smokers, or adjust for smoking in a regression model. Randomisation, which balances confounders, is impossible here — nobody can be assigned to drink.
+
+:::
+
+## Task 5. Plan a trial — 15 minutes
+
+A company has a new high-fluoride varnish and wants to show that it prevents caries better than the standard varnish in children aged 6–8. Describe the design: allocation, control group, blinding, outcome and length of follow-up. Why is a placebo control not acceptable here, and what does that mean for the sample size?
+
+::: {.callout-note collapse="true" title="Answer: RCT with an active control"}
+
+- **Randomised controlled trial**: children (or, for practical reasons, schools — a cluster trial) are randomly allocated, possibly stratified by previous caries experience.
+- **Active control**: the standard varnish; giving no fluoride would withhold an established benefit, which is unethical.
+- **Allocation concealment and blinding**: whoever enrols a child does not know the next allocation; the outcome assessors do not know the group (and, if the varnishes look alike, neither do the children and the dentists applying them).
+- **Outcome**: new carious surfaces (DMFS increment) after 2–3 years, examined by calibrated examiners.
+- Because the expected difference between two active products is smaller than against a placebo, **a larger sample** is needed.
+
+:::
+
+## Individual final task — 5 minutes
+
+Answer briefly without opening the answers:
+
+1. Why does a cross-sectional survey not establish that a factor causes a disease?
+2. Which design would you choose to study risk factors for oral cancer, and why?
+3. Which Bradford Hill viewpoint is required for causation?
+
+### Feedback criteria
+
+A complete answer names each design with the three questions; puts the exposure in the rows and the outcome in the columns of the 2 × 2 table; calculates risks only in cohorts and trials and odds ratios in case–control studies; distinguishes chance, bias and confounding; and links the strength of evidence to the design.

@@ -1197,6 +1197,18 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-dental-epidemiology-en.html" },
                     { label: "Student tasks", href: "learning-tasks/dental-public-health-dental-epidemiology-en.html" }
                   ]
+                },
+                {
+                  title: "Class 10 · Epidemiological study designs",
+                  description: "Descriptive, analytic and experimental studies: three questions that identify a design; case reports and case series, cross-sectional and ecological studies (ecological fallacy); cohort and case–control studies with the 2 × 2 table, relative risk, risk difference and odds ratio (worked examples, the Dunedin cohort, Doll and Hill); randomised controlled and cluster trials, allocation concealment, placebo and active controls, blinding by role, before–after and crossover designs, trial purpose and phases; chance, selection and information bias, confounding with a worked stratification example; when the OR approximates the RR; Bradford Hill's viewpoints and the levels of evidence.",
+                  tags: ["epidemiology", "study designs", "cohort", "case–control", "RCT"],
+                  date: "2026-11-03",
+                  version: "1.0",
+                  files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-10-en.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-minute reading", href: "15-minute-learning/dental-public-health-study-designs-en.html" },
+                    { label: "Student tasks", href: "learning-tasks/dental-public-health-study-designs-en.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1320,6 +1332,18 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-dental-epidemiology-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/dental-public-health-dental-epidemiology-bg.html" }
+                  ]
+                },
+                {
+                  title: "Упражнение 10 · Видове епидемиологични проучвания",
+                  description: "Описателни, аналитични и експериментални проучвания: три въпроса, които разпознават дизайна; доклад и серия от случаи, срезово и екологично проучване (екологична заблуда); кохортно проучване и „случай–контрола“ с таблица 2 × 2, относителен риск, разлика в риска и отношение на шансовете (решени примери, кохортата от Дънидин, Дол и Хил); рандомизирани контролирани и клъстерни изпитвания, скриване на разпределението, плацебо и активна контрола, заслепяване по роли, дизайн „преди–след“ и кръстосан дизайн, цел и фази на изпитванията; случайна грешка, систематична грешка при подбора и информационна грешка, замъгляващ фактор с решен пример за стратификация; кога OR се доближава до RR; критериите на Брадфорд Хил и нивата на доказателствата.",
+                  tags: ["епидемиология", "видове проучвания", "кохортно проучване", "случай–контрола", "РКИ"],
+                  date: "2026-11-03",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-10-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-study-designs-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/dental-public-health-study-designs-bg.html" }
                   ]
                 }
               ],
