@@ -1176,10 +1176,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 8 · Epidemiology basics",
-                  description: "The first class of the epidemiology part, starting from zero: definition and uses of epidemiology, a short history including the fluoride story (McKay, Dean, Grand Rapids), descriptive, analytic and experimental epidemiology, the epidemiological triad and Keyes' triad, the natural history of caries and levels of prevention, the iceberg of morbidity, and the measures of frequency — proportion, rate and ratio, prevalence, cumulative incidence, incidence rate with person-time, P ≈ IR × D, mortality and case-fatality, crude rates and direct age standardisation — with the main data sources in Bulgaria.",
+                  description: "The first class of the epidemiology part, starting from zero: definition and uses of epidemiology, the clinical versus the population question, a short history including the fluoride story (McKay, Dean, Grand Rapids), describing a problem by person, place and time, the epidemiological triad and Keyes' triad, the natural history of caries and levels of prevention, the iceberg of morbidity, case definitions and choosing the denominator (children versus teeth), and the measures of frequency with worked examples — proportion, rate and ratio, point and period prevalence, cumulative incidence, incidence rate with person-time, P ≈ IR × D, mortality, proportionate mortality and case-fatality, crude rates and weighted direct age standardisation — and the main data sources in Bulgaria, including why practice visits are not population prevalence. Study designs follow in class 10.",
                   tags: ["epidemiology", "measures of frequency", "prevalence", "incidence", "standardisation"],
-                  date: "2026-11-01",
-                  version: "1.0",
+                  date: "2026-11-03",
+                  version: "1.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-08-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-epidemiology-basics-en.html" },
@@ -1188,10 +1188,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 9 · Epidemiology of dental diseases",
-                  description: "Oral health indices with worked calculations — DMFT/DMFS/dmft and the WHO counting rules, the Significant Caries Index and Care Index, ICDAS and the D1/D3 thresholds, CPITN and the modified CPI, PI, GI, OHI-S, Dean's index and the Community Fluorosis Index; examiner calibration; the WHO Oral Health Surveys methodology (index ages, pathfinder sample) and goals up to the Global Oral Health Action Plan 2023–2030; the global burden and Bulgaria's position; sugars, fluoride, tobacco, HPV, the common risk factor approach and the social gradient (Dunedin cohort).",
+                  description: "Oral health indices with worked calculations — DMFT/DMFS/dmft, teeth versus surfaces, the D/F/M counting rules of the WHO (temporary fillings, missing and excluded teeth, mixed dentition) with a worked DMFT 4 vs DMFS 12 example, the Significant Caries Index and Care Index, ICDAS and the D1/D3 thresholds, CPITN and the modified CPI, PI, GI, OHI-S, Dean's index and the Community Fluorosis Index; examiner calibration; the WHO Oral Health Surveys methodology (index ages, pathfinder sample) and goals up to the Global Oral Health Action Plan 2023–2030; the global burden and Bulgaria's position; sugars, fluoride, tobacco, HPV, the common risk factor approach and the social gradient (Dunedin cohort).",
                   tags: ["epidemiology", "oral health indices", "DMFT", "WHO surveys", "risk factors"],
-                  date: "2026-11-01",
-                  version: "1.0",
+                  date: "2026-11-03",
+                  version: "1.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/dental-09-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-dental-epidemiology-en.html" },
@@ -1300,10 +1300,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 8 · Основи на епидемиологията",
-                  description: "Първото упражнение от епидемиологичната част, от нулата: определение и приложения на епидемиологията, кратка история и историята на флуорида (Маккей, Дийн, Гранд Рапидс), описателна, аналитична и експериментална епидемиология, епидемиологична триада и триада на Keyes, естествен ход на кариеса и нива на профилактика, айсберг на заболеваемостта и мерките за честота — пропорция, коефициент и отношение, болестност, кумулативна заболеваемост, коефициент на заболеваемост с човеко-време, P ≈ IR × D, смъртност и леталитет, груби коефициенти и пряка стандартизация по възраст — и основните източници на данни в България.",
+                  description: "Първото упражнение от епидемиологичната част, от нулата: определение и приложения на епидемиологията, клиничният и популационният въпрос, кратка история и историята на флуорида (Маккей, Дийн, Гранд Рапидс), описание на проблема чрез „кой, къде, кога“, епидемиологична триада и триада на Keyes, естествен ход на кариеса и нива на профилактика, айсберг на заболеваемостта, определение на случай и избор на знаменател (деца или зъби) и мерките за честота с решени примери — пропорция, коефициент и отношение, моментна и периодна болестност, кумулативна заболеваемост, коефициент на заболеваемост с човеко-време, P ≈ IR × D, смъртност, пропорционална смъртност и леталитет, груби коефициенти и претеглена пряка стандартизация по възраст — и основните източници на данни в България, включително защо посещенията в практиката не са болестност в населението. Видовете проучвания са в упражнение 10.",
                   tags: ["епидемиология", "мерки за честота", "болестност", "заболеваемост", "стандартизация"],
-                  date: "2026-11-01",
-                  version: "1.0",
+                  date: "2026-11-03",
+                  version: "1.1",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-08-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-epidemiology-basics-bg.html" },
@@ -1312,10 +1312,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 9 · Епидемиология на денталните заболявания",
-                  description: "Индекси на оралното здраве с решени примери — DMFT/DMFS/dmft и правилата на СЗО, Significant Caries Index и индекс на грижа, ICDAS и праговете D1/D3, CPITN и модифицираният CPI, PI, GI, OHI-S, индексът на Dean и индексът на общностна флуороза; калибриране на изследователите; методиката на СЗО за орални проучвания (индексни възрасти, pathfinder извадка) и целите до Глобалния план за действие 2023–2030; глобалното бреме и мястото на България; захари, флуорид, тютюн, HPV, подходът на общите рискови фактори и социалният градиент (кохортата от Дънидин).",
+                  description: "Индекси на оралното здраве с решени примери — DMFT/DMFS/dmft, зъби и повърхности, правилата на СЗО за D/F/M (временни обтурации, липсващи и изключени зъби, смесено съзъбие) с решен пример DMFT 4 и DMFS 12, Significant Caries Index и индекс на грижа, ICDAS и праговете D1/D3, CPITN и модифицираният CPI, PI, GI, OHI-S, индексът на Dean и индексът на общностна флуороза; калибриране на изследователите; методиката на СЗО за орални проучвания (индексни възрасти, pathfinder извадка) и целите до Глобалния план за действие 2023–2030; глобалното бреме и мястото на България; захари, флуорид, тютюн, HPV, подходът на общите рискови фактори и социалният градиент (кохортата от Дънидин).",
                   tags: ["епидемиология", "индекси на оралното здраве", "DMFT", "проучвания на СЗО", "рискови фактори"],
-                  date: "2026-11-01",
-                  version: "1.0",
+                  date: "2026-11-03",
+                  version: "1.1",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/dental-09-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-dental-epidemiology-bg.html" },
