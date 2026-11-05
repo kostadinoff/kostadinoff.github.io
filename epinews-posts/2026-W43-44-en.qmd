@@ -1,0 +1,49 @@
+---
+title: "Epidemiological News: Weeks 43–44, 2026"
+author: "Kostadin Kostadinov"
+date: 2026-11-05
+description: "Weeks 43–44 of 2026 (19 October–1 November) brought further international spread of Bundibugyo Ebola disease and the first documented human Shamonda virus infection in France ([WHO Ebola update](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622), [WHO Shamonda update](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623)). European respiratory activity remained low, with SARS-CoV-2 the main contributor in Week 43 ([ECDC/ERVISS](https://www.ecdc.europa.eu/en/public-health-events/2023-irv-00007/2026-11-03)). In Bulgaria, influenza/ARI consultations rose modestly, measles notifications fell from five to two, and scarlet fever rose from 33 to 62; cumulative hepatitis and campylobacteriosis excesses persisted ([respiratory surveillance](https://grippe.gateway.bg/table.php), [NCPHA Week 44](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_44.xls), [NCIPD Week 44](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_44.pdf))."
+categories:
+  - "English"
+title-meta: "Epidemiological News: Weeks 43–44, 2026"
+author-meta: "Kostadin Kostadinov"
+date-meta: 2026-11-05
+---
+
+## Infectious Diseases: Global Perspective
+
+### Contact and Body-Fluid Transmission
+
+- **Bundibugyo Ebola disease — Nigeria affected; transmission continues in the DRC.** Nigeria confirmed an imported case on 20 October in a traveller from Uganda; the exposure source remained under investigation. The patient was medically evacuated to Switzerland on 26 October. Kenya had nine confirmed cases, including two deaths, by 26 October, all belonging to the cluster initiated by an imported case. In the Democratic Republic of the Congo, cumulative confirmed cases reached 10,274, including 4,992 deaths, through 28 October. These are cumulative notifications subject to reconciliation, rather than fortnight incidence. ECDC retained a very low overall risk assessment for the EU/EEA population; recognition and safe referral of an exposed returning traveller remain the Bulgarian preparedness concern. [WHO, 23 October](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622), [ECDC, 30 October](https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-10-30).
+
+---
+
+## Infectious Diseases: European Union/European Economic Area
+
+### Respiratory and Droplet Transmission
+
+- **Respiratory season — SARS-CoV-2 leads, influenza and RSV remain low.** ECDC's 3 November update covers **Week 43**, not Week 44. Consultation rates remained low or at baseline in all reporting countries. Median SARS-CoV-2 test positivity was 5.2% in primary care and 4.8% in secondary care; most hospital detections were among adults over 65. Influenza remained at baseline or low activity, with A(H1N1)pdm09 the main identified subtype; RSV activity was very low. These regional indicators cannot substitute for Bulgarian pathogen-specific testing. [ECDC/ERVISS](https://www.ecdc.europa.eu/en/public-health-events/2023-irv-00007/2026-11-03).
+
+- **Measles — Bulgaria remains prominent in the monthly data.** September surveillance recorded 66 cases across the EU/EEA, including 25 from Bulgaria. These monthly reports lag the current fortnight and remain subject to revision; they should not be added to the weekly Bulgarian notifications below. [ECDC monthly measles report, data retrieved 28 October](https://measles-rubella-monthly.ecdc.europa.eu/).
+
+### Zoonotic Transmission
+
+- **Shamonda virus — first documented human infection.** France reported infection in a severely immunocompromised older man who developed encephalitis and died on 8 October. WHO's 2 November account confirmed the virus through sequencing and RT-PCR, with no additional human cases detected. The source and route of infection remain unknown; a midge-borne route is plausible but unproven. Widespread animal circulation in Europe makes this relevant to Bulgarian One Health surveillance, but one case cannot establish the frequency or severity of infection in the general population. [ECDC, 30 October](https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00036/2026-10-30), [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623).
+
+---
+
+## Infectious Diseases: Bulgaria
+
+The national comparison covers **Week 43 (19–25 October)** and **Week 44 (26 October–1 November)**, with sources checked on **5 November**. Both weekly bulletins were available. Notifications reflect testing and reporting as well as transmission. ECDC now publishes daily event updates in place of the weekly CDTR; source-specific cutoffs are stated above. [NCIPD Week 43](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_43.pdf), [Week 44](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_44.pdf), [ECDC archive](https://www.ecdc.europa.eu/en/publications-and-data/monitoring/weekly-threats-reports).
+
+### Respiratory and Droplet Transmission
+
+- **Influenza/ARI and COVID-19 — modest weekly increases.** Sentinel consultations rose from 1,609 to 1,697 among 348,106 monitored people (**+5.5%**); incidence increased from 46.22 to 48.75 per 10,000. Week 44 incidence was highest among children aged 0–4 years, at 240.35 per 10,000. COVID-19 notifications rose from 27 to 32 (+18.5%); all 32 Week 44 cases were confirmed. Both changes fall below the series' 20% weekly signal threshold and are included for seasonal context. These data do not quantify influenza or RSV circulation. On retrieval, dashboard **offset=2 identified Week 43** and **offset=1 Week 44**. [Respiratory Week 43](https://grippe.gateway.bg/table.php?offset=2), [Week 44](https://grippe.gateway.bg/table.php?offset=1), [NCIPD Week 44](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_44.pdf).
+
+- **Measles — seven notifications across the fortnight.** Week 43 recorded five cases: Sofia-grad four and Vratsa one. Week 44 recorded two, both in Sofia-grad, a 60.0% weekly decrease. Both spreadsheets contain complete measles rows, unlike Week 42; blank cells in that earlier report still cannot be assumed to mean zero. The small current counts do not establish interruption of transmission. [NCPHA Week 43](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_43.xls), [Week 44](https://ncpha.government.bg/uploads/statistics/current/2026/ZRZ_WEEK_44.xls).
+
+- **Scarlet fever — weekly rise despite a lower annual total.** Notifications increased from 33 to 62 (**+87.9%**), comprising 15 possible, 25 probable and 22 confirmed cases in Week 44. Cumulative notifications reached 2,044 versus 2,919 in 2025 (−30.0%). The weekly rise warrants monitoring; aggregate notifications alone do not establish a linked outbreak. [NCIPD Week 44](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_44.pdf).
+
+### Fecal-Oral and Bloodborne Transmission
+
+- **Hepatitis and campylobacteriosis — persistent cumulative excesses.** Hepatitis ABCDEN rose from 30 to 34 notifications (+13.3%), below the weekly threshold, but the cumulative total remained 20.0% above 2025 (1,474 versus 1,228). The aggregate category prevents virus-specific interpretation. Confirmed campylobacteriosis increased from six to thirteen cases (+116.7%); its cumulative total was 535 versus 397 (+34.8%). The large weekly percentage rests on small numbers and does not identify a common source. [NCIPD Week 43](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_43.pdf), [Week 44](https://www.ncipd.org/images/Bulletin/bg/2026/Analysis_week_44.pdf).
