@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-11-01",
+  updated: "2026-11-08",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -999,6 +999,18 @@ window.TEACHING_DATA = {
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-statistics-standardization-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/medical-statistics-standardization-bg.html" }
                   ]
+                },
+                {
+                  title: "Упражнение 2 · Дескриптивна статистика. Доверителен интервал",
+                  description: "Признаци и скали за измерване; средна аритметична, медиана и мода при негрупирани и групирани данни (интервален ред, цената на групирането); размах, стандартно отклонение, правило на трите сигми, интерквартилен размах и боксплот с правилото на Тюки; стандартно отклонение срещу стандартна грешка; 95 % доверителен интервал за средна (t с n − 1 степени на свобода) и за относителен дял, тълкуване и ширина на интервала; решени примери от упражнението на проф. Искров, задача в час и текуща проверка по стандартизация.",
+                  tags: ["дескриптивна статистика", "стандартно отклонение", "стандартна грешка", "доверителен интервал"],
+                  date: "2026-11-08",
+                  version: "1.0",
+                  files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/stat-02-bg.pdf", kind: "pdf" }],
+                  links: [
+                    { label: "15-минутна подготовка", href: "15-minute-learning/medical-statistics-descriptive-ci-bg.html" },
+                    { label: "Задачи за студенти", href: "learning-tasks/medical-statistics-descriptive-ci-bg.html" }
+                  ]
                 }
               ],
               handouts: [
@@ -1009,6 +1021,14 @@ window.TEACHING_DATA = {
                   date: "2026-11-01",
                   version: "1.0",
                   files: [{ label: "Задание (PDF)", href: "2026-2027-classes/stat-01-bg-homework.pdf", kind: "pdf" }]
+                },
+                {
+                  title: "Домашна 2 · Дескриптивна статистика и доверителен интервал",
+                  description: "Две задачи: средна, стандартно отклонение и 95 % доверителен интервал от интервален ред (дни до възстановяване), сравнение на X̄ ± 2S с доверителния интервал; 95 % и 99 % доверителен интервал за ваксинационен обхват и сравнение с целевите 95 %.",
+                  tags: ["домашна работа", "доверителен интервал"],
+                  date: "2026-11-08",
+                  version: "1.0",
+                  files: [{ label: "Задание (PDF)", href: "2026-2027-classes/stat-02-bg-homework.pdf", kind: "pdf" }]
                 }
               ]
             }

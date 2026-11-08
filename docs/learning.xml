@@ -10,7 +10,225 @@
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sat, 31 Oct 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Дескриптивна статистика и доверителен интервал</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-statistics-descriptive-ci-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/stat-02-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-statistics-descriptive-ci-bg.html">Задачи за студенти</a> · <a href="../2026-2027-classes/stat-02-bg-homework.pdf">Домашна работа (PDF)</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене. Материалът следва презентацията „Дескриптивна статистика. Доверителен интервал“. След прочита трябва да можете да изберете подходящите показатели за даден признак, да изчислите средна и стандартно отклонение от групирани данни и да построите и тълкувате 95 % доверителен интервал.</p>
+<section id="две-половини-на-статистиката" class="level2">
+<h2 class="anchored" data-anchor-id="две-половини-на-статистиката">Две половини на статистиката</h2>
+<p><strong>Дескриптивната</strong> статистика описва какво сме наблюдавали <strong>в извадката</strong>: колко е типичната стойност и колко са разпръснати наблюденията. <strong>Инферентната</strong> статистика пренася резултата към <strong>генералната съвкупност</strong>, от която е взета извадката. Доверителният интервал е първият инструмент от втората половина.</p>
+</section>
+<section id="признаци-и-скали" class="level2">
+<h2 class="anchored" data-anchor-id="признаци-и-скали">Признаци и скали</h2>
+<p>Скалата, на която е измерен един признак, определя кои показатели са допустими.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 37%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Скала</th>
+<th style="text-align: left;">Какво е</th>
+<th style="text-align: left;">Пример</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">номинална</td>
+<td style="text-align: left;">категории без ред (дихотомна — само две)</td>
+<td style="text-align: left;">кръвна група; пол</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ординална</td>
+<td style="text-align: left;">категории с ред, но разликите не са измерими</td>
+<td style="text-align: left;">стадий I–IV</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">интервална</td>
+<td style="text-align: left;">числа; „0“ не означава липса на признака</td>
+<td style="text-align: left;">температура в °C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">пропорционална</td>
+<td style="text-align: left;">числа; „0“ е липса; има смисъл и отношението</td>
+<td style="text-align: left;">тегло, брой дни</td>
+</tr>
+</tbody>
+</table>
+<p>Количествените признаци са <strong>дискретни</strong> (брой раждания) или <strong>непрекъснати</strong> (тегло, кръвно налягане). Средна и стандартно отклонение имат смисъл само за количествени признаци; качествените се описват с <strong>относителен дял</strong>.</p>
+</section>
+<section id="централна-тенденция" class="level2">
+<h2 class="anchored" data-anchor-id="централна-тенденция">Централна тенденция</h2>
+<p><strong>Средната аритметична</strong> е <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X%20=%20%5Csum%20X_i%20/%20n">. При <strong>интервален вариационен ред</strong> всяка стойност в интервала се заменя със средата му <img src="https://latex.codecogs.com/png.latex?X_u">, а честотата <img src="https://latex.codecogs.com/png.latex?f"> е тегло: <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X%20=%20%5Csum%20(X_u%20%5Ccdot%20f)%20/%20%5Csum%20f">. В листа с формули същото е записано като <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X_w%20=%20%5Csum%20(x_i%20w_i)/%5Csum%20w_i">.</p>
+<p>Пример от упражнението: преживяемостта на 30 пациенти, групирана в интервали 1–5 (7 пациенти), 6–10 (14) и 11–15 (9) месеца, дава <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X%20=%20250%20/%2030%20=%208%7B,%7D33"> месеца. От суровите 30 стойности средната е 8,50 месеца — разликата е цената на групирането. Когато суровите данни са налице, изчисляваме от тях. <strong>Не закръглявайте междинните резултати</strong>: ако заменим 8,33 с 8, всички следващи стъпки се изместват.</p>
+<p><strong>Медианата</strong> разделя подредения ред на две равни части (при четен брой — средната на двете средни стойности). <strong>Модата</strong> е най-честата стойност. <strong>Относителният дял</strong> <img src="https://latex.codecogs.com/png.latex?%5Chat%20p%20=%20m/n%20%5Ctimes%20100"> описва качествен признак: 56 от 100 пациенти с подобрение — 56 %.</p>
+</section>
+<section id="разсейване" class="level2">
+<h2 class="anchored" data-anchor-id="разсейване">Разсейване</h2>
+<p><strong>Стандартното отклонение</strong> е <img src="https://latex.codecogs.com/png.latex?S%20=%20%5Csqrt%7B%5Csum%20(X_i%20-%20%5Cbar%20X)%5E2%20/%20(n-1)%7D">. Отклоненията се квадратират, защото сборът им винаги е нула; делим на <img src="https://latex.codecogs.com/png.latex?n-1">, защото оценяваме от извадка. При интервален ред под сумата стои <img src="https://latex.codecogs.com/png.latex?(X_u%20-%20%5Cbar%20X)%5E2%20%5Ccdot%20f">. За преживяемостта: <img src="https://latex.codecogs.com/png.latex?S%20=%20%5Csqrt%7B396%7B,%7D67%20/%2029%7D%20=%203%7B,%7D70"> месеца; записваме <img src="https://latex.codecogs.com/png.latex?8%7B,%7D33%20%5Cpm%203%7B,%7D70"> месеца.</p>
+<p><strong>Правилото на трите сигми</strong> важи само при <strong>нормално</strong> разпределение: в <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X%20%5Cpm%201S"> са около 68 % от наблюденията, в <img src="https://latex.codecogs.com/png.latex?%5Cpm%202S"> — около 95 %, в <img src="https://latex.codecogs.com/png.latex?%5Cpm%203S"> — около 99,7 %. То описва къде са <strong>отделните хора</strong>.</p>
+<p>При <strong>изтеглено</strong> разпределение с екстремни стойности средната се „издърпва“ към опашката. Тогава съобщаваме <strong>медиана и интерквартилен размах</strong> <img src="https://latex.codecogs.com/png.latex?IQR%20=%20Q_3%20-%20Q_1">. Екстремни (по правилото на Тюки) са стойностите над <img src="https://latex.codecogs.com/png.latex?Q_3%20+%201%7B,%7D5%20%5Ccdot%20IQR"> или под <img src="https://latex.codecogs.com/png.latex?Q_1%20-%201%7B,%7D5%20%5Ccdot%20IQR">. Пример: при 22 пациенти с медиана 4 дни хоспитализация и <img src="https://latex.codecogs.com/png.latex?IQR%20=%206%20-%202%20=%204"> дни границата е 12 дни, а престоите от 17, 24 и 25 дни са екстремни.</p>
+</section>
+<section id="стандартна-грешка" class="level2">
+<h2 class="anchored" data-anchor-id="стандартна-грешка">Стандартна грешка</h2>
+<p>Всяка нова случайна извадка дава малко различна средна. <strong>Стандартната (средна) грешка</strong> <img src="https://latex.codecogs.com/png.latex?S_%7B%5Cbar%20X%7D%20=%20S%20/%20%5Csqrt%20n"> мери колко се изменя средната от извадка на извадка — тоест колко точно сме я оценили. За дял в проценти: <img src="https://latex.codecogs.com/png.latex?S_p%20=%20%5Csqrt%7B%5Chat%20p%20(100%20-%20%5Chat%20p)%20/%20n%7D">.</p>
+<p>Не бъркайте двете: <img src="https://latex.codecogs.com/png.latex?S"> описва колко различни са <strong>пациентите</strong>, <img src="https://latex.codecogs.com/png.latex?S_%7B%5Cbar%20X%7D"> — колко точна е <strong>средната</strong>. При по-голяма извадка <img src="https://latex.codecogs.com/png.latex?S"> не се променя съществено, а стандартната грешка намалява; за два пъти по-малка грешка е нужна четири пъти по-голяма извадка.</p>
+</section>
+<section id="доверителен-интервал" class="level2">
+<h2 class="anchored" data-anchor-id="доверителен-интервал">Доверителен интервал</h2>
+<p>Общата формула е: <strong>оценка ± критична стойност × стандартна грешка</strong>.</p>
+<ul>
+<li>За средна, когато популационното <img src="https://latex.codecogs.com/png.latex?%5Csigma"> е неизвестно (почти винаги): <img src="https://latex.codecogs.com/png.latex?%5Cbar%20X%20%5Cpm%20t_%7B%5Calpha/2,%5C,df%7D%20%5Ccdot%20S_%7B%5Cbar%20X%7D">, с <img src="https://latex.codecogs.com/png.latex?df%20=%20n%20-%201">. Критичната стойност се взема от t-таблицата в листа с формули (колоната <img src="https://latex.codecogs.com/png.latex?t_%7B0,025%7D"> за 95 %).</li>
+<li>За относителен дял: <img src="https://latex.codecogs.com/png.latex?%5Chat%20p%20%5Cpm%20Z_%7B%5Calpha/2%7D%20%5Ccdot%20S_p">, с <img src="https://latex.codecogs.com/png.latex?Z%20=%201%7B,%7D96"> за 95 % и <img src="https://latex.codecogs.com/png.latex?2%7B,%7D576"> за 99 %. Приближението е добро, ако и броят със събитието, и броят без него са поне 5.</li>
+</ul>
+<p>Решен пример: <img src="https://latex.codecogs.com/png.latex?S_%7B%5Cbar%20X%7D%20=%203%7B,%7D70/%5Csqrt%7B30%7D%20=%200%7B,%7D675"> месеца; <img src="https://latex.codecogs.com/png.latex?t_%7B0,025;29%7D%20=%202%7B,%7D045">; <img src="https://latex.codecogs.com/png.latex?8%7B,%7D33%20%5Cpm%202%7B,%7D045%20%5Ctimes%200%7B,%7D675%20=%208%7B,%7D33%20%5Cpm%201%7B,%7D38">, тоест <strong>95 % CI = [6,95; 9,71] месеца</strong>. За дяла 56 %: <img src="https://latex.codecogs.com/png.latex?S_p%20=%204%7B,%7D96"> %; <img src="https://latex.codecogs.com/png.latex?56%20%5Cpm%201%7B,%7D96%20%5Ctimes%204%7B,%7D96"> = <strong>[46,27; 65,73] %</strong>.</p>
+<p><strong>Как се тълкува.</strong> При многократно повторение на изследването около 95 % от интервалите, построени по този начин, ще съдържат истинския параметър. Интервалът <strong>не</strong> казва, че 95 % от пациентите са в него — това е правилото на двете сигми. Интервалът е по-тесен при по-голяма извадка и по-малко разсейване и по-широк при по-високо доверително ниво (99 % срещу 95 %).</p>
+</section>
+<section id="чести-грешки" class="level2">
+<h2 class="anchored" data-anchor-id="чести-грешки">Чести грешки</h2>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?S"> вместо <img src="https://latex.codecogs.com/png.latex?S_%7B%5Cbar%20X%7D"> във формулата за доверителен интервал.</li>
+<li><img src="https://latex.codecogs.com/png.latex?Z%20=%201%7B,%7D96"> за средна при малка извадка вместо <img src="https://latex.codecogs.com/png.latex?t"> с <img src="https://latex.codecogs.com/png.latex?n%20-%201"> степени на свобода.</li>
+<li>Ранно закръгляне и число без мерна единица.</li>
+<li>Смесване на 0,56 и 56 % в една формула.</li>
+<li>Извод „няма разлика“ само защото два интервала се препокриват.</li>
+</ul>
+</section>
+<section id="проверете-се" class="level2">
+<h2 class="anchored" data-anchor-id="проверете-се">Проверете се</h2>
+<ol type="1">
+<li>Кога ще съобщите медиана и IQR вместо средна и стандартно отклонение?</li>
+<li>Защо стандартната грешка е по-малка от стандартното отклонение?</li>
+<li>Какво се променя в 95 % доверителния интервал, ако извадката се увеличи четири пъти при същото <img src="https://latex.codecogs.com/png.latex?S">?</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Statistics</category>
+  <category>Medicine | 2nd year</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-statistics-descriptive-ci-bg.html</guid>
+  <pubDate>Sat, 07 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Видове епидемиологични проучвания: описателни, аналитични и експериментални</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-study-designs-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-10-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/dental-public-health-study-designs-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/dental-public-health-study-designs-en.html">English</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене и размисъл. Текстът следва презентацията „Видове епидемиологични проучвания“. В упражнение 8 се научихме да броим — болестност, заболеваемост, човеко-време, а в упражнение 9 приложихме тези мерки към оралните заболявания. Сега ще видим как се изграждат проучванията, които отговарят на въпроси с тези числа. След това трябва да можете да назовете вида на проучването, да изчислите и тълкувате относителен риск, разлика в риска и отношение на шансовете и да кажете какво може да направи една връзка подвеждаща.</p>
+<section id="три-въпроса-разпознават-почти-всяко-проучване" class="level2">
+<h2 class="anchored" data-anchor-id="три-въпроса-разпознават-почти-всяко-проучване">Три въпроса разпознават почти всяко проучване</h2>
+<p>Първо: <strong>изследователят ли е определил експозицията?</strong> Ако не, проучването е <strong>наблюдателно</strong> — условията се изучават такива, каквито са. Ако да, то е <strong>експериментално</strong> (изпитване). Второ: <strong>има ли група за сравнение?</strong> Без нея проучването е <strong>описателно</strong> (кой, къде, кога) и поражда хипотези; с нея е <strong>аналитично</strong> и проверява хипотези за детерминантите. Трето: <strong>откъде започва проучването?</strong> Проучването „случай–контрола“ започва от изхода и търси експозицията в миналото; кохортното започва от експозицията и проследява хората напред до изхода; срезовото измерва двете едновременно. Доброто аналитично проучване сравнява изхода между групи, изразява сравнението количествено, контролира грешките и замъгляващите фактори и показва, че експозицията е предшествала изхода (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, гл. 12).</p>
+</section>
+<section id="описателни-проучвания" class="level2">
+<h2 class="anchored" data-anchor-id="описателни-проучвания">Описателни проучвания</h2>
+<p><strong>Докладът на случай</strong> описва един необичаен пациент, а <strong>серията от случаи</strong> — няколко. Те са първият сигнал за нещо ново: историята на флуорида започва, когато Фредерик Маккей описва деца в Колорадо с „кафяви петна“ — по-късно разпознати като флуороза, — които имат по-малко кариес. Серията няма група за сравнение и знаменател, затова не може да провери причина.</p>
+<p><strong>Срезовото проучване</strong> е основният описателен дизайн и основата на оралните проучвания на СЗО от упражнение 9. Експозицията и изходът се измерват в един и същи момент, което дава <strong>болестност</strong>. В хипотетично проучване на 300 дванадесетгодишни деца нелекуван кариес имат 50 от 100-те, които пият всеки ден подсладени напитки, и 40 от останалите 200: 50 % срещу 20 %, отношение на болестностите 2,5. Връзката в извадката е реална, но проучването не може да покаже дали напитките са били преди кариеса — това е основното ограничение на „моментната снимка“.</p>
+<p><strong>Екологичното проучване</strong> измерва експозицията и изхода за цели групи — градове, области, държави. Проучванията за флуорирането на водата и счупванията на бедрената кост сравняват общности. Те са бързи и евтини и са подходящи, когато експозицията е свойство на групата, например политика за флуориране, но крият риска от <strong>екологична заблуда</strong>: връзката между групи не показва, че едни и същи хора са имали и експозицията, и изхода.</p>
+</section>
+<section id="кохортни-проучвания-и-случайконтрола" class="level2">
+<h2 class="anchored" data-anchor-id="кохортни-проучвания-и-случайконтрола">Кохортни проучвания и „случай–контрола“</h2>
+<p>Аналитичните проучвания говорят на езика на <strong>таблицата 2 × 2</strong>: експозицията е в редовете, изходът — в колоните (клетки a, b, c, d).</p>
+<p><strong>Кохортното проучване</strong> започва с хора без изхода, разделени на експонирани и неекспонирани, и ги проследява във времето. Понеже се броят новите случаи, рисковете се сравняват пряко. В хипотетична кохорта от 1000 души на 25 години периодонтит за пет години развиват 60 от 400 пушачи и 30 от 600 непушачи: риск 15 % и 5 %. <strong>Относителният риск</strong> (RR) е 15/5 = 3,0 — пушачите имат три пъти по-висок риск, а <strong>разликата в риска</strong> е 10 процентни пункта за пет години. Този излишък е <em>свързан</em> с тютюнопушенето в тези данни; да го наречем предотвратим чрез отказ от тютюна изисква причинни допускания и изключване на други обяснения. Кохортата може да е <strong>проспективна</strong> (експозицията се измерва сега, изходът — по-късно) или <strong>ретроспективна</strong> (минали записи определят експонираните и неекспонираните, които се проследяват до днес). В кохортата от Дънидин, Нова Зеландия, употребата на канабис между 18 и 32 години е свързана с нова загуба на пародонтално прикрепване, с коригиран RR около 2,2 при най-честите употребяващи (<a href="https://doi.org/10.1001/jama.299.5.525">Thomson et al., 2008</a>). Кохортите показват последователността във времето и дават заболеваемост, но са бавни, скъпи, неефективни за редки изходи и уязвими от отпадането на участници.</p>
+<p><strong>Проучването „случай–контрола“</strong> започва от другия край: хора с изхода (случаи) и сравними хора без него (контроли), чиято минала експозиция се сравнява. Изследователят сам решава колко случаи и контроли да включи, затова рисковете не могат да се изчислят; вместо това се използва <strong>отношението на шансовете</strong> OR = ad/bc. То се доближава до RR само когато изходът е рядък в изходното население: при рискове 2 % и 1 % RR = 2,00, а OR = 2,02, но при рискове 40 % и 20 % RR пак е 2,00, а OR = 2,67 — шансовете не са рискове. При 60 пушачи сред 100 пациенти с рак на устната кухина и 50 сред 200 контроли OR = (60 × 150)/(50 × 40) = 4,5. Това е предпочитаният дизайн за редки заболявания като рака на устната кухина; такова е и проучването на Дол и Хил за тютюнопушенето и рака на белия дроб (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Слабите му места са измерването на миналата експозиция (<strong>систематична грешка при припомнянето</strong>) и подборът на контролите (<strong>систематична грешка при подбора</strong>); факторът, по който се съпоставят групите, вече не може да се изследва — затова съпоставянето по тютюнопушене би скрило неговия ефект.</p>
+</section>
+<section id="експериментални-проучвания" class="level2">
+<h2 class="anchored" data-anchor-id="експериментални-проучвания">Експериментални проучвания</h2>
+<p>При <strong>рандомизираното контролирано изпитване</strong> (РКИ) изследователят разпределя намесата чрез <strong>случайно разпределение</strong>: всеки участник има еднакъв шанс да попадне във всяка група и неизвестните фактори средно се изравняват. Ако в края групите се различават, разликата може да се припише на намесата — РКИ е „златният стандарт“ за проверка дали тя действа, например дали флуорният лак предпазва от кариес. Рандомизацията трябва да е защитена чрез <strong>скриване на разпределението</strong>: който включва детето, не бива да знае следващото разпределение. <strong>Плацебото</strong> държи участниците в неведение за групата им, но контролата не е задължително плацебо: когато лишаването от доказана полза би било неетично, контролната група получава стандартния продукт, например стандартния лак (<strong>активна контрола</strong>). При заслепяването трябва да се каже <em>кой</em> не знае — участниците, лекуващите, оценяващите изхода, анализиращите, — защото изследовател, който очаква продуктът да действа, може да оценява контролната група по-строго. Плацебо е невъзможно при флуорирането на водата, силантите или видима училищна програма за миене на зъби, но оценяващите изхода пак могат да не знаят групата.</p>
+<p>Когато намесата действа върху групи, се рандомизират цели училища или населени места (<strong>общностни или клъстерни изпитвания</strong>). В денталната медицина са чести и по-слаби дизайни: нерандомизирани изпитвания като проучването за храненето и кариеса във Випехолм и проучвания <strong>„преди–след“</strong> без едновременна контролна група като изпитването за флуориране в Гранд Рапидс, където други промени по време на проучването могат да обяснят резултата. Ако нелекуваният кариес спада от 40 % на 30 % в училището с програмата, но и от 35 % на 30 % в училището за сравнение, допълнителната промяна е (30 − 40) − (30 − 35) = −5 процентни пункта, а не −10 — и дори това допуска сходни фонови тенденции. <strong>Кръстосаните</strong> изпитвания, при които всеки участник е своя собствена контрола, са подходящи за кратки изпитвания при обратими състояния като гингивита, но не и за кариеса. <strong>Ефикасността</strong> пита дали намесата действа при идеални условия, а <strong>ефективността</strong> — дали действа в ежедневната практика.</p>
+</section>
+<section id="грешки-причинност-и-доказателства" class="level2">
+<h2 class="anchored" data-anchor-id="грешки-причинност-и-доказателства">Грешки, причинност и доказателства</h2>
+<p>Една връзка може да е погрешна по три причини. <strong>Случайната грешка</strong> намалява с увеличаване на извадката. <strong>Систематичната грешка</strong> — от несравними групи (при подбора) или от различно измерване на експозицията или изхода (информационна) — не намалява. <strong>Замъгляващият фактор</strong> е трети фактор, свързан и с експозицията, и с изхода: пиещите имат повече рак на устната кухина и защото пушат повече. В хипотетична кохорта нова загуба на зъби за пет години имат 34 % от използващите вода за уста и 16 % от неизползващите (груб RR 2,125), но във всяка възрастова група рисковете са еднакви (10 % под 50 години, 40 % от 50 години нагоре) и RR = 1: използващите просто са по-възрастни. <strong>Стратификацията</strong> разкрива замъгляващия фактор. Рандомизацията изравнява замъгляващите фактори, дори неизвестните; наблюдателните проучвания могат само да ограничат, съпоставят, стратифицират или коригират за измерените — а по-голямата извадка подобрява точността, но не и валидността.</p>
+<p>За да преценим дали една връзка е причинна, критериите на Брадфорд Хил питат за последователност във времето, сила, постоянство, зависимост доза–отговор, правдоподобност, съгласуваност и експериментални данни (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); задължителна е само <strong>последователността във времето</strong>. Критериите насочват разсъждението, но не са точкова система: нито голям RR, нито много изпълнени критерии доказват причинност. За ефекта на профилактиката и лечението добре проведеното рандомизирано сравнение обикновено защитава най-добре от замъгляващи фактори, а класическата скала върви от РКИ и техните систематични прегледи (ниво I), през нерандомизираните контролирани изпитвания (II-1), кохортните проучвания и „случай–контрола“ (II-2) и времевите редове (II-3), до описателните проучвания и мнението на експерти (III). Силата на доказателствата обаче зависи от въпроса и от това колко добре е проведено проучването: бремето изисква представително проучване с прегледи, редките вреди — добро „случай–контрола“ или кохортно проучване, а много въпроси — вредни ли са амалгамите? — изобщо не могат да се проверят с изпитване.</p>
+<p>Преди да отворите <a href="../learning-tasks/dental-public-health-study-designs-bg.html">задачите за студенти</a>, запомнете трите въпроса от упражнението: <strong>кой е определил експозицията, има ли група за сравнение и кое е било първо?</strong></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-study-designs-bg.html</guid>
+  <pubDate>Mon, 02 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Epidemiological study designs: descriptive, analytic and experimental</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-study-designs-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-10-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/dental-public-health-study-designs-en.html">Student tasks</a> · <a href="../15-minute-learning/dental-public-health-study-designs-bg.html">Български</a></p>
+<p>Set aside about <strong>15 minutes</strong> to read and reflect. The text follows the presentation “Epidemiological study designs”. Class 8 taught us to count — prevalence, incidence, person-time — and Class 9 applied the counts to oral diseases. This class shows how studies are built to answer questions with those counts. Afterwards you should be able to name the design of a study, calculate and interpret a relative risk, a risk difference and an odds ratio, and say what could make an association misleading.</p>
+<section id="three-questions-identify-almost-any-design" class="level2">
+<h2 class="anchored" data-anchor-id="three-questions-identify-almost-any-design">Three questions identify almost any design</h2>
+<p>First, <strong>did the investigator assign the exposure?</strong> If not, the study is <strong>observational</strong>: conditions are studied as they occur. If yes, it is <strong>experimental</strong> — a trial. Second, <strong>is there a comparison group?</strong> Without one, the study is <strong>descriptive</strong> (who, where, when) and generates hypotheses; with one, it is <strong>analytic</strong> and tests hypotheses about determinants. Third, <strong>where does the study start?</strong> A case–control study starts with the outcome and looks back for the exposure; a cohort study starts with the exposure and follows people forward to the outcome; a cross-sectional study measures both at the same time. A good analytic design compares an outcome between groups, quantifies the comparison, manages errors and confounding, and establishes that the exposure came before the outcome (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, ch.&nbsp;12).</p>
+</section>
+<section id="descriptive-studies" class="level2">
+<h2 class="anchored" data-anchor-id="descriptive-studies">Descriptive studies</h2>
+<p>A <strong>case report</strong> describes one unusual patient and a <strong>case series</strong> several. They are the first signal of something new: the fluoride story began when Frederick McKay described Colorado children with “brown stain” — later recognised as fluorosis — who had less caries. A series has no comparison group and no denominator, so it cannot test a cause.</p>
+<p>The <strong>cross-sectional survey</strong> is the main descriptive design and the basis of the WHO oral health surveys of Class 9. Exposure and outcome are measured at the same moment, which gives <strong>prevalence</strong>. In a hypothetical survey of 300 twelve-year-olds, 50 of 100 daily drinkers of sugary drinks and 40 of 200 others had untreated caries: 50% against 20%, a prevalence ratio of 2.5. The association is real in the sample, but the survey cannot show whether the drinks came before the caries — the main limitation of a snapshot.</p>
+<p>An <strong>ecological study</strong> measures exposure and outcome for whole groups — towns, regions, countries. Studies of water fluoridation and hip fractures compared communities. They are quick and cheap, and suitable when the exposure is a group property such as a fluoridation policy, but they risk the <strong>ecological fallacy</strong>: an association between groups does not show that the same people had both the exposure and the outcome.</p>
+</section>
+<section id="cohort-and-casecontrol-studies" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-and-casecontrol-studies">Cohort and case–control studies</h2>
+<p>Analytic studies speak the language of the <strong>2 × 2 table</strong>, with the exposure in the rows and the outcome in the columns (cells a, b, c, d).</p>
+<p>A <strong>cohort study</strong> starts with people free of the outcome, classified as exposed or unexposed, and follows them over time. Because new cases are counted, risks are compared directly. In a hypothetical cohort of 1000 adults aged 25, 60 of 400 smokers and 30 of 600 non-smokers developed periodontitis in five years: risks of 15% and 5%. The <strong>relative risk</strong> (RR) is 15/5 = 3.0 — smokers had three times the risk — and the <strong>risk difference</strong> is 10 percentage points over five years. That excess is <em>associated</em> with smoking in these data; calling it preventable by removing smoking needs causal assumptions and control of other explanations. A cohort can be <strong>prospective</strong> (exposure measured now, outcome later) or <strong>retrospective</strong> (past records identify the exposed and unexposed, who are followed up to the present). In the Dunedin birth cohort in New Zealand, cannabis use between ages 18 and 32 was associated with new periodontal attachment loss, with an adjusted RR of about 2.2 for the heaviest users (<a href="https://doi.org/10.1001/jama.299.5.525">Thomson et al., 2008</a>). Cohorts show temporality and give incidence, but they are slow, expensive, inefficient for rare outcomes and vulnerable to losses to follow-up.</p>
+<p>A <strong>case–control study</strong> starts at the other end: people with the outcome (cases) and comparable people without it (controls), whose past exposure is compared. The investigator decides how many cases and controls to take, so risks cannot be calculated; instead the <strong>odds ratio</strong> OR = ad/bc is used. It approximates the RR only when the outcome is rare in the source population: with risks of 2% and 1%, RR = 2.00 and OR = 2.02, but with risks of 40% and 20%, RR is still 2.00 while OR = 2.67 — odds are not risks. With 60 smokers among 100 patients with oral cancer and 50 among 200 controls, OR = (60 × 150)/(50 × 40) = 4.5. Case–control studies are the design of choice for rare diseases such as oral cancer, and Doll and Hill’s work on smoking and lung cancer was one (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Their weak points are the measurement of past exposure (<strong>recall bias</strong>) and the choice of controls (<strong>selection bias</strong>); a factor used for matching can no longer be studied, which is why matching on smoking would have hidden its effect.</p>
+</section>
+<section id="experimental-studies" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-studies">Experimental studies</h2>
+<p>In a <strong>randomised controlled trial</strong> (RCT) the investigator assigns the intervention by <strong>random allocation</strong>, so each participant has the same chance of either group and unknown factors are balanced on average. If the groups differ at the end, the difference can be attributed to the intervention — the RCT is the “gold standard” for testing whether it works, for example whether fluoride varnish prevents caries. Randomisation must be protected by <strong>allocation concealment</strong>: whoever enrols a child must not know the next allocation. A <strong>placebo</strong> keeps participants unaware of their group, but the control need not be a placebo: when withholding an established benefit would be unethical, the control group receives the standard product, for example the standard varnish (an <strong>active control</strong>). Blinding should name <em>who</em> is unaware — participants, care providers, outcome assessors, analysts — because an examiner who expects a product to work may score the control group more strictly. A placebo is impossible for water fluoridation, sealants or a visible school brushing programme, but the outcome assessors can still be kept unaware.</p>
+<p>When an intervention acts on groups, whole schools or towns are randomised (<strong>community or cluster trials</strong>). Weaker designs are common in dentistry: non-randomised trials such as the Vipeholm diet study, and <strong>before–after</strong> studies without a concurrent control, such as the Grand Rapids fluoridation trial, where other changes during the study can explain the result. If untreated caries falls from 40% to 30% in a programme school but also from 35% to 30% in a comparison school, the extra change is (30 − 40) − (30 − 35) = −5 percentage points, not −10 — and even that assumes similar background trends. <strong>Crossover</strong> trials, in which each participant is their own control, suit short trials of reversible conditions such as gingivitis but not caries. <strong>Efficacy</strong> asks whether an intervention works under ideal conditions; <strong>effectiveness</strong> whether it works in everyday practice.</p>
+</section>
+<section id="errors-causation-and-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="errors-causation-and-evidence">Errors, causation and evidence</h2>
+<p>An association may be wrong for three reasons. <strong>Random error</strong> (chance) shrinks with larger samples. <strong>Bias</strong> — systematic error from non-comparable groups (selection bias) or from measuring exposure or outcome differently (information bias) — does not. <strong>Confounding</strong> comes from a third factor linked with both exposure and outcome: drinkers have more oral cancer partly because they also smoke more. In a hypothetical cohort, new tooth loss over five years affects 34% of mouthrinse users and 16% of non-users (crude RR 2.125), yet within each age group the risks are equal (10% under 50, 40% from 50) and RR = 1: users are simply older. <strong>Stratification</strong> reveals the confounder. Randomisation balances confounders, even unknown ones; observational studies can only restrict, match, stratify or adjust for those that were measured — and a larger sample improves precision, not validity.</p>
+<p>To judge whether an association is causal, Bradford Hill’s viewpoints ask about temporality, strength, consistency, dose–response, plausibility, coherence and experimental evidence (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); only <strong>temporality</strong> is required. The viewpoints guide reasoning; they are not a score, and neither a large RR nor many satisfied viewpoints proves causation. For the effects of prevention and treatment, a well-conducted randomised comparison usually protects best against confounding, and the classic scale runs from RCTs and their systematic reviews (level I), through non-randomised controlled trials (II-1), cohort and case–control studies (II-2) and time series (II-3), to descriptive studies and expert opinion (III). But the strength of evidence depends on the question and on how well the study was done: burden needs a representative examination survey, rare harms a good case–control or cohort study, and many questions — are amalgams harmful? — cannot be tested in a trial at all.</p>
+<p>Before opening the <a href="../learning-tasks/dental-public-health-study-designs-en.html">student tasks</a>, remember the three questions of the class: <strong>who decided the exposure, is there a comparison group, and which came first?</strong></p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-study-designs-en.html</guid>
+  <pubDate>Mon, 02 Nov 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Епидемиология на денталните заболявания: индекси, проучвания, бреме и рискови фактори</title>
   <dc:creator>Костадин Костадинов</dc:creator>
@@ -149,7 +367,8 @@
 <p>Епидемиологията изучава честотата, разпределението и детерминантите на болестите и другите свързани със здравето състояния в човешките популации и прилага това знание за укрепване на здравето, профилактика и контрол на здравните проблеми. Всяка ключова дума има значение. Обект е <strong>популацията</strong> — всички 12-годишни в областта, а не детето в стола. <strong>Честотата</strong> прави епидемиологията количествена наука: колко души, колко нови случаи, за какво време. <strong>Разпределението</strong> се описва по личност, място и време — например в селата около Пловдив 12-годишните имат по-висок DMFT, отколкото в града (<a href="https://doi.org/10.3897/folmed.62.e47894">Онов и Белчева, 2020</a>). <strong>Детерминантите</strong> са рисковите (захари, тютюн) и протективните фактори (флуорид, силанти). <strong>Свързаните със здравето състояния</strong> включват травми, поведение като четкането на зъби и достъпа до дентална грижа. А целта е <strong>приложението</strong>: програми за профилактика, планиране на услуги, оценка на ефекта.</p>
 <p>Епидемиологията служи за диагноза на общността (колко често е нелекуваният кариес при 12-годишните?), търсене на причини (захар и кариес, тютюн и пародонтит, HPV и рак на орофаринкса), описание на естествения ход и прогнозата, оценка на интервенциите (намалява ли флуорният лак кариеса?), планиране на услуги за застаряващо население и надзор — непрекъснато събиране и анализ на данни за действие.</p>
 <p><strong>Кратка история.</strong> Хипократ свързва здравето със средата и начина на живот; Джон Граунт анализира лондонските бюлетини за смъртността през 1662 г.; Джеймс Линд сравнява шест лечения на скорбута през 1747 г. — ранно контролирано изпитване; Джон Сноу картира холерата около помпата на Broad Street през 1854 г.; след 1948 г. идват кохортата от Фрамингам и работата на Дол и Хил за тютюнопушенето и рака на белия дроб (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Денталната медицина има своя история. Между 1901 и 1916 г. Фредерик Маккей описва „колорадските кафяви петна“, по-късно разпознати като флуороза, при които кариесът е по-рядък. През 1939–1942 г. Дийн и сътрудници проучват 21 града и установяват, че с увеличаване на флуорида във водата до около 1 mg/l кариесът намалява, а флуорозата нараства с концентрацията (<a href="https://doi.org/10.2307/4584182">Dean et al., 1942</a>). През 1945 г. в Гранд Рапидс, САЩ, започва първото контролирано флуориране на питейна вода.</p>
-<p>Епидемиологията е <strong>описателна</strong> (кой, къде, кога — доклад на случай, серия от случаи, срезово проучване; поражда хипотези), <strong>аналитична</strong> (защо — екологични, „случай–контрола“ и кохортни проучвания, които сравняват групи; проверява хипотези) или <strong>експериментална</strong> (действа ли мярката — клинично изпитване като флуорния лак, общностно изпитване като флуорирането; добре проведеното рандомизирано изпитване е силно доказателство за ефекта). В наблюдателните проучвания изследователят не се намесва в естествения ход на събитията.</p>
+<p>Клиничната работа пита дали <em>този</em> пациент има нелекуван кариес; епидемиологията пита колко деца в определена група го имат, прегледани по едни и същи критерии. При 80 от 200 прегледани деца с нелекуван кариес получаваме 80/200 = 40 % — число за планиране на грижите за групата, а не „40 % кариес“ у всяко дете. Здравният проблем първо се описва чрез <strong>кой, къде, кога</strong>: кой (възраст, пол, социални условия, съзъбие), къде (град, село, училище, област) и кога (дата на прегледа, година, тенденция). Разлика, например повече нелекуван кариес в селата, отколкото в града, поражда въпроси за достъпа, храненето и профилактиката, но сама по себе си не доказва причината. Видовете проучвания са тема на упражнение 10.</p>
+<p><strong>Преди да броим, определяме случая и единицата.</strong> Работното определение на случай казва кой (деца на 12 години), какво (нелекуван кариес при еднакъв праг), кога (на датата на прегледа) и коя единица (дете с поне един засегнат зъб). Числителят и знаменателят трябва да са в една и съща единица: ако 10 от 20 деца имат по 4 кариозни временни зъба, засегнати са 50 % от <em>децата</em>, но само 40/400 = 10 % от <em>зъбите</em>.</p>
 </section>
 <section id="триадата-и-естественият-ход-на-кариеса" class="level2">
 <h2 class="anchored" data-anchor-id="триадата-и-естественият-ход-на-кариеса">Триадата и естественият ход на кариеса</h2>
@@ -206,7 +425,8 @@
 <p>Epidemiology is the study of the frequency, distribution and determinants of diseases and other health-related conditions in human populations, and the application of this study to the promotion of health and to the prevention and control of health problems. Each key word matters. The unit is the <strong>population</strong> — all 12-year-olds in the region, not the child in the chair. <strong>Frequency</strong> makes it quantitative: how many people, how many new cases, over what time. <strong>Distribution</strong> is described by person, place and time — for example, 12-year-olds in the villages around Plovdiv have a higher DMFT than those in the city (<a href="https://doi.org/10.3897/folmed.62.e47894">Onov &amp; Beltcheva, 2020</a>). <strong>Determinants</strong> are risk factors (sugars, tobacco) and protective factors (fluoride, sealants). <strong>Health-related conditions</strong> include injuries, behaviour such as toothbrushing, and access to dental care. And the aim is <strong>application</strong>: prevention programmes, service planning, evaluation.</p>
 <p>Epidemiology is used for community diagnosis (how common is untreated caries among 12-year-olds?), finding causes (sugar and caries, tobacco and periodontitis, HPV and oropharyngeal cancer), describing natural history and prognosis, evaluating interventions (does fluoride varnish reduce caries?), planning services for an ageing population, and surveillance — the ongoing collection and analysis of data for action.</p>
 <p><strong>A short history.</strong> Hippocrates linked health to environment and way of life; John Graunt analysed the London Bills of Mortality in 1662; James Lind compared six treatments for scurvy in 1747, an early controlled trial; John Snow mapped cholera around the Broad Street pump in 1854; and after 1948 came the Framingham cohort and Doll and Hill’s work on smoking and lung cancer (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Dentistry has its own story. Between 1901 and 1916 Frederick McKay described the “Colorado brown stain”, later recognised as fluorosis, in which caries was less common. In 1939–1942 Dean and colleagues studied 21 cities and found that as the fluoride in water rises to about 1 mg/l, caries falls, while fluorosis increases with concentration (<a href="https://doi.org/10.2307/4584182">Dean et al., 1942</a>). In 1945 Grand Rapids in the USA began the first controlled fluoridation of drinking water.</p>
-<p>Epidemiology is <strong>descriptive</strong> (who, where, when — case reports, case series, cross-sectional surveys; it generates hypotheses), <strong>analytic</strong> (why — ecological, case–control and cohort studies that compare groups; it tests hypotheses) or <strong>experimental</strong> (does the measure work — clinical trials such as fluoride varnish, community trials such as fluoridation; a well-conducted randomised trial is strong evidence of effect). In observational studies the investigator does not intervene in the natural course of events.</p>
+<p>Clinical work asks whether <em>this</em> patient has untreated caries; epidemiology asks how many children in a defined group have it, examined with the same criteria. Of 200 examined children, 80 with untreated caries give 80/200 = 40% — a figure for planning care for the group, not “40% caries” in each child. A health problem is first described by <strong>person, place and time</strong>: who (age, sex, social circumstances, dentition), where (town, village, school, region) and when (examination date, year, trend). A difference, for example more untreated caries in villages than in the town, raises questions about access, diet and prevention; it does not by itself establish the cause. Study designs are the subject of class 10.</p>
+<p><strong>Define the case and the unit before counting.</strong> A working case definition says who (12-year-olds), what (untreated caries at a uniform threshold), when (on the examination date) and which unit (a child with at least one affected tooth). Numerator and denominator must use the same unit: if 10 of 20 children have 4 decayed primary teeth each, 50% of <em>children</em> are affected but only 40/400 = 10% of <em>teeth</em>.</p>
 </section>
 <section id="the-triad-and-the-natural-history-of-caries" class="level2">
 <h2 class="anchored" data-anchor-id="the-triad-and-the-natural-history-of-caries">The triad and the natural history of caries</h2>
@@ -1203,266 +1423,6 @@
   <category>2026/2027</category>
   <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-transplantation-research-en.html</guid>
   <pubDate>Thu, 08 Oct 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Хронично болният пациент, моделите на взаимоотношение и правната отговорност на лекаря</title>
-  <dc:creator>Костадин Костадинов</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-04-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-chronic-relationship-liability-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-chronic-relationship-liability-en.html">English</a></p>
-<p>Отделете около <strong>15 минути</strong> за четене и обмисляне. Материалът следва презентацията „Лекар, пациент, екип и закон“. След прочита трябва да можете да обясните защо хроничната болест изисква различно отношение от острата, да разпознавате моделите на взаимоотношение, да посочите границите на колегиалността и да разграничавате видовете правна отговорност на лекаря.</p>
-<section id="хроничната-болест-като-продължително-човешко-състояние" class="level2">
-<h2 class="anchored" data-anchor-id="хроничната-болест-като-продължително-човешко-състояние">Хроничната болест като продължително човешко състояние</h2>
-<p>Острата медицина е организирана около ясно начало, диагноза, интервенция и край на лечебния епизод. При хроничното заболяване диагнозата не приключва проблема, а започва продължително отношение. Лекарствата, измерванията, хранителният режим и рехабилитацията се извършват предимно у дома. Затова резултатът зависи не само от правилното предписание, но и от това дали планът е разбираем, приемлив и изпълним в живота на конкретния човек.</p>
-<p>Полезно е разграничението между <strong>болест</strong> и <strong>боледуване</strong>. Болестта се описва чрез диагноза и показатели. Боледуването е начинът, по който човекът преживява симптомите, несигурността, лечението и промяната на ролите си. Двама души с една диагноза могат да имат съвсем различни затруднения: единият губи работата си, другият се страхува от зависимост. Етичният проблем възниква, когато логиката на острата помощ се пренесе механично в продължителната грижа и пациентът се превърне в пасивен получател на указания.</p>
-</section>
-<section id="справяне-с-болестта" class="level2">
-<h2 class="anchored" data-anchor-id="справяне-с-болестта">Справяне с болестта</h2>
-<p><strong>Справянето</strong> е усилието на човека да овладее изисквания, които надхвърлят обичайните му ресурси. Насочените към проблема стратегии търсят информация, променят режима и организират помощ. Насочените към емоцията стратегии намаляват напрежението чрез дистанциране, споделяне или религиозна опора. Насочените към смисъла стратегии пренареждат целите и намират ценности отвъд болестта. Нито една стратегия не е добра или лоша сама по себе си. Краткото отричане може да предпази от срив в първите дни, но продължителното отлага лечението.</p>
-<p>Диагнозата често разделя живота на „преди“ и „след“. Страхът, гневът, отричането и тъгата не следват фиксиран ред и се връщат при всяко ново усложнение. Гневът към екипа често е гняв към болестта. Безнадеждността („няма смисъл да се лекувам“) изисква оценка за неовладяна болка, депресия и риск от самонараняване, а не само приемане на думите като окончателен отказ. Приспособяването не означава примирение. Лекарят го подкрепя, когато признава загубите, но не свежда човека до тях.</p>
-</section>
-<section id="автономност-придържане-и-терапевтичен-товар" class="level2">
-<h2 class="anchored" data-anchor-id="автономност-придържане-и-терапевтичен-товар">Автономност, придържане и терапевтичен товар</h2>
-<p>Хроничната болест увеличава зависимостта от лекарства, апарати, близки и институции. Зависимостта не отнема автономността. Пациент на хемодиализа може да е напълно способен да определя приоритетите си. <strong>Релационната автономност</strong> напомня, че изборът се формира в отношенията с другите. Затова е важно да се провери дали решението изразява свободно предпочитание, или вина, страх и натиск.</p>
-<p>Терминът <strong>придържане към лечението</strong> замества по-старото „послушание“. Той описва съответствие с план, договорен с пациента. Непридържането може да е неволно: забравени дози, сложна схема, цена, липса на аптека. Може да е и съзнателно: нежелани реакции, страх от зависимост, различна оценка на ползата. Първо се търси причината, а не виновният. <strong>Терапевтичният товар</strong> е работата, която лечението възлага на пациента: прием на лекарства, измервания, прегледи, пътуване, разходи. При мултиморбидност отделните ръководства могат да се съберат в неизпълним план. Въпросът тогава е и „какво може устойчиво да понесе този човек“, а не само „какво още да назначим“.</p>
-<p>Семейството носи грижа и познание за ежедневието, но не е собственик на решенията. Роднинството не дава право на информация без съгласието на пациента. Свръхзакрилата отнема умения, а изтощеният близък не е непременно безотговорен. При съмнение за пренебрегване или насилие пациентът се изслушва насаме.</p>
-</section>
-<section id="модели-на-взаимоотношението-лекар-пациент" class="level2">
-<h2 class="anchored" data-anchor-id="модели-на-взаимоотношението-лекар-пациент">Модели на взаимоотношението лекар – пациент</h2>
-<p>В упражнението разграничаваме четири основни модела: <strong>патерналистичен, автономен, бизнес модел и договорен модел</strong>. Те показват кой определя целите и решението, каква роля има пациентът и как се разпределят задълженията. В конкретната среща могат да се съчетават отделни характеристики.</p>
-<p><strong>Патерналистичен модел.</strong> Лекарят определя кое е най-добро за пациента, води решението и очаква то да бъде следвано. Рискът е професионалната преценка да подмени волята на човека. Например лекарят избира лечение, без да обсъди предпочитанията на способен и информиран пациент. Защитната намеса при невъзможност за участие има ограничено основание и не оправдава запазване на пасивната роля след възстановяване на способността за решение.</p>
-<p><strong>Автономен модел.</strong> Пациентът получава разбираема информация за възможностите, ползите и рисковете и прави собствен избор. Лекарят подкрепя разбирането и дава обоснована препоръка. Например пациент избира между две медицински допустими операции според последиците, които са най-важни за живота му. Риск възниква, ако лекарят само изброи фактите и остави пациента сам пред трудното решение. Желанието за професионална препоръка не е отказ от автономност.</p>
-<p><strong>Бизнес модел.</strong> Лекарят е доставчик на медицинска услуга, а пациентът — потребител. Моделът подчертава избора, цената и качеството на услугата. Например пациент сравнява условията и цените на планово изследване в различни лечебни заведения. Неравенството в знанията и уязвимостта на болния ограничават свободата на тази размяна. Основният риск е търговският интерес да измести медицинската потребност чрез ненужни услуги или предпочитане на по-доходоносно лечение.</p>
-<p><strong>Договорен модел.</strong> Лекарят и пациентът съгласуват цели, права, задължения и очаквания. При хронично заболяване договарят кой какво прави, кога се проследява резултатът и как планът се преразглежда. Например при диабет уточняват лечението, самонаблюдението и контролните прегледи. Рискът е отношението да се сведе до формални условия, без да се отчетат затрудненията на пациента. Договореният план запазва професионалната отговорност на лекаря. „Договорен модел“ тук назовава етично отношение; договорната гражданска отговорност, разгледана по-долу, има отделни правни предпоставки.</p>
-<p><strong>Силният патернализъм</strong> ограничава способен и информиран пациент и не се оправдава. <strong>Слабият патернализъм</strong> защитава човек с нарушена способност за конкретното решение и трае само докато основанието съществува. Пациентът може да откаже предложено лечение, но не може да изиска вредно или ненужно. Кодексът за професионална етика позволява на лекаря да откаже лечение, когато липсва доверие (чл. 12), но никога спешна помощ (чл. 11).</p>
-<p><strong>Споделеното вземане на решения</strong> съчетава професионалната препоръка с ценностите на пациента: признава се, че има избор; представят се разумните възможности, включително отлагането или отказа; изяснява се кое е важно за пациента; дава се препоръка с основания; договаря се план и се проверява разбирането. Законът за здравето гарантира право на ясна и достъпна информация и на повече от едно медицинско становище (чл. 86, ал. 1), а на лекаря свобода на действия и решения според квалификацията, медицинските стандарти и етиката (чл. 190, ал. 1).</p>
-</section>
-<section id="колегиалност-и-работа-в-екип" class="level2">
-<h2 class="anchored" data-anchor-id="колегиалност-и-работа-в-екип">Колегиалност и работа в екип</h2>
-<p>Раздел III на Кодекса урежда отношенията между лекарите. Колегиалността е основен дълг, но се спазва, „като се уважават интересите на болния“ (чл. 40). Лекарите си дължат морална помощ, не бива да се оклеветяват, а разногласията им не са предмет на публични полемики (чл. 41). Недостойно е колега да бъде злепоставян чрез критика на лечението или личността му (чл. 42). Това не забранява обоснованата професионална критика по подходящия ред: споровете се решават от комисиите по професионална етика (чл. 46).</p>
-<p>Консултантът съобщава резултата на лекуващия лекар и се въздържа от оценки пред пациента (чл. 36, 45). Консилиумът се свиква при трудности в диагнозата и лечението, а решението му при общо съгласие е задължително (чл. 38). Приемствеността е морален дълг. Лекарят, който се оттегля, предава цялата информация (чл. 24, ал. 1). Друг лекар може да промени лечението в отсъствие на лекуващия, но го уведомява и вписва промяната (чл. 50). Пропуските при предаването са честа причина за предотвратима вреда.</p>
-<p>Медицинските сестри, акушерките и другите специалисти имат собствена компетентност, съсловна организация и етичен кодекс. Йерархията в екипа е функционална, не човешка. Неясното назначение се изяснява, а не се изпълнява мълчаливо. Всеки член на екипа трябва да може да спре процедура при риск за безопасността.</p>
-<p>Колегиалността не означава прикриване. Болният колега има същите права и същата медицинска тайна като всеки пациент (Кодекс, чл. 49). Неформалната консултация в коридора обаче не е грижа. Когато заболяване или зависимост засяга работата на лекар, се изисква индивидуална оценка и пропорционално ограничаване, а не прикриване или автоматично отстраняване. При непосредствен риск пациентите се защитават по установения ред, а колегата получава помощ.</p>
-</section>
-<section id="правна-отговорност-на-лекаря-четири-вида" class="level2">
-<h2 class="anchored" data-anchor-id="правна-отговорност-на-лекаря-четири-вида">Правна отговорност на лекаря: четири вида</h2>
-<p>В това упражнение използваме четири вида в следния ред: <strong>дисциплинарна, административна, наказателна и гражданска</strong>. В дисциплинарния блок разглеждаме заедно дисциплинарните наказания и имуществената отговорност на служителя към работодателя. Те имат самостоятелни правни основания: обезщетението за вреда не е дисциплинарна глоба (КТ, чл. 203, ал. 3). Съсловната отговорност е подвид на административната в тази учебна схема, а договорната и деликтната са двата подвида на гражданската.</p>
-<section id="дисциплинарна" class="level3">
-<h3 class="anchored" data-anchor-id="дисциплинарна">1. Дисциплинарна</h3>
-<p><strong>Основание и последици.</strong> <a href="https://lex.bg/bg/laws/ldoc/1594373121">Кодексът на труда</a>, чл. 186–188, урежда виновното нарушение на трудовите задължения и наказанията <strong>забележка, предупреждение за уволнение и дисциплинарно уволнение</strong>. Налага ги работодателят или оправомощено лице (чл. 192), след изслушване на служителя или приемане на писмените му обяснения (чл. 193).</p>
-<p>В същия блок се включва <strong>имуществената отговорност към работодателя</strong> по чл. 203 и сл. При небрежност тя по правило е до размера на уговореното месечно възнаграждение; за вреда при ръководни функции чл. 206, ал. 2 предвижда различен предел. Чл. 206, ал. 3 обхваща и обезщетени трети лица. При умисъл или престъпление отговорността се определя по гражданския закон (чл. 203, ал. 2). Ограничената отговорност се реализира със заповед на работодателя, а при писмено оспорване — чрез иск пред съда (чл. 210). Пълната е по съдебен ред (чл. 211).</p>
-<p><strong>Медицински пример:</strong> лекар закъснява за дежурство. Това може да обоснове дисциплинарно наказание; отделно доказана вреда за болницата може да породи и задължение за обезщетение.</p>
-</section>
-<section id="административна-включително-съсловна" class="level3">
-<h3 class="anchored" data-anchor-id="административна-включително-съсловна">2. Административна, включително съсловна</h3>
-<p><strong>Основание и последици.</strong> <a href="https://lex.bg/laws/ldoc/2126821377">Законът за административните нарушения и наказания (ЗАНН)</a>, чл. 6, 13 и 47, урежда административните нарушения, наказанията, включително глобите, и наказващите органи. Конкретното нарушение и компетентният орган се определят от специалния закон. Например <a href="https://lex.bg/laws/ldoc/2135489147">Законът за здравето</a>, чл. 221, предвижда глоба или имуществена санкция за лечебно заведение, нарушило права на пациент; наказателното постановление се издава от изпълнителния директор на ИА „Медицински надзор“ (чл. 233а). Чл. 229 е общата санкционна норма за нарушения извън изрично посочените в него случаи.</p>
-<p><strong>Подвид — съсловна отговорност пред БЛС / БЗС.</strong> <a href="https://lex.bg/laws/ldoc/2134419457">Законът за съсловните организации на лекарите и на лекарите по дентална медицина (ЗСОЛЛДМ)</a>, чл. 37–41, урежда нарушенията и реда. За нарушение на етичния кодекс чл. 38 предвижда порицание, глоба или временно заличаване от регистъра. Етичната комисия на районната колегия разглежда жалбата (чл. 39), неин член съставя акт, а <strong>председателят на управителния съвет на районната колегия</strong> на Българския лекарски съюз (БЛС) или Българския зъболекарски съюз (БЗС) издава наказателното постановление (чл. 40). Редът е по ЗАНН (чл. 41). Контролът върху добрата медицинска практика е на ИА „Медицински надзор“ съвместно с БЛС и БЗС (чл. 37, ал. 2).</p>
-<p><strong>Медицински примери:</strong> лечебно заведение нарушава законово право на пациент; лекар злепоставя колега пред пациенти в нарушение на етичния кодекс — съсловният подвид.</p>
-</section>
-<section id="наказателна" class="level3">
-<h3 class="anchored" data-anchor-id="наказателна">3. Наказателна</h3>
-<p><strong>Основание и последици.</strong> <a href="https://lex.bg/laws/ldoc/1589654529">Наказателният кодекс</a>, чл. 11, урежда умисъла и непредпазливостта. Чл. 123 и 134 се отнасят до смърт или тежка/средна телесна повреда, причинени поради незнание или немарливо изпълнение на занятие или правно регламентирана дейност, представляващи източник на повишена опасност. Доказват се всички признаци на конкретното престъпление, включително причинната връзка и вината. <strong>Съдът</strong> решава въпроса за вината и налага наказанието; прокуратурата повдига и поддържа обвинението по дела от общ характер.</p>
-<p><strong>Медицински пример:</strong> немарливо приложена погрешна доза причинява смърт. Чл. 123 може да се приложи, ако са доказани всички предпоставки; самият неблагоприятен изход не доказва престъпление.</p>
-</section>
-<section id="гражданска-договорна-и-деликтна" class="level3">
-<h3 class="anchored" data-anchor-id="гражданска-договорна-и-деликтна">4. Гражданска — договорна и деликтна</h3>
-<p>Целта е обезщетяване на вредите. <strong>Съдът</strong> присъжда обезщетението по иск на увредения при доказани предпоставки. <a href="https://lex.bg/laws/ldoc/2121934337">Законът за задълженията и договорите (ЗЗД)</a> урежда двата подвида:</p>
-<ul>
-<li><strong>Договорна:</strong> чл. 79–82 — неточно изпълнение на договорно задължение; обезщетението по чл. 82 обхваща преките, непосредствени и предвидими вреди, а при недобросъвестност — всички преки и непосредствени вреди. Пример: договорено изследване не е извършено и пациентът понася доказани допълнителни разходи. Това не означава, че всеки договор за лечение гарантира излекуване.</li>
-<li><strong>Деликтна / извъндоговорна:</strong> чл. 45 — виновно причинена вреда, като вината се предполага до доказване на противното; чл. 49 — отговорност на лечебното заведение като възложител за вреда при или по повод възложената работа. Пример: погрешна инжекция уврежда нерв на пациента.</li>
-</ul>
-<p>Едно деяние може да засегне повече от един от четирите вида, при условията на закона (ЗСОЛЛДМ, чл. 42, ал. 1; КТ, чл. 186 и 203, ал. 3). Това не означава автоматично налагане на всички санкции. В казуса с пропуснатия симптом се проверяват отделно действията на лекаря, колегата и лечебното заведение.</p>
-<p><em>Посочените разпоредби са проверени в консолидираните текстове на lex.bg на 6 октомври 2026 г.</em></p>
-<p>Преди да отворите <a href="../learning-tasks/medical-ethics-chronic-relationship-liability-bg.html">задачите за студенти</a>, опитайте да отговорите в три изречения: кой модел на отношение е подходящ за пациент с хипертония, който не приема редовно лекарствата си; кога колегиалността трябва да отстъпи; и какви видове отговорност могат да възникнат, ако при предаване на дежурство бъде пропуснат нов симптом.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Bulgarian</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html</guid>
-  <pubDate>Sat, 03 Oct 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The chronically ill patient, relationship models and the physician’s legal liability</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-04-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-chronic-relationship-liability-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html">Български</a></p>
-<p>Set aside about <strong>15 minutes</strong> to read and think. The text follows the presentation “Physician, patient, team and law”. Afterwards you should be able to explain why chronic illness calls for a different relationship from acute illness, recognise the models of the physician–patient relationship, say where collegiality ends, and distinguish the kinds of legal liability a physician can face in Bulgaria.</p>
-<section id="chronic-illness-as-a-long-term-human-condition" class="level2">
-<h2 class="anchored" data-anchor-id="chronic-illness-as-a-long-term-human-condition">Chronic illness as a long-term human condition</h2>
-<p>Acute medicine is organised around a clear onset, a diagnosis, an intervention and the end of an episode of care. In chronic illness the diagnosis does not close the problem; it opens a long relationship. Medication, measurements, diet and rehabilitation happen mostly at home. The outcome therefore depends not only on the right prescription but on whether the plan is understandable, acceptable and workable in this person’s life.</p>
-<p>The distinction between <strong>disease</strong> and <strong>illness</strong> helps. Disease is described by a diagnosis and measurements. Illness is how the person lives through the symptoms, uncertainty, treatment and changed roles. Two people with the same diagnosis may struggle with quite different things: one loses their job, the other fears dependence. The ethical problem arises when the logic of acute care is carried mechanically into long-term care and the patient becomes a passive recipient of instructions.</p>
-</section>
-<section id="coping-with-illness" class="level2">
-<h2 class="anchored" data-anchor-id="coping-with-illness">Coping with illness</h2>
-<p><strong>Coping</strong> is the effort to manage demands that exceed a person’s usual resources. Problem-focused strategies seek information, change routines and organise help. Emotion-focused strategies reduce distress through distancing, sharing feelings or religious support. Meaning-focused strategies reorder goals and find values beyond the illness. No strategy is good or bad in itself. Brief denial can prevent collapse in the first days; prolonged denial delays treatment.</p>
-<p>A diagnosis often splits life into “before” and “after”. Fear, anger, denial and sadness follow no fixed order and come back with each new complication. Anger at the team is often anger at the illness. Hopelessness (“there is no point in treatment”) calls for assessment of uncontrolled pain, depression and self-harm risk; it should not simply be taken as a final refusal. Adaptation is not resignation. The physician supports it by acknowledging losses without reducing the person to them.</p>
-</section>
-<section id="autonomy-adherence-and-treatment-burden" class="level2">
-<h2 class="anchored" data-anchor-id="autonomy-adherence-and-treatment-burden">Autonomy, adherence and treatment burden</h2>
-<p>Chronic illness increases dependence on drugs, machines, relatives and institutions. Dependence does not remove autonomy: a patient on haemodialysis may be fully able to set their own priorities. <strong>Relational autonomy</strong> reminds us that choices take shape in relationships, so the physician checks whether a decision expresses a free preference or guilt, fear and pressure.</p>
-<p><strong>Adherence</strong> has replaced the older term “compliance”. It describes behaviour that matches a plan agreed with the patient. Non-adherence may be unintentional (missed doses, a complex regimen, cost, no pharmacy nearby) or intentional (side effects, fear of dependence, a different view of benefit). Look for the cause before looking for someone to blame. <strong>Treatment burden</strong> is the work that treatment places on the patient: taking drugs, measuring, attending appointments, travelling, paying. With multimorbidity, separate guidelines can add up to an unworkable plan, and the question becomes “what can this person sustain?” as well as “what else can we prescribe?”.</p>
-<p>The family brings care and knowledge of daily life but does not own the decisions. Kinship gives no right to information without the patient’s consent. Overprotection erodes skills, and an exhausted relative is not necessarily irresponsible. When neglect or abuse is suspected, the patient is heard alone.</p>
-</section>
-<section id="models-of-the-physicianpatient-relationship" class="level2">
-<h2 class="anchored" data-anchor-id="models-of-the-physicianpatient-relationship">Models of the physician–patient relationship</h2>
-<p>Models are analytical tools, not labels for a physician’s character. One consultation can contain elements of several.</p>
-<p><strong>Szasz and Hollender (1956)</strong> distinguish three degrees of participation according to the patient’s condition. In <em>activity–passivity</em> the patient cannot take part: resuscitation, coma, general anaesthesia. In <em>guidance–cooperation</em> the physician leads and the patient knowingly follows: an acute illness with a clear standard of treatment. In <em>mutual participation</em> tasks and decisions are shared: chronic illness, rehabilitation, behaviour change. The error is to keep the patient passive after capacity has returned.</p>
-<p><strong>Emanuel and Emanuel (1992)</strong> describe four models based on how the patient’s values are understood. In the <em>paternalistic</em> model the physician is a guardian who decides what is best. In the <em>informative</em> model the physician is a technical expert who supplies facts and carries out the patient’s choice. In the <em>interpretive</em> model the physician is a counsellor who helps the patient clarify unclear or conflicting goals. In the <em>deliberative</em> model the physician is a teacher or friend who argues for health-related values without moralising. The informative model can leave the patient alone with a hard choice, and the authors favour the deliberative model as the general ideal.</p>
-<p><strong>Veatch (1972)</strong> describes the engineering, priestly, collegial and contractual models. The engineering model reduces the physician to a scientist handing over facts and leaves values out of the conversation. The priestly model is paternalism from a position of moral authority. The collegial model assumes two equals with a shared goal, though equality and shared interests are often missing. The contractual model allocates rights and duties but risks minimalism: “only what was agreed”. The textbook adds the market model (health as a commodity), the covenant model (a promise of fidelity) and the friendship model, which blurs boundaries.</p>
-<p><strong>Strong paternalism</strong> restricts a capable, informed patient and is not justified. <strong>Weak paternalism</strong> protects a person whose capacity for the specific decision is impaired, and lasts only while that ground exists. A patient may refuse offered treatment but cannot demand harmful or needless treatment. The Bulgarian Code of Professional Ethics lets a physician decline treatment when trust is absent (Art. 12), but never emergency care (Art. 11).</p>
-<p><strong>Shared decision-making</strong> combines the professional recommendation with the patient’s values: acknowledge that there is a choice; present the reasonable options, including waiting or refusal; clarify what matters to the patient; give a reasoned recommendation; agree a plan and check understanding. The Bulgarian Health Act guarantees the right to clear, accessible information and to more than one medical opinion (Art. 86(1)), and gives the physician freedom of action and decision according to qualification, medical standards and ethics (Art. 190(1)).</p>
-</section>
-<section id="collegiality-and-teamwork" class="level2">
-<h2 class="anchored" data-anchor-id="collegiality-and-teamwork">Collegiality and teamwork</h2>
-<p>Section III of the Code governs relations between physicians. Collegiality is a basic duty, observed “while respecting the interests of the patient” (Art. 40). Physicians owe each other moral support, must not slander one another, and do not take their disagreements into public polemics (Art. 41). It is unworthy to discredit a colleague by criticising their treatment or person (Art. 42). This does not forbid reasoned professional criticism through the proper channel: disputes go to the ethics committees (Art. 46).</p>
-<p>A consultant reports the result to the treating physician and refrains from judgements in front of the patient (Arts. 36, 45). A medical council (консилиум) is convened when diagnosis or treatment is difficult, and a unanimous decision is binding (Art. 38). Continuity is a moral duty: a physician who withdraws passes on all information (Art. 24(1)), and another physician may change treatment in the treating physician’s absence but must inform them and record the change (Art. 50). Gaps in handover are a common cause of preventable harm.</p>
-<p>Nurses, midwives and other professionals have their own competence, professional body and code of ethics. Hierarchy in the team is functional, not personal. An unclear order is clarified, not carried out silently, and any team member must be able to stop a procedure when safety is at risk.</p>
-<p>Collegiality does not mean cover-up. A sick colleague has the same rights and the same confidentiality as any patient (Code, Art. 49), but a corridor consultation is not care. When illness or addiction affects a physician’s work, what is needed is individual assessment and proportionate limits, neither concealment nor automatic exclusion. When there is immediate risk, patients are protected through the established procedure and the colleague is offered help.</p>
-</section>
-<section id="the-physicians-legal-liability-in-bulgaria-four-kinds" class="level2">
-<h2 class="anchored" data-anchor-id="the-physicians-legal-liability-in-bulgaria-four-kinds">The physician’s legal liability in Bulgaria: four kinds</h2>
-<p>This class uses four kinds in this order: <strong>disciplinary, administrative, criminal and civil</strong>. The disciplinary block groups disciplinary penalties and the employee’s financial liability towards the employer. These have independent legal grounds: compensation for loss is not a disciplinary fine (Labour Code, Art. 203(3)). Professional body liability is an administrative subtype in this teaching scheme; contractual and tort liability are the two civil subtypes.</p>
-<section id="disciplinary" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinary">1. Disciplinary</h3>
-<p><strong>Basis and consequences.</strong> The <a href="https://lex.bg/bg/laws/ldoc/1594373121">Labour Code</a>, Arts. 186–188, covers culpable breach of work duties and the penalties of <strong>reprimand, warning of dismissal and disciplinary dismissal</strong>. The employer or an authorised person imposes them (Art. 192), after hearing the employee or receiving written explanations (Art. 193).</p>
-<p>The same block includes <strong>employee financial liability towards the employer</strong> under Arts. 203 onwards. For negligence, liability is normally capped at the agreed monthly salary; Art. 206(2) sets a different limit for loss caused in managerial duties. Art. 206(3) also covers compensation paid to third parties. For intentional harm or a crime, liability is determined under civil law (Art. 203(2)). Limited financial liability starts with an employer order; if contested in writing, the employer can bring a court claim (Art. 210). Full financial liability is enforced by a court (Art. 211).</p>
-<p><strong>Medical example:</strong> a physician arrives late for a shift. A disciplinary penalty may follow; separately proven loss to the hospital may also give rise to a duty to compensate it.</p>
-</section>
-<section id="administrative-including-professional-body-liability" class="level3">
-<h3 class="anchored" data-anchor-id="administrative-including-professional-body-liability">2. Administrative, including professional body liability</h3>
-<p><strong>Basis and consequences.</strong> The <a href="https://lex.bg/laws/ldoc/2126821377">Administrative Violations and Penalties Act</a>, Arts. 6, 13 and 47, covers administrative violations, penalties including fines, and sanctioning authorities. The relevant special Act defines the specific violation and competent authority. For example, the <a href="https://lex.bg/laws/ldoc/2135489147">Health Act</a>, Art. 221, provides for a fine or pecuniary sanction on an establishment that violates patient rights; the Medical Supervision Agency’s executive director issues the penalty decree (Art. 233a). Art. 229 is a residual penalty provision for breaches outside the cases expressly listed there.</p>
-<p><strong>Subtype — professional body liability before BLS / BZS.</strong> The <a href="https://lex.bg/laws/ldoc/2134419457">Professional Organisations of Physicians and Dentists Act</a>, Arts. 37–41, sets out the violations and procedure. For an ethical-code breach, Art. 38 provides for a reprimand, fine or temporary removal from the register. The regional ethics committee hears the complaint (Art. 39), a member records the violation, and the <strong>chair of the regional college’s governing board</strong> of the Bulgarian Medical Association (BLS) or Bulgarian Dental Association (BZS) issues the penalty decree (Art. 40). Art. 41 applies the administrative penalties procedure. Good-practice compliance is monitored by Medical Supervision jointly with BLS and BZS (Art. 37(2)).</p>
-<p><strong>Medical examples:</strong> an establishment violates a statutory patient right; a physician discredits a colleague before patients in breach of the ethical code — the professional subtype.</p>
-</section>
-<section id="criminal" class="level3">
-<h3 class="anchored" data-anchor-id="criminal">3. Criminal</h3>
-<p><strong>Basis and consequences.</strong> The <a href="https://lex.bg/laws/ldoc/1589654529">Criminal Code</a>, Art. 11, addresses intent and negligence. Arts. 123 and 134 concern death or grievous/moderate bodily injury through ignorance or negligent practice of an occupation or regulated activity that is a source of increased danger. All elements of the specific offence, including causation and fault, must be proved. <strong>The court</strong> decides guilt and imposes punishment; the prosecution brings and maintains the charge in public prosecutions.</p>
-<p><strong>Medical example:</strong> a negligently administered wrong dose causes death. Art. 123 may apply if all its conditions are proved; the adverse outcome alone does not establish a crime.</p>
-</section>
-<section id="civil-contractual-and-tort" class="level3">
-<h3 class="anchored" data-anchor-id="civil-contractual-and-tort">4. Civil — contractual and tort</h3>
-<p>The purpose is compensation for damage. <strong>The court</strong> awards damages on the injured party’s claim if the conditions are established. The <a href="https://lex.bg/laws/ldoc/2121934337">Obligations and Contracts Act</a> governs the two subtypes:</p>
-<ul>
-<li><strong>Contractual:</strong> Arts. 79–82 — failure to perform a contractual duty properly; Art. 82 covers direct, immediate and foreseeable losses, or all direct and immediate losses in bad faith. Example: an agreed investigation is not performed and the patient incurs proven additional costs. This does not mean every treatment contract guarantees a cure.</li>
-<li><strong>Tort / non-contractual:</strong> Art. 45 — culpably caused harm, with fault presumed until proved otherwise; Art. 49 — liability of the establishment as principal for harm in or in connection with assigned work. Example: an incorrectly given injection injures a patient’s nerve.</li>
-</ul>
-<p>One act can engage more than one of the four kinds, subject to the law (Professional Organisations Act, Art. 42(1); Labour Code, Arts. 186 and 203(3)). All sanctions do not follow automatically. In the handover case, assess the physician’s conduct, the colleague and the establishment separately.</p>
-<p><em>The cited provisions were checked against the consolidated texts on lex.bg on 6 October 2026.</em></p>
-<p>Before you open the <a href="../learning-tasks/medical-ethics-chronic-relationship-liability-en.html">student tasks</a>, try to answer in three sentences: which relationship model suits a patient with hypertension who takes the tablets irregularly; when collegiality must give way; and which kinds of liability may arise if a new symptom is left out of a shift handover.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-chronic-relationship-liability-en.html</guid>
-  <pubDate>Sat, 03 Oct 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Медицинска тайна: кога пазим, кога споделяме, кога съобщаваме</title>
-  <dc:creator>Костадин Костадинов</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-03-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-confidentiality-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-confidentiality-en.html">English</a></p>
-<p>Отделете около <strong>15 минути</strong> за четене и обмисляне. Материалът следва презентацията „Медицинска тайна — етични основания и правна отговорност“. След прочита трябва да можете да посочите основанията за предоставяне на здравна информация без съгласие, да прилагате правилото за минимално необходимото и да разграничавате видовете правна отговорност при нарушение.</p>
-<section id="три-свързани-понятия" class="level2">
-<h2 class="anchored" data-anchor-id="три-свързани-понятия">Три свързани понятия</h2>
-<p><strong>Медицинската тайна</strong> обхваща сведенията за пациента, станали известни при или по повод на медицинската помощ. <strong>Поверителността</strong> е задължението тези сведения да не се разкриват и използват извън допустимата цел. <strong>Защитата на личните данни</strong> урежда целия жизнен цикъл на информацията: събиране, достъп, обмен, съхраняване и унищожаване. Понятията са свързани, но не са взаимозаменяеми. Разговор за пациент пред външни лица нарушава поверителността, дори да не съществува електронен запис. Неоторизираното отваряне на електронно досие е нарушение, дори прочетеното да не бъде преразказано.</p>
-<p>Моралното основание на тайната е в автономността и в ненанасянето на вреда. Пациентът има основателно очакване сам да определя кой научава сведенията за здравето му. Разгласяването може да причини срам, семеен конфликт, загуба на работа, дискриминация и заклеймяване. При психични, генетични, инфекциозни и репродуктивни състояния вредата често идва не от диагнозата, а от реакцията на околните. Тайната пази и доверието: ако хората очакват, че диагнозата им ще се разчуе, те крият факти или отлагат изследването. Затова нарушената поверителност вреди едновременно на пациента, на клиничното решение и на общественото здраве. Тайната е право на пациента и задължение на професионалиста, а не привилегия на лекаря.</p>
-</section>
-<section id="какво-обхваща-и-кого-обвързва" class="level2">
-<h2 class="anchored" data-anchor-id="какво-обхваща-и-кого-обвързва">Какво обхваща и кого обвързва</h2>
-<p>Законът за здравето използва понятието <strong>здравна информация</strong> (чл. 27). Това са личните данни за здравословното състояние, физическото и психическото развитие, както и всяка информация в рецепти, предписания, протоколи, удостоверения и друга медицинска документация. Защитени са и самият факт на посещението, снимките, пробите и данните от медицински изделия. Защитата не зависи от това дали пациентът е нарекъл сведението „тайна“, нито от преценката на специалиста, че то е безобидно.</p>
-<p>Чл. 28в забранява на медицинските специалисти и на служителите в лечебните заведения да разгласяват информация за пациента, получена при изпълнение на служебните им задължения. Задължението обвързва целия екип: лекари, сестри, акушерки, лаборанти, администратори, студенти и специализанти. Членовете на екипа, който лекува, обменят необходимата информация помежду си. Това не е свободен достъп за всички в болницата: лекар от друго отделение, който не участва в грижата, е външно лице спрямо случая.</p>
-<p>Кодексът за професионална етика на лекарите в България, раздел IV, е по-взискателен от минималния законов стандарт. Лекарската тайна обхваща споделеното от пациента, откритото при прегледа и изследванията и всичко научено при упражняване на професията (чл. 51, ал. 1). Тя се пази и спрямо семейството и продължава след смъртта (чл. 51, ал. 2–3). Обхваща документацията, илюстративния материал и консултациите (чл. 52). Лекуващите лекари са свободни от тайна помежду си, освен при мотивирано несъгласие на пациента (чл. 53). За научна и преподавателска дейност сведенията се използват само при гарантирана анонимност (чл. 54). Когато законът изисква да се съобщи на институция, лекарят се освобождава от задължението за тайна (чл. 55).</p>
-</section>
-<section id="кога-информацията-може-да-бъде-предоставена" class="level2">
-<h2 class="anchored" data-anchor-id="кога-информацията-може-да-бъде-предоставена">Кога информацията може да бъде предоставена</h2>
-<p>Първото основание е волята на пациента. Той може писмено да упълномощи друго лице да се запознае с медицинските му документи (чл. 28б, ал. 2). Разрешението трябва да показва кой, каква информация и с каква цел получава. Общото „може да говорите с близките“ често се нуждае от уточнение.</p>
-<p>Без съгласие здравна информация се предоставя на трети лица само в случаите по чл. 28, ал. 1 от Закона за здравето:</p>
-<ol type="1">
-<li>лечението продължава в друго лечебно заведение;</li>
-<li>съществува заплаха за здравето или живота на други лица;</li>
-<li>необходима е за идентификация на труп или за установяване на причината за смъртта;</li>
-<li>необходима е за държавния здравен контрол за предотвратяване на епидемии и разпространение на заразни болести;</li>
-<li>необходима е за медицинската експертиза и общественото осигуряване;</li>
-<li>необходима е за медицинската статистика или научни изследвания, след като идентифициращите данни са заличени;</li>
-<li>необходима е за Министерството на здравеопазването, Националния център по здравна информация, НЗОК, регионалните здравни инспекции и НСИ;</li>
-<li>необходима е за определени застрахователи по Кодекса за застраховането.</li>
-</ol>
-<p>При заплаха за други лица пациентът се уведомява, преди информацията да бъде предоставена (чл. 28, ал. 2). Отделни закони създават и задължения за съобщаване. Според чл. 7, ал. 2 от Закона за закрила на детето всеки, който по повод професията си научи, че дете се нуждае от закрила, трябва незабавно да уведоми социалните служби, Държавната агенция за закрила на детето или полицията, дори ако е обвързан с професионална тайна.</p>
-</section>
-<section id="правилото-за-минимално-необходимото" class="level2">
-<h2 class="anchored" data-anchor-id="правилото-за-минимално-необходимото">Правилото за минимално необходимото</h2>
-<p>Наличието на законово основание не отменя принципа на минималната необходимост. Преди да предостави информация, специалистът трябва да отговори на четири въпроса: кой е получателят, на какво основание получава данните, кои точно сведения са нужни и по какъв защитен канал ще бъдат изпратени. Ако някой от отговорите е неясен, разкриването се спира до проверка. Регионалната здравна инспекция при епидемиологично проучване не получава несвързана психиатрична анамнеза. Екипът, който поема лечението, получава нужното за безопасна приемственост, а не неограничен достъп.</p>
-<p>Заплахата за трето лице е една от най-трудните дилеми. Преценката изяснява дали вредата е тежка, вероятна и предотвратима, дали застрашеното лице може да бъде определено и дали има по-малко ограничаващ начин да се намали рискът. Разговорът с пациента, насърчаването му сам да уведоми засегнатите и консултацията с колеги или с комисия по медицинска етика обикновено предхождат разкриването. Генетичният резултат създава подобен конфликт, защото показва риск и за роднините. Обичайният подход е пациентът да бъде консултиран и подкрепен сам да ги уведоми.</p>
-</section>
-<section id="близки-починали-и-деца" class="level2">
-<h2 class="anchored" data-anchor-id="близки-починали-и-деца">Близки, починали и деца</h2>
-<p>Съпругът, родителят на пълнолетен пациент, пълнолетното дете и близкият приятел са трети лица, ако пациентът не ги е упълномощил. Родството и доброто намерение не дават автоматично право на диагноза, прогноза или информация за предходно лечение. Присъствието на съпруга в стаята не е разрешение да се съобщи всяка подробност. Особено внимание изискват сведения за предходна бременност, аборт, инфекция, психично лечение, генетичен резултат или насилие.</p>
-<p>След смъртта етичният дълг продължава, но документацията не става напълно недостъпна. Наследниците и роднините по права и по съребрена линия до четвърта степен включително имат право да се запознаят със здравната информация за починалия и да получат копия (чл. 28б, ал. 3). Сведенията не стават обществено достояние. Те се предоставят на правоимащия след проверка на самоличността и основанието.</p>
-<p>При детето родителят има достъп заради отговорността си за здравните решения. Подрастващият трябва да знае предварително доколко разговорът ще остане поверителен. Не бива да се обещава абсолютна тайна, когато може да се разкрие сериозен риск от насилие, самонараняване или тежка вреда.</p>
-</section>
-<section id="степени-на-нарушение-и-дигитални-рискове" class="level2">
-<h2 class="anchored" data-anchor-id="степени-на-нарушение-и-дигитални-рискове">Степени на нарушение и дигитални рискове</h2>
-<p>Законът не установява скала на нарушенията. За учебен анализ се разграничават четири степени. Нулевата е законосъобразен обмен за грижата. Първата е непредпазливо разкриване с ниска разпознаваемост. Втората е разкриване пред неупълномощено лице или достъп без служебна необходимост. Третата е умишлено, публично или мащабно разпространение на разпознаваеми данни. Идентификацията не изисква име: рядка диагноза, възраст, професия, населено място и снимка могат заедно да направят човека разпознаваем. Липсата на умисъл не премахва нарушението. Умисълът влияе върху вида и размера на отговорността.</p>
-<p>Електронният запис подобрява приемствеността, но разширява кръга от хора, които могат да достигнат до данните. Достъпът е според ролята и необходимостта, профилът не се споделя, а всяко отваряне на досие трябва да може да бъде проследено. Служебният достъп не разрешава търсене на роднина, колега или публична личност. Лични приложения за съобщения, снимки на рана или на екран и въвеждането на клинични данни във външни системи с изкуствен интелект създават неуправляем риск. При пробив събитието се ограничава, съобщава се незабавно по вътрешния ред, оценяват се данните и засегнатите лица и при необходимост се уведомяват надзорният орган и пациентът. Прикриването увеличава вредата.</p>
-</section>
-<section id="правна-отговорност" class="level2">
-<h2 class="anchored" data-anchor-id="правна-отговорност">Правна отговорност</h2>
-<p>Едно деяние може едновременно да породи няколко самостоятелни вида отговорност.</p>
-<ul>
-<li><strong>Съсловна.</strong> Лекарят отговаря за неспазване на Кодекса за професионална етика пред комисията по професионална етика на районната колегия на Българския лекарски съюз (Закон за съсловните организации на лекарите и на лекарите по дентална медицина, чл. 37, ал. 1, т. 1 и чл. 39). Наказанията по чл. 38 са порицание, глоба от една до пет минимални работни заплати и заличаване от регистъра на колегията за срок от три месеца до една година. Според чл. 42, ал. 1 тези наказания не изключват наказателна, гражданска или дисциплинарна отговорност.</li>
-<li><strong>Трудово-дисциплинарна.</strong> Виновното неизпълнение на трудовите задължения, включително задължения по закон и по правилника за вътрешния ред, е нарушение на трудовата дисциплина (Кодекс на труда, чл. 186 и чл. 187, ал. 1, т. 10). Наказанията са забележка, предупреждение за уволнение и уволнение (чл. 188).</li>
-<li><strong>Административна.</strong> Законът за здравето предвижда глоба за нарушение на разпоредбите му, включително забраната по чл. 28в (чл. 229), и санкция за лечебно заведение, което наруши права на пациента (чл. 221). Засегнатият може да подаде жалба до Комисията за защита на личните данни в срок шест месеца от узнаването (Закон за защита на личните данни, чл. 38). Администраторът на данни носи санкции по чл. 83 от Регламент (ЕС) 2016/679.</li>
-<li><strong>Гражданска.</strong> Всеки е длъжен да поправи вредите, които виновно е причинил другиму, като вината се предполага (Закон за задълженията и договорите, чл. 45). Лечебното заведение отговаря за вредите, причинени от служителите при или по повод на работата (чл. 49). Неимуществените вреди, например срамът и заклеймяването, се определят от съда по справедливост (чл. 52). Обезщетение може да се търси и по чл. 39, ал. 2 от Закона за защита на личните данни.</li>
-<li><strong>Наказателна.</strong> Който противозаконно открие чужда тайна, опасна за доброто име на някого, поверена му или узната във връзка със занятието му, се наказва с лишаване от свобода до една година или с глоба (Наказателен кодекс, чл. 145, ал. 1). Преследването започва по тъжба на пострадалия (чл. 161, ал. 1). Не всяко разкриване е престъпление, но може да е тежко етично и дисциплинарно нарушение.</li>
-</ul>
-<p>Медицинската тайна не може да прикрива професионална грешка, насилие или друго нарушение. Тя защитава пациента, а не репутацията на отделението.</p>
-<p>Преди да отворите <a href="../learning-tasks/medical-ethics-confidentiality-bg.html">задачите за студенти</a>, опитайте да отговорите в три изречения: кога пазите, кога споделяте и кога сте длъжни да съобщите. Ако можете да посочите законовото основание и получателя за всяко от трите, сте готови за казусите.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Bulgarian</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-confidentiality-bg.html</guid>
-  <pubDate>Fri, 25 Sep 2026 21:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
