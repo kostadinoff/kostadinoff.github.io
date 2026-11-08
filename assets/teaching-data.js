@@ -1381,7 +1381,7 @@ window.TEACHING_DATA = {
        ---------------------------------------------------------------- */
     {
       id: "social-medicine-dental",
-      title: "Social medicine with medical ethics — dental medicine",
+      title: "Social medicine for dental students",
       blurb:
         "Practical classes for second-year dental medicine students: research methodology, literature review and critical appraisal, and the ethics and communication of dental practice.",
       languages: [
