@@ -1,7 +1,7 @@
 ---
 title: "kkstatfun"
 subtitle: "An R toolkit for medical statistics, epidemiology, and health economics"
-description: "A tidyverse-friendly R package bringing 145+ analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, and outbreak detection — into a single consistent workflow."
+description: "A tidyverse-friendly R package bringing 170 analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, outbreak detection, and cycles and rhythms in biomedical time series — into a single consistent workflow."
 toc: true
 toc-depth: 2
 toc-title: "Function families"
@@ -15,15 +15,16 @@ toc-title: "Function families"
       <code>kkstatfun</code> is the R engine behind my research and teaching. It wraps the
       messy, error-prone parts of medical statistics — measures of association, standardization,
       diagnostic accuracy, survival, regression, causal and quasi-experimental designs,
-      health-technology assessment, and infectious-disease modelling — into
-      <strong>146 tidy, pipe-friendly functions</strong> that all speak the same
+      health-technology assessment, infectious-disease modelling, and cycles and rhythms in
+      biomedical time series — into
+      <strong>170 tidy, pipe-friendly functions</strong> that all speak the same
       grammar: tidy data in, tidy data out.
     </p>
     <div class="kk-badges">
       <a href="https://doi.org/10.5281/zenodo.18936019" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18936019.svg" alt="DOI"></a>
-      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.3.0-blue.svg" alt="Version 1.3.0"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.4.0-blue.svg" alt="Version 1.4.0"></a>
       <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
-      <img src="https://img.shields.io/badge/functions-146-8A5A24" alt="146 functions">
+      <img src="https://img.shields.io/badge/functions-170-8A5A24" alt="170 functions">
       <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
     </div>
   </div>
@@ -51,6 +52,10 @@ The analysis functions honour `dplyr::group_by()`: pipe a grouped data frame in 
 Confidence intervals, effect sizes, and correct tests by default — plus themed plots — so output drops straight into a manuscript or a lecture.
 :::
 
+:::
+
+::: {.callout-note appearance="simple"}
+**New in 1.4.0 — cycles, rhythms and events in biomedical time series.** One long record of one person or one population — a glucose sensor, a temperature log, a blood-pressure diary, eight years of monthly admissions — analysed for trend, cycles of unknown period, the daily rhythm and the response after meals, walks or doses, with methods that respect the autocorrelation instead of treating repeated measurements as independent. The tier brings the methods of **CycleLab** (Prof. Rumen Stefanov, Institute for Rare Diseases, Plovdiv) to R, with the T-R periodogram of Boris Komitov and Halberg's cosinor at its core. See the **Cycles & rhythms** tab in the [function reference](#function-reference) below.
 :::
 
 ::: {.callout-note appearance="simple"}
@@ -349,6 +354,49 @@ res$overall              # single summary
 **Interpretation.** A difference-in-differences estimate is only as good as the parallel-trends assumption behind it, and that assumption is not testable from a 2×2 table — which is why `kk_event_study()` exists and why its pre-period coefficients belong in the paper, not in a drawer. The same discipline applies across the tab: report the bandwidth-sensitivity table with an RD estimate, the manipulation test with the design, the first-stage F with an IV, and the placebo distribution with a synthetic control.
 :::
 
+### Cycles & rhythms
+
+*New in 1.4.0.* Repeated measurements of one person or one population are not independent values: today's blood pressure is close to yesterday's, and the ordinary tests, which assume otherwise, find trends, cycles and responses that are not there. This tier asks the usual questions of such a series with methods built for the autocorrelation. The workflow, the order of the analysis and much of the report wording follow **CycleLab** by Prof. Rumen Stefanov ([cyclelab.raredis.org](https://cyclelab.raredis.org)); the cycle search rests on the **T-R periodogram of Boris Komitov**, the rhythm analysis on Halberg's cosinor. Every example runs on `kk_cycle_example()`, simulated records whose true properties are known, so each method can be checked against the truth.
+
+| Function | What it does |
+|---|---|
+| `kk_ts_describe()` | Distribution, sampling step, gaps, possible entry errors, and a moving average over one cycle. |
+| `kk_ts_trend()` | Trend test with the effective number of observations and a bias-corrected lag-1 autocorrelation, for the line, 15 two-parameter forms and the Verhulst logistic. Every form gets a test of *no trend* on its own scale; the form is never chosen by R² alone. |
+| `kk_periodogram()` | T-R periodogram (generalised Lomb–Scargle, so gaps and uneven spacing are fine) with a **max-T test against AR(1) red noise**. Cycles are extracted one at a time; calendar periods and harmonics are recognised. |
+| `kk_harmonic_model()` | Trend plus cycles, Komitov's PrIdx, and a rolling-origin check against naive forecasts — a forecast is worth reporting only if it beats them. |
+| `kk_cosinor()`, `kk_cosinor_population()`, `kk_cosinor_compare()` | MESOR, amplitude and acrophase with HAC errors, per day and across subjects; stages and groups compared on the coefficients of independent units (Bingham). With no rhythm detected, the peak time gets no interval. |
+| `kk_day_parts()` | Morning, midday, evening and night, with the day as a block. |
+| `kk_epoch_response()` | Superposed epochs around meals, walks or doses, **tested against controls at the same clock time on other days** — not against zero. Rise to peak, time to peak, iAUC, with covariates such as carbohydrates or dose. |
+| `kk_distributed_lag()` | The effect of an exposure spread over the following lags. |
+| `kk_nof1_schedule()`, `kk_nof1()` | Block-randomised N-of-1 schedules and their exact randomisation test. |
+| `kk_ts_compare()` | Prewhitened cross-correlation, Granger tests with the shared trend and rhythm in both models, phase shifts, common cycles and lagged regressions. |
+| `kk_wavelet()`, `kk_wavelet_coherence()` | Morlet wavelet power and coherence, significance against red noise, the cone of influence. |
+| `kk_cycle_power()` | How long and how often to measure, simulating the detector exactly as it is applied to data. |
+| `kk_cycle_analysis()` | The full analysis: runs every step that suits the data and returns what was **established**, what was **not established** (which does not mean absent), every automatic decision with its reason, and Methods and Results text written from what actually ran. |
+| `kk_plot_periodogram()`, `kk_plot_cosinor()`, `kk_plot_epoch()`, `kk_plot_wavelet()`, `kk_plot_model()`, `kk_plot_day_parts()` | kkplot figures whose titles state the finding, with direct labels instead of legends. |
+
+**Example — eight years of monthly pneumonia admissions** (truth: an annual cycle peaking in January and a smaller semi-annual one):
+
+```r
+pn <- kk_cycle_example("pneumonia")
+pg <- kk_periodogram(pn$series, rate, month, calendar = c(12, 6), n_sim = 300)
+pg[, c("period", "model_period", "amplitude", "R_SR", "p_value", "in_model")]
+#>   period model_period amplitude  R_SR p_value in_model
+#> 1  12.0          12        9.16  44.2  0.0033 TRUE
+#> 2   5.99          6        2.97  11.2  0.0033 TRUE
+#> 3  47.5          47.5      1.41   4.81 0.33   FALSE
+kk_plot_periodogram(pg)
+
+# Or the whole analysis, with its conclusion and report text
+kk_cycle_analysis(pn$series, rate, month)
+```
+
+Both true cycles are recovered and snapped to their calendar periods; the third peak does not beat autocorrelated noise.
+
+::: {.callout-note}
+**Interpretation.** CycleLab's rule that a peak with R/S<sub>R</sub> ≥ 1.96 is a cycle holds only for one period fixed in advance; scanned over a whole periodogram it finds cycles in pure noise, which is why `kk_periodogram()` tests against red-noise surrogates and why many peaks above the 1.96 line in the figure are not cycles. The same caution applies to events: the rise after a pseudo-event in pure noise is a maximum and therefore always positive, so a test against zero declared a response in 100% of null records in simulation, against 4% for the clock-matched comparison. The guide with nine worked examples is `vignette("cycles-and-rhythms")`.
+:::
+
 ### Health economics & HTA
 
 A full health-technology-assessment workflow, from ICERs to value of information.
@@ -449,8 +497,8 @@ kk_pal_safe(5, seed_colors = "#003049")
 
 - **Philosophy** — tidy data in, tidy data out; full integration with `dplyr` verbs and genuinely stratified `group_by()` analyses.
 - **Built on** — the best-in-class engines under a single interface: `survival`, `gtsummary`, `broom`, `rstatix`, `pROC`, `epiR`/`epitools`, `easystats`, `marginaleffects`, `sandwich`, and more.
-- **Methods** — implemented according to standard frameworks: Rothman, Greenland & Lash's *Modern Epidemiology* (3rd ed.), Szklo & Nieto's *Epidemiology: Beyond the Basics*, Jewell's *Statistics for Epidemiology*, Zar's *Biostatistical Analysis*, and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures*. The quasi-experimental designs follow Angrist & Pischke, Callaway & Sant'Anna (2021), Imbens & Kalyanaraman (2012), McCrary (2008), Abadie et al. (2010) and Bernal et al. (2017).
-- **Tested** — every exported function is covered by the test suite, and the causal estimators are tested against a known simulated effect rather than merely for running. `R CMD check` passes with 0 errors and 0 warnings.
+- **Methods** — implemented according to standard frameworks: Rothman, Greenland & Lash's *Modern Epidemiology* (3rd ed.), Szklo & Nieto's *Epidemiology: Beyond the Basics*, Jewell's *Statistics for Epidemiology*, Zar's *Biostatistical Analysis*, and Sheskin's *Handbook of Parametric and Nonparametric Statistical Procedures*. The quasi-experimental designs follow Angrist & Pischke, Callaway & Sant'Anna (2021), Imbens & Kalyanaraman (2012), McCrary (2008), Abadie et al. (2010) and Bernal et al. (2017). The time-series tier follows CycleLab (Stefanov, 2026), Komitov's 6D STAT T-R periodogram, Zechmeister & Kürster (2009), Cornelissen (2014) and Bingham et al. (1982) for the cosinor, Chree (1913) for superposed epochs, and Torrence & Compo (1998) and Grinsted et al. (2004) for wavelets.
+- **Tested** — every exported function is covered by the test suite, and the causal estimators are tested against a known simulated effect rather than merely for running. The cycle and event tests were calibrated by simulation at a nominal 5%: 1.5–3.5% false cycles for the red-noise test, 4% for the event test. `R CMD check` passes with 0 errors and 0 warnings.
 - **Reproducible** — versioned and archived on Zenodo with a citable concept DOI that always resolves to the latest release.
 
 ## Citation
@@ -463,13 +511,13 @@ If `kkstatfun` supports your work, please cite it:
              Statistics and Epidemiology},
   author  = {Kostadinov, Kostadin},
   year    = {2026},
-  version = {1.3.0},
+  version = {1.4.0},
   url     = {https://github.com/kostadinoff/kkstatfun},
   doi     = {10.5281/zenodo.18936019},
 }
 ```
 
-The DOI above is the Zenodo *concept* DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from [the Zenodo record](https://doi.org/10.5281/zenodo.18936019), or run `citation("kkstatfun")` in R.
+The DOI above is the Zenodo *concept* DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from [the Zenodo record](https://doi.org/10.5281/zenodo.18936019) (for 1.4.0: [10.5281/zenodo.24088311](https://doi.org/10.5281/zenodo.24088311)), or run `citation("kkstatfun")` in R.
 
 <div class="kk-cta">
   <a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a>

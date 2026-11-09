@@ -81,7 +81,7 @@ Physician-epidemiologist and Chief Assistant Professor in the Department of Soci
 
 Holds an MD, a PhD in social medicine and public health, an MPH, and master's degrees in economics and finance, statistical business consulting, and impact assessment and policy appraisal, and is currently reading for a Master of Laws. Board-certified in Social Medicine and Organisation of Health Care and Pharmacy, and currently in residency training in Infectious Disease Epidemiology.
 
-Develops and publishes open research software: [`kkstatfun`](kkstatfun.qmd), an R toolkit of 146 functions for medical statistics, epidemiology and health economics. Associate Editor at JMIR Publications and founder of the Social Epidemiology Lab.
+Develops and publishes open research software: [`kkstatfun`](kkstatfun.qmd), an R toolkit of 170 functions for medical statistics, epidemiology and health economics. Associate Editor at JMIR Publications and founder of the Social Epidemiology Lab.
 
 # Research interests
 
@@ -302,7 +302,7 @@ The publication record is organised around six research programmes:
 
 `2024 – Present`
 
-- **[`kkstatfun`](kkstatfun.qmd)** — R package for medical statistics, epidemiology and health economics. A single tidy, pipe-friendly and `group_by()`-aware interface covering measures of association, standardisation, diagnostic accuracy, agreement, survival analysis, regression, causal inference and quasi-experimental designs, health technology assessment, and infectious disease modelling. Current release **v1.3.0**, 146 functions, MIT licence.
+- **[`kkstatfun`](kkstatfun.qmd)** — R package for medical statistics, epidemiology and health economics. A single tidy, pipe-friendly and `group_by()`-aware interface covering measures of association, standardisation, diagnostic accuracy, agreement, survival analysis, regression, causal inference and quasi-experimental designs, health technology assessment, infectious disease modelling, and cycles and rhythms in biomedical time series. Current release **v1.4.0**, 170 functions, MIT licence.
     - Source: [github.com/kostadinoff/kkstatfun](https://github.com/kostadinoff/kkstatfun) · Archive: [doi:10.5281/zenodo.18936019](https://doi.org/10.5281/zenodo.18936019) · Documentation: [kkstatfun function reference](kkstatfun.qmd)
 
 `2025`

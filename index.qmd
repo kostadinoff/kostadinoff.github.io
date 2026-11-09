@@ -91,7 +91,7 @@ Lecture slides, handouts, 15-minute guides, and interactive notebooks for public
 
 ### kkstatfun
 
-An R toolkit for medical statistics — from 2×2 tables to causal inference, survival, and HTA.
+An R toolkit for medical statistics — from 2×2 tables to causal inference, survival, HTA, and biomedical time series.
 
 [View the package →](kkstatfun.qmd){.home-area-link}
 :::

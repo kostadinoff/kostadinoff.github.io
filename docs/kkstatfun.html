@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A tidyverse-friendly R package bringing 145+ analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, and outbreak detection — into a single consistent workflow.">
+<meta name="description" content="A tidyverse-friendly R package bringing 170 analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, outbreak detection, and cycles and rhythms in biomedical time series — into a single consistent workflow.">
 
 <title>kkstatfun – Kostadin Kostadinov</title>
 <style>
@@ -120,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="assets/teaching.css">
 <meta name="twitter:title" content="kkstatfun – Kostadin Kostadinov">
-<meta name="twitter:description" content="A tidyverse-friendly R package bringing 145+ analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, and outbreak detection — into a single consistent workflow.">
+<meta name="twitter:description" content="A tidyverse-friendly R package bringing 170 analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, outbreak detection, and cycles and rhythms in biomedical time series — into a single consistent workflow.">
 <meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
 <meta name="twitter:card" content="summary">
 </head>
@@ -407,7 +407,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <p class="subtitle lead">An R toolkit for medical statistics, epidemiology, and health economics</p>
                   <div>
         <div class="description">
-          A tidyverse-friendly R package bringing 145+ analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, and outbreak detection — into a single consistent workflow.
+          A tidyverse-friendly R package bringing 170 analysis functions — from 2×2 tables to causal inference, quasi-experimental designs, survival, HTA, outbreak detection, and cycles and rhythms in biomedical time series — into a single consistent workflow.
         </div>
       </div>
                 </div>
@@ -454,15 +454,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <code>kkstatfun</code> is the R engine behind my research and teaching. It wraps the
       messy, error-prone parts of medical statistics — measures of association, standardization,
       diagnostic accuracy, survival, regression, causal and quasi-experimental designs,
-      health-technology assessment, and infectious-disease modelling — into
-      <strong>146 tidy, pipe-friendly functions</strong> that all speak the same
+      health-technology assessment, infectious-disease modelling, and cycles and rhythms in
+      biomedical time series — into
+      <strong>170 tidy, pipe-friendly functions</strong> that all speak the same
       grammar: tidy data in, tidy data out.
     </p>
     <div class="kk-badges">
       <a href="https://doi.org/10.5281/zenodo.18936019" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18936019.svg" alt="DOI"></a>
-      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.3.0-blue.svg" alt="Version 1.3.0"></a>
+      <a href="https://github.com/kostadinoff/kkstatfun/releases" target="_blank"><img src="https://img.shields.io/badge/version-1.4.0-blue.svg" alt="Version 1.4.0"></a>
       <a href="https://github.com/kostadinoff/kkstatfun" target="_blank"><img src="https://img.shields.io/badge/GitHub-kostadinoff%2Fkkstatfun-1E2A33?logo=github" alt="GitHub"></a>
-      <img src="https://img.shields.io/badge/functions-146-8A5A24" alt="146 functions">
+      <img src="https://img.shields.io/badge/functions-170-8A5A24" alt="170 functions">
       <img src="https://img.shields.io/badge/license-MIT-35506A" alt="MIT license">
     </div>
   </div>
@@ -483,6 +484,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="publication-ready">Publication-ready</h3>
 <p>Confidence intervals, effect sizes, and correct tests by default — plus themed plots — so output drops straight into a manuscript or a lecture.</p>
 </section>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>New in 1.4.0 — cycles, rhythms and events in biomedical time series.</strong> One long record of one person or one population — a glucose sensor, a temperature log, a blood-pressure diary, eight years of monthly admissions — analysed for trend, cycles of unknown period, the daily rhythm and the response after meals, walks or doses, with methods that respect the autocorrelation instead of treating repeated measurements as independent. The tier brings the methods of <strong>CycleLab</strong> (Prof.&nbsp;Rumen Stefanov, Institute for Rare Diseases, Plovdiv) to R, with the T-R periodogram of Boris Komitov and Halberg’s cosinor at its core. See the <strong>Cycles &amp; rhythms</strong> tab in the <a href="#function-reference">function reference</a> below.</p>
+</div>
+</div>
 </div>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
@@ -538,7 +549,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="function-reference" class="level2">
 <h2 class="anchored" data-anchor-id="function-reference">Function reference</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Association &amp; risk</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Diagnostics &amp; agreement</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Regression &amp; modelling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Study design &amp; proportions</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Survival &amp; time-to-event</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Tables &amp; group comparison</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Randomness &amp; sequences</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Causal inference</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false" href="">Quasi-experimental designs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-10-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-10" role="tab" aria-controls="tabset-1-10" aria-selected="false" href="">Health economics &amp; HTA</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-11-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-11" role="tab" aria-controls="tabset-1-11" aria-selected="false" href="">Infectious disease</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-12-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-12" role="tab" aria-controls="tabset-1-12" aria-selected="false" href="">Plotting &amp; utilities</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-13-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-13" role="tab" aria-controls="tabset-1-13" aria-selected="false" href="">Figure accessibility</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Association &amp; risk</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Diagnostics &amp; agreement</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Regression &amp; modelling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Study design &amp; proportions</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Survival &amp; time-to-event</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Tables &amp; group comparison</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Randomness &amp; sequences</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">Causal inference</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false" href="">Quasi-experimental designs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-10-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-10" role="tab" aria-controls="tabset-1-10" aria-selected="false" href="">Cycles &amp; rhythms</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-11-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-11" role="tab" aria-controls="tabset-1-11" aria-selected="false" href="">Health economics &amp; HTA</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-12-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-12" role="tab" aria-controls="tabset-1-12" aria-selected="false" href="">Infectious disease</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-13-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-13" role="tab" aria-controls="tabset-1-13" aria-selected="false" href="">Plotting &amp; utilities</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-14-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-14" role="tab" aria-controls="tabset-1-14" aria-selected="false" href="">Figure accessibility</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>The core epidemiology toolkit: turn exposures and outcomes into interpretable, confidence-bounded effect measures.</p>
@@ -1113,6 +1124,105 @@ Note
 </div>
 </div>
 <div id="tabset-1-10" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-10-tab">
+<p><em>New in 1.4.0.</em> Repeated measurements of one person or one population are not independent values: today’s blood pressure is close to yesterday’s, and the ordinary tests, which assume otherwise, find trends, cycles and responses that are not there. This tier asks the usual questions of such a series with methods built for the autocorrelation. The workflow, the order of the analysis and much of the report wording follow <strong>CycleLab</strong> by Prof.&nbsp;Rumen Stefanov (<a href="https://cyclelab.raredis.org">cyclelab.raredis.org</a>); the cycle search rests on the <strong>T-R periodogram of Boris Komitov</strong>, the rhythm analysis on Halberg’s cosinor. Every example runs on <code>kk_cycle_example()</code>, simulated records whose true properties are known, so each method can be checked against the truth.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>kk_ts_describe()</code></td>
+<td>Distribution, sampling step, gaps, possible entry errors, and a moving average over one cycle.</td>
+</tr>
+<tr class="even">
+<td><code>kk_ts_trend()</code></td>
+<td>Trend test with the effective number of observations and a bias-corrected lag-1 autocorrelation, for the line, 15 two-parameter forms and the Verhulst logistic. Every form gets a test of <em>no trend</em> on its own scale; the form is never chosen by R² alone.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_periodogram()</code></td>
+<td>T-R periodogram (generalised Lomb–Scargle, so gaps and uneven spacing are fine) with a <strong>max-T test against AR(1) red noise</strong>. Cycles are extracted one at a time; calendar periods and harmonics are recognised.</td>
+</tr>
+<tr class="even">
+<td><code>kk_harmonic_model()</code></td>
+<td>Trend plus cycles, Komitov’s PrIdx, and a rolling-origin check against naive forecasts — a forecast is worth reporting only if it beats them.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_cosinor()</code>, <code>kk_cosinor_population()</code>, <code>kk_cosinor_compare()</code></td>
+<td>MESOR, amplitude and acrophase with HAC errors, per day and across subjects; stages and groups compared on the coefficients of independent units (Bingham). With no rhythm detected, the peak time gets no interval.</td>
+</tr>
+<tr class="even">
+<td><code>kk_day_parts()</code></td>
+<td>Morning, midday, evening and night, with the day as a block.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_epoch_response()</code></td>
+<td>Superposed epochs around meals, walks or doses, <strong>tested against controls at the same clock time on other days</strong> — not against zero. Rise to peak, time to peak, iAUC, with covariates such as carbohydrates or dose.</td>
+</tr>
+<tr class="even">
+<td><code>kk_distributed_lag()</code></td>
+<td>The effect of an exposure spread over the following lags.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_nof1_schedule()</code>, <code>kk_nof1()</code></td>
+<td>Block-randomised N-of-1 schedules and their exact randomisation test.</td>
+</tr>
+<tr class="even">
+<td><code>kk_ts_compare()</code></td>
+<td>Prewhitened cross-correlation, Granger tests with the shared trend and rhythm in both models, phase shifts, common cycles and lagged regressions.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_wavelet()</code>, <code>kk_wavelet_coherence()</code></td>
+<td>Morlet wavelet power and coherence, significance against red noise, the cone of influence.</td>
+</tr>
+<tr class="even">
+<td><code>kk_cycle_power()</code></td>
+<td>How long and how often to measure, simulating the detector exactly as it is applied to data.</td>
+</tr>
+<tr class="odd">
+<td><code>kk_cycle_analysis()</code></td>
+<td>The full analysis: runs every step that suits the data and returns what was <strong>established</strong>, what was <strong>not established</strong> (which does not mean absent), every automatic decision with its reason, and Methods and Results text written from what actually ran.</td>
+</tr>
+<tr class="even">
+<td><code>kk_plot_periodogram()</code>, <code>kk_plot_cosinor()</code>, <code>kk_plot_epoch()</code>, <code>kk_plot_wavelet()</code>, <code>kk_plot_model()</code>, <code>kk_plot_day_parts()</code></td>
+<td>kkplot figures whose titles state the finding, with direct labels instead of legends.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — eight years of monthly pneumonia admissions</strong> (truth: an annual cycle peaking in January and a smaller semi-annual one):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pn <span class="ot">&lt;-</span> <span class="fu">kk_cycle_example</span>(<span class="st">"pneumonia"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>pg <span class="ot">&lt;-</span> <span class="fu">kk_periodogram</span>(pn<span class="sc">$</span>series, rate, month, <span class="at">calendar =</span> <span class="fu">c</span>(<span class="dv">12</span>, <span class="dv">6</span>), <span class="at">n_sim =</span> <span class="dv">300</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>pg[, <span class="fu">c</span>(<span class="st">"period"</span>, <span class="st">"model_period"</span>, <span class="st">"amplitude"</span>, <span class="st">"R_SR"</span>, <span class="st">"p_value"</span>, <span class="st">"in_model"</span>)]</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   period model_period amplitude  R_SR p_value in_model</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1  12.0          12        9.16  44.2  0.0033 TRUE</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2   5.99          6        2.97  11.2  0.0033 TRUE</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3  47.5          47.5      1.41   4.81 0.33   FALSE</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_plot_periodogram</span>(pg)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Or the whole analysis, with its conclusion and report text</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_cycle_analysis</span>(pn<span class="sc">$</span>series, rate, month)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Both true cycles are recovered and snapped to their calendar periods; the third peak does not beat autocorrelated noise.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Interpretation.</strong> CycleLab’s rule that a peak with R/S<sub>R</sub> ≥ 1.96 is a cycle holds only for one period fixed in advance; scanned over a whole periodogram it finds cycles in pure noise, which is why <code>kk_periodogram()</code> tests against red-noise surrogates and why many peaks above the 1.96 line in the figure are not cycles. The same caution applies to events: the rise after a pseudo-event in pure noise is a maximum and therefore always positive, so a test against zero declared a response in 100% of null records in simulation, against 4% for the clock-matched comparison. The guide with nine worked examples is <code>vignette("cycles-and-rhythms")</code>.</p>
+</div>
+</div>
+</div>
+<div id="tabset-1-11" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-11-tab">
 <p>A full health-technology-assessment workflow, from ICERs to value of information.</p>
 <table class="caption-top table">
 <colgroup>
@@ -1157,10 +1267,10 @@ Note
 </tbody>
 </table>
 <p><strong>Example — rank strategies and find the frontier:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_icer</span>(cost, qaly, strategy)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_nmb</span>(cost, qaly, <span class="at">wtp =</span> <span class="dv">25000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_icer</span>(cost, qaly, strategy)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>strategies <span class="sc">%&gt;%</span> <span class="fu">kk_nmb</span>(cost, qaly, <span class="at">wtp =</span> <span class="dv">25000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="tabset-1-11" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-11-tab">
+<div id="tabset-1-12" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-12-tab">
 <p>Compartmental models, R₀, serological incidence, and outbreak detection.</p>
 <table class="caption-top table">
 <colgroup>
@@ -1197,11 +1307,11 @@ Note
 </tbody>
 </table>
 <p><strong>Example — simulate an outbreak and read off R₀:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> <span class="fu">kk_seir</span>(<span class="at">beta =</span> <span class="fl">0.4</span>, <span class="at">gamma =</span> <span class="fl">0.2</span>, <span class="at">sigma =</span> <span class="fl">0.25</span>,</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">S0 =</span> <span class="fl">1e6</span>, <span class="at">I0 =</span> <span class="dv">10</span>, <span class="at">times =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">180</span>)</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(out, <span class="st">"R0"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> <span class="fu">kk_seir</span>(<span class="at">beta =</span> <span class="fl">0.4</span>, <span class="at">gamma =</span> <span class="fl">0.2</span>, <span class="at">sigma =</span> <span class="fl">0.25</span>,</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">S0 =</span> <span class="fl">1e6</span>, <span class="at">I0 =</span> <span class="dv">10</span>, <span class="at">times =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">180</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">attr</span>(out, <span class="st">"R0"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="tabset-1-12" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-12-tab">
+<div id="tabset-1-13" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-13-tab">
 <p>The theming layer, quick plots, and the Bulgarian-registry helpers.</p>
 <table class="caption-top table">
 <colgroup>
@@ -1266,10 +1376,10 @@ Note
 </tbody>
 </table>
 <p><strong>Example — parse Bulgarian personal identifiers:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extract_egn_info</span>(<span class="fu">c</span>(<span class="st">"9201014321"</span>, <span class="st">"8812128765"</span>))</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Date of birth, sex, age, and birth region for each EGN</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extract_egn_info</span>(<span class="fu">c</span>(<span class="st">"9201014321"</span>, <span class="st">"8812128765"</span>))</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Date of birth, sex, age, and birth region for each EGN</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="tabset-1-13" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-13-tab">
+<div id="tabset-1-14" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-14-tab">
 <p><em>New in 1.2.0.</em> Roughly one man in twelve has a red–green colour deficiency, journals and university accessibility policies increasingly ask for the check, and a figure still has to survive being photocopied. These audit a palette <strong>before</strong> it reaches a manuscript — no extra dependencies, base <code>grDevices</code> only.</p>
 <table class="caption-top table">
 <colgroup>
@@ -1311,11 +1421,11 @@ Note
 </table>
 <p><code>kk_gen_palettes()</code> and <code>set_plot_colors()</code> also take <code>space = "oklch"</code>, which builds palettes in perceptually uniform space: hue rotations hold their apparent lightness instead of lurching between a muddy green and a fluorescent one, and out-of-gamut colours are mapped by reducing chroma rather than clipping RGB, which shifts hue.</p>
 <p><strong>Example — audit a palette before the figures ship:</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>pal <span class="ot">&lt;-</span> <span class="fu">kk_pal</span>(<span class="dv">5</span>)</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_pal_check</span>(pal) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>distinct <span class="sc">|</span> <span class="sc">!</span>graphic)   <span class="co"># empty = passes</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or build one that is safe by construction</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_pal_safe</span>(<span class="dv">5</span>, <span class="at">seed_colors =</span> <span class="st">"#003049"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>pal <span class="ot">&lt;-</span> <span class="fu">kk_pal</span>(<span class="dv">5</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_pal_check</span>(pal) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>distinct <span class="sc">|</span> <span class="sc">!</span>graphic)   <span class="co"># empty = passes</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or build one that is safe by construction</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">kk_pal_safe</span>(<span class="dv">5</span>, <span class="at">seed_colors =</span> <span class="st">"#003049"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -1326,24 +1436,24 @@ Note
 <ul>
 <li><strong>Philosophy</strong> — tidy data in, tidy data out; full integration with <code>dplyr</code> verbs and genuinely stratified <code>group_by()</code> analyses.</li>
 <li><strong>Built on</strong> — the best-in-class engines under a single interface: <code>survival</code>, <code>gtsummary</code>, <code>broom</code>, <code>rstatix</code>, <code>pROC</code>, <code>epiR</code>/<code>epitools</code>, <code>easystats</code>, <code>marginaleffects</code>, <code>sandwich</code>, and more.</li>
-<li><strong>Methods</strong> — implemented according to standard frameworks: Rothman, Greenland &amp; Lash’s <em>Modern Epidemiology</em> (3rd ed.), Szklo &amp; Nieto’s <em>Epidemiology: Beyond the Basics</em>, Jewell’s <em>Statistics for Epidemiology</em>, Zar’s <em>Biostatistical Analysis</em>, and Sheskin’s <em>Handbook of Parametric and Nonparametric Statistical Procedures</em>. The quasi-experimental designs follow Angrist &amp; Pischke, Callaway &amp; Sant’Anna (2021), Imbens &amp; Kalyanaraman (2012), McCrary (2008), Abadie et al.&nbsp;(2010) and Bernal et al.&nbsp;(2017).</li>
-<li><strong>Tested</strong> — every exported function is covered by the test suite, and the causal estimators are tested against a known simulated effect rather than merely for running. <code>R CMD check</code> passes with 0 errors and 0 warnings.</li>
+<li><strong>Methods</strong> — implemented according to standard frameworks: Rothman, Greenland &amp; Lash’s <em>Modern Epidemiology</em> (3rd ed.), Szklo &amp; Nieto’s <em>Epidemiology: Beyond the Basics</em>, Jewell’s <em>Statistics for Epidemiology</em>, Zar’s <em>Biostatistical Analysis</em>, and Sheskin’s <em>Handbook of Parametric and Nonparametric Statistical Procedures</em>. The quasi-experimental designs follow Angrist &amp; Pischke, Callaway &amp; Sant’Anna (2021), Imbens &amp; Kalyanaraman (2012), McCrary (2008), Abadie et al.&nbsp;(2010) and Bernal et al.&nbsp;(2017). The time-series tier follows CycleLab (Stefanov, 2026), Komitov’s 6D STAT T-R periodogram, Zechmeister &amp; Kürster (2009), Cornelissen (2014) and Bingham et al.&nbsp;(1982) for the cosinor, Chree (1913) for superposed epochs, and Torrence &amp; Compo (1998) and Grinsted et al.&nbsp;(2004) for wavelets.</li>
+<li><strong>Tested</strong> — every exported function is covered by the test suite, and the causal estimators are tested against a known simulated effect rather than merely for running. The cycle and event tests were calibrated by simulation at a nominal 5%: 1.5–3.5% false cycles for the red-noise test, 4% for the event test. <code>R CMD check</code> passes with 0 errors and 0 warnings.</li>
 <li><strong>Reproducible</strong> — versioned and archived on Zenodo with a citable concept DOI that always resolves to the latest release.</li>
 </ul>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
 <p>If <code>kkstatfun</code> supports your work, please cite it:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">@Software{kkstatfun,</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">  title   = {kkstatfun: R Statistical Analysis Toolkit for Medical</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">             Statistics and Epidemiology},</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co">  author  = {Kostadinov, Kostadin},</span></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co">  year    = {2026},</span></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co">  version = {1.3.0},</span></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co">  url     = {https://github.com/kostadinoff/kkstatfun},</span></span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co">  doi     = {10.5281/zenodo.18936019},</span></span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="co">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The DOI above is the Zenodo <em>concept</em> DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from <a href="https://doi.org/10.5281/zenodo.18936019">the Zenodo record</a>, or run <code>citation("kkstatfun")</code> in R.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">@Software{kkstatfun,</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co">  title   = {kkstatfun: R Statistical Analysis Toolkit for Medical</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co">             Statistics and Epidemiology},</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co">  author  = {Kostadinov, Kostadin},</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="co">  year    = {2026},</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co">  version = {1.4.0},</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co">  url     = {https://github.com/kostadinoff/kkstatfun},</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="co">  doi     = {10.5281/zenodo.18936019},</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The DOI above is the Zenodo <em>concept</em> DOI — it always resolves to the most recent release. To cite the exact version you used, take the version-specific DOI from <a href="https://doi.org/10.5281/zenodo.18936019">the Zenodo record</a> (for 1.4.0: <a href="https://doi.org/10.5281/zenodo.24088311">10.5281/zenodo.24088311</a>), or run <code>citation("kkstatfun")</code> in R.</p>
 <div class="kk-cta">
 <p><a class="btn btn-secondary" href="https://github.com/kostadinoff/kkstatfun" target="_blank" role="button">View the source on GitHub</a> <a class="btn btn-outline-primary" href="https://doi.org/10.5281/zenodo.18936019" target="_blank" role="button">Archived release (Zenodo)</a></p>
 </div>
