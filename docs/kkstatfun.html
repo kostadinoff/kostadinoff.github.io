@@ -1127,71 +1127,71 @@ Note
 <p><em>New in 1.4.0.</em> Repeated measurements of one person or one population are not independent values: today’s blood pressure is close to yesterday’s, and the ordinary tests, which assume otherwise, find trends, cycles and responses that are not there. This tier asks the usual questions of such a series with methods built for the autocorrelation. The workflow, the order of the analysis and much of the report wording follow <strong>CycleLab</strong> by Prof.&nbsp;Rumen Stefanov (<a href="https://cyclelab.raredis.org">cyclelab.raredis.org</a>); the cycle search rests on the <strong>T-R periodogram of Boris Komitov</strong>, the rhythm analysis on Halberg’s cosinor. Every example runs on <code>kk_cycle_example()</code>, simulated records whose true properties are known, so each method can be checked against the truth.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 26%">
+<col style="width: 73%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Function</th>
-<th>What it does</th>
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">What it does</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>kk_ts_describe()</code></td>
-<td>Distribution, sampling step, gaps, possible entry errors, and a moving average over one cycle.</td>
+<td style="text-align: left;"><code>kk_ts_describe()</code></td>
+<td style="text-align: left;">Distribution, sampling step, gaps, possible entry errors, and a moving average over one cycle.</td>
 </tr>
 <tr class="even">
-<td><code>kk_ts_trend()</code></td>
-<td>Trend test with the effective number of observations and a bias-corrected lag-1 autocorrelation, for the line, 15 two-parameter forms and the Verhulst logistic. Every form gets a test of <em>no trend</em> on its own scale; the form is never chosen by R² alone.</td>
+<td style="text-align: left;"><code>kk_ts_trend()</code></td>
+<td style="text-align: left;">Trend test with the effective number of observations and a bias-corrected lag-1 autocorrelation, for the line, 15 two-parameter forms and the Verhulst logistic. Every form gets a test of <em>no trend</em> on its own scale; the form is never chosen by R² alone.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_periodogram()</code></td>
-<td>T-R periodogram (generalised Lomb–Scargle, so gaps and uneven spacing are fine) with a <strong>max-T test against AR(1) red noise</strong>. Cycles are extracted one at a time; calendar periods and harmonics are recognised.</td>
+<td style="text-align: left;"><code>kk_periodogram()</code></td>
+<td style="text-align: left;">T-R periodogram (generalised Lomb–Scargle, so gaps and uneven spacing are fine) with a <strong>max-T test against AR(1) red noise</strong>. Cycles are extracted one at a time; calendar periods and harmonics are recognised.</td>
 </tr>
 <tr class="even">
-<td><code>kk_harmonic_model()</code></td>
-<td>Trend plus cycles, Komitov’s PrIdx, and a rolling-origin check against naive forecasts — a forecast is worth reporting only if it beats them.</td>
+<td style="text-align: left;"><code>kk_harmonic_model()</code></td>
+<td style="text-align: left;">Trend plus cycles, Komitov’s PrIdx, and a rolling-origin check against naive forecasts — a forecast is worth reporting only if it beats them.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_cosinor()</code>, <code>kk_cosinor_population()</code>, <code>kk_cosinor_compare()</code></td>
-<td>MESOR, amplitude and acrophase with HAC errors, per day and across subjects; stages and groups compared on the coefficients of independent units (Bingham). With no rhythm detected, the peak time gets no interval.</td>
+<td style="text-align: left;"><code>kk_cosinor()</code><br><code>kk_cosinor_population()</code><br><code>kk_cosinor_compare()</code></td>
+<td style="text-align: left;">MESOR, amplitude and acrophase with HAC errors, per day and across subjects; stages and groups compared on the coefficients of independent units (Bingham). With no rhythm detected, the peak time gets no interval.</td>
 </tr>
 <tr class="even">
-<td><code>kk_day_parts()</code></td>
-<td>Morning, midday, evening and night, with the day as a block.</td>
+<td style="text-align: left;"><code>kk_day_parts()</code></td>
+<td style="text-align: left;">Morning, midday, evening and night, with the day as a block.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_epoch_response()</code></td>
-<td>Superposed epochs around meals, walks or doses, <strong>tested against controls at the same clock time on other days</strong> — not against zero. Rise to peak, time to peak, iAUC, with covariates such as carbohydrates or dose.</td>
+<td style="text-align: left;"><code>kk_epoch_response()</code></td>
+<td style="text-align: left;">Superposed epochs around meals, walks or doses, <strong>tested against controls at the same clock time on other days</strong> — not against zero. Rise to peak, time to peak, iAUC, with covariates such as carbohydrates or dose.</td>
 </tr>
 <tr class="even">
-<td><code>kk_distributed_lag()</code></td>
-<td>The effect of an exposure spread over the following lags.</td>
+<td style="text-align: left;"><code>kk_distributed_lag()</code></td>
+<td style="text-align: left;">The effect of an exposure spread over the following lags.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_nof1_schedule()</code>, <code>kk_nof1()</code></td>
-<td>Block-randomised N-of-1 schedules and their exact randomisation test.</td>
+<td style="text-align: left;"><code>kk_nof1_schedule()</code><br><code>kk_nof1()</code></td>
+<td style="text-align: left;">Block-randomised N-of-1 schedules and their exact randomisation test.</td>
 </tr>
 <tr class="even">
-<td><code>kk_ts_compare()</code></td>
-<td>Prewhitened cross-correlation, Granger tests with the shared trend and rhythm in both models, phase shifts, common cycles and lagged regressions.</td>
+<td style="text-align: left;"><code>kk_ts_compare()</code></td>
+<td style="text-align: left;">Prewhitened cross-correlation, Granger tests with the shared trend and rhythm in both models, phase shifts, common cycles and lagged regressions.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_wavelet()</code>, <code>kk_wavelet_coherence()</code></td>
-<td>Morlet wavelet power and coherence, significance against red noise, the cone of influence.</td>
+<td style="text-align: left;"><code>kk_wavelet()</code><br><code>kk_wavelet_coherence()</code></td>
+<td style="text-align: left;">Morlet wavelet power and coherence, significance against red noise, the cone of influence.</td>
 </tr>
 <tr class="even">
-<td><code>kk_cycle_power()</code></td>
-<td>How long and how often to measure, simulating the detector exactly as it is applied to data.</td>
+<td style="text-align: left;"><code>kk_cycle_power()</code></td>
+<td style="text-align: left;">How long and how often to measure, simulating the detector exactly as it is applied to data.</td>
 </tr>
 <tr class="odd">
-<td><code>kk_cycle_analysis()</code></td>
-<td>The full analysis: runs every step that suits the data and returns what was <strong>established</strong>, what was <strong>not established</strong> (which does not mean absent), every automatic decision with its reason, and Methods and Results text written from what actually ran.</td>
+<td style="text-align: left;"><code>kk_cycle_analysis()</code></td>
+<td style="text-align: left;">The full analysis: runs every step that suits the data and returns what was <strong>established</strong>, what was <strong>not established</strong> (which does not mean absent), every automatic decision with its reason, and Methods and Results text written from what actually ran.</td>
 </tr>
 <tr class="even">
-<td><code>kk_plot_periodogram()</code>, <code>kk_plot_cosinor()</code>, <code>kk_plot_epoch()</code>, <code>kk_plot_wavelet()</code>, <code>kk_plot_model()</code>, <code>kk_plot_day_parts()</code></td>
-<td>kkplot figures whose titles state the finding, with direct labels instead of legends.</td>
+<td style="text-align: left;"><code>kk_plot_periodogram()</code><br><code>kk_plot_cosinor()</code><br><code>kk_plot_epoch()</code><br><code>kk_plot_wavelet()</code><br><code>kk_plot_model()</code><br><code>kk_plot_day_parts()</code></td>
+<td style="text-align: left;">kkplot figures whose titles state the finding, with direct labels instead of legends.</td>
 </tr>
 </tbody>
 </table>
