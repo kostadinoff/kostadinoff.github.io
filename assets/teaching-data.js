@@ -1397,7 +1397,7 @@ window.TEACHING_DATA = {
     /* ----------------------------------------------------------------
        Social medicine with medical ethics — dental medicine (SMEEND),
        2nd year, English-taught, 2026/2027. Kostadin teaches the second
-       part (weeks 8–14). Source decks: MEGA/TEACHING/DENTAL_SOCIAL_MED.
+       part. Source decks: MEGA/TEACHING/DENTAL_SOCIAL_MED.
        ---------------------------------------------------------------- */
     {
       id: "social-medicine-dental",
@@ -1412,7 +1412,7 @@ window.TEACHING_DATA = {
             {
               id: "2026-2027",
               label: "2026/2027",
-              note: "Second part of the course (weeks 8–14) for the English-language dental medicine programme.",
+              note: "English-language dental medicine programme. Classes follow the lecturer’s teaching order.",
               lectures: [
                 {
                   title: "Class 8 · From a clinical question to a research plan",
