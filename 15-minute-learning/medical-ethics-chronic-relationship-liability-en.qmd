@@ -2,9 +2,9 @@
 title: "The chronically ill patient, relationship models and the physician's legal liability"
 author: "Kostadin Kostadinov"
 date: 2026-10-04
-date-modified: 2026-10-06
+date-modified: 2026-11-12
 lang: en
-description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, collegiality and teamwork, and the physician's disciplinary, administrative (including professional body), criminal and civil liability under Bulgarian law."
+description: "A 15-minute preparation for Practical Class 4: the chronically ill patient and coping, models of the physician–patient relationship, truth-telling and boundaries, collegiality and teamwork, and the physician's disciplinary, administrative (including professional body), criminal and civil liability under Bulgarian law."
 categories: [English, Medical Ethics, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
 title-meta: "The chronically ill patient, relationship models and the physician's legal liability"
 author-meta: "Kostadin Kostadinov"
@@ -39,6 +39,10 @@ The family brings care and knowledge of daily life but does not own the decision
 
 Models are analytical tools, not labels for a physician's character. One consultation can contain elements of several.
 
+**The course classification** distinguishes four models, in this order. In the *paternalistic* model the physician determines what is best and leads the decision; the risk is that the patient's will is replaced. In the *autonomous* model the informed patient makes his own choice; the risk is that he is left alone with a hard decision. In the *business* model the physician provides a service and the patient is a consumer who chooses on price, quality and convenience; the risk is that commercial interest displaces medical need. In the *contractual* model physician and patient agree goals, rights, duties and follow-up; the risk is that the relationship shrinks to formal terms. The "contractual model" is an ethical model of the relationship; it does not by itself create contractual civil liability, which has its own legal conditions.
+
+The international literature uses other typologies, which you will meet in English sources. They are shown here for comparison.
+
 **Szasz and Hollender (1956)** distinguish three degrees of participation according to the patient's condition. In *activity–passivity* the patient cannot take part: resuscitation, coma, general anaesthesia. In *guidance–cooperation* the physician leads and the patient knowingly follows: an acute illness with a clear standard of treatment. In *mutual participation* tasks and decisions are shared: chronic illness, rehabilitation, behaviour change. The error is to keep the patient passive after capacity has returned.
 
 **Emanuel and Emanuel (1992)** describe four models based on how the patient's values are understood. In the *paternalistic* model the physician is a guardian who decides what is best. In the *informative* model the physician is a technical expert who supplies facts and carries out the patient's choice. In the *interpretive* model the physician is a counsellor who helps the patient clarify unclear or conflicting goals. In the *deliberative* model the physician is a teacher or friend who argues for health-related values without moralising. The informative model can leave the patient alone with a hard choice, and the authors favour the deliberative model as the general ideal.
@@ -47,7 +51,13 @@ Models are analytical tools, not labels for a physician's character. One consult
 
 **Strong paternalism** restricts a capable, informed patient and is not justified. **Weak paternalism** protects a person whose capacity for the specific decision is impaired, and lasts only while that ground exists. A patient may refuse offered treatment but cannot demand harmful or needless treatment. The Bulgarian Code of Professional Ethics lets a physician decline treatment when trust is absent (Art. 12), but never emergency care (Art. 11).
 
-**Shared decision-making** combines the professional recommendation with the patient's values: acknowledge that there is a choice; present the reasonable options, including waiting or refusal; clarify what matters to the patient; give a reasoned recommendation; agree a plan and check understanding. The Bulgarian Health Act guarantees the right to clear, accessible information and to more than one medical opinion (Art. 86(1)), and gives the physician freedom of action and decision according to qualification, medical standards and ethics (Art. 190(1)).
+**Shared decision-making** combines the professional recommendation with the patient's values. Elwyn and colleagues (2012) describe three steps: choice talk ("there is a choice, and we will make it together"), option talk (the reasonable options with their benefits, harms and uncertainty) and decision talk ("what matters most to you?"). In practice: acknowledge that there is a choice; present the reasonable options, including waiting or refusal; clarify what matters to the patient; give a reasoned recommendation; agree a plan and check understanding. The Bulgarian Health Act guarantees the right to clear, accessible information and to more than one medical opinion (Art. 86(1)), and gives the physician freedom of action and decision according to qualification, medical standards and ethics (Art. 190(1)).
+
+## Truth-telling and professional boundaries
+
+The treating physician must inform the patient about his state of health, the disease and its prognosis, the planned activities and their risks, and the alternatives (Health Act, Art. 92(1)). Only the patient may decline this information — the refusal is recorded in writing in the medical record (Art. 92(2)–(3)) — or authorise, in writing, another person to be informed instead of him (Art. 92(4)). A family's request to conceal a diagnosis is explored with respect, but it does not replace the patient's own wish. Protocols such as SPIKES (setting, perception, invitation, knowledge, emotions, strategy and summary) are memory aids for breaking bad news, not scripts.
+
+Professional boundaries keep the relationship directed towards the patient's care. A boundary *crossing* — a modest customary gift shared with the team, attending a funeral — may be acceptable. A boundary *violation* exploits the relationship: an expensive, secret or conditional gift, a romantic relationship with a patient, informal prescribing for relatives. The Code of Professional Ethics forbids using an examination or treatment for intimate contact with the patient (Art. 27). A medical certificate must state the medical truth: a physician who knowingly provides someone with a false certificate about his state of health, when not acting as an official, commits an offence (Penal Code, Art. 312(1)); for officials, Art. 311 applies.
 
 ## Collegiality and teamwork
 
@@ -85,6 +95,8 @@ The same block includes **employee financial liability towards the employer** un
 
 **Medical example:** a negligently administered wrong dose causes death. Art. 123 may apply if all its conditions are proved; the adverse outcome alone does not establish a crime.
 
+Two further offences concern the duty to help. Everyone must help a person in immediate danger to life when he can do so without danger to himself or others (Art. 139). A person practising a medical occupation who, having been called, does not help a patient or a woman in labour without a valid reason commits a special offence (Art. 141).
+
 ### 4. Civil — contractual and tort
 
 The purpose is compensation for damage. **The court** awards damages on the injured party's claim if the conditions are established. The [Obligations and Contracts Act](https://lex.bg/laws/ldoc/2121934337) governs the two subtypes:
@@ -92,8 +104,12 @@ The purpose is compensation for damage. **The court** awards damages on the inju
 - **Contractual:** Arts. 79–82 — failure to perform a contractual duty properly; Art. 82 covers direct, immediate and foreseeable losses, or all direct and immediate losses in bad faith. Example: an agreed investigation is not performed and the patient incurs proven additional costs. This does not mean every treatment contract guarantees a cure.
 - **Tort / non-contractual:** Art. 45 — culpably caused harm, with fault presumed until proved otherwise; Art. 49 — liability of the establishment as principal for harm in or in connection with assigned work. Example: an incorrectly given injection injures a patient's nerve.
 
+### The European Court of Human Rights
+
+The Convention does not guarantee a favourable outcome of treatment, but it requires effective proceedings when something goes wrong. For unintentional harm in health care, an effective civil remedy may be sufficient; criminal proceedings are not required in every case (*Calvelli and Ciglio v Italy* [GC], 2002). After a death in hospital the State must provide an effective and prompt judicial system to establish the cause and responsibility (*Šilih v Slovenia* [GC], 2009). Where an effective regulatory framework exists, ordinary negligence does not in itself breach the right to life; the State answers for medical error only in exceptional cases, such as knowingly denying life-saving emergency care or a systemic dysfunction, and under strict conditions (*Lopes de Sousa Fernandes v Portugal* [GC], 2017). In *Vasileva v Bulgaria* (2016), a case from Plovdiv, the Court found no violation but restated that proceedings in medical negligence cases need formally and actually independent experts whose reasoned conclusions the courts scrutinise.
+
 One act can engage more than one of the four kinds, subject to the law (Professional Organisations Act, Art. 42(1); Labour Code, Arts. 186 and 203(3)). All sanctions do not follow automatically. In the handover case, assess the physician's conduct, the colleague and the establishment separately.
 
-*The cited provisions were checked against the consolidated texts on lex.bg on 6 October 2026.*
+*The cited provisions were checked against the consolidated texts on lex.bg on 6 October 2026 and re-checked (APIS and the Ciela free zone) on 12 November 2026.*
 
 Before you open the [student tasks](../learning-tasks/medical-ethics-chronic-relationship-liability-en.qmd), try to answer in three sentences: which relationship model suits a patient with hypertension who takes the tablets irregularly; when collegiality must give way; and which kinds of liability may arise if a new symptom is left out of a shift handover.

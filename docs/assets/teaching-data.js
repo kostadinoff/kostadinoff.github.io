@@ -563,10 +563,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 3 · Medical confidentiality",
-                  description: "Concept and ethical foundations, health information and permitted disclosure under the Health Act, degrees of breach, digital confidentiality, and the physician's professional, disciplinary, administrative, civil and criminal liability.",
-                  tags: ["ethics", "medical confidentiality", "health law", "legal liability"],
-                  date: "2026-09-26",
-                  version: "1.0",
+                  description: "Concept and ethical foundations, the Code of Professional Ethics and the Health Act (health information, the eight grounds for disclosure, relatives and heirs), danger to others and duties to report, minors and genetic results, GDPR breach notification, ECtHR case law under Article 8, and the four kinds of liability — with ten cases.",
+                  tags: ["ethics", "medical confidentiality", "health law", "ECtHR", "legal liability"],
+                  date: "2026-11-12",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-03-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-confidentiality-en.html" },
@@ -575,10 +575,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
-                  description: "The chronically ill patient and coping, models of the relationship (Szasz–Hollender, Emanuel, Veatch), collegiality and teamwork under the Code of Professional Ethics, and the physician's disciplinary, administrative (including professional body liability), criminal and civil liability (contractual and tort).",
-                  tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability"],
-                  date: "2026-10-06",
-                  version: "1.1",
+                  description: "The chronically ill patient and coping, the course models of the relationship (paternalistic, autonomous, business, contractual) with Szasz–Hollender, Veatch and Emanuel for comparison, shared decision-making, truth-telling and boundaries, collegiality under the Code of Professional Ethics, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
+                  tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
+                  date: "2026-11-12",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-04-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
@@ -1156,10 +1156,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 3 · Medical confidentiality",
-                  description: "Shared with medical ethics: health information and permitted disclosure under the Health Act, degrees of breach, digital confidentiality, and the physician's professional, disciplinary, administrative, civil and criminal liability.",
-                  tags: ["ethics", "medical confidentiality", "health law", "legal liability"],
-                  date: "2026-09-26",
-                  version: "1.0",
+                  description: "Shared with medical ethics: the Code of Professional Ethics and the Health Act (health information, the eight grounds for disclosure, relatives and heirs), danger to others and duties to report, GDPR breach notification, ECtHR case law under Article 8, and the four kinds of liability — with ten cases.",
+                  tags: ["ethics", "medical confidentiality", "health law", "ECtHR", "legal liability"],
+                  date: "2026-11-12",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-03-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-confidentiality-en.html" },
@@ -1168,10 +1168,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
-                  description: "Shared with medical ethics: the chronically ill patient and coping, models of the relationship (Szasz–Hollender, Emanuel, Veatch), collegiality and teamwork, and the physician's disciplinary, administrative (including professional body liability), criminal and civil liability (contractual and tort).",
-                  tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability"],
-                  date: "2026-10-06",
-                  version: "1.1",
+                  description: "Shared with medical ethics: the chronically ill patient, the course models of the relationship (paternalistic, autonomous, business, contractual), shared decision-making, truth-telling and boundaries, collegiality, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
+                  tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
+                  date: "2026-11-12",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-04-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },

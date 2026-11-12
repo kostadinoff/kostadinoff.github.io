@@ -2,7 +2,7 @@
 title: "Medical ethics, Practical Class 4: the chronically ill patient, teamwork and legal liability"
 author: "Kostadin Kostadinov"
 date: 2026-10-04
-date-modified: 2026-10-06
+date-modified: 2026-11-12
 lang: en
 description: "Group work for 75 minutes after the 15-minute preparation: adherence and trust in chronic illness, relationship models when a patient delegates the choice, collegiality and patient safety, and allocating legal liability after a handover omission. With model answers for self-checking."
 categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
@@ -66,13 +66,13 @@ An agreed plan includes small quantities on set dates from one pharmacy, regular
 
 A 64-year-old woman with gallstones must choose between two surgical options with different benefits and risks. After a detailed explanation she says: "Doctor, you know better — do what you think is right." She understands the basic information and has capacity, but the medical details frighten her.
 
-1. Which relationship model does she prefer in Emanuel and Emanuel's terms and in Szasz and Hollender's?
+1. Which relationship model does she prefer in the course classification (paternalistic, autonomous, business, contractual), and how would Emanuel and Emanuel or Szasz and Hollender describe it?
 2. Can the physician accept the delegation without the encounter becoming paternalistic? What minimum participation must be kept?
 3. Write the recommendation the physician would say to her, in two or three sentences.
 
 ::: {.callout-note collapse="true" title="Model answer: a recommendation without taking away the choice"}
 
-She wants the physician to take a larger role: elements of the paternalistic model in Emanuel's terms, or guidance–cooperation in Szasz and Hollender's. Her choice, however, is voluntary and informed. Wanting a recommendation is not a waiver of autonomy.
+She wants the physician to take a larger role: elements of the paternalistic model in the course classification and in Emanuel's terms, or guidance–cooperation in Szasz and Hollender's. Her choice, however, is voluntary and informed. Wanting a recommendation is not a waiver of autonomy.
 
 The physician may accept the delegation after checking that it is free, while keeping a minimum of participation: she knows what the operation is, its main risks and what it means for her life, and she can change her mind. The physician asks what matters most to her, for example a quick recovery, a lower risk of a second operation, or avoiding a longer anaesthetic, and links the medical facts to those values. This is closer to the interpretive model than to paternalism.
 

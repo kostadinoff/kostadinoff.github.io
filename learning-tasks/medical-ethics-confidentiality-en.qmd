@@ -2,6 +2,7 @@
 title: "Medical Ethics, Class 3: Medical Confidentiality in Practice"
 author: "Kostadin Kostadinov"
 date: 2026-09-26
+date-modified: 2026-11-12
 lang: en
 description: "A 75-minute group exercise after the 15-minute reading: a threat to a partner, careless disclosure on the ward, a communicable disease and the employer, access to records after death, and the legal liability that follows a breach. Includes collapsible model answers."
 categories: [English, Medical Ethics, Assignment, "Medicine | 2nd year", "Dental Medicine", "2026/2027"]
@@ -18,7 +19,7 @@ Read the preparatory material first, then work in groups of three or four. The r
 
 **All people, events and circumstances are fictional** and describe no actual patient. The cases are adapted from the course case bank. Work from the information given and state what else you would need to know. These teaching cases develop ethical and legal judgement; they do not replace consultation with the head of the establishment, the medical ethics committee or a lawyer in a real case. The legal rules applied throughout are Bulgarian.
 
-**Submit one group answer** containing the corrected statements, the analysis of the five cases, and the disclosure record. Each student completes the individual task at the end. Assessment rewards naming the precise legal basis, applying the minimum-necessary rule, and separating the kinds of liability.
+**Submit one group answer** containing the corrected statements, the analysis of the five cases (A–E), and the disclosure record. Each student completes the individual task at the end. Assessment rewards naming the precise legal basis, applying the minimum-necessary rule, and separating the kinds of liability.
 
 ## Task 1. True or false — 10 minutes
 
@@ -33,7 +34,7 @@ Rewrite each statement in one or two sentences. Explain what is wrong and name t
 
 ::: {.callout-note collapse="true" title="Model answer: six corrections"}
 
-A spouse is a third party unless the patient has authorised them in writing (Health Act, Art. 28b(2)); the Code of Professional Ethics expressly keeps secrecy from the family (Art. 51(2)). Access follows involvement in care: Art. 28c binds all staff, and a doctor from another ward with no role in the case is an outsider. Removing a name is rarely enough, because a rare diagnosis, age, occupation, place and images can identify a person; the Code requires guaranteed anonymity for teaching and research (Art. 54).
+A spouse is a third party unless the patient has authorised them in writing (Health Act, Art. 28b(2)); the Code of Professional Ethics expressly keeps medical confidentiality also with regard to the family (Art. 51(2)). Access follows involvement in care: Art. 28c binds all staff, and a doctor from another ward with no role in the case is an outsider. Removing a name is rarely enough, because a rare diagnosis, age, occupation, place and images can identify a person; the Code requires guaranteed anonymity for teaching and research (Art. 54).
 
 The duty continues after death (Code, Art. 51(3)), but heirs and relatives up to the fourth degree have a statutory right of access (Health Act, Art. 28b(3)). A legal basis defines the recipient, the purpose and the scope, so only the minimum necessary is disclosed. Finally, lack of intent does not remove the breach; it affects the type and extent of liability.
 
@@ -46,7 +47,7 @@ The duty continues after death (Code, Art. 51(3)), but heirs and relatives up to
 You are the general practitioner of a 45-year-old man who asks for an HIV test after paid sexual contact. The result is positive. He says he will not tell his wife, will continue sexual relations with her because "we usually use condoms", and forbids you to tell her. His wife is also registered with your practice.
 
 1. What do you do in the first and second consultations after the result? List the steps in order.
-2. Which basis in Article 28(1) of the Health Act could permit disclosure, and what condition does paragraph 2 add?
+2. Which special rules govern HIV-related information (Ordinance No. 47/2009, Arts 30a–30b), and how do they relate to Article 28(1)(2) and (2) of the Health Act?
 3. Does it matter that the wife is also your patient? Explain in two sentences.
 4. Who must not receive the information, and what exactly would you tell the wife if disclosure became justified?
 
@@ -54,9 +55,9 @@ You are the general practitioner of a 45-year-old man who asks for an HIV test a
 
 First comes post-test counselling, starting treatment, explaining the risk to the partner and that condoms used "usually" do not protect reliably, and offering to support a joint conversation or partner notification. A second conversation, a deadline and consultation with colleagues or the ethics committee follow if he still refuses. Everything is documented.
 
-The relevant basis is Article 28(1)(2): a threat to the health or life of another person. The threat here is serious, likely, preventable and directed at an identifiable person. Paragraph 2 requires the patient to be notified before the information is disclosed. Reporting to the health authorities under point 4 is a separate channel for state health control and does not tell the wife anything.
+HIV information has its own rule: it may not be disclosed to third parties without the person's express written consent (Ordinance No. 47/2009 on HIV testing, notification and reporting, Art. 30a). To prevent infection, however, medical specialists may inform contacts that they have been at risk of HIV, provided that the identity of the HIV-positive person is kept secret, the communication is confidential, non-public and safe, and the contacts are referred for counselling and testing (Art. 30b). The general ground in Article 28(1)(2) of the Health Act — a threat to the health or life of others, with prior notification of the patient under paragraph 2 — points the same way, but the special rule sets the limits: warn about the risk, do not name him as the source. In a couple she may still infer it, which should be discussed honestly with him beforehand. How great the risk is also depends on his treatment: a sustained undetectable viral load prevents sexual transmission, although past exposure may still call for testing. Coded reporting under the Ordinance is a separate channel and does not tell the wife anything.
 
-The wife being your patient increases your duty of care towards her but gives you no separate right to use her husband's information; each record is confidential in its own right. If disclosure becomes justified, only the wife receives only what she needs to protect herself: that she may have been exposed to HIV and should be tested and consider prophylaxis. The circumstances of infection, other diagnoses, the employer, relatives and friends are excluded.
+The wife being your patient increases your duty of care towards her but gives you no separate right to use her husband's information; each record is confidential in its own right. If notification becomes necessary, only the wife receives only what she needs to protect herself: that she may have been exposed to HIV and should be tested and, where appropriate, consider prophylaxis — without being told who the source is. The circumstances of infection, other diagnoses, the employer, relatives and friends are excluded.
 
 :::
 
@@ -131,7 +132,7 @@ The possibility of a complaint is no ground to refuse. Confidentiality protects 
 Over dinner, a midwife tells her husband about the women she examined that day and names some of them. The husband later repeats one story to a neighbour, who recognises the patient.
 
 1. What degree of breach is this?
-2. Fill in a table with five rows, one for each kind of liability: basis, who decides, possible outcome.
+2. Fill in a table with one row for each of the four kinds of liability used in the course (disciplinary; administrative, including professional-body liability; criminal; civil): basis, who decides, possible outcome.
 3. What would have to be true for criminal liability under Article 145 of the Penal Code?
 
 ::: {.callout-note collapse="true" title="Model answer: independent kinds of liability"}
@@ -140,11 +141,11 @@ This is a second-degree breach: identifiable information was given to an unautho
 
 | Kind | Basis | Who decides | Possible outcome |
 |:--|:--|:--|:--|
-| Professional | Her professional body's ethics code | The midwives' professional organisation | A professional penalty |
-| Disciplinary | Labour Code, Arts. 186, 187(1)(10) | The employer | Reprimand, warning, dismissal (Art. 188) |
-| Administrative | Health Act, Arts. 28c and 229 | Health inspection bodies | Fine |
-| Civil | Obligations and Contracts Act, Arts. 45, 49, 52 | Court, on the patient's claim | Damages, including non-pecuniary |
-| Criminal | Penal Code, Arts. 145(1), 161(1) | Court, on the patient's complaint | Imprisonment up to one year or a fine |
+| 1. Disciplinary | Labour Code, Arts. 186, 187(1)(10) | The employer | Reprimand, warning, dismissal (Art. 188) |
+| 2. Administrative | Health Act, Arts. 28c and 229 | The competent authority under the Health Act | Fine |
+| 2a. Professional body (administrative subtype) | Her professional body's ethics code | The midwives' professional organisation | A professional penalty |
+| 3. Criminal | Penal Code, Arts. 145(1), 161(1) | Court, on the patient's complaint | Imprisonment up to one year or a fine |
+| 4. Civil | Obligations and Contracts Act, Arts. 45, 49, 52 | Court, on the patient's claim | Damages, including non-pecuniary |
 
 The Code of Professional Ethics for Physicians and the Professional Organisations of Physicians and Dentists Act apply to doctors; a midwife answers to her own professional organisation and code. Criminal liability requires that the secret could damage the patient's good name, that it was learned in connection with the midwife's occupation, that the disclosure was unlawful, and that the patient files a complaint. The hospital may also be liable under Article 49 of the Obligations and Contracts Act for harm caused by its employee.
 
@@ -156,7 +157,7 @@ Write the record you would make in Case A if you decided to disclose. Use the fo
 
 ::: {.callout-note collapse="true" title="Guidance for the record"}
 
-The record names the recipient and their relationship to the patient, cites Article 28(1)(2) and (2) of the Health Act, and lists exactly what was said. It states the channel, for example a private consultation, and the date. It documents the earlier steps: counselling, the offer of joint disclosure, the deadline, the consultation with colleagues or the ethics committee, and the notice given to the patient before disclosure.
+The record names the recipient and their relationship to the patient, cites Ordinance No. 47/2009, Art. 30b, together with Article 28(1)(2) and (2) of the Health Act, records that the source was not named, and lists exactly what was said. It states the channel, for example a private consultation, and the date. It documents the earlier steps: counselling, the offer of joint disclosure, the deadline, the consultation with colleagues or the ethics committee, and the notice given to the patient before disclosure.
 
 :::
 
@@ -170,4 +171,4 @@ Answer briefly without opening the model answers:
 
 ### Feedback criteria
 
-A complete answer names the specific legal basis and the recipient, applies the minimum-necessary rule, and records the steps taken before disclosure. In Case C it identifies the regional health inspectorate, not the employer, as the recipient. In Case E it separates the five kinds of liability and states the conditions for criminal liability. Listing ethical principles without applying them to the facts does not meet the task.
+A complete answer names the specific legal basis and the recipient, applies the minimum-necessary rule, and records the steps taken before disclosure. In Case C it identifies the regional health inspectorate, not the employer, as the recipient. In Case E it separates the four kinds of liability (with the professional-body subtype) and states the conditions for criminal liability. Listing ethical principles without applying them to the facts does not meet the task.
