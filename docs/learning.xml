@@ -10,7 +10,79 @@
 <atom:link href="https://kostadinoff.github.io/learning.xml" rel="self" type="application/rss+xml"/>
 <description>Kostadin Kostadinov | Assistant Professor at the Medical University of Plovdiv</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sat, 07 Nov 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Доверителен интервал за относителен дял. Сравнение на две извадки</title>
+  <dc:creator>Костадин Костадинов</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/medical-statistics-ci-proportion-comparison-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/stat-03-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-statistics-ci-proportion-comparison-bg.html">Задачи за студенти</a> · <a href="../2026-2027-classes/stat-03-bg-homework.pdf">Домашна работа (PDF)</a></p>
+<p>Отделете около <strong>15 минути</strong> за четене. Материалът следва презентацията „Доверителен интервал за относителен дял. Сравнение на две извадки“ и глава 5 от учебника на проф. Искров. След прочита трябва да можете да построите и тълкувате интервал за дял, да изчислите колко наблюдения са нужни за желана точност и да сравните две групи чрез доверителния интервал на разликата.</p>
+<section id="стандартна-грешка-на-относителния-дял" class="level2">
+<h2 class="anchored" data-anchor-id="стандартна-грешка-на-относителния-дял">Стандартна грешка на относителния дял</h2>
+<p>Относителният дял <img src="https://latex.codecogs.com/png.latex?%5Chat%20p%20=%20m/n%20%5Ctimes%20100"> е точкова оценка на неизвестния популационен дял <img src="https://latex.codecogs.com/png.latex?P">. Неговата стандартна грешка е</p>
+<p><img src="https://latex.codecogs.com/png.latex?S_p%20=%20%5Csqrt%7B%5Cfrac%7B%5Chat%20p%5C,(100%20-%20%5Chat%20p)%7D%7Bn%7D%7D."></p>
+<p>В листа с формули същото е записано с дроби: <img src="https://latex.codecogs.com/png.latex?S_p%20=%20%5Csqrt%7Bp(1-p)/n%7D">. Изберете едното — проценти <strong>или</strong> дроби — и го спазвайте във всички стъпки. Грешката зависи само от дела и от обема: най-голяма е при 50 %, а четири пъти по-голяма извадка я намалява два пъти.</p>
+</section>
+<section id="доверителен-интервал-за-дял" class="level2">
+<h2 class="anchored" data-anchor-id="доверителен-интервал-за-дял">Доверителен интервал за дял</h2>
+<p><img src="https://latex.codecogs.com/png.latex?CI%20=%20%5Chat%20p%20%5Cpm%20Z_%7B%5Calpha/2%7D%20%5Ccdot%20S_p,"></p>
+<p>с <img src="https://latex.codecogs.com/png.latex?Z%20=%201%7B,%7D96"> за 95 % и <img src="https://latex.codecogs.com/png.latex?2%7B,%7D576"> за 99 %. <strong>Решен пример</strong> (от примерния тест): посттравматично стресово разстройство при 41 от 119 деца след транспортен инцидент (41 и 78 — и двата броя ≥ 10). <img src="https://latex.codecogs.com/png.latex?%5Chat%20p%20=%2034%7B,%7D45"> %; <img src="https://latex.codecogs.com/png.latex?S_p%20=%20%5Csqrt%7B34%7B,%7D454%20%5Ctimes%2065%7B,%7D546%20/%20119%7D%20=%204%7B,%7D36"> процентни пункта; <img src="https://latex.codecogs.com/png.latex?34%7B,%7D45%20%5Cpm%201%7B,%7D96%20%5Ctimes%204%7B,%7D356%20=%2034%7B,%7D45%20%5Cpm%208%7B,%7D54">, тоест <strong>95 % CI = [25,92; 42,99] %</strong>. С 95 % доверителност популационният дял на децата с ПТСР е между 25,92 % и 42,99 %. Интервалът е за <strong>популацията</strong> — в самата извадка делът е точно 34,45 %.</p>
+<p><strong>Условие.</strong> Простата формула разчита на нормално приближение. Учебникът изисква броят със събитието (<img src="https://latex.codecogs.com/png.latex?m">) и броят без него (<img src="https://latex.codecogs.com/png.latex?n%20-%20m">) да са поне 10 (за разлика между два дяла — във всяка група); правилото „поне 5“ е по-свободно. И двете са ориентири, не гаранция. При малки извадки и редки събития формулата дава невъзможни граници: при 2 от 20 тя дава [−3,1; 23,1] %. Тогава се използва интервал на <strong>Уилсън</strong> ([2,8; 30,1] %) или точен биномен интервал, изчислени със софтуер.</p>
+</section>
+<section id="необходим-брой-наблюдения" class="level2">
+<h2 class="anchored" data-anchor-id="необходим-брой-наблюдения">Необходим брой наблюдения</h2>
+<p>Колко хора да изследваме, за да оценим дела с допустима грешка <img src="https://latex.codecogs.com/png.latex?d"> (половината ширина на интервала)?</p>
+<p><img src="https://latex.codecogs.com/png.latex?n%20=%20%5Cfrac%7BZ_%7B%5Calpha/2%7D%5E2%20%5Ccdot%20p(1-p)%7D%7Bd%5E2%7D,%20%5Cqquad%20n%20=%20%5Cfrac%7BZ_%7B%5Calpha/2%7D%5E2%20%5Ccdot%20S%5E2%7D%7Bd%5E2%7D%5C%20%5Ctext%7B(%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA)%7D."></p>
+<p>Пример от учебника: очакваните усложнения са около 10 %, искаме точност <img src="https://latex.codecogs.com/png.latex?%5Cpm%203"> процентни пункта при 95 %: <img src="https://latex.codecogs.com/png.latex?n%20=%201%7B,%7D96%5E2%20%5Ctimes%200%7B,%7D10%20%5Ctimes%200%7B,%7D90%20/%200%7B,%7D03%5E2%20=%20384%7B,%7D16"> → <strong>385</strong>. Закръгляме <strong>винаги нагоре</strong>: с 384 души не достигаме желаната точност. Формулата е приблизителна и зависи от предварителната оценка на дела. Ако за дела няма предварителна информация, вземаме <img src="https://latex.codecogs.com/png.latex?p%20=%200%7B,%7D5"> (най-голямото <img src="https://latex.codecogs.com/png.latex?p(1-p)">): <img src="https://latex.codecogs.com/png.latex?n%20=%201%5C,068">. Двойно по-голяма точност струва четири пъти повече наблюдения, защото <img src="https://latex.codecogs.com/png.latex?d"> е на квадрат в знаменателя. Използва се <img src="https://latex.codecogs.com/png.latex?Z">, а не <img src="https://latex.codecogs.com/png.latex?t">: <img src="https://latex.codecogs.com/png.latex?t"> зависи от <img src="https://latex.codecogs.com/png.latex?n">, което още не знаем.</p>
+</section>
+<section id="сравнение-на-две-независими-извадки" class="level2">
+<h2 class="anchored" data-anchor-id="сравнение-на-две-независими-извадки">Сравнение на две независими извадки</h2>
+<p>Два отделни интервала отговарят на въпроса колко точно сме оценили <strong>всяка</strong> група. Дали групите се различават, казва <strong>доверителният интервал на разликата</strong>:</p>
+<p><img src="https://latex.codecogs.com/png.latex?SE_%5CDelta%20=%20%5Csqrt%7B%5Cfrac%7BS_1%5E2%7D%7Bn_1%7D%20+%20%5Cfrac%7BS_2%5E2%7D%7Bn_2%7D%7D,%20%5Cqquad%20CI%20=%20(%5Cbar%20X_1%20-%20%5Cbar%20X_2)%20%5Cpm%20t_%7B%5Calpha/2,%5C,df%7D%20%5Ccdot%20SE_%5CDelta,%5Cquad%20df%20%5Capprox%20%5Cmin(n_1%20-%201,%20n_2%20-%201);"></p>
+<p><img src="https://latex.codecogs.com/png.latex?SE_%5CDelta%20=%20%5Csqrt%7B%5Cfrac%7B%5Chat%20p_1(100-%5Chat%20p_1)%7D%7Bn_1%7D%20+%20%5Cfrac%7B%5Chat%20p_2(100-%5Chat%20p_2)%7D%7Bn_2%7D%7D,%20%5Cqquad%20CI%20=%20(%5Chat%20p_1%20-%20%5Chat%20p_2)%20%5Cpm%20Z_%7B%5Calpha/2%7D%20%5Ccdot%20SE_%5CDelta."></p>
+<p>Тези формули са в учебника, но <strong>не</strong> в листа с формули. Ако интервалът на разликата <strong>не съдържа 0</strong>, разликата е статистически значима при <img src="https://latex.codecogs.com/png.latex?%5Calpha%20=%200%7B,%7D05">; ако съдържа 0 — не е установена значима разлика (което не доказва, че разлика няма).</p>
+<p><strong>Решен пример.</strong> Подобрение при безглутенова диета: 56 от 100 срещу 45 от 100 в контролната група. Разлика 11 процентни пункта; <img src="https://latex.codecogs.com/png.latex?SE_%5CDelta%20=%20%5Csqrt%7B56%20%5Ctimes%2044/100%20+%2045%20%5Ctimes%2055/100%7D%20=%207%7B,%7D03">; <img src="https://latex.codecogs.com/png.latex?11%20%5Cpm%201%7B,%7D96%20%5Ctimes%207%7B,%7D03"> → <strong>[−2,77; 24,77] п.п.</strong> Интервалът съдържа 0: разликата не е статистически значима, а данните са съвместими както с липса на ефект, така и с ефект от около 25 п.п.</p>
+</section>
+<section id="припокриване-на-интервалите" class="level2">
+<h2 class="anchored" data-anchor-id="припокриване-на-интервалите">Припокриване на интервалите</h2>
+<p>Учебникът дава ориентир: ако двата 95 % интервала <strong>не се припокриват</strong>, разликата почти сигурно е значима; ако се припокриват частично, не може да се каже; ако почти съвпадат — вероятно няма значима разлика. Припокриването обаче <strong>не е тест</strong>. Стандартната грешка на разликата е корен от сбора на <strong>квадратите</strong> на двете грешки и е по-малка от техния сбор, затова интервалите могат да се припокриват, а разликата да е значима. Пример от учебника: преживяемост без прогресия 16,10 срещу 12,84 месеца (<img src="https://latex.codecogs.com/png.latex?n%20=%2040"> във всяка група). Интервалите [13,64; 18,56] и [11,14; 14,54] месеца се припокриват, а интервалът на разликата [0,27; 6,25] месеца не съдържа 0.</p>
+</section>
+<section id="чести-грешки" class="level2">
+<h2 class="anchored" data-anchor-id="чести-грешки">Чести грешки</h2>
+<ul>
+<li>Смесване на 0,345 и 65,5 в една формула.</li>
+<li>„Разликата е 11 %“ вместо <strong>11 процентни пункта</strong>.</li>
+<li><img src="https://latex.codecogs.com/png.latex?SE_%5CDelta%20=%20S_%7B%5Cbar%20X_1%7D%20+%20S_%7B%5Cbar%20X_2%7D"> вместо корен от сбора на квадратите.</li>
+<li>„Интервалите се припокриват → няма разлика“.</li>
+<li>Необходим брой 384,16 → 384 вместо 385.</li>
+</ul>
+</section>
+<section id="проверете-се" class="level2">
+<h2 class="anchored" data-anchor-id="проверете-се">Проверете се</h2>
+<ol type="1">
+<li>Защо при еднакъв обем интервалът за дял 50 % е по-широк от интервала за дял 10 %?</li>
+<li>Как се променя необходимият брой, ако искаме два пъти по-малка допустима грешка?</li>
+<li>Два 95 % интервала се припокриват. Какво още трябва да изчислите, за да прецените разликата?</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Medical Statistics</category>
+  <category>Medicine | 2nd year</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/medical-statistics-ci-proportion-comparison-bg.html</guid>
+  <pubDate>Thu, 12 Nov 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Дескриптивна статистика и доверителен интервал</title>
   <dc:creator>Костадин Костадинов</dc:creator>
@@ -1354,74 +1426,6 @@
   <category>Dental Medicine</category>
   <category>2026/2027</category>
   <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-transplantation-research-bg.html</guid>
-  <pubDate>Thu, 08 Oct 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Ethical problems in transplantation and in research involving humans</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-transplantation-research-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-06-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-transplantation-research-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-transplantation-research-bg.html">Български</a></p>
-<p>Set aside about <strong>15 minutes</strong> to read and think. The text follows the presentation “Gift, risk and trust”. Afterwards you should be able to explain the dead donor rule, compare consent models for deceased donation, say how Bulgarian law protects a living donor, name acceptable and unacceptable allocation criteria, list the requirements for ethical research, and tell which law and which ethics committee apply to a given study.</p>
-<section id="one-question-behind-two-topics" class="level2">
-<h2 class="anchored" data-anchor-id="one-question-behind-two-topics">One question behind two topics</h2>
-<p>Transplantation and research look like separate subjects. Both ask when a person’s body, or a person’s participation, may serve someone else. In transplantation the beneficiary is the recipient; in research it is future patients. In both, the person who carries the risk is not the person who gains the benefit. The ethical rules exist so that this asymmetry does not turn into exploitation.</p>
-</section>
-<section id="transplantation-concepts-and-death" class="level2">
-<h2 class="anchored" data-anchor-id="transplantation-concepts-and-death">Transplantation: concepts and death</h2>
-<p>Under the <a href="https://lex.bg/laws/ldoc/2135471868">Transplantation of Organs, Tissues and Cells Act</a>, Art. 2, transplantation is the set of medical and other activities by which organs, tissues and cells are removed from a cadaver or a living person and implanted in another person <strong>for treatment</strong>. It includes haematopoietic stem cells and grafts from animals. By source of the graft we distinguish <strong>auto</strong>transplantation (same person), <strong>iso</strong>transplantation (identical twin), <strong>allo</strong>transplantation (another person) and <strong>xeno</strong>transplantation (an animal).</p>
-<p><strong>Brain death</strong> is the death of the person: the irreversible loss of all brain functions, including the brainstem, while breathing and circulation are maintained artificially for a time. It is not coma, a vegetative state or a minimally conscious state. <strong>Donation after circulatory death</strong> follows the irreversible cessation of circulation; the decision to withdraw treatment must be made independently of any interest in donation.</p>
-<p>The <strong>dead donor rule</strong> says that a vital organ is taken only after death has been properly determined, and that removal does not cause death. The Transplantation Act secures it with roles: with a beating heart, death is determined by a standing committee of three physicians, appointed by the hospital director with the consent of the executive director of the Executive Agency for Medical Supervision (IAMN) (Art. 18(2)), and they may not join the removal or transplant teams (Art. 18(3)). The procedure is set by Ordinance No.&nbsp;14 of 15 April 2004 on the medical criteria and procedure for determining death: the committee includes specialists in anaesthesiology and intensive care, neurology, neurosurgery or radiology; the procedure is not started in hypothermia, intoxication or under muscle relaxants; it needs two clinical examinations at least 12 hours apart, or clinical examinations combined with EEG or a test showing absent cerebral blood flow (mandatory in children under 6). Asked whether doctors will still do everything to save a person who carries a donor card, IAMN answers: “Doctors do their utmost to save human life, because this is their moral duty and right” (<a href="https://iamn.bg/за-пациенти/често-задавани-въпроси-трансплантац/">IAMN, FAQ, in Bulgarian</a>). The conversation with the family has two parts in sequence: first the death, then, if medically possible, donation.</p>
-</section>
-<section id="consent-models" class="level2">
-<h2 class="anchored" data-anchor-id="consent-models">Consent models</h2>
-<p>Under <strong>opt-in</strong> (explicit consent) only those who agreed in life are donors. Under <strong>opt-out</strong> (presumed consent) donation is allowed unless the person objected. A systematic review found higher donation rates under opt-out, but the model alone does not explain the differences; organisation and public trust matter as much (<a href="https://doi.org/10.1136/bmj.a3162">Rithalia et al., 2009</a>). Opt-out is ethical only if citizens are informed and objecting is easy.</p>
-<p>Bulgaria uses presumed consent with safeguards. No organs are taken from a person who objected in writing during life (Transplantation Act, Art. 19(1)). The objection is made on a standard declaration and may cover all or only some organs and purposes (Art. 20(2)). It is signed before the GP, who enters it in the health insurance booklet and informs the regional health inspectorate within 7 days; the inspectorate informs IAMN within 7 days, and IAMN enters it in its official register within 3 days (Art. 20(3)–(7)). People without a GP or health insurance file the declaration at the municipality of their permanent address, which sends it to IAMN (Art. 20(5)). The form is published on the <a href="https://iamn.bg/трансплантации/бланки-и-документи/">IAMN website</a>; by 6 October 2026, 2,858 people had registered an objection. There is no consent register: under a default system nobody has to “sign up” as a donor. Before removal the relatives must be informed, and a written refusal from them within a reasonably short time stops the procedure (Art. 21). Since 2020 the order is fixed: the spouse or a parent; if there is none, a child; if none, a brother or sister; if none, other collateral relatives up to the fourth degree (Art. 21(2)). For a deceased person under 18, removal needs the parents’ written consent (Art. 19(2)). Nothing is taken from a body of unknown identity (Art. 19(3)). A donor card carries moral weight, but it does not override these legal steps.</p>
-</section>
-<section id="the-living-donor" class="level2">
-<h2 class="anchored" data-anchor-id="the-living-donor">The living donor</h2>
-<p>Living donation means surgery on a healthy person with no bodily benefit to them. That does not make it wrong, but the donor’s freedom and safety need stronger protection than in ordinary treatment. The Transplantation Act, Art. 24, requires that removal does not endanger the donor’s life and that the donor gives <strong>notarised written consent</strong> after the risks are explained by a physician who is not on the removal or transplant team. The donor may withdraw at any time before removal; a committee of at least three physicians outside the team assesses physical and mental health; no material benefit may be offered or accepted, and only costs and lost income may be compensated (Art. 24(8)–(9)).</p>
-<p>A living organ donor must be an adult spouse or relative in direct line or collateral line up to the fourth degree (Art. 26(1)). Other donors need permission from the <strong>Transplantation Ethics Committee</strong> at the Council of Ministers (Art. 26(2); Art. 12): a partner after more than two years of cohabitation, a biological parent who has not acknowledged the child, a donor in a paired exchange, or a uterus donor. Organs are never taken from persons under 18 (Art. 24(5)); regenerating tissue and bone marrow from children are allowed only in narrow cases with the Committee’s permission (Arts. 27, 27a). In <strong>paired exchange</strong>, removal and implantation are done simultaneously (Art. 26a(2); Art. 33a), so no donor can back out after the other family has already given.</p>
-<p>Family pressure is often silent: guilt, expectation, the feeling that refusing proves lack of love. The donor is interviewed alone. If they decide not to donate, the team can tell the family that the donor is “not suitable” without revealing the reason.</p>
-</section>
-<section id="fair-allocation-trade-and-tourism" class="level2">
-<h2 class="anchored" data-anchor-id="fair-allocation-trade-and-tourism">Fair allocation, trade and tourism</h2>
-<p>Organs are scarce, and every allocation decision is a choice between people. Acceptable criteria are compatibility, medical urgency, expected benefit and waiting time. Wealth, fame, media campaigns, ethnicity, sex, occupation and judgements about “social worth” are not. Behaviour, such as an untreated addiction, counts only if it directly affects the chance of success, and then the first response is help, not a moral verdict. The Transplantation Act guarantees equal rights for patients (Art. 3); recipients must be in the IAMN register (Art. 32), and the Agency allocates organs (Art. 11(5)(6)). Ordinance No.&nbsp;17 of 2004 makes selection purely medical. For a kidney from a deceased donor the order is: blood-group compatibility, HLA match, sensitisation, a negative crossmatch, current clinical condition and waiting time; a kidney from a donor under 35 is offered first to a child. An IAMN expert committee, which includes a representative of a patient organisation, proposes the ranking and the executive director approves it. The transplant centre accepts or declines the organ within 4 hours; if it declines, the organ goes to the next person on the list or, when no suitable recipient is found in Bulgaria, through exchange with Eurotransplant, FOEDUS or Romania.</p>
-<p>The numbers show the scale of the problem. On 6 October 2026, 923 people were waiting in the IAMN register, 848 of them for a kidney. In 2025 there were 13 deceased donors (1.96 per million population) and 30 organ transplants: 23 kidney, 6 liver and 1 heart (<a href="https://iamn.bg/en/transplantations/statistics-organ-transplantation/">IAMN, statistics</a>). Presumed consent alone does not produce donors: it takes donor identification in intensive care units, coordination and public trust.</p>
-<p>Organ sale looks like a voluntary deal between someone who needs money and someone who needs treatment. In practice the inequality between them empties the choice of freedom, and brokers take the profit. The <a href="https://doi.org/10.1097/TP.0000000000002540">Declaration of Istanbul</a> and the <a href="https://doi.org/10.1097/TP.0b013e3181ec29f0">WHO Guiding Principles</a> reject payment for organs. The Transplantation Act forbids paid transactions (Art. 5) and offering any benefit (Art. 6). The <a href="https://lex.bg/laws/ldoc/1589654529">Criminal Code</a> punishes trafficking in human beings for organ removal (Art. 159a) and breaches of the rules on removal and supply, more heavily for gain (Art. 349a). Lawful treatment abroad is different: under Ordinance No.&nbsp;2 of 27 March 2019 the NHIF may approve and pay for a transplant abroad when it cannot be done in time in Bulgaria and the patient is on the national register. A physician does not help a patient buy an organ, but treats them on their return: treating rejection is not approval.</p>
-</section>
-<section id="ethics-of-research-involving-humans" class="level2">
-<h2 class="anchored" data-anchor-id="ethics-of-research-involving-humans">Ethics of research involving humans</h2>
-<p>Modern research ethics grew out of abuse. The Nuremberg Code (1947) made voluntary consent essential after the Nazi experiments (<a href="https://doi.org/10.1056/NEJM199711133372006">Shuster, 1997</a>). In Tuskegee (1932–1972) African American men with syphilis were deceived and left without penicillin (<a href="https://doi.org/10.2307/3561468">Brandt, 1978</a>). Beecher showed in 1966 that unethical studies were published in leading journals of democratic countries (<a href="https://doi.org/10.1056/NEJM196606162742405">Beecher, 1966</a>). The Belmont Report (1979) named three principles: respect for persons, beneficence and justice. The <a href="https://doi.org/10.1001/jama.2024.21972">Declaration of Helsinki</a>, first adopted in 1964, was last revised in October 2024.</p>
-<p><a href="https://doi.org/10.1001/jama.283.20.2701">Emanuel, Wendler and Grady</a> summarise seven requirements: social value, scientific validity, fair selection of participants, a favourable risk–benefit ratio, independent review, informed consent and respect for enrolled participants. An invalid study is unethical, because it keeps the risk and loses the benefit.</p>
-<p><strong>Informed consent</strong> in research covers the purpose and experimental nature of the study, randomisation and placebo, risks and benefits, alternatives, data protection, compensation for harm and the right to withdraw without losing usual care. The commonest failure is <strong>therapeutic misconception</strong>: the participant believes every procedure was chosen for their own treatment. The researcher must separate care from science and check understanding by asking the person to explain it back.</p>
-<p><strong>Vulnerability</strong> is a limited ability to protect one’s own interests, not a fixed group label. Extra protection should not mean automatic exclusion, or there will be no evidence for pregnant women or older people. <strong>Randomisation</strong> is justified by clinical equipoise. Placebo is acceptable when no proven treatment exists, or for compelling reasons without risk of serious or irreversible harm. An independent <strong>ethics committee</strong> reviews the study before the first participant and monitors it afterwards. <strong>Good Clinical Practice</strong> (ICH E6(R3)) links participant protection with reliable data.</p>
-</section>
-<section id="research-in-eu-and-bulgarian-law" class="level2">
-<h2 class="anchored" data-anchor-id="research-in-eu-and-bulgarian-law">Research in EU and Bulgarian law</h2>
-<p>There are two regimes, and the researcher’s first task is to identify the right one.</p>
-<p>A <strong>clinical trial of a medicinal product</strong> follows Regulation (EU) No 536/2014 and the <a href="https://lex.bg/laws/ldoc/2135549536">Medicinal Products in Human Medicine Act</a>. Applications go through the EU portal CTIS. The Bulgarian Drug Agency authorises the trial (Arts. 81, 84). The ethical opinion comes from the <strong>Ethics Committee for Clinical Trials</strong> at the Minister of Health (Arts. 83, 103), which has 7–12 members, including at least two without medical training. The former Central Ethics Committee and local committees for drug trials were abolished in 2018. Consent is written (Art. 96); for a young child both parents consent, and an adolescent consents together with both parents (Art. 97); a child’s wish to refuse is respected. Sponsor and principal investigator must be insured (Art. 91).</p>
-<p><strong>Other medical research on humans</strong> follows the <a href="https://lex.bg/laws/ldoc/2135489147">Health Act</a>, Arts. 197–205. The participant keeps all patient rights, and their interests outweigh the researcher’s scientific and financial interests (Art. 197). Consent is written, given in person and revocable (Art. 199). No research is done on persons lacking legal capacity; pregnant and breastfeeding women and prisoners take part only when significant health benefit is expected (Art. 200). The study lead and team are jointly liable and must be insured (Art. 201). A <strong>local ethics committee</strong> in the institution gives a positive opinion before the study starts (Art. 203).</p>
-<p>In Bulgarian the term is <strong>„клинично изпитване“</strong> (clinical trial), never „клинично изследване“.</p>
-<p><em>The cited provisions were checked on 9 October 2026 against the consolidated texts (Ciela Norma, the same texts and document numbers as lex.bg). The transplantation part was updated on 20 October 2026 from IAMN materials (iamn.bg) and Ordinances No.&nbsp;12, 14 and 17.</em></p>
-<p>Before you open the <a href="../learning-tasks/medical-ethics-transplantation-research-en.html">student tasks</a>, try to answer in three sentences: why the physicians who declare brain death may not take part in organ removal; what stops removal from a deceased person in Bulgaria even without a registered objection; and which committee reviews a drug trial and which reviews a hospital study of a new surgical technique that involves no medicinal product.</p>
-
-
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-transplantation-research-en.html</guid>
   <pubDate>Thu, 08 Oct 2026 21:00:00 GMT</pubDate>
 </item>
 </channel>
