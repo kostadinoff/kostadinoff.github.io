@@ -1,0 +1,75 @@
+---
+title: "Stress and burnout in dentistry: demands, measurement and prevention"
+author: "Kostadin Kostadinov"
+date: "2026-11-12"
+lang: "en"
+description: "Preparation for dental social medicine class 11: occupational stressors, ICD-11 QD85, Maslach dimensions, MBI, CBI and BAT, prevalence and prevention."
+categories: ["English", "Social Medicine", "Occupational Health", "Dental Medicine", "2026/2027"]
+title-meta: "Stress and burnout in dentistry: demands, measurement and prevention"
+author-meta: "Kostadin Kostadinov"
+date-meta: "2026-11-12"
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-socmed-11-en.pdf) · [Student tasks](../learning-tasks/dental-social-medicine-stress-burnout-en.qmd)
+
+Set aside **15 minutes** to read and reflect. This class connects occupational health with the conditions of safe dental care. The [five student tasks](../learning-tasks/dental-social-medicine-stress-burnout-en.qmd) offer an alternative 75-minute practical route after the reading; the deck has its own 90-minute schedule. Personal reflections are private and are not collected or graded.
+
+## Begin with demands and resources
+
+A junior dentist works through an overloaded list, misses a break, manages several anxious patients and stays late to finish records. One difficult day does not establish burnout. If exhaustion, poor recovery and distance from work persist, further inquiry is needed. Identify both the demands and the resources available to meet them before deciding what should change.
+
+A **stressor** is a condition requiring effort or adaptation. A **stress response** concerns how a person appraises and reacts to the situation. A **longer-term outcome** is what develops over time. Do not confuse the number of appointments with the person's response, or assume that any symptom has a single occupational cause.
+
+Dental work combines precision, concentration, physical demands and responsibility for patients. Static posture, noise and repetitive work can accompany time pressure, emergencies, uncertain outcomes and fear of error. Patient anxiety, pain, complaints and disagreements about cost add interactional demands. Staffing, leadership, equipment, administration and financial targets affect the conditions in which those encounters occur. This is a practical map for inquiry, not a universal ranking of causes.
+
+Students also face examinations, clinical requirements, new procedures and relationships with supervisors. Patient cancellations can delay progress even when a student has prepared well. Housing, transport, finances, language, isolation and caring duties influence what recovery and support are possible. A review identified examinations, clinical requirements and supervisors as important reported sources of student stress: [Alzahem et al., 2011, DOI: 10.1111/j.1600-0579.2010.00640.x](https://doi.org/10.1111/j.1600-0579.2010.00640.x). Associations in surveys do not by themselves prove causation.
+
+The **job demands–resources model** helps organise a response. Sustained demands require effort; resources such as autonomy, assistance, useful feedback, supervision and clear roles help people work effectively. Repeated overruns may call for revised appointment lengths and cover. Uncertainty about competence may call for supervision and referral. The model is not a numerical formula or a diagnostic test: [Demerouti et al., 2001, DOI: 10.1037/0021-9010.86.3.499](https://doi.org/10.1037/0021-9010.86.3.499).
+
+## Burnout has a defined scope
+
+The WHO classifies **burn-out, ICD-11 QD85**, as an occupational phenomenon, rather than a medical condition. It describes a pattern arising from workplace stress that has been insufficiently managed, involving exhaustion, increasing detachment or negativity towards work, and reduced professional effectiveness. See the [WHO explanation](https://www.who.int/standards/classifications/frequently-asked-questions/burn-out-an-occupational-phenomenon) and the [ICD-11 browser](https://icd.who.int/browse/2026-01/mms/en#129180281).
+
+Research uses the related term **academic burnout** for students. A student questionnaire result does not automatically establish the occupational phenomenon in ICD-11. Likewise, tiredness after an examination or a busy clinic is insufficient to classify a persistent pattern.
+
+The **Maslach model** distinguishes emotional exhaustion, depersonalisation or cynicism, and reduced accomplishment or efficacy. Terms depend on the instrument: the Human Services Survey concerns responses to work with people, whereas general and student forms use related dimensions for their contexts. Depersonalisation in this framework refers to a detached response; it is not a dissociative diagnosis. The multidimensional framework is described by [Maslach et al., 2001, DOI: 10.1146/annurev.psych.52.1.397](https://doi.org/10.1146/annurev.psych.52.1.397).
+
+**Emotional labour** means managing expression and interaction while responding professionally to other people's emotions. **Moral distress** concerns feeling constrained from taking an action one believes is ethically required. Sales pressure to recommend unnecessary work is an example of an ethical constraint. Communication skills and rest may help with emotional demands, but an unethical target also requires action on the target. The dental ethics code protects independence and prohibits unnecessary treatment; see the [Bulgarian Dental Association documents](https://bzs.bg/documents/), Articles 3(2) and 15(5).
+
+## Measurement requires a question and an appropriate instrument
+
+The **Maslach Burnout Inventory (MBI)** has different forms. The Human Services Survey has 22 items and the General Survey 16. Use the authorised version and manual; the instrument is proprietary. Exhaustion and cynicism increase in the adverse direction, while accomplishment or efficacy is adverse when lower. Do not casually add all scores into a “burnout total”. The [MBI publisher](https://www.mindgarden.com/117-maslach-burnout-inventory-mbi) and the [authors' message on interpretation](https://www.mindgarden.com/blog/post/44-a-message-from-the-maslach-burnout-inventory-authors) explain why arbitrary severity cutoffs should not be treated as diagnostic boundaries.
+
+The **Copenhagen Burnout Inventory (CBI)** uses three exhaustion-related scales: personal, work-related and client-related. These contain six, seven and six items respectively. The [original English NFA form](https://nfa.dk/media/a4wheblj/cbi-scales.pdf) supplies response categories, reverse scoring and missing-response rules. The instrument's development paper is [Kristensen et al., DOI: 10.1080/02678370500297720](https://doi.org/10.1080/02678370500297720).
+
+For a fictional arithmetic example, six already-coded personal-scale values of 50, 75, 25, 50, 75 and 25 sum to 300 and average 50. That means a scale score of 50, not “50% burned out”. The work-related scale includes a reverse-scored item. Changing wording to fit students produces an adaptation that needs its own validation. An improvised classroom checklist must not be labelled the CBI.
+
+The **Burnout Assessment Tool (BAT)** includes exhaustion, mental distance, cognitive impairment and emotional impairment as core dimensions. It is non-proprietary, but the authors require use of the unmodified instrument with appropriate instructions: [BAT website](https://burnoutassessmenttool.be/start_eng/); [Schaufeli et al., DOI: 10.3390/ijerph17249495](https://doi.org/10.3390/ijerph17249495). Different instruments measure related constructs, not interchangeable diagnostic categories.
+
+## Read a prevalence estimate with its denominator
+
+A review of dentists reported **13% professional burnout, 95% CI 6–23%**, across **15 studies with 6,038 participants**, with its search ending on 28 October 2021: [Long et al., 2023, DOI: 10.1080/13548506.2023.2208364](https://doi.org/10.1080/13548506.2023.2208364). Publication in 2023 does not make the result a current estimate for Bulgaria.
+
+A 2026 review of dental students included **27 MBI-based studies**. Its overall prevalence synthesis used **12 studies and 8,141 students**, producing **26.5%, 95% CI 16.9–36.0%, I² = 98.2%**: [Mak et al., DOI: 10.1186/s12909-026-08891-8](https://doi.org/10.1186/s12909-026-08891-8). Its search covered publications from January 2000 to August 2025. Definitions varied substantially, including different instruments, thresholds and combinations of dimensions. The extreme heterogeneity makes transfer to one dental school difficult. A confidence interval for the pooled average is not a prediction interval for every setting.
+
+Do not compare these pooled percentages as though the same people were followed from student life into practice. They cannot show that burnout halves after graduation. The populations, settings, periods and definitions differ. An apparent difference may arise from measurement and sampling as well as underlying experience.
+
+A hypothetical survey makes the denominator problem clear. If 1,000 dentists are invited, 200 respond and 100 exceed an exhaustion threshold, the response rate is 20% and the observed respondent proportion is 50%. Neither tells us the proportion in all invitees without assumptions about non-response. A high exhaustion score also does not establish a composite burnout outcome. Non-response bias may act in either direction.
+
+## Prevention should address the source of the demand
+
+Individual support can include feasible recovery routines, boundaries, communication skills, mentoring and access to health care. Team responses include clear responsibilities, usable supervision, respectful feedback and safe escalation. Organisational responses include staffing, realistic schedules, protected breaks, fair assessment and protection against bullying or inappropriate production targets.
+
+The [WHO mental health at work guidelines](https://www.who.int/publications/i/item/9789240053052) address organisational, manager, worker and individual interventions, as well as return to work. FDI also addresses professional and student well-being: [DOI: 10.1016/j.identj.2023.10.005](https://doi.org/10.1016/j.identj.2023.10.005). A personal coping strategy should be accompanied by attention to work conditions; it cannot remove an unsafe schedule by itself.
+
+Intervention evidence needs caution. A 2026 review included 14 dental and oral-health student studies and judged the certainty of evidence for its assessed outcomes very low. Some short-term improvements were reported, but durable effects were unestablished: [Deng et al., DOI: 10.3389/fmed.2026.1945728](https://doi.org/10.3389/fmed.2026.1945728). Consider supported programmes as options to evaluate. Do not promise a universal percentage improvement or fixed recovery time.
+
+An improvement plan should identify an owner, a baseline, a review point and unintended consequences. For example, reviewing appointment lengths might reduce overtime, but also affect waiting times or transfer work to assistants. Measure the process, the outcome and a balancing consequence. Attendance at a well-being workshop is not itself evidence that distress improved.
+
+## Respond to distress and safety concerns without a speculative diagnosis
+
+Burnout-related distress can coexist with depression, anxiety, sleep problems or physical illness. Persistent low mood, loss of interest or impaired function warrants professional assessment rather than a questionnaire label. The relationship between burnout and mental illness is discussed by [Maslach and Leiter, DOI: 10.1002/wps.20311](https://doi.org/10.1002/wps.20311). Immediate danger or inability to practise safely requires urgent help and safe clinical cover.
+
+Speak privately with a colleague about concrete observations. Ask what support is needed, protect appropriate confidentiality and address patient safety through the responsible route. A mental health concern does not automatically imply unsafe practice. Equally, loyalty cannot justify ignoring an observed threat to patients; the dental code addresses this in Article 12.
+
+For your private reflection, identify one draining situation, one missing resource and one action or request for support. You may use a fictional person instead. Do not disclose symptoms, submit answers or diagnose a classmate. The learning goal is to connect a demand with a proportionate, supported response.

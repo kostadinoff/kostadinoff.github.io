@@ -1,0 +1,110 @@
+---
+title: "Dental social medicine, class 11: stress and burnout — student tasks"
+author: "Kostadin Kostadinov"
+date: "2026-11-12"
+lang: "en"
+description: "Five tasks with model answers: demands and resources, measurement, prevalence, private reflection, safety and an evaluated clinic improvement."
+categories: ["English", "Social Medicine", "Occupational Health", "Dental Medicine", "2026/2027"]
+title-meta: "Dental social medicine, class 11: stress and burnout — student tasks"
+author-meta: "Kostadin Kostadinov"
+date-meta: "2026-11-12"
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-socmed-11-en.pdf) · [15-minute reading](../15-minute-learning/dental-social-medicine-stress-burnout-en.qmd)
+
+## How to work
+
+Read the [15-minute preparation](../15-minute-learning/dental-social-medicine-stress-burnout-en.qmd), then use **75 minutes** for the five tasks: **10 + 15 + 15 + 15 + 20 minutes**. Rotate discussion roles. Open each model answer after agreeing your own response. This is an alternative practical route; the slide deck has its own 90-minute schedule. These are learning exercises, with no new graded individual submission or deadline.
+
+Keep personal reflections private. Use a fictional person whenever preferred. Do not collect or compare classmates' questionnaire scores, infer diagnoses or ask anyone to disclose symptoms.
+
+## Task 1. Map demands and resources — 10 minutes
+
+A fictional student repeatedly finishes clinic late. Instruments sometimes arrive late; a difficult case lacks clear supervision; the student has a long journey home. Separate observed facts from assumptions. Identify one demand and a matched resource at individual, team and organisational levels. Which additional fact would you check first?
+
+::: {.callout-note collapse="true" title="Model answer: different mechanisms need different responses"}
+
+A late finish is an observation, not proof of poor motivation. Check when instruments were available, the case's complexity, who was supervising and the actual sequence of the delay. Ask about travel and recovery privately rather than assuming a cause.
+
+At the individual level, a realistic preparation and recovery plan may help. At the team level, a named supervisor and agreed help route address uncertainty. At the organisational level, instrument preparation and case allocation should be reviewed. Moving responsibility to the student alone would miss the supply and supervision problems.
+
+The job demands–resources model is an explanatory framework, not a diagnostic formula: [Demerouti et al., DOI: 10.1037/0021-9010.86.3.499](https://doi.org/10.1037/0021-9010.86.3.499). State which demand each action addresses and who can authorise it.
+
+:::
+
+## Task 2. Correct the measurement claims — 15 minutes
+
+Correct these claims and explain the error in each:
+
+1. “Burnout is an ICD-11 mental disorder, so QD85 proves illness.”
+2. “A high exhaustion score is the same as high burnout on all three Maslach dimensions.”
+3. “We can add all MBI scales together, regardless of their direction.”
+4. “A CBI mean of 50 means that the person is 50% burned out.”
+
+Then calculate the mean of six fictional, already-coded CBI personal-scale values: **50, 75, 25, 50, 75, 25**. Why should we avoid modifying an instrument and keeping its original name?
+
+::: {.callout-note collapse="true" title="Model answer: classification, construct and score are different"}
+
+WHO describes QD85 as an **occupational phenomenon**, not a medical condition. A questionnaire result is not a clinical diagnosis. Academic burnout research also has a different setting from the occupational definition.
+
+One dimension is not a composite outcome requiring several dimensions. The MBI has form-specific scales and scoring directions: adverse exhaustion or cynicism generally increases, while accomplishment or efficacy is adverse when reduced. Follow the relevant authorised manual rather than making an improvised total.
+
+The six fictional values sum to **300**, so their mean is **300 / 6 = 50**. This is a scale score, not a percentage of a person affected. The original CBI scores scales separately; the work-related scale includes reverse scoring. Real administration must follow the original response and missing-data rules. Altered wording or scoring can change validity and comparability.
+
+See the [WHO definition](https://www.who.int/standards/classifications/frequently-asked-questions/burn-out-an-occupational-phenomenon), [MBI authors' interpretation guidance](https://www.mindgarden.com/blog/post/44-a-message-from-the-maslach-burnout-inventory-authors), and CBI development paper, [DOI: 10.1080/02678370500297720](https://doi.org/10.1080/02678370500297720).
+
+:::
+
+## Task 3. Audit the prevalence evidence — 15 minutes
+
+The dentist review reported **13% (95% CI 6–23%)**, and the student review **26.5% (16.9–36.0%)**. A classmate concludes: “Burnout halves after graduation.” Explain why this conclusion is unsupported. Identify which studies and participants contributed to the student prevalence synthesis.
+
+Then examine a hypothetical survey: 1,000 dentists were invited; 200 responded; 100 respondents crossed an exhaustion cutoff. Calculate the response rate and the observed respondent proportion. Write a defensible headline.
+
+::: {.callout-note collapse="true" title="Model answer: preserve the populations, definitions and denominators"}
+
+The pooled estimates come from different reviews and populations, with different sampling, settings, periods and outcome definitions. They are not a longitudinal comparison of the same people. They cannot establish a change caused by graduation or a current Bulgarian prevalence.
+
+The dentist review used **15 studies and 6,038 participants**: [Long et al., DOI: 10.1080/13548506.2023.2208364](https://doi.org/10.1080/13548506.2023.2208364). The student review included **27 studies overall**, but the prevalence synthesis used **12 studies and 8,141 students**, with **I² = 98.2%**: [Mak et al., DOI: 10.1186/s12909-026-08891-8](https://doi.org/10.1186/s12909-026-08891-8). Its confidence interval describes uncertainty about the pooled average, not the range expected in every school.
+
+In the hypothetical survey, the response rate is **200 / 1,000 = 20%**; the respondent proportion crossing the exhaustion cutoff is **100 / 200 = 50%**. A defensible headline is: “Half of the respondents exceeded the study's exhaustion cutoff; response rate 20%.” This does not establish composite burnout or the proportion in all dentists. The direction of non-response bias is unknown.
+
+:::
+
+## Task 4. Reflect privately, then discuss Mira — 15 minutes
+
+Spend up to **5 minutes privately** reflecting on one draining demand, recovery, distance from learning or work, a missing resource and one useful request for support. This is an original educational reflection, not a validated test. You may use a fictional person instead. Keep your answers; they are not collected, scored or graded.
+
+Use the remaining **10 minutes** for a fictional case. Mira has had repeated patient cancellations, worries about clinical requirements, stays late and sleeps poorly. A humiliating remark has made her reluctant to ask for supervision. Propose an initial conversation, an educational adjustment and an appropriate support route. State what further information is needed.
+
+::: {.callout-note collapse="true" title="Model answer: support the student and examine the learning environment"}
+
+Speak privately and acknowledge the difficulty without labelling Mira or assuming lack of ability. Ask what happened, how long the difficulties have persisted, how they affect function and what support she wants. Do not diagnose depression or burnout from this vignette.
+
+Review patient allocation, cancellations, requirements and supervision. An accessible named supervisor, clear feedback and a fair review of lost clinical opportunities may address the demands directly. A humiliating interaction should be handled through an appropriate, fair institutional process.
+
+Offer a confidential route to student support, primary care or an appropriately qualified mental health professional as indicated and available; do not promise an unverified local service. Persistent symptoms or impaired function warrant professional assessment. Discuss only the fictional case with the group, not classmates' private reflections.
+
+:::
+
+## Task 5. Protect patients and evaluate a clinic change — 20 minutes
+
+Daniel reports persistent exhaustion and works under high procedure targets with shortened breaks. A pre-treatment check catches a wrong-tooth error before treatment begins. He asks a colleague not to mention it.
+
+Use the first **10 minutes** to propose immediate safety, documentation, review and support. Use the remaining **10 minutes** to design one demand-reducing change and one resource-strengthening change for the clinic. Name an owner, a process measure, an outcome and a balancing measure. State when and how to review the change.
+
+::: {.callout-note collapse="true" title="Model answer: immediate safety and a proportionate improvement plan"}
+
+Because the error was intercepted before treatment began, it is a **near miss**. Confirm the patient, tooth and intended procedure before proceeding, and arrange appropriate supervision or cover if safe practice remains in doubt. Record and review the event through the appropriate safety process. Do not hide it because a colleague asks. One event does not establish burnout or its cause.
+
+Speak privately, describe observed facts and facilitate confidential assessment or support. Patient protection and fair treatment of Daniel should proceed together. Dental code **Article 12** places patient safety above personal or professional loyalty; a mental health concern alone does not establish unfitness.
+
+A demand-reducing change could be a clinical-lead review of appointment duration and procedure targets with the whole team. A resource-strengthening change could be a named supervisor and reliable cover for breaks or complex cases. A **process measure** could be the proportion of sessions with a protected break; an **outcome** could be overtime per session; **balancing measures** could include urgent-care access, waiting time and work transferred to assistants. Establish a baseline, select a review date and adapt the plan after examining the findings.
+
+Do not promise a fixed effect size or recovery period. The WHO [mental health at work guidelines](https://www.who.int/publications/i/item/9789240053052) support attention to work conditions. Student intervention evidence remains uncertain: [Deng et al., DOI: 10.3389/fmed.2026.1945728](https://doi.org/10.3389/fmed.2026.1945728). A programme needs evaluation beyond attendance or an immediate satisfaction score.
+
+:::
+
+## Feedback criteria
+
+A complete response distinguishes demands, responses and outcomes; explains the three-dimensional framework and the occupational scope of QD85; uses instrument-specific scoring; preserves denominators and uncertainty; avoids causal claims from unrelated prevalence estimates; and links prevention to the person or organisation able to act. It protects privacy and patient safety while naming measurable consequences of the proposed change.

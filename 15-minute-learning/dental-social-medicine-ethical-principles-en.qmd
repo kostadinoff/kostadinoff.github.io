@@ -1,0 +1,76 @@
+---
+title: "Ethical principles in dental practice"
+author: "Kostadin Kostadinov"
+date: "2026-11-12"
+lang: "en"
+description: "Preparation for dental social medicine class 10: moral reasoning, four ethical theories and principles, the Bulgarian dental ethics code, and dental cases."
+categories: ["English", "Social Medicine", "Medical Ethics", "Dental Medicine", "2026/2027"]
+title-meta: "Ethical principles in dental practice"
+author-meta: "Kostadin Kostadinov"
+date-meta: "2026-11-12"
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-socmed-10-en.pdf) · [Student tasks](../learning-tasks/dental-social-medicine-ethical-principles-en.qmd)
+
+Set aside **15 minutes** for this reading and reflection. By the end, you should be able to justify a dental decision with facts, ethical reasons and the relevant professional duties. The [student tasks](../learning-tasks/dental-social-medicine-ethical-principles-en.qmd) provide a separate 75-minute group-work route through the topic. Use those tasks as an alternative practical format; the slide deck has its own 90-minute schedule.
+
+## Start with the clinical indication
+
+An adult with healthy anterior teeth asks for extensive crown preparation to achieve a brighter smile. The clinic pays a bonus for selling the treatment package. The patient says, “I can pay, and I consent.” Is consent enough?
+
+Begin by establishing the clinical findings, the patient's goals, the expected benefit, the irreversible burdens and the reasonable alternatives. The patient's preferences matter, but the dentist also has a duty to recommend professionally acceptable care. A signature cannot supply a missing indication. In Bulgaria, the **Code of Professional Ethics of Dentists**, Article 15(5), prohibits recommending or providing unnecessary dental treatment. Article 3(2) protects professional independence when accepting contractual obligations. These rules make the commercial context part of the ethical analysis, not a reason to abandon it.
+
+## Morality, ethics, law and deontology
+
+**Morality** consists of lived beliefs, values and rules about right and wrong. **Ethics** examines whether such norms are justified. Descriptive ethics asks what people believe or do; normative ethics asks what they ought to do; applied ethics examines a particular field; metaethics examines the meaning and justification of moral claims. A survey of dentists' opinions can inform a discussion, but a majority opinion does not by itself prove what is right.
+
+**Law** provides enforceable requirements within a jurisdiction. Ethical reasoning can support those requirements, demand more or criticise them. **Professional deontology** concerns the duties of a profession. It should be distinguished from **deontological ethics**, a theory that gives duties and rights a central role in judging actions. The terms overlap in their concern with duty but describe different things.
+
+Name the rule you use. “The clinic requires this form” is an institutional policy. “The Health Act requires informed consent” is a legal claim. “This intervention imposes disproportionate harm” is an ethical argument. A policy must comply with the law; a personal conviction does not determine a patient's values. Many apparent dilemmas also depend on missing facts: resolve those before claiming that two duties cannot both be fulfilled.
+
+## Four ethical theories reveal different features
+
+**Consequentialism** judges actions by their results. Utilitarian reasoning asks which option produces the greatest overall well-being while counting everyone's interests. It draws attention to pain relief, tooth retention, treatment burdens, costs and opportunity costs. Its difficulty is that a large total benefit can hide an unfair burden on one person. Consequences are also uncertain.
+
+**Deontology** examines duties, rights and respect for persons. Kant's concern that people should never be treated merely as means challenges using a patient mainly to achieve a sales target or teaching requirement. Ross's idea of *prima facie* duties recognises several obligations that bind unless outweighed by a stronger obligation in the circumstances. A duty-based approach protects people, but competing duties still require a reasoned decision.
+
+**Virtue ethics** asks what a trustworthy professional with practical wisdom would do. Honesty about prognosis and fees, courage in raising a safety concern and humility about limits of competence matter. Saying “a good dentist would know” is insufficient: the proposed conduct still needs explanation.
+
+**Care ethics** examines relationships, vulnerability and responsiveness. A refusal of treatment may reflect fear, family responsibilities or previous experiences. Understanding those circumstances can improve care without taking the choice away from the patient. The limitation is that attention to a close relationship must still be checked against fairness to other patients.
+
+For example, a patient may prefer extraction of a restorable tooth because root-canal treatment and restoration are unaffordable or inconsistent with personal priorities. Clarify the prognosis, understanding and acceptable options. Avoid assuming that keeping the tooth must always override the patient's choice, or that any requested extraction must be provided. These theories help examine a case; none removes the need for clinical judgment.
+
+## Four principles need specification and balancing
+
+Beauchamp and Childress's framework uses **respect for autonomy, beneficence, non-maleficence and justice**. They are binding but not absolute commitments, rather than a fixed ranking. Gillon also asks us to examine their scope: to whom do the duties apply? See [Gillon, 1994, DOI: 10.1136/bmj.309.6948.184](https://doi.org/10.1136/bmj.309.6948.184).
+
+Autonomy requires information, understanding, voluntariness and capacity for the particular decision. It protects refusal and participation; it does not create an entitlement to every requested procedure. Beneficence requires positive action for the patient's benefit, understood in light of that patient's goals. Non-maleficence requires avoiding unnecessary or disproportionate harm and exercising due care. It does not require avoiding every risk. Justice requires fair treatment and allocation, including attention to barriers such as language, disability, income and transport.
+
+**Specification** makes a principle concrete. “Protect confidentiality” becomes a rule about who may access an identifiable photograph and for which purpose. Consent for treatment does not automatically cover publication on a clinic's social-media account. **Balancing** compares competing obligations after they have been specified: consider alternatives, necessity, proportionality and the least intrusive acceptable action. An ethical argument does not authorise a breach of law.
+
+Principlism has limitations. [Clouser and Gert, DOI: 10.1093/jmp/15.2.219](https://doi.org/10.1093/jmp/15.2.219), question whether a list of principles adequately resolves conflicts. Relational approaches ask whether character and dependency receive enough attention. A European framework emphasises autonomy, dignity, integrity and vulnerability: [Rendtorff, DOI: 10.1023/A:1021132602330](https://doi.org/10.1023/A:1021132602330). These criticisms encourage a fuller explanation of a decision.
+
+## Professional standards and Bulgarian law
+
+The Hippocratic tradition emphasised benefit, avoidance of harm and confidentiality, but did not provide the modern account of patient choice and public accountability. Research ethics subsequently gave explicit attention to voluntary participation, review and fair selection. The **Oviedo Convention** is a treaty binding on its parties; professional declarations and manuals have a different legal status.
+
+For Bulgarian dental practice, distinguish the Constitution, applicable treaties, statutes, EU law, professional rules and clinic procedures. Under Constitution Article 5(4), treaties meeting its conditions form part of domestic law and prevail over conflicting domestic provisions. EU law is a separate legal order operating within its scope. The Health Act's consent and patient-rights provisions apply in dental care.
+
+The dental code published in State Gazette No. 34/2006 and amended in No. 18/2017 has its own article numbers. The [Bulgarian Dental Association's official documents page](https://bzs.bg/documents/) links its consolidated text:
+
+- **Article 2:** competent, timely, quality care, safe conditions, infection prevention and limits of competence.
+- **Articles 11–14:** dignity, non-discrimination, patient safety above personal or professional loyalty, emergency help and continuity.
+- **Article 15:** information about options, risks, likely costs and outcomes; consent; prohibition of unnecessary treatment.
+- **Articles 21, 25 and 27:** referral when needed, records and confidentiality, and continuing professional development.
+
+The **Health Act**, Articles 87–90, governs informed consent and refusal. Article 89 addresses written information and consent for surgery, general anaesthesia and other methods within its scope. Its emergency exception has specific conditions. Article 90(4), concerning a decision by the head of an establishment when refusal and a threat to life coincide, is not a general permission for a dentist to disregard refusal. Today's cases concern capable adults and non-life-threatening decisions.
+
+The dental code adds requirements concerning written consent or refusal for specified procedures and complex or expensive treatment. Read it together with the statute. A patient's permission also does not cancel the code's restrictions on commercial advertising. For international professional guidance, the FDI's **Ethics in Dentistry 2024** policy was published in 2025: [DOI: 10.1016/j.identj.2024.12.006](https://doi.org/10.1016/j.identj.2024.12.006). It connects patient participation with integrity, accountability and professional independence.
+
+## Make the reasoning end in an action
+
+Use eight steps: establish facts and uncertainty; state the ethical question; identify stakeholders; identify principles and duties; generate feasible options; compare benefits, harms, fairness and legality; justify a decision; communicate and review it. The four-box method offers a related checklist: clinical indications, patient preferences, quality of life and contextual features.
+
+A separated endodontic instrument illustrates why these steps matter. A complication does not by itself prove negligence, but concealing it introduces a different ethical problem. The responsible team must review the clinical situation, document accurately, communicate honestly and arrange appropriate follow-up or referral. A student raises concerns through supervision and stays within competence. The analysis should protect the patient without guessing about blame.
+
+Before opening the tasks, explain why consent does not justify unnecessary treatment, why justice may require communication support rather than identical arrangements, and why loyalty to a colleague cannot justify concealing a patient-safety concern.

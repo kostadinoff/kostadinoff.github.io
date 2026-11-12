@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-11-12">
+<meta name="description" content="Preparation for dental social medicine class 11: occupational stressors, ICD-11 QD85, Maslach dimensions, MBI, CBI and BAT, prevalence and prevention.">
+
+<title>Stress and burnout in dentistry: demands, measurement and prevention – Kostadin Kostadinov</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f1e5f53186eea7ee45b469109d0a2c63.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d956c78f4006edb9374543ca41f5bc89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="Stress and burnout in dentistry: demands, measurement and prevention – Kostadin Kostadinov">
+<meta name="twitter:description" content="Preparation for dental social medicine class 11: occupational stressors, ICD-11 QD85, Maslach dimensions, MBI, CBI and BAT, prevalence and prevention.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      refreshSafariScrollbar();
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../study-guide.html">
+ <span class="dropdown-text">Study guides</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Stress and burnout in dentistry: demands, measurement and prevention</h1>
+                  <div>
+        <div class="description">
+          Preparation for dental social medicine class 11: occupational stressors, ICD-11 QD85, Maslach dimensions, MBI, CBI and BAT, prevalence and prevention.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">English</div>
+                <div class="quarto-category">Social Medicine</div>
+                <div class="quarto-category">Occupational Health</div>
+                <div class="quarto-category">Dental Medicine</div>
+                <div class="quarto-category">2026/2027</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 12, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#begin-with-demands-and-resources" id="toc-begin-with-demands-and-resources" class="nav-link active" data-scroll-target="#begin-with-demands-and-resources">Begin with demands and resources</a></li>
+  <li><a href="#burnout-has-a-defined-scope" id="toc-burnout-has-a-defined-scope" class="nav-link" data-scroll-target="#burnout-has-a-defined-scope">Burnout has a defined scope</a></li>
+  <li><a href="#measurement-requires-a-question-and-an-appropriate-instrument" id="toc-measurement-requires-a-question-and-an-appropriate-instrument" class="nav-link" data-scroll-target="#measurement-requires-a-question-and-an-appropriate-instrument">Measurement requires a question and an appropriate instrument</a></li>
+  <li><a href="#read-a-prevalence-estimate-with-its-denominator" id="toc-read-a-prevalence-estimate-with-its-denominator" class="nav-link" data-scroll-target="#read-a-prevalence-estimate-with-its-denominator">Read a prevalence estimate with its denominator</a></li>
+  <li><a href="#prevention-should-address-the-source-of-the-demand" id="toc-prevention-should-address-the-source-of-the-demand" class="nav-link" data-scroll-target="#prevention-should-address-the-source-of-the-demand">Prevention should address the source of the demand</a></li>
+  <li><a href="#respond-to-distress-and-safety-concerns-without-a-speculative-diagnosis" id="toc-respond-to-distress-and-safety-concerns-without-a-speculative-diagnosis" class="nav-link" data-scroll-target="#respond-to-distress-and-safety-concerns-without-a-speculative-diagnosis">Respond to distress and safety concerns without a speculative diagnosis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-socmed-11-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/dental-social-medicine-stress-burnout-en.html">Student tasks</a></p>
+<p>Set aside <strong>15 minutes</strong> to read and reflect. This class connects occupational health with the conditions of safe dental care. The <a href="../learning-tasks/dental-social-medicine-stress-burnout-en.html">five student tasks</a> offer an alternative 75-minute practical route after the reading; the deck has its own 90-minute schedule. Personal reflections are private and are not collected or graded.</p>
+<section id="begin-with-demands-and-resources" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-demands-and-resources">Begin with demands and resources</h2>
+<p>A junior dentist works through an overloaded list, misses a break, manages several anxious patients and stays late to finish records. One difficult day does not establish burnout. If exhaustion, poor recovery and distance from work persist, further inquiry is needed. Identify both the demands and the resources available to meet them before deciding what should change.</p>
+<p>A <strong>stressor</strong> is a condition requiring effort or adaptation. A <strong>stress response</strong> concerns how a person appraises and reacts to the situation. A <strong>longer-term outcome</strong> is what develops over time. Do not confuse the number of appointments with the person’s response, or assume that any symptom has a single occupational cause.</p>
+<p>Dental work combines precision, concentration, physical demands and responsibility for patients. Static posture, noise and repetitive work can accompany time pressure, emergencies, uncertain outcomes and fear of error. Patient anxiety, pain, complaints and disagreements about cost add interactional demands. Staffing, leadership, equipment, administration and financial targets affect the conditions in which those encounters occur. This is a practical map for inquiry, not a universal ranking of causes.</p>
+<p>Students also face examinations, clinical requirements, new procedures and relationships with supervisors. Patient cancellations can delay progress even when a student has prepared well. Housing, transport, finances, language, isolation and caring duties influence what recovery and support are possible. A review identified examinations, clinical requirements and supervisors as important reported sources of student stress: <a href="https://doi.org/10.1111/j.1600-0579.2010.00640.x">Alzahem et al., 2011, DOI: 10.1111/j.1600-0579.2010.00640.x</a>. Associations in surveys do not by themselves prove causation.</p>
+<p>The <strong>job demands–resources model</strong> helps organise a response. Sustained demands require effort; resources such as autonomy, assistance, useful feedback, supervision and clear roles help people work effectively. Repeated overruns may call for revised appointment lengths and cover. Uncertainty about competence may call for supervision and referral. The model is not a numerical formula or a diagnostic test: <a href="https://doi.org/10.1037/0021-9010.86.3.499">Demerouti et al., 2001, DOI: 10.1037/0021-9010.86.3.499</a>.</p>
+</section>
+<section id="burnout-has-a-defined-scope" class="level2">
+<h2 class="anchored" data-anchor-id="burnout-has-a-defined-scope">Burnout has a defined scope</h2>
+<p>The WHO classifies <strong>burn-out, ICD-11 QD85</strong>, as an occupational phenomenon, rather than a medical condition. It describes a pattern arising from workplace stress that has been insufficiently managed, involving exhaustion, increasing detachment or negativity towards work, and reduced professional effectiveness. See the <a href="https://www.who.int/standards/classifications/frequently-asked-questions/burn-out-an-occupational-phenomenon">WHO explanation</a> and the <a href="https://icd.who.int/browse/2026-01/mms/en#129180281">ICD-11 browser</a>.</p>
+<p>Research uses the related term <strong>academic burnout</strong> for students. A student questionnaire result does not automatically establish the occupational phenomenon in ICD-11. Likewise, tiredness after an examination or a busy clinic is insufficient to classify a persistent pattern.</p>
+<p>The <strong>Maslach model</strong> distinguishes emotional exhaustion, depersonalisation or cynicism, and reduced accomplishment or efficacy. Terms depend on the instrument: the Human Services Survey concerns responses to work with people, whereas general and student forms use related dimensions for their contexts. Depersonalisation in this framework refers to a detached response; it is not a dissociative diagnosis. The multidimensional framework is described by <a href="https://doi.org/10.1146/annurev.psych.52.1.397">Maslach et al., 2001, DOI: 10.1146/annurev.psych.52.1.397</a>.</p>
+<p><strong>Emotional labour</strong> means managing expression and interaction while responding professionally to other people’s emotions. <strong>Moral distress</strong> concerns feeling constrained from taking an action one believes is ethically required. Sales pressure to recommend unnecessary work is an example of an ethical constraint. Communication skills and rest may help with emotional demands, but an unethical target also requires action on the target. The dental ethics code protects independence and prohibits unnecessary treatment; see the <a href="https://bzs.bg/documents/">Bulgarian Dental Association documents</a>, Articles 3(2) and 15(5).</p>
+</section>
+<section id="measurement-requires-a-question-and-an-appropriate-instrument" class="level2">
+<h2 class="anchored" data-anchor-id="measurement-requires-a-question-and-an-appropriate-instrument">Measurement requires a question and an appropriate instrument</h2>
+<p>The <strong>Maslach Burnout Inventory (MBI)</strong> has different forms. The Human Services Survey has 22 items and the General Survey 16. Use the authorised version and manual; the instrument is proprietary. Exhaustion and cynicism increase in the adverse direction, while accomplishment or efficacy is adverse when lower. Do not casually add all scores into a “burnout total”. The <a href="https://www.mindgarden.com/117-maslach-burnout-inventory-mbi">MBI publisher</a> and the <a href="https://www.mindgarden.com/blog/post/44-a-message-from-the-maslach-burnout-inventory-authors">authors’ message on interpretation</a> explain why arbitrary severity cutoffs should not be treated as diagnostic boundaries.</p>
+<p>The <strong>Copenhagen Burnout Inventory (CBI)</strong> uses three exhaustion-related scales: personal, work-related and client-related. These contain six, seven and six items respectively. The <a href="https://nfa.dk/media/a4wheblj/cbi-scales.pdf">original English NFA form</a> supplies response categories, reverse scoring and missing-response rules. The instrument’s development paper is <a href="https://doi.org/10.1080/02678370500297720">Kristensen et al., DOI: 10.1080/02678370500297720</a>.</p>
+<p>For a fictional arithmetic example, six already-coded personal-scale values of 50, 75, 25, 50, 75 and 25 sum to 300 and average 50. That means a scale score of 50, not “50% burned out”. The work-related scale includes a reverse-scored item. Changing wording to fit students produces an adaptation that needs its own validation. An improvised classroom checklist must not be labelled the CBI.</p>
+<p>The <strong>Burnout Assessment Tool (BAT)</strong> includes exhaustion, mental distance, cognitive impairment and emotional impairment as core dimensions. It is non-proprietary, but the authors require use of the unmodified instrument with appropriate instructions: <a href="https://burnoutassessmenttool.be/start_eng/">BAT website</a>; <a href="https://doi.org/10.3390/ijerph17249495">Schaufeli et al., DOI: 10.3390/ijerph17249495</a>. Different instruments measure related constructs, not interchangeable diagnostic categories.</p>
+</section>
+<section id="read-a-prevalence-estimate-with-its-denominator" class="level2">
+<h2 class="anchored" data-anchor-id="read-a-prevalence-estimate-with-its-denominator">Read a prevalence estimate with its denominator</h2>
+<p>A review of dentists reported <strong>13% professional burnout, 95% CI 6–23%</strong>, across <strong>15 studies with 6,038 participants</strong>, with its search ending on 28 October 2021: <a href="https://doi.org/10.1080/13548506.2023.2208364">Long et al., 2023, DOI: 10.1080/13548506.2023.2208364</a>. Publication in 2023 does not make the result a current estimate for Bulgaria.</p>
+<p>A 2026 review of dental students included <strong>27 MBI-based studies</strong>. Its overall prevalence synthesis used <strong>12 studies and 8,141 students</strong>, producing <strong>26.5%, 95% CI 16.9–36.0%, I² = 98.2%</strong>: <a href="https://doi.org/10.1186/s12909-026-08891-8">Mak et al., DOI: 10.1186/s12909-026-08891-8</a>. Its search covered publications from January 2000 to August 2025. Definitions varied substantially, including different instruments, thresholds and combinations of dimensions. The extreme heterogeneity makes transfer to one dental school difficult. A confidence interval for the pooled average is not a prediction interval for every setting.</p>
+<p>Do not compare these pooled percentages as though the same people were followed from student life into practice. They cannot show that burnout halves after graduation. The populations, settings, periods and definitions differ. An apparent difference may arise from measurement and sampling as well as underlying experience.</p>
+<p>A hypothetical survey makes the denominator problem clear. If 1,000 dentists are invited, 200 respond and 100 exceed an exhaustion threshold, the response rate is 20% and the observed respondent proportion is 50%. Neither tells us the proportion in all invitees without assumptions about non-response. A high exhaustion score also does not establish a composite burnout outcome. Non-response bias may act in either direction.</p>
+</section>
+<section id="prevention-should-address-the-source-of-the-demand" class="level2">
+<h2 class="anchored" data-anchor-id="prevention-should-address-the-source-of-the-demand">Prevention should address the source of the demand</h2>
+<p>Individual support can include feasible recovery routines, boundaries, communication skills, mentoring and access to health care. Team responses include clear responsibilities, usable supervision, respectful feedback and safe escalation. Organisational responses include staffing, realistic schedules, protected breaks, fair assessment and protection against bullying or inappropriate production targets.</p>
+<p>The <a href="https://www.who.int/publications/i/item/9789240053052">WHO mental health at work guidelines</a> address organisational, manager, worker and individual interventions, as well as return to work. FDI also addresses professional and student well-being: <a href="https://doi.org/10.1016/j.identj.2023.10.005">DOI: 10.1016/j.identj.2023.10.005</a>. A personal coping strategy should be accompanied by attention to work conditions; it cannot remove an unsafe schedule by itself.</p>
+<p>Intervention evidence needs caution. A 2026 review included 14 dental and oral-health student studies and judged the certainty of evidence for its assessed outcomes very low. Some short-term improvements were reported, but durable effects were unestablished: <a href="https://doi.org/10.3389/fmed.2026.1945728">Deng et al., DOI: 10.3389/fmed.2026.1945728</a>. Consider supported programmes as options to evaluate. Do not promise a universal percentage improvement or fixed recovery time.</p>
+<p>An improvement plan should identify an owner, a baseline, a review point and unintended consequences. For example, reviewing appointment lengths might reduce overtime, but also affect waiting times or transfer work to assistants. Measure the process, the outcome and a balancing consequence. Attendance at a well-being workshop is not itself evidence that distress improved.</p>
+</section>
+<section id="respond-to-distress-and-safety-concerns-without-a-speculative-diagnosis" class="level2">
+<h2 class="anchored" data-anchor-id="respond-to-distress-and-safety-concerns-without-a-speculative-diagnosis">Respond to distress and safety concerns without a speculative diagnosis</h2>
+<p>Burnout-related distress can coexist with depression, anxiety, sleep problems or physical illness. Persistent low mood, loss of interest or impaired function warrants professional assessment rather than a questionnaire label. The relationship between burnout and mental illness is discussed by <a href="https://doi.org/10.1002/wps.20311">Maslach and Leiter, DOI: 10.1002/wps.20311</a>. Immediate danger or inability to practise safely requires urgent help and safe clinical cover.</p>
+<p>Speak privately with a colleague about concrete observations. Ask what support is needed, protect appropriate confidentiality and address patient safety through the responsible route. A mental health concern does not automatically imply unsafe practice. Equally, loyalty cannot justify ignoring an observed threat to patients; the dental code addresses this in Article 12.</p>
+<p>For your private reflection, identify one draining situation, one missing resource and one action or request for support. You may use a fictional person instead. Do not disclose symptoms, submit answers or diagnose a classmate. The learning goal is to connect a demand with a proportionate, supported response.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

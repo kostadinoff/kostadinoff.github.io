@@ -59,7 +59,7 @@
    ========================================================================== */
 
 window.TEACHING_DATA = {
-  updated: "2026-11-08",
+  updated: "2026-11-12",
 
   /* The year currently being taught. Used only for labelling — the filter
      itself opens on the newest academic year that has materials. */
@@ -1436,6 +1436,64 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/dental-social-medicine-literature-review-en.html" },
                     { label: "Student tasks", href: "learning-tasks/dental-social-medicine-literature-review-en.html" }
+                  ]
+                },
+                {
+                  "title": "Class 10 · Ethical principles in dental practice",
+                  "description": "Morality, ethics, law and deontology; four ethical theories and principles; specification, balancing and critiques; international standards and the Bulgarian dental ethics code; informed participation, clinical indication, confidentiality, professional independence, fair access and dental case analysis.",
+                  "tags": [
+                    "dental ethics",
+                    "ethical principles",
+                    "professional duties",
+                    "case analysis"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Slides (PDF)",
+                      "href": "2026-2027-classes/dental-socmed-10-en.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-minute reading",
+                      "href": "15-minute-learning/dental-social-medicine-ethical-principles-en.html"
+                    },
+                    {
+                      "label": "Student tasks",
+                      "href": "learning-tasks/dental-social-medicine-ethical-principles-en.html"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class 11 · Sources of stress and burnout in dentistry",
+                  "description": "Sources of stress in dental work and education; demands and resources; Maslach dimensions and WHO ICD-11 QD85; MBI, CBI and BAT; sourced prevalence in dentists and students; individual, team and organisational prevention; private unscored reflection, dental cases and an evaluated clinic improvement plan.",
+                  "tags": [
+                    "occupational stress",
+                    "burnout",
+                    "well-being",
+                    "prevention"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Slides (PDF)",
+                      "href": "2026-2027-classes/dental-socmed-11-en.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-minute reading",
+                      "href": "15-minute-learning/dental-social-medicine-stress-burnout-en.html"
+                    },
+                    {
+                      "label": "Student tasks",
+                      "href": "learning-tasks/dental-social-medicine-stress-burnout-en.html"
+                    }
                   ]
                 }
               ],

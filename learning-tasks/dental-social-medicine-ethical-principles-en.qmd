@@ -1,0 +1,96 @@
+---
+title: "Dental social medicine, class 10: ethical principles — student tasks"
+author: "Kostadin Kostadinov"
+date: "2026-11-12"
+lang: "en"
+description: "Five group tasks with collapsible model answers: ethical theories, autonomy and indication, truth-telling, fair access, and professional accountability."
+categories: ["English", "Social Medicine", "Medical Ethics", "Dental Medicine", "2026/2027"]
+title-meta: "Dental social medicine, class 10: ethical principles — student tasks"
+author-meta: "Kostadin Kostadinov"
+date-meta: "2026-11-12"
+---
+
+[Slides (PDF)](../2026-2027-classes/dental-socmed-10-en.pdf) · [15-minute reading](../15-minute-learning/dental-social-medicine-ethical-principles-en.qmd)
+
+## How to work
+
+Read the [15-minute preparation](../15-minute-learning/dental-social-medicine-ethical-principles-en.qmd), then use **75 minutes** for the five tasks below: **10 + 15 + 15 + 15 + 20 minutes**. Work in groups of three or four and rotate the discussion lead, note-taker and spokesperson. Open each model answer after writing your own reasons. This workbook is an alternative practical route; the deck carries its own 90-minute schedule. There is no new graded individual assignment or submission deadline on this page.
+
+## Task 1. Name the norm and the ethical lens — 10 minutes
+
+Classify each statement as an ethical argument, legal requirement, professional rule or institutional policy. Then use four ethical theories to examine a clinic's sales bonus for extensive cosmetic work.
+
+1. “The Health Act requires informed consent.”
+2. “The clinic stores consent forms in this section of the record.”
+3. “The dental code prohibits unnecessary treatment.”
+4. “Removing healthy tissue needs a proportionate benefit.”
+
+::: {.callout-note collapse="true" title="Model answer: classify the rule before using it"}
+
+The statements refer respectively to a **legal requirement**, **institutional policy**, **professional rule** and **ethical argument**. A rule's label does not decide the case: the local policy must comply with higher requirements, and a clinical recommendation needs its own justification.
+
+A consequentialist asks about benefits, harms, costs and incentives. A deontologist asks whether truthful advice and respect for the patient are being displaced by a sales goal. A virtue ethicist considers honesty, restraint and professional courage. A care ethicist explores why this patient wants the change and what support might address the underlying concern. The bonus creates a conflict of interest; it does not by itself prove that every treatment recommended by the clinic is unnecessary.
+
+:::
+
+## Task 2. Autonomy, benefit and an irreversible request — 15 minutes
+
+A capable adult with healthy anterior teeth requests extensive crowns for a brighter smile. The clinic offers the dentist a sales bonus. The patient understands that tissue will be removed and says, “I consent.” Use the eight-step method to propose an action. Identify two facts that could change the options and one fact that would not establish an indication.
+
+::: {.callout-note collapse="true" title="Model answer: informed choice still requires acceptable professional options"}
+
+Establish the condition of the teeth, goals, expectations, alternatives and likely long-term burdens. Identify the patient's welfare and autonomy, the dentist's judgment and the financial interest. Compare providing the requested treatment with less invasive appropriate options, further discussion and an independent opinion.
+
+If the intervention is unnecessary, do not recommend or provide it. Explain this respectfully and discuss suitable alternatives. Autonomy protects informed participation and refusal; it does not oblige a dentist to carry out any procedure requested. Non-maleficence and beneficence require a defensible balance of benefit and burden.
+
+The **dental code**, Article **15(5)**, prohibits unnecessary treatment; Article **3(2)** protects independence in contractual obligations. A finding of significant structural disease or a materially different clinical prognosis could change the options. A larger fee or a signed form alone would not establish an indication. Communicate and document the discussion, and state what would prompt review.
+
+:::
+
+## Task 3. “Do not tell my mother” — 15 minutes
+
+A capable 72-year-old needs a biopsy for a suspicious oral lesion. Her daughter asks you to call it a harmless ulcer and discuss the findings only with her. The patient asks direct questions and has not declined information. Write two opening sentences, identify the relevant principles and explain who decides whether the daughter receives information instead.
+
+::: {.callout-note collapse="true" title="Model answer: ask the patient how she wants information and support"}
+
+One possible opening is: “I have found a change that needs further investigation, and a biopsy can help us understand it. How would you like me to explain the possibilities, and would you like your daughter involved?” Do not present an unconfirmed malignancy as established, or a suspicious finding as certainly harmless.
+
+Autonomy and truthfulness support an honest explanation. Care ethics supports sensitivity, time and family involvement according to the patient's wishes. The daughter can explain concerns but cannot replace a capable patient's decision merely because she is a relative.
+
+**Health Act Article 92** sets out information duties. The patient can decline specified information, subject to the statutory qualification concerning danger to others; this choice is documented. She may authorise someone in writing to receive information instead. The answer should distinguish withholding information at the family's request from respecting the patient's own lawful choice.
+
+:::
+
+## Task 4. A scarce appointment — 15 minutes
+
+Only one urgent dental appointment remains. Two patients have comparable clinical urgency and can benefit from the available care. One needs an interpreter and has limited income. The other speaks the clinic's language and offers to pay more. Propose a fair allocation procedure, name two facts that could alter priority, and explain what to offer the person who cannot be seen now.
+
+::: {.callout-note collapse="true" title="Model answer: clinical priority, accessible communication and a fair procedure"}
+
+Check urgency, risk of deterioration, likely benefit and whether each person's need can be met safely elsewhere or later. A developing systemic complication or a clinically important difference in expected benefit could alter priority. Wealth or ease of communication should not stand in for those clinical facts.
+
+For genuinely comparable claims, apply a transparent, consistently used tie-breaker, such as order of request or a lottery in an appropriate service context. Explain the rule. Arrange communication support rather than treating the need for an interpreter as a reason to deprioritise.
+
+The other patient still needs assessment of immediate risk, understandable advice and a safe alternative or referral. Justice requires attention to different needs and access barriers, not mechanically identical arrangements. The **dental code, Article 11**, addresses dignity and non-discrimination; avoid claiming that this hypothetical exercise specifies every contractual funding entitlement.
+
+:::
+
+## Task 5. A complication and a request for concealment — 20 minutes
+
+An instrument separates during root-canal treatment. The supervising dentist asks you, a student assisting under supervision, to omit it from the record because the patient is comfortable. No harm has yet been established. Produce a brief plan covering immediate clinical review, documentation, communication, escalation and follow-up. Explain why a complication, concealment and proven negligence are different claims.
+
+::: {.callout-note collapse="true" title="Model answer: protect the patient and report facts accurately"}
+
+Seek appropriate clinical review and supervision. The clinician responsible should assess the situation and available management options, including referral where needed. Do not attempt management beyond your competence. Comfort at that moment does not establish the absence of future consequences.
+
+Record the event accurately, including what was observed and the decisions made. Communicate the known facts and uncertainty honestly, explain options and arrange follow-up. Do not invent a prognosis or make unsupported accusations about fault. Raise a request for concealment through the responsible supervisor and the institution's appropriate safety or complaints route.
+
+A complication is an event that may occur despite appropriate care. Negligence requires its own factual and legal assessment. Deliberate omission from records is a separate accountability concern even before harm is established. Relevant dental code duties include **Article 2** (competence and safety), **Article 12** (patient protection above loyalty), **Article 15** (information), **Article 21** (referral) and **Article 25** (records and confidentiality).
+
+A complete group answer states what to do now, who is responsible, what information to share with the patient, how concerns are escalated and what would trigger review. Naming four principles without an action plan is incomplete.
+
+:::
+
+## Feedback criteria
+
+A strong answer uses the relevant clinical facts, distinguishes legal and professional rules, considers several acceptable options and explains how principles lead to a specific action. It respects capable refusal, protects appropriate confidentiality, recognises limits of competence and avoids claiming negligence from an adverse event alone. The class sources are linked in the [reading](../15-minute-learning/dental-social-medicine-ethical-principles-en.qmd) and cited on the [slides](../2026-2027-classes/dental-socmed-10-en.pdf).
