@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="dcterms.date" content="2026-11-12">
+<meta name="description" content="Case–control studies and the odds ratio. 15-minute reading.">
+
+<title>12. Case–control studies and the odds ratio — 15-minute reading – Kostadin Kostadinov</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f1e5f53186eea7ee45b469109d0a2c63.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d956c78f4006edb9374543ca41f5bc89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="12. Case–control studies and the odds ratio — 15-minute reading – Kostadin Kostadinov">
+<meta name="twitter:description" content="Case–control studies and the odds ratio. 15-minute reading.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      refreshSafariScrollbar();
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../study-guide.html">
+ <span class="dropdown-text">Study guides</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">12. Case–control studies and the odds ratio — 15-minute reading</h1>
+                  <div>
+        <div class="description">
+          Case–control studies and the odds ratio. 15-minute reading.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">English</div>
+                <div class="quarto-category">Dental Public Health</div>
+                <div class="quarto-category">Epidemiology</div>
+                <div class="quarto-category">Dental Medicine</div>
+                <div class="quarto-category">2026/2027</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 12, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#worked-analysis" id="toc-worked-analysis" class="nav-link active" data-scroll-target="#worked-analysis">Worked analysis</a>
+  <ul class="collapse">
+  <li><a href="#begin-with-the-population-that-could-become-cases" id="toc-begin-with-the-population-that-could-become-cases" class="nav-link" data-scroll-target="#begin-with-the-population-that-could-become-cases">Begin with the population that could become cases</a></li>
+  <li><a href="#cases-need-consistent-definition-and-a-defined-period" id="toc-cases-need-consistent-definition-and-a-defined-period" class="nav-link" data-scroll-target="#cases-need-consistent-definition-and-a-defined-period">Cases need consistent definition and a defined period</a></li>
+  <li><a href="#controls-need-not-be-perfectly-healthy" id="toc-controls-need-not-be-perfectly-healthy" class="nav-link" data-scroll-target="#controls-need-not-be-perfectly-healthy">Controls need not be perfectly healthy</a></li>
+  <li><a href="#build-an-unmatched-casecontrol-table" id="toc-build-an-unmatched-casecontrol-table" class="nav-link" data-scroll-target="#build-an-unmatched-casecontrol-table">Build an unmatched case–control table</a></li>
+  <li><a href="#probability-and-odds-have-different-denominators" id="toc-probability-and-odds-have-different-denominators" class="nav-link" data-scroll-target="#probability-and-odds-have-different-denominators">Probability and odds have different denominators</a></li>
+  <li><a href="#the-cross-product-ratio-compares-exposure-odds" id="toc-the-cross-product-ratio-compares-exposure-odds" class="nav-link" data-scroll-target="#the-cross-product-ratio-compares-exposure-odds">The cross-product ratio compares exposure odds</a></li>
+  <li><a href="#sample-row-totals-do-not-give-population-risks" id="toc-sample-row-totals-do-not-give-population-risks" class="nav-link" data-scroll-target="#sample-row-totals-do-not-give-population-risks">Sample row totals do not give population risks</a></li>
+  <li><a href="#doubling-controls-preserves-this-or" id="toc-doubling-controls-preserves-this-or" class="nav-link" data-scroll-target="#doubling-controls-preserves-this-or">Doubling controls preserves this OR</a></li>
+  <li><a href="#rarity-brings-disease-or-closer-to-rr" id="toc-rarity-brings-disease-or-closer-to-rr" class="nav-link" data-scroll-target="#rarity-brings-disease-or-closer-to-rr">Rarity brings disease OR closer to RR</a></li>
+  <li><a href="#risk-set-sampling-has-a-different-interpretation" id="toc-risk-set-sampling-has-a-different-interpretation" class="nav-link" data-scroll-target="#risk-set-sampling-has-a-different-interpretation">Risk-set sampling has a different interpretation</a></li>
+  <li><a href="#nested-studies-may-use-prediagnostic-measurements" id="toc-nested-studies-may-use-prediagnostic-measurements" class="nav-link" data-scroll-target="#nested-studies-may-use-prediagnostic-measurements">Nested studies may use prediagnostic measurements</a></li>
+  <li><a href="#selection-can-change-or-without-changing-biology" id="toc-selection-can-change-or-without-changing-biology" class="nav-link" data-scroll-target="#selection-can-change-or-without-changing-biology">Selection can change OR without changing biology</a></li>
+  <li><a href="#recall-bias-is-differential-exposure-measurement" id="toc-recall-bias-is-differential-exposure-measurement" class="nav-link" data-scroll-target="#recall-bias-is-differential-exposure-measurement">Recall bias is differential exposure measurement</a></li>
+  <li><a href="#matching-must-be-reflected-in-analysis" id="toc-matching-must-be-reflected-in-analysis" class="nav-link" data-scroll-target="#matching-must-be-reflected-in-analysis">Matching must be reflected in analysis</a></li>
+  <li><a href="#confounding-differs-from-selection-and-recall" id="toc-confounding-differs-from-selection-and-recall" class="nav-link" data-scroll-target="#confounding-differs-from-selection-and-recall">Confounding differs from selection and recall</a></li>
+  <li><a href="#an-interval-adds-precision-information-not-bias-protection" id="toc-an-interval-adds-precision-information-not-bias-protection" class="nav-link" data-scroll-target="#an-interval-adds-precision-information-not-bias-protection">An interval adds precision information, not bias protection</a></li>
+  <li><a href="#model-answers-follow-the-sampling-scheme" id="toc-model-answers-follow-the-sampling-scheme" class="nav-link" data-scroll-target="#model-answers-follow-the-sampling-scheme">Model answers follow the sampling scheme</a></li>
+  <li><a href="#a-defensible-report-names-population-and-or" id="toc-a-defensible-report-names-population-and-or" class="nav-link" data-scroll-target="#a-defensible-report-names-population-and-or">A defensible report names population and OR</a></li>
+  </ul></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-12-en.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-case-control-bg.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-case-control-en.html">Tasks</a></p>
+<p>A case–control study is defined by how people enter the study. Investigators identify cases meeting a disease definition and select controls from the population that produced those cases according to a specified sampling scheme. They then compare exposure. The design is useful when finding enough cases through ordinary follow-up would be inefficient, or measuring exposure for every member of a large cohort would be expensive. It is not simply any study asking about the past. Cohorts may use historical records; case–control studies may use samples collected before diagnosis.</p>
+<p>Start with the source population. Specify who could develop the qualifying disease, where and when cases would be found, and the inclusion rules. In a hypothetical oral-cancer investigation this includes anatomical sites, diagnosis, residency and observation period. Oral-cavity and oropharyngeal cancers should not be silently combined. A changed case definition changes the question. District-wide cases and controls from one specialist clinic do not automatically form a valid comparison. The control frame must correspond to the population and process that generated the cases.</p>
+<p>The central control question is whether a selected control would have been identified as a case if that person developed the qualifying disease at the relevant time. Controls are not chosen to be unexposed, and need not be free of every other disease. They must provide the exposure comparison demanded by the sampling scheme. Excluding smokers from controls in a smoking study constructs an association before analysis. Choosing controls from a smoking-related disease clinic may instead overrepresent exposure. Both choices can undermine the intended comparison.</p>
+<p>Case selection also needs scrutiny. New diagnoses help avoid selecting only people who survived long enough to be interviewed. If exposure influences disease occurrence and survival, an association among surviving prevalent cases may differ from the association with onset. Complete case finding means more than a large number of available patients. Referral, diagnostic access, participation and eligibility can change who enters. Apply the prespecified definition consistently and describe the case-finding system.</p>
+<p>Exposure measurement needs an index date and comparable reference period. Asking cases about lifetime drinking but controls about current drinking mixes measurements. Diagnosis may lead someone to stop smoking or change diet; behaviour afterwards may differ from the relevant earlier exposure. Prediagnostic records or stored samples help establish timing, but availability and completeness may differ between groups. A structured interview limits inconsistency without guaranteeing equal recall. Interviewer masking cannot erase participants’ knowledge of diagnosis.</p>
+<p>An exposure proportion divides exposed people by everyone in the group. Exposure odds divide exposed by unexposed people. Both can be calculated among cases and among controls, but they answer different numerical questions. A probability of 0.8 corresponds to odds of four, not to probability four. The odds ratio divides the exposure odds among cases by those among controls. With exposure in rows and cases and controls in columns, this simplifies to the cross-product ratio. Label the table before substituting numbers: memorising a formula cannot rescue a wrongly assembled comparison.</p>
+<p>The symmetry of the cross-product formula does not supply missing population denominators. Investigators selected cases and controls rather than observing every initially exposed and unexposed person. Consequently, dividing sampled cases by the sampled row total yields a selected-sample case fraction. It cannot ordinarily estimate the probability that an exposed person develops the disease. Doubling both control cells provides a useful demonstration: the cross-product OR stays unchanged while apparent row risks change. The population disease process did not change when the investigator recruited more controls.</p>
+<p>The interpretation of OR depends on control sampling. With cumulative sampling from non-cases at the end, the result estimates a disease odds ratio. If outcome risks are small in the relevant population groups, disease odds and risks are close enough that their ratios are also close. A large sampled case fraction does not contradict population rarity because the investigator chose that fraction. Conversely, a small sampled fraction does not prove rarity. The worked examples show how identical risk ratios can accompany appreciably different disease odds ratios when disease is common.</p>
+<p>Risk-set sampling requires another interpretation. At each case time, controls are selected among people then at risk. Someone may be a control before becoming a case, and may be sampled more than once under a suitable scheme. With correct sampling and analysis the OR estimates an incidence rate ratio without requiring a rare outcome. This is a property of the sampling design, not an exception granted merely because the disease sounds uncommon. Before translating an OR into a population comparison, identify how controls were selected and how time and matching were handled.</p>
+<p>Selection bias, information bias and confounding must be evaluated separately. Selection changes who enters or remains in the comparison. Information bias changes how exposure or disease is recorded. Confounding mixes the exposure association with common causes of exposure and outcome. Increasing sample size does not automatically fix any of these. Matching can improve efficiency and comparability on selected factors but is not randomisation; its structure must be respected in analysis. An unmatched cross-product calculation from collapsed margins is generally not the correct analysis of individually matched pairs.</p>
+<p>A confidence interval adds sampling-uncertainty information under statistical assumptions. It is not protection against an inappropriate control source or differential recall. Intervals including one do not demonstrate equivalence, and intervals excluding one do not establish causation. A defensible report identifies source population, eligibility, case ascertainment, control sampling, exposure timing, adjustment, estimate and uncertainty. It then limits its conclusion to what those choices support. The following worked analyses use hypothetical dental scenarios so that calculation can be separated from unsupported clinical claims.</p>
+<section id="worked-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="worked-analysis">Worked analysis</h2>
+<section id="begin-with-the-population-that-could-become-cases" class="level3">
+<h3 class="anchored" data-anchor-id="begin-with-the-population-that-could-become-cases">Begin with the population that could become cases</h3>
+<p>Hypothetical oral-cancer study in Plovdiv. Include eligible new diagnoses among residents of a defined catchment during a defined period. Specify anatomical sites, diagnostic criteria and residency before recruitment.</p>
+<p>The key control question. If this control developed the qualifying disease during the study period, would that person be identified as a case under the same eligibility and ascertainment rules?</p>
+<p>The case and control sampling frames must correspond; the source need not be an entire country.</p>
+</section>
+<section id="cases-need-consistent-definition-and-a-defined-period" class="level3">
+<h3 class="anchored" data-anchor-id="cases-need-consistent-definition-and-a-defined-period">Cases need consistent definition and a defined period</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Decision</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New diagnoses</td>
+<td>Avoid selecting only long-term survivors</td>
+</tr>
+<tr class="even">
+<td>Same disease</td>
+<td>Do not silently combine oral-cavity and oropharyngeal cancers</td>
+</tr>
+<tr class="odd">
+<td>Catchment and time</td>
+<td>Define who can enter</td>
+</tr>
+<tr class="even">
+<td>Ascertainment</td>
+<td>Referral and diagnostic access may affect inclusion</td>
+</tr>
+</tbody>
+</table>
+<p>Survivor selection. If exposure affects survival, sampling surviving prevalent cases may distort its association with disease occurrence. A large sample of survivors does not solve this.</p>
+</section>
+<section id="controls-need-not-be-perfectly-healthy" class="level3">
+<h3 class="anchored" data-anchor-id="controls-need-not-be-perfectly-healthy">Controls need not be perfectly healthy</h3>
+<p>Possible sources. Population registers; underlying cohort; patients from the same system if their reason for attendance does not distort exposure sampling.</p>
+<p>Convenience can bias exposure. Controls treated for tobacco-related conditions may have unusually high smoking exposure. Dental-clinic attenders can differ from non-attenders in income and behaviour.</p>
+<p>Select controls for their relationship to the source population. Exposed people may be controls; excluding them builds the association into the design.</p>
+</section>
+<section id="build-an-unmatched-casecontrol-table" class="level3">
+<h3 class="anchored" data-anchor-id="build-an-unmatched-casecontrol-table">Build an unmatched case–control table</h3>
+<p>Invented study. 100 cases and 200 independently sampled controls. Smoking is assessed over a predefined interval before a comparable index date. These are not real cancer estimates.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Smoking</th>
+<th>Cases</th>
+<th>Controls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes</td>
+<td>80 = a</td>
+<td>100 = b</td>
+</tr>
+<tr class="even">
+<td>No</td>
+<td>20 = c</td>
+<td>100 = d</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>The investigator selected numbers of cases and controls. The sample case fraction is not population disease frequency.</p>
+</section>
+<section id="probability-and-odds-have-different-denominators" class="level3">
+<h3 class="anchored" data-anchor-id="probability-and-odds-have-different-denominators">Probability and odds have different denominators</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Among</th>
+<th>Exposure proportion</th>
+<th>Exposure odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cases</td>
+<td>80/100 = 0.80</td>
+<td>80/20 = 4</td>
+</tr>
+<tr class="even">
+<td>Controls</td>
+<td>100/200 = 0.50</td>
+<td>100/100 = 1</td>
+</tr>
+</tbody>
+</table>
+<p>Odds = p/(1 − p). At p = 0.80: 0.80/0.20 = 4. Odds of 4 mean four exposed people per unexposed person, not probability 400%.</p>
+<p>The proportion ratio 0.80/0.50 = 1.6 is not the odds ratio.</p>
+</section>
+<section id="the-cross-product-ratio-compares-exposure-odds" class="level3">
+<h3 class="anchored" data-anchor-id="the-cross-product-ratio-compares-exposure-odds">The cross-product ratio compares exposure odds</h3>
+<p>OR = (a/c)/(b/d) = ad/bc. (80 × 100)/(100 × 20) = 4.</p>
+<p>Direct interpretation. Exposure odds were four times as high among sampled cases as among sampled controls. The population association estimated depends on how the groups were sampled.</p>
+<p>OR = 1 is the null. Reversing one comparison gives 0.25; reversing both axes preserves the cross-product ratio.</p>
+</section>
+<section id="sample-row-totals-do-not-give-population-risks" class="level3">
+<h3 class="anchored" data-anchor-id="sample-row-totals-do-not-give-population-risks">Sample row totals do not give population risks</h3>
+<p>Tempting but invalid. 80/(80+100) = 44.4% is the case fraction among sampled exposed people. It is not their population risk of cancer. Similarly 20/(20+100) = 16.7% is not the unexposed population risk.</p>
+<p>Why. The sample deliberately has 100 cases and 200 controls. Changing the control count changes these fractions without changing the disease process.</p>
+<p>This ordinary sample table does not directly provide absolute risk, RD, NNT or population incidence.</p>
+</section>
+<section id="doubling-controls-preserves-this-or" class="level3">
+<h3 class="anchored" data-anchor-id="doubling-controls-preserves-this-or">Doubling controls preserves this OR</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Exposure</th>
+<th>Cases</th>
+<th>Original controls</th>
+<th>Doubled controls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes</td>
+<td>80</td>
+<td>100</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>No</td>
+<td>20</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Same control exposure distribution. OR = (80×200)/(200×20) = 4. The apparent exposed risk becomes 80/280 = 28.6%, instead of 44.4%. Neither is population risk.</p>
+<p>Precision. A new random control sample may change OR by chance. More independent controls can improve precision, but cannot repair biased selection.</p>
+</section>
+<section id="rarity-brings-disease-or-closer-to-rr" class="level3">
+<h3 class="anchored" data-anchor-id="rarity-brings-disease-or-closer-to-rr">Rarity brings disease OR closer to RR</h3>
+<p>Population risks for illustration, not calculated from a case–control sample.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Exposed risk</th>
+<th>Reference risk</th>
+<th>RR</th>
+<th>Disease OR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2%</td>
+<td>1%</td>
+<td>2</td>
+<td>2.02</td>
+</tr>
+<tr class="even">
+<td>40%</td>
+<td>20%</td>
+<td>2</td>
+<td>2.67</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate with odds. OR = [Rₑ/(1 − Rₑ)]/[R₀/(1 − R₀)]. At 40% versus 20%: (0.4/0.6)/(0.2/0.8) = 2.67.</p>
+<p>With controls sampled among non-cases at the end, disease OR approximates RR when outcome risks are small. The sample case fraction does not define rarity.</p>
+</section>
+<section id="risk-set-sampling-has-a-different-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="risk-set-sampling-has-a-different-interpretation">Risk-set sampling has a different interpretation</h3>
+<p>Incidence-density sampling. At each case occurrence, sample controls from people still at risk then. A control may later become a case and may be sampled again under an appropriate scheme.</p>
+<p>With valid risk-set sampling and appropriate analysis, OR estimates an incidence rate ratio without a rare-outcome assumption.</p>
+<p>Identify the scheme. This does not turn every case–control OR into a risk ratio. Check time-specific sampling, matching and the analysis.</p>
+</section>
+<section id="nested-studies-may-use-prediagnostic-measurements" class="level3">
+<h3 class="anchored" data-anchor-id="nested-studies-may-use-prediagnostic-measurements">Nested studies may use prediagnostic measurements</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Within a defined cohort</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Baseline</td>
+<td>Collect smoking history and store samples</td>
+</tr>
+<tr class="even">
+<td>Follow-up</td>
+<td>Identify incident cases</td>
+</tr>
+<tr class="odd">
+<td>Sampling</td>
+<td>Select eligible controls using a stated scheme</td>
+</tr>
+<tr class="even">
+<td>Analysis</td>
+<td>Compare earlier exposure accounting for the scheme</td>
+</tr>
+</tbody>
+</table>
+<p>Practical benefit. Testing expensive biomarkers only for selected cases and controls saves resources. Prediagnostic measurement helps temporality but does not automatically remove confounding or measurement error.</p>
+</section>
+<section id="selection-can-change-or-without-changing-biology" class="level3">
+<h3 class="anchored" data-anchor-id="selection-can-change-or-without-changing-biology">Selection can change OR without changing biology</h3>
+<p>Keep 80 exposed and 20 unexposed cases fixed; change only selected controls.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Controls</th>
+<th>Original selection</th>
+<th>Distorted selection</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exposed</td>
+<td>100</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>Unexposed</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>OR</td>
+<td>4</td>
+<td>80×50/(150×20) = 1.33</td>
+</tr>
+</tbody>
+</table>
+<p>Selection bias. When exposure affects control inclusion, its distribution may not represent the required population. Here excess exposed controls attenuate OR; other mechanisms can distort it in other directions.</p>
+</section>
+<section id="recall-bias-is-differential-exposure-measurement" class="level3">
+<h3 class="anchored" data-anchor-id="recall-bias-is-differential-exposure-measurement">Recall bias is differential exposure measurement</h3>
+<p>Invented example. True exposure: 40/100 cases and 40/100 controls → OR = 1. Reported exposure: 60/100 cases and 40/100 controls → OR = (60×60)/(40×40) = 2.25.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Prediagnostic records</td>
+<td>Completeness may differ</td>
+</tr>
+<tr class="even">
+<td>Same structured interview</td>
+<td>Cannot guarantee equal recall</td>
+</tr>
+<tr class="odd">
+<td>Interviewer masking</td>
+<td>Does not erase knowledge of diagnosis</td>
+</tr>
+<tr class="even">
+<td>Comparable reference dates</td>
+<td>Avoid lifetime versus current exposure</td>
+</tr>
+</tbody>
+</table>
+<p>Information bias also includes recording and diagnostic suspicion. Its direction is not universally towards the null.</p>
+</section>
+<section id="matching-must-be-reflected-in-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="matching-must-be-reflected-in-analysis">Matching must be reflected in analysis</h3>
+<p>Purpose. Matching can improve comparability of selected factors and efficiency. It does not automatically eliminate confounding and is not randomisation.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Analysis consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Individual pairs</td>
+<td>Preserve pairing and use a matched method</td>
+</tr>
+<tr class="even">
+<td>Frequency matching</td>
+<td>Account for matching factors</td>
+</tr>
+<tr class="odd">
+<td>Overmatching</td>
+<td>Inappropriate factors may lose information or introduce bias</td>
+</tr>
+</tbody>
+</table>
+<p>Unmatched shortcut. The cross-product OR from collapsed margins is not generally the matched-pair estimate. Discordant pairs matter.</p>
+</section>
+<section id="confounding-differs-from-selection-and-recall" class="level3">
+<h3 class="anchored" data-anchor-id="confounding-differs-from-selection-and-recall">Confounding differs from selection and recall</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Hypothetical example</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Selection</td>
+<td>Controls attend a smoking-related clinic disproportionately</td>
+<td>Defensible control frame; assess non-response</td>
+</tr>
+<tr class="even">
+<td>Information</td>
+<td>Cases report smoking more fully</td>
+<td>Comparable measurement and dates</td>
+</tr>
+<tr class="odd">
+<td>Confounding</td>
+<td>Age influences both smoking and cancer occurrence</td>
+<td>Measure common causes; justified stratification or adjustment</td>
+</tr>
+</tbody>
+</table>
+<p>Correcting one problem does not correct the others. A large OR alone cannot distinguish them from causation.</p>
+</section>
+<section id="an-interval-adds-precision-information-not-bias-protection" class="level3">
+<h3 class="anchored" data-anchor-id="an-interval-adds-precision-information-not-bias-protection">An interval adds precision information, not bias protection</h3>
+<p>Original 80/20 and 100/100 table. OR = 4; approximate 95% CI 2.28–7.02, using a large-sample log-OR method for independent unmatched observations.</p>
+<p>Read estimate and design together. Report source population, control sampling, exposure period and adjustment. The interval describes sampling uncertainty under analysis assumptions.</p>
+<p>Limits. A narrow interval around bias remains biased. Including 1 does not establish equivalence. Matched, clustered and sparse data may require other methods.</p>
+</section>
+<section id="model-answers-follow-the-sampling-scheme" class="level3">
+<h3 class="anchored" data-anchor-id="model-answers-follow-the-sampling-scheme">Model answers follow the sampling scheme</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Table</td>
+<td>72, 60, 48, 180; OR = (72×180)/(60×48) = 4.5</td>
+</tr>
+<tr class="even">
+<td>Doubled controls</td>
+<td>OR = (72×360)/(120×48) = 4.5</td>
+</tr>
+<tr class="odd">
+<td>False risk</td>
+<td>72/132 = 54.5% is a selected-sample case fraction</td>
+</tr>
+<tr class="even">
+<td>Selection</td>
+<td>Control exposure may not represent the source population</td>
+</tr>
+<tr class="odd">
+<td>Information</td>
+<td>Use comparable interviews and reference dates</td>
+</tr>
+<tr class="even">
+<td>Confounding</td>
+<td>Measure smoking; use justified stratified or adjusted analysis</td>
+</tr>
+<tr class="odd">
+<td>Risk sets</td>
+<td>A control must be at risk when sampled; may later become a case</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="a-defensible-report-names-population-and-or" class="level3">
+<h3 class="anchored" data-anchor-id="a-defensible-report-names-population-and-or">A defensible report names population and OR</h3>
+<p>Complete conclusion. In this hypothetical unmatched study, exposure odds were four times as high among cases as controls (OR 4, approximate 95% CI 2.28–7.02). Interpretation depends on control sampling, comparable ascertainment and confounding control.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Before accepting it</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Selection</td>
+<td>Would controls have been identified as cases if they developed disease?</td>
+</tr>
+<tr class="even">
+<td>Measurement</td>
+<td>Exposure precedes diagnosis; comparable reference periods</td>
+</tr>
+<tr class="odd">
+<td>Analysis</td>
+<td>Sampling, matching, confounding and uncertainty</td>
+</tr>
+<tr class="even">
+<td>Claim</td>
+<td>OR differs from absolute risk and causation</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

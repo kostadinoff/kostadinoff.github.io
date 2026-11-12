@@ -1,0 +1,225 @@
+---
+title: "12. Case–control studies and the odds ratio — 15-minute reading"
+author: "Kostadin Kostadinov"
+date: 2026-11-12
+lang: en
+description: "Case–control studies and the odds ratio. 15-minute reading."
+categories: [English, Dental Public Health, Epidemiology, "Dental Medicine", "2026/2027"]
+---
+
+[Slides PDF](../2026-2027-classes/dental-12-en.pdf) · [BG / EN](dental-public-health-case-control-bg.qmd) · [Tasks](../learning-tasks/dental-public-health-case-control-en.qmd)
+
+A case–control study is defined by how people enter the study. Investigators identify cases meeting a disease definition and select controls from the population that produced those cases according to a specified sampling scheme. They then compare exposure. The design is useful when finding enough cases through ordinary follow-up would be inefficient, or measuring exposure for every member of a large cohort would be expensive. It is not simply any study asking about the past. Cohorts may use historical records; case–control studies may use samples collected before diagnosis.
+
+Start with the source population. Specify who could develop the qualifying disease, where and when cases would be found, and the inclusion rules. In a hypothetical oral-cancer investigation this includes anatomical sites, diagnosis, residency and observation period. Oral-cavity and oropharyngeal cancers should not be silently combined. A changed case definition changes the question. District-wide cases and controls from one specialist clinic do not automatically form a valid comparison. The control frame must correspond to the population and process that generated the cases.
+
+The central control question is whether a selected control would have been identified as a case if that person developed the qualifying disease at the relevant time. Controls are not chosen to be unexposed, and need not be free of every other disease. They must provide the exposure comparison demanded by the sampling scheme. Excluding smokers from controls in a smoking study constructs an association before analysis. Choosing controls from a smoking-related disease clinic may instead overrepresent exposure. Both choices can undermine the intended comparison.
+
+Case selection also needs scrutiny. New diagnoses help avoid selecting only people who survived long enough to be interviewed. If exposure influences disease occurrence and survival, an association among surviving prevalent cases may differ from the association with onset. Complete case finding means more than a large number of available patients. Referral, diagnostic access, participation and eligibility can change who enters. Apply the prespecified definition consistently and describe the case-finding system.
+
+Exposure measurement needs an index date and comparable reference period. Asking cases about lifetime drinking but controls about current drinking mixes measurements. Diagnosis may lead someone to stop smoking or change diet; behaviour afterwards may differ from the relevant earlier exposure. Prediagnostic records or stored samples help establish timing, but availability and completeness may differ between groups. A structured interview limits inconsistency without guaranteeing equal recall. Interviewer masking cannot erase participants' knowledge of diagnosis.
+
+An exposure proportion divides exposed people by everyone in the group. Exposure odds divide exposed by unexposed people. Both can be calculated among cases and among controls, but they answer different numerical questions. A probability of 0.8 corresponds to odds of four, not to probability four. The odds ratio divides the exposure odds among cases by those among controls. With exposure in rows and cases and controls in columns, this simplifies to the cross-product ratio. Label the table before substituting numbers: memorising a formula cannot rescue a wrongly assembled comparison.
+
+The symmetry of the cross-product formula does not supply missing population denominators. Investigators selected cases and controls rather than observing every initially exposed and unexposed person. Consequently, dividing sampled cases by the sampled row total yields a selected-sample case fraction. It cannot ordinarily estimate the probability that an exposed person develops the disease. Doubling both control cells provides a useful demonstration: the cross-product OR stays unchanged while apparent row risks change. The population disease process did not change when the investigator recruited more controls.
+
+The interpretation of OR depends on control sampling. With cumulative sampling from non-cases at the end, the result estimates a disease odds ratio. If outcome risks are small in the relevant population groups, disease odds and risks are close enough that their ratios are also close. A large sampled case fraction does not contradict population rarity because the investigator chose that fraction. Conversely, a small sampled fraction does not prove rarity. The worked examples show how identical risk ratios can accompany appreciably different disease odds ratios when disease is common.
+
+Risk-set sampling requires another interpretation. At each case time, controls are selected among people then at risk. Someone may be a control before becoming a case, and may be sampled more than once under a suitable scheme. With correct sampling and analysis the OR estimates an incidence rate ratio without requiring a rare outcome. This is a property of the sampling design, not an exception granted merely because the disease sounds uncommon. Before translating an OR into a population comparison, identify how controls were selected and how time and matching were handled.
+
+Selection bias, information bias and confounding must be evaluated separately. Selection changes who enters or remains in the comparison. Information bias changes how exposure or disease is recorded. Confounding mixes the exposure association with common causes of exposure and outcome. Increasing sample size does not automatically fix any of these. Matching can improve efficiency and comparability on selected factors but is not randomisation; its structure must be respected in analysis. An unmatched cross-product calculation from collapsed margins is generally not the correct analysis of individually matched pairs.
+
+A confidence interval adds sampling-uncertainty information under statistical assumptions. It is not protection against an inappropriate control source or differential recall. Intervals including one do not demonstrate equivalence, and intervals excluding one do not establish causation. A defensible report identifies source population, eligibility, case ascertainment, control sampling, exposure timing, adjustment, estimate and uncertainty. It then limits its conclusion to what those choices support. The following worked analyses use hypothetical dental scenarios so that calculation can be separated from unsupported clinical claims.
+
+## Worked analysis
+
+### Begin with the population that could become cases
+
+Hypothetical oral-cancer study in Plovdiv. Include eligible new diagnoses among residents of a defined catchment during a defined period. Specify anatomical sites, diagnostic criteria and residency before recruitment.
+
+The key control question. If this control developed the qualifying disease during the study period, would that person be identified as a case under the same eligibility and ascertainment rules?
+
+The case and control sampling frames must correspond; the source need not be an entire country.
+
+### Cases need consistent definition and a defined period
+
+| Decision | Why it matters |
+| --- | --- |
+| New diagnoses | Avoid selecting only long-term survivors |
+| Same disease | Do not silently combine oral-cavity and oropharyngeal cancers |
+| Catchment and time | Define who can enter |
+| Ascertainment | Referral and diagnostic access may affect inclusion |
+
+Survivor selection. If exposure affects survival, sampling surviving prevalent cases may distort its association with disease occurrence. A large sample of survivors does not solve this.
+
+### Controls need not be perfectly healthy
+
+Possible sources. Population registers; underlying cohort; patients from the same system if their reason for attendance does not distort exposure sampling.
+
+Convenience can bias exposure. Controls treated for tobacco-related conditions may have unusually high smoking exposure. Dental-clinic attenders can differ from non-attenders in income and behaviour.
+
+Select controls for their relationship to the source population. Exposed people may be controls; excluding them builds the association into the design.
+
+### Build an unmatched case–control table
+
+Invented study. 100 cases and 200 independently sampled controls. Smoking is assessed over a predefined interval before a comparable index date. These are not real cancer estimates.
+
+| Smoking | Cases | Controls |
+| --- | --- | --- |
+| Yes | 80 = a | 100 = b |
+| No | 20 = c | 100 = d |
+| Total | 100 | 200 |
+
+The investigator selected numbers of cases and controls. The sample case fraction is not population disease frequency.
+
+### Probability and odds have different denominators
+
+| Among | Exposure proportion | Exposure odds |
+| --- | --- | --- |
+| Cases | 80/100 = 0.80 | 80/20 = 4 |
+| Controls | 100/200 = 0.50 | 100/100 = 1 |
+
+Odds = p/(1 − p). At p = 0.80: 0.80/0.20 = 4. Odds of 4 mean four exposed people per unexposed person, not probability 400%.
+
+The proportion ratio 0.80/0.50 = 1.6 is not the odds ratio.
+
+### The cross-product ratio compares exposure odds
+
+OR = (a/c)/(b/d) = ad/bc. (80 × 100)/(100 × 20) = 4.
+
+Direct interpretation. Exposure odds were four times as high among sampled cases as among sampled controls. The population association estimated depends on how the groups were sampled.
+
+OR = 1 is the null. Reversing one comparison gives 0.25; reversing both axes preserves the cross-product ratio.
+
+### Sample row totals do not give population risks
+
+Tempting but invalid. 80/(80+100) = 44.4% is the case fraction among sampled exposed people. It is not their population risk of cancer. Similarly 20/(20+100) = 16.7% is not the unexposed population risk.
+
+Why. The sample deliberately has 100 cases and 200 controls. Changing the control count changes these fractions without changing the disease process.
+
+This ordinary sample table does not directly provide absolute risk, RD, NNT or population incidence.
+
+### Doubling controls preserves this OR
+
+| Exposure | Cases | Original controls | Doubled controls |
+| --- | --- | --- | --- |
+| Yes | 80 | 100 | 200 |
+| No | 20 | 100 | 200 |
+
+Same control exposure distribution. OR = (80×200)/(200×20) = 4. The apparent exposed risk becomes 80/280 = 28.6%, instead of 44.4%. Neither is population risk.
+
+Precision. A new random control sample may change OR by chance. More independent controls can improve precision, but cannot repair biased selection.
+
+### Rarity brings disease OR closer to RR
+
+Population risks for illustration, not calculated from a case–control sample.
+
+| Exposed risk | Reference risk | RR | Disease OR |
+| --- | --- | --- | --- |
+| 2% | 1% | 2 | 2.02 |
+| 40% | 20% | 2 | 2.67 |
+
+Calculate with odds. OR = [Rₑ/(1 − Rₑ)]/[R₀/(1 − R₀)]. At 40% versus 20%: (0.4/0.6)/(0.2/0.8) = 2.67.
+
+With controls sampled among non-cases at the end, disease OR approximates RR when outcome risks are small. The sample case fraction does not define rarity.
+
+### Risk-set sampling has a different interpretation
+
+Incidence-density sampling. At each case occurrence, sample controls from people still at risk then. A control may later become a case and may be sampled again under an appropriate scheme.
+
+With valid risk-set sampling and appropriate analysis, OR estimates an incidence rate ratio without a rare-outcome assumption.
+
+Identify the scheme. This does not turn every case–control OR into a risk ratio. Check time-specific sampling, matching and the analysis.
+
+### Nested studies may use prediagnostic measurements
+
+| Step | Within a defined cohort |
+| --- | --- |
+| Baseline | Collect smoking history and store samples |
+| Follow-up | Identify incident cases |
+| Sampling | Select eligible controls using a stated scheme |
+| Analysis | Compare earlier exposure accounting for the scheme |
+
+Practical benefit. Testing expensive biomarkers only for selected cases and controls saves resources. Prediagnostic measurement helps temporality but does not automatically remove confounding or measurement error.
+
+### Selection can change OR without changing biology
+
+Keep 80 exposed and 20 unexposed cases fixed; change only selected controls.
+
+| Controls | Original selection | Distorted selection |
+| --- | --- | --- |
+| Exposed | 100 | 150 |
+| Unexposed | 100 | 50 |
+| OR | 4 | 80×50/(150×20) = 1.33 |
+
+Selection bias. When exposure affects control inclusion, its distribution may not represent the required population. Here excess exposed controls attenuate OR; other mechanisms can distort it in other directions.
+
+### Recall bias is differential exposure measurement
+
+Invented example. True exposure: 40/100 cases and 40/100 controls → OR = 1. Reported exposure: 60/100 cases and 40/100 controls → OR = (60×60)/(40×40) = 2.25.
+
+| Response | Limit |
+| --- | --- |
+| Prediagnostic records | Completeness may differ |
+| Same structured interview | Cannot guarantee equal recall |
+| Interviewer masking | Does not erase knowledge of diagnosis |
+| Comparable reference dates | Avoid lifetime versus current exposure |
+
+Information bias also includes recording and diagnostic suspicion. Its direction is not universally towards the null.
+
+### Matching must be reflected in analysis
+
+Purpose. Matching can improve comparability of selected factors and efficiency. It does not automatically eliminate confounding and is not randomisation.
+
+| Feature | Analysis consequence |
+| --- | --- |
+| Individual pairs | Preserve pairing and use a matched method |
+| Frequency matching | Account for matching factors |
+| Overmatching | Inappropriate factors may lose information or introduce bias |
+
+Unmatched shortcut. The cross-product OR from collapsed margins is not generally the matched-pair estimate. Discordant pairs matter.
+
+### Confounding differs from selection and recall
+
+| Problem | Hypothetical example | Response |
+| --- | --- | --- |
+| Selection | Controls attend a smoking-related clinic disproportionately | Defensible control frame; assess non-response |
+| Information | Cases report smoking more fully | Comparable measurement and dates |
+| Confounding | Age influences both smoking and cancer occurrence | Measure common causes; justified stratification or adjustment |
+
+Correcting one problem does not correct the others. A large OR alone cannot distinguish them from causation.
+
+### An interval adds precision information, not bias protection
+
+Original 80/20 and 100/100 table. OR = 4; approximate 95% CI 2.28–7.02, using a large-sample log-OR method for independent unmatched observations.
+
+Read estimate and design together. Report source population, control sampling, exposure period and adjustment. The interval describes sampling uncertainty under analysis assumptions.
+
+Limits. A narrow interval around bias remains biased. Including 1 does not establish equivalence. Matched, clustered and sparse data may require other methods.
+
+### Model answers follow the sampling scheme
+
+| Task | Answer |
+| --- | --- |
+| Table | 72, 60, 48, 180; OR = (72×180)/(60×48) = 4.5 |
+| Doubled controls | OR = (72×360)/(120×48) = 4.5 |
+| False risk | 72/132 = 54.5% is a selected-sample case fraction |
+| Selection | Control exposure may not represent the source population |
+| Information | Use comparable interviews and reference dates |
+| Confounding | Measure smoking; use justified stratified or adjusted analysis |
+| Risk sets | A control must be at risk when sampled; may later become a case |
+
+### A defensible report names population and OR
+
+Complete conclusion. In this hypothetical unmatched study, exposure odds were four times as high among cases as controls (OR 4, approximate 95% CI 2.28–7.02). Interpretation depends on control sampling, comparable ascertainment and confounding control.
+
+| Before accepting it | Check |
+| --- | --- |
+| Selection | Would controls have been identified as cases if they developed disease? |
+| Measurement | Exposure precedes diagnosis; comparable reference periods |
+| Analysis | Sampling, matching, confounding and uncertainty |
+| Claim | OR differs from absolute risk and causation |
+
+## Sources
+
+[CDC Field Epidemiology Manual, chapter 8](https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html). [Cochrane Handbook, chapter 15](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15). Vandenbroucke & Pearce (2012), DOI [10.1093/ije/dys147](https://doi.org/10.1093/ije/dys147). Greenland et al. (2016), DOI [10.1007/s10654-016-0149-3](https://doi.org/10.1007/s10654-016-0149-3).

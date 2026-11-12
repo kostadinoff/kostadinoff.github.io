@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="bg" xml:lang="bg"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kostadin Kostadinov">
+<meta name="description" content="Проучвания случай–контрола и отношение на шансовете. 15-минутна подготовка.">
+
+<title>12. Проучвания случай–контрола и отношение на шансовете — 15-минутна подготовка – Kostadin Kostadinov</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f1e5f53186eea7ee45b469109d0a2c63.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-92041a60be8de63582185fc8518fb8af.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d956c78f4006edb9374543ca41f5bc89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-b12f061066cee46f4b20c20da4cb2d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Няма резултати",
+    "search-matching-documents-text": "съвпадащи документи",
+    "search-copy-link-title": "Копирай връзката към търсенето",
+    "search-hide-matches-text": "Скрий допълнителните съвпадения",
+    "search-more-match-text": "още едно съвпадение в този документ",
+    "search-more-matches-text": "още съвпадения в този документ",
+    "search-clear-button-title": "Изчисти",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Отказ",
+    "search-submit-button-title": "Търси",
+    "search-label": "Търсене"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../assets/teaching.css">
+<meta name="twitter:title" content="12. Проучвания случай–контрола и отношение на шансовете — 15-минутна подготовка – Kostadin Kostadinov">
+<meta name="twitter:description" content="Проучвания случай–контрола и отношение на шансовете. 15-минутна подготовка.">
+<meta name="twitter:creator" content="@https://x.com/kostadinoffMD">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      refreshSafariScrollbar();
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Уебсайт">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kostadin Kostadinov</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Превключи навигацията" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../slides.html">
+ <span class="dropdown-text">Teaching materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../learning.html">
+ <span class="dropdown-text">15-minute learning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tasks.html">
+ <span class="dropdown-text">Learning tasks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../study-guide.html">
+ <span class="dropdown-text">Study guides</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../epinews.html"> 
+<span class="menu-text">Epi News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../kkstatfun.html"> 
+<span class="menu-text">kkstatfun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kostadinoff"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kostadinoffMD"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kostadinovmd/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../epinews.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Превключи на тъмен режим" aria-label="Превключи на тъмен режим"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Търсене"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">12. Проучвания случай–контрола и отношение на шансовете — 15-минутна подготовка</h1>
+                  <div>
+        <div class="description">
+          Проучвания случай–контрола и отношение на шансовете. 15-минутна подготовка.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Bulgarian</div>
+                <div class="quarto-category">Dental Public Health</div>
+                <div class="quarto-category">Epidemiology</div>
+                <div class="quarto-category">Dental Medicine</div>
+                <div class="quarto-category">2026/2027</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Автор</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kostadin Kostadinov </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Публикувано</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">12 ноември 2026 г.</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">На тази страница</h2>
+   
+  <ul>
+  <li><a href="#решен-анализ" id="toc-решен-анализ" class="nav-link active" data-scroll-target="#решен-анализ">Решен анализ</a>
+  <ul class="collapse">
+  <li><a href="#започнете-от-популацията-която-може-да-породи-случаи" id="toc-започнете-от-популацията-която-може-да-породи-случаи" class="nav-link" data-scroll-target="#започнете-от-популацията-която-може-да-породи-случаи">Започнете от популацията, която може да породи случаи</a></li>
+  <li><a href="#случаите-изискват-еднакво-определение-и-определен-период" id="toc-случаите-изискват-еднакво-определение-и-определен-период" class="nav-link" data-scroll-target="#случаите-изискват-еднакво-определение-и-определен-период">Случаите изискват еднакво определение и определен период</a></li>
+  <li><a href="#не-е-необходимо-контролите-да-са-напълно-здрави" id="toc-не-е-необходимо-контролите-да-са-напълно-здрави" class="nav-link" data-scroll-target="#не-е-необходимо-контролите-да-са-напълно-здрави">Не е необходимо контролите да са напълно здрави</a></li>
+  <li><a href="#построяване-на-несдвоена-таблица-случайконтрола" id="toc-построяване-на-несдвоена-таблица-случайконтрола" class="nav-link" data-scroll-target="#построяване-на-несдвоена-таблица-случайконтрола">Построяване на несдвоена таблица случай–контрола</a></li>
+  <li><a href="#вероятността-и-шансът-имат-различни-знаменатели" id="toc-вероятността-и-шансът-имат-различни-знаменатели" class="nav-link" data-scroll-target="#вероятността-и-шансът-имат-различни-знаменатели">Вероятността и шансът имат различни знаменатели</a></li>
+  <li><a href="#кръстното-произведение-сравнява-шансовете-за-експозиция" id="toc-кръстното-произведение-сравнява-шансовете-за-експозиция" class="nav-link" data-scroll-target="#кръстното-произведение-сравнява-шансовете-за-експозиция">Кръстното произведение сравнява шансовете за експозиция</a></li>
+  <li><a href="#извадковите-сборове-по-редове-не-дават-популационни-рискове" id="toc-извадковите-сборове-по-редове-не-дават-популационни-рискове" class="nav-link" data-scroll-target="#извадковите-сборове-по-редове-не-дават-популационни-рискове">Извадковите сборове по редове не дават популационни рискове</a></li>
+  <li><a href="#удвояването-на-контролите-запазва-този-or" id="toc-удвояването-на-контролите-запазва-този-or" class="nav-link" data-scroll-target="#удвояването-на-контролите-запазва-този-or">Удвояването на контролите запазва този OR</a></li>
+  <li><a href="#редкият-изход-сближава-or-за-болестта-с-rr" id="toc-редкият-изход-сближава-or-за-болестта-с-rr" class="nav-link" data-scroll-target="#редкият-изход-сближава-or-за-болестта-с-rr">Редкият изход сближава OR за болестта с RR</a></li>
+  <li><a href="#подборът-от-рискови-множества-има-друга-интерпретация" id="toc-подборът-от-рискови-множества-има-друга-интерпретация" class="nav-link" data-scroll-target="#подборът-от-рискови-множества-има-друга-интерпретация">Подборът от рискови множества има друга интерпретация</a></li>
+  <li><a href="#вложените-проучвания-могат-да-използват-преддиагностични-измервания" id="toc-вложените-проучвания-могат-да-използват-преддиагностични-измервания" class="nav-link" data-scroll-target="#вложените-проучвания-могат-да-използват-преддиагностични-измервания">Вложените проучвания могат да използват преддиагностични измервания</a></li>
+  <li><a href="#подборът-може-да-промени-or-без-промяна-в-биологията" id="toc-подборът-може-да-промени-or-без-промяна-в-биологията" class="nav-link" data-scroll-target="#подборът-може-да-промени-or-без-промяна-в-биологията">Подборът може да промени OR без промяна в биологията</a></li>
+  <li><a href="#грешката-на-припомняне-е-различно-измерване-на-експозицията" id="toc-грешката-на-припомняне-е-различно-измерване-на-експозицията" class="nav-link" data-scroll-target="#грешката-на-припомняне-е-различно-измерване-на-експозицията">Грешката на припомняне е различно измерване на експозицията</a></li>
+  <li><a href="#съпоставянето-трябва-да-се-отчете-в-анализа" id="toc-съпоставянето-трябва-да-се-отчете-в-анализа" class="nav-link" data-scroll-target="#съпоставянето-трябва-да-се-отчете-в-анализа">Съпоставянето трябва да се отчете в анализа</a></li>
+  <li><a href="#замъгляването-е-различно-от-подбора-и-припомнянето" id="toc-замъгляването-е-различно-от-подбора-и-припомнянето" class="nav-link" data-scroll-target="#замъгляването-е-различно-от-подбора-и-припомнянето">Замъгляването е различно от подбора и припомнянето</a></li>
+  <li><a href="#интервалът-добавя-информация-за-точността-не-защита-от-изкривяване" id="toc-интервалът-добавя-информация-за-точността-не-защита-от-изкривяване" class="nav-link" data-scroll-target="#интервалът-добавя-информация-за-точността-не-защита-от-изкривяване">Интервалът добавя информация за точността, не защита от изкривяване</a></li>
+  <li><a href="#примерните-отговори-следват-схемата-на-подбор" id="toc-примерните-отговори-следват-схемата-на-подбор" class="nav-link" data-scroll-target="#примерните-отговори-следват-схемата-на-подбор">Примерните отговори следват схемата на подбор</a></li>
+  <li><a href="#обоснованият-отчет-посочва-популацията-и-or" id="toc-обоснованият-отчет-посочва-популацията-и-or" class="nav-link" data-scroll-target="#обоснованият-отчет-посочва-популацията-и-or">Обоснованият отчет посочва популацията и OR</a></li>
+  </ul></li>
+  <li><a href="#източници" id="toc-източници" class="nav-link" data-scroll-target="#източници">Източници</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-12-bg.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-case-control-en.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-case-control-bg.html">Tasks</a></p>
+<p>Проучването случай–контрола се определя от начина, по който хората влизат в него. Изследователите установяват случаи по определение на заболяването и подбират контроли от популацията, породила случаите, съобразно определена схема. След това сравняват експозицията. Дизайнът е полезен, когато набирането на достатъчно случаи чрез обичайно проследяване би било неефективно или измерването на експозицията при всеки член на голяма кохорта е скъпо. Това не е просто всяко проучване с въпроси за миналото. Кохортите също могат да използват исторически документи, а случай–контрола може да използва проби, събрани преди диагнозата.</p>
+<p>Започнете с изходната популация. Определете кой може да развие съответното заболяване, къде и кога ще се установяват случаите и правилата за включване. При условно проучване на орален карцином това обхваща анатомичните места, диагнозата, местоживеенето и периода. Карциномите на устната кухина и орофаринкса не се обединяват мълчаливо. Промененото определение на случай променя въпроса. Случаи от цял район и контроли от една специализирана клиника не образуват автоматично валидно сравнение. Контролната рамка трябва да съответства на популацията и процеса, породили случаите.</p>
+<p>Основният въпрос е дали подбрана контрола би била установена като случай, ако развие съответното заболяване в релевантния момент. Контролите не се избират, за да бъдат неекспонирани, и не е нужно да са без всяка друга болест. Те трябва да осигурят сравнението на експозицията, изисквано от схемата. Изключването на пушачи от контролите при изследване на пушенето създава асоциация преди анализа. Подборът от клиника за тютюн-свързани болести може обратно да представи прекомерно експозицията. И двете решения могат да подкопаят сравнението.</p>
+<p>Подборът на случаи също изисква внимание. Новите диагнози ограничават избора само на хора, преживели достатъчно дълго за интервю. Ако експозицията влияе на възникването и преживяемостта, асоциацията сред преживели налични случаи може да се различава от тази с началото на болестта. Пълното установяване на случаи означава повече от голям брой достъпни пациенти. Насочването, диагностичният достъп, участието и правилата за включване променят кой влиза. Прилагайте предварителното определение еднакво и описвайте системата за откриване.</p>
+<p>Измерването на експозицията изисква индексна дата и съпоставим референтен период. Въпроси за пожизнен алкохол при случаите и за текущ алкохол при контролите смесват измервания. Диагнозата може да доведе до отказване от пушене или промяна в храненето; поведението след нея може да не представя значимата предходна експозиция. Преддиагностични документи или проби подпомагат времевата последователност, но наличността и пълнотата може да се различават. Структурираното интервю ограничава несъответствията без гаранция за равно припомняне. Заслепяването на интервюиращия не премахва знанието на участника за диагнозата.</p>
+<p>Делът на експонираните дели експонираните на всички хора в групата. Шансът за експозиция дели експонираните на неекспонираните. И двете величини се изчисляват при случаи и при контроли, но отговарят на различни числови въпроси. Вероятност 0,8 съответства на шанс четири, а не на вероятност четири. Отношението на шансовете дели шанса за експозиция при случаите на този при контролите. При експозиция по редове и случаи и контроли по колони то се свежда до кръстното произведение. Означете таблицата преди заместването: запомнената формула не поправя неправилно формирано сравнение.</p>
+<p>Симетрията на кръстната формула не осигурява липсващите популационни знаменатели. Изследователите са подбрали случаи и контроли, вместо да наблюдават всички първоначално експонирани и неекспонирани. Делението на подбраните случаи на извадковия сбор по ред дава дял на случаи в подбрана извадка. Обикновено той не оценява вероятността експониран човек да развие болестта. Удвояването на двете контролни клетки демонстрира това: OR остава същият, а привидните рискове по редове се променят. Болестният процес в популацията не се е променил от набирането на още контроли.</p>
+<p>Тълкуването на OR зависи от подбора на контроли. При кумулативен подбор сред незаболелите в края резултатът оценява отношение на шансовете за заболяване. Ако рисковете за изхода са малки в съответните популационни групи, шансовете и рисковете са близки и отношенията им също се сближават. Голям дял случаи в извадката не противоречи на популационната рядкост, защото този дял е избран от изследователя. Малък извадков дял също не доказва рядкост. Решените примери показват как еднакви RR могат да съпътстват осезаемо различни OR, когато заболяването е често.</p>
+<p>Подборът от рискови множества изисква друго тълкуване. При възникване на всеки случай контролите се избират от хората, които тогава са в риск. Човек може да е контрола преди да стане случай и при подходяща схема да бъде подбран повече от веднъж. При правилен подбор и анализ OR оценява отношение на коефициентите на заболеваемост без изискване за рядък изход. Това е свойство на дизайна, а не изключение само защото болестта изглежда необичайна. Преди да преведете OR в популационно сравнение, установете как са подбрани контролите и как са отчетени времето и съпоставянето.</p>
+<p>Грешката при подбора, информационната грешка и замъгляването се оценяват отделно. Подборът променя кой влиза или остава в сравнението. Информационната грешка променя записването на експозицията или заболяването. Замъгляването смесва асоциацията с общи причини за експозицията и изхода. Увеличаването на извадката не поправя автоматично тези проблеми. Съпоставянето може да подобри ефективността и сравнимостта по избрани фактори, но не е рандомизация; структурата му се запазва в анализа. Несдвоеното кръстно произведение от обединени сборове обикновено не е правилният анализ на индивидуално съпоставени двойки.</p>
+<p>Доверителният интервал добавя информация за извадковата неопределеност при статистическите допускания. Той не защитава от неподходящ източник на контроли или различно припомняне. Интервал, включващ едно, не доказва еквивалентност; интервал извън едно не установява причинност. Обоснованият отчет посочва изходна популация, подходящи участници, установяване на случаи, подбор на контроли, време на експозицията, корекция, оценка и неопределеност. Изводът остава в границите, които тези решения подкрепят. Следващите анализи използват условни дентални сценарии, за да отделят изчислението от неподкрепени клинични твърдения.</p>
+<section id="решен-анализ" class="level2">
+<h2 class="anchored" data-anchor-id="решен-анализ">Решен анализ</h2>
+<section id="започнете-от-популацията-която-може-да-породи-случаи" class="level3">
+<h3 class="anchored" data-anchor-id="започнете-от-популацията-която-може-да-породи-случаи">Започнете от популацията, която може да породи случаи</h3>
+<p>Условно проучване на орален карцином в Пловдив. Включват се подходящите нови диагнози сред жители на определен район за определен период. Предварително се задават анатомичните места, диагностичните критерии и местоживеенето.</p>
+<p>Основен въпрос за контролата. Ако това лице развие съответната болест през периода, би ли било установено като случай при същите правила за включване и откриване?</p>
+<p>Рамките за подбор на случаи и контроли трябва да съответстват; източникът не е задължително цяла държава.</p>
+</section>
+<section id="случаите-изискват-еднакво-определение-и-определен-период" class="level3">
+<h3 class="anchored" data-anchor-id="случаите-изискват-еднакво-определение-и-определен-период">Случаите изискват еднакво определение и определен период</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Решение</th>
+<th>Защо е важно</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Нови диагнози</td>
+<td>Не подбираме само дълго преживели лица</td>
+</tr>
+<tr class="even">
+<td>Едно заболяване</td>
+<td>Не обединяваме мълчаливо карцином на устната кухина и орофаринкса</td>
+</tr>
+<tr class="odd">
+<td>Район и период</td>
+<td>Определят кой може да участва</td>
+</tr>
+<tr class="even">
+<td>Установяване</td>
+<td>Насочването и диагностичният достъп влияят на включването</td>
+</tr>
+</tbody>
+</table>
+<p>Подбор на преживели. Ако експозицията влияе на преживяемостта, подборът на налични преживели случаи може да изкриви асоциацията с възникването. Голямата извадка от преживели не решава това.</p>
+</section>
+<section id="не-е-необходимо-контролите-да-са-напълно-здрави" class="level3">
+<h3 class="anchored" data-anchor-id="не-е-необходимо-контролите-да-са-напълно-здрави">Не е необходимо контролите да са напълно здрави</h3>
+<p>Възможни източници. Регистри на населението; изходната кохорта; пациенти от същата система, ако причината за посещението не изкривява подбора по експозиция.</p>
+<p>Удобният подбор може да изкриви експозицията. Контроли с тютюн-свързани заболявания може да пушат необичайно често. Посещаващите дентална клиника може да се различават по доходи и поведение.</p>
+<p>Контролите се подбират спрямо изходната популация. Експонирани лица могат да са контроли; изключването им вгражда асоциацията в дизайна.</p>
+</section>
+<section id="построяване-на-несдвоена-таблица-случайконтрола" class="level3">
+<h3 class="anchored" data-anchor-id="построяване-на-несдвоена-таблица-случайконтрола">Построяване на несдвоена таблица случай–контрола</h3>
+<p>Измислено проучване. 100 случая и 200 независимо подбрани контроли. Пушенето се оценява през предварително определен интервал преди съпоставима индексна дата. Това не са реални оценки за карцином.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Пушене</th>
+<th>Случаи</th>
+<th>Контроли</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Да</td>
+<td>80 = a</td>
+<td>100 = b</td>
+</tr>
+<tr class="even">
+<td>Не</td>
+<td>20 = c</td>
+<td>100 = d</td>
+</tr>
+<tr class="odd">
+<td>Общо</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Изследователят е избрал броя случаи и контроли. Делът на случаите в извадката не е честотата на болестта в популацията.</p>
+</section>
+<section id="вероятността-и-шансът-имат-различни-знаменатели" class="level3">
+<h3 class="anchored" data-anchor-id="вероятността-и-шансът-имат-различни-знаменатели">Вероятността и шансът имат различни знаменатели</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Сред</th>
+<th>Дял на експонираните</th>
+<th>Шанс за експозиция</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Случаите</td>
+<td>80/100 = 0,80</td>
+<td>80/20 = 4</td>
+</tr>
+<tr class="even">
+<td>Контролите</td>
+<td>100/200 = 0,50</td>
+<td>100/100 = 1</td>
+</tr>
+</tbody>
+</table>
+<p>Шанс = p/(1 − p). При p = 0,80: 0,80/0,20 = 4. Шанс 4 означава четирима експонирани за един неекспониран, а не вероятност 400%.</p>
+<p>Отношението на дяловете 0,80/0,50 = 1,6 не е отношение на шансовете.</p>
+</section>
+<section id="кръстното-произведение-сравнява-шансовете-за-експозиция" class="level3">
+<h3 class="anchored" data-anchor-id="кръстното-произведение-сравнява-шансовете-за-експозиция">Кръстното произведение сравнява шансовете за експозиция</h3>
+<p>OR = (a/c)/(b/d) = ad/bc. (80 × 100)/(100 × 20) = 4.</p>
+<p>Пряко тълкуване. Шансът за експозиция е четири пъти по-висок сред подбраните случаи спрямо подбраните контроли. Оценяваната популационна асоциация зависи от подбора на групите.</p>
+<p>OR = 1 е нулевата стойност. Обръщането на едно сравнение дава 0,25; обръщането на двете оси запазва кръстното отношение.</p>
+</section>
+<section id="извадковите-сборове-по-редове-не-дават-популационни-рискове" class="level3">
+<h3 class="anchored" data-anchor-id="извадковите-сборове-по-редове-не-дават-популационни-рискове">Извадковите сборове по редове не дават популационни рискове</h3>
+<p>Привлекателно, но невалидно. 80/(80+100) = 44,4% е делът на случаите сред подбраните експонирани. Това не е популационният им риск от карцином. Също 20/(20+100) = 16,7% не е рискът сред неекспонираните в популацията.</p>
+<p>Защо. Извадката нарочно има 100 случая и 200 контроли. Промяната на броя контроли променя дяловете без промяна в болестния процес.</p>
+<p>Тази обичайна извадкова таблица не дава пряко абсолютен риск, RD, NNT или популационна заболеваемост.</p>
+</section>
+<section id="удвояването-на-контролите-запазва-този-or" class="level3">
+<h3 class="anchored" data-anchor-id="удвояването-на-контролите-запазва-този-or">Удвояването на контролите запазва този OR</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Експозиция</th>
+<th>Случаи</th>
+<th>Първи контроли</th>
+<th>Удвоени контроли</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Да</td>
+<td>80</td>
+<td>100</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>Не</td>
+<td>20</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Същото разпределение при контролите. OR = (80×200)/(200×20) = 4. Привидният риск става 80/280 = 28,6% вместо 44,4%. Нито един не е популационен риск.</p>
+<p>Точност. Нова случайна извадка от контроли може да промени OR поради случайност. Повече независими контроли могат да подобрят точността, но не поправят изкривения подбор.</p>
+</section>
+<section id="редкият-изход-сближава-or-за-болестта-с-rr" class="level3">
+<h3 class="anchored" data-anchor-id="редкият-изход-сближава-or-за-болестта-с-rr">Редкият изход сближава OR за болестта с RR</h3>
+<p>Популационни рискове за илюстрация, а не изчислени от извадка случай–контрола.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Риск при експозиция</th>
+<th>Референтен риск</th>
+<th>RR</th>
+<th>OR за болестта</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2%</td>
+<td>1%</td>
+<td>2</td>
+<td>2,02</td>
+</tr>
+<tr class="even">
+<td>40%</td>
+<td>20%</td>
+<td>2</td>
+<td>2,67</td>
+</tr>
+</tbody>
+</table>
+<p>Изчислете чрез шансове. OR = [Rₑ/(1 − Rₑ)]/[R₀/(1 − R₀)]. При 40% спрямо 20%: (0,4/0,6)/(0,2/0,8) = 2,67.</p>
+<p>При контроли сред незаболелите в края OR доближава RR при малки рискове за изхода. Делът случаи в извадката не определя рядкостта.</p>
+</section>
+<section id="подборът-от-рискови-множества-има-друга-интерпретация" class="level3">
+<h3 class="anchored" data-anchor-id="подборът-от-рискови-множества-има-друга-интерпретация">Подборът от рискови множества има друга интерпретация</h3>
+<p>Подбор по плътност на заболеваемостта. При всеки нов случай контролите се подбират от хората, които тогава още са в риск. Контрола може по-късно да стане случай и при подходяща схема да бъде подбрана отново.</p>
+<p>При валиден подбор от рискови множества и подходящ анализ OR оценява отношение на коефициентите на заболеваемост без допускане за рядък изход.</p>
+<p>Установете схемата. Това не превръща всеки OR от случай–контрола в RR. Проверете времевия подбор, съпоставянето и анализа.</p>
+</section>
+<section id="вложените-проучвания-могат-да-използват-преддиагностични-измервания" class="level3">
+<h3 class="anchored" data-anchor-id="вложените-проучвания-могат-да-използват-преддиагностични-измервания">Вложените проучвания могат да използват преддиагностични измервания</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Стъпка</th>
+<th>В определена кохорта</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Начало</td>
+<td>Данни за пушене и съхраняване на проби</td>
+</tr>
+<tr class="even">
+<td>Проследяване</td>
+<td>Установяване на нови случаи</td>
+</tr>
+<tr class="odd">
+<td>Подбор</td>
+<td>Подходящи контроли по посочена схема</td>
+</tr>
+<tr class="even">
+<td>Анализ</td>
+<td>Сравнение на по-ранната експозиция с отчитане на схемата</td>
+</tr>
+</tbody>
+</table>
+<p>Практическа полза. Скъпите биомаркери се изследват само при избрани случаи и контроли. Преддиагностичното измерване подпомага времевата последователност, но не премахва автоматично замъгляването или измервателната грешка.</p>
+</section>
+<section id="подборът-може-да-промени-or-без-промяна-в-биологията" class="level3">
+<h3 class="anchored" data-anchor-id="подборът-може-да-промени-or-без-промяна-в-биологията">Подборът може да промени OR без промяна в биологията</h3>
+<p>Запазете 80 експонирани и 20 неекспонирани случая; променете само подбраните контроли.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Контроли</th>
+<th>Начален подбор</th>
+<th>Изкривен подбор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Експонирани</td>
+<td>100</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>Неекспонирани</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>OR</td>
+<td>4</td>
+<td>80×50/(150×20) = 1,33</td>
+</tr>
+</tbody>
+</table>
+<p>Грешка при подбора. Ако експозицията влияе на включването, разпределението ѝ може да не представя нужната популация. Тук излишъкът от експонирани контроли намалява OR; други механизми могат да го изкривят в други посоки.</p>
+</section>
+<section id="грешката-на-припомняне-е-различно-измерване-на-експозицията" class="level3">
+<h3 class="anchored" data-anchor-id="грешката-на-припомняне-е-различно-измерване-на-експозицията">Грешката на припомняне е различно измерване на експозицията</h3>
+<p>Измислен пример. Истинска експозиция: 40/100 случая и 40/100 контроли → OR = 1. Съобщена: 60/100 случая и 40/100 контроли → OR = (60×60)/(40×40) = 2,25.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Действие</th>
+<th>Ограничение</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Преддиагностични документи</td>
+<td>Пълнотата може да се различава</td>
+</tr>
+<tr class="even">
+<td>Еднакво интервю</td>
+<td>Не гарантира еднакво припомняне</td>
+</tr>
+<tr class="odd">
+<td>Заслепен интервюиращ</td>
+<td>Не премахва знанието за диагнозата</td>
+</tr>
+<tr class="even">
+<td>Съпоставими дати</td>
+<td>Не сравнявайте пожизнена с текуща експозиция</td>
+</tr>
+</tbody>
+</table>
+<p>Информационната грешка включва и документирането и диагностичното подозрение. Посоката ѝ не е винаги към нулата.</p>
+</section>
+<section id="съпоставянето-трябва-да-се-отчете-в-анализа" class="level3">
+<h3 class="anchored" data-anchor-id="съпоставянето-трябва-да-се-отчете-в-анализа">Съпоставянето трябва да се отчете в анализа</h3>
+<p>Цел. Съпоставянето може да подобри сравнимостта по избрани фактори и ефективността. Не премахва автоматично замъгляването и не е рандомизация.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Особеност</th>
+<th>Следствие за анализа</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Индивидуални двойки</td>
+<td>Запазете двойките и използвайте сдвоен метод</td>
+</tr>
+<tr class="even">
+<td>Честотно съпоставяне</td>
+<td>Отчетете факторите на съпоставяне</td>
+</tr>
+<tr class="odd">
+<td>Прекомерно съпоставяне</td>
+<td>Неподходящи фактори губят информация или въвеждат изкривяване</td>
+</tr>
+</tbody>
+</table>
+<p>Несдвоена формула. Кръстното отношение от обединени сборове обикновено не е оценката за съпоставени двойки. Дискордантните двойки имат значение.</p>
+</section>
+<section id="замъгляването-е-различно-от-подбора-и-припомнянето" class="level3">
+<h3 class="anchored" data-anchor-id="замъгляването-е-различно-от-подбора-и-припомнянето">Замъгляването е различно от подбора и припомнянето</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Проблем</th>
+<th>Условен пример</th>
+<th>Действие</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Подбор</td>
+<td>Контролите непропорционално посещават тютюн-свързана клиника</td>
+<td>Обоснована рамка; оценка на неучастието</td>
+</tr>
+<tr class="even">
+<td>Информация</td>
+<td>Случаите съобщават пушенето по-пълно</td>
+<td>Съпоставими измерване и дати</td>
+</tr>
+<tr class="odd">
+<td>Замъгляване</td>
+<td>Възрастта влияе и на пушенето, и на карцинома</td>
+<td>Измерване на общи причини; обоснована стратификация или корекция</td>
+</tr>
+</tbody>
+</table>
+<p>Поправката на един проблем не поправя останалите. Голям OR сам не ги разграничава от причинност.</p>
+</section>
+<section id="интервалът-добавя-информация-за-точността-не-защита-от-изкривяване" class="level3">
+<h3 class="anchored" data-anchor-id="интервалът-добавя-информация-за-точността-не-защита-от-изкривяване">Интервалът добавя информация за точността, не защита от изкривяване</h3>
+<p>Началната таблица 80/20 и 100/100. OR = 4; приблизителен 95% ДИ 2,28–7,02, чрез асимптотичен log-OR метод при независими несдвоени наблюдения.</p>
+<p>Четете оценката заедно с дизайна. Посочете изходната популация, подбора на контроли, периода на експозицията и корекцията. Интервалът описва извадковата неопределеност при допусканията на анализа.</p>
+<p>Ограничения. Тесният интервал около изкривена оценка остава изкривен. Включването на 1 не доказва еквивалентност. Сдвоени, клъстерни и редки данни може да изискват други методи.</p>
+</section>
+<section id="примерните-отговори-следват-схемата-на-подбор" class="level3">
+<h3 class="anchored" data-anchor-id="примерните-отговори-следват-схемата-на-подбор">Примерните отговори следват схемата на подбор</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Задача</th>
+<th>Отговор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Таблица</td>
+<td>72, 60, 48, 180; OR = (72×180)/(60×48) = 4,5</td>
+</tr>
+<tr class="even">
+<td>Удвоени контроли</td>
+<td>OR = (72×360)/(120×48) = 4,5</td>
+</tr>
+<tr class="odd">
+<td>Неправилен риск</td>
+<td>72/132 = 54,5% е дял в подбрана извадка</td>
+</tr>
+<tr class="even">
+<td>Подбор</td>
+<td>Експозицията при контролите може да не представя изходната популация</td>
+</tr>
+<tr class="odd">
+<td>Информация</td>
+<td>Съпоставими интервюта и референтни дати</td>
+</tr>
+<tr class="even">
+<td>Замъгляване</td>
+<td>Измерване на пушенето; обоснована стратификация или корекция</td>
+</tr>
+<tr class="odd">
+<td>Рискови множества</td>
+<td>Контролата е в риск при подбора; може по-късно да стане случай</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="обоснованият-отчет-посочва-популацията-и-or" class="level3">
+<h3 class="anchored" data-anchor-id="обоснованият-отчет-посочва-популацията-и-or">Обоснованият отчет посочва популацията и OR</h3>
+<p>Пълен извод. В условното несдвоено проучване шансът за експозиция е четири пъти по-висок при случаите (OR 4, приблизителен 95% ДИ 2,28–7,02). Тълкуването зависи от подбора на контроли, съпоставимото установяване и контрола на замъгляването.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Преди приемане</th>
+<th>Проверка</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Подбор</td>
+<td>Биха ли били контролите установени като случаи при заболяване?</td>
+</tr>
+<tr class="even">
+<td>Измерване</td>
+<td>Експозицията предшества диагнозата; съпоставими периоди</td>
+</tr>
+<tr class="odd">
+<td>Анализ</td>
+<td>Подбор, съпоставяне, замъгляване и неопределеност</td>
+</tr>
+<tr class="even">
+<td>Твърдение</td>
+<td>OR се различава от абсолютен риск и причинност</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="източници" class="level2">
+<h2 class="anchored" data-anchor-id="източници">Източници</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Превключи на тъмен режим");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Превключи на тъмен режим");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Копирано!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Копирано!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kostadinoff\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Код с прелистване","output":"Резултат с прелистване"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Email me at <a href="mailto:kostadinr.kostadinov@mu-plovdiv.bg">kostadinr.kostadinov@mu-plovdiv.bg</a> or book a <a href="https://tinyurl.com/whentomeetme" target="_blank">meeting</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

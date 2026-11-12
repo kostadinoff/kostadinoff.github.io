@@ -1,0 +1,222 @@
+---
+title: "11. Cohort studies and risk assessment — 15-minute reading"
+author: "Kostadin Kostadinov"
+date: 2026-11-12
+lang: en
+description: "Cohort studies and risk assessment. 15-minute reading."
+categories: [English, Dental Public Health, Epidemiology, "Dental Medicine", "2026/2027"]
+---
+
+[Slides PDF](../2026-2027-classes/dental-11-en.pdf) · [BG / EN](dental-public-health-cohort-risk-bg.qmd) · [Tasks](../learning-tasks/dental-public-health-cohort-risk-en.qmd)
+
+A cohort study turns a population question into a sequence of observations. At a defined starting point the investigator establishes eligibility, measures exposure and records the condition of each participant. The participants are then observed for a specified outcome. The comparison is between people with different exposures, rather than between people selected because they already have or do not have the outcome. This sequence permits estimation of disease occurrence when the necessary denominators and follow-up information are available. It does not, by itself, make an observational comparison causal. Exposed and unexposed people may differ in age, social circumstances, access to care and other causes of the outcome.
+
+The first decision is what counts as an event. For first periodontitis, participants must initially be free of the defined condition and capable of developing it. A study of progression has a different question and may appropriately begin with people who already have periodontitis. A study of becoming edentulous includes people with at least one natural tooth at baseline. It excludes people already without natural teeth. In a first-caries study, the selected diagnostic threshold matters: DMFT zero under a cavitation-based protocol does not establish the absence of every early lesion. Keep the population, dentition, threshold and unit consistent throughout the analysis.
+
+The distinction between a person and a lesion is especially important in dentistry. A child who develops three lesions is one child with the endpoint if the endpoint is at least one new lesion. A surface-level analysis asks a different question and involves correlation between surfaces within the same mouth. A person-level calculation cannot be relabelled as a surface-level rate. Similarly, the number of new appointments or restorations does not directly count newly affected people. Clinical activity depends on attendance and treatment decisions as well as disease.
+
+A prospective cohort collects follow-up after recruitment. A historical cohort reconstructs the same exposure-to-outcome sequence from records that already exist. Historical does not mean case–control: classification follows the sampling rule. Records must establish who was eligible before the outcome, which exposure they had, what follow-up was available and how outcomes were found. A convenient list of current patients may omit people who moved away or died. The researcher must evaluate that omission rather than treating the surviving records as the complete original population.
+
+Risk, or cumulative incidence, is a probability over a stated interval. With complete outcome ascertainment in a fixed initially at-risk group, divide newly affected people by the starting group. Both numerator and denominator must concern the same event. A five-year risk cannot be called an annual risk, and division by five does not generally reconstruct a one-year probability. An incidence rate instead divides events by time spent at risk. It answers how quickly events accumulated during observation. Its unit contains time, so a rate per person-year is not itself a percentage probability.
+
+Relative and absolute comparisons serve different purposes. The risk ratio expresses a multiplicative contrast and has a null value of one. The risk difference expresses an additive contrast and has a null value of zero. A relative association can look large when both absolute risks are small. A programme decision therefore needs the actual risks, endpoint and time horizon alongside the ratio. Percentage points describe subtraction of percentages; a relative percentage change divides that difference by a reference risk. Changing the reference group changes both the direction and the numerical expression of the comparison.
+
+Attributable measures add another distinction: whose cases are in the denominator? The attributable fraction among exposed people relates an excess to the cases observed among those exposed. The population attributable fraction relates a population contrast to all cases in that population. The frequency of exposure matters for the latter. Neither fraction becomes a proven preventable burden merely because its arithmetic is correct. Such an interpretation requires a justified causal comparison and a specified intervention. A realistic exposure change may not restore everyone to the unexposed risk, and other causes and competing events may remain.
+
+The same care applies to prevention. A relative reduction does not state how many children benefit. The absolute reduction compares the programme and comparator risks over the same period. Its reciprocal gives a number needed to treat for an additional beneficial outcome when the effect and assumptions support that interpretation. This number is an average comparison, not a promise that exactly one child benefits in every small group. It changes with baseline risk, comparator, endpoint and follow-up. Harms, acceptability, resources and unequal access remain relevant even when the benefit is precisely estimated.
+
+Follow-up and analysis complete the argument. Unknown outcomes are not negative outcomes. People lost to observation may differ systematically from people retained, and those differences can vary by exposure. Describe recruitment, retention and outcome ascertainment before presenting a ratio. Confounding requires its own assessment: a common cause of exposure and outcome can create a crude contrast even when the within-stratum risks are equal. Adjustment must follow a defensible causal question and adequate measurement; mechanically including every recorded variable is not a guarantee of validity.
+
+Finally, report uncertainty and limits. A conventional confidence interval quantifies sampling uncertainty under the analysis assumptions. It does not automatically incorporate selective recruitment, incorrect diagnoses or unmeasured confounding. Repeated teeth, schools and matched observations may require methods that respect dependence. A useful conclusion names the population, exposure, endpoint, period, absolute risks, comparative measure and main validity limits. The worked analyses below use invented numbers to practise that sequence; they are not clinical recommendations or estimates of a named programme's effectiveness.
+
+## Worked analysis
+
+### Define the event before choosing who is at risk
+
+Hypothetical question. Among dentate adults initially without periodontitis, is baseline diabetes associated with first periodontitis over five years?
+
+| Element | Specify before follow-up |
+| --- | --- |
+| Population | Common eligibility and recruitment rules |
+| Exposure | Diabetes at baseline, measured by a defined protocol |
+| Event | First periodontitis at a prespecified diagnostic threshold |
+| Time and unit | Five years; one person is one first case |
+
+### Eligibility follows the endpoint
+
+| Event | Initially eligible | Different endpoint |
+| --- | --- | --- |
+| First caries experience | DMFT = 0 at the chosen threshold | New lesion on an affected tooth |
+| First periodontitis | People without that condition | Progression of existing disease |
+| Becoming edentulous | At least one natural tooth | Losing one tooth while others remain |
+
+Keep the question. A progression study may include existing disease. Define its denominator for progression, rather than first onset.
+
+### Construct the five-year cohort table
+
+Teaching assumptions. Independent adults, known five-year outcomes for everyone, and no competing deaths in this model. All numbers are invented, not estimates from real patients.
+
+| Baseline | New periodontitis | No new periodontitis | Total |
+| --- | --- | --- | --- |
+| Diabetes | 60 | 240 | 300 |
+| No diabetes | 30 | 570 | 600 |
+| Total | 90 | 810 | 900 |
+
+Row totals are the initially at-risk groups, not numbers selected after diagnosis.
+
+### Start with two risks and a time horizon
+
+With diabetes. 60/300 = 0.20 = 20% over five years.
+
+Without diabetes. 30/600 = 0.05 = 5% over five years.
+
+Overall risk. 90/900 = 10%. The unweighted mean of 20% and 5% is 12.5%, which ignores group size. Twenty cases per 100 over five years is not twenty per year.
+
+### RR compares risks multiplicatively
+
+RR = Rₑ/R₀. 0.20/0.05 = 4. The diabetes group had four times the observed five-year risk.
+
+| RR | Meaning |
+| --- | --- |
+| 1 | Equal observed risks |
+| Above 1 | Higher risk among exposed people |
+| Below 1 | Lower risk among exposed people |
+
+Association. Four times the risk is a 300% relative increase. This crude association does not establish how much disease diabetes caused.
+
+### Risk difference expresses the absolute excess
+
+RD = Rₑ − R₀. 0.20 − 0.05 = 15 percentage points: 15 additional cases per 100 over five years, comparing observed risks.
+
+| Scale | Result | Question |
+| --- | --- | --- |
+| Relative | RR = 4 | How many times as high? |
+| Absolute | RD = 15 pp | How many additional cases per 100? |
+
+Reverse the reference. RR becomes 0.25; RD becomes −15 percentage points. Specify the group order.
+
+### Attributable fraction among exposed people: 75%
+
+AFₑ = (Rₑ − R₀)/Rₑ. (0.20 − 0.05)/0.20 = 75%. At the reference risk, 300 exposed people would have 15 rather than 60 cases; the contrast is 45/60.
+
+Causal assumptions. Calling this preventable requires an unbiased causal comparison and a defined exposure change. Removing diabetes does not necessarily immediately restore the reference risk.
+
+Terminology. RD is sometimes called attributable risk; AF is a proportion. State the formula.
+
+### Population impact depends on exposure frequency
+
+| Measure | Same hypothetical population |
+| --- | --- |
+| Population risk | 90/900 = 10% |
+| Reference risk | 30/600 = 5% |
+| Population risk difference | 5 percentage points |
+| PAF | (10% − 5%)/10% = 50% |
+
+Count check. 900 × 5% = 45 reference-risk cases; 90 − 45 = 45 excess; 45/90 = 50%. AF among exposed people is 75%: a different denominator.
+
+Scope. Crude contrasts. Causal PAF needs valid causal risks and a defined intervention. Do not transfer it to a population with different exposure frequency.
+
+### Prevention needs absolute and relative effects
+
+New hypothetical trial. Individually randomised, independent children; all followed three years. Additional programme versus standard prevention. Endpoint: at least one new cavitated lesion.
+
+| Group | New cases / total | Risk |
+| --- | --- | --- |
+| Additional programme | 20/400 | 5% |
+| Standard prevention | 40/400 | 10% |
+
+Two effects. RR = 0.5; relative risk reduction = 1 − RR = 50%. ARR = 0.10 − 0.05 = 5 percentage points: five fewer affected children per 100 over three years.
+
+### NNT includes an outcome, comparator and time
+
+NNT = 1/ARR. 1/0.05 = 20. On average, 20 children need the additional rather than standard programme for three years to prevent one additional child developing the endpoint, if this effect applies.
+
+| Check | Reason |
+| --- | --- |
+| Proportions | 1/0.05, not 1/5 |
+| Period | Three-year NNT is not annual NNT |
+| Endpoint | Children with lesions differ from lesion counts |
+| Uncertainty | Not a guarantee for each group of 20 |
+
+### Equal RR can mean different absolute benefit
+
+| Setting | Standard risk | Programme risk | ARR | NNT |
+| --- | --- | --- | --- | --- |
+| Lower baseline risk | 2% | 1% | 1 pp | 100 |
+| Higher baseline risk | 20% | 10% | 10 pp | 10 |
+
+Assuming the same three-year RR = 0.5, absolute benefit depends on baseline risk.
+
+Decision. Consider harms, acceptability, resources and equity. The table assumes transferable relative effects; it does not establish that assumption.
+
+### Unequal follow-up calls for person-time
+
+| Group | New cases | Time at risk | Incidence rate |
+| --- | --- | --- | --- |
+| Exposed | 18 | 450 PY | 4 per 100 PY |
+| Unexposed | 12 | 600 PY | 2 per 100 PY |
+
+Rate comparison. Rate ratio = (18/450)/(12/600) = 2. Rate difference = 2 cases per 100 person-years.
+
+Units. This is not a two-year risk ratio. Time accrues until the event, loss or end; person-time does not automatically remove informative-loss bias.
+
+### A missing outcome is not disease-free
+
+Hypothetical cohort. 100 start; 80 have a known five-year outcome, including 8 cases; 20 outcomes are unknown.
+
+| Calculation | Meaning |
+| --- | --- |
+| 8/80 = 10% | Risk among known outcomes; may be selected |
+| 8/100 = 8% | Minimum full-cohort risk if none missing are cases |
+| (8+20)/100 = 28% | Maximum if all missing are cases |
+
+Full-cohort risk is not identified: crude bounds are 8–28%. Assess reasons for loss and analysis assumptions.
+
+### Confounding can change a crude comparison
+
+Separate invented cohort: first tooth loss over five years; everyone initially has natural teeth.
+
+| Age | Exposure + | Exposure − | RR |
+| --- | --- | --- | --- |
+| Younger | 10/100 = 10% | 40/400 = 10% | 1 |
+| Older | 160/400 = 40% | 40/100 = 40% | 1 |
+| All | 170/500 = 34% | 80/500 = 16% | 2.125 |
+
+Different age composition. The exposed group is older. In this model age affects exposure and outcome. Equal age weights give 25% in both groups. Stratification does not guarantee removal of other confounding.
+
+### Confidence intervals describe sampling uncertainty
+
+Return to 60/300 versus 30/600. RR = 4; approximate 95% CI 2.64–6.06, using a large-sample log-RR method for independent observations.
+
+Interpretation. Under the statistical assumptions, the data are compatible with a range of risk ratios. A wide interval means limited precision.
+
+Limits. It does not correct confounding, misclassification or selective loss; it does not contain 95% of individual risks. It is not a 95% probability that the fixed parameter lies in this particular interval.
+
+### Model answers: denominators determine measures
+
+| Task | Checked answer |
+| --- | --- |
+| 1 · Table | 40 cases, 160 non-cases; 48 cases, 552 non-cases |
+| 1 · Comparisons | 20% vs 8% over five years; RR = 2.5; RD = 12 pp |
+| 1 · Impact | AF = 60%; population risk = 88/800 = 11%; PAF = (11−8)/11 = 27.3% |
+| 2 | 5% vs 10%; RR = 0.5; ARR = 5 pp; relative reduction 50%; NNT = 20 over three years |
+| 3 | 10% among known outcomes; full-cohort bounds 8–28% |
+
+More observations improve precision under suitable sampling assumptions; they do not repair systematic distortion.
+
+### Report event, time, absolute contrast and uncertainty
+
+Complete result. In this hypothetical cohort, five-year risks were 20% and 5%; crude RR 4 (approximate 95% CI 2.64–6.06), RD 15 percentage points. Assess confounding and missing outcomes before causal interpretation.
+
+| Measure | Always add |
+| --- | --- |
+| Risk | Population, event and period |
+| RR / RD | Reference group, absolute risks and uncertainty |
+| AF / PAF | Denominator and causal assumptions |
+| NNT | Comparator, endpoint and time |
+
+Next: case–control sampling, where ordinary row totals do not give these risks.
+
+## Sources
+
+[CDC Field Epidemiology Manual, chapter 8](https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html). [Cochrane Handbook, chapter 15](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15). Vandenbroucke & Pearce (2012), DOI [10.1093/ije/dys147](https://doi.org/10.1093/ije/dys147). Greenland et al. (2016), DOI [10.1007/s10654-016-0149-3](https://doi.org/10.1007/s10654-016-0149-3).

@@ -160,6 +160,1922 @@
   <pubDate>Thu, 12 Nov 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>12. Проучвания случай–контрола и отношение на шансовете — 15-минутна подготовка</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-case-control-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-12-bg.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-case-control-en.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-case-control-bg.html">Tasks</a></p>
+<p>Проучването случай–контрола се определя от начина, по който хората влизат в него. Изследователите установяват случаи по определение на заболяването и подбират контроли от популацията, породила случаите, съобразно определена схема. След това сравняват експозицията. Дизайнът е полезен, когато набирането на достатъчно случаи чрез обичайно проследяване би било неефективно или измерването на експозицията при всеки член на голяма кохорта е скъпо. Това не е просто всяко проучване с въпроси за миналото. Кохортите също могат да използват исторически документи, а случай–контрола може да използва проби, събрани преди диагнозата.</p>
+<p>Започнете с изходната популация. Определете кой може да развие съответното заболяване, къде и кога ще се установяват случаите и правилата за включване. При условно проучване на орален карцином това обхваща анатомичните места, диагнозата, местоживеенето и периода. Карциномите на устната кухина и орофаринкса не се обединяват мълчаливо. Промененото определение на случай променя въпроса. Случаи от цял район и контроли от една специализирана клиника не образуват автоматично валидно сравнение. Контролната рамка трябва да съответства на популацията и процеса, породили случаите.</p>
+<p>Основният въпрос е дали подбрана контрола би била установена като случай, ако развие съответното заболяване в релевантния момент. Контролите не се избират, за да бъдат неекспонирани, и не е нужно да са без всяка друга болест. Те трябва да осигурят сравнението на експозицията, изисквано от схемата. Изключването на пушачи от контролите при изследване на пушенето създава асоциация преди анализа. Подборът от клиника за тютюн-свързани болести може обратно да представи прекомерно експозицията. И двете решения могат да подкопаят сравнението.</p>
+<p>Подборът на случаи също изисква внимание. Новите диагнози ограничават избора само на хора, преживели достатъчно дълго за интервю. Ако експозицията влияе на възникването и преживяемостта, асоциацията сред преживели налични случаи може да се различава от тази с началото на болестта. Пълното установяване на случаи означава повече от голям брой достъпни пациенти. Насочването, диагностичният достъп, участието и правилата за включване променят кой влиза. Прилагайте предварителното определение еднакво и описвайте системата за откриване.</p>
+<p>Измерването на експозицията изисква индексна дата и съпоставим референтен период. Въпроси за пожизнен алкохол при случаите и за текущ алкохол при контролите смесват измервания. Диагнозата може да доведе до отказване от пушене или промяна в храненето; поведението след нея може да не представя значимата предходна експозиция. Преддиагностични документи или проби подпомагат времевата последователност, но наличността и пълнотата може да се различават. Структурираното интервю ограничава несъответствията без гаранция за равно припомняне. Заслепяването на интервюиращия не премахва знанието на участника за диагнозата.</p>
+<p>Делът на експонираните дели експонираните на всички хора в групата. Шансът за експозиция дели експонираните на неекспонираните. И двете величини се изчисляват при случаи и при контроли, но отговарят на различни числови въпроси. Вероятност 0,8 съответства на шанс четири, а не на вероятност четири. Отношението на шансовете дели шанса за експозиция при случаите на този при контролите. При експозиция по редове и случаи и контроли по колони то се свежда до кръстното произведение. Означете таблицата преди заместването: запомнената формула не поправя неправилно формирано сравнение.</p>
+<p>Симетрията на кръстната формула не осигурява липсващите популационни знаменатели. Изследователите са подбрали случаи и контроли, вместо да наблюдават всички първоначално експонирани и неекспонирани. Делението на подбраните случаи на извадковия сбор по ред дава дял на случаи в подбрана извадка. Обикновено той не оценява вероятността експониран човек да развие болестта. Удвояването на двете контролни клетки демонстрира това: OR остава същият, а привидните рискове по редове се променят. Болестният процес в популацията не се е променил от набирането на още контроли.</p>
+<p>Тълкуването на OR зависи от подбора на контроли. При кумулативен подбор сред незаболелите в края резултатът оценява отношение на шансовете за заболяване. Ако рисковете за изхода са малки в съответните популационни групи, шансовете и рисковете са близки и отношенията им също се сближават. Голям дял случаи в извадката не противоречи на популационната рядкост, защото този дял е избран от изследователя. Малък извадков дял също не доказва рядкост. Решените примери показват как еднакви RR могат да съпътстват осезаемо различни OR, когато заболяването е често.</p>
+<p>Подборът от рискови множества изисква друго тълкуване. При възникване на всеки случай контролите се избират от хората, които тогава са в риск. Човек може да е контрола преди да стане случай и при подходяща схема да бъде подбран повече от веднъж. При правилен подбор и анализ OR оценява отношение на коефициентите на заболеваемост без изискване за рядък изход. Това е свойство на дизайна, а не изключение само защото болестта изглежда необичайна. Преди да преведете OR в популационно сравнение, установете как са подбрани контролите и как са отчетени времето и съпоставянето.</p>
+<p>Грешката при подбора, информационната грешка и замъгляването се оценяват отделно. Подборът променя кой влиза или остава в сравнението. Информационната грешка променя записването на експозицията или заболяването. Замъгляването смесва асоциацията с общи причини за експозицията и изхода. Увеличаването на извадката не поправя автоматично тези проблеми. Съпоставянето може да подобри ефективността и сравнимостта по избрани фактори, но не е рандомизация; структурата му се запазва в анализа. Несдвоеното кръстно произведение от обединени сборове обикновено не е правилният анализ на индивидуално съпоставени двойки.</p>
+<p>Доверителният интервал добавя информация за извадковата неопределеност при статистическите допускания. Той не защитава от неподходящ източник на контроли или различно припомняне. Интервал, включващ едно, не доказва еквивалентност; интервал извън едно не установява причинност. Обоснованият отчет посочва изходна популация, подходящи участници, установяване на случаи, подбор на контроли, време на експозицията, корекция, оценка и неопределеност. Изводът остава в границите, които тези решения подкрепят. Следващите анализи използват условни дентални сценарии, за да отделят изчислението от неподкрепени клинични твърдения.</p>
+<section id="решен-анализ" class="level2">
+<h2 class="anchored" data-anchor-id="решен-анализ">Решен анализ</h2>
+<section id="започнете-от-популацията-която-може-да-породи-случаи" class="level3">
+<h3 class="anchored" data-anchor-id="започнете-от-популацията-която-може-да-породи-случаи">Започнете от популацията, която може да породи случаи</h3>
+<p>Условно проучване на орален карцином в Пловдив. Включват се подходящите нови диагнози сред жители на определен район за определен период. Предварително се задават анатомичните места, диагностичните критерии и местоживеенето.</p>
+<p>Основен въпрос за контролата. Ако това лице развие съответната болест през периода, би ли било установено като случай при същите правила за включване и откриване?</p>
+<p>Рамките за подбор на случаи и контроли трябва да съответстват; източникът не е задължително цяла държава.</p>
+</section>
+<section id="случаите-изискват-еднакво-определение-и-определен-период" class="level3">
+<h3 class="anchored" data-anchor-id="случаите-изискват-еднакво-определение-и-определен-период">Случаите изискват еднакво определение и определен период</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Решение</th>
+<th>Защо е важно</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Нови диагнози</td>
+<td>Не подбираме само дълго преживели лица</td>
+</tr>
+<tr class="even">
+<td>Едно заболяване</td>
+<td>Не обединяваме мълчаливо карцином на устната кухина и орофаринкса</td>
+</tr>
+<tr class="odd">
+<td>Район и период</td>
+<td>Определят кой може да участва</td>
+</tr>
+<tr class="even">
+<td>Установяване</td>
+<td>Насочването и диагностичният достъп влияят на включването</td>
+</tr>
+</tbody>
+</table>
+<p>Подбор на преживели. Ако експозицията влияе на преживяемостта, подборът на налични преживели случаи може да изкриви асоциацията с възникването. Голямата извадка от преживели не решава това.</p>
+</section>
+<section id="не-е-необходимо-контролите-да-са-напълно-здрави" class="level3">
+<h3 class="anchored" data-anchor-id="не-е-необходимо-контролите-да-са-напълно-здрави">Не е необходимо контролите да са напълно здрави</h3>
+<p>Възможни източници. Регистри на населението; изходната кохорта; пациенти от същата система, ако причината за посещението не изкривява подбора по експозиция.</p>
+<p>Удобният подбор може да изкриви експозицията. Контроли с тютюн-свързани заболявания може да пушат необичайно често. Посещаващите дентална клиника може да се различават по доходи и поведение.</p>
+<p>Контролите се подбират спрямо изходната популация. Експонирани лица могат да са контроли; изключването им вгражда асоциацията в дизайна.</p>
+</section>
+<section id="построяване-на-несдвоена-таблица-случайконтрола" class="level3">
+<h3 class="anchored" data-anchor-id="построяване-на-несдвоена-таблица-случайконтрола">Построяване на несдвоена таблица случай–контрола</h3>
+<p>Измислено проучване. 100 случая и 200 независимо подбрани контроли. Пушенето се оценява през предварително определен интервал преди съпоставима индексна дата. Това не са реални оценки за карцином.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Пушене</th>
+<th>Случаи</th>
+<th>Контроли</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Да</td>
+<td>80 = a</td>
+<td>100 = b</td>
+</tr>
+<tr class="even">
+<td>Не</td>
+<td>20 = c</td>
+<td>100 = d</td>
+</tr>
+<tr class="odd">
+<td>Общо</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Изследователят е избрал броя случаи и контроли. Делът на случаите в извадката не е честотата на болестта в популацията.</p>
+</section>
+<section id="вероятността-и-шансът-имат-различни-знаменатели" class="level3">
+<h3 class="anchored" data-anchor-id="вероятността-и-шансът-имат-различни-знаменатели">Вероятността и шансът имат различни знаменатели</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Сред</th>
+<th>Дял на експонираните</th>
+<th>Шанс за експозиция</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Случаите</td>
+<td>80/100 = 0,80</td>
+<td>80/20 = 4</td>
+</tr>
+<tr class="even">
+<td>Контролите</td>
+<td>100/200 = 0,50</td>
+<td>100/100 = 1</td>
+</tr>
+</tbody>
+</table>
+<p>Шанс = p/(1 − p). При p = 0,80: 0,80/0,20 = 4. Шанс 4 означава четирима експонирани за един неекспониран, а не вероятност 400%.</p>
+<p>Отношението на дяловете 0,80/0,50 = 1,6 не е отношение на шансовете.</p>
+</section>
+<section id="кръстното-произведение-сравнява-шансовете-за-експозиция" class="level3">
+<h3 class="anchored" data-anchor-id="кръстното-произведение-сравнява-шансовете-за-експозиция">Кръстното произведение сравнява шансовете за експозиция</h3>
+<p>OR = (a/c)/(b/d) = ad/bc. (80 × 100)/(100 × 20) = 4.</p>
+<p>Пряко тълкуване. Шансът за експозиция е четири пъти по-висок сред подбраните случаи спрямо подбраните контроли. Оценяваната популационна асоциация зависи от подбора на групите.</p>
+<p>OR = 1 е нулевата стойност. Обръщането на едно сравнение дава 0,25; обръщането на двете оси запазва кръстното отношение.</p>
+</section>
+<section id="извадковите-сборове-по-редове-не-дават-популационни-рискове" class="level3">
+<h3 class="anchored" data-anchor-id="извадковите-сборове-по-редове-не-дават-популационни-рискове">Извадковите сборове по редове не дават популационни рискове</h3>
+<p>Привлекателно, но невалидно. 80/(80+100) = 44,4% е делът на случаите сред подбраните експонирани. Това не е популационният им риск от карцином. Също 20/(20+100) = 16,7% не е рискът сред неекспонираните в популацията.</p>
+<p>Защо. Извадката нарочно има 100 случая и 200 контроли. Промяната на броя контроли променя дяловете без промяна в болестния процес.</p>
+<p>Тази обичайна извадкова таблица не дава пряко абсолютен риск, RD, NNT или популационна заболеваемост.</p>
+</section>
+<section id="удвояването-на-контролите-запазва-този-or" class="level3">
+<h3 class="anchored" data-anchor-id="удвояването-на-контролите-запазва-този-or">Удвояването на контролите запазва този OR</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Експозиция</th>
+<th>Случаи</th>
+<th>Първи контроли</th>
+<th>Удвоени контроли</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Да</td>
+<td>80</td>
+<td>100</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>Не</td>
+<td>20</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Същото разпределение при контролите. OR = (80×200)/(200×20) = 4. Привидният риск става 80/280 = 28,6% вместо 44,4%. Нито един не е популационен риск.</p>
+<p>Точност. Нова случайна извадка от контроли може да промени OR поради случайност. Повече независими контроли могат да подобрят точността, но не поправят изкривения подбор.</p>
+</section>
+<section id="редкият-изход-сближава-or-за-болестта-с-rr" class="level3">
+<h3 class="anchored" data-anchor-id="редкият-изход-сближава-or-за-болестта-с-rr">Редкият изход сближава OR за болестта с RR</h3>
+<p>Популационни рискове за илюстрация, а не изчислени от извадка случай–контрола.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Риск при експозиция</th>
+<th>Референтен риск</th>
+<th>RR</th>
+<th>OR за болестта</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2%</td>
+<td>1%</td>
+<td>2</td>
+<td>2,02</td>
+</tr>
+<tr class="even">
+<td>40%</td>
+<td>20%</td>
+<td>2</td>
+<td>2,67</td>
+</tr>
+</tbody>
+</table>
+<p>Изчислете чрез шансове. OR = [Rₑ/(1 − Rₑ)]/[R₀/(1 − R₀)]. При 40% спрямо 20%: (0,4/0,6)/(0,2/0,8) = 2,67.</p>
+<p>При контроли сред незаболелите в края OR доближава RR при малки рискове за изхода. Делът случаи в извадката не определя рядкостта.</p>
+</section>
+<section id="подборът-от-рискови-множества-има-друга-интерпретация" class="level3">
+<h3 class="anchored" data-anchor-id="подборът-от-рискови-множества-има-друга-интерпретация">Подборът от рискови множества има друга интерпретация</h3>
+<p>Подбор по плътност на заболеваемостта. При всеки нов случай контролите се подбират от хората, които тогава още са в риск. Контрола може по-късно да стане случай и при подходяща схема да бъде подбрана отново.</p>
+<p>При валиден подбор от рискови множества и подходящ анализ OR оценява отношение на коефициентите на заболеваемост без допускане за рядък изход.</p>
+<p>Установете схемата. Това не превръща всеки OR от случай–контрола в RR. Проверете времевия подбор, съпоставянето и анализа.</p>
+</section>
+<section id="вложените-проучвания-могат-да-използват-преддиагностични-измервания" class="level3">
+<h3 class="anchored" data-anchor-id="вложените-проучвания-могат-да-използват-преддиагностични-измервания">Вложените проучвания могат да използват преддиагностични измервания</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Стъпка</th>
+<th>В определена кохорта</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Начало</td>
+<td>Данни за пушене и съхраняване на проби</td>
+</tr>
+<tr class="even">
+<td>Проследяване</td>
+<td>Установяване на нови случаи</td>
+</tr>
+<tr class="odd">
+<td>Подбор</td>
+<td>Подходящи контроли по посочена схема</td>
+</tr>
+<tr class="even">
+<td>Анализ</td>
+<td>Сравнение на по-ранната експозиция с отчитане на схемата</td>
+</tr>
+</tbody>
+</table>
+<p>Практическа полза. Скъпите биомаркери се изследват само при избрани случаи и контроли. Преддиагностичното измерване подпомага времевата последователност, но не премахва автоматично замъгляването или измервателната грешка.</p>
+</section>
+<section id="подборът-може-да-промени-or-без-промяна-в-биологията" class="level3">
+<h3 class="anchored" data-anchor-id="подборът-може-да-промени-or-без-промяна-в-биологията">Подборът може да промени OR без промяна в биологията</h3>
+<p>Запазете 80 експонирани и 20 неекспонирани случая; променете само подбраните контроли.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Контроли</th>
+<th>Начален подбор</th>
+<th>Изкривен подбор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Експонирани</td>
+<td>100</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>Неекспонирани</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>OR</td>
+<td>4</td>
+<td>80×50/(150×20) = 1,33</td>
+</tr>
+</tbody>
+</table>
+<p>Грешка при подбора. Ако експозицията влияе на включването, разпределението ѝ може да не представя нужната популация. Тук излишъкът от експонирани контроли намалява OR; други механизми могат да го изкривят в други посоки.</p>
+</section>
+<section id="грешката-на-припомняне-е-различно-измерване-на-експозицията" class="level3">
+<h3 class="anchored" data-anchor-id="грешката-на-припомняне-е-различно-измерване-на-експозицията">Грешката на припомняне е различно измерване на експозицията</h3>
+<p>Измислен пример. Истинска експозиция: 40/100 случая и 40/100 контроли → OR = 1. Съобщена: 60/100 случая и 40/100 контроли → OR = (60×60)/(40×40) = 2,25.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Действие</th>
+<th>Ограничение</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Преддиагностични документи</td>
+<td>Пълнотата може да се различава</td>
+</tr>
+<tr class="even">
+<td>Еднакво интервю</td>
+<td>Не гарантира еднакво припомняне</td>
+</tr>
+<tr class="odd">
+<td>Заслепен интервюиращ</td>
+<td>Не премахва знанието за диагнозата</td>
+</tr>
+<tr class="even">
+<td>Съпоставими дати</td>
+<td>Не сравнявайте пожизнена с текуща експозиция</td>
+</tr>
+</tbody>
+</table>
+<p>Информационната грешка включва и документирането и диагностичното подозрение. Посоката ѝ не е винаги към нулата.</p>
+</section>
+<section id="съпоставянето-трябва-да-се-отчете-в-анализа" class="level3">
+<h3 class="anchored" data-anchor-id="съпоставянето-трябва-да-се-отчете-в-анализа">Съпоставянето трябва да се отчете в анализа</h3>
+<p>Цел. Съпоставянето може да подобри сравнимостта по избрани фактори и ефективността. Не премахва автоматично замъгляването и не е рандомизация.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Особеност</th>
+<th>Следствие за анализа</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Индивидуални двойки</td>
+<td>Запазете двойките и използвайте сдвоен метод</td>
+</tr>
+<tr class="even">
+<td>Честотно съпоставяне</td>
+<td>Отчетете факторите на съпоставяне</td>
+</tr>
+<tr class="odd">
+<td>Прекомерно съпоставяне</td>
+<td>Неподходящи фактори губят информация или въвеждат изкривяване</td>
+</tr>
+</tbody>
+</table>
+<p>Несдвоена формула. Кръстното отношение от обединени сборове обикновено не е оценката за съпоставени двойки. Дискордантните двойки имат значение.</p>
+</section>
+<section id="замъгляването-е-различно-от-подбора-и-припомнянето" class="level3">
+<h3 class="anchored" data-anchor-id="замъгляването-е-различно-от-подбора-и-припомнянето">Замъгляването е различно от подбора и припомнянето</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Проблем</th>
+<th>Условен пример</th>
+<th>Действие</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Подбор</td>
+<td>Контролите непропорционално посещават тютюн-свързана клиника</td>
+<td>Обоснована рамка; оценка на неучастието</td>
+</tr>
+<tr class="even">
+<td>Информация</td>
+<td>Случаите съобщават пушенето по-пълно</td>
+<td>Съпоставими измерване и дати</td>
+</tr>
+<tr class="odd">
+<td>Замъгляване</td>
+<td>Възрастта влияе и на пушенето, и на карцинома</td>
+<td>Измерване на общи причини; обоснована стратификация или корекция</td>
+</tr>
+</tbody>
+</table>
+<p>Поправката на един проблем не поправя останалите. Голям OR сам не ги разграничава от причинност.</p>
+</section>
+<section id="интервалът-добавя-информация-за-точността-не-защита-от-изкривяване" class="level3">
+<h3 class="anchored" data-anchor-id="интервалът-добавя-информация-за-точността-не-защита-от-изкривяване">Интервалът добавя информация за точността, не защита от изкривяване</h3>
+<p>Началната таблица 80/20 и 100/100. OR = 4; приблизителен 95% ДИ 2,28–7,02, чрез асимптотичен log-OR метод при независими несдвоени наблюдения.</p>
+<p>Четете оценката заедно с дизайна. Посочете изходната популация, подбора на контроли, периода на експозицията и корекцията. Интервалът описва извадковата неопределеност при допусканията на анализа.</p>
+<p>Ограничения. Тесният интервал около изкривена оценка остава изкривен. Включването на 1 не доказва еквивалентност. Сдвоени, клъстерни и редки данни може да изискват други методи.</p>
+</section>
+<section id="примерните-отговори-следват-схемата-на-подбор" class="level3">
+<h3 class="anchored" data-anchor-id="примерните-отговори-следват-схемата-на-подбор">Примерните отговори следват схемата на подбор</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Задача</th>
+<th>Отговор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Таблица</td>
+<td>72, 60, 48, 180; OR = (72×180)/(60×48) = 4,5</td>
+</tr>
+<tr class="even">
+<td>Удвоени контроли</td>
+<td>OR = (72×360)/(120×48) = 4,5</td>
+</tr>
+<tr class="odd">
+<td>Неправилен риск</td>
+<td>72/132 = 54,5% е дял в подбрана извадка</td>
+</tr>
+<tr class="even">
+<td>Подбор</td>
+<td>Експозицията при контролите може да не представя изходната популация</td>
+</tr>
+<tr class="odd">
+<td>Информация</td>
+<td>Съпоставими интервюта и референтни дати</td>
+</tr>
+<tr class="even">
+<td>Замъгляване</td>
+<td>Измерване на пушенето; обоснована стратификация или корекция</td>
+</tr>
+<tr class="odd">
+<td>Рискови множества</td>
+<td>Контролата е в риск при подбора; може по-късно да стане случай</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="обоснованият-отчет-посочва-популацията-и-or" class="level3">
+<h3 class="anchored" data-anchor-id="обоснованият-отчет-посочва-популацията-и-or">Обоснованият отчет посочва популацията и OR</h3>
+<p>Пълен извод. В условното несдвоено проучване шансът за експозиция е четири пъти по-висок при случаите (OR 4, приблизителен 95% ДИ 2,28–7,02). Тълкуването зависи от подбора на контроли, съпоставимото установяване и контрола на замъгляването.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Преди приемане</th>
+<th>Проверка</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Подбор</td>
+<td>Биха ли били контролите установени като случаи при заболяване?</td>
+</tr>
+<tr class="even">
+<td>Измерване</td>
+<td>Експозицията предшества диагнозата; съпоставими периоди</td>
+</tr>
+<tr class="odd">
+<td>Анализ</td>
+<td>Подбор, съпоставяне, замъгляване и неопределеност</td>
+</tr>
+<tr class="even">
+<td>Твърдение</td>
+<td>OR се различава от абсолютен риск и причинност</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="източници" class="level2">
+<h2 class="anchored" data-anchor-id="източници">Източници</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-case-control-bg.html</guid>
+  <pubDate>Wed, 11 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>12. Case–control studies and the odds ratio — 15-minute reading</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-case-control-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-12-en.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-case-control-bg.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-case-control-en.html">Tasks</a></p>
+<p>A case–control study is defined by how people enter the study. Investigators identify cases meeting a disease definition and select controls from the population that produced those cases according to a specified sampling scheme. They then compare exposure. The design is useful when finding enough cases through ordinary follow-up would be inefficient, or measuring exposure for every member of a large cohort would be expensive. It is not simply any study asking about the past. Cohorts may use historical records; case–control studies may use samples collected before diagnosis.</p>
+<p>Start with the source population. Specify who could develop the qualifying disease, where and when cases would be found, and the inclusion rules. In a hypothetical oral-cancer investigation this includes anatomical sites, diagnosis, residency and observation period. Oral-cavity and oropharyngeal cancers should not be silently combined. A changed case definition changes the question. District-wide cases and controls from one specialist clinic do not automatically form a valid comparison. The control frame must correspond to the population and process that generated the cases.</p>
+<p>The central control question is whether a selected control would have been identified as a case if that person developed the qualifying disease at the relevant time. Controls are not chosen to be unexposed, and need not be free of every other disease. They must provide the exposure comparison demanded by the sampling scheme. Excluding smokers from controls in a smoking study constructs an association before analysis. Choosing controls from a smoking-related disease clinic may instead overrepresent exposure. Both choices can undermine the intended comparison.</p>
+<p>Case selection also needs scrutiny. New diagnoses help avoid selecting only people who survived long enough to be interviewed. If exposure influences disease occurrence and survival, an association among surviving prevalent cases may differ from the association with onset. Complete case finding means more than a large number of available patients. Referral, diagnostic access, participation and eligibility can change who enters. Apply the prespecified definition consistently and describe the case-finding system.</p>
+<p>Exposure measurement needs an index date and comparable reference period. Asking cases about lifetime drinking but controls about current drinking mixes measurements. Diagnosis may lead someone to stop smoking or change diet; behaviour afterwards may differ from the relevant earlier exposure. Prediagnostic records or stored samples help establish timing, but availability and completeness may differ between groups. A structured interview limits inconsistency without guaranteeing equal recall. Interviewer masking cannot erase participants’ knowledge of diagnosis.</p>
+<p>An exposure proportion divides exposed people by everyone in the group. Exposure odds divide exposed by unexposed people. Both can be calculated among cases and among controls, but they answer different numerical questions. A probability of 0.8 corresponds to odds of four, not to probability four. The odds ratio divides the exposure odds among cases by those among controls. With exposure in rows and cases and controls in columns, this simplifies to the cross-product ratio. Label the table before substituting numbers: memorising a formula cannot rescue a wrongly assembled comparison.</p>
+<p>The symmetry of the cross-product formula does not supply missing population denominators. Investigators selected cases and controls rather than observing every initially exposed and unexposed person. Consequently, dividing sampled cases by the sampled row total yields a selected-sample case fraction. It cannot ordinarily estimate the probability that an exposed person develops the disease. Doubling both control cells provides a useful demonstration: the cross-product OR stays unchanged while apparent row risks change. The population disease process did not change when the investigator recruited more controls.</p>
+<p>The interpretation of OR depends on control sampling. With cumulative sampling from non-cases at the end, the result estimates a disease odds ratio. If outcome risks are small in the relevant population groups, disease odds and risks are close enough that their ratios are also close. A large sampled case fraction does not contradict population rarity because the investigator chose that fraction. Conversely, a small sampled fraction does not prove rarity. The worked examples show how identical risk ratios can accompany appreciably different disease odds ratios when disease is common.</p>
+<p>Risk-set sampling requires another interpretation. At each case time, controls are selected among people then at risk. Someone may be a control before becoming a case, and may be sampled more than once under a suitable scheme. With correct sampling and analysis the OR estimates an incidence rate ratio without requiring a rare outcome. This is a property of the sampling design, not an exception granted merely because the disease sounds uncommon. Before translating an OR into a population comparison, identify how controls were selected and how time and matching were handled.</p>
+<p>Selection bias, information bias and confounding must be evaluated separately. Selection changes who enters or remains in the comparison. Information bias changes how exposure or disease is recorded. Confounding mixes the exposure association with common causes of exposure and outcome. Increasing sample size does not automatically fix any of these. Matching can improve efficiency and comparability on selected factors but is not randomisation; its structure must be respected in analysis. An unmatched cross-product calculation from collapsed margins is generally not the correct analysis of individually matched pairs.</p>
+<p>A confidence interval adds sampling-uncertainty information under statistical assumptions. It is not protection against an inappropriate control source or differential recall. Intervals including one do not demonstrate equivalence, and intervals excluding one do not establish causation. A defensible report identifies source population, eligibility, case ascertainment, control sampling, exposure timing, adjustment, estimate and uncertainty. It then limits its conclusion to what those choices support. The following worked analyses use hypothetical dental scenarios so that calculation can be separated from unsupported clinical claims.</p>
+<section id="worked-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="worked-analysis">Worked analysis</h2>
+<section id="begin-with-the-population-that-could-become-cases" class="level3">
+<h3 class="anchored" data-anchor-id="begin-with-the-population-that-could-become-cases">Begin with the population that could become cases</h3>
+<p>Hypothetical oral-cancer study in Plovdiv. Include eligible new diagnoses among residents of a defined catchment during a defined period. Specify anatomical sites, diagnostic criteria and residency before recruitment.</p>
+<p>The key control question. If this control developed the qualifying disease during the study period, would that person be identified as a case under the same eligibility and ascertainment rules?</p>
+<p>The case and control sampling frames must correspond; the source need not be an entire country.</p>
+</section>
+<section id="cases-need-consistent-definition-and-a-defined-period" class="level3">
+<h3 class="anchored" data-anchor-id="cases-need-consistent-definition-and-a-defined-period">Cases need consistent definition and a defined period</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Decision</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New diagnoses</td>
+<td>Avoid selecting only long-term survivors</td>
+</tr>
+<tr class="even">
+<td>Same disease</td>
+<td>Do not silently combine oral-cavity and oropharyngeal cancers</td>
+</tr>
+<tr class="odd">
+<td>Catchment and time</td>
+<td>Define who can enter</td>
+</tr>
+<tr class="even">
+<td>Ascertainment</td>
+<td>Referral and diagnostic access may affect inclusion</td>
+</tr>
+</tbody>
+</table>
+<p>Survivor selection. If exposure affects survival, sampling surviving prevalent cases may distort its association with disease occurrence. A large sample of survivors does not solve this.</p>
+</section>
+<section id="controls-need-not-be-perfectly-healthy" class="level3">
+<h3 class="anchored" data-anchor-id="controls-need-not-be-perfectly-healthy">Controls need not be perfectly healthy</h3>
+<p>Possible sources. Population registers; underlying cohort; patients from the same system if their reason for attendance does not distort exposure sampling.</p>
+<p>Convenience can bias exposure. Controls treated for tobacco-related conditions may have unusually high smoking exposure. Dental-clinic attenders can differ from non-attenders in income and behaviour.</p>
+<p>Select controls for their relationship to the source population. Exposed people may be controls; excluding them builds the association into the design.</p>
+</section>
+<section id="build-an-unmatched-casecontrol-table" class="level3">
+<h3 class="anchored" data-anchor-id="build-an-unmatched-casecontrol-table">Build an unmatched case–control table</h3>
+<p>Invented study. 100 cases and 200 independently sampled controls. Smoking is assessed over a predefined interval before a comparable index date. These are not real cancer estimates.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Smoking</th>
+<th>Cases</th>
+<th>Controls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes</td>
+<td>80 = a</td>
+<td>100 = b</td>
+</tr>
+<tr class="even">
+<td>No</td>
+<td>20 = c</td>
+<td>100 = d</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>The investigator selected numbers of cases and controls. The sample case fraction is not population disease frequency.</p>
+</section>
+<section id="probability-and-odds-have-different-denominators" class="level3">
+<h3 class="anchored" data-anchor-id="probability-and-odds-have-different-denominators">Probability and odds have different denominators</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Among</th>
+<th>Exposure proportion</th>
+<th>Exposure odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cases</td>
+<td>80/100 = 0.80</td>
+<td>80/20 = 4</td>
+</tr>
+<tr class="even">
+<td>Controls</td>
+<td>100/200 = 0.50</td>
+<td>100/100 = 1</td>
+</tr>
+</tbody>
+</table>
+<p>Odds = p/(1 − p). At p = 0.80: 0.80/0.20 = 4. Odds of 4 mean four exposed people per unexposed person, not probability 400%.</p>
+<p>The proportion ratio 0.80/0.50 = 1.6 is not the odds ratio.</p>
+</section>
+<section id="the-cross-product-ratio-compares-exposure-odds" class="level3">
+<h3 class="anchored" data-anchor-id="the-cross-product-ratio-compares-exposure-odds">The cross-product ratio compares exposure odds</h3>
+<p>OR = (a/c)/(b/d) = ad/bc. (80 × 100)/(100 × 20) = 4.</p>
+<p>Direct interpretation. Exposure odds were four times as high among sampled cases as among sampled controls. The population association estimated depends on how the groups were sampled.</p>
+<p>OR = 1 is the null. Reversing one comparison gives 0.25; reversing both axes preserves the cross-product ratio.</p>
+</section>
+<section id="sample-row-totals-do-not-give-population-risks" class="level3">
+<h3 class="anchored" data-anchor-id="sample-row-totals-do-not-give-population-risks">Sample row totals do not give population risks</h3>
+<p>Tempting but invalid. 80/(80+100) = 44.4% is the case fraction among sampled exposed people. It is not their population risk of cancer. Similarly 20/(20+100) = 16.7% is not the unexposed population risk.</p>
+<p>Why. The sample deliberately has 100 cases and 200 controls. Changing the control count changes these fractions without changing the disease process.</p>
+<p>This ordinary sample table does not directly provide absolute risk, RD, NNT or population incidence.</p>
+</section>
+<section id="doubling-controls-preserves-this-or" class="level3">
+<h3 class="anchored" data-anchor-id="doubling-controls-preserves-this-or">Doubling controls preserves this OR</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Exposure</th>
+<th>Cases</th>
+<th>Original controls</th>
+<th>Doubled controls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes</td>
+<td>80</td>
+<td>100</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>No</td>
+<td>20</td>
+<td>100</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>Same control exposure distribution. OR = (80×200)/(200×20) = 4. The apparent exposed risk becomes 80/280 = 28.6%, instead of 44.4%. Neither is population risk.</p>
+<p>Precision. A new random control sample may change OR by chance. More independent controls can improve precision, but cannot repair biased selection.</p>
+</section>
+<section id="rarity-brings-disease-or-closer-to-rr" class="level3">
+<h3 class="anchored" data-anchor-id="rarity-brings-disease-or-closer-to-rr">Rarity brings disease OR closer to RR</h3>
+<p>Population risks for illustration, not calculated from a case–control sample.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Exposed risk</th>
+<th>Reference risk</th>
+<th>RR</th>
+<th>Disease OR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2%</td>
+<td>1%</td>
+<td>2</td>
+<td>2.02</td>
+</tr>
+<tr class="even">
+<td>40%</td>
+<td>20%</td>
+<td>2</td>
+<td>2.67</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate with odds. OR = [Rₑ/(1 − Rₑ)]/[R₀/(1 − R₀)]. At 40% versus 20%: (0.4/0.6)/(0.2/0.8) = 2.67.</p>
+<p>With controls sampled among non-cases at the end, disease OR approximates RR when outcome risks are small. The sample case fraction does not define rarity.</p>
+</section>
+<section id="risk-set-sampling-has-a-different-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="risk-set-sampling-has-a-different-interpretation">Risk-set sampling has a different interpretation</h3>
+<p>Incidence-density sampling. At each case occurrence, sample controls from people still at risk then. A control may later become a case and may be sampled again under an appropriate scheme.</p>
+<p>With valid risk-set sampling and appropriate analysis, OR estimates an incidence rate ratio without a rare-outcome assumption.</p>
+<p>Identify the scheme. This does not turn every case–control OR into a risk ratio. Check time-specific sampling, matching and the analysis.</p>
+</section>
+<section id="nested-studies-may-use-prediagnostic-measurements" class="level3">
+<h3 class="anchored" data-anchor-id="nested-studies-may-use-prediagnostic-measurements">Nested studies may use prediagnostic measurements</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Within a defined cohort</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Baseline</td>
+<td>Collect smoking history and store samples</td>
+</tr>
+<tr class="even">
+<td>Follow-up</td>
+<td>Identify incident cases</td>
+</tr>
+<tr class="odd">
+<td>Sampling</td>
+<td>Select eligible controls using a stated scheme</td>
+</tr>
+<tr class="even">
+<td>Analysis</td>
+<td>Compare earlier exposure accounting for the scheme</td>
+</tr>
+</tbody>
+</table>
+<p>Practical benefit. Testing expensive biomarkers only for selected cases and controls saves resources. Prediagnostic measurement helps temporality but does not automatically remove confounding or measurement error.</p>
+</section>
+<section id="selection-can-change-or-without-changing-biology" class="level3">
+<h3 class="anchored" data-anchor-id="selection-can-change-or-without-changing-biology">Selection can change OR without changing biology</h3>
+<p>Keep 80 exposed and 20 unexposed cases fixed; change only selected controls.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Controls</th>
+<th>Original selection</th>
+<th>Distorted selection</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exposed</td>
+<td>100</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>Unexposed</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>OR</td>
+<td>4</td>
+<td>80×50/(150×20) = 1.33</td>
+</tr>
+</tbody>
+</table>
+<p>Selection bias. When exposure affects control inclusion, its distribution may not represent the required population. Here excess exposed controls attenuate OR; other mechanisms can distort it in other directions.</p>
+</section>
+<section id="recall-bias-is-differential-exposure-measurement" class="level3">
+<h3 class="anchored" data-anchor-id="recall-bias-is-differential-exposure-measurement">Recall bias is differential exposure measurement</h3>
+<p>Invented example. True exposure: 40/100 cases and 40/100 controls → OR = 1. Reported exposure: 60/100 cases and 40/100 controls → OR = (60×60)/(40×40) = 2.25.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Prediagnostic records</td>
+<td>Completeness may differ</td>
+</tr>
+<tr class="even">
+<td>Same structured interview</td>
+<td>Cannot guarantee equal recall</td>
+</tr>
+<tr class="odd">
+<td>Interviewer masking</td>
+<td>Does not erase knowledge of diagnosis</td>
+</tr>
+<tr class="even">
+<td>Comparable reference dates</td>
+<td>Avoid lifetime versus current exposure</td>
+</tr>
+</tbody>
+</table>
+<p>Information bias also includes recording and diagnostic suspicion. Its direction is not universally towards the null.</p>
+</section>
+<section id="matching-must-be-reflected-in-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="matching-must-be-reflected-in-analysis">Matching must be reflected in analysis</h3>
+<p>Purpose. Matching can improve comparability of selected factors and efficiency. It does not automatically eliminate confounding and is not randomisation.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Analysis consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Individual pairs</td>
+<td>Preserve pairing and use a matched method</td>
+</tr>
+<tr class="even">
+<td>Frequency matching</td>
+<td>Account for matching factors</td>
+</tr>
+<tr class="odd">
+<td>Overmatching</td>
+<td>Inappropriate factors may lose information or introduce bias</td>
+</tr>
+</tbody>
+</table>
+<p>Unmatched shortcut. The cross-product OR from collapsed margins is not generally the matched-pair estimate. Discordant pairs matter.</p>
+</section>
+<section id="confounding-differs-from-selection-and-recall" class="level3">
+<h3 class="anchored" data-anchor-id="confounding-differs-from-selection-and-recall">Confounding differs from selection and recall</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Hypothetical example</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Selection</td>
+<td>Controls attend a smoking-related clinic disproportionately</td>
+<td>Defensible control frame; assess non-response</td>
+</tr>
+<tr class="even">
+<td>Information</td>
+<td>Cases report smoking more fully</td>
+<td>Comparable measurement and dates</td>
+</tr>
+<tr class="odd">
+<td>Confounding</td>
+<td>Age influences both smoking and cancer occurrence</td>
+<td>Measure common causes; justified stratification or adjustment</td>
+</tr>
+</tbody>
+</table>
+<p>Correcting one problem does not correct the others. A large OR alone cannot distinguish them from causation.</p>
+</section>
+<section id="an-interval-adds-precision-information-not-bias-protection" class="level3">
+<h3 class="anchored" data-anchor-id="an-interval-adds-precision-information-not-bias-protection">An interval adds precision information, not bias protection</h3>
+<p>Original 80/20 and 100/100 table. OR = 4; approximate 95% CI 2.28–7.02, using a large-sample log-OR method for independent unmatched observations.</p>
+<p>Read estimate and design together. Report source population, control sampling, exposure period and adjustment. The interval describes sampling uncertainty under analysis assumptions.</p>
+<p>Limits. A narrow interval around bias remains biased. Including 1 does not establish equivalence. Matched, clustered and sparse data may require other methods.</p>
+</section>
+<section id="model-answers-follow-the-sampling-scheme" class="level3">
+<h3 class="anchored" data-anchor-id="model-answers-follow-the-sampling-scheme">Model answers follow the sampling scheme</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Table</td>
+<td>72, 60, 48, 180; OR = (72×180)/(60×48) = 4.5</td>
+</tr>
+<tr class="even">
+<td>Doubled controls</td>
+<td>OR = (72×360)/(120×48) = 4.5</td>
+</tr>
+<tr class="odd">
+<td>False risk</td>
+<td>72/132 = 54.5% is a selected-sample case fraction</td>
+</tr>
+<tr class="even">
+<td>Selection</td>
+<td>Control exposure may not represent the source population</td>
+</tr>
+<tr class="odd">
+<td>Information</td>
+<td>Use comparable interviews and reference dates</td>
+</tr>
+<tr class="even">
+<td>Confounding</td>
+<td>Measure smoking; use justified stratified or adjusted analysis</td>
+</tr>
+<tr class="odd">
+<td>Risk sets</td>
+<td>A control must be at risk when sampled; may later become a case</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="a-defensible-report-names-population-and-or" class="level3">
+<h3 class="anchored" data-anchor-id="a-defensible-report-names-population-and-or">A defensible report names population and OR</h3>
+<p>Complete conclusion. In this hypothetical unmatched study, exposure odds were four times as high among cases as controls (OR 4, approximate 95% CI 2.28–7.02). Interpretation depends on control sampling, comparable ascertainment and confounding control.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Before accepting it</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Selection</td>
+<td>Would controls have been identified as cases if they developed disease?</td>
+</tr>
+<tr class="even">
+<td>Measurement</td>
+<td>Exposure precedes diagnosis; comparable reference periods</td>
+</tr>
+<tr class="odd">
+<td>Analysis</td>
+<td>Sampling, matching, confounding and uncertainty</td>
+</tr>
+<tr class="even">
+<td>Claim</td>
+<td>OR differs from absolute risk and causation</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-case-control-en.html</guid>
+  <pubDate>Wed, 11 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>11. Кохортни проучвания и оценка на риска — 15-минутна подготовка</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-cohort-risk-bg.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-11-bg.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-cohort-risk-en.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-cohort-risk-bg.html">Tasks</a></p>
+<p>Кохортното проучване превръща популационния въпрос в последователност от наблюдения. В определен начален момент изследователят установява подходящите участници, измерва експозицията и записва състоянието на всеки. След това проследява предварително определен изход. Сравнението е между хора с различна експозиция, а не между лица, избрани заради наличието или липсата на заболяване. Тази последователност позволява оценка на възникването на болест, когато са известни нужните знаменатели и проследяване. Сама по себе си тя не превръща наблюдаваното сравнение в причинно. Групите може да се различават по възраст, социални условия, достъп до грижи и други причини за изхода.</p>
+<p>Първото решение е какво броим за събитие. При първа поява на пародонтит участниците първоначално трябва да са без определеното заболяване и да могат да го развият. Проучването на прогресията задава друг въпрос и може основателно да започне с вече болни лица. За настъпване на пълно обеззъбяване включваме хора с поне един естествен зъб в началото. Вече напълно обеззъбените не могат отново да достигнат този изход за първи път. При кариеса диагностичният праг е съществен: DMFT нула при протокол за кавитирани лезии не означава липса на всяка ранна лезия. Популацията, съзъбието, прагът и единицата трябва да останат еднакви през анализа.</p>
+<p>Разликата между човек и лезия е особено важна в денталната медицина. Дете с три нови лезии е един случай, ако изходът е дете с поне една нова лезия. Анализът по повърхности задава друг въпрос и трябва да отчете зависимостта между повърхностите в една уста. Изчисление по хора не може просто да се преименува в коефициент по повърхности. Новите посещения и обтурации също не броят пряко новозасегнатите хора. Клиничната дейност зависи от посещаемостта и лечебните решения наред със заболяването.</p>
+<p>Проспективната кохорта събира проследяването след включването. Историческата кохорта възстановява същата последователност от експозиция към изход чрез вече налични документи. Историческо не означава случай–контрола: класификацията следва правилото за подбор. Документите трябва да установяват кой е бил подходящ преди изхода, каква експозиция е имал, колко е проследен и как са установени събитията. Удобният списък на настоящи пациенти може да пропуска преместили се или починали лица. Това се оценява като възможен проблем, вместо останалите документи да се приемат за цялата начална популация.</p>
+<p>Рискът, или кумулативната заболеваемост, е вероятност за посочен интервал. При известни изходи за цялата начална група в риск делим новозасегнатите на началния брой. Числителят и знаменателят трябва да се отнасят до едно събитие. Петгодишният риск не е годишен, а деленето му на пет обикновено не възстановява едногодишната вероятност. Коефициентът на заболеваемост използва времето, прекарано в риск. Той описва скоростта на натрупване на събития по време на наблюдението. Мерната му единица съдържа време и затова коефициент на човеко-година не е сам по себе си процентна вероятност.</p>
+<p>Относителното и абсолютното сравнение изпълняват различни задачи. Относителният риск изразява мултипликативен контраст с нулева стойност едно. Разликата в риска изразява адитивен контраст с нулева стойност нула. Относителната асоциация може да изглежда голяма, когато и двата абсолютни риска са малки. Затова решението за програма изисква действителните рискове, изхода и времето наред с отношението. Процентните пунктове описват изваждане на проценти; относителната процентна промяна дели разликата на референтен риск. Обратната референция променя посоката и числовия израз на сравнението.</p>
+<p>Атрибутивните мерки добавят друго разграничение: чии случаи стоят в знаменателя? Фракцията сред експонираните отнася излишъка към случаите в експонираната група. Популационната фракция отнася популационния контраст към всички случаи в тази популация. За нея има значение и честотата на експозицията. Правилното смятане не доказва, че така изчисленото бреме е предотвратимо. Причинното тълкуване изисква обосновано сравнение и определена интервенция. Реалистичната промяна на експозицията може да не възстанови риска на всеки до референтния; другите причини и конкуриращите събития остават съществени.</p>
+<p>Същото внимание е необходимо при профилактиката. Относителното намаление не казва колко деца ще имат полза. Абсолютното намаление сравнява рисковете с програмата и при сравнението за еднакъв период. Реципрочната му стойност дава брой, необходим за третиране за един допълнителен благоприятен изход, когато ефектът и допусканията позволяват това тълкуване. Това е среден контраст, а не обещание, че във всяка малка група точно едно дете ще има полза. Стойността зависи от изходния риск, сравнението, събитието и срока. Вредите, приемливостта, ресурсите и неравният достъп имат значение дори при точно оценена полза.</p>
+<p>Проследяването и анализът завършват аргументацията. Неизвестните изходи не са отрицателни изходи. Отпадналите може систематично да се различават от останалите и разликите да зависят от експозицията. Преди отношението на рисковете опишете набирането, задържането и установяването на изхода. Замъгляването изисква отделна оценка: обща причина за експозицията и заболяването може да създаде груб контраст дори при равни рискове вътре в стратумите. Корекцията трябва да следва обоснован причинен въпрос и качествено измерване. Механичното включване на всички записани променливи не гарантира валидност.</p>
+<p>Накрая посочете неопределеността и ограниченията. Обичайният доверителен интервал описва извадковата неопределеност при допусканията на анализа. Той не включва автоматично селективното набиране, неправилните диагнози или неизмереното замъгляване. Зъби в една уста, деца от едно училище и съпоставени наблюдения може да изискват методи, отчитащи зависимостта. Полезният извод назовава популацията, експозицията, изхода, периода, абсолютните рискове, сравнителната мярка и основните ограничения на валидността. Следващите анализи използват измислени числа за упражняване на тази последователност. Те не са клинични препоръки и не оценяват ефективността на конкретна програма.</p>
+<section id="решен-анализ" class="level2">
+<h2 class="anchored" data-anchor-id="решен-анализ">Решен анализ</h2>
+<section id="определете-събитието-преди-популацията-в-риск" class="level3">
+<h3 class="anchored" data-anchor-id="определете-събитието-преди-популацията-в-риск">Определете събитието преди популацията в риск</h3>
+<p>Условен въпрос. Сред възрастни с естествени зъби и без пародонтит в началото свързан ли е изходният диабет с първа поява на пародонтит за пет години?</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Елемент</th>
+<th>Определя се преди проследяването</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Популация</td>
+<td>Общи правила за включване и набиране</td>
+</tr>
+<tr class="even">
+<td>Експозиция</td>
+<td>Диабет в началото по определен протокол</td>
+</tr>
+<tr class="odd">
+<td>Събитие</td>
+<td>Първи пародонтит при предварително зададен диагностичен праг</td>
+</tr>
+<tr class="even">
+<td>Време и единица</td>
+<td>Пет години; един човек е един първи случай</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="подходящите-участници-се-определят-от-изхода" class="level3">
+<h3 class="anchored" data-anchor-id="подходящите-участници-се-определят-от-изхода">Подходящите участници се определят от изхода</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Събитие</th>
+<th>Подходящи в началото</th>
+<th>Друг изход</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Първи кариесен опит</td>
+<td>DMFT = 0 при избрания праг</td>
+<td>Нова лезия на засегнат зъб</td>
+</tr>
+<tr class="even">
+<td>Първи пародонтит</td>
+<td>Хора без това заболяване</td>
+<td>Прогресия на налична болест</td>
+</tr>
+<tr class="odd">
+<td>Пълно обеззъбяване</td>
+<td>Поне един естествен зъб</td>
+<td>Загуба на един при запазени други зъби</td>
+</tr>
+</tbody>
+</table>
+<p>Запазете въпроса. Проучване на прогресията може да включва вече болни лица. Знаменателят се определя за прогресията, а не за първа поява.</p>
+</section>
+<section id="построяване-на-петгодишната-кохортна-таблица" class="level3">
+<h3 class="anchored" data-anchor-id="построяване-на-петгодишната-кохортна-таблица">Построяване на петгодишната кохортна таблица</h3>
+<p>Учебни допускания. Независими възрастни, известни петгодишни изходи за всички и без конкуриращи смъртни случаи в модела. Числата са измислени, а не оценки от реални пациенти.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Начало</th>
+<th>Нов пародонтит</th>
+<th>Без нов пародонтит</th>
+<th>Общо</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Диабет</td>
+<td>60</td>
+<td>240</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>Без диабет</td>
+<td>30</td>
+<td>570</td>
+<td>600</td>
+</tr>
+<tr class="odd">
+<td>Общо</td>
+<td>90</td>
+<td>810</td>
+<td>900</td>
+</tr>
+</tbody>
+</table>
+<p>Сборовете по редове са началните групи в риск, а не брой лица, подбрани след диагнозата.</p>
+</section>
+<section id="започнете-с-два-риска-и-срок-на-проследяване" class="level3">
+<h3 class="anchored" data-anchor-id="започнете-с-два-риска-и-срок-на-проследяване">Започнете с два риска и срок на проследяване</h3>
+<p>С диабет. 60/300 = 0,20 = 20% за пет години.</p>
+<p>Без диабет. 30/600 = 0,05 = 5% за пет години.</p>
+<p>Общ риск. 90/900 = 10%. Непретегленото средно от 20% и 5% е 12,5% и пренебрегва размера на групите. Двадесет случая на 100 за пет години не означава двадесет годишно.</p>
+</section>
+<section id="rr-сравнява-рисковете-мултипликативно" class="level3">
+<h3 class="anchored" data-anchor-id="rr-сравнява-рисковете-мултипликативно">RR сравнява рисковете мултипликативно</h3>
+<p>RR = Rₑ/R₀. 0,20/0,05 = 4. Групата с диабет има четири пъти по-висок наблюдаван петгодишен риск.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>RR</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Равни наблюдавани рискове</td>
+</tr>
+<tr class="even">
+<td>Над 1</td>
+<td>По-висок риск сред експонираните</td>
+</tr>
+<tr class="odd">
+<td>Под 1</td>
+<td>По-нисък риск сред експонираните</td>
+</tr>
+</tbody>
+</table>
+<p>Асоциация. Четирикратният риск е относително увеличение с 300%. Грубата асоциация не установява каква част от заболяванията е причинена от диабета.</p>
+</section>
+<section id="разликата-в-риска-изразява-абсолютния-излишък" class="level3">
+<h3 class="anchored" data-anchor-id="разликата-в-риска-изразява-абсолютния-излишък">Разликата в риска изразява абсолютния излишък</h3>
+<p>RD = Rₑ − R₀. 0,20 − 0,05 = 15 процентни пункта: 15 допълнителни случая на 100 за пет години при сравнение на наблюдаваните рискове.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Скала</th>
+<th>Резултат</th>
+<th>Въпрос</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Относителна</td>
+<td>RR = 4</td>
+<td>Колко пъти по-висок?</td>
+</tr>
+<tr class="even">
+<td>Абсолютна</td>
+<td>RD = 15 п.п.</td>
+<td>Колко допълнителни случая на 100?</td>
+</tr>
+</tbody>
+</table>
+<p>Обратна референция. RR става 0,25; RD става −15 процентни пункта. Посочвайте реда на групите.</p>
+</section>
+<section id="атрибутивна-фракция-сред-експонираните-75" class="level3">
+<h3 class="anchored" data-anchor-id="атрибутивна-фракция-сред-експонираните-75">Атрибутивна фракция сред експонираните: 75%</h3>
+<p>AFₑ = (Rₑ − R₀)/Rₑ. (0,20 − 0,05)/0,20 = 75%. При референтен риск 300 експонирани биха имали 15 вместо 60 случая; контрастът е 45/60.</p>
+<p>Причинни допускания. Предотвратимостта изисква неизкривено причинно сравнение и определена промяна в експозицията. Отстраняването на диабета не възстановява непременно веднага референтния риск.</p>
+<p>Терминология. RD понякога се нарича атрибутивен риск; AF е пропорция. Посочвайте формулата.</p>
+</section>
+<section id="популационният-ефект-зависи-от-честотата-на-експозицията" class="level3">
+<h3 class="anchored" data-anchor-id="популационният-ефект-зависи-от-честотата-на-експозицията">Популационният ефект зависи от честотата на експозицията</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Мярка</th>
+<th>Същата условна популация</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Популационен риск</td>
+<td>90/900 = 10%</td>
+</tr>
+<tr class="even">
+<td>Референтен риск</td>
+<td>30/600 = 5%</td>
+</tr>
+<tr class="odd">
+<td>Популационна разлика</td>
+<td>5 процентни пункта</td>
+</tr>
+<tr class="even">
+<td>PAF</td>
+<td>(10% − 5%)/10% = 50%</td>
+</tr>
+</tbody>
+</table>
+<p>Проверка. 900 × 5% = 45 случая при референтен риск; 90 − 45 = 45 допълнителни; 45/90 = 50%. AF сред експонираните е 75%: друг знаменател.</p>
+<p>Обхват. Груби контрасти. Причинната PAF изисква валидни причинни рискове и определена интервенция. Не я пренасяйте в популация с друга честота на експозицията.</p>
+</section>
+<section id="профилактиката-изисква-абсолютен-и-относителен-ефект" class="level3">
+<h3 class="anchored" data-anchor-id="профилактиката-изисква-абсолютен-и-относителен-ефект">Профилактиката изисква абсолютен и относителен ефект</h3>
+<p>Ново условно изпитване. Индивидуално рандомизирани независими деца; всички проследени три години. Допълнителна програма спрямо стандартна профилактика. Изход: поне една нова кавитирана лезия.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Група</th>
+<th>Нови случаи / общо</th>
+<th>Риск</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Допълнителна програма</td>
+<td>20/400</td>
+<td>5%</td>
+</tr>
+<tr class="even">
+<td>Стандартна профилактика</td>
+<td>40/400</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<p>Два ефекта. RR = 0,5; относително намаление = 1 − RR = 50%. ARR = 0,10 − 0,05 = 5 процентни пункта: пет по-малко засегнати деца на 100 за три години.</p>
+</section>
+<section id="nnt-включва-изход-сравнение-и-време" class="level3">
+<h3 class="anchored" data-anchor-id="nnt-включва-изход-сравнение-и-време">NNT включва изход, сравнение и време</h3>
+<p>NNT = 1/ARR. 1/0,05 = 20. Средно 20 деца трябва да получат допълнителната вместо стандартната програма за три години, за да се предотврати един допълнителен случай, ако ефектът е приложим.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Проверка</th>
+<th>Причина</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Пропорции</td>
+<td>1/0,05, а не 1/5</td>
+</tr>
+<tr class="even">
+<td>Период</td>
+<td>Тригодишният NNT не е годишен</td>
+</tr>
+<tr class="odd">
+<td>Изход</td>
+<td>Деца с лезии не е същото като брой лезии</td>
+</tr>
+<tr class="even">
+<td>Неопределеност</td>
+<td>Не е гаранция за всяка група от 20</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="еднакъв-rr-може-да-означава-различна-абсолютна-полза" class="level3">
+<h3 class="anchored" data-anchor-id="еднакъв-rr-може-да-означава-различна-абсолютна-полза">Еднакъв RR може да означава различна абсолютна полза</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Среда</th>
+<th>Стандартен риск</th>
+<th>Риск с програма</th>
+<th>ARR</th>
+<th>NNT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>По-нисък начален риск</td>
+<td>2%</td>
+<td>1%</td>
+<td>1 п.п.</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>По-висок начален риск</td>
+<td>20%</td>
+<td>10%</td>
+<td>10 п.п.</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>При допускане за един и същ тригодишен RR = 0,5 абсолютната полза зависи от изходния риск.</p>
+<p>Решение. Отчитат се вредите, приемливостта, ресурсите и равнопоставеността. Таблицата допуска преносим относителен ефект; тя не го доказва.</p>
+</section>
+<section id="нееднаквото-проследяване-изисква-човеко-време" class="level3">
+<h3 class="anchored" data-anchor-id="нееднаквото-проследяване-изисква-човеко-време">Нееднаквото проследяване изисква човеко-време</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Група</th>
+<th>Нови случаи</th>
+<th>Време в риск</th>
+<th>Коефициент на заболеваемост</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Експонирани</td>
+<td>18</td>
+<td>450 ч.-г.</td>
+<td>4 на 100 ч.-г.</td>
+</tr>
+<tr class="even">
+<td>Неекспонирани</td>
+<td>12</td>
+<td>600 ч.-г.</td>
+<td>2 на 100 ч.-г.</td>
+</tr>
+</tbody>
+</table>
+<p>Сравнение на коефициенти. Отношение = (18/450)/(12/600) = 2. Разлика = 2 случая на 100 човеко-години.</p>
+<p>Единици. Това не е отношение на двугодишни рискове. Времето се натрупва до събитието, отпадането или края; човеко-времето не премахва автоматично информативното отпадане.</p>
+</section>
+<section id="липсващият-изход-не-означава-липса-на-заболяване" class="level3">
+<h3 class="anchored" data-anchor-id="липсващият-изход-не-означава-липса-на-заболяване">Липсващият изход не означава липса на заболяване</h3>
+<p>Условна кохорта. 100 започват; за 80 е известен петгодишният изход, включително 8 случая; 20 изхода са неизвестни.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Изчисление</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8/80 = 10%</td>
+<td>Риск при известен изход; възможна селекция</td>
+</tr>
+<tr class="even">
+<td>8/100 = 8%</td>
+<td>Минимален риск, ако никой от липсващите не е случай</td>
+</tr>
+<tr class="odd">
+<td>(8+20)/100 = 28%</td>
+<td>Максимум, ако всички липсващи са случаи</td>
+</tr>
+</tbody>
+</table>
+<p>Рискът за цялата кохорта не е еднозначен: груби граници 8–28%. Оценете причините за отпадане и допусканията.</p>
+</section>
+<section id="замъгляването-може-да-промени-грубото-сравнение" class="level3">
+<h3 class="anchored" data-anchor-id="замъгляването-може-да-промени-грубото-сравнение">Замъгляването може да промени грубото сравнение</h3>
+<p>Друга измислена кохорта: първа загуба на зъб за пет години; всички имат естествени зъби в началото.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Възраст</th>
+<th>Експозиция +</th>
+<th>Експозиция −</th>
+<th>RR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>По-млади</td>
+<td>10/100 = 10%</td>
+<td>40/400 = 10%</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>По-възрастни</td>
+<td>160/400 = 40%</td>
+<td>40/100 = 40%</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Всички</td>
+<td>170/500 = 34%</td>
+<td>80/500 = 16%</td>
+<td>2,125</td>
+</tr>
+</tbody>
+</table>
+<p>Различен възрастов състав. Експонираните са по-възрастни. В модела възрастта влияе на експозицията и изхода. Равни възрастови тегла дават 25% в двете групи. Стратификацията не гарантира отстраняване на друго замъгляване.</p>
+</section>
+<section id="доверителните-интервали-описват-извадкова-неопределеност" class="level3">
+<h3 class="anchored" data-anchor-id="доверителните-интервали-описват-извадкова-неопределеност">Доверителните интервали описват извадкова неопределеност</h3>
+<p>Отново 60/300 спрямо 30/600. RR = 4; приблизителен 95% ДИ 2,64–6,06, чрез асимптотичен log-RR метод при независими наблюдения.</p>
+<p>Тълкуване. При статистическите допускания данните са съвместими с диапазон от отношения на рискове. Широкият интервал означава ограничена точност.</p>
+<p>Ограничения. Не коригира замъгляване, грешна класификация или селективно отпадане; не съдържа 95% от индивидуалните рискове. Не дава 95% вероятност фиксираният параметър да е в този конкретен интервал.</p>
+</section>
+<section id="примерни-отговори-знаменателите-определят-мерките" class="level3">
+<h3 class="anchored" data-anchor-id="примерни-отговори-знаменателите-определят-мерките">Примерни отговори: знаменателите определят мерките</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Задача</th>
+<th>Проверен отговор</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 · Таблица</td>
+<td>40 случая, 160 без изход; 48 случая, 552 без изход</td>
+</tr>
+<tr class="even">
+<td>1 · Сравнения</td>
+<td>20% спрямо 8% за пет години; RR = 2,5; RD = 12 п.п.</td>
+</tr>
+<tr class="odd">
+<td>1 · Значение</td>
+<td>AF = 60%; общ риск = 88/800 = 11%; PAF = (11−8)/11 = 27,3%</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>5% спрямо 10%; RR = 0,5; ARR = 5 п.п.; относително намаление 50%; NNT = 20 за три години</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>10% при известен изход; граници за цялата кохорта 8–28%</td>
+</tr>
+</tbody>
+</table>
+<p>Повече наблюдения подобряват точността при подходящи извадкови допускания; не поправят систематично изкривяване.</p>
+</section>
+<section id="посочете-събитието-времето-абсолютния-контраст-и-неопределеността" class="level3">
+<h3 class="anchored" data-anchor-id="посочете-събитието-времето-абсолютния-контраст-и-неопределеността">Посочете събитието, времето, абсолютния контраст и неопределеността</h3>
+<p>Пълен резултат. В условната кохорта петгодишните рискове са 20% и 5%; груб RR 4 (приблизителен 95% ДИ 2,64–6,06), RD 15 процентни пункта. Оценете замъгляването и липсващите изходи преди причинно тълкуване.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Мярка</th>
+<th>Винаги добавяйте</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Риск</td>
+<td>Популация, събитие и период</td>
+</tr>
+<tr class="even">
+<td>RR / RD</td>
+<td>Референтна група, абсолютни рискове и неопределеност</td>
+</tr>
+<tr class="odd">
+<td>AF / PAF</td>
+<td>Знаменател и причинни допускания</td>
+</tr>
+<tr class="even">
+<td>NNT</td>
+<td>Сравнение, изход и време</td>
+</tr>
+</tbody>
+</table>
+<p>Следва случай–контрола: обичайните сборове по редове не дават тези рискове.</p>
+</section>
+</section>
+<section id="източници" class="level2">
+<h2 class="anchored" data-anchor-id="източници">Източници</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Bulgarian</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-cohort-risk-bg.html</guid>
+  <pubDate>Wed, 11 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>11. Cohort studies and risk assessment — 15-minute reading</title>
+  <dc:creator>Kostadin Kostadinov</dc:creator>
+  <link>https://kostadinoff.github.io/15-minute-learning/dental-public-health-cohort-risk-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="../2026-2027-classes/dental-11-en.pdf">Slides PDF</a> · <a href="../15-minute-learning/dental-public-health-cohort-risk-bg.html">BG / EN</a> · <a href="../learning-tasks/dental-public-health-cohort-risk-en.html">Tasks</a></p>
+<p>A cohort study turns a population question into a sequence of observations. At a defined starting point the investigator establishes eligibility, measures exposure and records the condition of each participant. The participants are then observed for a specified outcome. The comparison is between people with different exposures, rather than between people selected because they already have or do not have the outcome. This sequence permits estimation of disease occurrence when the necessary denominators and follow-up information are available. It does not, by itself, make an observational comparison causal. Exposed and unexposed people may differ in age, social circumstances, access to care and other causes of the outcome.</p>
+<p>The first decision is what counts as an event. For first periodontitis, participants must initially be free of the defined condition and capable of developing it. A study of progression has a different question and may appropriately begin with people who already have periodontitis. A study of becoming edentulous includes people with at least one natural tooth at baseline. It excludes people already without natural teeth. In a first-caries study, the selected diagnostic threshold matters: DMFT zero under a cavitation-based protocol does not establish the absence of every early lesion. Keep the population, dentition, threshold and unit consistent throughout the analysis.</p>
+<p>The distinction between a person and a lesion is especially important in dentistry. A child who develops three lesions is one child with the endpoint if the endpoint is at least one new lesion. A surface-level analysis asks a different question and involves correlation between surfaces within the same mouth. A person-level calculation cannot be relabelled as a surface-level rate. Similarly, the number of new appointments or restorations does not directly count newly affected people. Clinical activity depends on attendance and treatment decisions as well as disease.</p>
+<p>A prospective cohort collects follow-up after recruitment. A historical cohort reconstructs the same exposure-to-outcome sequence from records that already exist. Historical does not mean case–control: classification follows the sampling rule. Records must establish who was eligible before the outcome, which exposure they had, what follow-up was available and how outcomes were found. A convenient list of current patients may omit people who moved away or died. The researcher must evaluate that omission rather than treating the surviving records as the complete original population.</p>
+<p>Risk, or cumulative incidence, is a probability over a stated interval. With complete outcome ascertainment in a fixed initially at-risk group, divide newly affected people by the starting group. Both numerator and denominator must concern the same event. A five-year risk cannot be called an annual risk, and division by five does not generally reconstruct a one-year probability. An incidence rate instead divides events by time spent at risk. It answers how quickly events accumulated during observation. Its unit contains time, so a rate per person-year is not itself a percentage probability.</p>
+<p>Relative and absolute comparisons serve different purposes. The risk ratio expresses a multiplicative contrast and has a null value of one. The risk difference expresses an additive contrast and has a null value of zero. A relative association can look large when both absolute risks are small. A programme decision therefore needs the actual risks, endpoint and time horizon alongside the ratio. Percentage points describe subtraction of percentages; a relative percentage change divides that difference by a reference risk. Changing the reference group changes both the direction and the numerical expression of the comparison.</p>
+<p>Attributable measures add another distinction: whose cases are in the denominator? The attributable fraction among exposed people relates an excess to the cases observed among those exposed. The population attributable fraction relates a population contrast to all cases in that population. The frequency of exposure matters for the latter. Neither fraction becomes a proven preventable burden merely because its arithmetic is correct. Such an interpretation requires a justified causal comparison and a specified intervention. A realistic exposure change may not restore everyone to the unexposed risk, and other causes and competing events may remain.</p>
+<p>The same care applies to prevention. A relative reduction does not state how many children benefit. The absolute reduction compares the programme and comparator risks over the same period. Its reciprocal gives a number needed to treat for an additional beneficial outcome when the effect and assumptions support that interpretation. This number is an average comparison, not a promise that exactly one child benefits in every small group. It changes with baseline risk, comparator, endpoint and follow-up. Harms, acceptability, resources and unequal access remain relevant even when the benefit is precisely estimated.</p>
+<p>Follow-up and analysis complete the argument. Unknown outcomes are not negative outcomes. People lost to observation may differ systematically from people retained, and those differences can vary by exposure. Describe recruitment, retention and outcome ascertainment before presenting a ratio. Confounding requires its own assessment: a common cause of exposure and outcome can create a crude contrast even when the within-stratum risks are equal. Adjustment must follow a defensible causal question and adequate measurement; mechanically including every recorded variable is not a guarantee of validity.</p>
+<p>Finally, report uncertainty and limits. A conventional confidence interval quantifies sampling uncertainty under the analysis assumptions. It does not automatically incorporate selective recruitment, incorrect diagnoses or unmeasured confounding. Repeated teeth, schools and matched observations may require methods that respect dependence. A useful conclusion names the population, exposure, endpoint, period, absolute risks, comparative measure and main validity limits. The worked analyses below use invented numbers to practise that sequence; they are not clinical recommendations or estimates of a named programme’s effectiveness.</p>
+<section id="worked-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="worked-analysis">Worked analysis</h2>
+<section id="define-the-event-before-choosing-who-is-at-risk" class="level3">
+<h3 class="anchored" data-anchor-id="define-the-event-before-choosing-who-is-at-risk">Define the event before choosing who is at risk</h3>
+<p>Hypothetical question. Among dentate adults initially without periodontitis, is baseline diabetes associated with first periodontitis over five years?</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Specify before follow-up</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population</td>
+<td>Common eligibility and recruitment rules</td>
+</tr>
+<tr class="even">
+<td>Exposure</td>
+<td>Diabetes at baseline, measured by a defined protocol</td>
+</tr>
+<tr class="odd">
+<td>Event</td>
+<td>First periodontitis at a prespecified diagnostic threshold</td>
+</tr>
+<tr class="even">
+<td>Time and unit</td>
+<td>Five years; one person is one first case</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="eligibility-follows-the-endpoint" class="level3">
+<h3 class="anchored" data-anchor-id="eligibility-follows-the-endpoint">Eligibility follows the endpoint</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Initially eligible</th>
+<th>Different endpoint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>First caries experience</td>
+<td>DMFT = 0 at the chosen threshold</td>
+<td>New lesion on an affected tooth</td>
+</tr>
+<tr class="even">
+<td>First periodontitis</td>
+<td>People without that condition</td>
+<td>Progression of existing disease</td>
+</tr>
+<tr class="odd">
+<td>Becoming edentulous</td>
+<td>At least one natural tooth</td>
+<td>Losing one tooth while others remain</td>
+</tr>
+</tbody>
+</table>
+<p>Keep the question. A progression study may include existing disease. Define its denominator for progression, rather than first onset.</p>
+</section>
+<section id="construct-the-five-year-cohort-table" class="level3">
+<h3 class="anchored" data-anchor-id="construct-the-five-year-cohort-table">Construct the five-year cohort table</h3>
+<p>Teaching assumptions. Independent adults, known five-year outcomes for everyone, and no competing deaths in this model. All numbers are invented, not estimates from real patients.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Baseline</th>
+<th>New periodontitis</th>
+<th>No new periodontitis</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diabetes</td>
+<td>60</td>
+<td>240</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>No diabetes</td>
+<td>30</td>
+<td>570</td>
+<td>600</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>90</td>
+<td>810</td>
+<td>900</td>
+</tr>
+</tbody>
+</table>
+<p>Row totals are the initially at-risk groups, not numbers selected after diagnosis.</p>
+</section>
+<section id="start-with-two-risks-and-a-time-horizon" class="level3">
+<h3 class="anchored" data-anchor-id="start-with-two-risks-and-a-time-horizon">Start with two risks and a time horizon</h3>
+<p>With diabetes. 60/300 = 0.20 = 20% over five years.</p>
+<p>Without diabetes. 30/600 = 0.05 = 5% over five years.</p>
+<p>Overall risk. 90/900 = 10%. The unweighted mean of 20% and 5% is 12.5%, which ignores group size. Twenty cases per 100 over five years is not twenty per year.</p>
+</section>
+<section id="rr-compares-risks-multiplicatively" class="level3">
+<h3 class="anchored" data-anchor-id="rr-compares-risks-multiplicatively">RR compares risks multiplicatively</h3>
+<p>RR = Rₑ/R₀. 0.20/0.05 = 4. The diabetes group had four times the observed five-year risk.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>RR</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Equal observed risks</td>
+</tr>
+<tr class="even">
+<td>Above 1</td>
+<td>Higher risk among exposed people</td>
+</tr>
+<tr class="odd">
+<td>Below 1</td>
+<td>Lower risk among exposed people</td>
+</tr>
+</tbody>
+</table>
+<p>Association. Four times the risk is a 300% relative increase. This crude association does not establish how much disease diabetes caused.</p>
+</section>
+<section id="risk-difference-expresses-the-absolute-excess" class="level3">
+<h3 class="anchored" data-anchor-id="risk-difference-expresses-the-absolute-excess">Risk difference expresses the absolute excess</h3>
+<p>RD = Rₑ − R₀. 0.20 − 0.05 = 15 percentage points: 15 additional cases per 100 over five years, comparing observed risks.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Scale</th>
+<th>Result</th>
+<th>Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Relative</td>
+<td>RR = 4</td>
+<td>How many times as high?</td>
+</tr>
+<tr class="even">
+<td>Absolute</td>
+<td>RD = 15 pp</td>
+<td>How many additional cases per 100?</td>
+</tr>
+</tbody>
+</table>
+<p>Reverse the reference. RR becomes 0.25; RD becomes −15 percentage points. Specify the group order.</p>
+</section>
+<section id="attributable-fraction-among-exposed-people-75" class="level3">
+<h3 class="anchored" data-anchor-id="attributable-fraction-among-exposed-people-75">Attributable fraction among exposed people: 75%</h3>
+<p>AFₑ = (Rₑ − R₀)/Rₑ. (0.20 − 0.05)/0.20 = 75%. At the reference risk, 300 exposed people would have 15 rather than 60 cases; the contrast is 45/60.</p>
+<p>Causal assumptions. Calling this preventable requires an unbiased causal comparison and a defined exposure change. Removing diabetes does not necessarily immediately restore the reference risk.</p>
+<p>Terminology. RD is sometimes called attributable risk; AF is a proportion. State the formula.</p>
+</section>
+<section id="population-impact-depends-on-exposure-frequency" class="level3">
+<h3 class="anchored" data-anchor-id="population-impact-depends-on-exposure-frequency">Population impact depends on exposure frequency</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th>Same hypothetical population</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population risk</td>
+<td>90/900 = 10%</td>
+</tr>
+<tr class="even">
+<td>Reference risk</td>
+<td>30/600 = 5%</td>
+</tr>
+<tr class="odd">
+<td>Population risk difference</td>
+<td>5 percentage points</td>
+</tr>
+<tr class="even">
+<td>PAF</td>
+<td>(10% − 5%)/10% = 50%</td>
+</tr>
+</tbody>
+</table>
+<p>Count check. 900 × 5% = 45 reference-risk cases; 90 − 45 = 45 excess; 45/90 = 50%. AF among exposed people is 75%: a different denominator.</p>
+<p>Scope. Crude contrasts. Causal PAF needs valid causal risks and a defined intervention. Do not transfer it to a population with different exposure frequency.</p>
+</section>
+<section id="prevention-needs-absolute-and-relative-effects" class="level3">
+<h3 class="anchored" data-anchor-id="prevention-needs-absolute-and-relative-effects">Prevention needs absolute and relative effects</h3>
+<p>New hypothetical trial. Individually randomised, independent children; all followed three years. Additional programme versus standard prevention. Endpoint: at least one new cavitated lesion.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>New cases / total</th>
+<th>Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Additional programme</td>
+<td>20/400</td>
+<td>5%</td>
+</tr>
+<tr class="even">
+<td>Standard prevention</td>
+<td>40/400</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<p>Two effects. RR = 0.5; relative risk reduction = 1 − RR = 50%. ARR = 0.10 − 0.05 = 5 percentage points: five fewer affected children per 100 over three years.</p>
+</section>
+<section id="nnt-includes-an-outcome-comparator-and-time" class="level3">
+<h3 class="anchored" data-anchor-id="nnt-includes-an-outcome-comparator-and-time">NNT includes an outcome, comparator and time</h3>
+<p>NNT = 1/ARR. 1/0.05 = 20. On average, 20 children need the additional rather than standard programme for three years to prevent one additional child developing the endpoint, if this effect applies.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Check</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Proportions</td>
+<td>1/0.05, not 1/5</td>
+</tr>
+<tr class="even">
+<td>Period</td>
+<td>Three-year NNT is not annual NNT</td>
+</tr>
+<tr class="odd">
+<td>Endpoint</td>
+<td>Children with lesions differ from lesion counts</td>
+</tr>
+<tr class="even">
+<td>Uncertainty</td>
+<td>Not a guarantee for each group of 20</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="equal-rr-can-mean-different-absolute-benefit" class="level3">
+<h3 class="anchored" data-anchor-id="equal-rr-can-mean-different-absolute-benefit">Equal RR can mean different absolute benefit</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Setting</th>
+<th>Standard risk</th>
+<th>Programme risk</th>
+<th>ARR</th>
+<th>NNT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lower baseline risk</td>
+<td>2%</td>
+<td>1%</td>
+<td>1 pp</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>Higher baseline risk</td>
+<td>20%</td>
+<td>10%</td>
+<td>10 pp</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>Assuming the same three-year RR = 0.5, absolute benefit depends on baseline risk.</p>
+<p>Decision. Consider harms, acceptability, resources and equity. The table assumes transferable relative effects; it does not establish that assumption.</p>
+</section>
+<section id="unequal-follow-up-calls-for-person-time" class="level3">
+<h3 class="anchored" data-anchor-id="unequal-follow-up-calls-for-person-time">Unequal follow-up calls for person-time</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>New cases</th>
+<th>Time at risk</th>
+<th>Incidence rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exposed</td>
+<td>18</td>
+<td>450 PY</td>
+<td>4 per 100 PY</td>
+</tr>
+<tr class="even">
+<td>Unexposed</td>
+<td>12</td>
+<td>600 PY</td>
+<td>2 per 100 PY</td>
+</tr>
+</tbody>
+</table>
+<p>Rate comparison. Rate ratio = (18/450)/(12/600) = 2. Rate difference = 2 cases per 100 person-years.</p>
+<p>Units. This is not a two-year risk ratio. Time accrues until the event, loss or end; person-time does not automatically remove informative-loss bias.</p>
+</section>
+<section id="a-missing-outcome-is-not-disease-free" class="level3">
+<h3 class="anchored" data-anchor-id="a-missing-outcome-is-not-disease-free">A missing outcome is not disease-free</h3>
+<p>Hypothetical cohort. 100 start; 80 have a known five-year outcome, including 8 cases; 20 outcomes are unknown.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Calculation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8/80 = 10%</td>
+<td>Risk among known outcomes; may be selected</td>
+</tr>
+<tr class="even">
+<td>8/100 = 8%</td>
+<td>Minimum full-cohort risk if none missing are cases</td>
+</tr>
+<tr class="odd">
+<td>(8+20)/100 = 28%</td>
+<td>Maximum if all missing are cases</td>
+</tr>
+</tbody>
+</table>
+<p>Full-cohort risk is not identified: crude bounds are 8–28%. Assess reasons for loss and analysis assumptions.</p>
+</section>
+<section id="confounding-can-change-a-crude-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="confounding-can-change-a-crude-comparison">Confounding can change a crude comparison</h3>
+<p>Separate invented cohort: first tooth loss over five years; everyone initially has natural teeth.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Age</th>
+<th>Exposure +</th>
+<th>Exposure −</th>
+<th>RR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Younger</td>
+<td>10/100 = 10%</td>
+<td>40/400 = 10%</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Older</td>
+<td>160/400 = 40%</td>
+<td>40/100 = 40%</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>All</td>
+<td>170/500 = 34%</td>
+<td>80/500 = 16%</td>
+<td>2.125</td>
+</tr>
+</tbody>
+</table>
+<p>Different age composition. The exposed group is older. In this model age affects exposure and outcome. Equal age weights give 25% in both groups. Stratification does not guarantee removal of other confounding.</p>
+</section>
+<section id="confidence-intervals-describe-sampling-uncertainty" class="level3">
+<h3 class="anchored" data-anchor-id="confidence-intervals-describe-sampling-uncertainty">Confidence intervals describe sampling uncertainty</h3>
+<p>Return to 60/300 versus 30/600. RR = 4; approximate 95% CI 2.64–6.06, using a large-sample log-RR method for independent observations.</p>
+<p>Interpretation. Under the statistical assumptions, the data are compatible with a range of risk ratios. A wide interval means limited precision.</p>
+<p>Limits. It does not correct confounding, misclassification or selective loss; it does not contain 95% of individual risks. It is not a 95% probability that the fixed parameter lies in this particular interval.</p>
+</section>
+<section id="model-answers-denominators-determine-measures" class="level3">
+<h3 class="anchored" data-anchor-id="model-answers-denominators-determine-measures">Model answers: denominators determine measures</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Checked answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 · Table</td>
+<td>40 cases, 160 non-cases; 48 cases, 552 non-cases</td>
+</tr>
+<tr class="even">
+<td>1 · Comparisons</td>
+<td>20% vs 8% over five years; RR = 2.5; RD = 12 pp</td>
+</tr>
+<tr class="odd">
+<td>1 · Impact</td>
+<td>AF = 60%; population risk = 88/800 = 11%; PAF = (11−8)/11 = 27.3%</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>5% vs 10%; RR = 0.5; ARR = 5 pp; relative reduction 50%; NNT = 20 over three years</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>10% among known outcomes; full-cohort bounds 8–28%</td>
+</tr>
+</tbody>
+</table>
+<p>More observations improve precision under suitable sampling assumptions; they do not repair systematic distortion.</p>
+</section>
+<section id="report-event-time-absolute-contrast-and-uncertainty" class="level3">
+<h3 class="anchored" data-anchor-id="report-event-time-absolute-contrast-and-uncertainty">Report event, time, absolute contrast and uncertainty</h3>
+<p>Complete result. In this hypothetical cohort, five-year risks were 20% and 5%; crude RR 4 (approximate 95% CI 2.64–6.06), RD 15 percentage points. Assess confounding and missing outcomes before causal interpretation.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th>Always add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Risk</td>
+<td>Population, event and period</td>
+</tr>
+<tr class="even">
+<td>RR / RD</td>
+<td>Reference group, absolute risks and uncertainty</td>
+</tr>
+<tr class="odd">
+<td>AF / PAF</td>
+<td>Denominator and causal assumptions</td>
+</tr>
+<tr class="even">
+<td>NNT</td>
+<td>Comparator, endpoint and time</td>
+</tr>
+</tbody>
+</table>
+<p>Next: case–control sampling, where ordinary row totals do not give these risks.</p>
+</section>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<p><a href="https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html">CDC Field Epidemiology Manual, chapter 8</a>. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15">Cochrane Handbook, chapter 15</a>. Vandenbroucke &amp; Pearce (2012), DOI <a href="https://doi.org/10.1093/ije/dys147">10.1093/ije/dys147</a>. Greenland et al.&nbsp;(2016), DOI <a href="https://doi.org/10.1007/s10654-016-0149-3">10.1007/s10654-016-0149-3</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Dental Public Health</category>
+  <category>Epidemiology</category>
+  <category>Dental Medicine</category>
+  <category>2026/2027</category>
+  <guid>https://kostadinoff.github.io/15-minute-learning/dental-public-health-cohort-risk-en.html</guid>
+  <pubDate>Wed, 11 Nov 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Ethical principles in dental practice</title>
   <dc:creator>Kostadin Kostadinov</dc:creator>
   <link>https://kostadinoff.github.io/15-minute-learning/dental-social-medicine-ethical-principles-en.html</link>
@@ -426,7 +2342,7 @@
 <p>Отделете около <strong>15 минути</strong> за четене и размисъл. Текстът следва презентацията „Видове епидемиологични проучвания“. В упражнение 8 се научихме да броим — болестност, заболеваемост, човеко-време, а в упражнение 9 приложихме тези мерки към оралните заболявания. Сега ще видим как се изграждат проучванията, които отговарят на въпроси с тези числа. След това трябва да можете да назовете вида на проучването, да изчислите и тълкувате относителен риск, разлика в риска и отношение на шансовете и да кажете какво може да направи една връзка подвеждаща.</p>
 <section id="три-въпроса-разпознават-почти-всяко-проучване" class="level2">
 <h2 class="anchored" data-anchor-id="три-въпроса-разпознават-почти-всяко-проучване">Три въпроса разпознават почти всяко проучване</h2>
-<p>Първо: <strong>изследователят ли е определил експозицията?</strong> Ако не, проучването е <strong>наблюдателно</strong> — условията се изучават такива, каквито са. Ако да, то е <strong>експериментално</strong> (изпитване). Второ: <strong>има ли група за сравнение?</strong> Без нея проучването е <strong>описателно</strong> (кой, къде, кога) и поражда хипотези; с нея е <strong>аналитично</strong> и проверява хипотези за детерминантите. Трето: <strong>откъде започва проучването?</strong> Проучването „случай–контрола“ започва от изхода и търси експозицията в миналото; кохортното започва от експозицията и проследява хората напред до изхода; срезовото измерва двете едновременно. Доброто аналитично проучване сравнява изхода между групи, изразява сравнението количествено, контролира грешките и замъгляващите фактори и показва, че експозицията е предшествала изхода (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, гл. 12).</p>
+<p>Първо: <strong>изследователят ли е определил експозицията?</strong> Ако не, проучването е <strong>наблюдателно</strong> — условията се изучават такива, каквито са. Ако да, то е <strong>експериментално</strong> (изпитване). Второ: <strong>има ли група за сравнение?</strong> Описателно и аналитично обозначават целта: описание на закономерност или проверка на определено сравнение. Срезовото проучване може да изпълнява и двете цели; групата за сравнение сама не определя всеки дизайн. Трето: <strong>откъде започва проучването?</strong> Проучването „случай–контрола“ започва от изхода и търси експозицията в миналото; кохортното започва от експозицията и проследява хората напред до изхода; срезовото измерва двете едновременно. Доброто аналитично проучване сравнява изхода между групи, изразява сравнението количествено, контролира грешките и замъгляващите фактори и показва, че експозицията е предшествала изхода (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, гл. 12).</p>
 </section>
 <section id="описателни-проучвания" class="level2">
 <h2 class="anchored" data-anchor-id="описателни-проучвания">Описателни проучвания</h2>
@@ -438,18 +2354,19 @@
 <h2 class="anchored" data-anchor-id="кохортни-проучвания-и-случайконтрола">Кохортни проучвания и „случай–контрола“</h2>
 <p>Аналитичните проучвания говорят на езика на <strong>таблицата 2 × 2</strong>: експозицията е в редовете, изходът — в колоните (клетки a, b, c, d).</p>
 <p><strong>Кохортното проучване</strong> започва с хора без изхода, разделени на експонирани и неекспонирани, и ги проследява във времето. Понеже се броят новите случаи, рисковете се сравняват пряко. В хипотетична кохорта от 1000 души на 25 години периодонтит за пет години развиват 60 от 400 пушачи и 30 от 600 непушачи: риск 15 % и 5 %. <strong>Относителният риск</strong> (RR) е 15/5 = 3,0 — пушачите имат три пъти по-висок риск, а <strong>разликата в риска</strong> е 10 процентни пункта за пет години. Този излишък е <em>свързан</em> с тютюнопушенето в тези данни; да го наречем предотвратим чрез отказ от тютюна изисква причинни допускания и изключване на други обяснения. Кохортата може да е <strong>проспективна</strong> (експозицията се измерва сега, изходът — по-късно) или <strong>ретроспективна</strong> (минали записи определят експонираните и неекспонираните, които се проследяват до днес). В кохортата от Дънидин, Нова Зеландия, употребата на канабис между 18 и 32 години е свързана с нова загуба на пародонтално прикрепване, с коригиран RR около 2,2 при най-честите употребяващи (<a href="https://doi.org/10.1001/jama.299.5.525">Thomson et al., 2008</a>). Кохортите показват последователността във времето и дават заболеваемост, но са бавни, скъпи, неефективни за редки изходи и уязвими от отпадането на участници.</p>
-<p><strong>Проучването „случай–контрола“</strong> започва от другия край: хора с изхода (случаи) и сравними хора без него (контроли), чиято минала експозиция се сравнява. Изследователят сам решава колко случаи и контроли да включи, затова рисковете не могат да се изчислят; вместо това се използва <strong>отношението на шансовете</strong> OR = ad/bc. То се доближава до RR само когато изходът е рядък в изходното население: при рискове 2 % и 1 % RR = 2,00, а OR = 2,02, но при рискове 40 % и 20 % RR пак е 2,00, а OR = 2,67 — шансовете не са рискове. При 60 пушачи сред 100 пациенти с рак на устната кухина и 50 сред 200 контроли OR = (60 × 150)/(50 × 40) = 4,5. Това е предпочитаният дизайн за редки заболявания като рака на устната кухина; такова е и проучването на Дол и Хил за тютюнопушенето и рака на белия дроб (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Слабите му места са измерването на миналата експозиция (<strong>систематична грешка при припомнянето</strong>) и подборът на контролите (<strong>систематична грешка при подбора</strong>); факторът, по който се съпоставят групите, вече не може да се изследва — затова съпоставянето по тютюнопушене би скрило неговия ефект.</p>
+<p><strong>Проучването „случай–контрола“</strong> започва от другия край: хора с изхода (случаи) и сравними хора без него (контроли), чиято минала експозиция се сравнява. Изследователят сам решава колко случаи и контроли да включи, затова рисковете не могат да се изчислят; вместо това се използва <strong>отношението на шансовете</strong> OR = ad/bc. При контроли сред незаболелите в края OR за болестта доближава RR при малки популационни рискове. При валиден подбор от рискови множества и подходящ анализ OR оценява отношение на коефициенти без рядкост. За сравнението на шансове за болест: при рискове 2 % и 1 % RR = 2,00, а OR = 2,02, но при рискове 40 % и 20 % RR пак е 2,00, а OR = 2,67 — шансовете не са рискове. При 60 пушачи сред 100 пациенти с рак на устната кухина и 50 сред 200 контроли OR = (60 × 150)/(50 × 40) = 4,5. Това е предпочитаният дизайн за редки заболявания като рака на устната кухина; такова е и проучването на Дол и Хил за тютюнопушенето и рака на белия дроб (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Слабите му места са измерването на миналата експозиция (<strong>систематична грешка при припомнянето</strong>) и подборът на контролите (<strong>систематична грешка при подбора</strong>); съпоставянето трябва да се отчита в анализа и не премахва автоматично замъгляването; неподходящото съпоставяне губи информация или въвежда изкривяване.</p>
 </section>
 <section id="експериментални-проучвания" class="level2">
 <h2 class="anchored" data-anchor-id="експериментални-проучвания">Експериментални проучвания</h2>
-<p>При <strong>рандомизираното контролирано изпитване</strong> (РКИ) изследователят разпределя намесата чрез <strong>случайно разпределение</strong>: всеки участник има еднакъв шанс да попадне във всяка група и неизвестните фактори средно се изравняват. Ако в края групите се различават, разликата може да се припише на намесата — РКИ е „златният стандарт“ за проверка дали тя действа, например дали флуорният лак предпазва от кариес. Рандомизацията трябва да е защитена чрез <strong>скриване на разпределението</strong>: който включва детето, не бива да знае следващото разпределение. <strong>Плацебото</strong> държи участниците в неведение за групата им, но контролата не е задължително плацебо: когато лишаването от доказана полза би било неетично, контролната група получава стандартния продукт, например стандартния лак (<strong>активна контрола</strong>). При заслепяването трябва да се каже <em>кой</em> не знае — участниците, лекуващите, оценяващите изхода, анализиращите, — защото изследовател, който очаква продуктът да действа, може да оценява контролната група по-строго. Плацебо е невъзможно при флуорирането на водата, силантите или видима училищна програма за миене на зъби, но оценяващите изхода пак могат да не знаят групата.</p>
-<p>Когато намесата действа върху групи, се рандомизират цели училища или населени места (<strong>общностни или клъстерни изпитвания</strong>). В денталната медицина са чести и по-слаби дизайни: нерандомизирани изпитвания като проучването за храненето и кариеса във Випехолм и проучвания <strong>„преди–след“</strong> без едновременна контролна група като изпитването за флуориране в Гранд Рапидс, където други промени по време на проучването могат да обяснят резултата. Ако нелекуваният кариес спада от 40 % на 30 % в училището с програмата, но и от 35 % на 30 % в училището за сравнение, допълнителната промяна е (30 − 40) − (30 − 35) = −5 процентни пункта, а не −10 — и дори това допуска сходни фонови тенденции. <strong>Кръстосаните</strong> изпитвания, при които всеки участник е своя собствена контрола, са подходящи за кратки изпитвания при обратими състояния като гингивита, но не и за кариеса. <strong>Ефикасността</strong> пита дали намесата действа при идеални условия, а <strong>ефективността</strong> — дали действа в ежедневната практика.</p>
+<p>При <strong>рандомизираното контролирано изпитване</strong> (РКИ) изследователят разпределя намесата чрез <strong>случайно разпределение</strong>: вероятностите се задават предварително и могат да са неравни. Факторите се балансират в очакване, а не непременно в конкретната извадка. Причинният извод изисква и правилно провеждане, установяване на изхода и анализ — РКИ е „златният стандарт“ за проверка дали тя действа, например дали флуорният лак предпазва от кариес. Рандомизацията трябва да е защитена чрез <strong>скриване на разпределението</strong>: който включва детето, не бива да знае следващото разпределение. <strong>Плацебото</strong> държи участниците в неведение за групата им, но контролата не е задължително плацебо: когато лишаването от доказана полза би било неетично, контролната група получава стандартния продукт, например стандартния лак (<strong>активна контрола</strong>). При заслепяването трябва да се каже <em>кой</em> не знае — участниците, лекуващите, оценяващите изхода, анализиращите, — защото изследовател, който очаква продуктът да действа, може да оценява контролната група по-строго. Заслепяването на участниците и изпълнителите може да е трудно при видими програми; заслепено оценяване на изхода може да е възможно.</p>
+<p>Когато намесата действа върху групи, се рандомизират цели училища или населени места (<strong>общностни или клъстерни изпитвания</strong>). В денталната медицина са чести и по-слаби дизайни: нерандомизирани изпитвания като проучването за храненето и кариеса във Випехолм и проучвания <strong>„преди–след“</strong>, при които съпътстващи промени могат да обяснят привиден ефект. Гранд Рапидс започва през 1945 г. с Мъскигън като сравнение до флуорирането и там през юли 1951 г. (<a href="https://www.cdc.gov/fluoridation/timeline-for-community-water-fluoridation/">CDC</a>); не е изцяло неконтролирано проучване. Ако нелекуваният кариес спада от 40 % на 30 % в училището с програмата, но и от 35 % на 30 % в училището за сравнение, допълнителната промяна е (30 − 40) − (30 − 35) = −5 процентни пункта, а не −10 — и дори това допуска сходни фонови тенденции. <strong>Кръстосаните</strong> изпитвания, при които всеки участник е своя собствена контрола, са подходящи за кратки изпитвания при обратими състояния като гингивита, но не и за кариеса. <strong>Ефикасността</strong> пита дали намесата действа при идеални условия, а <strong>ефективността</strong> — дали действа в ежедневната практика.</p>
 </section>
 <section id="грешки-причинност-и-доказателства" class="level2">
 <h2 class="anchored" data-anchor-id="грешки-причинност-и-доказателства">Грешки, причинност и доказателства</h2>
-<p>Една връзка може да е погрешна по три причини. <strong>Случайната грешка</strong> намалява с увеличаване на извадката. <strong>Систематичната грешка</strong> — от несравними групи (при подбора) или от различно измерване на експозицията или изхода (информационна) — не намалява. <strong>Замъгляващият фактор</strong> е трети фактор, свързан и с експозицията, и с изхода: пиещите имат повече рак на устната кухина и защото пушат повече. В хипотетична кохорта нова загуба на зъби за пет години имат 34 % от използващите вода за уста и 16 % от неизползващите (груб RR 2,125), но във всяка възрастова група рисковете са еднакви (10 % под 50 години, 40 % от 50 години нагоре) и RR = 1: използващите просто са по-възрастни. <strong>Стратификацията</strong> разкрива замъгляващия фактор. Рандомизацията изравнява замъгляващите фактори, дори неизвестните; наблюдателните проучвания могат само да ограничат, съпоставят, стратифицират или коригират за измерените — а по-голямата извадка подобрява точността, но не и валидността.</p>
-<p>За да преценим дали една връзка е причинна, критериите на Брадфорд Хил питат за последователност във времето, сила, постоянство, зависимост доза–отговор, правдоподобност, съгласуваност и експериментални данни (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); задължителна е само <strong>последователността във времето</strong>. Критериите насочват разсъждението, но не са точкова система: нито голям RR, нито много изпълнени критерии доказват причинност. За ефекта на профилактиката и лечението добре проведеното рандомизирано сравнение обикновено защитава най-добре от замъгляващи фактори, а класическата скала върви от РКИ и техните систематични прегледи (ниво I), през нерандомизираните контролирани изпитвания (II-1), кохортните проучвания и „случай–контрола“ (II-2) и времевите редове (II-3), до описателните проучвания и мнението на експерти (III). Силата на доказателствата обаче зависи от въпроса и от това колко добре е проведено проучването: бремето изисква представително проучване с прегледи, редките вреди — добро „случай–контрола“ или кохортно проучване, а много въпроси — вредни ли са амалгамите? — изобщо не могат да се проверят с изпитване.</p>
+<p>Една връзка може да е погрешна по три причини. <strong>Случайната грешка</strong> намалява с увеличаване на извадката. <strong>Систематичната грешка</strong> — от несравними групи (при подбора) или от различно измерване на експозицията или изхода (информационна) — не намалява. <strong>Замъгляващият фактор</strong> е трети фактор, свързан и с експозицията, и с изхода: пиещите имат повече рак на устната кухина и защото пушат повече. В хипотетична кохорта нова загуба на зъби за пет години имат 34 % от използващите вода за уста и 16 % от неизползващите (груб RR 2,125), но във всяка възрастова група рисковете са еднакви (10 % под 50 години, 40 % от 50 години нагоре) и RR = 1: използващите просто са по-възрастни. <strong>Стратификацията</strong> разкрива замъгляващия фактор. Рандомизацията балансира прогностичните фактори в очакване, включително неизмерените; наблюдателните проучвания могат само да ограничат, съпоставят, стратифицират или коригират за измерените — а по-голямата извадка подобрява точността, но не и валидността.</p>
+<p>За да преценим дали една връзка е причинна, критериите на Брадфорд Хил питат за последователност във времето, сила, постоянство, зависимост доза–отговор, правдоподобност, съгласуваност и експериментални данни (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); задължителна е само <strong>последователността във времето</strong>. Критериите насочват разсъждението, но не са точкова система: нито голям RR, нито много изпълнени критерии доказват причинност. За ефекта на профилактиката и лечението добре проведеното рандомизирано сравнение обикновено защитава най-добре от замъгляващи фактори. Силата на доказателствата обаче зависи от въпроса и от това колко добре е проведено проучването: бремето изисква представително проучване с прегледи, редките вреди — добро „случай–контрола“ или кохортно проучване, а много въпроси — вредни ли са амалгамите? — изобщо не могат да се проверят с изпитване.</p>
 <p>Преди да отворите <a href="../learning-tasks/dental-public-health-study-designs-bg.html">задачите за студенти</a>, запомнете трите въпроса от упражнението: <strong>кой е определил експозицията, има ли група за сравнение и кое е било първо?</strong></p>
+<p>Продължете с <a href="../15-minute-learning/dental-public-health-cohort-risk-bg.html">упражнение 11: кохорта и риск</a> и <a href="../15-minute-learning/dental-public-health-case-control-bg.html">упражнение 12: случай–контрола</a>.</p>
 
 
 </section>
@@ -478,7 +2395,7 @@
 <p>Set aside about <strong>15 minutes</strong> to read and reflect. The text follows the presentation “Epidemiological study designs”. Class 8 taught us to count — prevalence, incidence, person-time — and Class 9 applied the counts to oral diseases. This class shows how studies are built to answer questions with those counts. Afterwards you should be able to name the design of a study, calculate and interpret a relative risk, a risk difference and an odds ratio, and say what could make an association misleading.</p>
 <section id="three-questions-identify-almost-any-design" class="level2">
 <h2 class="anchored" data-anchor-id="three-questions-identify-almost-any-design">Three questions identify almost any design</h2>
-<p>First, <strong>did the investigator assign the exposure?</strong> If not, the study is <strong>observational</strong>: conditions are studied as they occur. If yes, it is <strong>experimental</strong> — a trial. Second, <strong>is there a comparison group?</strong> Without one, the study is <strong>descriptive</strong> (who, where, when) and generates hypotheses; with one, it is <strong>analytic</strong> and tests hypotheses about determinants. Third, <strong>where does the study start?</strong> A case–control study starts with the outcome and looks back for the exposure; a cohort study starts with the exposure and follows people forward to the outcome; a cross-sectional study measures both at the same time. A good analytic design compares an outcome between groups, quantifies the comparison, manages errors and confounding, and establishes that the exposure came before the outcome (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, ch.&nbsp;12).</p>
+<p>First, <strong>did the investigator assign the exposure?</strong> If not, the study is <strong>observational</strong>: conditions are studied as they occur. If yes, it is <strong>experimental</strong> — a trial. Second, <strong>is there a comparison group?</strong> Descriptive and analytic refer to purpose: describing a pattern or testing a specified comparison. A cross-sectional study can serve either purpose; a comparison group alone does not define every design. Third, <strong>where does the study start?</strong> A case–control study starts with the outcome and looks back for the exposure; a cohort study starts with the exposure and follows people forward to the outcome; a cross-sectional study measures both at the same time. A good analytic design compares an outcome between groups, quantifies the comparison, manages errors and confounding, and establishes that the exposure came before the outcome (<a href="https://doi.org/10.1016/C2016-0-02234-9">Burt &amp; Eklund, 2021</a>, ch.&nbsp;12).</p>
 </section>
 <section id="descriptive-studies" class="level2">
 <h2 class="anchored" data-anchor-id="descriptive-studies">Descriptive studies</h2>
@@ -490,18 +2407,19 @@
 <h2 class="anchored" data-anchor-id="cohort-and-casecontrol-studies">Cohort and case–control studies</h2>
 <p>Analytic studies speak the language of the <strong>2 × 2 table</strong>, with the exposure in the rows and the outcome in the columns (cells a, b, c, d).</p>
 <p>A <strong>cohort study</strong> starts with people free of the outcome, classified as exposed or unexposed, and follows them over time. Because new cases are counted, risks are compared directly. In a hypothetical cohort of 1000 adults aged 25, 60 of 400 smokers and 30 of 600 non-smokers developed periodontitis in five years: risks of 15% and 5%. The <strong>relative risk</strong> (RR) is 15/5 = 3.0 — smokers had three times the risk — and the <strong>risk difference</strong> is 10 percentage points over five years. That excess is <em>associated</em> with smoking in these data; calling it preventable by removing smoking needs causal assumptions and control of other explanations. A cohort can be <strong>prospective</strong> (exposure measured now, outcome later) or <strong>retrospective</strong> (past records identify the exposed and unexposed, who are followed up to the present). In the Dunedin birth cohort in New Zealand, cannabis use between ages 18 and 32 was associated with new periodontal attachment loss, with an adjusted RR of about 2.2 for the heaviest users (<a href="https://doi.org/10.1001/jama.299.5.525">Thomson et al., 2008</a>). Cohorts show temporality and give incidence, but they are slow, expensive, inefficient for rare outcomes and vulnerable to losses to follow-up.</p>
-<p>A <strong>case–control study</strong> starts at the other end: people with the outcome (cases) and comparable people without it (controls), whose past exposure is compared. The investigator decides how many cases and controls to take, so risks cannot be calculated; instead the <strong>odds ratio</strong> OR = ad/bc is used. It approximates the RR only when the outcome is rare in the source population: with risks of 2% and 1%, RR = 2.00 and OR = 2.02, but with risks of 40% and 20%, RR is still 2.00 while OR = 2.67 — odds are not risks. With 60 smokers among 100 patients with oral cancer and 50 among 200 controls, OR = (60 × 150)/(50 × 40) = 4.5. Case–control studies are the design of choice for rare diseases such as oral cancer, and Doll and Hill’s work on smoking and lung cancer was one (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Their weak points are the measurement of past exposure (<strong>recall bias</strong>) and the choice of controls (<strong>selection bias</strong>); a factor used for matching can no longer be studied, which is why matching on smoking would have hidden its effect.</p>
+<p>A <strong>case–control study</strong> starts at the other end: people with the outcome (cases) and comparable people without it (controls), whose past exposure is compared. The investigator decides how many cases and controls to take, so risks cannot be calculated; instead the <strong>odds ratio</strong> OR = ad/bc is used. With controls sampled among non-cases at the end, disease OR approximates RR when population outcome risks are small. With valid risk-set sampling and appropriate analysis, OR estimates an incidence rate ratio without rarity. For the disease-odds comparison: with risks of 2% and 1%, RR = 2.00 and OR = 2.02, but with risks of 40% and 20%, RR is still 2.00 while OR = 2.67 — odds are not risks. With 60 smokers among 100 patients with oral cancer and 50 among 200 controls, OR = (60 × 150)/(50 × 40) = 4.5. Case–control studies are the design of choice for rare diseases such as oral cancer, and Doll and Hill’s work on smoking and lung cancer was one (<a href="https://doi.org/10.1136/bmj.2.4682.739">Doll &amp; Hill, 1950</a>). Their weak points are the measurement of past exposure (<strong>recall bias</strong>) and the choice of controls (<strong>selection bias</strong>); matching must be accounted for in analysis and does not automatically remove confounding; inappropriate matching can lose information or introduce bias.</p>
 </section>
 <section id="experimental-studies" class="level2">
 <h2 class="anchored" data-anchor-id="experimental-studies">Experimental studies</h2>
-<p>In a <strong>randomised controlled trial</strong> (RCT) the investigator assigns the intervention by <strong>random allocation</strong>, so each participant has the same chance of either group and unknown factors are balanced on average. If the groups differ at the end, the difference can be attributed to the intervention — the RCT is the “gold standard” for testing whether it works, for example whether fluoride varnish prevents caries. Randomisation must be protected by <strong>allocation concealment</strong>: whoever enrols a child must not know the next allocation. A <strong>placebo</strong> keeps participants unaware of their group, but the control need not be a placebo: when withholding an established benefit would be unethical, the control group receives the standard product, for example the standard varnish (an <strong>active control</strong>). Blinding should name <em>who</em> is unaware — participants, care providers, outcome assessors, analysts — because an examiner who expects a product to work may score the control group more strictly. A placebo is impossible for water fluoridation, sealants or a visible school brushing programme, but the outcome assessors can still be kept unaware.</p>
-<p>When an intervention acts on groups, whole schools or towns are randomised (<strong>community or cluster trials</strong>). Weaker designs are common in dentistry: non-randomised trials such as the Vipeholm diet study, and <strong>before–after</strong> studies without a concurrent control, such as the Grand Rapids fluoridation trial, where other changes during the study can explain the result. If untreated caries falls from 40% to 30% in a programme school but also from 35% to 30% in a comparison school, the extra change is (30 − 40) − (30 − 35) = −5 percentage points, not −10 — and even that assumes similar background trends. <strong>Crossover</strong> trials, in which each participant is their own control, suit short trials of reversible conditions such as gingivitis but not caries. <strong>Efficacy</strong> asks whether an intervention works under ideal conditions; <strong>effectiveness</strong> whether it works in everyday practice.</p>
+<p>In a <strong>randomised controlled trial</strong> (RCT) the investigator assigns the intervention by <strong>random allocation</strong>, with prespecified allocation probabilities, which may be unequal. Prognostic factors balance in expectation, not necessarily in the realised sample. Causal interpretation also requires sound conduct, ascertainment and analysis — the RCT is the “gold standard” for testing whether it works, for example whether fluoride varnish prevents caries. Randomisation must be protected by <strong>allocation concealment</strong>: whoever enrols a child must not know the next allocation. A <strong>placebo</strong> keeps participants unaware of their group, but the control need not be a placebo: when withholding an established benefit would be unethical, the control group receives the standard product, for example the standard varnish (an <strong>active control</strong>). Blinding should name <em>who</em> is unaware — participants, care providers, outcome assessors, analysts — because an examiner who expects a product to work may score the control group more strictly. Participant or provider masking can be difficult for visible programmes; blinded outcome assessment may still be feasible.</p>
+<p>When an intervention acts on groups, whole schools or towns are randomised (<strong>community or cluster trials</strong>). Weaker designs are common in dentistry: non-randomised trials such as the Vipeholm diet study, and <strong>before–after</strong> studies, where concurrent changes can explain an apparent effect. Grand Rapids began in 1945 with Muskegon as comparison until Muskegon began fluoridation in July 1951 (<a href="https://www.cdc.gov/fluoridation/timeline-for-community-water-fluoridation/">CDC timeline</a>); it was not an entirely uncontrolled before–after study. If untreated caries falls from 40% to 30% in a programme school but also from 35% to 30% in a comparison school, the extra change is (30 − 40) − (30 − 35) = −5 percentage points, not −10 — and even that assumes similar background trends. <strong>Crossover</strong> trials, in which each participant is their own control, suit short trials of reversible conditions such as gingivitis but not caries. <strong>Efficacy</strong> asks whether an intervention works under ideal conditions; <strong>effectiveness</strong> whether it works in everyday practice.</p>
 </section>
 <section id="errors-causation-and-evidence" class="level2">
 <h2 class="anchored" data-anchor-id="errors-causation-and-evidence">Errors, causation and evidence</h2>
-<p>An association may be wrong for three reasons. <strong>Random error</strong> (chance) shrinks with larger samples. <strong>Bias</strong> — systematic error from non-comparable groups (selection bias) or from measuring exposure or outcome differently (information bias) — does not. <strong>Confounding</strong> comes from a third factor linked with both exposure and outcome: drinkers have more oral cancer partly because they also smoke more. In a hypothetical cohort, new tooth loss over five years affects 34% of mouthrinse users and 16% of non-users (crude RR 2.125), yet within each age group the risks are equal (10% under 50, 40% from 50) and RR = 1: users are simply older. <strong>Stratification</strong> reveals the confounder. Randomisation balances confounders, even unknown ones; observational studies can only restrict, match, stratify or adjust for those that were measured — and a larger sample improves precision, not validity.</p>
-<p>To judge whether an association is causal, Bradford Hill’s viewpoints ask about temporality, strength, consistency, dose–response, plausibility, coherence and experimental evidence (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); only <strong>temporality</strong> is required. The viewpoints guide reasoning; they are not a score, and neither a large RR nor many satisfied viewpoints proves causation. For the effects of prevention and treatment, a well-conducted randomised comparison usually protects best against confounding, and the classic scale runs from RCTs and their systematic reviews (level I), through non-randomised controlled trials (II-1), cohort and case–control studies (II-2) and time series (II-3), to descriptive studies and expert opinion (III). But the strength of evidence depends on the question and on how well the study was done: burden needs a representative examination survey, rare harms a good case–control or cohort study, and many questions — are amalgams harmful? — cannot be tested in a trial at all.</p>
+<p>An association may be wrong for three reasons. <strong>Random error</strong> (chance) shrinks with larger samples. <strong>Bias</strong> — systematic error from non-comparable groups (selection bias) or from measuring exposure or outcome differently (information bias) — does not. <strong>Confounding</strong> comes from a third factor linked with both exposure and outcome: drinkers have more oral cancer partly because they also smoke more. In a hypothetical cohort, new tooth loss over five years affects 34% of mouthrinse users and 16% of non-users (crude RR 2.125), yet within each age group the risks are equal (10% under 50, 40% from 50) and RR = 1: users are simply older. <strong>Stratification</strong> reveals the confounder. Randomisation balances prognostic factors in expectation, including unmeasured ones; observational studies can only restrict, match, stratify or adjust for those that were measured — and a larger sample improves precision, not validity.</p>
+<p>To judge whether an association is causal, Bradford Hill’s viewpoints ask about temporality, strength, consistency, dose–response, plausibility, coherence and experimental evidence (<a href="https://doi.org/10.1177/003591576505800503">Hill, 1965</a>); only <strong>temporality</strong> is required. The viewpoints guide reasoning; they are not a score, and neither a large RR nor many satisfied viewpoints proves causation. For the effects of prevention and treatment, a well-conducted randomised comparison usually protects best against confounding. But the strength of evidence depends on the question and on how well the study was done: burden needs a representative examination survey, rare harms a good case–control or cohort study, and many questions — are amalgams harmful? — cannot be tested in a trial at all.</p>
 <p>Before opening the <a href="../learning-tasks/dental-public-health-study-designs-en.html">student tasks</a>, remember the three questions of the class: <strong>who decided the exposure, is there a comparison group, and which came first?</strong></p>
+<p>Continue with <a href="../15-minute-learning/dental-public-health-cohort-risk-en.html">Class 11: cohort studies and risk</a> and <a href="../15-minute-learning/dental-public-health-case-control-en.html">Class 12: case–control studies</a>.</p>
 
 
 </section>
@@ -1057,324 +2975,6 @@
   <category>2026/2027</category>
   <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-bg.html</guid>
   <pubDate>Sat, 31 Oct 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Introduction to medical ethics: theories, principles, history and the Bulgarian framework</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-01-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-introduction-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-introduction-bg.html">Български</a></p>
-<p>Set aside about <strong>15 minutes</strong> to read and reflect. The text follows the presentation “Introduction to medical ethics”, the first of seven practical classes. Every class follows the same logic: <strong>the ethical problem → the arguments → the Bulgarian legal rule → a case you decide and justify.</strong> Afterwards you should be able to tell morality, ethics, law and deontology apart, apply four ethical theories to one clinical problem, explain the four principles and their critics, trace the main documents from Hippocrates to Oviedo, name the Bulgarian sources that bind a physician, and analyse a case with a structured method.</p>
-<section id="morality-ethics-law-and-deontology" class="level2">
-<h2 class="anchored" data-anchor-id="morality-ethics-law-and-deontology">Morality, ethics, law and deontology</h2>
-<p><strong>Morality</strong> is the set of beliefs, rules and values by which a group judges conduct as right or wrong; it is learned through family, culture and religion. <strong>Ethics</strong> is the systematic, critical reflection on morality: it asks which norms are justified and why. Normative ethics asks what ought to be done; applied ethics asks what follows for a concrete field such as medicine; metaethics asks what “good” and “duty” mean; descriptive ethics records what physicians and patients actually believe and do. Medical ethics is normative and applied: it must end in a justified decision, not only in a description of opinions.</p>
-<p><strong>Law</strong> comes from state authority, is written and hierarchical, binds one jurisdiction and is enforced by state coercion — fines, imprisonment, damages, loss of licence. Ethics rests on reasoned argument, conscience and the professional community, and can support, exceed or criticise the law. The two overlap but are not identical. An act can be <strong>lawful but ethically questionable</strong> — a physician accepts a generously paid “advisory board” place with almost no real work, declares it as the rules require, and then prescribes the company’s product. And law itself can be ethically wrong: the eugenic sterilisation laws of the 20th century (<em>Buck v. Bell</em>, USA, 1927) show that legality does not guarantee moral acceptability.</p>
-<p><strong>Deontology</strong> has two meanings. <strong>Medical deontology</strong> — in the Central and Eastern European tradition — is the doctrine of the physician’s professional duties towards patients, colleagues and society. <strong>Deontological ethics</strong> is a family of moral theories (Kant, Ross) in which rightness depends on duties and rights, not only on consequences. <strong>Bioethics</strong> is wider than medical ethics: the word was used by Fritz Jahr in 1927 and coined independently by Van Rensselaer Potter in 1970–1971, and research scandals, dialysis allocation, transplantation and intensive care gave it its biomedical focus. Medical ethics asks “what should this doctor do for this patient?”; bioethics also asks “what should society allow medicine and science to do?”</p>
-<p>A clinical decision can involve five kinds of “ought”: an ethical argument (force of reasons), a legal rule such as Health Act Art. 87(1) (state sanction), a professional rule such as the Code of Professional Ethics (sanction by the Bulgarian Medical Association), an institutional policy (employment discipline; it must comply with the law) and a personal conviction (a personal moral reason that does not override professional and legal duties and does not bind the patient). Good reasoning says which kind of “ought” it uses. An ethical <em>problem</em> asks what is right; a <em>dilemma</em> exists when two moral requirements cannot both be fulfilled; both differ from factual uncertainty.</p>
-</section>
-<section id="ethical-theories" class="level2">
-<h2 class="anchored" data-anchor-id="ethical-theories">Ethical theories</h2>
-<p><strong>Consequentialism</strong> judges acts by their outcomes. In utilitarianism (Bentham, 1789; Mill, 1861) the right act produces the greatest overall well-being, counting everyone equally. <em>Act</em> utilitarianism evaluates each act; <em>rule</em> utilitarianism follows the rules whose general observance gives the best results — confidentiality is kept even when one breach looks useful. It is impartial and attentive to real effects, and is influential in priority setting and public health, but it may justify sacrificing an individual for the many, and the sum of benefit says nothing about who bears the burden.</p>
-<p><strong>Deontology</strong> puts duties, rights and dignity first. Kant’s categorical imperative (1785) asks us to act only on a maxim we could will as a universal law and to treat every person always as an end, never merely as a means — so no deception “for the patient’s good” and no use of a patient for teaching or research without consent. W. D. Ross (1930) described several <strong>prima facie</strong> duties — fidelity, reparation, gratitude, justice, beneficence, self-improvement, non-maleficence — each binding unless outweighed by a stronger duty in the concrete situation. Deontology protects the individual and grounds informed consent, but duties conflict and strict rules can ignore context.</p>
-<p><strong>Virtue ethics</strong> (Aristotle) asks “what kind of physician should I be?” — the right act is what a person of good character with practical wisdom (<em>phronesis</em>) would do; medical virtues include trustworthiness, compassion, honesty, courage, justice, prudence and integrity. Its limit: “a good doctor would know” is not an argument. The <strong>ethics of care</strong> (Gilligan, 1982; Noddings) roots morality in relationships of dependence and sees persons in their families and communities (relational autonomy); its risk is partiality and excusing paternalism inside the family. Casuistry, narrative ethics and communitarianism are other approaches you will meet.</p>
-<p>The class runs one case through all four lenses: a man with a newly confirmed, untreated HIV infection asks his physician not to tell his wife, who is also the physician’s patient, and refuses condoms “for now”. Consequentialism asks about the harms to the wife and to public trust; deontology about the promised confidentiality and the wife’s right not to be exposed to serious harm; virtue ethics about what an honest, courageous, compassionate physician would do and how he would first try to persuade the patient; care ethics about how the relationships can be protected. The Bulgarian rules on confidentiality and its limits are the topic of Class 3.</p>
-</section>
-<section id="principlism-and-its-critics" class="level2">
-<h2 class="anchored" data-anchor-id="principlism-and-its-critics">Principlism and its critics</h2>
-<p>Beauchamp and Childress (<em>Principles of Biomedical Ethics</em>, 1979; 8th edition 2019) proposed four mid-level principles. <strong>Respect for autonomy</strong> means respecting the informed, voluntary decisions of persons capable of making them and supporting those whose capacity is limited — it does not mean the patient can demand any treatment, and a diagnosis alone does not remove capacity. <strong>Beneficence</strong> requires positive action — treat, prevent, rescue, relieve — weighing benefit against burden in the light of the patient’s own goals, but not deciding for a capable patient what is good for him. <strong>Non-maleficence</strong> requires due care and proportionate risk, not avoidance of every risk. <strong>Justice</strong> requires fair distribution of benefits, risks and costs and no discrimination — not identical treatment regardless of need.</p>
-<p>The principles are <strong>prima facie</strong> and not ranked in advance. Two operations make them usable. <strong>Specification</strong> narrows a principle for a context (“respect for autonomy includes the right of an adult with capacity to refuse life-sustaining treatment”); <strong>balancing</strong> decides which obligation weighs more here, and the infringement must be necessary, minimal and openly justified. Soft paternalism protects a person whose particular choice is shown not to be autonomous (for example in delirium); hard paternalism overrides an autonomous choice and needs exceptional justification.</p>
-<p><strong>Justice</strong> has several theories: egalitarian (Rawls — fair equality of opportunity; inequalities only if they benefit the worst off), utilitarian (maximise health gained per resource, for example QALYs), libertarian (Nozick — no general redistributive right to health care) and communitarian (shared community values). The course textbook adds its own classification: status-based proportionality, social justice, utilitarian maximisation, a guaranteed minimum followed by allocation by contribution, and perfect justice as an ideal. The Bulgarian Constitution gives citizens the right to health insurance guaranteeing affordable medical care (Art. 52(1)).</p>
-<p>Principlism has critics. Clouser and Gert (1990) called the principles “chapter headings” that give no method when they collide. Gillon (1994; 2003) defended them, adding attention to scope and treating respect for autonomy as “first among equals”. Rendtorff and the Barcelona Declaration (1998) proposed a European alternative — autonomy, dignity, integrity and vulnerability — closer to European law. Care and virtue ethics object that principles neglect relationships and character; in family-centred cultures decisions are often shared — <strong>but sharing a decision is not the same as taking it away from the patient.</strong></p>
-</section>
-<section id="from-hippocrates-to-oviedo" class="level2">
-<h2 class="anchored" data-anchor-id="from-hippocrates-to-oviedo">From Hippocrates to Oviedo</h2>
-<p>The <strong>Hippocratic Oath</strong> (c.&nbsp;4th century BCE) obliges the physician to help “according to my ability and judgment”, never to injure, to give no deadly drug, to avoid injustice and sexual relations with patients, and to keep silent about what is seen in treatment. Beneficence, non-maleficence, confidentiality and integrity survive; what is missing is the patient’s consent, any concept of justice in access, and a public, accountable standard. <em>Primum non nocere</em> is a later Latin formula, not a line of the Oath. Before 1945 come the Code of Hammurabi, Christian, Byzantine and Islamic hospitals, Thomas Percival’s <em>Medical Ethics</em> (1803), the basis of the first AMA Code (1847), the Red Cross and First Geneva Convention, and in 1901 the first congress of Bulgarian physicians, which founded the Bulgarian Medical Association.</p>
-<p><strong>Nuremberg</strong> was the turning point. The Doctors’ Trial (1946–1947) judged 23 defendants, 20 of them physicians, for lethal experiments on prisoners and the killing of disabled people; its judgment formulated the <strong>Nuremberg Code</strong> (1947), whose first principle is that “the voluntary consent of the human subject is absolutely essential”. Abuse did not end there: the Tuskegee study (1932–1972) withheld treatment for syphilis from Black men, and the scandal led to the Belmont Report (1979) — respect for persons, beneficence, justice.</p>
-<p>After 1945 the World Medical Association produced the <strong>Declaration of Geneva</strong> (the physician’s pledge; the 2017 revision added respect for autonomy and dignity and care for the physician’s own health), the International Code of Medical Ethics, the <strong>Declaration of Helsinki</strong> on research (<a href="https://doi.org/10.1001/jama.2024.21972">2024 revision</a>) and the <strong>Declaration of Lisbon</strong> on patients’ rights, which the Bulgarian Code refers to expressly (Art. 10). The <strong>Oviedo Convention</strong> (Council of Europe, 1997) is the first binding international treaty on biomedicine: “the interests and welfare of the human being shall prevail over the sole interest of society or science” (Art. 2). Bulgaria deposited its ratification in April 2003 and the Convention has been <strong>in force for Bulgaria since 1 August 2003</strong>. Under the Constitution (Art. 5(4)), a ratified, promulgated treaty in force is part of domestic law and supersedes conflicting domestic legislation.</p>
-</section>
-<section id="the-bulgarian-framework" class="level2">
-<h2 class="anchored" data-anchor-id="the-bulgarian-framework">The Bulgarian framework</h2>
-<p>The hierarchy runs from the <strong>Constitution</strong> (1991) through ratified treaties (ECHR, Oviedo) and Acts of Parliament (the Health Act, the Medical Establishments Act, the Health Insurance Act, the Act on the Professional Organisations of Physicians and Dentists, the Criminal Code, the Obligations and Contracts Act), alongside EU law (GDPR, the Clinical Trials Regulation), to ordinances and medical standards, professional rules and, last, hospital rules. Three constitutional provisions matter most: no medical experiments without voluntary written consent (Art. 29(2)); the inviolability of private life (Art. 32(1)); and no forced medical treatment except as provided by law (Art. 52(4)).</p>
-<p>The <a href="https://lex.bg/laws/ldoc/2135489147">Health Act</a> makes the patient a holder of rights: a patient is any person who has sought or is receiving medical care (Art. 84(1)); care is provided without discrimination (Art. 85); the patient has rights to accessible, quality care, more than one opinion, protection of health data, clear information, prevention of pain and access to the record (Art. 86(1)); complaints go to the Regional Health Inspectorate, which checks them within 7 days (Art. 93); and the patient must also care for his own health and not harm others (Art. 94).</p>
-<p>Under the <strong>Act on the Professional Organisations of Physicians and Dentists</strong> (1998), every practising physician is a member of the Bulgarian Medical Association (BMA) and entered in the register of a regional college. The BMA drafts the <strong>Code of Professional Ethics</strong> and controls its observance. Complaints are examined by the ethics commission of the regional college (Art. 39), and the penal decree is issued by the chair of the college’s board (Art. 40(3)). The sanctions are a reprimand, a fine of one to five minimum monthly wages, or removal from the register for 3 months to 1 year (Art. 38) — without excluding criminal, civil or labour-disciplinary liability (Art. 42(1)). The Code itself (State Gazette 79/2000, amended 85/2013) obliges every physician to give emergency care when health and life are in immediate danger (Art. 11), forbids procedures without consent except under immediate threat to life (Art. 26 — read with Health Act Arts 87–90), requires the physician to explain the prognosis without treatment when a patient refuses (Art. 29), forbids ending a patient’s life (Art. 30) and allows refusal on conscience to terminate a normal pregnancy (Art. 32).</p>
-<p>One act can therefore bring four kinds of liability — <strong>disciplinary</strong> (towards the employer, under the Labour Code), <strong>administrative</strong> (including BMA sanctions and inspection by the Regional Health Inspectorate), <strong>criminal</strong> (for example negligent bodily harm or death in the exercise of a profession) and <strong>civil</strong> (contractual or tort damages). In Bulgaria the core of medical ethics is codified and its breach has legal consequences — but meeting the legal minimum is not the same as being a good doctor.</p>
-</section>
-<section id="how-to-analyse-a-case" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-analyse-a-case">How to analyse a case</h2>
-<p>The <strong>eight-step method</strong> runs: facts (medical, the patient’s values, context, conflicts of interest, applicable law); the ethical question, formulated from the decision-maker’s position; stakeholders; principles and duties in tension; options — more than two, including a compromise, a time-limited trial, a second opinion or ethics consultation; weighing; decision and justification; and communication and review. Avoid three errors: treating ethics as arithmetic, letting one principle win automatically (the “autonomy trap” or the “paternalist trap”), and confusing “legal” with “ethical”. The <strong>four-box method</strong> of Jonsen, Siegler and Winslade organises the same facts into medical indications, patient preferences, quality of life and contextual features.</p>
-<p>The worked example is an adult Jehovah’s Witness with capacity who is bleeding after surgery and refuses blood. A capable adult may refuse at any time (Health Act, Art. 90(1)); the refusal is documented with signatures (Art. 90(2)); the team uses the options the patient accepts and does not abandon him. A clear, specific and current refusal must be protected — urgency alone does not cancel autonomy (<em>Pindo Mulla v. Spain</em>, ECtHR Grand Chamber, 2024). Where refusal and a threat to life coincide, the head of the establishment may decide on life-saving treatment (Art. 90(4)) — a different situation from a patient who cannot consent (Art. 89(2)), analysed in Class 2. The class ends with three cases: a son who asks the GP not to tell his mother about her diagnosis, the last intensive-care bed for an 82-year-old and a 45-year-old, and a double antibiotic dose that caused no established harm.</p>
-<p>Before opening the <a href="../learning-tasks/medical-ethics-introduction-en.html">student tasks</a>, try to answer in three sentences: why a signature on a consent form after an explanation the patient did not understand is neither legal nor ethical; what “prima facie” means; and who examines a complaint that a physician breached the Code of Professional Ethics.</p>
-
-
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-introduction-en.html</guid>
-  <pubDate>Sat, 31 Oct 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Относителни величини и пряка стандартизация</title>
-  <dc:creator>Костадин Костадинов</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-statistics-standardization-bg.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/stat-01-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-statistics-standardization-bg.html">Задачи за студенти</a> · <a href="../2026-2027-classes/stat-01-bg-homework.pdf">Домашна работа (PDF)</a></p>
-<p>Отделете около <strong>15 минути</strong> за четене. Материалът следва презентацията „Основни понятия в медицинската статистика. Пряка стандартизация“. След прочита трябва да можете да различавате четирите вида относителни величини по техния знаменател и да извършвате пряка стандартизация в четири стъпки.</p>
-<section id="защо-статистика" class="level2">
-<h2 class="anchored" data-anchor-id="защо-статистика">Защо статистика</h2>
-<p>Статистиката превръща данните в информация. Изречението „в отделението починаха 40 души“ само по себе си не казва нищо: не знаем от колко лекувани, нито какви пациенти са били те. Клиничните ръководства, праговете за лечение и здравните политики стъпват на статистически изводи. Лекарят ги прилага ежедневно и трябва да може да прочете критично числата в една научна статия: как са получени и какво <em>не</em> следва от тях.</p>
-</section>
-<section id="съвкупност-единица-признак" class="level2">
-<h2 class="anchored" data-anchor-id="съвкупност-единица-признак">Съвкупност, единица, признак</h2>
-<p><strong>Статистическата съвкупност</strong> е множество от единици на наблюдение, които са качествено еднородни (имат общ признак) и са ограничени във времето и мястото. „Всички болни от инсулт“ не е съвкупност; „всички хоспитализирани с остър мозъчен инсулт в една болница през 2025 г.“ е. <strong>Единицата на наблюдение</strong> е отделният елемент — пациент, хоспитализация, раждане, смъртен случай. <strong>Признаците</strong> са характеристиките, които регистрираме за всяка единица: възраст, пол, диагноза, изход.</p>
-<p><strong>Генералната съвкупност</strong> включва всички единици, за които искаме да направим извод; <strong>извадката</strong> е частта, която реално наблюдаваме. Обемът им се отбелязва с <em>N</em> и <em>n</em>. Извадката е <strong>представителна</strong>, когато повтаря структурата на генералната съвкупност по важните признаци. Признаците са качествени (номинални и порядкови) или количествени (дискретни и непрекъснати); количествените могат да се групират в категории — например възрастта във възрастови групи.</p>
-</section>
-<section id="абсолютни-и-относителни-величини" class="level2">
-<h2 class="anchored" data-anchor-id="абсолютни-и-относителни-величини">Абсолютни и относителни величини</h2>
-<p><strong>Абсолютните величини</strong> са числата, получени чрез преброяване или измерване: 2 850 починали, систолно налягане 135 mmHg. Те винаги имат мерна единица и с тях започва всяко изследване, но не стигат за сравнение. Болница с 400 починали не работи непременно по-зле от болница с 40.</p>
-<p><strong>Относителните величини</strong> се получават при деление на две абсолютни и се изразяват като коефициент, процент, промил или на 10 000 и 100 000. Видът им се определя от <strong>знаменателя</strong>:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 37%">
-<col style="width: 30%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Вид</th>
-<th style="text-align: left;">Какво показва</th>
-<th style="text-align: left;">Знаменател</th>
-<th style="text-align: left;">Пример</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">екстензивен (структурен)</td>
-<td style="text-align: left;">как цялото се разпределя на части</td>
-<td style="text-align: left;">цялото явление</td>
-<td style="text-align: left;">52 % от болните са жени</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">интензивен (честотен)</td>
-<td style="text-align: left;">колко често възниква явлението</td>
-<td style="text-align: left;">средата под риск</td>
-<td style="text-align: left;">12 починали на 1 000 души</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">съотношение</td>
-<td style="text-align: left;">осигуреност, натовареност</td>
-<td style="text-align: left;">друга по съдържание съвкупност (напр. населението)</td>
-<td style="text-align: left;">50 лекари на 10 000 души</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">нагледност</td>
-<td style="text-align: left;">равнище спрямо база (динамика)</td>
-<td style="text-align: left;">базисна стойност = 100 %</td>
-<td style="text-align: left;">120 % спрямо 2022 г.</td>
-</tr>
-</tbody>
-</table>
-<p>Сборът на екстензивните показатели за едно явление е винаги 100 %. Именно затова структурата <strong>не измерва риск</strong>. Ако 70 % от хоспитализираните с една инфекция са ваксинирани, а ваксинирани са 90 % от населението, честотата на хоспитализация сред неваксинираните е по-висока — в учебния пример от презентацията около 3,9 пъти. За сравнение на риска са нужни честотите в съответните групи; дяловете сред хоспитализираните не са достатъчни.</p>
-<p>Сред интензивните показатели най-често се бъркат <strong>смъртност</strong> и <strong>леталитет</strong>. При смъртността знаменателят е населението; при леталитета — болните от съответната болест.</p>
-</section>
-<section id="защо-общите-показатели-могат-да-подвеждат" class="level2">
-<h2 class="anchored" data-anchor-id="защо-общите-показатели-могат-да-подвеждат">Защо общите показатели могат да подвеждат</h2>
-<p>Стойността на един интензивен показател зависи от <strong>състава</strong> на средата, в която е измерен. Общата смъртност е по-висока там, където живеят повече възрастни; болничният леталитет е по-висок в болница с повече тежко болни. Когато сравняваме групи с различна структура, признакът на структурата (най-често възрастта) се смесва със сравнението. Признак, който е свързан с изследвания фактор, независимо от него е свързан и с резултата и не е последица от фактора, наричаме <strong>смесващ фактор</strong>.</p>
-<p>В учебната задача от упражнението сред ваксинираните болни леталитетът е 71,25 %, а сред неваксинираните 68,75 %. Изглежда, че ваксината вреди. Но ваксинираните са по-възрастни (половината са на 45 и повече години), а във <em>всяка</em> възрастова група техният леталитет е с 10 процентни пункта по-нисък.</p>
-</section>
-<section id="пряк-метод-на-стандартизация" class="level2">
-<h2 class="anchored" data-anchor-id="пряк-метод-на-стандартизация">Пряк метод на стандартизация</h2>
-<p><strong>Стандартизацията</strong> преобразува общите коефициенти така, че да се отстрани влиянието на различния състав на сравняваните групи. Стандартизираният показател отговаря на въпроса: <em>какъв би бил общият показател, ако групите имаха еднаква структура?</em> Прекият метод има четири стъпки:</p>
-<ol type="1">
-<li><strong>Специфични показатели</strong> <img src="https://latex.codecogs.com/png.latex?P_i"> за всяка подгрупа (напр. 250 / 500 = 0,500) и отделно общият нестандартизиран показател за всяка група.</li>
-<li><strong>Стандарт</strong> <img src="https://latex.codecogs.com/png.latex?S_i%20=%20N_i%20/%20N"> — структурата на едната група или на външна популация; <img src="https://latex.codecogs.com/png.latex?%5Csum%20S_i%20=%201">.</li>
-<li><strong>Претеглени приноси</strong> <img src="https://latex.codecogs.com/png.latex?P_i%20%5Ctimes%20S_i"> за всяка подгрупа.</li>
-<li><strong>Сумиране и извод</strong>: <img src="https://latex.codecogs.com/png.latex?P_%7B%D1%81%D1%82%7D%20=%20%5Csum%20P_i%20%5Ctimes%20S_i">; сравняваме общите стандартизирани показатели.</li>
-</ol>
-<p>В примера със стандарт структурата на неваксинираните стандартизираният леталитет е <strong>58,75 %</strong> при ваксинираните и <strong>68,75 %</strong> при неваксинираните — изводът се обръща. Със стандарт структурата на ваксинираните стойностите са 71,25 % и 81,25 %: числата са други, посоката е същата. Тук изводът не зависи от стандарта, защото разликата е еднаква във всяка възрастова група. Ако разликите по подгрупи имаха различна посока, изборът на стандарт би могъл да промени и извода — затова стандартът винаги се посочва.</p>
-<p>Полезна проверка: групата, чиято структура е стандарт, запазва общия си показател.</p>
-</section>
-<section id="чести-грешки" class="level2">
-<h2 class="anchored" data-anchor-id="чести-грешки">Чести грешки</h2>
-<ul>
-<li>Сравняване на общи (нестандартизирани) показатели при групи с различна структура.</li>
-<li>Събиране на специфичните показатели вместо преизчисляване на общия от общите числа.</li>
-<li>Събиране вместо умножение със стандарта.</li>
-<li>Стандарт, чийто сбор не е 1 (100 %).</li>
-<li>Тълкуване на стандартизирания показател като реална честота — той служи само за сравнение.</li>
-<li>Разлика между два процента, изразена в проценти вместо в <strong>процентни пунктове</strong>.</li>
-</ul>
-</section>
-<section id="проверете-се" class="level2">
-<h2 class="anchored" data-anchor-id="проверете-се">Проверете се</h2>
-<ol type="1">
-<li>Кой е знаменателят на леталитета и кой — на смъртността?</li>
-<li>Защо стандартът винаги е екстензивен показател?</li>
-<li>Какво означава стандартизиран леталитет 58,75 %, ако наблюдаваният е 71,25 %?</li>
-</ol>
-
-
-</section>
-
- ]]></description>
-  <category>Bulgarian</category>
-  <category>Medical Statistics</category>
-  <category>Medicine | 2nd year</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-statistics-standardization-bg.html</guid>
-  <pubDate>Sat, 31 Oct 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Етични и правни аспекти на човешката репродукция: контрацепция, аборт, стерилизация и асистирана репродукция</title>
-  <dc:creator>Костадин Костадинов</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-reproduction-bg.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-07-bg.pdf">Слайдове (PDF)</a> · <a href="../learning-tasks/medical-ethics-reproduction-bg.html">Задачи за студенти</a> · <a href="../15-minute-learning/medical-ethics-reproduction-en.html">English</a></p>
-<p>Отделете около <strong>15 минути</strong> за четене и размисъл. Текстът следва презентацията „Да имаш или да нямаш дете“. След него трябва да можете да обясните кой взема репродуктивното решение, какво позволява и какво забранява българското право при аборта, стерилизацията и асистираната репродукция, какво става с ембрионите при раздяла или смърт на партньора и как законът определя майката и бащата.</p>
-<section id="репродуктивна-автономност" class="level2">
-<h2 class="anchored" data-anchor-id="репродуктивна-автономност">Репродуктивна автономност</h2>
-<p>Репродуктивната автономност е способността човек свободно и информирано да решава дали, кога и при какви обстоятелства да има деца. <a href="https://lex.bg/laws/ldoc/2135489147">Законът за здравето</a> я формулира кратко: всеки има право на информация и свобода на решение относно своето репродуктивно здраве (чл. 126, ал. 2). Свободата обаче не е само липса на забрана. Реалният избор предполага достоверна информация, достъпни услуги, поверителност и защита от натиск.</p>
-<p>Полезно е разграничението между <strong>негативно</strong> и <strong>позитивно</strong> право. Негативното право изисква държавата да не се намесва в решението — принудителната стерилизация, бременност или аборт са сред най-тежките нарушения на телесната неприкосновеност. Позитивното право е право на помощ: лечение, финансиране, донорски материал. То е ограничено от медицинската целесъобразност, закона и публичния ресурс. Европейският съд по правата на човека приема, че решението да станеш или да не станеш родител е част от личния живот (<em>Evans срещу Обединеното кралство</em>, 2007), но оставя на държавите широка свобода при уредбата на асистираната репродукция (<em>S.H. и други срещу Австрия</em>, 2011).</p>
-<p>Контрацепцията, стерилизацията и абортът се намесват в различен момент и имат различна обратимост. Контрацепцията предотвратява бременност и обикновено е обратима; стерилизацията е замислена като постоянна; абортът прекъсва вече настъпила бременност. Смесването на понятията води до дезинформация — най-честият пример е спешната контрацепция, представяна като аборт.</p>
-</section>
-<section id="контрацепция-и-непълнолетни" class="level2">
-<h2 class="anchored" data-anchor-id="контрацепция-и-непълнолетни">Контрацепция и непълнолетни</h2>
-<p>Добрата консултация изяснява какво е важно за пациента: ефективност при идеална и при обичайна употреба, кога започва защитата и какво се прави при пропуск, противопоказания и сериозни нежелани реакции, обратимост, дискретност и защита от инфекции, предавани по полов път (осигурява я само презервативът). <strong>Спешната контрацепция не е аборт</strong>: тя действа преди установена бременност, като предотвратява или забавя овулацията.</p>
-<p>При непълнолетни медицинските дейности изискват освен тяхното съгласие и съгласието на родител или попечител (ЗЗ, чл. 87, ал. 2). Навършилите 16 години обаче могат без съгласие на родител да получат здравни консултации, профилактични прегледи и изследвания (чл. 87, ал. 3). Границите на поверителността се обясняват предварително; абсолютна тайна не се обещава. Лекарят ненатрапчиво проверява дали контактът е доброволен и дали има възрастова или властова асиметрия, насилие или експлоатация, а при дете в риск има задължение да сигнализира (Закон за закрила на детето, чл. 7).</p>
-<p><strong>Репродуктивна принуда</strong> е контрол от друг човек върху това дали и кога пациентът ще забременее — повредени презервативи, скрити таблетки, заплахи, но и „загрижено“ настояване за дългодействащ метод при жена с интелектуално затруднение. Диагнозата не е равна на неспособност: способността се оценява за конкретното решение и може да бъде подкрепена.</p>
-</section>
-<section id="аборт-морални-позиции-и-български-режим" class="level2">
-<h2 class="anchored" data-anchor-id="аборт-морални-позиции-и-български-режим">Аборт: морални позиции и български режим</h2>
-<p>Консервативната позиция приписва пълна морална стойност на човешкия живот от зачеването. Градуалистичната приема, че моралното значение нараства с развитието — нервна система, способност за усещане, жизнеспособност. Аргументът от телесната автономност (Thomson, 1971) твърди, че дори при признат статус на плода правото на живот не включва право да се използва тялото на друг човек без съгласието му. Съвременното право съчетава позициите: свобода на решение в ранната бременност и нарастваща защита на плода с напредването ѝ.</p>
-<p>Законът за здравето предоставя уредбата на наредба на министъра (чл. 128, ал. 1). Според <a href="https://lex.bg/laws/ldoc/-552069119">Наредба № 2 от 1990 г.</a> <strong>абортът по желание</strong> се извършва по искане на всяка бременна жена до 12 гестационни седмици, ако няма заболяване, при което прекъсването заплашва здравето или живота ѝ (чл. 7). <strong>Абортът по медицински показания</strong> се допуска до 20 гестационни седмици при заболяване, което застрашава живота или здравето на жената или жизнеността на поколението, по решение на специална медицинска комисия (чл. 12–14). След 20-ата седмица прекъсване се разрешава само при неотложни причини за спасяване на живота на жената или при доказани груби морфологични промени или тежки генетични увреждания на плода (чл. 12, ал. 2). Отказът на комисията се обжалва в 7-дневен срок пред комисия в СБАЛАГ „Майчин дом“ (чл. 15).</p>
-<p><a href="https://lex.bg/laws/ldoc/1589654529">Наказателният кодекс</a> наказва онзи, който със съгласието на бременната умъртви плода извън акредитирано лечебно заведение или в нарушение на медицинските стандарти — до пет години, а без съгласието ѝ — от три до осем години (чл. 126). <strong>Бременната жена не носи наказателна отговорност</strong> (чл. 126, ал. 4). При съмнение за криминален аборт лекарят уведомява ръководителя, прокуратурата и МВР в 24 часа (Наредба № 2, чл. 19), но спешната помощ никога не се отказва.</p>
-<p>Пренаталният скрининг дава вероятност, а диагностичното изследване — диагноза. Консултацията след неблагоприятен резултат е недирективна: прогноза, подкрепа, продължаване на бременността, палиативна грижа при летална аномалия и законно прекъсване. При асистираната репродукция подборът по пол е забранен, освен за предотвратяване на свързани с пола наследствени заболявания (ЗЗ, чл. 135, ал. 1).</p>
-<p><strong>Възражение по съвест.</strong> Кодексът за професионална етика позволява на лекаря по морални или религиозни убеждения да откаже прекъсване на <em>нормална</em> бременност (чл. 32). Това е право да не участваш лично, а не право да блокираш достъпа: отказът се заявява своевременно, пациентката получава точна информация и насочване, а при медицински показания или спешност отказ не се допуска. Европейският съд изисква държавата да осигури ефективен достъп до това, което законът позволява (<em>Tysiąc срещу Полша</em>, 2007; <em>R.R. срещу Полша</em>, 2011).</p>
-<p>В Европа режимите варират: Франция допуска аборт по желание до 14 седмици и от 2024 г. е вписала тази свобода в Конституцията; във Великобритания абортът е възможен до 24 седмици по законови основания; Полша след 2020 г. и Малта го допускат само при опасност за живота или здравето (Полша — и при бременност от престъпление).</p>
-</section>
-<section id="стерилизация" class="level2">
-<h2 class="anchored" data-anchor-id="стерилизация">Стерилизация</h2>
-<p>Стерилизацията е намеса с намерение за постоянство — прекъсване на маточните тръби при жената, вазектомия при мъжа. Съгласието трябва да почива на разбирането, че естествено зачеване може никога да не настъпи; трябва да се обсъдят обратимите алтернативи, а решението да не се взема в криза или непосредствено след тежко раждане. Партньорът може да участва в разговора, но няма право на вето.</p>
-<p>Законът за здравето говори за „трайно отнемане на способността за репродукция“ и препраща условията и реда към наредба на министъра (чл. 128, ал. 3). <strong>В България стерилизация се извършва само при медицински показания</strong> — когато бременността е противопоказана или би застрашила живота на жената; доброволната контрацептивна стерилизация без показания не е законово уредена. Причиняването на детеродна неспособност е тежка телесна повреда (НК, чл. 128, ал. 2). В повечето западни държави доброволната стерилизация на пълнолетни е законна при информирано съгласие: Франция изисква четиримесечен период за размисъл, САЩ при федерално финансиране — навършени 21 години и 30 дни изчакване, а Германия забранява стерилизацията на деца.</p>
-<p>Историята обяснява строгостта. Евгеничните политики на XX век стерилизираха хора с увреждания, бедни и малцинства. В <em>V.C. срещу Словакия</em> (2011) ромска жена е стерилизирана при цезарово сечение без истинско съгласие — Европейският съд установява нечовешко и унизително отнасяне.</p>
-</section>
-<section id="асистирана-репродукция" class="level2">
-<h2 class="anchored" data-anchor-id="асистирана-репродукция">Асистирана репродукция</h2>
-<p>Законът определя асистираната репродукция като диагностични и лечебни методи за преодоляване на безплодието, осъществявани в специализирани центрове (§ 1, т. 21 ДР). Тя се прилага, когато състоянието на мъжа или жената не позволява естествено зачеване (чл. 129), след писмено информирано съгласие и по медицински стандарт (чл. 130). Действащият стандарт е <a href="https://www.ciela.net/svobodna-zona-normativi/view/2137235067">Наредба № Н-2 от 12.07.2023 г.</a> за дейностите по асистирана репродукция, а контролът е на Изпълнителна агенция „Медицински надзор“. Стандартът допуска и запазване на фертилитета по медицински и социални причини.</p>
-<p>Основните методи са вътрематочна инсеминация, ин-витро оплождане, ICSI, криоконсервация и предимплантационен генетичен тест. Съгласието е <strong>поетапно</strong>: съгласието за ин-витро процедура не е общо разрешение за оплождане, генетичен тест, замразяване, даряване и трансфер. Центърът за асистирана репродукция финансира процедури при медицински индикации за жени под 43 години, до четири опита — това е правило за финансиране, а не забрана за лечение.</p>
-<p><strong>Даряване.</strong> Дарителката на яйцеклетки е пълнолетна, дава нотариално заверено съгласие, информира се за рисковете, а здравето ѝ се удостоверява от комисия от трима лекари извън екипа (ЗЗ, чл. 130, ал. 5); тя може да е анонимна или родствена (сестра, братовчедка) и може да се откаже до оплождането. Донорската сперма се карантинира 180 дни. Даряването е <strong>безвъзмездно</strong> — възстановяват се само разумни разходи (чл. 130, ал. 7) — и <strong>анонимно</strong>: самоличността на донора е служебна тайна за 30 години (чл. 132, ал. 2). Новост на Наредба № Н-2 е даряването на ембриони: двойка с криоконсервирани ембриони може да ги дари анонимно на една друга двойка. Много държави вече дават на донор-заченатите деца право да узнаят произхода си (Швеция от 1985 г., Обединеното кралство от 2005 г., Франция от 2022 г.).</p>
-<p><strong>Брой и съдба на ембрионите.</strong> При жени под 38 години в първите два цикъла се пренася един ембрион; до 41 години — до два; над 41 — до три. Това е таван, не цел: многоплодната бременност носи риск. „Излишните“ ембриони могат да бъдат замразени (срокът се определя в съгласието, препоръчително до пет години), дарени, предоставени за наука с писмено съгласие на двамата (ЗЗ, чл. 134, ал. 2) или унищожени — по желание, при изтичане на срока или ако не са потърсени шест месеца след него. При раздяла трансфер без съгласието на двамата не се извършва; в <em>Evans</em> Европейският съд не установи нарушение, когато ембрионите — последната възможност на жената за генетично дете — бяха унищожени след оттегляне на съгласието на мъжа.</p>
-</section>
-<section id="смърт-на-партньора-и-произход-на-детето" class="level2">
-<h2 class="anchored" data-anchor-id="смърт-на-партньора-и-произход-на-детето">Смърт на партньора и произход на детето</h2>
-<p>Наредба № Н-2 забранява вземане на гамети от починал или от лице в мозъчна смърт и асистирана репродукция със замразени гамети след смъртта на единия партньор. Трансфер на <strong>замразен ембрион</strong> е възможен само ако едновременно: починалият мъж е изразил писмено волята си приживе; реципиентът е същата партньорка, посочена в документа; изминали са между 12 и 36 месеца от смъртта; жената е минала психологическа консултация и е уведомена писмено за последиците. Трети лица, включително родителите на починалия, не могат да се разпореждат с материала.</p>
-<p>Последиците следват от <a href="https://lex.bg/laws/ldoc/2135637484">Семейния кодекс</a>. <strong>Майка</strong> е жената, която е родила детето, включително при асистирана репродукция и донорска яйцеклетка, и произходът не може да се оспорва на това основание (чл. 60). <strong>Баща</strong> е съпругът на майката, ако детето е родено по време на брака или до 300 дни след прекратяването му (чл. 61); съпругът, дал писмено съгласие за асистирана репродукция, не може да оспорва бащинството (чл. 62, ал. 6). Извън брака бащата припознава детето. Дете, заченато след смъртта на мъжа, се ражда след 300-дневния срок — то няма произход от починалия и не е негов наследник. В Обединеното кралство и Испания посмъртното зачеване при съгласие създава произход; Германия и Франция го забраняват.</p>
-<p>При самотна жена лечение с донорска сперма е възможно. При двойка жени юридически родител е само родилката, защото българското право не признава еднополовите съюзи; Европейският съд в <em>Койлова и Бабулкова срещу България</em> (2023) прие, че държавата трябва да осигури правно признаване на еднополовите двойки, а Съдът на ЕС в делото „Пансарево“ (2021) — че дете с двама родители от един пол по акт на друга държава членка има право на свободно движение.</p>
-<p><strong>Заместващото майчинство</strong> — износване на бременност за друга двойка — може да е традиционно (с яйцеклетката на жената) или гестационно (с ембрион без нейния генетичен материал). В България то е изрично забранено (Наредба № Н-2, прил. 1, т. 5.7.9), а майка е родилката — договорът с „намерени родители“ няма правна сила. Алтруистично сурогатство с правна уредба има в Обединеното кралство, Гърция и Канада; търговско — в Украйна и някои щати на САЩ. Основните етични опасности са експлоатацията, натискът и превръщането на детето в предмет на договор; бременната жена остава пациент и никакъв договор не може да я задължи предварително на аборт или операция.</p>
-<p><em>Цитираните разпоредби са проверени в актуалните консолидирани текстове на 24 октомври 2026 г.</em></p>
-<p>Преди да отворите <a href="../learning-tasks/medical-ethics-reproduction-bg.html">задачите за студенти</a>, опитайте се да отговорите в три изречения: до коя седмица и при какви условия е допустим абортът в България; защо у нас доброволната стерилизация без медицински показания не се извършва; кой е бащата на дете, родено от замразен ембрион 18 месеца след смъртта на съпруга.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Bulgarian</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-reproduction-bg.html</guid>
-  <pubDate>Fri, 23 Oct 2026 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Ethical and legal aspects of human reproduction: contraception, abortion, sterilisation and assisted reproduction</title>
-  <dc:creator>Kostadin Kostadinov</dc:creator>
-  <link>https://kostadinoff.github.io/15-minute-learning/medical-ethics-reproduction-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><a href="../2026-2027-classes/ethics-07-en.pdf">Slides (PDF)</a> · <a href="../learning-tasks/medical-ethics-reproduction-en.html">Student tasks</a> · <a href="../15-minute-learning/medical-ethics-reproduction-bg.html">Български</a></p>
-<p>Set aside about <strong>15 minutes</strong> to read and reflect. The text follows the presentation “To have or not to have a child”. Afterwards you should be able to explain who makes a reproductive decision, what Bulgarian law permits and prohibits in abortion, sterilisation and assisted reproduction, what happens to embryos on separation or the death of a partner, and how the law determines the mother and the father.</p>
-<section id="reproductive-autonomy" class="level2">
-<h2 class="anchored" data-anchor-id="reproductive-autonomy">Reproductive autonomy</h2>
-<p>Reproductive autonomy is a person’s capacity to decide freely and on an informed basis whether, when and under what circumstances to have children. The Bulgarian <a href="https://lex.bg/laws/ldoc/2135489147">Health Act</a> puts it briefly: everyone has the right to information and freedom of decision regarding their reproductive health (Art. 126(2)). Freedom is more than the absence of a ban. A real choice requires reliable information, accessible services, confidentiality and protection from pressure.</p>
-<p>The distinction between <strong>negative</strong> and <strong>positive</strong> rights helps. The negative right requires the state not to interfere — forced sterilisation, pregnancy or abortion are among the gravest violations of bodily integrity. The positive right is a claim to assistance: treatment, funding, donor material. It is limited by medical appropriateness, the law and public resources. The European Court of Human Rights holds that the decision to become or not to become a parent is part of private life (<em>Evans v. the United Kingdom</em>, 2007), but it leaves states a wide margin in regulating assisted reproduction (<em>S.H. and Others v. Austria</em>, 2011).</p>
-<p>Contraception, sterilisation and abortion act at different times and differ in reversibility. Contraception prevents pregnancy and is usually reversible; sterilisation is intended to be permanent; abortion ends a pregnancy that already exists. Mixing the concepts produces misinformation — the commonest example is emergency contraception presented as abortion.</p>
-</section>
-<section id="contraception-and-minors" class="level2">
-<h2 class="anchored" data-anchor-id="contraception-and-minors">Contraception and minors</h2>
-<p>Good counselling clarifies what matters to the patient: effectiveness with perfect and with typical use, when protection starts and what to do after a missed dose, contraindications and serious adverse reactions, reversibility, discretion and protection from sexually transmitted infections (which only condoms provide). <strong>Emergency contraception is not abortion</strong>: it acts before an established pregnancy by preventing or delaying ovulation.</p>
-<p>For minors, medical activities require the consent of a parent or guardian in addition to the minor’s own (Health Act, Art. 87(2)). From the age of 16, however, a minor may receive health consultations, preventive examinations and tests without parental consent (Art. 87(3)). The limits of confidentiality are explained in advance; absolute secrecy is not promised. The physician tactfully checks whether sexual contact is voluntary and whether there is an age or power asymmetry, violence or exploitation, and has a duty to report a child at risk (Child Protection Act, Art. 7).</p>
-<p><strong>Reproductive coercion</strong> is control by another person over whether and when the patient becomes pregnant — sabotaged condoms, hidden pills, threats, but also a “caring” insistence on a long-acting method for a woman with an intellectual disability. A diagnosis is not incapacity: capacity is assessed for the specific decision and can be supported.</p>
-</section>
-<section id="abortion-moral-positions-and-the-bulgarian-regime" class="level2">
-<h2 class="anchored" data-anchor-id="abortion-moral-positions-and-the-bulgarian-regime">Abortion: moral positions and the Bulgarian regime</h2>
-<p>The conservative position gives human life full moral worth from conception. The gradualist position holds that moral significance grows with development — nervous system, capacity to feel, viability. The bodily-autonomy argument (Thomson, 1971) holds that even if the fetus has moral status, a right to life does not include a right to use another person’s body without consent. Modern law combines these positions: freedom of decision in early pregnancy and increasing protection of the fetus as pregnancy advances.</p>
-<p>The Health Act leaves the details to a ministerial ordinance (Art. 128(1)). Under <a href="https://lex.bg/laws/ldoc/-552069119">Ordinance No.&nbsp;2 of 1990</a>, <strong>abortion on request</strong> is performed at the request of any pregnant woman up to 12 gestational weeks, provided she has no condition in which termination would threaten her health or life (Art. 7). <strong>Abortion on medical grounds</strong> is allowed up to 20 weeks for a condition that threatens the woman’s life or health or the viability of the offspring, by decision of a special medical commission (Arts 12–14). After the 20th week, termination is allowed only for urgent reasons to save the woman’s life or for proven gross morphological changes or severe genetic damage of the fetus (Art. 12(2)). A refusal by the commission can be appealed within 7 days to a commission at the “Maichin Dom” obstetric hospital (Art. 15).</p>
-<p>The <a href="https://lex.bg/laws/ldoc/1589654529">Criminal Code</a> punishes whoever, with the pregnant woman’s consent, kills the fetus outside an accredited health facility or in breach of medical standards — up to five years — and without her consent, three to eight years (Art. 126). <strong>The pregnant woman bears no criminal liability</strong> (Art. 126(4)). When a criminal abortion is suspected, the physician notifies the head of the facility, the prosecutor and the police within 24 hours (Ordinance No.&nbsp;2, Art. 19), but emergency care is never refused.</p>
-<p>Prenatal screening gives a probability; a diagnostic test gives a diagnosis. Counselling after an unfavourable result is non-directive: prognosis, support, continuing the pregnancy, palliative care for a lethal anomaly and lawful termination. In assisted reproduction, sex selection is prohibited except to prevent sex-linked hereditary diseases (Health Act, Art. 135(1)).</p>
-<p><strong>Conscientious objection.</strong> The Code of Professional Ethics of Physicians allows a physician with moral or religious convictions to refuse to terminate a <em>normal</em> pregnancy (Art. 32). This is a right not to take part personally, not a right to block access: the refusal is declared in good time, the patient receives accurate information and referral, and no refusal is allowed on medical grounds or in an emergency. The European Court requires the state to ensure effective access to what the law allows (<em>Tysiąc v. Poland</em>, 2007; <em>R.R. v. Poland</em>, 2011).</p>
-<p>Across Europe the regimes differ: France allows abortion on request up to 14 weeks and wrote this freedom into its Constitution in 2024; in Great Britain abortion is available up to 24 weeks on statutory grounds; since 2020 Poland, and Malta, allow it only when life or health is at risk (Poland also after a crime).</p>
-</section>
-<section id="sterilisation" class="level2">
-<h2 class="anchored" data-anchor-id="sterilisation">Sterilisation</h2>
-<p>Sterilisation is an intervention intended to be permanent — tubal sterilisation in women, vasectomy in men. Consent must rest on the understanding that natural conception may never occur again; reversible alternatives must be discussed, and the decision should not be made in a crisis or immediately after a difficult delivery. The partner may take part in the conversation but has no veto.</p>
-<p>The Health Act speaks of “permanent removal of the capacity to reproduce” and delegates the conditions and procedure to a ministerial ordinance (Art. 128(3)). <strong>In Bulgaria sterilisation is performed only on medical grounds</strong> — when pregnancy is contraindicated or would endanger the woman’s life; voluntary contraceptive sterilisation without medical grounds is not regulated by law. Causing loss of reproductive capacity is grievous bodily harm (Criminal Code, Art. 128(2)). In most Western countries voluntary sterilisation of adults is lawful with informed consent: France requires a four-month reflection period, the USA (with federal funding) age 21 and a 30-day wait, and Germany prohibits sterilising children.</p>
-<p>History explains the strictness. The eugenic policies of the 20th century sterilised people with disabilities, the poor and minorities. In <em>V.C. v. Slovakia</em> (2011) a Roma woman was sterilised during a caesarean section without genuine consent — the European Court found inhuman and degrading treatment.</p>
-</section>
-<section id="assisted-reproduction" class="level2">
-<h2 class="anchored" data-anchor-id="assisted-reproduction">Assisted reproduction</h2>
-<p>The law defines assisted reproduction as diagnostic and therapeutic methods aimed at overcoming infertility and carried out in specialised centres (supplementary provisions, § 1, item 21). It applies when the condition of the man or the woman does not allow natural conception (Art. 129), after written informed consent and according to a medical standard (Art. 130). The current standard is <a href="https://www.ciela.net/svobodna-zona-normativi/view/2137235067">Ordinance No.&nbsp;N-2 of 12.07.2023</a> on assisted reproduction, and supervision lies with the Executive Agency “Medical Supervision”. The standard also allows fertility preservation for medical and social reasons.</p>
-<p>The main methods are intrauterine insemination, in vitro fertilisation, ICSI, cryopreservation and preimplantation genetic testing. Consent is <strong>staged</strong>: consent to IVF is not a blanket authorisation for fertilisation, genetic testing, freezing, donation and transfer. The Assisted Reproduction Centre funds procedures on medical indications for women under 43, up to four attempts — a funding rule, not a ban on treatment.</p>
-<p><strong>Donation.</strong> An egg donor is an adult who gives notarised consent, is informed of the risks and has her health certified by a commission of three physicians outside the team (Health Act, Art. 130(5)); she may be anonymous or related (a sister or cousin) and may withdraw until fertilisation. Donor sperm is quarantined for 180 days. Donation is <strong>unpaid</strong> — only reasonable expenses are reimbursed (Art. 130(7)) — and <strong>anonymous</strong>: the donor’s identity is an official secret for 30 years (Art. 132(2)). A novelty of Ordinance N-2 is embryo donation: a couple with cryopreserved embryos may donate them anonymously to one other couple. Many countries now give donor-conceived children the right to learn their origins (Sweden since 1985, the UK since 2005, France since 2022).</p>
-<p><strong>Number and fate of embryos.</strong> For women under 38 in the first two cycles one embryo is transferred; up to 41, up to two; over 41, up to three. This is a ceiling, not a target: multiple pregnancy carries risk. “Surplus” embryos may be frozen (the period is set in the consent, recommended up to five years), donated, given to research with the written consent of both (Health Act, Art. 134(2)) or destroyed — on request, when the period expires, or if unclaimed six months after it. On separation, no transfer takes place without the consent of both; in <em>Evans</em> the European Court found no violation when the embryos — the woman’s last chance of a genetic child — were destroyed after the man withdrew his consent.</p>
-</section>
-<section id="death-of-a-partner-and-the-childs-parentage" class="level2">
-<h2 class="anchored" data-anchor-id="death-of-a-partner-and-the-childs-parentage">Death of a partner and the child’s parentage</h2>
-<p>Ordinance N-2 prohibits retrieving gametes from a deceased or brain-dead person and assisted reproduction with frozen gametes after one partner’s death. Transfer of a <strong>frozen embryo</strong> is possible only if all of the following hold: the deceased man expressed his wish in writing during life; the recipient is the same partner named in that document; 12 to 36 months have passed since the death; and the woman has had psychological counselling and been informed in writing of the consequences. Third parties, including the deceased’s parents, may not dispose of the material.</p>
-<p>The consequences follow from the <a href="https://lex.bg/laws/ldoc/2135637484">Family Code</a>. The <strong>mother</strong> is the woman who gave birth, including after assisted reproduction with a donor egg, and maternity cannot be contested on that ground (Art. 60). The <strong>father</strong> is the mother’s husband if the child is born during the marriage or within 300 days of its end (Art. 61); a husband who gave written consent to assisted reproduction cannot contest paternity (Art. 62(6)). Outside marriage the father acknowledges the child. A child conceived after the man’s death is born after the 300-day period — it has no legal parentage from the deceased and is not his heir. In the United Kingdom and Spain posthumous conception with consent creates parentage; Germany and France prohibit it.</p>
-<p>A single woman can be treated with donor sperm. In a female couple only the birth mother is a legal parent, because Bulgarian law does not recognise same-sex unions; the European Court in <em>Koilova and Babulkova v. Bulgaria</em> (2023) held that the state must provide legal recognition for same-sex couples, and the Court of Justice of the EU in “Pancharevo” (2021) that a child with two same-sex parents under another Member State’s act has the right to free movement.</p>
-<p><strong>Surrogacy</strong> — carrying a pregnancy for another couple — may be traditional (with the surrogate’s own egg) or gestational (with an embryo without her genetic material). In Bulgaria it is expressly prohibited (Ordinance N-2, Annex 1, item 5.7.9), and the mother is the birth mother — a contract with “intended parents” has no legal effect. Regulated altruistic surrogacy exists in the United Kingdom, Greece and Canada; commercial surrogacy in Ukraine and some US states. The main ethical dangers are exploitation, pressure and turning the child into the object of a contract; the pregnant woman remains a patient, and no contract can oblige her in advance to undergo abortion or surgery.</p>
-<p><em>The cited provisions were checked against the current consolidated texts on 24 October 2026.</em></p>
-<p>Before opening the <a href="../learning-tasks/medical-ethics-reproduction-en.html">student tasks</a>, try to answer in three sentences: up to which week and under what conditions is abortion allowed in Bulgaria; why voluntary sterilisation without medical grounds is not performed in Bulgaria; who is the father of a child born from a frozen embryo 18 months after the husband’s death.</p>
-
-
-</section>
-
- ]]></description>
-  <category>English</category>
-  <category>Medical Ethics</category>
-  <category>Medicine | 2nd year</category>
-  <category>Dental Medicine</category>
-  <category>2026/2027</category>
-  <guid>https://kostadinoff.github.io/15-minute-learning/medical-ethics-reproduction-en.html</guid>
-  <pubDate>Fri, 23 Oct 2026 21:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

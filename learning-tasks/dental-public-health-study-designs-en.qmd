@@ -68,7 +68,7 @@ In a hypothetical study, 120 patients with oral cancer and 240 controls are inte
 | Heavy drinking | 72 | 60 |
 | Not heavy drinking | 48 | 180 |
 
-**OR** = (72 × 180)/(60 × 48) = 12,960/2,880 = **4.5**. The odds of heavy drinking were 4.5 times higher among cases than controls; because oral cancer is rare, the OR approximates the RR.
+**OR** = (72 × 180)/(60 × 48) = 12,960/2,880 = **4.5**. The odds of heavy drinking were 4.5 times higher among cases than controls; with cumulative non-case controls, disease OR approximates RR if source-population risks are small; the sampled case fraction cannot establish this.
 
 The investigator chose 120 cases and 240 controls, so 72/132 is not a risk — it depends on that choice. **Recall bias**: patients with cancer may think harder about, and report more fully, their past drinking than healthy controls. **Selection bias** is possible if controls do not come from the same population as the cases.
 
@@ -80,13 +80,13 @@ The study in Task 3 also finds that heavy drinkers smoke much more often than ot
 
 ::: {.callout-note collapse="true" title="Answer: smoking is a confounder"}
 
-Smoking is linked with heavy drinking and is itself a cause of oral cancer, so part of the association between drinking and cancer may be due to smoking — **confounding**. In the design: restrict to non-smokers or match cases and controls on smoking (then smoking itself cannot be studied). In the analysis: **stratify** by smoking and compare the OR in smokers and non-smokers, or adjust for smoking in a regression model. Randomisation, which balances confounders, is impossible here — nobody can be assigned to drink.
+Smoking is linked with heavy drinking and is itself a cause of oral cancer, so part of the association between drinking and cancer may be due to smoking — **confounding**. In the design: restrict to non-smokers or match cases and controls on smoking (matching must be accounted for in analysis). In the analysis: **stratify** by smoking and compare the OR in smokers and non-smokers, or adjust for smoking in a regression model. Randomisation, which balances prognostic factors in expectation, is impossible here — nobody can be assigned to drink.
 
 :::
 
 ## Task 5. Plan a trial — 15 minutes
 
-A company has a new high-fluoride varnish and wants to show that it prevents caries better than the standard varnish in children aged 6–8. Describe the design: allocation, control group, blinding, outcome and length of follow-up. Why is a placebo control not acceptable here, and what does that mean for the sample size?
+A company has a new high-fluoride varnish and wants to show that it prevents caries better than the standard varnish in children aged 6–8. Describe the design: allocation, control group, blinding, outcome and length of follow-up. Explain the active comparator and the implications of a smaller target difference for sample size.
 
 ::: {.callout-note collapse="true" title="Answer: RCT with an active control"}
 
@@ -94,7 +94,7 @@ A company has a new high-fluoride varnish and wants to show that it prevents car
 - **Active control**: the standard varnish; giving no fluoride would withhold an established benefit, which is unethical.
 - **Allocation concealment and blinding**: whoever enrols a child does not know the next allocation; the outcome assessors do not know the group (and, if the varnishes look alike, neither do the children and the dentists applying them).
 - **Outcome**: new carious surfaces (DMFS increment) after 2–3 years, examined by calibrated examiners.
-- Because the expected difference between two active products is smaller than against a placebo, **a larger sample** is needed.
+- If the target difference is smaller, a larger sample is usually needed with other assumptions fixed. Cluster randomisation also requires accounting for within-school correlation.
 
 :::
 

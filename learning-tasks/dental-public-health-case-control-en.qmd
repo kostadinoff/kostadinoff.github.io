@@ -1,0 +1,64 @@
+---
+title: "12. Case–control studies and the odds ratio — Group tasks"
+author: "Kostadin Kostadinov"
+date: 2026-11-12
+lang: en
+description: "Case–control studies and the odds ratio. Group tasks."
+categories: [English, Dental Public Health, Epidemiology, "Dental Medicine", "2026/2027"]
+---
+
+[Slides PDF](../2026-2027-classes/dental-12-en.pdf) · [BG / EN](dental-public-health-case-control-bg.qmd) · [Reading](../15-minute-learning/dental-public-health-case-control-en.qmd)
+
+Read the preparation text before the practical. Work in groups of three or four. Each of five tasks takes 15 minutes: 75 minutes after 15 minutes of preparation. All data are hypothetical. Open the answer only after agreeing on your analysis.
+
+## Task 1. Calculate the association — 15 min
+
+In an invented unmatched Plovdiv study, 120 oral-cancer cases and 240 controls are interviewed about heavy drinking before comparable index dates. Exposed: 72 cases and 60 controls. Build the table, calculate OR and explain why 72/132 is not cancer risk. Double both control cells.
+
+::: {.callout-note collapse="true" title="Model answer"}
+
+The cells are 72, 60, 48, 180. OR = 72×180/(60×48) = 4.5. The odds of exposure are 4.5 times as high among cases. The fraction 72/132 = 54.5% depends on the chosen control count. Doubling controls gives OR = 72×360/(120×48) = 4.5, while the apparent exposed case fraction changes.
+
+:::
+
+## Task 2. Choose a control source — 15 min
+
+Cases are all new diagnoses among eligible district residents. Compare controls sampled from district residents with volunteers from a smoking-cessation clinic. State the key eligibility question and one non-response concern.
+
+::: {.callout-note collapse="true" title="Model answer"}
+
+Controls should represent the exposure distribution required by the sampling scheme in the population producing cases. Ask whether a control would have been ascertained as a case if qualifying disease developed. Smoking-clinic volunteers can overrepresent exposure. District sampling still needs appropriate coverage and assessment of whether participation depends on exposure or disease-related factors.
+
+:::
+
+## Task 3. Investigate recall — 15 min
+
+True exposure is 40 of 100 cases and 40 of 100 controls. Reports classify 60 cases and 40 controls as exposed. Calculate true and reported OR; propose two safeguards and their limits.
+
+::: {.callout-note collapse="true" title="Model answer"}
+
+True OR = 40×60/(40×60) = 1. Reported OR = 60×60/(40×40) = 2.25. Use prediagnostic records where suitable and identical structured questions with comparable dates. Records may be incomplete and identical questions do not guarantee equal recall. Masking an interviewer cannot erase participants’ knowledge of diagnosis.
+
+:::
+
+## Task 4. Explain the sampling interpretation — 15 min
+
+Population risks are 2% versus 1%, then 40% versus 20%. Calculate RR and disease OR in each. Under what different control scheme can OR estimate a rate ratio without rarity?
+
+::: {.callout-note collapse="true" title="Model answer"}
+
+RR = 2 in both. OR = (0.02/0.98)/(0.01/0.99) = 2.02; OR = (0.4/0.6)/(0.2/0.8) = 2.67. With cumulative non-case controls, rarity concerns population risks, not sample case fraction. With valid risk-set sampling and appropriate analysis, OR estimates an incidence rate ratio without a rare-outcome assumption. A risk-set control may later become a case.
+
+:::
+
+## Task 5. Appraise the conclusion — 15 min
+
+An individually matched study reports only an unmatched cross-product OR, ignores smoking when studying alcohol, and concludes that an interval including 1 proves no association. Identify the problems and propose a defensible analysis and conclusion.
+
+::: {.callout-note collapse="true" title="Model answer"}
+
+Preserve pairing and use a matched method; collapsed margins generally do not give the matched-pair OR. Assess the causal role and measurement of smoking and use justified adjustment. An interval including 1 does not establish equivalence or absence of an important association. Report estimate, interval, sampling, measurement, confounding and applicability limits; avoid a causal claim based only on OR.
+
+:::
+
+A complete answer includes the design, denominator, calculation, units, period and a justified interpretation. Assess sampling, measurement, confounding and uncertainty separately.

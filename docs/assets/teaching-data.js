@@ -1269,6 +1269,62 @@ window.TEACHING_DATA = {
                     { label: "15-minute reading", href: "15-minute-learning/dental-public-health-study-designs-en.html" },
                     { label: "Student tasks", href: "learning-tasks/dental-public-health-study-designs-en.html" }
                   ]
+                },
+                {
+                  "title": "Class 11 · Cohort studies and risk assessment",
+                  "description": "A full 90-minute practical: cohort assembly and at-risk denominators; risk, RR and risk difference; attributable fractions among exposed people and in the population; absolute and relative preventive effects, NNT and baseline risk; person-time, missing outcomes, confounding and confidence intervals. Hypothetical dental datasets, independent exercises and checked answers.",
+                  "tags": [
+                    "epidemiology",
+                    "cohort",
+                    "risk"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Slides (PDF)",
+                      "href": "2026-2027-classes/dental-11-en.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-minute reading",
+                      "href": "15-minute-learning/dental-public-health-cohort-risk-en.html"
+                    },
+                    {
+                      "label": "Student tasks",
+                      "href": "learning-tasks/dental-public-health-cohort-risk-en.html"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class 12 · Case–control studies and the odds ratio",
+                  "description": "A full 90-minute practical: source population and incident cases; control selection; exposure odds and unmatched OR; why sampled row totals do not estimate population risk; rare-outcome approximation, risk-set sampling, nested studies, selection and recall bias, matching, confounding and uncertainty. Hypothetical calculations and critical appraisal with answers.",
+                  "tags": [
+                    "epidemiology",
+                    "case–control",
+                    "OR"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Slides (PDF)",
+                      "href": "2026-2027-classes/dental-12-en.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-minute reading",
+                      "href": "15-minute-learning/dental-public-health-case-control-en.html"
+                    },
+                    {
+                      "label": "Student tasks",
+                      "href": "learning-tasks/dental-public-health-case-control-en.html"
+                    }
+                  ]
                 }
               ],
               handouts: [
@@ -1404,6 +1460,62 @@ window.TEACHING_DATA = {
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/dental-public-health-study-designs-bg.html" },
                     { label: "Задачи за студенти", href: "learning-tasks/dental-public-health-study-designs-bg.html" }
+                  ]
+                },
+                {
+                  "title": "Упражнение 11 · Кохортни проучвания и оценка на риска",
+                  "description": "Пълно 90-минутно упражнение: формиране на кохорта и знаменатели в риск; риск, RR и разлика в риска; атрибутивни фракции сред експонираните и в популацията; абсолютен и относителен профилактичен ефект, NNT и изходен риск; човеко-време, липсващи изходи, замъгляване и доверителни интервали. Условни дентални данни, самостоятелни задачи и проверени отговори.",
+                  "tags": [
+                    "epidemiology",
+                    "cohort",
+                    "risk"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Слайдове (PDF)",
+                      "href": "2026-2027-classes/dental-11-bg.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-минутна подготовка",
+                      "href": "15-minute-learning/dental-public-health-cohort-risk-bg.html"
+                    },
+                    {
+                      "label": "Задачи за студенти",
+                      "href": "learning-tasks/dental-public-health-cohort-risk-bg.html"
+                    }
+                  ]
+                },
+                {
+                  "title": "Упражнение 12 · Проучвания случай–контрола и отношение на шансовете",
+                  "description": "Пълно 90-минутно упражнение: изходна популация и нови случаи; подбор на контроли; шансове за експозиция и несдвоен OR; защо извадковите редови сборове не дават популационен риск; рядък изход, рискови множества, вложени проучвания, грешки при подбора и припомнянето, съпоставяне, замъгляване и неопределеност. Условни изчисления и критична оценка с отговори.",
+                  "tags": [
+                    "epidemiology",
+                    "case–control",
+                    "OR"
+                  ],
+                  "date": "2026-11-12",
+                  "version": "1.0",
+                  "files": [
+                    {
+                      "label": "Слайдове (PDF)",
+                      "href": "2026-2027-classes/dental-12-bg.pdf",
+                      "kind": "pdf"
+                    }
+                  ],
+                  "links": [
+                    {
+                      "label": "15-минутна подготовка",
+                      "href": "15-minute-learning/dental-public-health-case-control-bg.html"
+                    },
+                    {
+                      "label": "Задачи за студенти",
+                      "href": "learning-tasks/dental-public-health-case-control-bg.html"
+                    }
                   ]
                 }
               ],
