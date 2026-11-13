@@ -66,17 +66,17 @@ An agreed plan includes small quantities on set dates from one pharmacy, regular
 
 A 64-year-old woman with gallstones must choose between two surgical options with different benefits and risks. After a detailed explanation she says: "Doctor, you know better — do what you think is right." She understands the basic information and has capacity, but the medical details frighten her.
 
-1. Which relationship model does she prefer in the course classification (paternalistic, autonomous, business, contractual), and how would Emanuel and Emanuel or Szasz and Hollender describe it?
+1. Which relationship models could describe this encounter in Emanuel and Emanuel's, Szasz and Hollender's and Veatch's terms, and what would distinguish them?
 2. Can the physician accept the delegation without the encounter becoming paternalistic? What minimum participation must be kept?
 3. Write the recommendation the physician would say to her, in two or three sentences.
 
 ::: {.callout-note collapse="true" title="Model answer: a recommendation without taking away the choice"}
 
-She wants the physician to take a larger role: elements of the paternalistic model in the course classification and in Emanuel's terms, or guidance–cooperation in Szasz and Hollender's. Her choice, however, is voluntary and informed. Wanting a recommendation is not a waiver of autonomy.
+Her request alone does not determine the model. If the physician simply decides for her, the encounter becomes paternalistic in Emanuel's terms and priestly in Veatch's. Guidance–cooperation (Szasz and Hollender) is a possible description, and voluntary delegation within an agreed framework of her values fits Veatch's contractual model. What distinguishes them is whether her values and her consent remain the basis of the decision. Wanting a recommendation is not a waiver of autonomy.
 
 The physician may accept the delegation after checking that it is free, while keeping a minimum of participation: she knows what the operation is, its main risks and what it means for her life, and she can change her mind. The physician asks what matters most to her, for example a quick recovery, a lower risk of a second operation, or avoiding a longer anaesthetic, and links the medical facts to those values. This is closer to the interpretive model than to paternalism.
 
-A possible wording: "Both operations are medically acceptable. Since you want to get back to looking after your granddaughter quickly, I would recommend the first option. If you agree, we will schedule it, and you can still change your mind up to the day of surgery."
+A possible wording: "Both operations are medically acceptable. Since you want to get back to looking after your granddaughter quickly, I would recommend the first option. If you agree, we will schedule it, and you can withdraw your consent at any time before the operation, including on the day."
 
 :::
 

@@ -575,7 +575,7 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
-                  description: "The chronically ill patient and coping, the course models of the relationship (paternalistic, autonomous, business, contractual) with Szasz–Hollender, Veatch and Emanuel for comparison, shared decision-making, truth-telling and boundaries, collegiality under the Code of Professional Ethics, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
+                  description: "The chronically ill patient and coping, the international models of the physician–patient relationship (Szasz–Hollender, Veatch, Emanuel & Emanuel), shared decision-making, truth-telling and boundaries, collegiality under the Code of Professional Ethics, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
                   tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
                   date: "2026-11-12",
                   version: "2.0",
@@ -1188,7 +1188,7 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
-                  description: "Shared with medical ethics: the chronically ill patient, the course models of the relationship (paternalistic, autonomous, business, contractual), shared decision-making, truth-telling and boundaries, collegiality, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
+                  description: "Shared with medical ethics: the chronically ill patient, the international models of the physician–patient relationship (Szasz–Hollender, Veatch, Emanuel & Emanuel), shared decision-making, truth-telling and boundaries, collegiality, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
                   tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
                   date: "2026-11-12",
                   version: "2.0",
