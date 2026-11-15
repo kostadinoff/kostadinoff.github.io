@@ -450,6 +450,7 @@ window.Quarto = {
   <li><a href="#задача-3.-тегло-при-раждане-20-минути" id="toc-задача-3.-тегло-при-раждане-20-минути" class="nav-link" data-scroll-target="#задача-3.-тегло-при-раждане-20-минути">Задача 3. Тегло при раждане — 20 минути</a></li>
   <li><a href="#задача-4.-пулс-преди-и-след-бета-блокер-15-минути" id="toc-задача-4.-пулс-преди-и-след-бета-блокер-15-минути" class="nav-link" data-scroll-target="#задача-4.-пулс-преди-и-след-бета-блокер-15-минути">Задача 4. Пулс преди и след бета-блокер — 15 минути</a></li>
   <li><a href="#задача-5.-правилно-тълкуване-15-минути" id="toc-задача-5.-правилно-тълкуване-15-минути" class="nav-link" data-scroll-target="#задача-5.-правилно-тълкуване-15-минути">Задача 5. Правилно тълкуване — 15 минути</a></li>
+  <li><a href="#допълнителна-задача.-преживяемост-пример-на-искров" id="toc-допълнителна-задача.-преживяемост-пример-на-искров" class="nav-link" data-scroll-target="#допълнителна-задача.-преживяемост-пример-на-искров">Допълнителна задача. Преживяемост — пример на Искров</a></li>
   </ul>
 </nav>
     </div>
@@ -604,6 +605,35 @@ window.Quarto = {
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Верни са <strong>2, 4 и 5</strong>. Твърдение 1: p-стойността е вероятността за данните (или по-крайни) при вярна <span class="math inline">\(H_0\)</span>, не вероятността <span class="math inline">\(H_0\)</span> да е вярна. Твърдение 3: p-стойността зависи и от обема на извадката — голяма извадка дава малко p и при малък ефект. Твърдение 4 е вярно, защото тестът и интервалът използват една и съща стандартна грешка и едни и същи df. За два дяла Z-тестът (обединен дял) и интервалът (отделни дялове) използват различни стандартни грешки и в гранични случаи се разминават: при 19/100 срещу 31/100 интервалът е [−23,89; −0,11] п.п., а Z-тестът дава <span class="math inline">\(p = 0{,}050\)</span>. Твърдение 5: по-строгото <span class="math inline">\(\alpha\)</span> прави отхвърлянето по-трудно, затова пропускаме реален ефект по-често.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="допълнителна-задача.-преживяемост-пример-на-искров" class="level2">
+<h2 class="anchored" data-anchor-id="допълнителна-задача.-преживяемост-пример-на-искров">Допълнителна задача. Преживяемост — пример на Искров</h2>
+<p>Две независими групи са проследени до изхода при всички пациенти. Експериментално лечение: <span class="math inline">\(n_1 = 30\)</span>, <span class="math inline">\(\bar X_1 = 15\)</span> месеца, <span class="math inline">\(S_1 = 4{,}5\)</span> месеца; химиотерапия: <span class="math inline">\(n_2 = 30\)</span>, <span class="math inline">\(\bar X_2 = 11\)</span> месеца, <span class="math inline">\(S_2 = 1{,}5\)</span> месеца. Приемете, че t-тестът е приложим.</p>
+<ol type="1">
+<li>Формулирайте хипотезите. Изчислете стандартната грешка, t и консервативните степени на свобода.</li>
+<li>Какво заключавате от листа с формули? Какво уточнение дава допълнителната двустранна критична стойност 3,659 при df = 29 и p = 0,001?</li>
+<li>Изчислете 95 % доверителен интервал за разликата и формулирайте извод. Какво се променя, ако има цензурирани наблюдения?</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Бележка</span>Примерен отговор
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><span class="math inline">\(H_0: \mu_1 = \mu_2\)</span>; <span class="math inline">\(H_1: \mu_1 \neq \mu_2\)</span>; <span class="math inline">\(\alpha = 0{,}05\)</span>. <span class="math inline">\(SE = \sqrt{4{,}5^2/30 + 1{,}5^2/30} = \sqrt{0{,}675 + 0{,}075} = 0{,}866\)</span> месеца; <span class="math inline">\(t = 4/0{,}866 = 4{,}62\)</span>; <span class="math inline">\(df \approx \min(29;29) = 29\)</span>.</li>
+<li>В листа <span class="math inline">\(t_{0{,}005;29} = 2{,}756\)</span>, затова <span class="math inline">\(p &lt; 0{,}01\)</span>. Допълнителната стойност 3,659 е извън листа; <span class="math inline">\(4{,}62 &gt; 3{,}659\)</span> уточнява <strong>p &lt; 0,001</strong>. При df = 29 софтуерът дава p ≈ 0,000073; с точните df на Уелч ≈ 35,4 дава p ≈ 0,0000495.</li>
+<li><span class="math inline">\(4 \pm 2{,}045 \times 0{,}866\)</span> → <strong>[2,23; 5,77] месеца</strong>. Отхвърляме <span class="math inline">\(H_0\)</span>: средната преживяемост е статистически значимо по-висока при експерименталното лечение, с разлика 4 месеца. При цензуриране обикновена средна и t-тест не отчитат непълното проследяване; необходими са методи за преживяемост, например Каплан–Майер и log-rank.</li>
+</ol>
 </div>
 </div>
 </div>
