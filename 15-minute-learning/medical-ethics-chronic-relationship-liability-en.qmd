@@ -89,7 +89,7 @@ The same block includes **employee financial liability towards the employer** un
 
 ### 3. Criminal
 
-**Basis and consequences.** The [Criminal Code](https://lex.bg/laws/ldoc/1589654529), Art. 11, addresses intent and negligence. Arts. 123 and 134 concern death or grievous/moderate bodily injury through ignorance or negligent practice of an occupation or regulated activity that is a source of increased danger. All elements of the specific offence, including causation and fault, must be proved. **The court** decides guilt and imposes punishment; the prosecution brings and maintains the charge in public prosecutions.
+**Basis and consequences.** The [Penal Code](https://lex.bg/laws/ldoc/1589654529), Art. 11, addresses intent and negligence. Arts. 123 and 134 concern death or grievous/moderate bodily injury through ignorance or negligent practice of an occupation or regulated activity that is a source of increased danger. All elements of the specific offence, including causation and fault, must be proved. **The court** decides guilt and imposes punishment; the prosecution brings and maintains the charge in public prosecutions.
 
 **Medical example:** a negligently administered wrong dose causes death. Art. 123 may apply if all its conditions are proved; the adverse outcome alone does not establish a crime.
 

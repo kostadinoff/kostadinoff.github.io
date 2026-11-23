@@ -577,8 +577,8 @@ window.TEACHING_DATA = {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
                   description: "The chronically ill patient and coping, the international models of the physician–patient relationship (Szasz–Hollender, Veatch, Emanuel & Emanuel), shared decision-making, truth-telling and boundaries, collegiality under the Code of Professional Ethics, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
                   tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
-                  date: "2026-11-12",
-                  version: "2.0",
+                  date: "2026-11-23",
+                  version: "2.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-04-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
@@ -587,10 +587,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 5 · The terminally ill patient, palliative care, euthanasia and assisted suicide",
-                  description: "Ethical problems at the end of life, palliative care and hospice (WHO definition, goals, double effect, palliative sedation), definitions and types of euthanasia and physician-assisted suicide, Bulgarian law, Strasbourg case law and WMA declarations, a short global overview, and the arguments and philosophical positions.",
-                  tags: ["ethics", "end of life", "palliative care", "euthanasia", "assisted suicide"],
-                  date: "2026-10-09",
-                  version: "1.0",
+                  description: "The dying patient and truth-telling, palliative care (WHO and IAHPC definitions, Health Act Arts 95–96, the missing ordinance), pain control and double effect, withholding and withdrawing treatment, resuscitation decisions and advance directives, palliative sedation, euthanasia and assisted suicide in Bulgarian law, the legal position in Europe and worldwide in November 2026, ECtHR case law from Pretty to Karsai, the arguments and the slippery-slope data — with ten cases.",
+                  tags: ["ethics", "end of life", "palliative care", "palliative sedation", "euthanasia", "assisted suicide", "ECtHR"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-05-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
@@ -786,10 +786,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 4 · Хронично болният пациент, взаимоотношения и правна отговорност",
-                  description: "Хронично болният пациент и механизмите на справяне, патерналистичен, автономен, бизнес модел и договорен модел на взаимоотношението, колегиалност и работа в екип по Кодекса за професионална етика и дисциплинарна, административна (включително съсловна), наказателна и гражданска отговорност (договорна и деликтна) на лекаря.",
-                  tags: ["етика", "хронично заболяване", "лекар – пациент", "колегиалност", "правна отговорност"],
-                  date: "2026-11-12",
-                  version: "1.3",
+                  description: "Хронично болният пациент и механизмите на справяне, патерналистичен, автономен, бизнес модел и договорен модел на взаимоотношението, споделено вземане на решения, истината и професионалните граници, колегиалност и работа в екип по Кодекса за професионална етика, дисциплинарна, административна (включително съсловна), наказателна и гражданска отговорност на лекаря и практиката на ЕСПЧ за медицинската небрежност — със седем казуса.",
+                  tags: ["етика", "хронично заболяване", "лекар – пациент", "колегиалност", "правна отговорност", "ЕСПЧ"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-04-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html" },
@@ -798,10 +798,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 5 · Терминално болният пациент, палиативни грижи, евтаназия и асистирано самоубийство",
-                  description: "Етични проблеми в края на живота, палиативни грижи и хоспис (определение на СЗО, цели, двоен ефект, палиативна седация), определения и видове евтаназия и медицински асистирано самоубийство, българско право, практика на ЕСПЧ и декларации на СМА, кратък световен преглед, аргументи и философски позиции.",
-                  tags: ["етика", "край на живота", "палиативни грижи", "евтаназия", "асистирано самоубийство"],
-                  date: "2026-10-09",
-                  version: "1.0",
+                  description: "Умиращият пациент и истината, палиативни грижи (определения на СЗО и IAHPC, чл. 95–96 от Закона за здравето, неиздадената наредба), обезболяване и двоен ефект, незапочване и прекратяване на лечение, решения за реанимация и предварителни указания, палиативна седация, евтаназия и асистирано самоубийство в българското право, правното положение в Европа и света към ноември 2026 г., практика на ЕСПЧ от Pretty до Karsai, аргументите и данните за „хлъзгавия склон“ — с десет казуса.",
+                  tags: ["етика", "край на живота", "палиативни грижи", "палиативна седация", "евтаназия", "асистирано самоубийство", "ЕСПЧ"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-05-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
@@ -1210,8 +1210,8 @@ window.TEACHING_DATA = {
                   title: "Class 4 · Chronic illness, the physician–patient relationship and legal liability",
                   description: "Shared with medical ethics: the chronically ill patient, the international models of the physician–patient relationship (Szasz–Hollender, Veatch, Emanuel & Emanuel), shared decision-making, truth-telling and boundaries, collegiality, the four kinds of liability and ECtHR case law on medical negligence — with seven cases.",
                   tags: ["ethics", "chronic illness", "physician–patient relationship", "collegiality", "legal liability", "ECtHR"],
-                  date: "2026-11-12",
-                  version: "2.0",
+                  date: "2026-11-23",
+                  version: "2.1",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-04-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-en.html" },
@@ -1220,10 +1220,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Class 5 · The terminally ill patient, palliative care, euthanasia and assisted suicide",
-                  description: "Shared with medical ethics: ethical problems at the end of life, palliative care and hospice (WHO definition, goals, double effect, palliative sedation), definitions and types of euthanasia and physician-assisted suicide, Bulgarian law, Strasbourg case law and WMA declarations, a short global overview, and the arguments and philosophical positions.",
-                  tags: ["ethics", "end of life", "palliative care", "euthanasia", "assisted suicide"],
-                  date: "2026-10-09",
-                  version: "1.0",
+                  description: "Shared with medical ethics: the dying patient and truth-telling, palliative care and the Bulgarian legal framework, pain control and double effect, withholding and withdrawing treatment, resuscitation decisions and advance directives, palliative sedation, euthanasia and assisted suicide in Bulgarian and comparative law (November 2026), ECtHR case law and the slippery-slope data — with ten cases.",
+                  tags: ["ethics", "end of life", "palliative care", "palliative sedation", "euthanasia", "assisted suicide", "ECtHR"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Slides (PDF)", href: "2026-2027-classes/ethics-05-en.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-minute reading", href: "15-minute-learning/medical-ethics-end-of-life-en.html" },
@@ -1400,10 +1400,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 4 · Хронично болният пациент, взаимоотношения и правна отговорност",
-                  description: "Общо с медицинската етика: хронично болният пациент и механизмите на справяне, патерналистичен, автономен, бизнес модел и договорен модел на взаимоотношението, колегиалност и работа в екип и дисциплинарна, административна (включително съсловна), наказателна и гражданска отговорност (договорна и деликтна).",
-                  tags: ["етика", "хронично заболяване", "лекар – пациент", "колегиалност", "правна отговорност"],
-                  date: "2026-11-12",
-                  version: "1.3",
+                  description: "Общо с медицинската етика: хронично болният пациент, патерналистичен, автономен, бизнес модел и договорен модел на взаимоотношението, споделено вземане на решения, истината и професионалните граници, колегиалност, четирите вида правна отговорност и практиката на ЕСПЧ за медицинската небрежност — със седем казуса.",
+                  tags: ["етика", "хронично заболяване", "лекар – пациент", "колегиалност", "правна отговорност", "ЕСПЧ"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-04-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-chronic-relationship-liability-bg.html" },
@@ -1412,10 +1412,10 @@ window.TEACHING_DATA = {
                 },
                 {
                   title: "Упражнение 5 · Терминално болният пациент, палиативни грижи, евтаназия и асистирано самоубийство",
-                  description: "Общо с медицинската етика: етични проблеми в края на живота, палиативни грижи и хоспис (определение на СЗО, цели, двоен ефект, палиативна седация), определения и видове евтаназия и медицински асистирано самоубийство, българско право, практика на ЕСПЧ и декларации на СМА, кратък световен преглед, аргументи и философски позиции.",
-                  tags: ["етика", "край на живота", "палиативни грижи", "евтаназия", "асистирано самоубийство"],
-                  date: "2026-10-09",
-                  version: "1.0",
+                  description: "Общо с медицинската етика: умиращият пациент и истината, палиативни грижи и българската правна рамка, обезболяване и двоен ефект, незапочване и прекратяване на лечение, решения за реанимация и предварителни указания, палиативна седация, евтаназия и асистирано самоубийство в българското и сравнителното право (ноември 2026 г.), практика на ЕСПЧ и данните за „хлъзгавия склон“ — с десет казуса.",
+                  tags: ["етика", "край на живота", "палиативни грижи", "палиативна седация", "евтаназия", "асистирано самоубийство", "ЕСПЧ"],
+                  date: "2026-11-23",
+                  version: "2.0",
                   files: [{ label: "Слайдове (PDF)", href: "2026-2027-classes/ethics-05-bg.pdf", kind: "pdf" }],
                   links: [
                     { label: "15-минутна подготовка", href: "15-minute-learning/medical-ethics-end-of-life-bg.html" },
