@@ -103,36 +103,38 @@
 
 49. **Kostadinov K**. Selection bias and inferential validity in fever of unknown origin studies. Comment on: Poposki et al. Visceral leishmaniasis as a leading cause of fever of unknown origin in immunocompetent adults. *Folia Medica*. 2026;68(3):e184403. [doi:10.3897/folmed.68.e184403](https://doi.org/10.3897/folmed.68.e184403)
 
-## Books and monographs (1)
+## Books and monographs (2)
 
-50. Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R. COVID-19 in Bulgaria: Epidemiological Analysis (in Bulgarian). *Paisii Hilendarski University Press (Университетско издателство „Паисий Хилендарски“)*. 2023.
+50. Hadzhieva B, Tilov B, Tosheva G, Argilashki D, Tabakov D, Makakova D, Babadzhanova E, Dagnev I, Kostadinova I, **Kostadinov K**, Sapundzhieva M, Becheva M, Bozhkova M, Dimitrova M, Rosenova M, Shangova M, Bozhinova N, Traykova N, Stanchev P, Antonov P, Karidova S. Obesity in Adolescence: A Biopsychosocial Analysis of Risk Factors in School Students from Plovdiv (14–18 Years) (in Bulgarian). *Intel Design EOOD (Интел дизайн ЕООД)*. 2026.
+
+51. Kevorkyan A, **Kostadinov K**, Rangelova V, Raycheva R. COVID-19 in Bulgaria: Epidemiological Analysis (in Bulgarian). *Paisii Hilendarski University Press (Университетско издателство „Паисий Хилендарски“)*. 2023.
 
 ## Book chapters (1)
 
-51. Petrova G, **Kostadinov K**, Lalova V, Ivanova S. Virtual simulation education of students from specialty of “Nursing care”. In: Chmiel Z, Sałacińska I, Lesiak A, editors. *Medical simulation and international training ground for teaching and scientific experiences*. Rzeszów University Press; 2026:91–100. [link](https://repozytorium.ur.edu.pl/handle/item/12607)
+52. Petrova G, **Kostadinov K**, Lalova V, Ivanova S. Virtual simulation education of students from specialty of “Nursing care”. In: Chmiel Z, Sałacińska I, Lesiak A, editors. *Medical simulation and international training ground for teaching and scientific experiences*. Rzeszów University Press; 2026:91–100. [link](https://repozytorium.ur.edu.pl/handle/item/12607)
 
 ## Conference abstracts published in journals (9)
 
-52. Dzhambazova E, **Kostadinov K**, Ezeldin F, Iskrov G. The socioeconomic burden of osteoporosis: a cost of illness study in Bulgaria. *European Journal of Public Health*. 2025;35(Supplement_4):ckaf161.1078. [doi:10.1093/eurpub/ckaf161.1078](https://doi.org/10.1093/eurpub/ckaf161.1078)
+53. Dzhambazova E, **Kostadinov K**, Ezeldin F, Iskrov G. The socioeconomic burden of osteoporosis: a cost of illness study in Bulgaria. *European Journal of Public Health*. 2025;35(Supplement_4):ckaf161.1078. [doi:10.1093/eurpub/ckaf161.1078](https://doi.org/10.1093/eurpub/ckaf161.1078)
 
-53. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101385. [doi:10.1016/j.vhri.2025.101385](https://doi.org/10.1016/j.vhri.2025.101385)
+54. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD235 The socio-economic burden of terminal cancer: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101385. [doi:10.1016/j.vhri.2025.101385](https://doi.org/10.1016/j.vhri.2025.101385)
 
-54. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101303. [doi:10.1016/j.vhri.2025.101303](https://doi.org/10.1016/j.vhri.2025.101303)
+55. Dzhambazova EK, **Kostadinov KR**, Ezeldin F, Iskrov G. RWD73 The socio-economic burden of end-stage kidney disease: real-world evidence from Bulgaria. *Value in Health Regional Issues*. 2025;49:101303. [doi:10.1016/j.vhri.2025.101303](https://doi.org/10.1016/j.vhri.2025.101303)
 
-55. Halil E, Atanasova P, Traykova N, **Kostadinov K**. CT Perfusion and Laboratory Markers as Predictors of Long-Term Functional Outcome and Survival in Acute Ischemic Stroke. *International Journal of Stroke*. 2025;20(2_suppl). [doi:10.1177/17474930251371440](https://doi.org/10.1177/17474930251371440)
+56. Halil E, Atanasova P, Traykova N, **Kostadinov K**. CT Perfusion and Laboratory Markers as Predictors of Long-Term Functional Outcome and Survival in Acute Ischemic Stroke. *International Journal of Stroke*. 2025;20(2_suppl). [doi:10.1177/17474930251371440](https://doi.org/10.1177/17474930251371440)
 
-56. Velikova T, **Kostadinov K**, Naseva E, Rubinstein T, Sarkar M, Mangla L, Makowska J, Micheroli R, Ferreyra L, Kobert L, Parodis I, Nikiphorou E, Shinjo S, Caballero Uribe CV, Venerito V, Agarwal V, Gupta L. Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients. *Arthritis & Rheumatology*. 2025;77(suppl 9). [link](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)
+57. Velikova T, **Kostadinov K**, Naseva E, Rubinstein T, Sarkar M, Mangla L, Makowska J, Micheroli R, Ferreyra L, Kobert L, Parodis I, Nikiphorou E, Shinjo S, Caballero Uribe CV, Venerito V, Agarwal V, Gupta L. Social Determinants Shape Health Outcomes in Idiopathic Inflammatory Myopathies: Insights from Lived Experience of 1,252 Patients. *Arthritis & Rheumatology*. 2025;77(suppl 9). [link](https://acrabstracts.org/abstract/social-determinants-shape-health-outcomes-in-idiopathic-inflammatory-myopathies-insights-from-lived-experience-of-1252-patients/)
 
-57. **Kostadinov K**, Hristova-Atanasova E, Musurlieva N, Iskrov G, Stefanov R. Mapping the Policy Alternatives for Rare Cancer. *European Journal of Public Health*. 2024;34:842-843. [doi:10.1093/eurpub/ckae144.2172](https://doi.org/10.1093/eurpub/ckae144.2172)
+58. **Kostadinov K**, Hristova-Atanasova E, Musurlieva N, Iskrov G, Stefanov R. Mapping the Policy Alternatives for Rare Cancer. *European Journal of Public Health*. 2024;34:842-843. [doi:10.1093/eurpub/ckae144.2172](https://doi.org/10.1093/eurpub/ckae144.2172)
 
-58. Petrova G, **Kostadinov K**, Lalova V, Ivanova S. Exploring Empathy Dynamics in Virtual Patient Training. *European Journal of Public Health*. 2024;34(Supplement_3):444-445. [doi:10.1093/eurpub/ckae144.1139](https://doi.org/10.1093/eurpub/ckae144.1139)
+59. Petrova G, **Kostadinov K**, Lalova V, Ivanova S. Exploring Empathy Dynamics in Virtual Patient Training. *European Journal of Public Health*. 2024;34(Supplement_3):444-445. [doi:10.1093/eurpub/ckae144.1139](https://doi.org/10.1093/eurpub/ckae144.1139)
 
-59. Raycheva R, **Kostadinov K**. HTA7 The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria. *Value in Health*. 2023;26(6):S260. [doi:10.1016/j.jval.2023.03.1436](https://doi.org/10.1016/j.jval.2023.03.1436)
+60. Raycheva R, **Kostadinov K**. HTA7 The Price of Innovation – Oncology Treatments Expenditures: Case from Bulgaria. *Value in Health*. 2023;26(6):S260. [doi:10.1016/j.jval.2023.03.1436](https://doi.org/10.1016/j.jval.2023.03.1436)
 
-60. Raycheva R, **Kostadinov K**. HTA69 Delay of Innovative Oncology Treatments - Case From Bulgaria. *Value in Health*. 2022;25(12):S309–S310. [doi:10.1016/j.jval.2022.09.1529](https://doi.org/10.1016/j.jval.2022.09.1529)
+61. Raycheva R, **Kostadinov K**. HTA69 Delay of Innovative Oncology Treatments - Case From Bulgaria. *Value in Health*. 2022;25(12):S309–S310. [doi:10.1016/j.jval.2022.09.1529](https://doi.org/10.1016/j.jval.2022.09.1529)
 
 ## Other scholarly outputs (conference proceedings) (2)
 
-61. Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM. Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults. *ISEE 2026*. 2026.
+62. Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM. Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults. *ISEE 2026*. 2026.
 
-62. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025.
+63. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025.
