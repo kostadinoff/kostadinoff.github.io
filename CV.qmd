@@ -440,7 +440,7 @@ Presenter roles are stated where documented. Entries marked **Co-author** were p
 
 `2026`
 
-- **ISEE 2026** — International Society for Environmental Epidemiology | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://www.eventclass.it/isee2026/)* | Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM | Poster presentation | Co-author
+- **ISEE 2026** — International Society for Environmental Epidemiology | *["Land cover diversity and prevalence of allergic rhinitis/hay fever among Bulgarian urban adults"](https://doi.org/10.1097/01.ee9.0001298268.23166.47)* | Markevych I, Baumbach C, Burov A, Helbich M, Dimitrova D, **Kostadinov K**, Nieuwenhuijsen MJ, Dzhambov AM | Poster presentation | Co-author
 
 `24–25 April 2026`
 
