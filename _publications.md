@@ -137,4 +137,4 @@
 
 ## Other scholarly outputs (conference proceedings) (1)
 
-63. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025.
+63. Burov A, Dzhambov A, Dimitrova D, Markevych I, **Kostadinov K**, Helbich M, Nieuwenhuijsen M. Reintroduction of Health Impact Assessment in Bulgarian City Planning – Why and How? *AESOP Congress 2025*. 2025:1467–1485. [link](https://archive.aesop-planning.eu/items/13b23e16-2410-40c6-a6df-3976a7457c54)
