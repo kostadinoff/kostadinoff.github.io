@@ -123,7 +123,7 @@
     "href": "CV.html#elected-offices-and-service",
     "title": "Kostadin Rangelov Kostadinov",
     "section": "Elected offices and service",
-    "text": "Elected offices and service\n2024 – 2026\n\nBoard Member | Youth Scientific Society “Asclepius”\n\n2025 – Present\n\nAssociate Editor | JMIRx Med, JMIR Publications (see Editorial and peer-review service)"
+    "text": "Elected offices and service\n2024 – 2026\n\nBoard Member | Youth Scientific Society “Asclepius”\n\nNovember 2026 – Present\n\nEditorial Board Member | BMC Public Health, Springer Nature (see Editorial and peer-review service)\n\n2025 – Present\n\nAssociate Editor | JMIRx Med, JMIR Publications (see Editorial and peer-review service)"
   },
   {
     "objectID": "CV.html#professional-memberships-international",
@@ -4939,7 +4939,7 @@
     "href": "blog/kkstatfun-worked-example.html#reproducing-this-post",
     "title": "A Package That Argues With You: kkstatfun, One Analysis Start to Finish",
     "section": "Reproducing this post",
-    "text": "Reproducing this post\nEverything here runs from a clean R session with the package installed:\nif (!require(\"devtools\")) install.packages(\"devtools\")\ndevtools::install_github(\"kostadinoff/kkstatfun\")\nThe .qmd source for this page is in the website repository; every figure and every number above was produced when it rendered. If you cite the package, the concept DOI 10.5281/zenodo.18936019 always resolves to the latest release, or run citation(\"kkstatfun\") for the version you actually used.\n\n\nSession info\nsessionInfo()$otherPkgs |&gt; names()\n\n\n#&gt; [1] \"survival\"  \"patchwork\" \"scales\"    \"ggplot2\"   \"dplyr\"     \"kkstatfun\"\n\n\nSession info\npackageVersion(\"kkstatfun\")\n\n\n#&gt; [1] '1.4.0'\n\n\n\n\n\n\n\n\nNoteColophon\n\n\n\nWritten in Quarto, rendered with knitr against R 4.6.1 and kkstatfun 1.4.0. The cohort is synthetic and the hospitals are fictional; the confounding is not. Corrections and disagreements to my inbox."
+    "text": "Reproducing this post\nEverything here runs from a clean R session with the package installed:\nif (!require(\"devtools\")) install.packages(\"devtools\")\ndevtools::install_github(\"kostadinoff/kkstatfun\")\nThe .qmd source for this page is in the website repository; every figure and every number above was produced when it rendered. If you cite the package, the concept DOI 10.5281/zenodo.18936019 always resolves to the latest release, or run citation(\"kkstatfun\") for the version you actually used.\n\n\nSession info\nsessionInfo()$otherPkgs |&gt; names()\n\n\n#&gt; [1] \"survival\"  \"patchwork\" \"scales\"    \"ggplot2\"   \"dplyr\"     \"kkstatfun\"\n\n\nSession info\npackageVersion(\"kkstatfun\")\n\n\n#&gt; [1] '1.4.0'\n\n\n\n\n\n\n\n\nNoteColophon\n\n\n\nWritten in Quarto, rendered with knitr against R 4.6.2 and kkstatfun 1.4.0. The cohort is synthetic and the hospitals are fictional; the confounding is not. Corrections and disagreements to my inbox."
   },
   {
     "objectID": "blog/phd-curriculum.html",

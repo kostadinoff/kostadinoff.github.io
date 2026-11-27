@@ -81,7 +81,7 @@ Physician-epidemiologist and Chief Assistant Professor in the Department of Soci
 
 Holds an MD, a PhD in social medicine and public health, an MPH, and master's degrees in economics and finance, statistical business consulting, and impact assessment and policy appraisal, and is currently reading for a Master of Laws. Board-certified in Social Medicine and Organisation of Health Care and Pharmacy, and currently in residency training in Infectious Disease Epidemiology.
 
-Develops and publishes open research software: [`kkstatfun`](kkstatfun.qmd), an R toolkit of 170 functions for medical statistics, epidemiology and health economics. Associate Editor at JMIR Publications and founder of the Social Epidemiology Lab.
+Develops and publishes open research software: [`kkstatfun`](kkstatfun.qmd), an R toolkit of 170 functions for medical statistics, epidemiology and health economics. Associate Editor at JMIR Publications, Editorial Board Member of BMC Public Health (Springer Nature), and founder of the Social Epidemiology Lab.
 
 # Research interests
 
@@ -398,6 +398,10 @@ All teaching texts are written in Quarto and published openly at [kostadinoff.gi
 
 # Editorial and peer-review service
 
+`November 2026 – Present`
+
+- **Editorial Board Member** | *BMC Public Health* | Springer Nature
+
 `Since 2025`
 
 - **Associate Editor** | *JMIRx Med* | JMIR Publications
@@ -654,6 +658,10 @@ Presenter roles are stated where documented. Entries marked **Co-author** were p
 `2024 – 2026`
 
 - **Board Member** | Youth Scientific Society "Asclepius"
+
+`November 2026 – Present`
+
+- **Editorial Board Member** | *BMC Public Health*, Springer Nature (see *Editorial and peer-review service*)
 
 `2025 – Present`
 
